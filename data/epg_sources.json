@@ -202,7 +202,7 @@
     },
     "5": {
       "name": "Radio Città Fujiko",
-      "checked_at": "2026-11-08",
+      "checked_at": "2026-11-09",
       "alternatives": [
         {
           "url": "https://www.radiocittafujiko.it/",
@@ -214,19 +214,54 @@
           "times": 0,
           "gcal": [],
           "tls_unverified": false,
+          "title": "Radio Città Fujiko | La radio di Bologna",
+          "scripts": 22,
+          "text_len": 17438,
+          "iframes": [
+            "https://widget.spreaker.com/player?show_id=5944847&theme=dark&playlist=show&playlist-continuous=true&chapters-image=true",
+            "https://radiocittafujiko.substack.com/embed"
+          ],
+          "schedule_assets": [],
+          "day_pages": {},
           "page_score": 0.17,
-          "confidence": 0.18
+          "confidence": 0.18,
+          "action": "review_partial"
         }
       ],
       "failed": [],
+      "homepage_status": 200,
+      "homepage_title": "Radio Città Fujiko | La radio di Bologna",
+      "homepage_suspicious": false,
       "url": "https://www.radiocittafujiko.it/palinsesto/",
       "format": "html",
-      "confidence": 0.74,
+      "confidence": 0.87,
       "method": "link:PALINSESTO",
       "days": 7,
       "times": 0,
       "tls_unverified": false,
       "post_like": false,
+      "action": "add_source",
+      "day_pages": {
+        "monday": "http://www.radiocittafujiko.it/il-lunedi-di-radio-citta-fujiko-2/",
+        "tuesday": "http://www.radiocittafujiko.it/il-martedi-di-radio-citta-fujiko-2/",
+        "wednesday": "http://www.radiocittafujiko.it/il-mercoledi-di-radio-citta-fujiko-2/",
+        "thursday": "http://www.radiocittafujiko.it/il-giovedi-di-radio-citta-fujiko-2/",
+        "friday": "http://www.radiocittafujiko.it/il-venerdi-di-radio-citta-fujiko-2/",
+        "saturday": "http://www.radiocittafujiko.it/il-sabato-di-radio-citta-fujiko-2/",
+        "sunday": "http://www.radiocittafujiko.it/la-domenica-di-radio-citta-fujiko-2/"
+      },
+      "evidence": {
+        "title": "Palinsesto | Radio Città Fujiko",
+        "scripts": 18,
+        "text_len": 9521,
+        "iframes": [
+          "https://widget.spreaker.com/player?show_id=5944847&theme=dark&playlist=show&playlist-continuous=true&chapters-image=true",
+          "https://radiocittafujiko.substack.com/embed"
+        ],
+        "schedule_assets": [
+          "http://rf.sitointernetcms.it/wp-content/uploads/2019/08/MixerXPalinsesto-1024x616.png"
+        ]
+      },
       "status": "ok",
       "locked": false
     },
@@ -1873,9 +1908,9 @@
   "summary": {
     "stations": 48,
     "actions": {
-      "add_source": 2,
+      "add_source": 3,
       "blocked_by_robots": 1,
-      "unknown": 45
+      "unknown": 44
     }
   }
 }

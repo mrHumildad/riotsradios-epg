@@ -59,6 +59,11 @@ node scripts/build-manifest.mjs --check            # fail if it is stale
 npm test                                           # config + manifest tests
 ```
 
+Hubs that publish one page per weekday (Fujiko-style) are recorded in the
+sidecar's `day_pages` map. Fetch stores those pages under
+`data/raw/<id>/days/`; convert scores the combined week as a `day-pages`
+candidate.
+
 Discovery records an `action` per station in `data/epg_sources.json`:
 `add_source`, `review_partial`, `ocr_or_manual`, `render_or_manual`,
 `blocked_by_robots`, `fix_homepage` or `no_schedule`. The same pass records

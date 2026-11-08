@@ -3,7 +3,7 @@ id,name,countrycode,timezone,homepage,epg_url,epg_file,enabled,mailto
 2,Radio Arrebato,ES,Europe/Madrid,https://www.radioarrebato.net/,https://www.radioarrebato.net/programacion/,radio-arrebato.json,true,
 3,Radio Ciroma,IT,Europe/Rome,https://ciroma.org/,https://ciroma.org/palinsesto.pdf,ciroma.json,true,
 4,Eguzki Irratia,ES,Europe/Madrid,https://eguzki.eus/,https://eguzki.eus/programacion/,eguzki-irratia.json,true,
-5,Radio Città Fujiko,IT,Europe/Rome,https://www.radiocittafujiko.it/,https://www.radiocittafujiko.it/palinsesto/,,true,
+5,Radio Città Fujiko,IT,Europe/Rome,https://www.radiocittafujiko.it/,https://www.radiocittafujiko.it/palinsesto/,radio-citta-fujiko.json,true,
 6,Radio Bip,FR,Europe/Paris,https://radiobip.fr/site/,http://radiobip.fr/site/grille-programmes-radio-bip/,radio-bip.json,true,
 8,Radiofabrik,AT,Europe/Vienna,https://radiofabrik.at/,https://radiofabrik.at/programm/sendungen/,radiofabrik.json,true,
 10,Radio Pica,ES,Europe/Madrid,https://www.radiopica.cat/,https://www.radiopica.cat/graella.htm,radio-pica.json,true,

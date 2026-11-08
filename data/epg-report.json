@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-11-08T23:04:59.472Z",
+  "generated_at": "2026-11-08T23:22:57.058Z",
   "raw_dir": "data/raw",
   "out_dir": "public/EPGs",
   "html_only": true,
   "summary": {
     "stations": 22,
-    "ok": 17,
+    "ok": 18,
     "partial": 2,
-    "failed": 3,
+    "failed": 2,
     "skipped": 0,
-    "extracted": 1628,
-    "programmes": 1610,
-    "shows": 700,
+    "extracted": 1802,
+    "programmes": 1784,
+    "shows": 799,
     "missingTitles": 0,
     "invalidTimes": 4,
     "duplicates": 14,
-    "gaps": 428,
-    "gapMinutes": 61837,
+    "gaps": 434,
+    "gapMinutes": 62977,
     "overlapsClipped": 30
   },
   "stations": [
@@ -177,28 +177,32 @@
       "name": "Radio Città Fujiko",
       "source": "https://www.radiocittafujiko.it/palinsesto/",
       "format": "html",
-      "status": "failed",
-      "strategy": "linear",
-      "file": null,
-      "confidence": 0,
+      "status": "ok",
+      "strategy": "day-pages",
+      "file": "radio-citta-fujiko.json",
+      "confidence": 0.98,
       "stats": {
-        "extracted": 1,
-        "kept": 1,
-        "uniqueShows": 1,
+        "extracted": 175,
+        "kept": 175,
+        "uniqueShows": 100,
         "missingTitles": 0,
         "invalidTimes": 0,
         "duplicates": 0,
         "overlapsClipped": 0,
-        "gapCount": 2,
-        "gapMinutes": 1200,
-        "daysWithPrograms": 1
+        "gapCount": 8,
+        "gapMinutes": 2340,
+        "daysWithPrograms": 7
       },
       "warnings": [
-        "sunday: 2 gap(s), 1200 min (00:00-11:00, 15:00-24:00)"
+        "monday: 1 gap(s), 360 min (00:00-06:00)",
+        "tuesday: 1 gap(s), 360 min (00:00-06:00)",
+        "wednesday: 1 gap(s), 360 min (00:00-06:00)",
+        "thursday: 1 gap(s), 360 min (00:00-06:00)",
+        "friday: 2 gap(s), 390 min (00:00-06:00, 23:30-24:00)",
+        "saturday: 1 gap(s), 60 min (00:00-01:00)",
+        "sunday: 1 gap(s), 450 min (00:00-07:30)"
       ],
-      "errors": [
-        "extraction produced only 1 usable programme(s)"
-      ],
+      "errors": [],
       "diagnostics": [
         "snapshot latest.html (106118 bytes, utf-8), language hint it, fallback day sunday",
         "strategy tables: 0 programmes / 0 days — 0 tables, none with a day header + time rows",
@@ -210,9 +214,10 @@
         "strategy item-list: 0 programmes / 0 days — no item list",
         "strategy day-ranges: 0 programmes / 0 days — no day+range lines",
         "strategy linear: 1 programmes / 1 days — linear text, 1 day headings",
-        "strategy single-day: 0 programmes / 0 days — only 1 time-coded lines (1 titles)"
+        "strategy single-day: 0 programmes / 0 days — only 1 time-coded lines (1 titles)",
+        "strategy day-pages: 175 programmes / 7 days — 7 day page(s), 7 day(s)"
       ],
-      "suggested_epg_file": null
+      "suggested_epg_file": "radio-citta-fujiko.json"
     },
     {
       "id": 6,

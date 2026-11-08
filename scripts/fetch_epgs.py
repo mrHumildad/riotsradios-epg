@@ -49,6 +49,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from find_epg_urls import UA, Fetcher, count_days_times, parse_html  # noqa: E402
 
 MAX_BYTES = 15_000_000
+WEEKDAYS = ("monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday")
 
 
 def now_iso():
@@ -185,6 +186,37 @@ def write_json(path, obj):
     write_atomic(path, json.dumps(obj, ensure_ascii=False, indent=2).encode("utf-8"))
 
 
+def fetch_day_pages(sid, d, day_pages, fetcher, args):
+    """Download one page per weekday into data/raw/<id>/days/<day>.html."""
+    if not day_pages:
+        return {}
+    days_dir = os.path.join(d, "days")
+    results = {}
+    wanted = set()
+    for day in WEEKDAYS:
+        url = (day_pages or {}).get(day)
+        if not url:
+            continue
+        wanted.add(day)
+        r = fetcher.get(url, max_bytes=MAX_BYTES)
+        if r["error"] or r["status"] != 200 or not r["body"]:
+            results[day] = {"status": "failed", "url": url,
+                            "error": r["error"] or f"HTTP {r['status']}"}
+            continue
+        kind, ext = sniff(r["body"], r["ctype"])
+        if kind != "html":
+            results[day] = {"status": "failed", "url": url, "error": f"not html ({kind})"}
+            continue
+        write_atomic(os.path.join(days_dir, f"{day}.{ext}"), r["body"])
+        results[day] = {"status": "ok", "url": r["url"], "bytes": len(r["body"])}
+    if os.path.isdir(days_dir):
+        for name in os.listdir(days_dir):
+            day = name.rsplit(".", 1)[0]
+            if day in WEEKDAYS and day not in wanted:
+                os.remove(os.path.join(days_dir, name))
+    return results
+
+
 def find_snapshot(d, stem):
     if not os.path.isdir(d):
         return None
@@ -204,12 +236,13 @@ def drop_snapshots(d, stem):
 # --------------------------------------------------------------------------- one station
 
 
-def process(row, fetcher, raw_dir, args):
+def process(row, fetcher, raw_dir, args, source=None):
     sid, name, url = row["id"].strip(), row["name"], row["epg_url"].strip()
     d = os.path.join(raw_dir, sid)
     meta_path = os.path.join(d, "meta.json")
     meta = read_json(meta_path, {})
     meta.update(id=sid, name=name, url=url)
+    day_pages = (source or {}).get("day_pages") or {}
 
     if args.max_age_hours and meta.get("fetched_at") and meta.get("status") != "failed":
         age = datetime.now(timezone.utc) - datetime.fromisoformat(meta["fetched_at"])
@@ -232,8 +265,10 @@ def process(row, fetcher, raw_dir, args):
     meta["fetched_at"] = now_iso()
 
     if r["status"] == 304:
+        day_results = fetch_day_pages(sid, d, day_pages, fetcher, args)
         meta.update(status="unchanged", http_status=304, error=None, consecutive_failures=0,
-                    last_success_at=meta["fetched_at"])
+                    last_success_at=meta["fetched_at"], day_pages=day_pages,
+                    day_pages_fetched=day_results)
         write_json(meta_path, meta)
         return {"status": "unchanged", "note": "304 not modified"}
 
@@ -295,13 +330,17 @@ def process(row, fetcher, raw_dir, args):
         write_atomic(os.path.join(d, f"latest.{ext}"), body)
         meta.update(content_hash=hashlib.sha256(body).hexdigest(), bytes=len(body), kind=kind, ext=ext,
                     changed_at=meta["fetched_at"])
+    day_results = fetch_day_pages(sid, d, day_pages, fetcher, args)
     meta.update(status=status, http_status=200, error=None, consecutive_failures=0,
                 last_success_at=meta["fetched_at"], text_hash=thash, text_len=tlen, days=days,
                 times=times, rendered=rendered, last_fetch_url=fetch_url,
                 etag=r["headers"].get("etag"), last_modified=r["headers"].get("last-modified"),
-                final_url=r["url"])
+                final_url=r["url"], day_pages=day_pages, day_pages_fetched=day_results)
     write_json(meta_path, meta)
     note = f"{kind}, {len(body):,} bytes" + (", days=%d times=%d" % (days, times) if kind == "html" else "")
+    ok_days = sum(1 for result in day_results.values() if result.get("status") == "ok")
+    if day_pages:
+        note += f", day pages {ok_days}/{len(day_pages)}"
     if needs_render:
         note += "  [JS-rendered: re-run with --render]"
     return {"status": status, "note": note}
@@ -347,7 +386,7 @@ def main():
             continue
         if not row["epg_url"].strip():
             continue
-        res = process(row, fetcher, args.raw_dir, args)
+        res = process(row, fetcher, args.raw_dir, args, sources.get(sid, {}))
         results.append({"id": sid, "name": row["name"], **res})
         if res["status"] in ("new", "changed"):
             changed_ids.append(int(sid))

@@ -74,6 +74,7 @@ DAYS = [
     ["domingo", "diumenge", "domenica", "dimanche", "sunday", "sonntag", "igandea"],
 ]
 DAY_RES = [re.compile(r"\b(?:%s)\b" % "|".join(names)) for names in DAYS]
+DAY_NAMES = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"]
 TIME_RE = re.compile(
     r"\b(?:[01]?\d|2[0-3])(?:(?::|h|\.)\s?[0-5]\d|\s?(?:hs?|am|pm))\b", re.I
 )
@@ -117,6 +118,27 @@ def score_link(text: str, href: str) -> float:
 def count_days_times(text: str):
     t = norm(text)
     return sum(1 for r in DAY_RES if r.search(t)), len(TIME_RE.findall(t))
+
+
+def day_from_text(text: str):
+    value = norm(text).strip(" .:;·-–—")
+    for index, names in enumerate(DAYS):
+        if value in names:
+            return DAY_NAMES[index]
+    return None
+
+
+def day_page_links(base, p):
+    """One page per weekday, linked from a hub (Fujiko-style)."""
+    found = {}
+    for href, text in p.links:
+        day = day_from_text(text)
+        if not day:
+            continue
+        url = clean_url(base, href)
+        if url:
+            found.setdefault(day, url)
+    return found if len(found) >= 3 else {}
 
 
 # --------------------------------------------------------------------------- html parsing
@@ -226,6 +248,8 @@ def action_for(candidate):
     """Turn the evidence into the next human action."""
     if not candidate.get("ok"):
         return "fix_homepage"
+    if len(candidate.get("day_pages") or {}) >= 3:
+        return "add_source"
     fmt = candidate.get("format")
     days = candidate.get("days", 0)
     times = candidate.get("times", 0)
@@ -383,7 +407,7 @@ def evaluate(fetcher, url, link_score, via, resp=None):
     fmt, html, p = classify_response(r)
     out = {"url": r["url"], "ok": True, "format": fmt, "via": via, "link_score": round(link_score, 2),
            "days": 0, "times": 0, "gcal": [], "tls_unverified": r.get("tls_unverified", False),
-           "title": "", "scripts": 0, "text_len": 0, "iframes": [], "schedule_assets": []}
+           "title": "", "scripts": 0, "text_len": 0, "iframes": [], "schedule_assets": [], "day_pages": {}}
     if fmt == "html":
         text = " ".join(p.text)
         days, times = count_days_times(text)
@@ -394,7 +418,10 @@ def evaluate(fetcher, url, link_score, via, resp=None):
         out["text_len"] = len(text)
         out["iframes"] = [urljoin(r["url"], s) for s in p.iframes[:5]]
         out["schedule_assets"] = asset_urls(r["url"], p)[:6]
+        out["day_pages"] = day_page_links(r["url"], p)
         page = 0.6 * min(days, 7) / 7 + 0.4 * min(times, 30) / 30
+        if len(out["day_pages"]) >= 3:
+            page = max(page, 0.8)
         if days == 0 and times < 3 and p.scripts >= 5 and len(text) < 3000:
             out["format"] = "js-rendered"
             page = 0.45
@@ -626,6 +653,8 @@ def main():
                              action=best.get("action", "manual_review"))
                 if best.get("page_url"):
                     entry["page_url"] = best["page_url"]
+                if best.get("day_pages"):
+                    entry["day_pages"] = best["day_pages"]
                 evidence = {k: best.get(k) for k in ("title", "scripts", "text_len", "iframes", "schedule_assets")
                             if best.get(k)}
                 if evidence:

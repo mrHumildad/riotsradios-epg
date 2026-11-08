@@ -1,0 +1,1520 @@
+{
+  "version": "2.0",
+  "station": "Radio Città Fujiko",
+  "station_id": 5,
+  "schedule_type": "weekly",
+  "timezone": "Europe/Rome",
+  "last_updated": "2026-11-08",
+  "source": "https://www.radiocittafujiko.it/palinsesto/",
+  "notes": "Generado automáticamente desde https://www.radiocittafujiko.it/palinsesto/ (snapshot 2026-11-08); revisar data/epg-report.json.",
+  "generator": "scripts/convert-raw-epg.mjs",
+  "metadata": {
+    "categories": {
+      "musica": "Música",
+      "directo": "Directo",
+      "podcast": "Podcast / repetición",
+      "especial": "Especial",
+      "taller": "Taller / educación"
+    },
+    "default_filler": {
+      "title": "Música",
+      "category": "musica"
+    }
+  },
+  "shows": {
+    "gr-cultura-agenzia-dire": {
+      "title": "Gr Cultura – Agenzia Dire",
+      "category": "directo"
+    },
+    "gr-popolare-network": {
+      "title": "Gr Popolare Network",
+      "category": "directo"
+    },
+    "giu-dalle-brande-info": {
+      "title": "Giù dalle brande – Info",
+      "category": "directo"
+    },
+    "breakfast-club-prime-pagine-info": {
+      "title": "Breakfast Club – Prime Pagine – Info",
+      "category": "directo"
+    },
+    "breakfast-club-magazine": {
+      "title": "Breakfast Club – Magazine",
+      "category": "directo"
+    },
+    "l-edipeo-enciclopedico": {
+      "title": "L’Edipeo Enciclopedico",
+      "category": "directo"
+    },
+    "liberi-dentro-eduradio": {
+      "title": "Liberi Dentro Eduradio",
+      "category": "directo"
+    },
+    "radio-zanardi-rassegna-stampa-info": {
+      "title": "Radio Zanardi – Rassegna Stampa – Info",
+      "category": "directo"
+    },
+    "caffe-e-paglia": {
+      "title": "Caffè e Paglia",
+      "category": "directo"
+    },
+    "buona-info": {
+      "title": "Buona – Info",
+      "category": "directo"
+    },
+    "donne-fuori-dall-angolo": {
+      "title": "Donne fuori dall’angolo",
+      "category": "directo"
+    },
+    "spazio-podcast": {
+      "title": "Spazio Podcast",
+      "category": "directo"
+    },
+    "nasco-disco": {
+      "title": "Nasco Disco",
+      "category": "directo"
+    },
+    "what-a-mess-approfondimenti": {
+      "title": "What A Mess: approfondimenti",
+      "category": "directo"
+    },
+    "what-a-mess-topic-o": {
+      "title": "What A Mess: Topic-O",
+      "category": "directo"
+    },
+    "brown-sugar-info": {
+      "title": "Brown Sugar – Info",
+      "category": "directo"
+    },
+    "intrecci-on-air": {
+      "title": "Intrecci on air",
+      "category": "directo"
+    },
+    "coxo-spaziale-info": {
+      "title": "Coxo Spaziale – Info",
+      "category": "directo"
+    },
+    "panta-80": {
+      "title": "Panta 80",
+      "category": "directo"
+    },
+    "balla-e-difendi-info": {
+      "title": "Balla e difendi – Info",
+      "category": "directo"
+    },
+    "noise-attack-info": {
+      "title": "Noise Attack – Info",
+      "category": "directo"
+    },
+    "gr-scienza-agenzia-dire": {
+      "title": "Gr Scienza – Agenzia Dire",
+      "category": "directo"
+    },
+    "breakfast-club": {
+      "title": "Breakfast Club",
+      "category": "directo"
+    },
+    "rock-n-roll-radio-info": {
+      "title": "Rock n’ Roll Radio – Info",
+      "category": "directo"
+    },
+    "nanga-parbat-info": {
+      "title": "Nanga Parbat – Info",
+      "category": "directo"
+    },
+    "il-pane-e-le-rose": {
+      "title": "Il pane e le rose",
+      "category": "directo"
+    },
+    "hack-or-die": {
+      "title": "Hack or die",
+      "category": "directo"
+    },
+    "musica-laterale": {
+      "title": "Musica laterale",
+      "category": "musica"
+    },
+    "festival-s-backpack": {
+      "title": "Festival’s Backpack",
+      "category": "directo"
+    },
+    "mash-up-info": {
+      "title": "Mash Up – Info",
+      "category": "directo"
+    },
+    "radio-citta-metropolitana": {
+      "title": "Radio Città Metropolitana",
+      "category": "directo"
+    },
+    "dopamina-info": {
+      "title": "Dopamina – Info",
+      "category": "directo"
+    },
+    "soul-shakedown-party-info": {
+      "title": "Soul Shakedown Party – Info",
+      "category": "directo"
+    },
+    "salvate-i-mobili-info": {
+      "title": "Salvate i mobili – Info",
+      "category": "directo"
+    },
+    "gr-sanita-agenzia-dire": {
+      "title": "Gr Sanità – Agenzia Dire",
+      "category": "directo"
+    },
+    "breakfast-club-voltiamo-pagina": {
+      "title": "Breakfast Club – Voltiamo pagina",
+      "category": "directo"
+    },
+    "citta-fujiko-live-club-info": {
+      "title": "Città Fujiko Live Club – Info",
+      "category": "directo"
+    },
+    "on-er": {
+      "title": "On ER",
+      "category": "directo"
+    },
+    "dedicato-info": {
+      "title": "Dedicato – Info",
+      "category": "directo"
+    },
+    "fumetti-a-sinistra-info": {
+      "title": "Fumetti a sinistra – Info",
+      "category": "directo"
+    },
+    "42-la-risposta": {
+      "title": "42 – La risposta",
+      "category": "directo"
+    },
+    "music-pills": {
+      "title": "Music Pills",
+      "category": "musica"
+    },
+    "distorsioni-sonore": {
+      "title": "Distorsioni sonore",
+      "category": "directo"
+    },
+    "gr-popolare": {
+      "title": "Gr Popolare",
+      "category": "directo"
+    },
+    "blues-train-info": {
+      "title": "Blues Train – Info",
+      "category": "directo"
+    },
+    "controvento": {
+      "title": "Controvento",
+      "category": "directo"
+    },
+    "yard-fm": {
+      "title": "Yard Fm",
+      "category": "directo"
+    },
+    "gr-ambiente-agenzia-dire": {
+      "title": "Gr Ambiente – Agenzia Dire",
+      "category": "directo"
+    },
+    "breakfast-club-in-mostra": {
+      "title": "Breakfast Club – In Mostra",
+      "category": "directo"
+    },
+    "il-vinile-quotidiano-info": {
+      "title": "Il vinile quotidiano – Info",
+      "category": "directo"
+    },
+    "carne-di-porko-info": {
+      "title": "Carne di Porko – Info",
+      "category": "directo"
+    },
+    "intolerance-info": {
+      "title": "Intolerance – Info",
+      "category": "directo"
+    },
+    "signore-e-signori-il-welfare-e-sparito": {
+      "title": "Signore e signori il welfare è sparito",
+      "category": "directo"
+    },
+    "sniffin-glucose-info": {
+      "title": "Sniffin’ Glucose – Info",
+      "category": "directo"
+    },
+    "cagnara": {
+      "title": "Cagnara",
+      "category": "directo"
+    },
+    "soccia-che-groove": {
+      "title": "Soccia che Groove",
+      "category": "directo"
+    },
+    "cold-wave": {
+      "title": "Cold Wave",
+      "category": "directo"
+    },
+    "glamorama-info": {
+      "title": "Glamorama – Info",
+      "category": "directo"
+    },
+    "uova-soda-e-noci": {
+      "title": "Uova soda e noci",
+      "category": "directo"
+    },
+    "gr-esteri-agenzia-dire": {
+      "title": "Gr Esteri – Agenzia Dire",
+      "category": "directo"
+    },
+    "breakfast-club-in-scena": {
+      "title": "Breakfast Club – In Scena",
+      "category": "directo"
+    },
+    "cult-news-info": {
+      "title": "Cult News – Info",
+      "category": "directo"
+    },
+    "jazz-live-info": {
+      "title": "Jazz Live – Info",
+      "category": "directo"
+    },
+    "psicoradio": {
+      "title": "Psicoradio",
+      "category": "directo"
+    },
+    "a-qualcuno-piace-altro-info": {
+      "title": "A qualcuno piace altro – Info",
+      "category": "directo"
+    },
+    "scusa-ameri-info": {
+      "title": "Scusa Ameri – Info",
+      "category": "directo"
+    },
+    "pandemonium": {
+      "title": "Pandemonium",
+      "category": "directo"
+    },
+    "all-you-need-is-ska": {
+      "title": "All you need is ska",
+      "category": "directo"
+    },
+    "poptones-info": {
+      "title": "Poptones – Info",
+      "category": "directo"
+    },
+    "global-tavor": {
+      "title": "Global Tavor",
+      "category": "directo"
+    },
+    "sbob-show": {
+      "title": "Sbob Show",
+      "category": "directo"
+    },
+    "segnali-notturni": {
+      "title": "Segnali notturni",
+      "category": "directo"
+    },
+    "gr-scuola-agenzia-dire": {
+      "title": "Gr Scuola – Agenzia Dire",
+      "category": "directo"
+    },
+    "il-polverone-magico": {
+      "title": "Il polverone magico",
+      "category": "directo"
+    },
+    "salt-peanuts-info": {
+      "title": "Salt Peanuts – Info",
+      "category": "directo"
+    },
+    "altre-connessioni": {
+      "title": "Altre Connessioni",
+      "category": "directo"
+    },
+    "mezz-ora-d-aria-info": {
+      "title": "Mezz’ora d’aria – Info",
+      "category": "directo"
+    },
+    "trasmission-live-set-a-cura-di-dj-mortimer": {
+      "title": "Trasmission Live Set – a cura di Dj Mortimer",
+      "category": "directo"
+    },
+    "afternoon-tunes-info": {
+      "title": "Afternoon Tunes – Info",
+      "category": "directo"
+    },
+    "resistenze-sonore": {
+      "title": "Resistenze sonore",
+      "category": "directo"
+    },
+    "if-the-kids-are-united-info": {
+      "title": "If the kids are united – Info",
+      "category": "directo"
+    },
+    "la-new-wave-sono-io-info": {
+      "title": "La New Wave sono io – Info",
+      "category": "directo"
+    },
+    "the-boogeyman": {
+      "title": "The Boogeyman",
+      "category": "directo"
+    },
+    "restiamo-animali": {
+      "title": "Restiamo Animali",
+      "category": "directo"
+    },
+    "il-buongiorno-di-milco": {
+      "title": "Il buongiorno di Milco",
+      "category": "directo"
+    },
+    "radiodrammi": {
+      "title": "Radiodrammi",
+      "category": "directo"
+    },
+    "giu-dalle-brande-dopo-la-messa-info": {
+      "title": "Giù dalle brande… dopo la messa – Info",
+      "category": "directo"
+    },
+    "le-piace-l-opera-info": {
+      "title": "Le piace l’Opera? – Info",
+      "category": "directo"
+    },
+    "abracadabra": {
+      "title": "Abracadabra",
+      "category": "directo"
+    },
+    "liberi-dentro-eduradio-laboratori": {
+      "title": "Liberi Dentro Eduradio – Laboratori",
+      "category": "directo"
+    },
+    "yoursongpro": {
+      "title": "Yoursongpro",
+      "category": "directo"
+    },
+    "suoni-dal-mondo": {
+      "title": "Suoni dal mondo",
+      "category": "directo"
+    },
+    "easy-pop-info": {
+      "title": "Easy Pop – Info",
+      "category": "directo"
+    },
+    "bologna-city-of-music": {
+      "title": "Bologna City of Music",
+      "category": "directo"
+    },
+    "corrispondenze-info": {
+      "title": "Corrispondenze – Info",
+      "category": "directo"
+    },
+    "backonwave-24-minutes-party-people-di-dj-mortimer": {
+      "title": "Backonwave – 24 minutes party people di Dj Mortimer",
+      "category": "directo"
+    },
+    "less-talk-more-rock": {
+      "title": "Less talk more rock",
+      "category": "directo"
+    },
+    "please-kill-me-info": {
+      "title": "Please kill me – Info",
+      "category": "directo"
+    },
+    "sic-em-pigs": {
+      "title": "Sic’em Pigs",
+      "category": "directo"
+    },
+    "road-radio-info": {
+      "title": "Road Radio – Info",
+      "category": "directo"
+    }
+  },
+  "days": [
+    {
+      "day": "monday",
+      "label": "Lunes",
+      "programs": [
+        {
+          "start": "06:00",
+          "end": "06:30",
+          "show_id": "gr-cultura-agenzia-dire",
+          "live": false
+        },
+        {
+          "start": "06:30",
+          "end": "06:45",
+          "show_id": "gr-popolare-network",
+          "live": false
+        },
+        {
+          "start": "06:45",
+          "end": "07:00",
+          "show_id": "giu-dalle-brande-info",
+          "live": false
+        },
+        {
+          "start": "07:00",
+          "end": "07:30",
+          "show_id": "breakfast-club-prime-pagine-info",
+          "live": false
+        },
+        {
+          "start": "07:30",
+          "end": "07:45",
+          "show_id": "gr-popolare-network",
+          "live": false
+        },
+        {
+          "start": "07:45",
+          "end": "08:50",
+          "show_id": "breakfast-club-magazine",
+          "live": false
+        },
+        {
+          "start": "08:50",
+          "end": "09:00",
+          "show_id": "l-edipeo-enciclopedico",
+          "live": false
+        },
+        {
+          "start": "09:00",
+          "end": "09:30",
+          "show_id": "liberi-dentro-eduradio",
+          "live": false
+        },
+        {
+          "start": "09:30",
+          "end": "10:30",
+          "show_id": "radio-zanardi-rassegna-stampa-info",
+          "live": false
+        },
+        {
+          "start": "10:30",
+          "end": "12:30",
+          "show_id": "caffe-e-paglia",
+          "live": false
+        },
+        {
+          "start": "12:30",
+          "end": "13:00",
+          "show_id": "gr-popolare-network",
+          "live": false
+        },
+        {
+          "start": "13:00",
+          "end": "14:30",
+          "show_id": "buona-info",
+          "live": false
+        },
+        {
+          "start": "14:30",
+          "end": "15:00",
+          "show_id": "donne-fuori-dall-angolo",
+          "live": false
+        },
+        {
+          "start": "15:00",
+          "end": "15:30",
+          "show_id": "spazio-podcast",
+          "live": false
+        },
+        {
+          "start": "15:30",
+          "end": "15:35",
+          "show_id": "gr-popolare-network",
+          "live": false
+        },
+        {
+          "start": "15:35",
+          "end": "17:00",
+          "show_id": "nasco-disco",
+          "live": false
+        },
+        {
+          "start": "17:00",
+          "end": "17:30",
+          "show_id": "what-a-mess-approfondimenti",
+          "live": false
+        },
+        {
+          "start": "17:30",
+          "end": "17:35",
+          "show_id": "gr-popolare-network",
+          "live": false
+        },
+        {
+          "start": "17:35",
+          "end": "18:00",
+          "show_id": "what-a-mess-topic-o",
+          "live": false
+        },
+        {
+          "start": "18:00",
+          "end": "19:00",
+          "show_id": "brown-sugar-info",
+          "live": false
+        },
+        {
+          "start": "19:00",
+          "end": "19:30",
+          "show_id": "intrecci-on-air",
+          "live": false
+        },
+        {
+          "start": "19:30",
+          "end": "20:00",
+          "show_id": "gr-popolare-network",
+          "live": false
+        },
+        {
+          "start": "20:00",
+          "end": "21:00",
+          "show_id": "coxo-spaziale-info",
+          "live": false
+        },
+        {
+          "start": "21:00",
+          "end": "22:00",
+          "show_id": "panta-80",
+          "live": false
+        },
+        {
+          "start": "22:00",
+          "end": "23:00",
+          "show_id": "balla-e-difendi-info",
+          "live": false
+        },
+        {
+          "start": "23:00",
+          "end": "24:00",
+          "show_id": "noise-attack-info",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "tuesday",
+      "label": "Martes",
+      "programs": [
+        {
+          "start": "06:00",
+          "end": "06:30",
+          "show_id": "gr-scienza-agenzia-dire",
+          "live": false
+        },
+        {
+          "start": "06:30",
+          "end": "06:45",
+          "show_id": "gr-popolare-network",
+          "live": false
+        },
+        {
+          "start": "06:45",
+          "end": "07:00",
+          "show_id": "giu-dalle-brande-info",
+          "live": false
+        },
+        {
+          "start": "07:00",
+          "end": "07:30",
+          "show_id": "breakfast-club-prime-pagine-info",
+          "live": false
+        },
+        {
+          "start": "07:30",
+          "end": "07:45",
+          "show_id": "gr-popolare-network",
+          "live": false
+        },
+        {
+          "start": "07:45",
+          "end": "08:50",
+          "show_id": "breakfast-club",
+          "live": false
+        },
+        {
+          "start": "08:50",
+          "end": "09:00",
+          "show_id": "l-edipeo-enciclopedico",
+          "live": false
+        },
+        {
+          "start": "09:00",
+          "end": "09:30",
+          "show_id": "liberi-dentro-eduradio",
+          "live": false
+        },
+        {
+          "start": "09:30",
+          "end": "10:30",
+          "show_id": "radio-zanardi-rassegna-stampa-info",
+          "live": false
+        },
+        {
+          "start": "10:30",
+          "end": "12:30",
+          "show_id": "rock-n-roll-radio-info",
+          "live": false
+        },
+        {
+          "start": "12:30",
+          "end": "13:00",
+          "show_id": "gr-popolare-network",
+          "live": false
+        },
+        {
+          "start": "13:00",
+          "end": "13:30",
+          "show_id": "nanga-parbat-info",
+          "live": false
+        },
+        {
+          "start": "13:30",
+          "end": "14:00",
+          "show_id": "il-pane-e-le-rose",
+          "live": false
+        },
+        {
+          "start": "14:00",
+          "end": "14:30",
+          "show_id": "hack-or-die",
+          "live": false
+        },
+        {
+          "start": "14:30",
+          "end": "15:00",
+          "show_id": "musica-laterale",
+          "live": false
+        },
+        {
+          "start": "15:00",
+          "end": "15:30",
+          "show_id": "spazio-podcast",
+          "live": false
+        },
+        {
+          "start": "15:30",
+          "end": "15:35",
+          "show_id": "gr-popolare-network",
+          "live": false
+        },
+        {
+          "start": "15:35",
+          "end": "17:00",
+          "show_id": "festival-s-backpack",
+          "live": false
+        },
+        {
+          "start": "17:00",
+          "end": "17:30",
+          "show_id": "what-a-mess-approfondimenti",
+          "live": false
+        },
+        {
+          "start": "17:30",
+          "end": "17:35",
+          "show_id": "gr-popolare-network",
+          "live": false
+        },
+        {
+          "start": "17:35",
+          "end": "18:00",
+          "show_id": "what-a-mess-topic-o",
+          "live": false
+        },
+        {
+          "start": "18:00",
+          "end": "19:00",
+          "show_id": "mash-up-info",
+          "live": false
+        },
+        {
+          "start": "19:00",
+          "end": "19:30",
+          "show_id": "radio-citta-metropolitana",
+          "live": false
+        },
+        {
+          "start": "19:30",
+          "end": "20:00",
+          "show_id": "gr-popolare-network",
+          "live": false
+        },
+        {
+          "start": "20:00",
+          "end": "21:00",
+          "show_id": "dopamina-info",
+          "live": false
+        },
+        {
+          "start": "21:00",
+          "end": "23:00",
+          "show_id": "soul-shakedown-party-info",
+          "live": false
+        },
+        {
+          "start": "23:00",
+          "end": "24:00",
+          "show_id": "salvate-i-mobili-info",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "wednesday",
+      "label": "Miércoles",
+      "programs": [
+        {
+          "start": "06:00",
+          "end": "06:30",
+          "show_id": "gr-sanita-agenzia-dire",
+          "live": false
+        },
+        {
+          "start": "06:30",
+          "end": "06:45",
+          "show_id": "gr-popolare-network",
+          "live": false
+        },
+        {
+          "start": "06:45",
+          "end": "07:00",
+          "show_id": "giu-dalle-brande-info",
+          "live": false
+        },
+        {
+          "start": "07:00",
+          "end": "07:30",
+          "show_id": "breakfast-club-prime-pagine-info",
+          "live": false
+        },
+        {
+          "start": "07:30",
+          "end": "07:45",
+          "show_id": "gr-popolare-network",
+          "live": false
+        },
+        {
+          "start": "07:45",
+          "end": "08:50",
+          "show_id": "breakfast-club-voltiamo-pagina",
+          "live": false
+        },
+        {
+          "start": "08:50",
+          "end": "09:00",
+          "show_id": "l-edipeo-enciclopedico",
+          "live": false
+        },
+        {
+          "start": "09:00",
+          "end": "09:30",
+          "show_id": "liberi-dentro-eduradio",
+          "live": false
+        },
+        {
+          "start": "09:30",
+          "end": "10:30",
+          "show_id": "radio-zanardi-rassegna-stampa-info",
+          "live": false
+        },
+        {
+          "start": "10:30",
+          "end": "12:30",
+          "show_id": "citta-fujiko-live-club-info",
+          "live": true
+        },
+        {
+          "start": "12:30",
+          "end": "12:50",
+          "show_id": "gr-popolare-network",
+          "live": false
+        },
+        {
+          "start": "12:50",
+          "end": "13:00",
+          "show_id": "on-er",
+          "live": false
+        },
+        {
+          "start": "13:00",
+          "end": "13:30",
+          "show_id": "dedicato-info",
+          "live": false
+        },
+        {
+          "start": "13:30",
+          "end": "14:00",
+          "show_id": "fumetti-a-sinistra-info",
+          "live": false
+        },
+        {
+          "start": "14:00",
+          "end": "14:30",
+          "show_id": "42-la-risposta",
+          "live": false
+        },
+        {
+          "start": "14:30",
+          "end": "15:00",
+          "show_id": "music-pills",
+          "live": false
+        },
+        {
+          "start": "15:00",
+          "end": "15:30",
+          "show_id": "spazio-podcast",
+          "live": false
+        },
+        {
+          "start": "15:30",
+          "end": "15:35",
+          "show_id": "gr-popolare-network",
+          "live": false
+        },
+        {
+          "start": "15:35",
+          "end": "17:00",
+          "show_id": "distorsioni-sonore",
+          "live": false
+        },
+        {
+          "start": "17:00",
+          "end": "17:30",
+          "show_id": "what-a-mess-approfondimenti",
+          "live": false
+        },
+        {
+          "start": "17:30",
+          "end": "17:35",
+          "show_id": "gr-popolare",
+          "live": false
+        },
+        {
+          "start": "17:35",
+          "end": "17:50",
+          "show_id": "what-a-mess-topic-o",
+          "live": false
+        },
+        {
+          "start": "17:50",
+          "end": "19:00",
+          "show_id": "on-er",
+          "live": false
+        },
+        {
+          "start": "19:00",
+          "end": "19:30",
+          "show_id": "on-er",
+          "live": false
+        },
+        {
+          "start": "19:30",
+          "end": "20:00",
+          "show_id": "gr-popolare-network",
+          "live": false
+        },
+        {
+          "start": "20:00",
+          "end": "21:00",
+          "show_id": "blues-train-info",
+          "live": false
+        },
+        {
+          "start": "21:00",
+          "end": "23:00",
+          "show_id": "controvento",
+          "live": false
+        },
+        {
+          "start": "23:00",
+          "end": "24:00",
+          "show_id": "yard-fm",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "thursday",
+      "label": "Jueves",
+      "programs": [
+        {
+          "start": "06:00",
+          "end": "06:30",
+          "show_id": "gr-ambiente-agenzia-dire",
+          "live": false
+        },
+        {
+          "start": "06:30",
+          "end": "06:45",
+          "show_id": "gr-popolare-network",
+          "live": false
+        },
+        {
+          "start": "06:45",
+          "end": "07:00",
+          "show_id": "giu-dalle-brande-info",
+          "live": false
+        },
+        {
+          "start": "07:00",
+          "end": "07:30",
+          "show_id": "breakfast-club-prime-pagine-info",
+          "live": false
+        },
+        {
+          "start": "07:30",
+          "end": "07:45",
+          "show_id": "gr-popolare-network",
+          "live": false
+        },
+        {
+          "start": "07:45",
+          "end": "08:50",
+          "show_id": "breakfast-club-in-mostra",
+          "live": false
+        },
+        {
+          "start": "08:50",
+          "end": "09:00",
+          "show_id": "l-edipeo-enciclopedico",
+          "live": false
+        },
+        {
+          "start": "09:00",
+          "end": "09:30",
+          "show_id": "liberi-dentro-eduradio",
+          "live": false
+        },
+        {
+          "start": "09:30",
+          "end": "10:30",
+          "show_id": "radio-zanardi-rassegna-stampa-info",
+          "live": false
+        },
+        {
+          "start": "10:30",
+          "end": "12:30",
+          "show_id": "il-vinile-quotidiano-info",
+          "live": false
+        },
+        {
+          "start": "12:30",
+          "end": "13:00",
+          "show_id": "gr-popolare-network",
+          "live": false
+        },
+        {
+          "start": "13:00",
+          "end": "13:30",
+          "show_id": "carne-di-porko-info",
+          "live": false
+        },
+        {
+          "start": "13:30",
+          "end": "14:00",
+          "show_id": "intolerance-info",
+          "live": false
+        },
+        {
+          "start": "14:00",
+          "end": "15:00",
+          "show_id": "signore-e-signori-il-welfare-e-sparito",
+          "live": false
+        },
+        {
+          "start": "15:00",
+          "end": "15:30",
+          "show_id": "spazio-podcast",
+          "live": false
+        },
+        {
+          "start": "15:30",
+          "end": "15:35",
+          "show_id": "gr-popolare-network",
+          "live": false
+        },
+        {
+          "start": "15:35",
+          "end": "17:00",
+          "show_id": "sniffin-glucose-info",
+          "live": false
+        },
+        {
+          "start": "17:00",
+          "end": "17:30",
+          "show_id": "what-a-mess-approfondimenti",
+          "live": false
+        },
+        {
+          "start": "17:30",
+          "end": "17:35",
+          "show_id": "gr-popolare-network",
+          "live": false
+        },
+        {
+          "start": "17:35",
+          "end": "18:00",
+          "show_id": "what-a-mess-topic-o",
+          "live": false
+        },
+        {
+          "start": "18:00",
+          "end": "19:00",
+          "show_id": "cagnara",
+          "live": false
+        },
+        {
+          "start": "19:00",
+          "end": "19:30",
+          "show_id": "soccia-che-groove",
+          "live": false
+        },
+        {
+          "start": "19:30",
+          "end": "20:00",
+          "show_id": "gr-popolare-network",
+          "live": false
+        },
+        {
+          "start": "20:00",
+          "end": "21:00",
+          "show_id": "cold-wave",
+          "live": false
+        },
+        {
+          "start": "21:00",
+          "end": "23:00",
+          "show_id": "glamorama-info",
+          "live": false
+        },
+        {
+          "start": "23:00",
+          "end": "24:00",
+          "show_id": "uova-soda-e-noci",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "friday",
+      "label": "Viernes",
+      "programs": [
+        {
+          "start": "06:00",
+          "end": "06:30",
+          "show_id": "gr-esteri-agenzia-dire",
+          "live": false
+        },
+        {
+          "start": "06:30",
+          "end": "06:45",
+          "show_id": "gr-popolare-network",
+          "live": false
+        },
+        {
+          "start": "06:45",
+          "end": "07:00",
+          "show_id": "giu-dalle-brande-info",
+          "live": false
+        },
+        {
+          "start": "07:00",
+          "end": "07:30",
+          "show_id": "breakfast-club-prime-pagine-info",
+          "live": false
+        },
+        {
+          "start": "07:30",
+          "end": "07:45",
+          "show_id": "gr-popolare-network",
+          "live": false
+        },
+        {
+          "start": "07:45",
+          "end": "08:50",
+          "show_id": "breakfast-club-in-scena",
+          "live": false
+        },
+        {
+          "start": "08:50",
+          "end": "09:00",
+          "show_id": "l-edipeo-enciclopedico",
+          "live": false
+        },
+        {
+          "start": "09:00",
+          "end": "09:30",
+          "show_id": "liberi-dentro-eduradio",
+          "live": false
+        },
+        {
+          "start": "09:30",
+          "end": "10:30",
+          "show_id": "radio-zanardi-rassegna-stampa-info",
+          "live": false
+        },
+        {
+          "start": "10:30",
+          "end": "11:30",
+          "show_id": "cult-news-info",
+          "live": false
+        },
+        {
+          "start": "11:30",
+          "end": "12:30",
+          "show_id": "jazz-live-info",
+          "live": true
+        },
+        {
+          "start": "12:30",
+          "end": "13:00",
+          "show_id": "gr-popolare-network",
+          "live": false
+        },
+        {
+          "start": "13:00",
+          "end": "13:30",
+          "show_id": "psicoradio",
+          "live": false
+        },
+        {
+          "start": "13:30",
+          "end": "14:00",
+          "show_id": "a-qualcuno-piace-altro-info",
+          "live": false
+        },
+        {
+          "start": "14:00",
+          "end": "14:30",
+          "show_id": "on-er",
+          "live": false
+        },
+        {
+          "start": "14:30",
+          "end": "15:00",
+          "show_id": "scusa-ameri-info",
+          "live": false
+        },
+        {
+          "start": "15:00",
+          "end": "15:30",
+          "show_id": "pandemonium",
+          "live": false
+        },
+        {
+          "start": "15:30",
+          "end": "15:35",
+          "show_id": "gr-popolare-network",
+          "live": false
+        },
+        {
+          "start": "15:35",
+          "end": "17:00",
+          "show_id": "pandemonium",
+          "live": false
+        },
+        {
+          "start": "17:00",
+          "end": "17:30",
+          "show_id": "what-a-mess-approfondimenti",
+          "live": false
+        },
+        {
+          "start": "17:30",
+          "end": "17:35",
+          "show_id": "gr-popolare",
+          "live": false
+        },
+        {
+          "start": "17:35",
+          "end": "18:00",
+          "show_id": "what-a-mess-topic-o",
+          "live": false
+        },
+        {
+          "start": "18:00",
+          "end": "19:00",
+          "show_id": "all-you-need-is-ska",
+          "live": false
+        },
+        {
+          "start": "19:00",
+          "end": "19:30",
+          "show_id": "on-er",
+          "live": false
+        },
+        {
+          "start": "19:30",
+          "end": "20:00",
+          "show_id": "gr-popolare-network",
+          "live": false
+        },
+        {
+          "start": "20:00",
+          "end": "21:30",
+          "show_id": "poptones-info",
+          "live": false
+        },
+        {
+          "start": "21:30",
+          "end": "22:30",
+          "show_id": "global-tavor",
+          "live": false
+        },
+        {
+          "start": "22:30",
+          "end": "23:30",
+          "show_id": "sbob-show",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "saturday",
+      "label": "Sábado",
+      "programs": [
+        {
+          "start": "01:00",
+          "end": "06:00",
+          "show_id": "segnali-notturni",
+          "live": false
+        },
+        {
+          "start": "06:00",
+          "end": "07:30",
+          "show_id": "gr-scuola-agenzia-dire",
+          "live": false
+        },
+        {
+          "start": "07:30",
+          "end": "07:50",
+          "show_id": "gr-popolare-network",
+          "live": false
+        },
+        {
+          "start": "07:50",
+          "end": "08:30",
+          "show_id": "on-er",
+          "live": false
+        },
+        {
+          "start": "08:30",
+          "end": "09:00",
+          "show_id": "gr-popolare-network",
+          "live": false
+        },
+        {
+          "start": "09:00",
+          "end": "09:30",
+          "show_id": "liberi-dentro-eduradio",
+          "live": false
+        },
+        {
+          "start": "09:30",
+          "end": "10:30",
+          "show_id": "radio-zanardi-rassegna-stampa-info",
+          "live": false
+        },
+        {
+          "start": "10:30",
+          "end": "11:00",
+          "show_id": "il-polverone-magico",
+          "live": false
+        },
+        {
+          "start": "11:00",
+          "end": "12:00",
+          "show_id": "salt-peanuts-info",
+          "live": false
+        },
+        {
+          "start": "12:00",
+          "end": "13:00",
+          "show_id": "altre-connessioni",
+          "live": false
+        },
+        {
+          "start": "13:00",
+          "end": "13:30",
+          "show_id": "gr-popolare-network",
+          "live": false
+        },
+        {
+          "start": "13:30",
+          "end": "14:00",
+          "show_id": "mezz-ora-d-aria-info",
+          "live": false
+        },
+        {
+          "start": "14:00",
+          "end": "16:00",
+          "show_id": "trasmission-live-set-a-cura-di-dj-mortimer",
+          "live": true
+        },
+        {
+          "start": "16:00",
+          "end": "17:30",
+          "show_id": "afternoon-tunes-info",
+          "live": false
+        },
+        {
+          "start": "17:30",
+          "end": "18:00",
+          "show_id": "resistenze-sonore",
+          "live": false
+        },
+        {
+          "start": "18:00",
+          "end": "19:30",
+          "show_id": "if-the-kids-are-united-info",
+          "live": false
+        },
+        {
+          "start": "19:30",
+          "end": "21:00",
+          "show_id": "gr-popolare-network",
+          "live": false
+        },
+        {
+          "start": "21:00",
+          "end": "23:00",
+          "show_id": "la-new-wave-sono-io-info",
+          "live": false
+        },
+        {
+          "start": "23:00",
+          "end": "24:00",
+          "show_id": "the-boogeyman",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "sunday",
+      "label": "Domingo",
+      "programs": [
+        {
+          "start": "07:30",
+          "end": "08:00",
+          "show_id": "restiamo-animali",
+          "live": false
+        },
+        {
+          "start": "08:00",
+          "end": "08:30",
+          "show_id": "il-buongiorno-di-milco",
+          "live": false
+        },
+        {
+          "start": "08:30",
+          "end": "08:45",
+          "show_id": "gr-popolare-network",
+          "live": false
+        },
+        {
+          "start": "08:45",
+          "end": "11:00",
+          "show_id": "il-buongiorno-di-milco",
+          "live": false
+        },
+        {
+          "start": "11:00",
+          "end": "11:30",
+          "show_id": "radiodrammi",
+          "live": false
+        },
+        {
+          "start": "11:30",
+          "end": "12:00",
+          "show_id": "giu-dalle-brande-dopo-la-messa-info",
+          "live": false
+        },
+        {
+          "start": "12:00",
+          "end": "12:30",
+          "show_id": "le-piace-l-opera-info",
+          "live": false
+        },
+        {
+          "start": "12:30",
+          "end": "13:00",
+          "show_id": "abracadabra",
+          "live": false
+        },
+        {
+          "start": "13:00",
+          "end": "13:30",
+          "show_id": "gr-popolare-network",
+          "live": false
+        },
+        {
+          "start": "13:30",
+          "end": "14:00",
+          "show_id": "liberi-dentro-eduradio-laboratori",
+          "live": false
+        },
+        {
+          "start": "14:00",
+          "end": "14:30",
+          "show_id": "yoursongpro",
+          "live": false
+        },
+        {
+          "start": "14:30",
+          "end": "15:00",
+          "show_id": "suoni-dal-mondo",
+          "live": false
+        },
+        {
+          "start": "15:00",
+          "end": "16:00",
+          "show_id": "easy-pop-info",
+          "live": false
+        },
+        {
+          "start": "16:00",
+          "end": "16:30",
+          "show_id": "bologna-city-of-music",
+          "live": false
+        },
+        {
+          "start": "16:30",
+          "end": "18:00",
+          "show_id": "corrispondenze-info",
+          "live": false
+        },
+        {
+          "start": "18:00",
+          "end": "18:30",
+          "show_id": "backonwave-24-minutes-party-people-di-dj-mortimer",
+          "live": false
+        },
+        {
+          "start": "18:30",
+          "end": "19:30",
+          "show_id": "less-talk-more-rock",
+          "live": false
+        },
+        {
+          "start": "19:30",
+          "end": "20:00",
+          "show_id": "gr-popolare-network",
+          "live": false
+        },
+        {
+          "start": "20:00",
+          "end": "21:00",
+          "show_id": "please-kill-me-info",
+          "live": false
+        },
+        {
+          "start": "21:00",
+          "end": "23:00",
+          "show_id": "sic-em-pigs",
+          "live": false
+        },
+        {
+          "start": "23:00",
+          "end": "24:00",
+          "show_id": "road-radio-info",
+          "live": false
+        }
+      ]
+    }
+  ]
+}

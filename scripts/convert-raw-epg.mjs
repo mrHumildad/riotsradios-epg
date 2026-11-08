@@ -1626,6 +1626,35 @@ async function convertSapoStation(id, station, outDir, meta, buffer, report, gui
   return report
 }
 
+async function readDayPagePrograms(dir, diagnostics) {
+  const daysDir = join(dir, 'days')
+  if (!existsSync(daysDir)) return { programs: [], detail: 'no days/ folder' }
+  const files = (await readdir(daysDir)).filter((file) => /\.html?$/i.test(file))
+  const programs = []
+  let pages = 0
+  for (const file of files) {
+    const day = file.replace(/\.[^.]+$/, '').toLowerCase()
+    if (!DAY_INDEX.has(day)) continue
+    pages++
+    const { html } = decodeSnapshot(await readFile(join(daysDir, file)))
+    const dom = parseHtml(html)
+    const lines = blockText(dom).split('\n').map((line) => line.trim()).filter(Boolean)
+    const stop = lines.findIndex((line) => /^(articoli correlati|altro dall'autore|ascolta la diretta|iscriviti alla newsletter|related articles)\b/i.test(line))
+    const scheduleLines = (stop >= 0 ? lines.slice(0, stop) : lines)
+      .filter((line) => /^(?:a las\s+)?\d{1,2}\s*[:.h]\s*\d{2}/i.test(line))
+    let entries = []
+    for (const line of scheduleLines) entries.push(...parseLinesForDay([line], day))
+    if (!entries.length) entries = singleDayStrategy(dom, day, diagnostics).programs || []
+    if (entries.length) {
+      programs.push(...entries)
+      diagnostics.push(`day page ${file}: ${entries.length} programmes`)
+    } else {
+      diagnostics.push(`day page ${file}: no programmes`)
+    }
+  }
+  return { programs, detail: `${pages} day page(s), ${new Set(programs.map((entry) => entry.day)).size} day(s)` }
+}
+
 function decodeSnapshot(buffer) {
   const utf8 = new TextDecoder('utf-8', { fatal: false }).decode(buffer)
   const bad = (utf8.match(/\uFFFD/g) || []).length
@@ -1724,6 +1753,17 @@ async function convertStation(id, station, rawDir, outDir, guides, options) {
   run('day-ranges', () => dayRangeStrategy(dom, diagnostics))
   run('linear', () => linearStrategy(dom, diagnostics))
   run('single-day', () => singleDayStrategy(dom, fallbackDay, diagnostics))
+
+  const dayPages = await readDayPagePrograms(dir, diagnostics)
+  const dayPageDays = new Set(dayPages.programs.map((entry) => entry.day))
+  if (dayPageDays.size >= 3) {
+    candidates.push({
+      name: 'day-pages',
+      programs: dayPages.programs,
+      detail: dayPages.detail,
+      score: dayPageDays.size * 60 + Math.min(dayPages.programs.length, 120) + (dayPages.programs.length >= 8 ? 20 : 0),
+    })
+  }
 
   for (const candidate of candidates) {
     report.diagnostics.push(`strategy ${candidate.name}: ${candidate.programs.length} programmes / ${new Set(candidate.programs.map((entry) => entry.day)).size} days${candidate.detail ? ` — ${candidate.detail}` : ''}`)
