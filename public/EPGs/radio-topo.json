@@ -1,0 +1,1166 @@
+{
+  "version": "2.0",
+  "station": "Radio Topo",
+  "station_id": 18,
+  "schedule_type": "weekly",
+  "timezone": "Europe/Madrid",
+  "last_updated": "2026-11-08",
+  "source": "https://www.radiotopo.org/parrilla-semanal/",
+  "notes": "Generado automáticamente desde https://www.radiotopo.org/parrilla-semanal/ (snapshot 2026-11-08); revisar data/epg-report.json.",
+  "generator": "scripts/convert-raw-epg.mjs",
+  "metadata": {
+    "categories": {
+      "musica": "Música",
+      "directo": "Directo",
+      "podcast": "Podcast / repetición",
+      "especial": "Especial",
+      "taller": "Taller / educación"
+    },
+    "default_filler": {
+      "title": "Música",
+      "category": "musica"
+    }
+  },
+  "shows": {
+    "los-tres-cuervos": {
+      "title": "LOS TRES CUERVOS",
+      "category": "directo"
+    },
+    "continuidad-musical-grupos-de-aragon": {
+      "title": "CONTINUIDAD MUSICAL GRUPOS DE ARAGÓN",
+      "category": "musica"
+    },
+    "resistencias-personales": {
+      "title": "RESISTENCIAS PERSONALES",
+      "category": "directo"
+    },
+    "el-acratador": {
+      "title": "EL ACRATADOR",
+      "category": "directo"
+    },
+    "con-boca-torias": {
+      "title": "CON BOCA TORIAS",
+      "category": "directo"
+    },
+    "novedades-grupos-aragoneses": {
+      "title": "NOVEDADES GRUPOS ARAGONESES",
+      "category": "directo"
+    },
+    "hijos-del-agobio": {
+      "title": "HIJOS DEL AGOBIO",
+      "category": "directo"
+    },
+    "el-vinilo-perdido": {
+      "title": "EL VINILO PERDIDO",
+      "category": "directo"
+    },
+    "el-pajaro-observador": {
+      "title": "EL PAJARO OBSERVADOR",
+      "category": "directo"
+    },
+    "desfase-lunar": {
+      "title": "DESFASE LUNAR",
+      "category": "directo"
+    },
+    "musica": {
+      "title": "MUSICA",
+      "category": "musica"
+    },
+    "dando-la-vuelta": {
+      "title": "DANDO LA VUELTA",
+      "category": "directo"
+    },
+    "punto-azul-palido": {
+      "title": "PUNTO AZUL PALIDO",
+      "category": "directo"
+    },
+    "la-casa-encantada": {
+      "title": "LA CASA ENCANTADA",
+      "category": "directo"
+    },
+    "se-calienta-la-ciudad": {
+      "title": "SE CALIENTA LA CIUDAD",
+      "category": "directo"
+    },
+    "corazon-cerrado": {
+      "title": "CORAZON CERRADO",
+      "category": "directo"
+    },
+    "tendencia-utopica": {
+      "title": "TENDENCIA UTÓPICA",
+      "category": "directo"
+    },
+    "skandalo-en-las-ondas": {
+      "title": "SKANDALO EN LAS ONDAS",
+      "category": "directo"
+    },
+    "se-vienen-cosicas": {
+      "title": "SE VIENEN COSICAS",
+      "category": "directo"
+    },
+    "con-la-casa-en-la-mochila": {
+      "title": "CON LA CASA EN LA MOCHILA",
+      "category": "directo"
+    },
+    "charlas-en-las-ondas": {
+      "title": "CHARLAS EN LAS ONDAS",
+      "category": "directo"
+    },
+    "skarlata-ojara": {
+      "title": "SKARLATA OJARA",
+      "category": "directo"
+    },
+    "sindrome-de-peter-pan": {
+      "title": "SINDROME DE PETER PAN",
+      "category": "directo"
+    },
+    "novedades-decadentes": {
+      "title": "NOVEDADES DECADENTES",
+      "category": "directo"
+    },
+    "el-temple-del-goss": {
+      "title": "EL TEMPLE DEL GOSS",
+      "category": "directo"
+    },
+    "desgarramantas": {
+      "title": "DESGARRAMANTAS",
+      "category": "directo"
+    },
+    "radio-kobane": {
+      "title": "RADIO KOBANE",
+      "category": "directo"
+    },
+    "tune-fi-tune": {
+      "title": "TUNE FI TUNE",
+      "category": "directo"
+    },
+    "mondo-modorro": {
+      "title": "MONDO MODORRO",
+      "category": "directo"
+    },
+    "hardcore-radikal": {
+      "title": "Hardcore Radikal",
+      "category": "directo"
+    },
+    "a-tapar-la-calle": {
+      "title": "A TAPAR LA CALLE",
+      "category": "directo"
+    },
+    "la-contratertulia": {
+      "title": "LA CONTRATERTULIA",
+      "category": "directo"
+    },
+    "humanoides-asociados": {
+      "title": "HUMANOIDES ASOCIADOS",
+      "category": "directo"
+    },
+    "cuerdas-de-acero": {
+      "title": "CUERDAS DE ACERO",
+      "category": "directo"
+    },
+    "distrito-apache": {
+      "title": "DISTRITO APACHE",
+      "category": "directo"
+    },
+    "reveil-hip-hop": {
+      "title": "REVEIL HIP HOP",
+      "category": "directo"
+    },
+    "ovejas-negrax": {
+      "title": "OVEJAS NEGRAX",
+      "category": "directo"
+    },
+    "baixes-emissions": {
+      "title": "BAIXES EMISSIONS",
+      "category": "directo"
+    },
+    "kalez-kale-soul": {
+      "title": "KALEZ KALE SOUL",
+      "category": "directo"
+    },
+    "la-linterna-de-diogenes": {
+      "title": "LA LINTERNA DE DIOGENES",
+      "category": "directo"
+    },
+    "hoy-desde-aqui": {
+      "title": "HOY DESDE AQUI",
+      "category": "directo"
+    },
+    "barrio-canino": {
+      "title": "BARRIO CANINO",
+      "category": "directo"
+    },
+    "equalizing-distort": {
+      "title": "EQUALIZING DISTORT",
+      "category": "directo"
+    },
+    "la-conquista-del-pan": {
+      "title": "LA CONQUISTA DEL PAN",
+      "category": "directo"
+    },
+    "miau": {
+      "title": "MIAU!",
+      "category": "directo"
+    },
+    "de-raiz": {
+      "title": "DE RAIZ",
+      "category": "directo"
+    },
+    "la-casa-bomba": {
+      "title": "LA CASA BOMBA",
+      "category": "directo"
+    },
+    "flamenco-daqui-dalla": {
+      "title": "FLAMENCO DAQUI DALLA",
+      "category": "directo"
+    },
+    "tiempo-de-jazz": {
+      "title": "TIEMPO DE JAZZ",
+      "category": "directo"
+    }
+  },
+  "days": [
+    {
+      "day": "monday",
+      "label": "Lunes",
+      "programs": [
+        {
+          "start": "00:00",
+          "end": "02:00",
+          "show_id": "los-tres-cuervos",
+          "live": false
+        },
+        {
+          "start": "02:00",
+          "end": "06:00",
+          "show_id": "continuidad-musical-grupos-de-aragon",
+          "live": false
+        },
+        {
+          "start": "06:00",
+          "end": "07:00",
+          "show_id": "resistencias-personales",
+          "live": false
+        },
+        {
+          "start": "07:00",
+          "end": "08:00",
+          "show_id": "el-acratador",
+          "live": false
+        },
+        {
+          "start": "08:00",
+          "end": "08:30",
+          "show_id": "con-boca-torias",
+          "live": false
+        },
+        {
+          "start": "08:30",
+          "end": "09:00",
+          "show_id": "novedades-grupos-aragoneses",
+          "live": false
+        },
+        {
+          "start": "09:00",
+          "end": "10:00",
+          "show_id": "hijos-del-agobio",
+          "live": false
+        },
+        {
+          "start": "10:00",
+          "end": "11:00",
+          "show_id": "el-vinilo-perdido",
+          "live": false
+        },
+        {
+          "start": "11:00",
+          "end": "11:30",
+          "show_id": "con-boca-torias",
+          "live": false
+        },
+        {
+          "start": "11:30",
+          "end": "12:00",
+          "show_id": "novedades-grupos-aragoneses",
+          "live": false
+        },
+        {
+          "start": "12:00",
+          "end": "13:00",
+          "show_id": "el-pajaro-observador",
+          "live": false
+        },
+        {
+          "start": "13:00",
+          "end": "15:00",
+          "show_id": "desfase-lunar",
+          "live": false
+        },
+        {
+          "start": "15:00",
+          "end": "15:30",
+          "show_id": "con-boca-torias",
+          "live": false
+        },
+        {
+          "start": "15:30",
+          "end": "16:00",
+          "show_id": "novedades-grupos-aragoneses",
+          "live": false
+        },
+        {
+          "start": "16:00",
+          "end": "17:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "17:00",
+          "end": "17:30",
+          "show_id": "novedades-grupos-aragoneses",
+          "live": false
+        },
+        {
+          "start": "17:30",
+          "end": "18:00",
+          "show_id": "con-boca-torias",
+          "live": false
+        },
+        {
+          "start": "18:00",
+          "end": "19:30",
+          "show_id": "dando-la-vuelta",
+          "live": false
+        },
+        {
+          "start": "19:30",
+          "end": "20:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "20:00",
+          "end": "21:00",
+          "show_id": "punto-azul-palido",
+          "live": false
+        },
+        {
+          "start": "21:00",
+          "end": "22:00",
+          "show_id": "la-casa-encantada",
+          "live": false
+        },
+        {
+          "start": "22:00",
+          "end": "22:30",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "22:30",
+          "end": "23:59",
+          "show_id": "se-calienta-la-ciudad",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "tuesday",
+      "label": "Martes",
+      "programs": [
+        {
+          "start": "00:00",
+          "end": "02:00",
+          "show_id": "corazon-cerrado",
+          "live": false
+        },
+        {
+          "start": "06:00",
+          "end": "07:00",
+          "show_id": "el-vinilo-perdido",
+          "live": false
+        },
+        {
+          "start": "07:00",
+          "end": "08:00",
+          "show_id": "tendencia-utopica",
+          "live": false
+        },
+        {
+          "start": "08:00",
+          "end": "08:30",
+          "show_id": "con-boca-torias",
+          "live": false
+        },
+        {
+          "start": "08:30",
+          "end": "09:00",
+          "show_id": "novedades-grupos-aragoneses",
+          "live": false
+        },
+        {
+          "start": "09:00",
+          "end": "10:00",
+          "show_id": "skandalo-en-las-ondas",
+          "live": false
+        },
+        {
+          "start": "10:00",
+          "end": "11:00",
+          "show_id": "se-vienen-cosicas",
+          "live": false
+        },
+        {
+          "start": "11:00",
+          "end": "11:30",
+          "show_id": "con-boca-torias",
+          "live": false
+        },
+        {
+          "start": "11:30",
+          "end": "12:00",
+          "show_id": "novedades-grupos-aragoneses",
+          "live": false
+        },
+        {
+          "start": "12:00",
+          "end": "13:00",
+          "show_id": "con-la-casa-en-la-mochila",
+          "live": false
+        },
+        {
+          "start": "13:00",
+          "end": "15:00",
+          "show_id": "charlas-en-las-ondas",
+          "live": false
+        },
+        {
+          "start": "15:00",
+          "end": "15:30",
+          "show_id": "con-boca-torias",
+          "live": false
+        },
+        {
+          "start": "15:30",
+          "end": "16:00",
+          "show_id": "novedades-grupos-aragoneses",
+          "live": false
+        },
+        {
+          "start": "17:00",
+          "end": "17:30",
+          "show_id": "novedades-grupos-aragoneses",
+          "live": false
+        },
+        {
+          "start": "17:30",
+          "end": "18:00",
+          "show_id": "con-boca-torias",
+          "live": false
+        },
+        {
+          "start": "18:00",
+          "end": "19:00",
+          "show_id": "skarlata-ojara",
+          "live": false
+        },
+        {
+          "start": "19:00",
+          "end": "20:00",
+          "show_id": "sindrome-de-peter-pan",
+          "live": false
+        },
+        {
+          "start": "20:00",
+          "end": "21:00",
+          "show_id": "novedades-decadentes",
+          "live": false
+        },
+        {
+          "start": "21:00",
+          "end": "23:00",
+          "show_id": "los-tres-cuervos",
+          "live": false
+        },
+        {
+          "start": "23:00",
+          "end": "23:30",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "23:30",
+          "end": "23:59",
+          "show_id": "el-temple-del-goss",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "wednesday",
+      "label": "Miércoles",
+      "programs": [
+        {
+          "start": "00:00",
+          "end": "02:00",
+          "show_id": "el-temple-del-goss",
+          "live": false
+        },
+        {
+          "start": "06:00",
+          "end": "07:00",
+          "show_id": "con-la-casa-en-la-mochila",
+          "live": false
+        },
+        {
+          "start": "07:00",
+          "end": "08:00",
+          "show_id": "hijos-del-agobio",
+          "live": false
+        },
+        {
+          "start": "08:00",
+          "end": "08:30",
+          "show_id": "con-boca-torias",
+          "live": false
+        },
+        {
+          "start": "08:30",
+          "end": "09:00",
+          "show_id": "novedades-grupos-aragoneses",
+          "live": false
+        },
+        {
+          "start": "09:00",
+          "end": "10:00",
+          "show_id": "la-casa-encantada",
+          "live": false
+        },
+        {
+          "start": "10:00",
+          "end": "11:00",
+          "show_id": "punto-azul-palido",
+          "live": false
+        },
+        {
+          "start": "11:00",
+          "end": "11:30",
+          "show_id": "con-boca-torias",
+          "live": false
+        },
+        {
+          "start": "11:30",
+          "end": "12:00",
+          "show_id": "novedades-grupos-aragoneses",
+          "live": false
+        },
+        {
+          "start": "12:00",
+          "end": "13:00",
+          "show_id": "dando-la-vuelta",
+          "live": false
+        },
+        {
+          "start": "13:30",
+          "end": "14:30",
+          "show_id": "desgarramantas",
+          "live": false
+        },
+        {
+          "start": "14:30",
+          "end": "15:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "15:00",
+          "end": "15:30",
+          "show_id": "con-boca-torias",
+          "live": false
+        },
+        {
+          "start": "15:30",
+          "end": "16:00",
+          "show_id": "novedades-grupos-aragoneses",
+          "live": false
+        },
+        {
+          "start": "17:00",
+          "end": "17:30",
+          "show_id": "novedades-grupos-aragoneses",
+          "live": false
+        },
+        {
+          "start": "17:30",
+          "end": "18:00",
+          "show_id": "con-boca-torias",
+          "live": false
+        },
+        {
+          "start": "18:00",
+          "end": "19:00",
+          "show_id": "tendencia-utopica",
+          "live": false
+        },
+        {
+          "start": "19:00",
+          "end": "20:00",
+          "show_id": "radio-kobane",
+          "live": false
+        },
+        {
+          "start": "20:00",
+          "end": "21:00",
+          "show_id": "tune-fi-tune",
+          "live": false
+        },
+        {
+          "start": "21:00",
+          "end": "22:00",
+          "show_id": "resistencias-personales",
+          "live": false
+        },
+        {
+          "start": "22:00",
+          "end": "23:30",
+          "show_id": "mondo-modorro",
+          "live": false
+        },
+        {
+          "start": "23:30",
+          "end": "23:59",
+          "show_id": "musica",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "thursday",
+      "label": "Jueves",
+      "programs": [
+        {
+          "start": "00:00",
+          "end": "01:30",
+          "show_id": "hardcore-radikal",
+          "live": false
+        },
+        {
+          "start": "01:30",
+          "end": "02:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "06:00",
+          "end": "07:00",
+          "show_id": "dando-la-vuelta",
+          "live": false
+        },
+        {
+          "start": "07:30",
+          "end": "08:00",
+          "show_id": "a-tapar-la-calle",
+          "live": false
+        },
+        {
+          "start": "08:00",
+          "end": "08:30",
+          "show_id": "con-boca-torias",
+          "live": false
+        },
+        {
+          "start": "08:30",
+          "end": "09:00",
+          "show_id": "novedades-grupos-aragoneses",
+          "live": false
+        },
+        {
+          "start": "09:00",
+          "end": "11:00",
+          "show_id": "los-tres-cuervos",
+          "live": false
+        },
+        {
+          "start": "11:00",
+          "end": "11:30",
+          "show_id": "con-boca-torias",
+          "live": false
+        },
+        {
+          "start": "11:30",
+          "end": "12:00",
+          "show_id": "novedades-grupos-aragoneses",
+          "live": false
+        },
+        {
+          "start": "12:00",
+          "end": "13:00",
+          "show_id": "novedades-decadentes",
+          "live": false
+        },
+        {
+          "start": "13:00",
+          "end": "14:00",
+          "show_id": "sindrome-de-peter-pan",
+          "live": false
+        },
+        {
+          "start": "14:00",
+          "end": "15:00",
+          "show_id": "la-contratertulia",
+          "live": false
+        },
+        {
+          "start": "15:00",
+          "end": "15:30",
+          "show_id": "con-boca-torias",
+          "live": false
+        },
+        {
+          "start": "15:30",
+          "end": "16:00",
+          "show_id": "novedades-grupos-aragoneses",
+          "live": false
+        },
+        {
+          "start": "17:00",
+          "end": "17:30",
+          "show_id": "novedades-grupos-aragoneses",
+          "live": false
+        },
+        {
+          "start": "17:30",
+          "end": "18:00",
+          "show_id": "con-boca-torias",
+          "live": false
+        },
+        {
+          "start": "18:00",
+          "end": "19:30",
+          "show_id": "humanoides-asociados",
+          "live": false
+        },
+        {
+          "start": "19:30",
+          "end": "20:00",
+          "show_id": "a-tapar-la-calle",
+          "live": false
+        },
+        {
+          "start": "20:00",
+          "end": "21:00",
+          "show_id": "el-acratador",
+          "live": false
+        },
+        {
+          "start": "21:00",
+          "end": "22:00",
+          "show_id": "cuerdas-de-acero",
+          "live": false
+        },
+        {
+          "start": "22:00",
+          "end": "22:30",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "22:30",
+          "end": "23:59",
+          "show_id": "distrito-apache",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "friday",
+      "label": "Viernes",
+      "programs": [
+        {
+          "start": "00:00",
+          "end": "02:00",
+          "show_id": "reveil-hip-hop",
+          "live": false
+        },
+        {
+          "start": "06:00",
+          "end": "07:00",
+          "show_id": "la-casa-encantada",
+          "live": false
+        },
+        {
+          "start": "07:00",
+          "end": "08:00",
+          "show_id": "skandalo-en-las-ondas",
+          "live": false
+        },
+        {
+          "start": "08:00",
+          "end": "08:30",
+          "show_id": "con-boca-torias",
+          "live": false
+        },
+        {
+          "start": "08:30",
+          "end": "09:00",
+          "show_id": "novedades-grupos-aragoneses",
+          "live": false
+        },
+        {
+          "start": "09:00",
+          "end": "10:00",
+          "show_id": "tune-fi-tune",
+          "live": false
+        },
+        {
+          "start": "10:00",
+          "end": "11:00",
+          "show_id": "resistencias-personales",
+          "live": false
+        },
+        {
+          "start": "11:00",
+          "end": "11:30",
+          "show_id": "con-boca-torias",
+          "live": false
+        },
+        {
+          "start": "11:30",
+          "end": "12:00",
+          "show_id": "novedades-grupos-aragoneses",
+          "live": false
+        },
+        {
+          "start": "12:00",
+          "end": "13:00",
+          "show_id": "tendencia-utopica",
+          "live": false
+        },
+        {
+          "start": "13:00",
+          "end": "14:30",
+          "show_id": "mondo-modorro",
+          "live": false
+        },
+        {
+          "start": "14:30",
+          "end": "15:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "15:00",
+          "end": "15:30",
+          "show_id": "con-boca-torias",
+          "live": false
+        },
+        {
+          "start": "15:30",
+          "end": "16:00",
+          "show_id": "novedades-grupos-aragoneses",
+          "live": false
+        },
+        {
+          "start": "17:00",
+          "end": "17:30",
+          "show_id": "novedades-grupos-aragoneses",
+          "live": false
+        },
+        {
+          "start": "17:30",
+          "end": "18:00",
+          "show_id": "con-boca-torias",
+          "live": false
+        },
+        {
+          "start": "18:00",
+          "end": "19:00",
+          "show_id": "ovejas-negrax",
+          "live": false
+        },
+        {
+          "start": "19:00",
+          "end": "20:00",
+          "show_id": "el-vinilo-perdido",
+          "live": false
+        },
+        {
+          "start": "20:00",
+          "end": "21:00",
+          "show_id": "hijos-del-agobio",
+          "live": false
+        },
+        {
+          "start": "21:00",
+          "end": "21:30",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "21:30",
+          "end": "22:30",
+          "show_id": "baixes-emissions",
+          "live": false
+        },
+        {
+          "start": "22:30",
+          "end": "23:59",
+          "show_id": "kalez-kale-soul",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "saturday",
+      "label": "Sábado",
+      "programs": [
+        {
+          "start": "00:00",
+          "end": "00:30",
+          "show_id": "kalez-kale-soul",
+          "live": false
+        },
+        {
+          "start": "00:30",
+          "end": "02:00",
+          "show_id": "mondo-modorro",
+          "live": false
+        },
+        {
+          "start": "06:00",
+          "end": "07:00",
+          "show_id": "novedades-decadentes",
+          "live": false
+        },
+        {
+          "start": "07:00",
+          "end": "08:00",
+          "show_id": "sindrome-de-peter-pan",
+          "live": false
+        },
+        {
+          "start": "08:00",
+          "end": "08:30",
+          "show_id": "con-boca-torias",
+          "live": false
+        },
+        {
+          "start": "08:30",
+          "end": "09:00",
+          "show_id": "novedades-grupos-aragoneses",
+          "live": false
+        },
+        {
+          "start": "09:00",
+          "end": "09:30",
+          "show_id": "a-tapar-la-calle",
+          "live": false
+        },
+        {
+          "start": "09:30",
+          "end": "11:00",
+          "show_id": "la-linterna-de-diogenes",
+          "live": false
+        },
+        {
+          "start": "11:00",
+          "end": "11:30",
+          "show_id": "con-boca-torias",
+          "live": false
+        },
+        {
+          "start": "11:30",
+          "end": "12:00",
+          "show_id": "novedades-grupos-aragoneses",
+          "live": false
+        },
+        {
+          "start": "12:00",
+          "end": "13:00",
+          "show_id": "el-acratador",
+          "live": false
+        },
+        {
+          "start": "13:00",
+          "end": "14:00",
+          "show_id": "cuerdas-de-acero",
+          "live": false
+        },
+        {
+          "start": "14:00",
+          "end": "15:00",
+          "show_id": "hoy-desde-aqui",
+          "live": false
+        },
+        {
+          "start": "15:00",
+          "end": "15:30",
+          "show_id": "con-boca-torias",
+          "live": false
+        },
+        {
+          "start": "15:30",
+          "end": "16:00",
+          "show_id": "novedades-grupos-aragoneses",
+          "live": false
+        },
+        {
+          "start": "17:00",
+          "end": "17:30",
+          "show_id": "novedades-grupos-aragoneses",
+          "live": false
+        },
+        {
+          "start": "17:30",
+          "end": "18:00",
+          "show_id": "con-boca-torias",
+          "live": false
+        },
+        {
+          "start": "18:00",
+          "end": "20:00",
+          "show_id": "charlas-en-las-ondas",
+          "live": false
+        },
+        {
+          "start": "20:00",
+          "end": "23:00",
+          "show_id": "barrio-canino",
+          "live": false
+        },
+        {
+          "start": "23:00",
+          "end": "23:59",
+          "show_id": "equalizing-distort",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "sunday",
+      "label": "Domingo",
+      "programs": [
+        {
+          "start": "00:00",
+          "end": "01:00",
+          "show_id": "equalizing-distort",
+          "live": false
+        },
+        {
+          "start": "01:00",
+          "end": "02:00",
+          "show_id": "punto-azul-palido",
+          "live": false
+        },
+        {
+          "start": "06:00",
+          "end": "07:00",
+          "show_id": "cuerdas-de-acero",
+          "live": false
+        },
+        {
+          "start": "07:00",
+          "end": "08:00",
+          "show_id": "tune-fi-tune",
+          "live": false
+        },
+        {
+          "start": "08:00",
+          "end": "08:30",
+          "show_id": "con-boca-torias",
+          "live": false
+        },
+        {
+          "start": "08:30",
+          "end": "09:00",
+          "show_id": "novedades-grupos-aragoneses",
+          "live": false
+        },
+        {
+          "start": "09:00",
+          "end": "11:00",
+          "show_id": "la-conquista-del-pan",
+          "live": false
+        },
+        {
+          "start": "11:00",
+          "end": "11:30",
+          "show_id": "con-boca-torias",
+          "live": false
+        },
+        {
+          "start": "11:30",
+          "end": "12:00",
+          "show_id": "novedades-grupos-aragoneses",
+          "live": false
+        },
+        {
+          "start": "12:00",
+          "end": "13:00",
+          "show_id": "miau",
+          "live": false
+        },
+        {
+          "start": "13:00",
+          "end": "15:00",
+          "show_id": "de-raiz",
+          "live": false
+        },
+        {
+          "start": "15:00",
+          "end": "15:30",
+          "show_id": "con-boca-torias",
+          "live": false
+        },
+        {
+          "start": "15:30",
+          "end": "16:00",
+          "show_id": "novedades-grupos-aragoneses",
+          "live": false
+        },
+        {
+          "start": "17:00",
+          "end": "17:30",
+          "show_id": "novedades-grupos-aragoneses",
+          "live": false
+        },
+        {
+          "start": "17:30",
+          "end": "18:00",
+          "show_id": "con-boca-torias",
+          "live": false
+        },
+        {
+          "start": "18:00",
+          "end": "19:00",
+          "show_id": "con-la-casa-en-la-mochila",
+          "live": false
+        },
+        {
+          "start": "19:00",
+          "end": "20:00",
+          "show_id": "la-casa-bomba",
+          "live": false
+        },
+        {
+          "start": "20:00",
+          "end": "21:00",
+          "show_id": "skandalo-en-las-ondas",
+          "live": false
+        },
+        {
+          "start": "21:00",
+          "end": "22:00",
+          "show_id": "flamenco-daqui-dalla",
+          "live": false
+        },
+        {
+          "start": "22:00",
+          "end": "23:59",
+          "show_id": "tiempo-de-jazz",
+          "live": false
+        }
+      ]
+    }
+  ]
+}

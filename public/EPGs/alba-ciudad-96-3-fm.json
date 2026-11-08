@@ -1,0 +1,321 @@
+{
+  "version": "2.0",
+  "station": "Alba Ciudad 96.3 FM",
+  "station_id": 66,
+  "schedule_type": "weekly",
+  "timezone": "America/Caracas",
+  "last_updated": "2026-11-08",
+  "source": "https://albaciudad.org/nuestros-programas/",
+  "contact": "albaciudadfm@gmail.com",
+  "notes": "Generado automáticamente desde https://albaciudad.org/nuestros-programas/ (snapshot 2026-11-08); revisar data/epg-report.json.",
+  "generator": "scripts/convert-raw-epg.mjs",
+  "metadata": {
+    "categories": {
+      "musica": "Música",
+      "directo": "Directo",
+      "podcast": "Podcast / repetición",
+      "especial": "Especial",
+      "taller": "Taller / educación"
+    },
+    "default_filler": {
+      "title": "Música",
+      "category": "musica"
+    }
+  },
+  "shows": {
+    "vivir-en-equilibrio": {
+      "title": "Vivir en Equilibrio",
+      "category": "directo"
+    },
+    "sonido-radical": {
+      "title": "Sonido Radical",
+      "category": "directo"
+    },
+    "cultura-al-dia-noticiero-de-alba-ciudad": {
+      "title": "Cultura al Día, Noticiero de Alba Ciudad",
+      "category": "directo"
+    },
+    "logros-de-la-patria": {
+      "title": "Logros de la Patria",
+      "category": "directo"
+    },
+    "60-minutos-la-creacion-y-lo-diverso": {
+      "title": "60 Minutos: la Creación y lo Diverso",
+      "category": "directo"
+    },
+    "guasangueando": {
+      "title": "Guasangueando",
+      "category": "directo"
+    },
+    "programa-especial-radio-sputnik": {
+      "title": "Programa especial Radio Sputnik",
+      "category": "especial"
+    },
+    "semillas-de-amalivaca": {
+      "title": "Semillas de Amalivaca",
+      "category": "directo"
+    },
+    "rumba-y-sabor": {
+      "title": "Rumba y Sabor",
+      "category": "directo"
+    },
+    "la-voz-de-caracas": {
+      "title": "La Voz de Caracas",
+      "category": "directo"
+    },
+    "mision-nevado-en-radio": {
+      "title": "Misión Nevado en Radio",
+      "category": "directo"
+    },
+    "el-oriente-venezolano-y-su-cultura": {
+      "title": "El Oriente Venezolano y su Cultura",
+      "category": "directo"
+    },
+    "iaem-radio": {
+      "title": "IAEM Radio",
+      "category": "directo"
+    },
+    "modo-cine": {
+      "title": "Modo Cine",
+      "category": "directo"
+    },
+    "tierra-de-aventuras": {
+      "title": "Tierra de Aventuras",
+      "category": "directo"
+    },
+    "todas-adentro-en-radio": {
+      "title": "Todas Adentro en Radio",
+      "category": "directo"
+    },
+    "resumen-de-noticias-cultura-al-dia": {
+      "title": "Resumen de noticias Cultura al Día",
+      "category": "directo"
+    },
+    "cultura-en-movimiento": {
+      "title": "Cultura en Movimiento",
+      "category": "directo"
+    },
+    "hablame-afro": {
+      "title": "Háblame Afro",
+      "category": "directo"
+    },
+    "el-tiempo-de-las-cerezas": {
+      "title": "El Tiempo de las Cerezas",
+      "category": "directo"
+    },
+    "metal-mecanics": {
+      "title": "Metal Mecanics",
+      "category": "directo"
+    },
+    "alo-presidente": {
+      "title": "Aló Presidente",
+      "category": "directo"
+    }
+  },
+  "days": [
+    {
+      "day": "monday",
+      "label": "Lunes",
+      "programs": [
+        {
+          "start": "10:00",
+          "end": "11:00",
+          "show_id": "vivir-en-equilibrio",
+          "live": false
+        },
+        {
+          "start": "11:00",
+          "end": "12:00",
+          "show_id": "sonido-radical",
+          "live": false
+        },
+        {
+          "start": "12:00",
+          "end": "13:00",
+          "show_id": "cultura-al-dia-noticiero-de-alba-ciudad",
+          "live": false
+        },
+        {
+          "start": "14:00",
+          "end": "15:00",
+          "show_id": "logros-de-la-patria",
+          "live": false
+        },
+        {
+          "start": "15:00",
+          "end": "16:00",
+          "show_id": "60-minutos-la-creacion-y-lo-diverso",
+          "live": false
+        },
+        {
+          "start": "16:00",
+          "end": "17:00",
+          "show_id": "guasangueando",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "tuesday",
+      "label": "Martes",
+      "programs": [
+        {
+          "start": "08:00",
+          "end": "10:00",
+          "show_id": "programa-especial-radio-sputnik",
+          "live": false
+        },
+        {
+          "start": "12:00",
+          "end": "13:00",
+          "show_id": "cultura-al-dia-noticiero-de-alba-ciudad",
+          "live": false
+        },
+        {
+          "start": "14:00",
+          "end": "15:00",
+          "show_id": "semillas-de-amalivaca",
+          "live": false
+        },
+        {
+          "start": "15:00",
+          "end": "17:00",
+          "show_id": "rumba-y-sabor",
+          "live": false
+        },
+        {
+          "start": "17:00",
+          "end": "19:00",
+          "show_id": "programa-especial-radio-sputnik",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "wednesday",
+      "label": "Miércoles",
+      "programs": [
+        {
+          "start": "08:00",
+          "end": "09:00",
+          "show_id": "la-voz-de-caracas",
+          "live": false
+        },
+        {
+          "start": "12:00",
+          "end": "13:00",
+          "show_id": "cultura-al-dia-noticiero-de-alba-ciudad",
+          "live": false
+        },
+        {
+          "start": "14:00",
+          "end": "15:00",
+          "show_id": "mision-nevado-en-radio",
+          "live": false
+        },
+        {
+          "start": "15:00",
+          "end": "16:00",
+          "show_id": "el-oriente-venezolano-y-su-cultura",
+          "live": false
+        },
+        {
+          "start": "16:00",
+          "end": "18:00",
+          "show_id": "iaem-radio",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "thursday",
+      "label": "Jueves",
+      "programs": [
+        {
+          "start": "09:00",
+          "end": "10:00",
+          "show_id": "modo-cine",
+          "live": false
+        },
+        {
+          "start": "10:00",
+          "end": "11:00",
+          "show_id": "tierra-de-aventuras",
+          "live": false
+        },
+        {
+          "start": "11:00",
+          "end": "12:00",
+          "show_id": "todas-adentro-en-radio",
+          "live": false
+        },
+        {
+          "start": "12:00",
+          "end": "13:00",
+          "show_id": "cultura-al-dia-noticiero-de-alba-ciudad",
+          "live": false
+        },
+        {
+          "start": "22:00",
+          "end": "23:00",
+          "show_id": "resumen-de-noticias-cultura-al-dia",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "friday",
+      "label": "Viernes",
+      "programs": [
+        {
+          "start": "08:00",
+          "end": "09:00",
+          "show_id": "cultura-en-movimiento",
+          "live": false
+        },
+        {
+          "start": "12:00",
+          "end": "13:00",
+          "show_id": "cultura-al-dia-noticiero-de-alba-ciudad",
+          "live": false
+        },
+        {
+          "start": "15:00",
+          "end": "16:00",
+          "show_id": "hablame-afro",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "saturday",
+      "label": "Sábado",
+      "programs": [
+        {
+          "start": "09:00",
+          "end": "11:00",
+          "show_id": "el-tiempo-de-las-cerezas",
+          "live": false
+        },
+        {
+          "start": "19:00",
+          "end": "21:00",
+          "show_id": "metal-mecanics",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "sunday",
+      "label": "Domingo",
+      "programs": [
+        {
+          "start": "11:00",
+          "end": "12:00",
+          "show_id": "alo-presidente",
+          "live": false
+        }
+      ]
+    }
+  ]
+}

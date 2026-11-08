@@ -1,0 +1,1272 @@
+{
+  "version": "2.0",
+  "station": "Radio Almaina",
+  "station_id": 23,
+  "schedule_type": "weekly",
+  "timezone": "Europe/Madrid",
+  "last_updated": "2026-11-08",
+  "source": "https://radioalmaina.org/programacion/",
+  "notes": "Generado automáticamente desde https://radioalmaina.org/programacion/ (snapshot 2026-11-08); revisar data/epg-report.json.",
+  "generator": "scripts/convert-raw-epg.mjs",
+  "metadata": {
+    "categories": {
+      "musica": "Música",
+      "directo": "Directo",
+      "podcast": "Podcast / repetición",
+      "especial": "Especial",
+      "taller": "Taller / educación"
+    },
+    "default_filler": {
+      "title": "Música",
+      "category": "musica"
+    }
+  },
+  "shows": {
+    "el-cafe-de-silverio-latinoamerica-rompe-el-cerco": {
+      "title": "El Café de Silverio / Latinoamérica Rompe el Cerco",
+      "category": "directo"
+    },
+    "el-cuartelillo": {
+      "title": "El Cuartelillo",
+      "category": "directo"
+    },
+    "radio-hortigas-tofus-2-furious": {
+      "title": "Radio Hortigas / Tofus 2 Furious",
+      "category": "directo"
+    },
+    "es-la-hora-del-rocanrol": {
+      "title": "Es la Hora del Rocanrol",
+      "category": "directo"
+    },
+    "musica": {
+      "title": "Música",
+      "category": "musica"
+    },
+    "el-salto-radio": {
+      "title": "El Salto Radio",
+      "category": "directo"
+    },
+    "es-lo-que-hay": {
+      "title": "Es lo que hay",
+      "category": "directo"
+    },
+    "radio-coctelera": {
+      "title": "Radio Coctelera",
+      "category": "directo"
+    },
+    "debates-de-actualidad": {
+      "title": "Debates de Actualidad",
+      "category": "directo"
+    },
+    "tiempo-de-jazz-musica-sin-fronteras": {
+      "title": "Tiempo de Jazz / Música Sin Fronteras",
+      "category": "directo"
+    },
+    "rutas-enemigas": {
+      "title": "Rutas Enemigas",
+      "category": "directo"
+    },
+    "la-linterna-de-diogenes": {
+      "title": "La Linterna de Diógenes",
+      "category": "directo"
+    },
+    "podcast-mens-tr-ual": {
+      "title": "Podcast Mens(tr)ual",
+      "category": "directo"
+    },
+    "se-calienta-la-ciudad": {
+      "title": "Se Calienta la Ciudad",
+      "category": "directo"
+    },
+    "hoy-desde-aqui": {
+      "title": "Hoy Desde Aquí",
+      "category": "directo"
+    },
+    "musica-kasual": {
+      "title": "Música Kasual",
+      "category": "musica"
+    },
+    "se-vienen-cosicas-radiociencia": {
+      "title": "Se Vienen Cosicas / Radiociencia",
+      "category": "directo"
+    },
+    "san-onofre": {
+      "title": "San Onofre",
+      "category": "directo"
+    },
+    "maximum-rocknroll-radio": {
+      "title": "Maximum Rocknroll Radio",
+      "category": "directo"
+    },
+    "la-hora-del-tedio": {
+      "title": "La Hora del Tedio",
+      "category": "directo"
+    },
+    "talento-malgastado": {
+      "title": "Talento Malgastado",
+      "category": "directo"
+    },
+    "rockeando": {
+      "title": "Rockeando",
+      "category": "directo"
+    },
+    "barrio-canino-post-apocalipsis-nau": {
+      "title": "Barrio Canino / Post Apocalipsis Nau",
+      "category": "directo"
+    },
+    "mundofonias": {
+      "title": "Mundofonías",
+      "category": "directo"
+    },
+    "de-raiz": {
+      "title": "De Raíz",
+      "category": "directo"
+    },
+    "hardcore-radikal": {
+      "title": "Hardcore Radikal",
+      "category": "directo"
+    },
+    "el-universo-en-duda": {
+      "title": "El Universo en Duda",
+      "category": "directo"
+    },
+    "skandalo-en-las-ondas": {
+      "title": "Skándalo en las Ondas",
+      "category": "directo"
+    },
+    "musicas-sin-prejuicios": {
+      "title": "Músicas Sin Prejuicios",
+      "category": "directo"
+    },
+    "el-especial-de-medianoche-la-odisea-de-la-musica-afroamerica": {
+      "title": "El Especial de Medianoche / La Odisea de la Música Afroamericana",
+      "category": "especial"
+    },
+    "losing-control": {
+      "title": "Losing Control",
+      "category": "directo"
+    },
+    "tonight-is-the-blast-la-casa-de-la-bomba": {
+      "title": "Tonight Is The Blast / La Casa de la Bomba",
+      "category": "directo"
+    },
+    "desde-el-corazon-de-la-tierra": {
+      "title": "Desde el Corazón de la Tierra",
+      "category": "directo"
+    },
+    "raras-musicas": {
+      "title": "Raras Músicas",
+      "category": "directo"
+    },
+    "el-otro-dia": {
+      "title": "El Otro Día",
+      "category": "directo"
+    },
+    "el-canto-de-la-tripulacion": {
+      "title": "El Canto de la Tripulación",
+      "category": "directo"
+    },
+    "bano-de-oralidad": {
+      "title": "Baño de Oralidad",
+      "category": "directo"
+    },
+    "el-ultimo-guarino": {
+      "title": "El Último Guarino",
+      "category": "directo"
+    },
+    "mar-de-fueguitos": {
+      "title": "Mar de Fueguitos",
+      "category": "directo"
+    },
+    "cinefagia-fm": {
+      "title": "Cinefagia FM",
+      "category": "directo"
+    },
+    "compartiendo-infierno": {
+      "title": "Compartiendo Infierno",
+      "category": "directo"
+    },
+    "aranas-de-marte": {
+      "title": "Arañas de Marte",
+      "category": "directo"
+    },
+    "lenguaje-abierto-distrito-apache": {
+      "title": "Lenguaje Abierto / Distrito Apache",
+      "category": "directo"
+    },
+    "sobrevivir-al-descalabro-radio-canora": {
+      "title": "Sobrevivir al Descalabro / Radio Canora",
+      "category": "directo"
+    },
+    "la-gallina-ciega-la-historia-del-mundo": {
+      "title": "La Gallina Ciega / La Historia del Mundo",
+      "category": "directo"
+    },
+    "desde-otras-islas-el-desenterrador": {
+      "title": "Desde Otras Islas / El Desenterrador",
+      "category": "directo"
+    },
+    "adolescencia-programada": {
+      "title": "Adolescencia Programada",
+      "category": "directo"
+    },
+    "el-gesto-mas-radical": {
+      "title": "El Gesto Más Radical",
+      "category": "directo"
+    },
+    "los-amigos-de-artax": {
+      "title": "Los Amigos de Artax",
+      "category": "directo"
+    },
+    "materia-prima": {
+      "title": "Materia Prima",
+      "category": "directo"
+    },
+    "la-hora-de-la-aguja": {
+      "title": "La Hora de la Aguja",
+      "category": "directo"
+    },
+    "nosotras-las-personas": {
+      "title": "Nosotras las Personas",
+      "category": "directo"
+    },
+    "discola": {
+      "title": "Díscola",
+      "category": "directo"
+    },
+    "taberna-carmela": {
+      "title": "Taberna Carmela",
+      "category": "directo"
+    },
+    "epidemia-ultra": {
+      "title": "Epidemia Ultra",
+      "category": "directo"
+    },
+    "radioflautas": {
+      "title": "RadioFlautas",
+      "category": "directo"
+    },
+    "sobrevolando-gaia": {
+      "title": "Sobrevolando Gaia",
+      "category": "directo"
+    },
+    "infoalmaina-20-30-22-30": {
+      "title": "InfoAlmaina (20:30- 22:30)",
+      "category": "directo"
+    },
+    "hijos-del-agobio": {
+      "title": "Hijos del Agobio",
+      "category": "directo"
+    },
+    "ovejas-negrax": {
+      "title": "Ovejas Negrax",
+      "category": "directo"
+    },
+    "sangre-fucsia-capsulas-feministas": {
+      "title": "Sangre Fucsia / Cápsulas Feministas",
+      "category": "directo"
+    },
+    "aleta-dorsal-a-un-paso-del-abismo": {
+      "title": "Aleta Dorsal / A un paso del abismo",
+      "category": "directo"
+    },
+    "pan-y-rosas-noticias-de-paz": {
+      "title": "Pan y Rosas. Noticias de Paz",
+      "category": "directo"
+    },
+    "el-trovador-urbano": {
+      "title": "El Trovador Urbano",
+      "category": "directo"
+    },
+    "de-la-guerrilla-a-la-guerra-contra-el-narco": {
+      "title": "De la Guerrilla a la Guerra contra el Narco",
+      "category": "directo"
+    },
+    "100-fuegos": {
+      "title": "100 Fuegos",
+      "category": "directo"
+    },
+    "11-30h-13-00h-tofuria": {
+      "title": "(11:30H - 13:00H) TOFUria",
+      "category": "directo"
+    },
+    "infoalmaina": {
+      "title": "InfoAlmaina",
+      "category": "directo"
+    },
+    "en-franca-decadencia": {
+      "title": "En Franca Decadencia",
+      "category": "directo"
+    },
+    "radio-kobane": {
+      "title": "Radio Kobane",
+      "category": "directo"
+    },
+    "txinaski-s-exile": {
+      "title": "Txinaski's Exile",
+      "category": "directo"
+    },
+    "shit": {
+      "title": "Shit",
+      "category": "directo"
+    },
+    "la-vuelta-al-mundo-en-80-musicas": {
+      "title": "la Vuelta al Mundo en 80 Músicas",
+      "category": "directo"
+    },
+    "vericuetos": {
+      "title": "Vericuetos",
+      "category": "directo"
+    },
+    "novedades-decadentes": {
+      "title": "Novedades Decadentes",
+      "category": "directo"
+    },
+    "toma-la-tierra": {
+      "title": "Toma la Tierra",
+      "category": "directo"
+    },
+    "el-vaiven": {
+      "title": "El Vaivén",
+      "category": "directo"
+    },
+    "noticias-de-abajo": {
+      "title": "Noticias de Abajo",
+      "category": "directo"
+    },
+    "11-30h-13-00h-el-desgarramantas-humanoides-asociados": {
+      "title": "(11:30H - 13:00H) El Desgarramantas / Humanoides Asociados",
+      "category": "directo"
+    },
+    "the-motherhackers": {
+      "title": "The Motherhackers",
+      "category": "directo"
+    },
+    "hardcuore": {
+      "title": "HardCuore",
+      "category": "directo"
+    },
+    "somos-de-colores": {
+      "title": "Somos de Colores",
+      "category": "directo"
+    },
+    "el-pajaro-observador": {
+      "title": "El Pájaro Observador",
+      "category": "directo"
+    },
+    "despues-de-la-fiebre-del-oro": {
+      "title": "Después de la Fiebre del Oro",
+      "category": "directo"
+    },
+    "mr-kennedy": {
+      "title": "Mr. Kennedy",
+      "category": "directo"
+    },
+    "brutalistas-carretera-perdida": {
+      "title": "Brutalistas / Carretera Perdida",
+      "category": "directo"
+    },
+    "1-30h-3-00h-radio-condenado": {
+      "title": "(1:30H - 3:00H) Radio Condenado",
+      "category": "directo"
+    },
+    "despues-de-la-deriva": {
+      "title": "Después de la Deriva",
+      "category": "directo"
+    },
+    "kontrababylon": {
+      "title": "KontraBabylon",
+      "category": "directo"
+    },
+    "el-acratador": {
+      "title": "El Acratador",
+      "category": "directo"
+    },
+    "por-que-estoy-tan-triste-teniendolo-todo": {
+      "title": "Por Qué Estoy Tan Triste Teniéndolo Todo",
+      "category": "directo"
+    },
+    "espacio-comun-15m": {
+      "title": "Espacio Común 15M",
+      "category": "directo"
+    },
+    "caipirinha-libre": {
+      "title": "Caipirinha Libre",
+      "category": "directo"
+    },
+    "tune-fi-tune": {
+      "title": "Tune Fi Tune",
+      "category": "directo"
+    },
+    "conversatorios-del-sahara-occidental-desde-grana": {
+      "title": "Conversatorios del Sáhara Occidental desde Graná",
+      "category": "directo"
+    },
+    "menopausia-rebelde-lluvia-con-truenos": {
+      "title": "Menopausia Rebelde / Lluvia con Truenos",
+      "category": "directo"
+    },
+    "la-voz-de-lo-invisible": {
+      "title": "La Voz de lo Invisible",
+      "category": "directo"
+    },
+    "blanco-y-negro-blues": {
+      "title": "Blanco y Negro Blues",
+      "category": "directo"
+    }
+  },
+  "days": [
+    {
+      "day": "monday",
+      "label": "Lunes",
+      "programs": [
+        {
+          "start": "00:00",
+          "end": "01:00",
+          "show_id": "el-cafe-de-silverio-latinoamerica-rompe-el-cerco",
+          "live": false
+        },
+        {
+          "start": "01:00",
+          "end": "02:00",
+          "show_id": "el-cuartelillo",
+          "live": false
+        },
+        {
+          "start": "02:00",
+          "end": "03:00",
+          "show_id": "radio-hortigas-tofus-2-furious",
+          "live": false
+        },
+        {
+          "start": "03:00",
+          "end": "04:00",
+          "show_id": "es-la-hora-del-rocanrol",
+          "live": false
+        },
+        {
+          "start": "04:00",
+          "end": "05:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "05:00",
+          "end": "06:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "06:00",
+          "end": "07:00",
+          "show_id": "el-salto-radio",
+          "live": false
+        },
+        {
+          "start": "07:00",
+          "end": "08:00",
+          "show_id": "es-lo-que-hay",
+          "live": false
+        },
+        {
+          "start": "08:00",
+          "end": "09:00",
+          "show_id": "radio-coctelera",
+          "live": false
+        },
+        {
+          "start": "09:00",
+          "end": "10:00",
+          "show_id": "debates-de-actualidad",
+          "live": false
+        },
+        {
+          "start": "10:00",
+          "end": "11:00",
+          "show_id": "tiempo-de-jazz-musica-sin-fronteras",
+          "live": false
+        },
+        {
+          "start": "11:00",
+          "end": "12:00",
+          "show_id": "rutas-enemigas",
+          "live": false
+        },
+        {
+          "start": "12:00",
+          "end": "13:00",
+          "show_id": "la-linterna-de-diogenes",
+          "live": false
+        },
+        {
+          "start": "13:00",
+          "end": "14:00",
+          "show_id": "podcast-mens-tr-ual",
+          "live": false
+        },
+        {
+          "start": "14:00",
+          "end": "15:00",
+          "show_id": "se-calienta-la-ciudad",
+          "live": false
+        },
+        {
+          "start": "15:00",
+          "end": "16:00",
+          "show_id": "hoy-desde-aqui",
+          "live": false
+        },
+        {
+          "start": "16:00",
+          "end": "17:00",
+          "show_id": "musica-kasual",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "tuesday",
+      "label": "Martes",
+      "programs": [
+        {
+          "start": "00:00",
+          "end": "01:00",
+          "show_id": "se-vienen-cosicas-radiociencia",
+          "live": false
+        },
+        {
+          "start": "01:00",
+          "end": "02:00",
+          "show_id": "san-onofre",
+          "live": false
+        },
+        {
+          "start": "02:00",
+          "end": "03:00",
+          "show_id": "maximum-rocknroll-radio",
+          "live": false
+        },
+        {
+          "start": "03:00",
+          "end": "04:00",
+          "show_id": "la-hora-del-tedio",
+          "live": false
+        },
+        {
+          "start": "04:00",
+          "end": "05:00",
+          "show_id": "radio-coctelera",
+          "live": false
+        },
+        {
+          "start": "05:00",
+          "end": "06:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "06:00",
+          "end": "07:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "07:00",
+          "end": "08:00",
+          "show_id": "es-lo-que-hay",
+          "live": false
+        },
+        {
+          "start": "08:00",
+          "end": "09:00",
+          "show_id": "talento-malgastado",
+          "live": false
+        },
+        {
+          "start": "09:00",
+          "end": "10:00",
+          "show_id": "rockeando",
+          "live": false
+        },
+        {
+          "start": "10:00",
+          "end": "11:00",
+          "show_id": "barrio-canino-post-apocalipsis-nau",
+          "live": false
+        },
+        {
+          "start": "11:00",
+          "end": "12:00",
+          "show_id": "mundofonias",
+          "live": false
+        },
+        {
+          "start": "12:00",
+          "end": "13:00",
+          "show_id": "de-raiz",
+          "live": false
+        },
+        {
+          "start": "13:00",
+          "end": "14:00",
+          "show_id": "hardcore-radikal",
+          "live": false
+        },
+        {
+          "start": "14:00",
+          "end": "15:00",
+          "show_id": "radio-hortigas-tofus-2-furious",
+          "live": false
+        },
+        {
+          "start": "15:00",
+          "end": "16:00",
+          "show_id": "el-universo-en-duda",
+          "live": false
+        },
+        {
+          "start": "16:00",
+          "end": "17:00",
+          "show_id": "skandalo-en-las-ondas",
+          "live": false
+        },
+        {
+          "start": "17:00",
+          "end": "18:00",
+          "show_id": "musicas-sin-prejuicios",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "wednesday",
+      "label": "Miércoles",
+      "programs": [
+        {
+          "start": "00:00",
+          "end": "01:00",
+          "show_id": "el-especial-de-medianoche-la-odisea-de-la-musica-afroamerica",
+          "live": false
+        },
+        {
+          "start": "01:00",
+          "end": "02:00",
+          "show_id": "losing-control",
+          "live": false
+        },
+        {
+          "start": "02:00",
+          "end": "03:00",
+          "show_id": "tonight-is-the-blast-la-casa-de-la-bomba",
+          "live": false
+        },
+        {
+          "start": "03:00",
+          "end": "04:00",
+          "show_id": "desde-el-corazon-de-la-tierra",
+          "live": false
+        },
+        {
+          "start": "04:00",
+          "end": "05:00",
+          "show_id": "raras-musicas",
+          "live": false
+        },
+        {
+          "start": "05:00",
+          "end": "06:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "06:00",
+          "end": "07:00",
+          "show_id": "el-salto-radio",
+          "live": false
+        },
+        {
+          "start": "07:00",
+          "end": "08:00",
+          "show_id": "es-lo-que-hay",
+          "live": false
+        },
+        {
+          "start": "08:00",
+          "end": "09:00",
+          "show_id": "el-otro-dia",
+          "live": false
+        },
+        {
+          "start": "09:00",
+          "end": "10:00",
+          "show_id": "el-canto-de-la-tripulacion",
+          "live": false
+        },
+        {
+          "start": "10:00",
+          "end": "11:00",
+          "show_id": "bano-de-oralidad",
+          "live": false
+        },
+        {
+          "start": "11:00",
+          "end": "12:00",
+          "show_id": "el-ultimo-guarino",
+          "live": false
+        },
+        {
+          "start": "12:00",
+          "end": "13:00",
+          "show_id": "mar-de-fueguitos",
+          "live": false
+        },
+        {
+          "start": "13:00",
+          "end": "14:00",
+          "show_id": "cinefagia-fm",
+          "live": false
+        },
+        {
+          "start": "14:00",
+          "end": "15:00",
+          "show_id": "compartiendo-infierno",
+          "live": false
+        },
+        {
+          "start": "15:00",
+          "end": "16:00",
+          "show_id": "aranas-de-marte",
+          "live": false
+        },
+        {
+          "start": "16:00",
+          "end": "17:00",
+          "show_id": "radio-coctelera",
+          "live": false
+        },
+        {
+          "start": "17:00",
+          "end": "18:00",
+          "show_id": "lenguaje-abierto-distrito-apache",
+          "live": false
+        },
+        {
+          "start": "18:00",
+          "end": "19:00",
+          "show_id": "sobrevivir-al-descalabro-radio-canora",
+          "live": false
+        },
+        {
+          "start": "19:00",
+          "end": "20:00",
+          "show_id": "debates-de-actualidad",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "thursday",
+      "label": "Jueves",
+      "programs": [
+        {
+          "start": "00:00",
+          "end": "01:00",
+          "show_id": "la-gallina-ciega-la-historia-del-mundo",
+          "live": false
+        },
+        {
+          "start": "01:00",
+          "end": "02:00",
+          "show_id": "desde-otras-islas-el-desenterrador",
+          "live": false
+        },
+        {
+          "start": "02:00",
+          "end": "03:00",
+          "show_id": "adolescencia-programada",
+          "live": false
+        },
+        {
+          "start": "03:00",
+          "end": "04:00",
+          "show_id": "el-gesto-mas-radical",
+          "live": false
+        },
+        {
+          "start": "04:00",
+          "end": "05:00",
+          "show_id": "los-amigos-de-artax",
+          "live": false
+        },
+        {
+          "start": "05:00",
+          "end": "06:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "06:00",
+          "end": "07:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "07:00",
+          "end": "08:00",
+          "show_id": "es-lo-que-hay",
+          "live": false
+        },
+        {
+          "start": "08:00",
+          "end": "09:00",
+          "show_id": "materia-prima",
+          "live": false
+        },
+        {
+          "start": "09:00",
+          "end": "10:00",
+          "show_id": "la-hora-de-la-aguja",
+          "live": false
+        },
+        {
+          "start": "10:00",
+          "end": "11:00",
+          "show_id": "nosotras-las-personas",
+          "live": false
+        },
+        {
+          "start": "11:00",
+          "end": "12:00",
+          "show_id": "discola",
+          "live": false
+        },
+        {
+          "start": "12:00",
+          "end": "13:00",
+          "show_id": "taberna-carmela",
+          "live": false
+        },
+        {
+          "start": "13:00",
+          "end": "14:00",
+          "show_id": "epidemia-ultra",
+          "live": false
+        },
+        {
+          "start": "14:00",
+          "end": "15:00",
+          "show_id": "radioflautas",
+          "live": false
+        },
+        {
+          "start": "15:00",
+          "end": "16:00",
+          "show_id": "sobrevolando-gaia",
+          "live": false
+        },
+        {
+          "start": "16:00",
+          "end": "17:00",
+          "show_id": "adolescencia-programada",
+          "live": false
+        },
+        {
+          "start": "17:00",
+          "end": "18:00",
+          "show_id": "infoalmaina-20-30-22-30",
+          "live": false
+        },
+        {
+          "start": "18:00",
+          "end": "19:00",
+          "show_id": "hijos-del-agobio",
+          "live": false
+        },
+        {
+          "start": "19:00",
+          "end": "20:00",
+          "show_id": "ovejas-negrax",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "friday",
+      "label": "Viernes",
+      "programs": [
+        {
+          "start": "00:00",
+          "end": "01:00",
+          "show_id": "sangre-fucsia-capsulas-feministas",
+          "live": false
+        },
+        {
+          "start": "01:00",
+          "end": "02:00",
+          "show_id": "aleta-dorsal-a-un-paso-del-abismo",
+          "live": false
+        },
+        {
+          "start": "02:00",
+          "end": "03:00",
+          "show_id": "pan-y-rosas-noticias-de-paz",
+          "live": false
+        },
+        {
+          "start": "03:00",
+          "end": "04:00",
+          "show_id": "podcast-mens-tr-ual",
+          "live": false
+        },
+        {
+          "start": "04:00",
+          "end": "05:00",
+          "show_id": "el-trovador-urbano",
+          "live": false
+        },
+        {
+          "start": "05:00",
+          "end": "06:00",
+          "show_id": "sobrevivir-al-descalabro-radio-canora",
+          "live": false
+        },
+        {
+          "start": "06:00",
+          "end": "07:00",
+          "show_id": "el-salto-radio",
+          "live": false
+        },
+        {
+          "start": "07:00",
+          "end": "08:00",
+          "show_id": "es-lo-que-hay",
+          "live": false
+        },
+        {
+          "start": "08:00",
+          "end": "09:00",
+          "show_id": "de-la-guerrilla-a-la-guerra-contra-el-narco",
+          "live": false
+        },
+        {
+          "start": "09:00",
+          "end": "10:00",
+          "show_id": "100-fuegos",
+          "live": false
+        },
+        {
+          "start": "10:00",
+          "end": "11:00",
+          "show_id": "11-30h-13-00h-tofuria",
+          "live": false
+        },
+        {
+          "start": "11:00",
+          "end": "12:00",
+          "show_id": "infoalmaina",
+          "live": false
+        },
+        {
+          "start": "12:00",
+          "end": "13:00",
+          "show_id": "en-franca-decadencia",
+          "live": false
+        },
+        {
+          "start": "13:00",
+          "end": "14:00",
+          "show_id": "radio-kobane",
+          "live": false
+        },
+        {
+          "start": "14:00",
+          "end": "15:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "15:00",
+          "end": "16:00",
+          "show_id": "el-ultimo-guarino",
+          "live": false
+        },
+        {
+          "start": "16:00",
+          "end": "17:00",
+          "show_id": "talento-malgastado",
+          "live": false
+        },
+        {
+          "start": "17:00",
+          "end": "18:00",
+          "show_id": "la-hora-del-tedio",
+          "live": false
+        },
+        {
+          "start": "18:00",
+          "end": "19:00",
+          "show_id": "txinaski-s-exile",
+          "live": false
+        },
+        {
+          "start": "19:00",
+          "end": "20:00",
+          "show_id": "shit",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "saturday",
+      "label": "Sábado",
+      "programs": [
+        {
+          "start": "00:00",
+          "end": "01:00",
+          "show_id": "la-vuelta-al-mundo-en-80-musicas",
+          "live": false
+        },
+        {
+          "start": "01:00",
+          "end": "02:00",
+          "show_id": "vericuetos",
+          "live": false
+        },
+        {
+          "start": "02:00",
+          "end": "03:00",
+          "show_id": "novedades-decadentes",
+          "live": false
+        },
+        {
+          "start": "03:00",
+          "end": "04:00",
+          "show_id": "el-universo-en-duda",
+          "live": false
+        },
+        {
+          "start": "04:00",
+          "end": "05:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "05:00",
+          "end": "06:00",
+          "show_id": "toma-la-tierra",
+          "live": false
+        },
+        {
+          "start": "06:00",
+          "end": "07:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "07:00",
+          "end": "08:00",
+          "show_id": "el-vaiven",
+          "live": false
+        },
+        {
+          "start": "08:00",
+          "end": "09:00",
+          "show_id": "mundofonias",
+          "live": false
+        },
+        {
+          "start": "09:00",
+          "end": "10:00",
+          "show_id": "noticias-de-abajo",
+          "live": false
+        },
+        {
+          "start": "10:00",
+          "end": "11:00",
+          "show_id": "11-30h-13-00h-el-desgarramantas-humanoides-asociados",
+          "live": false
+        },
+        {
+          "start": "11:00",
+          "end": "12:00",
+          "show_id": "the-motherhackers",
+          "live": false
+        },
+        {
+          "start": "12:00",
+          "end": "13:00",
+          "show_id": "hardcuore",
+          "live": false
+        },
+        {
+          "start": "13:00",
+          "end": "14:00",
+          "show_id": "somos-de-colores",
+          "live": false
+        },
+        {
+          "start": "14:00",
+          "end": "15:00",
+          "show_id": "el-pajaro-observador",
+          "live": false
+        },
+        {
+          "start": "15:00",
+          "end": "16:00",
+          "show_id": "rockeando",
+          "live": false
+        },
+        {
+          "start": "16:00",
+          "end": "17:00",
+          "show_id": "desde-el-corazon-de-la-tierra",
+          "live": false
+        },
+        {
+          "start": "17:00",
+          "end": "18:00",
+          "show_id": "bano-de-oralidad",
+          "live": false
+        },
+        {
+          "start": "18:00",
+          "end": "19:00",
+          "show_id": "el-canto-de-la-tripulacion",
+          "live": false
+        },
+        {
+          "start": "19:00",
+          "end": "20:00",
+          "show_id": "materia-prima",
+          "live": false
+        },
+        {
+          "start": "20:00",
+          "end": "21:00",
+          "show_id": "despues-de-la-fiebre-del-oro",
+          "live": false
+        },
+        {
+          "start": "21:00",
+          "end": "22:00",
+          "show_id": "mr-kennedy",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "sunday",
+      "label": "Domingo",
+      "programs": [
+        {
+          "start": "00:00",
+          "end": "01:00",
+          "show_id": "brutalistas-carretera-perdida",
+          "live": false
+        },
+        {
+          "start": "01:00",
+          "end": "02:00",
+          "show_id": "1-30h-3-00h-radio-condenado",
+          "live": false
+        },
+        {
+          "start": "02:00",
+          "end": "03:00",
+          "show_id": "sobrevolando-gaia",
+          "live": false
+        },
+        {
+          "start": "03:00",
+          "end": "04:00",
+          "show_id": "despues-de-la-deriva",
+          "live": false
+        },
+        {
+          "start": "04:00",
+          "end": "05:00",
+          "show_id": "kontrababylon",
+          "live": false
+        },
+        {
+          "start": "05:00",
+          "end": "06:00",
+          "show_id": "el-acratador",
+          "live": false
+        },
+        {
+          "start": "06:00",
+          "end": "07:00",
+          "show_id": "hoy-desde-aqui",
+          "live": false
+        },
+        {
+          "start": "07:00",
+          "end": "08:00",
+          "show_id": "txinaski-s-exile",
+          "live": false
+        },
+        {
+          "start": "08:00",
+          "end": "09:00",
+          "show_id": "por-que-estoy-tan-triste-teniendolo-todo",
+          "live": false
+        },
+        {
+          "start": "09:00",
+          "end": "10:00",
+          "show_id": "espacio-comun-15m",
+          "live": false
+        },
+        {
+          "start": "10:00",
+          "end": "11:00",
+          "show_id": "caipirinha-libre",
+          "live": false
+        },
+        {
+          "start": "11:00",
+          "end": "12:00",
+          "show_id": "tune-fi-tune",
+          "live": false
+        },
+        {
+          "start": "12:00",
+          "end": "13:00",
+          "show_id": "taberna-carmela",
+          "live": false
+        },
+        {
+          "start": "13:00",
+          "end": "14:00",
+          "show_id": "de-la-guerrilla-a-la-guerra-contra-el-narco",
+          "live": false
+        },
+        {
+          "start": "14:00",
+          "end": "15:00",
+          "show_id": "conversatorios-del-sahara-occidental-desde-grana",
+          "live": false
+        },
+        {
+          "start": "15:00",
+          "end": "16:00",
+          "show_id": "menopausia-rebelde-lluvia-con-truenos",
+          "live": false
+        },
+        {
+          "start": "16:00",
+          "end": "17:00",
+          "show_id": "la-voz-de-lo-invisible",
+          "live": false
+        },
+        {
+          "start": "17:00",
+          "end": "18:00",
+          "show_id": "blanco-y-negro-blues",
+          "live": false
+        }
+      ]
+    }
+  ]
+}

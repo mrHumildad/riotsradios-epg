@@ -1,0 +1,778 @@
+{
+  "version": "2.0",
+  "station": "Radio Onda Rossa",
+  "station_id": 27,
+  "schedule_type": "weekly",
+  "timezone": "Europe/Rome",
+  "last_updated": "2026-11-08",
+  "source": "https://www.ondarossa.info/palinsesto",
+  "notes": "Generado automáticamente desde https://www.ondarossa.info/palinsesto (snapshot 2026-11-08); revisar data/epg-report.json.",
+  "generator": "scripts/convert-raw-epg.mjs",
+  "metadata": {
+    "categories": {
+      "musica": "Música",
+      "directo": "Directo",
+      "podcast": "Podcast / repetición",
+      "especial": "Especial",
+      "taller": "Taller / educación"
+    },
+    "default_filler": {
+      "title": "Música",
+      "category": "musica"
+    }
+  },
+  "shows": {
+    "replica-trasmissione-musicale": {
+      "title": "Replica trasmissione musicale",
+      "category": "podcast"
+    },
+    "repliche-notizie-e-redazionali": {
+      "title": "Repliche notizie e redazionali",
+      "category": "podcast"
+    },
+    "rassegna-stampa": {
+      "title": "Rassegna stampa",
+      "category": "directo"
+    },
+    "spazio-comunicazioni-gli-appuntamenti-della-settimana": {
+      "title": "Spazio comunicazioni - gli appuntamenti della settimana",
+      "category": "directo"
+    },
+    "replica-ponte-radio": {
+      "title": "Replica: Ponte Radio",
+      "category": "podcast"
+    },
+    "normale-follia-normalita-e-follia-nell-infanzia-e-adolescenz": {
+      "title": "Normale Follia - Normalità e follia nell'infanzia e adolescenza",
+      "category": "directo"
+    },
+    "latinoamericana-a-cura-del-comitato-carlos-fonseca": {
+      "title": "LatinoAmericana - a cura del Comitato Carlos Fonseca",
+      "category": "directo"
+    },
+    "impatto-voci-contro-le-nocivita": {
+      "title": "Impatto - voci contro le nocività",
+      "category": "directo"
+    },
+    "likewise": {
+      "title": "Likewise",
+      "category": "directo"
+    },
+    "entropia-massima": {
+      "title": "Entropia Massima",
+      "category": "directo"
+    },
+    "disorder": {
+      "title": "Disorder",
+      "category": "directo"
+    },
+    "replica-blekket": {
+      "title": "Replica: Blekket",
+      "category": "podcast"
+    },
+    "radio-euskadi": {
+      "title": "Radio Euskadi",
+      "category": "directo"
+    },
+    "redazionali": {
+      "title": "Redazionali",
+      "category": "directo"
+    },
+    "stampa-rassegnata-sintesi-dei-temi-politici-della-settimana-": {
+      "title": "Stampa Rassegnata - sintesi dei temi politici della settimana della zona di Firenze, a cura di Radio Wombat",
+      "category": "directo"
+    },
+    "tutta-scena-teatro": {
+      "title": "Tutta scena Teatro",
+      "category": "directo"
+    },
+    "replica-spazio-comunicazioni": {
+      "title": "Replica: Spazio comunicazioni",
+      "category": "podcast"
+    },
+    "note-cose-e-citta": {
+      "title": "Note, cose e città",
+      "category": "directo"
+    },
+    "tabula-rasa-la-trasmissione-che-legge-i-libri-per-voi": {
+      "title": "Tabula Rasa - la trasmissione che legge i libri per voi",
+      "category": "directo"
+    },
+    "semilla-musica-dal-mondo": {
+      "title": "Semilla - musica dal mondo",
+      "category": "directo"
+    },
+    "more-fire-reggae": {
+      "title": "More fire - Reggae",
+      "category": "directo"
+    },
+    "replica-split": {
+      "title": "Replica: Split",
+      "category": "podcast"
+    },
+    "blekket": {
+      "title": "Blekket",
+      "category": "directo"
+    },
+    "nota-di-classe": {
+      "title": "Nota di classe",
+      "category": "directo"
+    },
+    "da-roma-a-bangkok-approfondimento-sull-asia-ogni-due-settima": {
+      "title": "Da Roma a Bangkok - Approfondimento sull'Asia (ogni due settimane)",
+      "category": "directo"
+    },
+    "prove-tecniche-di-trasmissione-elettronica-industrial": {
+      "title": "Prove Tecniche di trasmissione - Elettronica, industrial",
+      "category": "directo"
+    },
+    "twentyfive-o-clock-anatemi-rifiuti-urbani": {
+      "title": "TwentyFive o'clock-anatemi & rifiuti urbani",
+      "category": "directo"
+    },
+    "replica-note-cose-citta": {
+      "title": "Replica: Note cose città",
+      "category": "podcast"
+    },
+    "replica-impatto": {
+      "title": "Replica: impatto",
+      "category": "podcast"
+    },
+    "tutta-scena-cinema": {
+      "title": "Tutta Scena Cinema",
+      "category": "directo"
+    },
+    "le-nuove-mani-sulla-citta-osservatorio-urbano-permanente": {
+      "title": "Le nuove mani sulla città - Osservatorio Urbano permanente",
+      "category": "directo"
+    },
+    "witralen-rete-internazionalista-in-difesa-del-popolo-mapuche": {
+      "title": "Witralen - rete internazionalista in difesa del popolo mapuche",
+      "category": "directo"
+    },
+    "kilame-azadi-il-canto-della-liberta": {
+      "title": "Kilame Azadi - il canto della libertà",
+      "category": "directo"
+    },
+    "in-noctibus-panis": {
+      "title": "In Noctibus Panis",
+      "category": "directo"
+    },
+    "apostasia": {
+      "title": "Apostasia",
+      "category": "directo"
+    },
+    "ponte-radio-spazio-di-collegamento-tra-radio-autorganizzate": {
+      "title": "Ponte Radio - spazio di collegamento tra radio autorganizzate",
+      "category": "directo"
+    },
+    "split-hip-hop": {
+      "title": "Split - Hip Hop",
+      "category": "directo"
+    },
+    "le-faremo-sapere-musicale": {
+      "title": "Le faremo sapere - Musicale",
+      "category": "directo"
+    },
+    "voli-pindarici": {
+      "title": "Voli pindarici",
+      "category": "directo"
+    },
+    "fondamentale": {
+      "title": "Fondamentale",
+      "category": "directo"
+    },
+    "replica-blues-night": {
+      "title": "Replica: Blues Night",
+      "category": "podcast"
+    },
+    "notturno-elettronico": {
+      "title": "Notturno elettronico",
+      "category": "directo"
+    },
+    "replica-good-news": {
+      "title": "Replica: Good news",
+      "category": "podcast"
+    },
+    "replica-nota-di-classe": {
+      "title": "Replica: Nota di classe",
+      "category": "podcast"
+    },
+    "blues-power": {
+      "title": "Blues Power",
+      "category": "directo"
+    },
+    "conduzione-a-cura-delle-trasmissioni-musicali": {
+      "title": "Conduzione a cura delle trasmissioni musicali",
+      "category": "directo"
+    },
+    "salt-peanuts-jazz-e-noccioline": {
+      "title": "Salt Peanuts - Jazz e noccioline",
+      "category": "directo"
+    },
+    "disaccordo": {
+      "title": "Disaccordo",
+      "category": "directo"
+    },
+    "musica-machina": {
+      "title": "Musica Machina",
+      "category": "musica"
+    },
+    "rotation-musica-elettronica": {
+      "title": "Rotation - Musica elettronica",
+      "category": "directo"
+    },
+    "replica-tabula-rasa": {
+      "title": "Replica: Tabula rasa",
+      "category": "podcast"
+    },
+    "replica-likewise": {
+      "title": "Replica: likewise",
+      "category": "podcast"
+    },
+    "tasche-vuote-ogni-due-domeniche-trx-sul-lavoro": {
+      "title": "Tasche vuote (ogni due domeniche) trx sul lavoro",
+      "category": "directo"
+    },
+    "replica-semilla": {
+      "title": "Replica: Semilla",
+      "category": "podcast"
+    },
+    "disabilita-punti-di-vista": {
+      "title": "Disabilità: punti di vista",
+      "category": "directo"
+    },
+    "militant-dub-area": {
+      "title": "Militant Dub Area",
+      "category": "directo"
+    },
+    "le-dita-nella-presa-approfondimento-tecnologico": {
+      "title": "Le Dita nella Presa - approfondimento tecnologico",
+      "category": "directo"
+    }
+  },
+  "days": [
+    {
+      "day": "monday",
+      "label": "Lunes",
+      "programs": [
+        {
+          "start": "02:15",
+          "end": "03:30",
+          "show_id": "replica-trasmissione-musicale",
+          "live": false
+        },
+        {
+          "start": "06:00",
+          "end": "08:00",
+          "show_id": "repliche-notizie-e-redazionali",
+          "live": false
+        },
+        {
+          "start": "08:00",
+          "end": "10:00",
+          "show_id": "rassegna-stampa",
+          "live": false
+        },
+        {
+          "start": "11:00",
+          "end": "11:30",
+          "show_id": "spazio-comunicazioni-gli-appuntamenti-della-settimana",
+          "live": false
+        },
+        {
+          "start": "12:45",
+          "end": "14:45",
+          "show_id": "replica-ponte-radio",
+          "live": false
+        },
+        {
+          "start": "15:00",
+          "end": "16:00",
+          "show_id": "normale-follia-normalita-e-follia-nell-infanzia-e-adolescenz",
+          "live": false
+        },
+        {
+          "start": "16:15",
+          "end": "17:15",
+          "show_id": "latinoamericana-a-cura-del-comitato-carlos-fonseca",
+          "live": false
+        },
+        {
+          "start": "17:30",
+          "end": "18:30",
+          "show_id": "impatto-voci-contro-le-nocivita",
+          "live": false
+        },
+        {
+          "start": "19:00",
+          "end": "20:00",
+          "show_id": "likewise",
+          "live": false
+        },
+        {
+          "start": "20:10",
+          "end": "21:10",
+          "show_id": "entropia-massima",
+          "live": false
+        },
+        {
+          "start": "21:30",
+          "end": "22:30",
+          "show_id": "disorder",
+          "live": false
+        },
+        {
+          "start": "23:00",
+          "end": "01:00",
+          "show_id": "replica-blekket",
+          "live": false,
+          "crosses_midnight": true
+        }
+      ]
+    },
+    {
+      "day": "tuesday",
+      "label": "Martes",
+      "programs": [
+        {
+          "start": "02:15",
+          "end": "03:30",
+          "show_id": "replica-trasmissione-musicale",
+          "live": false
+        },
+        {
+          "start": "06:00",
+          "end": "08:00",
+          "show_id": "repliche-notizie-e-redazionali",
+          "live": false
+        },
+        {
+          "start": "08:00",
+          "end": "10:00",
+          "show_id": "rassegna-stampa",
+          "live": false
+        },
+        {
+          "start": "10:00",
+          "end": "11:00",
+          "show_id": "radio-euskadi",
+          "live": false
+        },
+        {
+          "start": "11:00",
+          "end": "12:00",
+          "show_id": "redazionali",
+          "live": false
+        },
+        {
+          "start": "12:00",
+          "end": "13:00",
+          "show_id": "redazionali",
+          "live": false
+        },
+        {
+          "start": "13:15",
+          "end": "14:00",
+          "show_id": "stampa-rassegnata-sintesi-dei-temi-politici-della-settimana-",
+          "live": false
+        },
+        {
+          "start": "14:00",
+          "end": "16:00",
+          "show_id": "tutta-scena-teatro",
+          "live": false
+        },
+        {
+          "start": "16:05",
+          "end": "16:20",
+          "show_id": "replica-spazio-comunicazioni",
+          "live": false
+        },
+        {
+          "start": "18:30",
+          "end": "19:30",
+          "show_id": "note-cose-e-citta",
+          "live": false
+        },
+        {
+          "start": "20:00",
+          "end": "21:30",
+          "show_id": "tabula-rasa-la-trasmissione-che-legge-i-libri-per-voi",
+          "live": false
+        },
+        {
+          "start": "21:30",
+          "end": "22:30",
+          "show_id": "semilla-musica-dal-mondo",
+          "live": false
+        },
+        {
+          "start": "22:30",
+          "end": "23:30",
+          "show_id": "more-fire-reggae",
+          "live": false
+        },
+        {
+          "start": "23:30",
+          "end": "01:00",
+          "show_id": "replica-split",
+          "live": false,
+          "crosses_midnight": true
+        }
+      ]
+    },
+    {
+      "day": "wednesday",
+      "label": "Miércoles",
+      "programs": [
+        {
+          "start": "02:15",
+          "end": "03:30",
+          "show_id": "replica-trasmissione-musicale",
+          "live": false
+        },
+        {
+          "start": "06:00",
+          "end": "08:00",
+          "show_id": "repliche-notizie-e-redazionali",
+          "live": false
+        },
+        {
+          "start": "08:00",
+          "end": "10:00",
+          "show_id": "rassegna-stampa",
+          "live": false
+        },
+        {
+          "start": "10:00",
+          "end": "13:00",
+          "show_id": "redazionali",
+          "live": false
+        },
+        {
+          "start": "13:30",
+          "end": "15:30",
+          "show_id": "blekket",
+          "live": false
+        },
+        {
+          "start": "16:30",
+          "end": "17:30",
+          "show_id": "nota-di-classe",
+          "live": false
+        },
+        {
+          "start": "18:00",
+          "end": "20:00",
+          "show_id": "redazionali",
+          "live": false
+        },
+        {
+          "start": "20:00",
+          "end": "21:00",
+          "show_id": "da-roma-a-bangkok-approfondimento-sull-asia-ogni-due-settima",
+          "live": false
+        },
+        {
+          "start": "21:00",
+          "end": "22:00",
+          "show_id": "prove-tecniche-di-trasmissione-elettronica-industrial",
+          "live": false
+        },
+        {
+          "start": "22:30",
+          "end": "23:30",
+          "show_id": "twentyfive-o-clock-anatemi-rifiuti-urbani",
+          "live": false
+        },
+        {
+          "start": "23:45",
+          "end": "01:15",
+          "show_id": "replica-note-cose-citta",
+          "live": false,
+          "crosses_midnight": true
+        }
+      ]
+    },
+    {
+      "day": "thursday",
+      "label": "Jueves",
+      "programs": [
+        {
+          "start": "02:15",
+          "end": "03:30",
+          "show_id": "replica-trasmissione-musicale",
+          "live": false
+        },
+        {
+          "start": "06:00",
+          "end": "08:00",
+          "show_id": "repliche-notizie-e-redazionali",
+          "live": false
+        },
+        {
+          "start": "08:00",
+          "end": "10:00",
+          "show_id": "rassegna-stampa",
+          "live": false
+        },
+        {
+          "start": "10:00",
+          "end": "12:30",
+          "show_id": "redazionali",
+          "live": false
+        },
+        {
+          "start": "12:40",
+          "end": "13:40",
+          "show_id": "replica-impatto",
+          "live": false
+        },
+        {
+          "start": "14:00",
+          "end": "15:00",
+          "show_id": "tutta-scena-cinema",
+          "live": false
+        },
+        {
+          "start": "16:00",
+          "end": "17:30",
+          "show_id": "le-nuove-mani-sulla-citta-osservatorio-urbano-permanente",
+          "live": false
+        },
+        {
+          "start": "18:00",
+          "end": "19:00",
+          "show_id": "witralen-rete-internazionalista-in-difesa-del-popolo-mapuche",
+          "live": false
+        },
+        {
+          "start": "19:00",
+          "end": "20:00",
+          "show_id": "kilame-azadi-il-canto-della-liberta",
+          "live": false
+        },
+        {
+          "start": "20:00",
+          "end": "21:20",
+          "show_id": "kilame-azadi-il-canto-della-liberta",
+          "live": false
+        },
+        {
+          "start": "21:30",
+          "end": "22:45",
+          "show_id": "in-noctibus-panis",
+          "live": false
+        },
+        {
+          "start": "23:00",
+          "end": "00:00",
+          "show_id": "apostasia",
+          "live": false,
+          "crosses_midnight": true
+        }
+      ]
+    },
+    {
+      "day": "friday",
+      "label": "Viernes",
+      "programs": [
+        {
+          "start": "06:00",
+          "end": "08:00",
+          "show_id": "repliche-notizie-e-redazionali",
+          "live": false
+        },
+        {
+          "start": "08:00",
+          "end": "10:00",
+          "show_id": "rassegna-stampa",
+          "live": false
+        },
+        {
+          "start": "10:00",
+          "end": "12:00",
+          "show_id": "redazionali",
+          "live": false
+        },
+        {
+          "start": "13:00",
+          "end": "15:00",
+          "show_id": "ponte-radio-spazio-di-collegamento-tra-radio-autorganizzate",
+          "live": false
+        },
+        {
+          "start": "16:00",
+          "end": "17:30",
+          "show_id": "split-hip-hop",
+          "live": false
+        },
+        {
+          "start": "18:00",
+          "end": "19:00",
+          "show_id": "le-faremo-sapere-musicale",
+          "live": false
+        },
+        {
+          "start": "19:30",
+          "end": "20:30",
+          "show_id": "voli-pindarici",
+          "live": false
+        },
+        {
+          "start": "20:30",
+          "end": "21:30",
+          "show_id": "fondamentale",
+          "live": false
+        },
+        {
+          "start": "22:00",
+          "end": "23:20",
+          "show_id": "replica-blues-night",
+          "live": false
+        },
+        {
+          "start": "23:20",
+          "end": "02:20",
+          "show_id": "notturno-elettronico",
+          "live": false,
+          "crosses_midnight": true
+        }
+      ]
+    },
+    {
+      "day": "saturday",
+      "label": "Sábado",
+      "programs": [
+        {
+          "start": "07:45",
+          "end": "08:45",
+          "show_id": "replica-good-news",
+          "live": false
+        },
+        {
+          "start": "09:00",
+          "end": "11:00",
+          "show_id": "rassegna-stampa",
+          "live": false
+        },
+        {
+          "start": "11:00",
+          "end": "13:00",
+          "show_id": "redazionali",
+          "live": false
+        },
+        {
+          "start": "13:30",
+          "end": "14:30",
+          "show_id": "replica-nota-di-classe",
+          "live": false
+        },
+        {
+          "start": "14:45",
+          "end": "16:00",
+          "show_id": "blues-power",
+          "live": false
+        },
+        {
+          "start": "16:00",
+          "end": "18:00",
+          "show_id": "conduzione-a-cura-delle-trasmissioni-musicali",
+          "live": false
+        },
+        {
+          "start": "18:00",
+          "end": "19:00",
+          "show_id": "salt-peanuts-jazz-e-noccioline",
+          "live": false
+        },
+        {
+          "start": "19:30",
+          "end": "20:30",
+          "show_id": "disaccordo",
+          "live": false
+        },
+        {
+          "start": "21:00",
+          "end": "23:00",
+          "show_id": "musica-machina",
+          "live": false
+        },
+        {
+          "start": "23:00",
+          "end": "04:00",
+          "show_id": "rotation-musica-elettronica",
+          "live": false,
+          "crosses_midnight": true
+        }
+      ]
+    },
+    {
+      "day": "sunday",
+      "label": "Domingo",
+      "programs": [
+        {
+          "start": "02:15",
+          "end": "03:30",
+          "show_id": "replica-trasmissione-musicale",
+          "live": false
+        },
+        {
+          "start": "06:00",
+          "end": "07:15",
+          "show_id": "replica-trasmissione-musicale",
+          "live": false
+        },
+        {
+          "start": "08:00",
+          "end": "09:30",
+          "show_id": "replica-tabula-rasa",
+          "live": false
+        },
+        {
+          "start": "10:00",
+          "end": "11:00",
+          "show_id": "replica-likewise",
+          "live": false
+        },
+        {
+          "start": "11:00",
+          "end": "13:00",
+          "show_id": "tasche-vuote-ogni-due-domeniche-trx-sul-lavoro",
+          "live": false
+        },
+        {
+          "start": "13:00",
+          "end": "14:00",
+          "show_id": "replica-semilla",
+          "live": false
+        },
+        {
+          "start": "14:30",
+          "end": "15:30",
+          "show_id": "disabilita-punti-di-vista",
+          "live": false
+        },
+        {
+          "start": "16:00",
+          "end": "17:30",
+          "show_id": "repliche-notizie-e-redazionali",
+          "live": false
+        },
+        {
+          "start": "18:00",
+          "end": "20:00",
+          "show_id": "militant-dub-area",
+          "live": false
+        },
+        {
+          "start": "21:00",
+          "end": "22:30",
+          "show_id": "le-dita-nella-presa-approfondimento-tecnologico",
+          "live": false
+        }
+      ]
+    }
+  ]
+}

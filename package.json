@@ -1,0 +1,16 @@
+{
+  "name": "riotsradios-epg",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "EPG discovery, extraction, validation and publishing for RIOTSRADIOS",
+  "scripts": {
+    "fetch": "python3 scripts/fetch_epgs.py",
+    "discover": "python3 scripts/find_epg_urls.py",
+    "convert": "node scripts/convert-raw-epg.mjs",
+    "validate": "node scripts/validate-epgs.js",
+    "manifest": "node scripts/build-manifest.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "check": "npm run validate && npm run manifest -- --check && npm test"
+  }
+}

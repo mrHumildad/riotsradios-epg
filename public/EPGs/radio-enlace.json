@@ -1,0 +1,1016 @@
+{
+  "version": "2.0",
+  "station": "Radio Enlace",
+  "station_id": 11,
+  "schedule_type": "weekly",
+  "timezone": "Europe/Madrid",
+  "last_updated": "2026-11-08",
+  "source": "https://www.radioenlace.org/programacion/parrilla/",
+  "notes": "Generado automáticamente desde https://www.radioenlace.org/programacion/parrilla/ (snapshot 2026-11-08); revisar data/epg-report.json.",
+  "generator": "scripts/convert-raw-epg.mjs",
+  "metadata": {
+    "categories": {
+      "musica": "Música",
+      "directo": "Directo",
+      "podcast": "Podcast / repetición",
+      "especial": "Especial",
+      "taller": "Taller / educación"
+    },
+    "default_filler": {
+      "title": "Música",
+      "category": "musica"
+    }
+  },
+  "shows": {
+    "repeticion-programas": {
+      "title": "REPETICIÓN PROGRAMAS",
+      "category": "podcast"
+    },
+    "grupo-radioactivo-huerta-san-benito": {
+      "title": "GRUPO RADIOACTIVO (HUERTA & SAN BENITO)",
+      "category": "directo"
+    },
+    "un-verso-un-universo": {
+      "title": "UN VERSO UN UNIVERSO",
+      "category": "directo"
+    },
+    "la-voz-del-silencio": {
+      "title": "LA VOZ DEL SILENCIO",
+      "category": "directo"
+    },
+    "salsipuedes": {
+      "title": "SALSIPUEDES",
+      "category": "directo"
+    },
+    "mente-abierta-q": {
+      "title": "MENTE ABIERTA (Q)",
+      "category": "directo"
+    },
+    "cuarto-trastero": {
+      "title": "CUARTO TRASTERO",
+      "category": "directo"
+    },
+    "baltico-en-las-ondas": {
+      "title": "BALTICO EN LAS ONDAS",
+      "category": "directo"
+    },
+    "un-dia-en-la-vida": {
+      "title": "UN DÍA EN LA VIDA",
+      "category": "directo"
+    },
+    "somos-escuela": {
+      "title": "SOMOS ESCUELA",
+      "category": "directo"
+    },
+    "adisleando": {
+      "title": "ADISLEANDO",
+      "category": "directo"
+    },
+    "mujeres-con-historia": {
+      "title": "MUJERES CON HISTORIA",
+      "category": "directo"
+    },
+    "garrido-rock": {
+      "title": "GARRIDO ROCK",
+      "category": "directo"
+    },
+    "voces-de-los-barrios": {
+      "title": "VOCES DE LOS BARRIOS",
+      "category": "directo"
+    },
+    "superviviente-aor": {
+      "title": "SUPERVIVIENTE AOR",
+      "category": "directo"
+    },
+    "el-especial-de-medianoche-q": {
+      "title": "EL ESPECIAL DE MEDIANOCHE (Q)",
+      "category": "especial"
+    },
+    "carne-cruda": {
+      "title": "CARNE CRUDA",
+      "category": "directo"
+    },
+    "punto-y-seguido-polibea": {
+      "title": "PUNTO Y SEGUIDO (POLIBEA)",
+      "category": "directo"
+    },
+    "africania": {
+      "title": "AFRICANÍA",
+      "category": "directo"
+    },
+    "el-rincon-pop": {
+      "title": "EL RINCON POP",
+      "category": "directo"
+    },
+    "la-tilde-de-cirvite": {
+      "title": "LA TILDE DE CIRVITE",
+      "category": "directo"
+    },
+    "enlace-senior": {
+      "title": "ENLACE SENIOR",
+      "category": "directo"
+    },
+    "musica-sideral": {
+      "title": "MÚSICA SIDERAL",
+      "category": "musica"
+    },
+    "palabras-hortalinas": {
+      "title": "PALABRAS HORTALINAS",
+      "category": "directo"
+    },
+    "surfeando-la-soledad": {
+      "title": "SURFEANDO LA SOLEDAD",
+      "category": "directo"
+    },
+    "otra-semana-musical": {
+      "title": "OTRA SEMANA MUSICAL",
+      "category": "directo"
+    },
+    "el-refugio": {
+      "title": "EL REFUGIO",
+      "category": "directo"
+    },
+    "abraza-la-sonrisa-q": {
+      "title": "ABRAZA LA SONRISA (Q)",
+      "category": "directo"
+    },
+    "el-sastrecillo-de-gloucester": {
+      "title": "EL SASTRECILLO DE GLOUCESTER",
+      "category": "directo"
+    },
+    "los-recuerdos-del-unicornio": {
+      "title": "LOS RECUERDOS DEL UNICORNIO",
+      "category": "directo"
+    },
+    "la-buhardilla-del-bohemio": {
+      "title": "LA BUHARDILLA DEL BOHEMIO",
+      "category": "directo"
+    },
+    "asalto-final": {
+      "title": "ASALTO FINAL",
+      "category": "directo"
+    },
+    "tarde-entre-colegas": {
+      "title": "TARDE ENTRE COLEGAS",
+      "category": "directo"
+    },
+    "el-llavero": {
+      "title": "EL LLAVERO",
+      "category": "directo"
+    },
+    "musica-en-los-margenes": {
+      "title": "MÚSICA EN LOS MARGENES",
+      "category": "musica"
+    },
+    "pop-que-rock": {
+      "title": "POP QUE ROCK",
+      "category": "directo"
+    },
+    "las-imprescindibles-m": {
+      "title": "LAS IMPRESCINDIBLES (M)",
+      "category": "directo"
+    },
+    "el-jazzerrimo": {
+      "title": "EL JAZZERRIMO",
+      "category": "directo"
+    },
+    "roots-and-culture": {
+      "title": "ROOTS AND CULTURE",
+      "category": "directo"
+    },
+    "africa-pachanga": {
+      "title": "AFRICA PACHANGA",
+      "category": "directo"
+    },
+    "shark-attack": {
+      "title": "SHARK ATTACK",
+      "category": "directo"
+    },
+    "enlace-legal": {
+      "title": "ENLACE LEGAL",
+      "category": "directo"
+    },
+    "novedades-musicales": {
+      "title": "NOVEDADES MUSICALES",
+      "category": "directo"
+    },
+    "musicoterapia-y-medicina-natural": {
+      "title": "MUSICOTERAPIA Y MEDICINA NATURAL",
+      "category": "directo"
+    },
+    "enlace-informativo": {
+      "title": "ENLACE INFORMATIVO",
+      "category": "directo"
+    },
+    "restos-y-despojos": {
+      "title": "RESTOS Y DESPOJOS",
+      "category": "directo"
+    },
+    "cine-jabato": {
+      "title": "CINE JABATO",
+      "category": "directo"
+    },
+    "no-lo-veo": {
+      "title": "NO LO VEO",
+      "category": "directo"
+    },
+    "asi-suena-el-rock": {
+      "title": "ASI SUENA EL ROCK",
+      "category": "directo"
+    },
+    "la-radio-inclusiva": {
+      "title": "LA RADIO INCLUSIVA",
+      "category": "directo"
+    },
+    "etiqueta-negra": {
+      "title": "ETIQUETA NEGRA",
+      "category": "directo"
+    },
+    "a-ciencia-incierta-q": {
+      "title": "A CIENCIA INCIERTA (Q)",
+      "category": "directo"
+    },
+    "un-dia-cualquiera": {
+      "title": "UN DIA CUALQUIERA",
+      "category": "directo"
+    },
+    "punto-indefinido-q": {
+      "title": "PUNTO INDEFINIDO (Q)",
+      "category": "directo"
+    },
+    "gente-con-duende": {
+      "title": "GENTE CON DUENDE",
+      "category": "directo"
+    },
+    "el-elemento-subversivo": {
+      "title": "EL ELEMENTO SUBVERSIVO",
+      "category": "directo"
+    },
+    "la-alcoba-q": {
+      "title": "LA ALCOBA (Q)",
+      "category": "directo"
+    },
+    "las-calles-del-pop": {
+      "title": "LAS CALLES DEL POP",
+      "category": "directo"
+    },
+    "entre-katrinas": {
+      "title": "ENTRE KATRINAS",
+      "category": "directo"
+    },
+    "el-caldero-magico": {
+      "title": "EL CALDERO MÁGICO",
+      "category": "directo"
+    },
+    "la-radio-diversa": {
+      "title": "LA RADIO DIVERSA",
+      "category": "directo"
+    },
+    "otel-arizona": {
+      "title": "OTEL ARIZONA",
+      "category": "directo"
+    },
+    "radio-escuela": {
+      "title": "RADIO ESCUELA",
+      "category": "directo"
+    },
+    "fabulas-y-reflejos": {
+      "title": "FABULAS Y REFLEJOS",
+      "category": "directo"
+    },
+    "estacion-co-co": {
+      "title": "ESTACION CO CO",
+      "category": "directo"
+    },
+    "la-hora-del-carnaval": {
+      "title": "LA HORA DEL CARNAVAL",
+      "category": "directo"
+    },
+    "solos-ante-el-peligro": {
+      "title": "SOLOS ANTE EL PELIGRO",
+      "category": "directo"
+    },
+    "dandy-rock": {
+      "title": "DANDY ROCK",
+      "category": "directo"
+    },
+    "encuentados": {
+      "title": "ENCUENTADOS",
+      "category": "directo"
+    },
+    "distrito-033": {
+      "title": "DISTRITO 033",
+      "category": "directo"
+    },
+    "la-cara-b": {
+      "title": "LA CARA B",
+      "category": "directo"
+    },
+    "deseos-rodantes-m": {
+      "title": "DESEOS RODANTES (M)",
+      "category": "directo"
+    },
+    "stratosferia": {
+      "title": "STRATOSFERIA",
+      "category": "directo"
+    },
+    "pachanga-latina": {
+      "title": "PACHANGA LATINA",
+      "category": "directo"
+    },
+    "la-fortaleza-escondida": {
+      "title": "LA FORTALEZA ESCONDIDA",
+      "category": "directo"
+    },
+    "corsarios-del-metal": {
+      "title": "CORSARIOS DEL METAL",
+      "category": "directo"
+    }
+  },
+  "days": [
+    {
+      "day": "monday",
+      "label": "Lunes",
+      "programs": [
+        {
+          "start": "00:00",
+          "end": "07:00",
+          "show_id": "repeticion-programas",
+          "live": false
+        },
+        {
+          "start": "07:00",
+          "end": "09:00",
+          "show_id": "grupo-radioactivo-huerta-san-benito",
+          "live": false
+        },
+        {
+          "start": "09:00",
+          "end": "09:05",
+          "show_id": "un-verso-un-universo",
+          "live": false
+        },
+        {
+          "start": "11:00",
+          "end": "12:00",
+          "show_id": "la-voz-del-silencio",
+          "live": false
+        },
+        {
+          "start": "12:00",
+          "end": "13:00",
+          "show_id": "salsipuedes",
+          "live": false
+        },
+        {
+          "start": "13:00",
+          "end": "14:00",
+          "show_id": "mente-abierta-q",
+          "live": false
+        },
+        {
+          "start": "14:00",
+          "end": "15:00",
+          "show_id": "cuarto-trastero",
+          "live": false
+        },
+        {
+          "start": "16:00",
+          "end": "17:00",
+          "show_id": "baltico-en-las-ondas",
+          "live": false
+        },
+        {
+          "start": "17:00",
+          "end": "18:00",
+          "show_id": "un-dia-en-la-vida",
+          "live": false
+        },
+        {
+          "start": "18:00",
+          "end": "19:00",
+          "show_id": "somos-escuela",
+          "live": false
+        },
+        {
+          "start": "19:00",
+          "end": "20:00",
+          "show_id": "adisleando",
+          "live": false
+        },
+        {
+          "start": "20:00",
+          "end": "21:00",
+          "show_id": "mujeres-con-historia",
+          "live": false
+        },
+        {
+          "start": "21:00",
+          "end": "22:00",
+          "show_id": "garrido-rock",
+          "live": false
+        },
+        {
+          "start": "22:00",
+          "end": "22:30",
+          "show_id": "voces-de-los-barrios",
+          "live": false
+        },
+        {
+          "start": "22:30",
+          "end": "23:30",
+          "show_id": "superviviente-aor",
+          "live": false
+        },
+        {
+          "start": "23:30",
+          "end": "23:59",
+          "show_id": "el-especial-de-medianoche-q",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "tuesday",
+      "label": "Martes",
+      "programs": [
+        {
+          "start": "01:00",
+          "end": "08:00",
+          "show_id": "repeticion-programas",
+          "live": false
+        },
+        {
+          "start": "08:00",
+          "end": "09:00",
+          "show_id": "carne-cruda",
+          "live": false
+        },
+        {
+          "start": "09:00",
+          "end": "10:00",
+          "show_id": "punto-y-seguido-polibea",
+          "live": false
+        },
+        {
+          "start": "10:00",
+          "end": "11:00",
+          "show_id": "africania",
+          "live": false
+        },
+        {
+          "start": "11:00",
+          "end": "12:00",
+          "show_id": "el-rincon-pop",
+          "live": false
+        },
+        {
+          "start": "12:00",
+          "end": "13:00",
+          "show_id": "la-tilde-de-cirvite",
+          "live": false
+        },
+        {
+          "start": "13:00",
+          "end": "14:00",
+          "show_id": "enlace-senior",
+          "live": false
+        },
+        {
+          "start": "15:30",
+          "end": "17:00",
+          "show_id": "musica-sideral",
+          "live": false
+        },
+        {
+          "start": "17:00",
+          "end": "18:00",
+          "show_id": "palabras-hortalinas",
+          "live": false
+        },
+        {
+          "start": "18:00",
+          "end": "19:00",
+          "show_id": "surfeando-la-soledad",
+          "live": false
+        },
+        {
+          "start": "19:00",
+          "end": "20:00",
+          "show_id": "otra-semana-musical",
+          "live": false
+        },
+        {
+          "start": "20:00",
+          "end": "21:00",
+          "show_id": "el-refugio",
+          "live": false
+        },
+        {
+          "start": "21:00",
+          "end": "22:00",
+          "show_id": "abraza-la-sonrisa-q",
+          "live": false
+        },
+        {
+          "start": "22:00",
+          "end": "22:30",
+          "show_id": "voces-de-los-barrios",
+          "live": false
+        },
+        {
+          "start": "22:30",
+          "end": "23:30",
+          "show_id": "el-sastrecillo-de-gloucester",
+          "live": false
+        },
+        {
+          "start": "23:30",
+          "end": "23:59",
+          "show_id": "los-recuerdos-del-unicornio",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "wednesday",
+      "label": "Miércoles",
+      "programs": [
+        {
+          "start": "00:30",
+          "end": "08:00",
+          "show_id": "repeticion-programas",
+          "live": false
+        },
+        {
+          "start": "08:00",
+          "end": "09:00",
+          "show_id": "carne-cruda",
+          "live": false
+        },
+        {
+          "start": "09:00",
+          "end": "09:05",
+          "show_id": "un-verso-un-universo",
+          "live": false
+        },
+        {
+          "start": "11:30",
+          "end": "12:30",
+          "show_id": "la-buhardilla-del-bohemio",
+          "live": false
+        },
+        {
+          "start": "13:00",
+          "end": "14:00",
+          "show_id": "asalto-final",
+          "live": false
+        },
+        {
+          "start": "14:00",
+          "end": "15:00",
+          "show_id": "tarde-entre-colegas",
+          "live": false
+        },
+        {
+          "start": "15:00",
+          "end": "16:00",
+          "show_id": "el-llavero",
+          "live": false
+        },
+        {
+          "start": "17:00",
+          "end": "18:00",
+          "show_id": "un-dia-en-la-vida",
+          "live": false
+        },
+        {
+          "start": "18:00",
+          "end": "19:00",
+          "show_id": "musica-en-los-margenes",
+          "live": false
+        },
+        {
+          "start": "19:00",
+          "end": "20:00",
+          "show_id": "pop-que-rock",
+          "live": false
+        },
+        {
+          "start": "20:00",
+          "end": "21:00",
+          "show_id": "las-imprescindibles-m",
+          "live": false
+        },
+        {
+          "start": "21:00",
+          "end": "22:00",
+          "show_id": "el-jazzerrimo",
+          "live": false
+        },
+        {
+          "start": "22:00",
+          "end": "22:30",
+          "show_id": "voces-de-los-barrios",
+          "live": false
+        },
+        {
+          "start": "22:30",
+          "end": "23:30",
+          "show_id": "roots-and-culture",
+          "live": false
+        },
+        {
+          "start": "23:30",
+          "end": "23:59",
+          "show_id": "africa-pachanga",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "thursday",
+      "label": "Jueves",
+      "programs": [
+        {
+          "start": "00:00",
+          "end": "00:30",
+          "show_id": "africa-pachanga",
+          "live": false
+        },
+        {
+          "start": "00:30",
+          "end": "01:30",
+          "show_id": "shark-attack",
+          "live": false
+        },
+        {
+          "start": "02:30",
+          "end": "08:00",
+          "show_id": "repeticion-programas",
+          "live": false
+        },
+        {
+          "start": "08:00",
+          "end": "09:00",
+          "show_id": "carne-cruda",
+          "live": false
+        },
+        {
+          "start": "09:00",
+          "end": "09:05",
+          "show_id": "un-verso-un-universo",
+          "live": false
+        },
+        {
+          "start": "10:00",
+          "end": "11:00",
+          "show_id": "enlace-legal",
+          "live": false
+        },
+        {
+          "start": "12:00",
+          "end": "13:00",
+          "show_id": "novedades-musicales",
+          "live": false
+        },
+        {
+          "start": "14:00",
+          "end": "15:00",
+          "show_id": "africania",
+          "live": false
+        },
+        {
+          "start": "15:00",
+          "end": "16:00",
+          "show_id": "musicoterapia-y-medicina-natural",
+          "live": false
+        },
+        {
+          "start": "16:00",
+          "end": "17:00",
+          "show_id": "shark-attack",
+          "live": false
+        },
+        {
+          "start": "17:00",
+          "end": "19:00",
+          "show_id": "enlace-informativo",
+          "live": false
+        },
+        {
+          "start": "19:00",
+          "end": "20:00",
+          "show_id": "restos-y-despojos",
+          "live": false
+        },
+        {
+          "start": "20:00",
+          "end": "22:00",
+          "show_id": "cine-jabato",
+          "live": false
+        },
+        {
+          "start": "22:00",
+          "end": "22:30",
+          "show_id": "voces-de-los-barrios",
+          "live": false
+        },
+        {
+          "start": "22:30",
+          "end": "23:30",
+          "show_id": "no-lo-veo",
+          "live": false
+        },
+        {
+          "start": "23:30",
+          "end": "23:59",
+          "show_id": "asi-suena-el-rock",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "friday",
+      "label": "Viernes",
+      "programs": [
+        {
+          "start": "00:00",
+          "end": "01:00",
+          "show_id": "asi-suena-el-rock",
+          "live": false
+        },
+        {
+          "start": "01:00",
+          "end": "08:00",
+          "show_id": "repeticion-programas",
+          "live": false
+        },
+        {
+          "start": "08:00",
+          "end": "09:00",
+          "show_id": "carne-cruda",
+          "live": false
+        },
+        {
+          "start": "09:00",
+          "end": "09:05",
+          "show_id": "un-verso-un-universo",
+          "live": false
+        },
+        {
+          "start": "10:00",
+          "end": "11:00",
+          "show_id": "la-radio-inclusiva",
+          "live": false
+        },
+        {
+          "start": "12:00",
+          "end": "13:00",
+          "show_id": "etiqueta-negra",
+          "live": false
+        },
+        {
+          "start": "13:00",
+          "end": "14:00",
+          "show_id": "a-ciencia-incierta-q",
+          "live": false
+        },
+        {
+          "start": "15:00",
+          "end": "16:00",
+          "show_id": "un-dia-cualquiera",
+          "live": false
+        },
+        {
+          "start": "16:00",
+          "end": "17:00",
+          "show_id": "punto-indefinido-q",
+          "live": false
+        },
+        {
+          "start": "17:00",
+          "end": "18:00",
+          "show_id": "un-dia-en-la-vida",
+          "live": false
+        },
+        {
+          "start": "18:00",
+          "end": "19:00",
+          "show_id": "gente-con-duende",
+          "live": false
+        },
+        {
+          "start": "19:00",
+          "end": "20:00",
+          "show_id": "el-elemento-subversivo",
+          "live": false
+        },
+        {
+          "start": "20:00",
+          "end": "21:00",
+          "show_id": "la-alcoba-q",
+          "live": false
+        },
+        {
+          "start": "21:00",
+          "end": "22:00",
+          "show_id": "las-calles-del-pop",
+          "live": false
+        },
+        {
+          "start": "22:00",
+          "end": "22:30",
+          "show_id": "voces-de-los-barrios",
+          "live": false
+        },
+        {
+          "start": "22:30",
+          "end": "23:30",
+          "show_id": "entre-katrinas",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "saturday",
+      "label": "Sábado",
+      "programs": [
+        {
+          "start": "00:30",
+          "end": "01:30",
+          "show_id": "el-caldero-magico",
+          "live": false
+        },
+        {
+          "start": "01:30",
+          "end": "07:00",
+          "show_id": "repeticion-programas",
+          "live": false
+        },
+        {
+          "start": "07:00",
+          "end": "08:00",
+          "show_id": "repeticion-programas",
+          "live": false
+        },
+        {
+          "start": "08:00",
+          "end": "09:00",
+          "show_id": "enlace-informativo",
+          "live": false
+        },
+        {
+          "start": "09:00",
+          "end": "10:00",
+          "show_id": "la-radio-diversa",
+          "live": false
+        },
+        {
+          "start": "10:00",
+          "end": "11:00",
+          "show_id": "la-radio-inclusiva",
+          "live": false
+        },
+        {
+          "start": "12:30",
+          "end": "14:00",
+          "show_id": "otel-arizona",
+          "live": false
+        },
+        {
+          "start": "15:00",
+          "end": "16:00",
+          "show_id": "radio-escuela",
+          "live": false
+        },
+        {
+          "start": "16:00",
+          "end": "17:00",
+          "show_id": "punto-y-seguido-polibea",
+          "live": false
+        },
+        {
+          "start": "17:00",
+          "end": "18:00",
+          "show_id": "fabulas-y-reflejos",
+          "live": false
+        },
+        {
+          "start": "19:00",
+          "end": "20:00",
+          "show_id": "estacion-co-co",
+          "live": false
+        },
+        {
+          "start": "20:00",
+          "end": "21:00",
+          "show_id": "la-hora-del-carnaval",
+          "live": false
+        },
+        {
+          "start": "21:00",
+          "end": "22:00",
+          "show_id": "solos-ante-el-peligro",
+          "live": false
+        },
+        {
+          "start": "22:00",
+          "end": "23:00",
+          "show_id": "dandy-rock",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "sunday",
+      "label": "Domingo",
+      "programs": [
+        {
+          "start": "02:00",
+          "end": "06:00",
+          "show_id": "repeticion-programas",
+          "live": false
+        },
+        {
+          "start": "06:00",
+          "end": "07:00",
+          "show_id": "enlace-senior",
+          "live": false
+        },
+        {
+          "start": "07:00",
+          "end": "09:00",
+          "show_id": "grupo-radioactivo-huerta-san-benito",
+          "live": false
+        },
+        {
+          "start": "09:00",
+          "end": "10:00",
+          "show_id": "la-radio-diversa",
+          "live": false
+        },
+        {
+          "start": "10:00",
+          "end": "11:00",
+          "show_id": "la-radio-inclusiva",
+          "live": false
+        },
+        {
+          "start": "11:00",
+          "end": "12:00",
+          "show_id": "encuentados",
+          "live": false
+        },
+        {
+          "start": "12:00",
+          "end": "12:30",
+          "show_id": "distrito-033",
+          "live": false
+        },
+        {
+          "start": "14:30",
+          "end": "15:00",
+          "show_id": "la-cara-b",
+          "live": false
+        },
+        {
+          "start": "15:00",
+          "end": "16:00",
+          "show_id": "radio-escuela",
+          "live": false
+        },
+        {
+          "start": "16:00",
+          "end": "17:00",
+          "show_id": "deseos-rodantes-m",
+          "live": false
+        },
+        {
+          "start": "18:00",
+          "end": "19:00",
+          "show_id": "stratosferia",
+          "live": false
+        },
+        {
+          "start": "19:00",
+          "end": "20:00",
+          "show_id": "pachanga-latina",
+          "live": false
+        },
+        {
+          "start": "20:00",
+          "end": "21:00",
+          "show_id": "la-fortaleza-escondida",
+          "live": false
+        },
+        {
+          "start": "21:00",
+          "end": "23:00",
+          "show_id": "corsarios-del-metal",
+          "live": false
+        }
+      ]
+    }
+  ]
+}

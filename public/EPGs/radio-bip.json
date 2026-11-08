@@ -1,0 +1,248 @@
+{
+  "version": "2.0",
+  "station": "Radio Bip",
+  "station_id": 6,
+  "schedule_type": "weekly",
+  "timezone": "Europe/Paris",
+  "last_updated": "2026-11-08",
+  "source": "http://radiobip.fr/site/grille-programmes-radio-bip/",
+  "notes": "Generado automáticamente desde http://radiobip.fr/site/grille-programmes-radio-bip/ (snapshot 2026-11-08); revisar data/epg-report.json.",
+  "generator": "scripts/convert-raw-epg.mjs",
+  "metadata": {
+    "categories": {
+      "musica": "Música",
+      "directo": "Directo",
+      "podcast": "Podcast / repetición",
+      "especial": "Especial",
+      "taller": "Taller / educación"
+    },
+    "default_filler": {
+      "title": "Música",
+      "category": "musica"
+    }
+  },
+  "shows": {
+    "edition-informative-de-la-journee-direct": {
+      "title": "Edition Informative de la Journée – Direct",
+      "category": "directo"
+    },
+    "edition-informative-de-la-journee-rediffusion": {
+      "title": "Edition Informative de la Journée – Rediffusion",
+      "category": "podcast"
+    },
+    "ouvrons-la-caverne-rediffusion": {
+      "title": "Ouvrons la caverne – Rediffusion",
+      "category": "podcast"
+    },
+    "graffitis-sur-les-murs-du-silence-rediffusion": {
+      "title": "Graffitis sur les murs du silence – Rediffusion",
+      "category": "podcast"
+    },
+    "la-parole-et-le-chant-diffusion": {
+      "title": "LA PAROLE ET LE CHANT – Diffusion",
+      "category": "directo"
+    },
+    "graffitis-sur-les-murs-du-silence-direct": {
+      "title": "Graffitis sur les murs du silence – Direct",
+      "category": "directo"
+    },
+    "bla-bla-bla-lecture": {
+      "title": "Bla bla bla … lecture",
+      "category": "directo"
+    },
+    "les-coleres-du-vendredi-direct": {
+      "title": "Les colères du vendredi – Direct",
+      "category": "directo"
+    },
+    "les-coleres-du-vendredi-rediffusion": {
+      "title": "Les colères du vendredi – Rediffusion",
+      "category": "podcast"
+    },
+    "la-parole-et-le-chant-rediffusion": {
+      "title": "LA PAROLE ET LE CHANT – Rediffusion",
+      "category": "podcast"
+    }
+  },
+  "days": [
+    {
+      "day": "monday",
+      "label": "Lunes",
+      "programs": [
+        {
+          "start": "12:00",
+          "end": "12:30",
+          "show_id": "edition-informative-de-la-journee-direct",
+          "live": true
+        },
+        {
+          "start": "16:00",
+          "end": "16:30",
+          "show_id": "edition-informative-de-la-journee-rediffusion",
+          "live": false
+        },
+        {
+          "start": "17:00",
+          "end": "18:00",
+          "show_id": "ouvrons-la-caverne-rediffusion",
+          "live": false
+        },
+        {
+          "start": "18:00",
+          "end": "18:30",
+          "show_id": "edition-informative-de-la-journee-rediffusion",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "tuesday",
+      "label": "Martes",
+      "programs": [
+        {
+          "start": "12:00",
+          "end": "12:30",
+          "show_id": "edition-informative-de-la-journee-direct",
+          "live": true
+        },
+        {
+          "start": "16:00",
+          "end": "16:30",
+          "show_id": "edition-informative-de-la-journee-rediffusion",
+          "live": false
+        },
+        {
+          "start": "16:30",
+          "end": "18:00",
+          "show_id": "graffitis-sur-les-murs-du-silence-rediffusion",
+          "live": false
+        },
+        {
+          "start": "18:00",
+          "end": "18:30",
+          "show_id": "edition-informative-de-la-journee-rediffusion",
+          "live": false
+        },
+        {
+          "start": "20:30",
+          "end": "21:30",
+          "show_id": "la-parole-et-le-chant-diffusion",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "wednesday",
+      "label": "Miércoles",
+      "programs": [
+        {
+          "start": "12:00",
+          "end": "12:30",
+          "show_id": "edition-informative-de-la-journee-rediffusion",
+          "live": false
+        },
+        {
+          "start": "16:00",
+          "end": "16:30",
+          "show_id": "edition-informative-de-la-journee-rediffusion",
+          "live": false
+        },
+        {
+          "start": "18:00",
+          "end": "18:30",
+          "show_id": "edition-informative-de-la-journee-rediffusion",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "thursday",
+      "label": "Jueves",
+      "programs": [
+        {
+          "start": "12:00",
+          "end": "12:30",
+          "show_id": "edition-informative-de-la-journee-direct",
+          "live": true
+        },
+        {
+          "start": "16:00",
+          "end": "16:30",
+          "show_id": "edition-informative-de-la-journee-rediffusion",
+          "live": false
+        },
+        {
+          "start": "18:00",
+          "end": "18:30",
+          "show_id": "edition-informative-de-la-journee-rediffusion",
+          "live": false
+        },
+        {
+          "start": "18:30",
+          "end": "20:00",
+          "show_id": "graffitis-sur-les-murs-du-silence-direct",
+          "live": true
+        }
+      ]
+    },
+    {
+      "day": "friday",
+      "label": "Viernes",
+      "programs": [
+        {
+          "start": "12:00",
+          "end": "12:30",
+          "show_id": "edition-informative-de-la-journee-direct",
+          "live": true
+        },
+        {
+          "start": "16:00",
+          "end": "16:30",
+          "show_id": "edition-informative-de-la-journee-rediffusion",
+          "live": false
+        },
+        {
+          "start": "17:00",
+          "end": "18:00",
+          "show_id": "bla-bla-bla-lecture",
+          "live": false
+        },
+        {
+          "start": "18:00",
+          "end": "18:30",
+          "show_id": "edition-informative-de-la-journee-rediffusion",
+          "live": false
+        },
+        {
+          "start": "18:30",
+          "end": "20:00",
+          "show_id": "les-coleres-du-vendredi-direct",
+          "live": true
+        }
+      ]
+    },
+    {
+      "day": "saturday",
+      "label": "Sábado",
+      "programs": [
+        {
+          "start": "13:30",
+          "end": "15:00",
+          "show_id": "les-coleres-du-vendredi-rediffusion",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "sunday",
+      "label": "Domingo",
+      "programs": [
+        {
+          "start": "10:00",
+          "end": "11:00",
+          "show_id": "la-parole-et-le-chant-rediffusion",
+          "live": false
+        }
+      ]
+    }
+  ]
+}

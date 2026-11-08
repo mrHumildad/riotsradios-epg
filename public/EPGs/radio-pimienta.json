@@ -1,0 +1,796 @@
+{
+  "version": "2.0",
+  "station": "Radio Pimienta",
+  "station_id": 26,
+  "schedule_type": "weekly",
+  "timezone": "Europe/Madrid",
+  "last_updated": "2026-11-08",
+  "source": "https://www.radiopimienta.org/programacion/",
+  "notes": "Generado automáticamente desde https://www.radiopimienta.org/programacion/ (snapshot 2026-11-08); revisar data/epg-report.json.",
+  "generator": "scripts/convert-raw-epg.mjs",
+  "metadata": {
+    "categories": {
+      "musica": "Música",
+      "directo": "Directo",
+      "podcast": "Podcast / repetición",
+      "especial": "Especial",
+      "taller": "Taller / educación"
+    },
+    "default_filler": {
+      "title": "Música",
+      "category": "musica"
+    }
+  },
+  "shows": {
+    "la-linterna-de-diogenes": {
+      "title": "La linterna de Diógenes”",
+      "category": "directo"
+    },
+    "a-puertas-abiertas": {
+      "title": "A puertas abiertas”",
+      "category": "directo"
+    },
+    "informativo-internacional": {
+      "title": "Informativo Internacional”",
+      "category": "directo"
+    },
+    "informativo-contacto-sur": {
+      "title": "Informativo Contacto Sur”",
+      "category": "directo"
+    },
+    "musica": {
+      "title": "Música",
+      "category": "musica"
+    },
+    "quebrando-censuras": {
+      "title": "Quebrando censuras”",
+      "category": "directo"
+    },
+    "relatos-de-resistencia": {
+      "title": "Relatos de Resistencia”",
+      "category": "directo"
+    },
+    "el-otro-dia": {
+      "title": "El otro día”",
+      "category": "directo"
+    },
+    "sahara-desde-canarias": {
+      "title": "Sáhara desde Canarias”",
+      "category": "directo"
+    },
+    "cuba-informacion": {
+      "title": "Cuba Información”",
+      "category": "directo"
+    },
+    "el-canto-de-la-tripulacion": {
+      "title": "El Canto de la tripulación",
+      "category": "directo"
+    },
+    "nosotras-las-personas": {
+      "title": "Nosotras las personas”",
+      "category": "directo"
+    },
+    "la-era-del-600": {
+      "title": "La era del 600”",
+      "category": "directo"
+    },
+    "mucho-mas-que-rocarol": {
+      "title": "Mucho más que Rocarol”",
+      "category": "directo"
+    },
+    "pan-y-rosas-noticias-de-paz": {
+      "title": "Pan y Rosas Noticias de paz”",
+      "category": "directo"
+    },
+    "mar-de-fueguitos": {
+      "title": "Mar de Fueguitos”",
+      "category": "directo"
+    },
+    "encuentame-en-en-las-ondas": {
+      "title": "Encuéntame en en las ondas”",
+      "category": "directo"
+    },
+    "espacio-sin-fronteras": {
+      "title": "Espacio sin fronteras”",
+      "category": "directo"
+    },
+    "autoctonias": {
+      "title": "Autoctonías”",
+      "category": "directo"
+    },
+    "de-raiz-musica": {
+      "title": "De Raíz[*]/Música",
+      "category": "directo"
+    },
+    "de-raiz": {
+      "title": "De Raíz",
+      "category": "directo"
+    },
+    "acratador": {
+      "title": "Acratador",
+      "category": "directo"
+    },
+    "especiales-musica": {
+      "title": "Especiales[*] / Música",
+      "category": "directo"
+    },
+    "democracy-now-fin-de-semana": {
+      "title": "Democracy now!, fin de semana”",
+      "category": "directo"
+    }
+  },
+  "days": [
+    {
+      "day": "monday",
+      "label": "Lunes",
+      "programs": [
+        {
+          "start": "01:00",
+          "end": "03:00",
+          "show_id": "la-linterna-de-diogenes",
+          "live": false
+        },
+        {
+          "start": "03:00",
+          "end": "04:00",
+          "show_id": "a-puertas-abiertas",
+          "live": false
+        },
+        {
+          "start": "07:00",
+          "end": "07:30",
+          "show_id": "informativo-internacional",
+          "live": false
+        },
+        {
+          "start": "07:30",
+          "end": "08:30",
+          "show_id": "informativo-contacto-sur",
+          "live": false
+        },
+        {
+          "start": "08:30",
+          "end": "11:00",
+          "show_id": "informativo-contacto-sur",
+          "live": false
+        },
+        {
+          "start": "11:00",
+          "end": "12:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "12:00",
+          "end": "14:00",
+          "show_id": "quebrando-censuras",
+          "live": false
+        },
+        {
+          "start": "14:00",
+          "end": "14:30",
+          "show_id": "informativo-internacional",
+          "live": false
+        },
+        {
+          "start": "17:00",
+          "end": "18:00",
+          "show_id": "relatos-de-resistencia",
+          "live": false
+        },
+        {
+          "start": "18:00",
+          "end": "19:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "19:00",
+          "end": "20:00",
+          "show_id": "el-otro-dia",
+          "live": false
+        },
+        {
+          "start": "20:00",
+          "end": "21:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "21:00",
+          "end": "22:00",
+          "show_id": "sahara-desde-canarias",
+          "live": false
+        },
+        {
+          "start": "22:00",
+          "end": "23:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "23:00",
+          "end": "24:00",
+          "show_id": "musica",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "tuesday",
+      "label": "Martes",
+      "programs": [
+        {
+          "start": "01:00",
+          "end": "03:00",
+          "show_id": "la-linterna-de-diogenes",
+          "live": false
+        },
+        {
+          "start": "03:00",
+          "end": "04:00",
+          "show_id": "cuba-informacion",
+          "live": false
+        },
+        {
+          "start": "07:00",
+          "end": "07:30",
+          "show_id": "informativo-internacional",
+          "live": false
+        },
+        {
+          "start": "07:30",
+          "end": "08:30",
+          "show_id": "informativo-contacto-sur",
+          "live": false
+        },
+        {
+          "start": "08:30",
+          "end": "11:00",
+          "show_id": "informativo-contacto-sur",
+          "live": false
+        },
+        {
+          "start": "11:00",
+          "end": "12:00",
+          "show_id": "cuba-informacion",
+          "live": false
+        },
+        {
+          "start": "12:00",
+          "end": "14:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "14:00",
+          "end": "14:30",
+          "show_id": "informativo-internacional",
+          "live": false
+        },
+        {
+          "start": "17:00",
+          "end": "18:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "18:00",
+          "end": "19:00",
+          "show_id": "el-canto-de-la-tripulacion",
+          "live": false
+        },
+        {
+          "start": "19:00",
+          "end": "20:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "20:00",
+          "end": "21:00",
+          "show_id": "nosotras-las-personas",
+          "live": false
+        },
+        {
+          "start": "21:00",
+          "end": "22:00",
+          "show_id": "la-era-del-600",
+          "live": false
+        },
+        {
+          "start": "22:00",
+          "end": "23:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "23:00",
+          "end": "24:00",
+          "show_id": "mucho-mas-que-rocarol",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "wednesday",
+      "label": "Miércoles",
+      "programs": [
+        {
+          "start": "01:00",
+          "end": "03:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "03:00",
+          "end": "04:00",
+          "show_id": "relatos-de-resistencia",
+          "live": false
+        },
+        {
+          "start": "07:00",
+          "end": "07:30",
+          "show_id": "informativo-internacional",
+          "live": false
+        },
+        {
+          "start": "07:30",
+          "end": "08:30",
+          "show_id": "informativo-contacto-sur",
+          "live": false
+        },
+        {
+          "start": "08:30",
+          "end": "11:00",
+          "show_id": "informativo-contacto-sur",
+          "live": false
+        },
+        {
+          "start": "11:00",
+          "end": "12:00",
+          "show_id": "la-linterna-de-diogenes",
+          "live": false
+        },
+        {
+          "start": "12:00",
+          "end": "14:00",
+          "show_id": "pan-y-rosas-noticias-de-paz",
+          "live": false
+        },
+        {
+          "start": "14:00",
+          "end": "14:30",
+          "show_id": "informativo-internacional",
+          "live": false
+        },
+        {
+          "start": "17:00",
+          "end": "18:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "18:00",
+          "end": "19:00",
+          "show_id": "mar-de-fueguitos",
+          "live": false
+        },
+        {
+          "start": "19:00",
+          "end": "20:00",
+          "show_id": "el-otro-dia",
+          "live": false
+        },
+        {
+          "start": "20:00",
+          "end": "21:00",
+          "show_id": "encuentame-en-en-las-ondas",
+          "live": false
+        },
+        {
+          "start": "21:00",
+          "end": "22:00",
+          "show_id": "espacio-sin-fronteras",
+          "live": false
+        },
+        {
+          "start": "22:00",
+          "end": "23:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "23:00",
+          "end": "24:00",
+          "show_id": "musica",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "thursday",
+      "label": "Jueves",
+      "programs": [
+        {
+          "start": "01:00",
+          "end": "03:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "03:00",
+          "end": "04:00",
+          "show_id": "el-otro-dia",
+          "live": false
+        },
+        {
+          "start": "07:00",
+          "end": "07:30",
+          "show_id": "informativo-internacional",
+          "live": false
+        },
+        {
+          "start": "07:30",
+          "end": "08:30",
+          "show_id": "informativo-contacto-sur",
+          "live": false
+        },
+        {
+          "start": "08:30",
+          "end": "11:00",
+          "show_id": "informativo-contacto-sur",
+          "live": false
+        },
+        {
+          "start": "11:00",
+          "end": "12:00",
+          "show_id": "autoctonias",
+          "live": false
+        },
+        {
+          "start": "12:00",
+          "end": "14:00",
+          "show_id": "pan-y-rosas-noticias-de-paz",
+          "live": false
+        },
+        {
+          "start": "14:00",
+          "end": "14:30",
+          "show_id": "informativo-internacional",
+          "live": false
+        },
+        {
+          "start": "17:00",
+          "end": "18:00",
+          "show_id": "pan-y-rosas-noticias-de-paz",
+          "live": false
+        },
+        {
+          "start": "18:00",
+          "end": "19:00",
+          "show_id": "de-raiz-musica",
+          "live": false
+        },
+        {
+          "start": "19:00",
+          "end": "20:00",
+          "show_id": "de-raiz",
+          "live": false
+        },
+        {
+          "start": "20:00",
+          "end": "21:00",
+          "show_id": "quebrando-censuras",
+          "live": false
+        },
+        {
+          "start": "21:00",
+          "end": "22:00",
+          "show_id": "acratador",
+          "live": false
+        },
+        {
+          "start": "22:00",
+          "end": "23:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "23:00",
+          "end": "24:00",
+          "show_id": "mucho-mas-que-rocarol",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "friday",
+      "label": "Viernes",
+      "programs": [
+        {
+          "start": "01:00",
+          "end": "03:00",
+          "show_id": "encuentame-en-en-las-ondas",
+          "live": false
+        },
+        {
+          "start": "03:00",
+          "end": "04:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "07:00",
+          "end": "07:30",
+          "show_id": "informativo-internacional",
+          "live": false
+        },
+        {
+          "start": "07:30",
+          "end": "08:30",
+          "show_id": "informativo-contacto-sur",
+          "live": false
+        },
+        {
+          "start": "08:30",
+          "end": "11:00",
+          "show_id": "informativo-contacto-sur",
+          "live": false
+        },
+        {
+          "start": "11:00",
+          "end": "12:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "12:00",
+          "end": "14:00",
+          "show_id": "pan-y-rosas-noticias-de-paz",
+          "live": false
+        },
+        {
+          "start": "14:00",
+          "end": "14:30",
+          "show_id": "informativo-internacional",
+          "live": false
+        },
+        {
+          "start": "17:00",
+          "end": "18:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "18:00",
+          "end": "19:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "19:00",
+          "end": "20:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "20:00",
+          "end": "21:00",
+          "show_id": "la-linterna-de-diogenes",
+          "live": false
+        },
+        {
+          "start": "21:00",
+          "end": "22:00",
+          "show_id": "relatos-de-resistencia",
+          "live": false
+        },
+        {
+          "start": "22:00",
+          "end": "23:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "23:00",
+          "end": "24:00",
+          "show_id": "musica",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "saturday",
+      "label": "Sábado",
+      "programs": [
+        {
+          "start": "01:00",
+          "end": "03:00",
+          "show_id": "mucho-mas-que-rocarol",
+          "live": false
+        },
+        {
+          "start": "03:00",
+          "end": "04:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "07:00",
+          "end": "07:30",
+          "show_id": "informativo-internacional",
+          "live": false
+        },
+        {
+          "start": "07:30",
+          "end": "08:30",
+          "show_id": "informativo-contacto-sur",
+          "live": false
+        },
+        {
+          "start": "08:30",
+          "end": "11:00",
+          "show_id": "informativo-contacto-sur",
+          "live": false
+        },
+        {
+          "start": "11:00",
+          "end": "12:00",
+          "show_id": "especiales-musica",
+          "live": false
+        },
+        {
+          "start": "12:00",
+          "end": "14:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "14:00",
+          "end": "14:30",
+          "show_id": "informativo-internacional",
+          "live": false
+        },
+        {
+          "start": "17:00",
+          "end": "18:00",
+          "show_id": "democracy-now-fin-de-semana",
+          "live": false
+        },
+        {
+          "start": "18:00",
+          "end": "19:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "19:00",
+          "end": "20:00",
+          "show_id": "cuba-informacion",
+          "live": false
+        },
+        {
+          "start": "20:00",
+          "end": "21:00",
+          "show_id": "sahara-desde-canarias",
+          "live": false
+        },
+        {
+          "start": "21:00",
+          "end": "22:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "22:00",
+          "end": "23:00",
+          "show_id": "el-canto-de-la-tripulacion",
+          "live": false
+        },
+        {
+          "start": "23:00",
+          "end": "24:00",
+          "show_id": "a-puertas-abiertas",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "sunday",
+      "label": "Domingo",
+      "programs": [
+        {
+          "start": "01:00",
+          "end": "03:00",
+          "show_id": "nosotras-las-personas",
+          "live": false
+        },
+        {
+          "start": "03:00",
+          "end": "04:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "07:00",
+          "end": "07:30",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "07:30",
+          "end": "08:30",
+          "show_id": "informativo-contacto-sur",
+          "live": false
+        },
+        {
+          "start": "08:30",
+          "end": "11:00",
+          "show_id": "informativo-contacto-sur",
+          "live": false
+        },
+        {
+          "start": "11:00",
+          "end": "12:00",
+          "show_id": "autoctonias",
+          "live": false
+        },
+        {
+          "start": "12:00",
+          "end": "14:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "14:00",
+          "end": "14:30",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "17:00",
+          "end": "18:00",
+          "show_id": "democracy-now-fin-de-semana",
+          "live": false
+        },
+        {
+          "start": "18:00",
+          "end": "19:00",
+          "show_id": "especiales-musica",
+          "live": false
+        },
+        {
+          "start": "19:00",
+          "end": "20:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "20:00",
+          "end": "21:00",
+          "show_id": "encuentame-en-en-las-ondas",
+          "live": false
+        },
+        {
+          "start": "21:00",
+          "end": "22:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "22:00",
+          "end": "23:00",
+          "show_id": "mar-de-fueguitos",
+          "live": false
+        },
+        {
+          "start": "23:00",
+          "end": "24:00",
+          "show_id": "musica",
+          "live": false
+        }
+      ]
+    }
+  ]
+}

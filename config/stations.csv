@@ -1,0 +1,22 @@
+id,name,countrycode,timezone,homepage,epg_url,epg_file,enabled,mailto
+1,Radio Contrabanda,ES,Europe/Madrid,https://www.contrabanda.org/,https://www.contrabanda.org/programacio/,radio-contrabanda.json,true,contrabanda@contrabanda.org
+2,Radio Arrebato,ES,Europe/Madrid,https://www.radioarrebato.net/,https://www.radioarrebato.net/programacion/,radio-arrebato.json,true,
+3,Radio Ciroma,IT,Europe/Rome,https://ciroma.org/,https://ciroma.org/palinsesto.pdf,ciroma.json,true,
+4,Eguzki Irratia,ES,Europe/Madrid,https://eguzki.eus/,https://eguzki.eus/programacion/,eguzki-irratia.json,true,
+5,Radio Città Fujiko,IT,Europe/Rome,https://www.radiocittafujiko.it/,https://www.radiocittafujiko.it/palinsesto/,,true,
+6,Radio Bip,FR,Europe/Paris,https://radiobip.fr/site/,http://radiobip.fr/site/grille-programmes-radio-bip/,radio-bip.json,true,
+8,Radiofabrik,AT,Europe/Vienna,https://radiofabrik.at/,https://radiofabrik.at/programm/sendungen/,radiofabrik.json,true,
+10,Radio Pica,ES,Europe/Madrid,https://www.radiopica.cat/,https://www.radiopica.cat/graella.htm,radio-pica.json,true,
+11,Radio Enlace,ES,Europe/Madrid,https://www.radioenlace.org/,https://www.radioenlace.org/programacion/parrilla/,radio-enlace.json,true,
+14,Radio Malva,ES,Europe/Madrid,https://radiomalva.org/,https://radiomalva.org/programacion/,,true,
+15,Ké Huelga Radio,MX,America/Mexico_City,https://kehuelga.net/,https://kehuelga.net/article52,ke-huelga-radio.json,true,kehuelga@kehuelga.net
+17,Radio Libertaire,FR,Europe/Paris,https://radio-libertaire.org/,https://radio-libertaire.org/podcast/z_commun/tableau.php,radio-libertaire.json,true,
+18,Radio Topo,ES,Europe/Madrid,https://radiotopo.org/,https://www.radiotopo.org/parrilla-semanal/,radio-topo.json,true,
+20,Radio Utopía,ES,Europe/Madrid,https://radioutopia.org.es/,https://www.radioutopia.org.es/parrilla-2026/,radio-utopia.json,true,
+23,Radio Almaina,ES,Europe/Madrid,https://radioalmaina.org/,https://radioalmaina.org/programacion/,radio-almaina.json,true,
+26,Radio Pimienta,ES,Europe/Madrid,https://www.radiopimienta.org/,https://www.radiopimienta.org/programacion/,radio-pimienta.json,true,
+27,Radio Onda Rossa,IT,Europe/Rome,https://www.ondarossa.info/,https://www.ondarossa.info/palinsesto,radio-onda-rossa.json,true,
+29,Radio Blackout,IT,Europe/Rome,https://radioblackout.org/,https://radioblackout.org/palinsesto,radio-blackout.json,true,
+65,Ahijuna,AR,America/Argentina/Buenos_Aires,https://ahijuna.fm/,https://ahijuna.fm/programas/,ahijuna.json,true,radio@ahijuna.fm
+66,Alba Ciudad 96.3 FM,VE,America/Caracas,http://www.albaciudad.org,https://albaciudad.org/nuestros-programas/,alba-ciudad-96-3-fm.json,true,albaciudadfm@gmail.com
+124,FM La Boca,AR,America/Argentina/Buenos_Aires,https://fmlaboca.com.ar/,https://fmlaboca.com.ar/programacion/,fm-la-boca.json,true,

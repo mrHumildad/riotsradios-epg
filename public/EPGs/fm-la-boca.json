@@ -1,0 +1,1262 @@
+{
+  "version": "2.0",
+  "station": "FM La Boca",
+  "station_id": 124,
+  "schedule_type": "weekly",
+  "timezone": "America/Argentina/Buenos_Aires",
+  "last_updated": "2026-11-08",
+  "source": "https://fmlaboca.com.ar/programacion/",
+  "notes": "Generado automáticamente desde https://fmlaboca.com.ar/programacion/ (snapshot 2026-11-08); revisar data/epg-report.json.",
+  "generator": "scripts/convert-raw-epg.mjs",
+  "metadata": {
+    "categories": {
+      "musica": "Música",
+      "directo": "Directo",
+      "podcast": "Podcast / repetición",
+      "especial": "Especial",
+      "taller": "Taller / educación"
+    },
+    "default_filler": {
+      "title": "Música",
+      "category": "musica"
+    }
+  },
+  "shows": {
+    "musica": {
+      "title": "MÚSICA",
+      "category": "musica"
+    },
+    "semillas-en-la-ciudad": {
+      "title": "SEMILLAS EN LA CIUDAD",
+      "category": "directo"
+    },
+    "bichos-de-ciudad": {
+      "title": "BICHOS DE CIUDAD",
+      "category": "directo"
+    },
+    "otro-mundo": {
+      "title": "OTRO MUNDO",
+      "category": "directo"
+    },
+    "sudestada": {
+      "title": "SUDESTADA",
+      "category": "directo"
+    },
+    "que-sea-rock": {
+      "title": "QUE SEA ROCK",
+      "category": "directo"
+    },
+    "ya-lo-sabes": {
+      "title": "YA LO SABÉS",
+      "category": "directo"
+    },
+    "emociones": {
+      "title": "EMOCIONES",
+      "category": "directo"
+    },
+    "ciudad-en-circulo": {
+      "title": "CIUDAD EN CÍRCULO",
+      "category": "directo"
+    },
+    "que-semana": {
+      "title": "¡QUE SEMANA!",
+      "category": "directo"
+    },
+    "rodeado-de-buenos-aires": {
+      "title": "RODEADO DE BUENOS AIRES",
+      "category": "directo"
+    },
+    "rock-para-la-victoria": {
+      "title": "ROCK PARA LA VICTORIA",
+      "category": "directo"
+    },
+    "utopias-argentinas": {
+      "title": "UTOPIAS ARGENTINAS",
+      "category": "directo"
+    },
+    "suda-america": {
+      "title": "SUDA AMÉRICA",
+      "category": "directo"
+    },
+    "limados": {
+      "title": "LIMADOS",
+      "category": "directo"
+    },
+    "rompiendo-el-esquema": {
+      "title": "ROMPIENDO EL ESQUEMA",
+      "category": "directo"
+    },
+    "sin-salida": {
+      "title": "SIN SALIDA",
+      "category": "directo"
+    },
+    "mentes-paganas": {
+      "title": "MENTES PAGANAS",
+      "category": "directo"
+    },
+    "esquivando-el-exito": {
+      "title": "ESQUIVANDO EL EXITO",
+      "category": "directo"
+    },
+    "radiokupa": {
+      "title": "RADIOKUPA",
+      "category": "directo"
+    },
+    "raices-y-alas": {
+      "title": "RAÍCES Y ALAS",
+      "category": "directo"
+    },
+    "distorsionadas": {
+      "title": "DISTORSIONADAS",
+      "category": "directo"
+    },
+    "3-nocturno": {
+      "title": "3 NOCTURNO",
+      "category": "directo"
+    },
+    "rpv-rep": {
+      "title": "RPV (REP)",
+      "category": "directo"
+    },
+    "sala-de-prensa": {
+      "title": "SALA DE PRENSA",
+      "category": "directo"
+    },
+    "veteran-rock": {
+      "title": "VETERAN ROCK",
+      "category": "directo"
+    },
+    "coraje-ciudadano": {
+      "title": "CORAJE CIUDADANO",
+      "category": "directo"
+    },
+    "tres-de-copas": {
+      "title": "TRES DE COPAS",
+      "category": "directo"
+    },
+    "antes-que-nada": {
+      "title": "ANTES QUE NADA",
+      "category": "directo"
+    },
+    "cultura-frita": {
+      "title": "CULTURA FRITA",
+      "category": "directo"
+    },
+    "taxi-libre": {
+      "title": "TAXI LIBRE",
+      "category": "directo"
+    },
+    "perdidos-en-lima": {
+      "title": "PERDIDOS EN LIMA",
+      "category": "directo"
+    },
+    "activate": {
+      "title": "ACTIVATE",
+      "category": "directo"
+    },
+    "consumicidio": {
+      "title": "CONSUMICIDIO",
+      "category": "directo"
+    },
+    "guardia-con-la-joven": {
+      "title": "GUARDIA CON LA JOVEN",
+      "category": "directo"
+    },
+    "gente-comun": {
+      "title": "GENTE COMÚN",
+      "category": "directo"
+    },
+    "se-despierta-la-ciudad": {
+      "title": "SE DESPIERTA LA CIUDAD",
+      "category": "directo"
+    },
+    "rompecabezas": {
+      "title": "ROMPECABEZAS",
+      "category": "directo"
+    },
+    "como-un-perro": {
+      "title": "COMO UN PERRO",
+      "category": "directo"
+    },
+    "zona-de-barrios": {
+      "title": "ZONA DE BARRIOS",
+      "category": "directo"
+    },
+    "quiero-vale-4": {
+      "title": "QUIERO VALE 4",
+      "category": "directo"
+    },
+    "la-hora-del-rock": {
+      "title": "LA HORA DEL ROCK",
+      "category": "directo"
+    },
+    "doblando-la-esquina": {
+      "title": "DOBLANDO LA ESQUINA",
+      "category": "directo"
+    },
+    "cruzando-la-calle": {
+      "title": "CRUZANDO LA CALLE",
+      "category": "directo"
+    },
+    "mundos-paralelos": {
+      "title": "MUNDOS PARALELOS",
+      "category": "directo"
+    },
+    "un-espacio-para-todos": {
+      "title": "UN ESPACIO PARA TODOS",
+      "category": "directo"
+    }
+  },
+  "days": [
+    {
+      "day": "monday",
+      "label": "Lunes",
+      "programs": [
+        {
+          "start": "00:00",
+          "end": "01:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "01:00",
+          "end": "02:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "02:00",
+          "end": "03:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "03:00",
+          "end": "04:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "04:00",
+          "end": "05:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "05:00",
+          "end": "06:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "06:00",
+          "end": "07:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "07:00",
+          "end": "08:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "08:00",
+          "end": "09:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "09:00",
+          "end": "10:00",
+          "show_id": "semillas-en-la-ciudad",
+          "live": false
+        },
+        {
+          "start": "10:00",
+          "end": "11:00",
+          "show_id": "bichos-de-ciudad",
+          "live": false
+        },
+        {
+          "start": "11:00",
+          "end": "12:00",
+          "show_id": "otro-mundo",
+          "live": false
+        },
+        {
+          "start": "12:00",
+          "end": "13:00",
+          "show_id": "sudestada",
+          "live": false
+        },
+        {
+          "start": "13:00",
+          "end": "14:00",
+          "show_id": "que-sea-rock",
+          "live": false
+        },
+        {
+          "start": "14:00",
+          "end": "15:00",
+          "show_id": "que-sea-rock",
+          "live": false
+        },
+        {
+          "start": "15:00",
+          "end": "16:00",
+          "show_id": "que-sea-rock",
+          "live": false
+        },
+        {
+          "start": "16:00",
+          "end": "17:00",
+          "show_id": "que-sea-rock",
+          "live": false
+        },
+        {
+          "start": "17:00",
+          "end": "18:00",
+          "show_id": "que-sea-rock",
+          "live": false
+        },
+        {
+          "start": "18:00",
+          "end": "19:00",
+          "show_id": "ya-lo-sabes",
+          "live": false
+        },
+        {
+          "start": "19:00",
+          "end": "20:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "20:00",
+          "end": "21:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "21:00",
+          "end": "22:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "22:00",
+          "end": "23:00",
+          "show_id": "emociones",
+          "live": false
+        },
+        {
+          "start": "23:00",
+          "end": "24:00",
+          "show_id": "emociones",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "tuesday",
+      "label": "Martes",
+      "programs": [
+        {
+          "start": "00:00",
+          "end": "01:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "01:00",
+          "end": "02:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "02:00",
+          "end": "03:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "03:00",
+          "end": "04:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "04:00",
+          "end": "05:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "05:00",
+          "end": "06:00",
+          "show_id": "ciudad-en-circulo",
+          "live": false
+        },
+        {
+          "start": "06:00",
+          "end": "07:00",
+          "show_id": "que-semana",
+          "live": false
+        },
+        {
+          "start": "07:00",
+          "end": "08:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "08:00",
+          "end": "09:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "09:00",
+          "end": "10:00",
+          "show_id": "rodeado-de-buenos-aires",
+          "live": false
+        },
+        {
+          "start": "10:00",
+          "end": "11:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "11:00",
+          "end": "12:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "12:00",
+          "end": "13:00",
+          "show_id": "rock-para-la-victoria",
+          "live": false
+        },
+        {
+          "start": "13:00",
+          "end": "14:00",
+          "show_id": "que-sea-rock",
+          "live": false
+        },
+        {
+          "start": "14:00",
+          "end": "15:00",
+          "show_id": "que-sea-rock",
+          "live": false
+        },
+        {
+          "start": "15:00",
+          "end": "16:00",
+          "show_id": "que-sea-rock",
+          "live": false
+        },
+        {
+          "start": "16:00",
+          "end": "17:00",
+          "show_id": "que-sea-rock",
+          "live": false
+        },
+        {
+          "start": "17:00",
+          "end": "18:00",
+          "show_id": "que-sea-rock",
+          "live": false
+        },
+        {
+          "start": "18:00",
+          "end": "19:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "19:00",
+          "end": "20:00",
+          "show_id": "utopias-argentinas",
+          "live": false
+        },
+        {
+          "start": "20:00",
+          "end": "21:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "21:00",
+          "end": "22:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "22:00",
+          "end": "23:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "23:00",
+          "end": "24:00",
+          "show_id": "musica",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "wednesday",
+      "label": "Miércoles",
+      "programs": [
+        {
+          "start": "00:00",
+          "end": "01:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "01:00",
+          "end": "02:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "02:00",
+          "end": "03:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "03:00",
+          "end": "04:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "04:00",
+          "end": "05:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "05:00",
+          "end": "06:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "06:00",
+          "end": "07:00",
+          "show_id": "suda-america",
+          "live": false
+        },
+        {
+          "start": "07:00",
+          "end": "08:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "08:00",
+          "end": "09:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "09:00",
+          "end": "10:00",
+          "show_id": "limados",
+          "live": false
+        },
+        {
+          "start": "10:00",
+          "end": "11:00",
+          "show_id": "limados",
+          "live": false
+        },
+        {
+          "start": "11:00",
+          "end": "12:00",
+          "show_id": "rompiendo-el-esquema",
+          "live": false
+        },
+        {
+          "start": "12:00",
+          "end": "13:00",
+          "show_id": "sin-salida",
+          "live": false
+        },
+        {
+          "start": "13:00",
+          "end": "14:00",
+          "show_id": "que-sea-rock",
+          "live": false
+        },
+        {
+          "start": "14:00",
+          "end": "15:00",
+          "show_id": "que-sea-rock",
+          "live": false
+        },
+        {
+          "start": "15:00",
+          "end": "16:00",
+          "show_id": "que-sea-rock",
+          "live": false
+        },
+        {
+          "start": "16:00",
+          "end": "17:00",
+          "show_id": "que-sea-rock",
+          "live": false
+        },
+        {
+          "start": "17:00",
+          "end": "18:00",
+          "show_id": "que-sea-rock",
+          "live": false
+        },
+        {
+          "start": "18:00",
+          "end": "19:00",
+          "show_id": "mentes-paganas",
+          "live": false
+        },
+        {
+          "start": "19:00",
+          "end": "20:00",
+          "show_id": "mentes-paganas",
+          "live": false
+        },
+        {
+          "start": "20:00",
+          "end": "21:00",
+          "show_id": "esquivando-el-exito",
+          "live": false
+        },
+        {
+          "start": "21:00",
+          "end": "22:00",
+          "show_id": "radiokupa",
+          "live": false
+        },
+        {
+          "start": "22:00",
+          "end": "23:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "23:00",
+          "end": "24:00",
+          "show_id": "musica",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "thursday",
+      "label": "Jueves",
+      "programs": [
+        {
+          "start": "00:00",
+          "end": "01:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "01:00",
+          "end": "02:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "02:00",
+          "end": "03:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "03:00",
+          "end": "04:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "04:00",
+          "end": "05:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "05:00",
+          "end": "06:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "06:00",
+          "end": "07:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "07:00",
+          "end": "08:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "08:00",
+          "end": "09:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "09:00",
+          "end": "10:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "10:00",
+          "end": "11:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "11:00",
+          "end": "12:00",
+          "show_id": "raices-y-alas",
+          "live": false
+        },
+        {
+          "start": "12:00",
+          "end": "13:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "13:00",
+          "end": "14:00",
+          "show_id": "que-sea-rock",
+          "live": false
+        },
+        {
+          "start": "14:00",
+          "end": "15:00",
+          "show_id": "que-sea-rock",
+          "live": false
+        },
+        {
+          "start": "15:00",
+          "end": "16:00",
+          "show_id": "que-sea-rock",
+          "live": false
+        },
+        {
+          "start": "16:00",
+          "end": "17:00",
+          "show_id": "que-sea-rock",
+          "live": false
+        },
+        {
+          "start": "17:00",
+          "end": "18:00",
+          "show_id": "distorsionadas",
+          "live": false
+        },
+        {
+          "start": "18:00",
+          "end": "19:00",
+          "show_id": "distorsionadas",
+          "live": false
+        },
+        {
+          "start": "19:00",
+          "end": "20:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "20:00",
+          "end": "21:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "21:00",
+          "end": "22:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "22:00",
+          "end": "23:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "23:00",
+          "end": "24:00",
+          "show_id": "musica",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "friday",
+      "label": "Viernes",
+      "programs": [
+        {
+          "start": "00:00",
+          "end": "01:00",
+          "show_id": "3-nocturno",
+          "live": false
+        },
+        {
+          "start": "01:00",
+          "end": "02:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "02:00",
+          "end": "03:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "03:00",
+          "end": "04:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "04:00",
+          "end": "05:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "05:00",
+          "end": "06:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "06:00",
+          "end": "07:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "07:00",
+          "end": "08:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "08:00",
+          "end": "09:00",
+          "show_id": "rpv-rep",
+          "live": false
+        },
+        {
+          "start": "09:00",
+          "end": "10:00",
+          "show_id": "rpv-rep",
+          "live": false
+        },
+        {
+          "start": "10:00",
+          "end": "11:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "11:00",
+          "end": "12:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "12:00",
+          "end": "13:00",
+          "show_id": "sala-de-prensa",
+          "live": false
+        },
+        {
+          "start": "13:00",
+          "end": "14:00",
+          "show_id": "que-sea-rock",
+          "live": false
+        },
+        {
+          "start": "14:00",
+          "end": "15:00",
+          "show_id": "que-sea-rock",
+          "live": false
+        },
+        {
+          "start": "15:00",
+          "end": "16:00",
+          "show_id": "que-sea-rock",
+          "live": false
+        },
+        {
+          "start": "16:00",
+          "end": "17:00",
+          "show_id": "que-sea-rock",
+          "live": false
+        },
+        {
+          "start": "17:00",
+          "end": "18:00",
+          "show_id": "que-sea-rock",
+          "live": false
+        },
+        {
+          "start": "18:00",
+          "end": "19:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "19:00",
+          "end": "20:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "20:00",
+          "end": "21:00",
+          "show_id": "veteran-rock",
+          "live": false
+        },
+        {
+          "start": "21:00",
+          "end": "22:00",
+          "show_id": "veteran-rock",
+          "live": false
+        },
+        {
+          "start": "22:00",
+          "end": "23:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "23:00",
+          "end": "24:00",
+          "show_id": "musica",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "saturday",
+      "label": "Sábado",
+      "programs": [
+        {
+          "start": "00:00",
+          "end": "01:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "01:00",
+          "end": "02:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "02:00",
+          "end": "03:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "03:00",
+          "end": "04:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "04:00",
+          "end": "05:00",
+          "show_id": "coraje-ciudadano",
+          "live": false
+        },
+        {
+          "start": "05:00",
+          "end": "06:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "06:00",
+          "end": "07:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "07:00",
+          "end": "08:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "08:00",
+          "end": "09:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "09:00",
+          "end": "10:00",
+          "show_id": "tres-de-copas",
+          "live": false
+        },
+        {
+          "start": "10:00",
+          "end": "11:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "11:00",
+          "end": "12:00",
+          "show_id": "antes-que-nada",
+          "live": false
+        },
+        {
+          "start": "12:00",
+          "end": "13:00",
+          "show_id": "cultura-frita",
+          "live": false
+        },
+        {
+          "start": "13:00",
+          "end": "14:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "14:00",
+          "end": "15:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "15:00",
+          "end": "16:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "16:00",
+          "end": "17:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "17:00",
+          "end": "18:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "18:00",
+          "end": "19:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "19:00",
+          "end": "20:00",
+          "show_id": "taxi-libre",
+          "live": false
+        },
+        {
+          "start": "20:00",
+          "end": "21:00",
+          "show_id": "taxi-libre",
+          "live": false
+        },
+        {
+          "start": "21:00",
+          "end": "22:00",
+          "show_id": "taxi-libre",
+          "live": false
+        },
+        {
+          "start": "22:00",
+          "end": "23:00",
+          "show_id": "perdidos-en-lima",
+          "live": false
+        },
+        {
+          "start": "23:00",
+          "end": "24:00",
+          "show_id": "musica",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "sunday",
+      "label": "Domingo",
+      "programs": [
+        {
+          "start": "00:00",
+          "end": "01:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "01:00",
+          "end": "02:00",
+          "show_id": "activate",
+          "live": false
+        },
+        {
+          "start": "02:00",
+          "end": "03:00",
+          "show_id": "consumicidio",
+          "live": false
+        },
+        {
+          "start": "03:00",
+          "end": "04:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "04:00",
+          "end": "05:00",
+          "show_id": "guardia-con-la-joven",
+          "live": false
+        },
+        {
+          "start": "05:00",
+          "end": "06:00",
+          "show_id": "gente-comun",
+          "live": false
+        },
+        {
+          "start": "06:00",
+          "end": "07:00",
+          "show_id": "gente-comun",
+          "live": false
+        },
+        {
+          "start": "07:00",
+          "end": "08:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "08:00",
+          "end": "09:00",
+          "show_id": "se-despierta-la-ciudad",
+          "live": false
+        },
+        {
+          "start": "09:00",
+          "end": "10:00",
+          "show_id": "rompecabezas",
+          "live": false
+        },
+        {
+          "start": "10:00",
+          "end": "11:00",
+          "show_id": "como-un-perro",
+          "live": false
+        },
+        {
+          "start": "11:00",
+          "end": "12:00",
+          "show_id": "zona-de-barrios",
+          "live": false
+        },
+        {
+          "start": "12:00",
+          "end": "13:00",
+          "show_id": "quiero-vale-4",
+          "live": false
+        },
+        {
+          "start": "13:00",
+          "end": "14:00",
+          "show_id": "la-hora-del-rock",
+          "live": false
+        },
+        {
+          "start": "14:00",
+          "end": "15:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "15:00",
+          "end": "16:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "16:00",
+          "end": "17:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "17:00",
+          "end": "18:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "18:00",
+          "end": "19:00",
+          "show_id": "doblando-la-esquina",
+          "live": false
+        },
+        {
+          "start": "19:00",
+          "end": "20:00",
+          "show_id": "cruzando-la-calle",
+          "live": false
+        },
+        {
+          "start": "20:00",
+          "end": "21:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "21:00",
+          "end": "22:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "22:00",
+          "end": "23:00",
+          "show_id": "mundos-paralelos",
+          "live": false
+        },
+        {
+          "start": "23:00",
+          "end": "24:00",
+          "show_id": "un-espacio-para-todos",
+          "live": false
+        }
+      ]
+    }
+  ]
+}

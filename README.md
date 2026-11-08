@@ -1,0 +1,98 @@
+# riotsradios-epg
+
+EPG pipeline for [RIOTSRADIOS](https://github.com/mrHumildad/riotsradios). This
+repository owns source discovery, raw snapshots, HTML extraction, validation and
+the published guide files. The player only knows a station id and this repo's
+public base URL.
+
+## Layout
+
+```text
+config/stations.csv      station ids, sources, timezones and output files
+data/raw/                snapshot cache, never committed
+data/epg-report.json     per-station extraction report
+data/epg_sources.json    discovery sidecar
+docs/EPG-FORMAT.md       public EPG v2 format
+public/EPGs/             validated guides + manifest.json
+scripts/                 discovery, fetch, converter, validator, manifest
+```
+
+`public/EPGs/manifest.json` is the app-facing contract. It maps the app's
+station id to a guide file and only advertises guides that pass the publish
+policy:
+
+```json
+{
+  "version": 1,
+  "generated_at": "2026-11-08T21:00:00.000Z",
+  "stations": {
+    "1": {
+      "file": "radio-contrabanda.json",
+      "status": "ok",
+      "updated": "2026-11-08",
+      "days": 7,
+      "programs": 178
+    }
+  }
+}
+```
+
+Generated guides are canonical. `1.json` and `topo.json` were retired in favour
+of `radio-contrabanda.json` and `radio-topo.json`. `ciroma.json` is the only
+legacy guide kept: station 3 publishes a PDF, so there is no generated
+replacement yet; it is marked `status: "legacy"` in the manifest.
+
+Partial guides remain in the repository and report but are not published. If a
+source is a PDF or image, the converter reports it as unsupported instead of
+inventing a schedule.
+
+## Commands
+
+```bash
+python3 scripts/find_epg_urls.py --resume          # discover sources (dry run)
+python3 scripts/find_epg_urls.py --resume --write  # update config/stations.csv
+python3 scripts/fetch_epgs.py --max-age-hours 20   # download raw snapshots
+node scripts/convert-raw-epg.mjs                   # raw -> public/EPGs/*.json
+node scripts/validate-epgs.js                      # structural checks
+node scripts/build-manifest.mjs                    # write the manifest
+node scripts/build-manifest.mjs --check            # fail if it is stale
+npm test                                           # config + manifest tests
+```
+
+The pipeline has no npm dependencies. Python is stdlib-only; Playwright is
+optional and only used by `fetch_epgs.py --render`.
+
+## Config
+
+`config/stations.csv` is the EPG-side catalog. It must keep the app's station
+ids stable. It does not replace the app's `stations.csv`; it only carries what
+the EPG pipeline needs.
+
+| Column | Meaning |
+|---|---|
+| `id` | App station id. This is the manifest key. |
+| `name` | Human name used in reports and guides. |
+| `countrycode` | Language hint for extraction (`ES`, `IT`, `FR`, ...). |
+| `timezone` | IANA zone written into the guide. |
+| `homepage` | Site used by source discovery. |
+| `epg_url` | Exact schedule page or document. |
+| `epg_file` | Published file in `public/EPGs/`, or blank. |
+| `enabled` | `false` keeps the station out of the manifest. |
+| `mailto` | Optional contact written into the guide. |
+
+## Publishing policy
+
+A guide is published only when:
+
+1. its config row is enabled and names an existing file;
+2. its `station_id` matches the config id;
+3. the extraction report says `ok`, or it is an explicitly retained legacy
+   guide.
+
+Failures are visible in `data/epg-report.json`; they do not delete the previous
+good guide. Raw snapshots are cache, not source, and stay out of git.
+
+## Next phase
+
+The cron refresh, Pages publishing and the app's switch to the remote manifest
+are Phase 2/3 of the RIOTSRADIOS split.

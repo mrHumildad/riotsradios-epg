@@ -1,0 +1,552 @@
+{
+  "version": "2.0",
+  "station": "Ké Huelga Radio",
+  "station_id": 15,
+  "schedule_type": "weekly",
+  "timezone": "America/Mexico_City",
+  "last_updated": "2026-11-08",
+  "source": "https://kehuelga.net/article52",
+  "contact": "kehuelga@kehuelga.net",
+  "notes": "Generado automáticamente desde https://kehuelga.net/article52 (snapshot 2026-11-08); revisar data/epg-report.json.",
+  "generator": "scripts/convert-raw-epg.mjs",
+  "metadata": {
+    "categories": {
+      "musica": "Música",
+      "directo": "Directo",
+      "podcast": "Podcast / repetición",
+      "especial": "Especial",
+      "taller": "Taller / educación"
+    },
+    "default_filler": {
+      "title": "Música",
+      "category": "musica"
+    }
+  },
+  "shows": {
+    "musica": {
+      "title": "música",
+      "category": "musica"
+    },
+    "nebulosa": {
+      "title": "NebulosA",
+      "category": "directo"
+    },
+    "salvese-quien-pueda": {
+      "title": "¡Sálvese quien pueda!",
+      "category": "directo"
+    },
+    "voces-nuestras": {
+      "title": "Voces nuestras",
+      "category": "directo"
+    },
+    "radio-muuch-xiimbal": {
+      "title": "Radio Múuch’ Xíimbal",
+      "category": "directo"
+    },
+    "noticias-de-kurdistan": {
+      "title": "Noticias de Kurdistán",
+      "category": "directo"
+    },
+    "sonora-surena": {
+      "title": "Sonora sureña",
+      "category": "directo"
+    },
+    "alucines": {
+      "title": "alucines",
+      "category": "directo"
+    },
+    "la-otra-oreja": {
+      "title": "La Otra Oreja",
+      "category": "directo"
+    },
+    "ml-noticias-de-abajo": {
+      "title": "ML Noticias de Abajo",
+      "category": "directo"
+    },
+    "radio-bilingue": {
+      "title": "Radio Bilingüe",
+      "category": "directo"
+    },
+    "duermevela": {
+      "title": "Duermevela",
+      "category": "directo"
+    },
+    "la-fabrica-de-blues-y-rock": {
+      "title": "La fábrica de blues y rock",
+      "category": "directo"
+    },
+    "radio-jarochelo": {
+      "title": "Radio Jarochelo",
+      "category": "directo"
+    },
+    "cronicas-desde-el-otro-lado-del-charco": {
+      "title": "Crónicas desde el otro lado del charco",
+      "category": "directo"
+    },
+    "monterrey-de-los-pobres": {
+      "title": "Monterrey de los Pobres",
+      "category": "directo"
+    },
+    "otras": {
+      "title": "otras",
+      "category": "directo"
+    },
+    "lo-consegui-sonando": {
+      "title": "Lo conseguí soñando",
+      "category": "directo"
+    },
+    "cosmorama": {
+      "title": "Cosmorama",
+      "category": "directo"
+    },
+    "hierbas": {
+      "title": "hierbas",
+      "category": "directo"
+    },
+    "unete": {
+      "title": "únete",
+      "category": "directo"
+    },
+    "una-hora-de-pura-musica": {
+      "title": "Una hora de pura música",
+      "category": "directo"
+    },
+    "algo-huele-mal-en-dinamarca": {
+      "title": "Algo Huele Mal en Dinamarca",
+      "category": "directo"
+    },
+    "al-viaje": {
+      "title": "al viaje",
+      "category": "directo"
+    },
+    "desde-la-tormenta": {
+      "title": "Desde la tormenta",
+      "category": "directo"
+    },
+    "la-alegre-corchea-libertaria": {
+      "title": "La alegre corchea libertaria",
+      "category": "directo"
+    },
+    "seminario-de-marxismo-y-feminismo": {
+      "title": "Seminario de marxismo y feminismo",
+      "category": "directo"
+    }
+  },
+  "days": [
+    {
+      "day": "monday",
+      "label": "Lunes",
+      "programs": [
+        {
+          "start": "00:00",
+          "end": "08:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "08:00",
+          "end": "09:00",
+          "show_id": "nebulosa",
+          "live": false
+        },
+        {
+          "start": "11:00",
+          "end": "12:00",
+          "show_id": "salvese-quien-pueda",
+          "live": false
+        },
+        {
+          "start": "12:00",
+          "end": "13:00",
+          "show_id": "salvese-quien-pueda",
+          "live": false
+        },
+        {
+          "start": "13:00",
+          "end": "14:00",
+          "show_id": "voces-nuestras",
+          "live": false
+        },
+        {
+          "start": "14:00",
+          "end": "15:00",
+          "show_id": "radio-muuch-xiimbal",
+          "live": false
+        },
+        {
+          "start": "16:00",
+          "end": "17:00",
+          "show_id": "noticias-de-kurdistan",
+          "live": false
+        },
+        {
+          "start": "20:00",
+          "end": "21:00",
+          "show_id": "sonora-surena",
+          "live": false
+        },
+        {
+          "start": "21:00",
+          "end": "22:00",
+          "show_id": "sonora-surena",
+          "live": false
+        },
+        {
+          "start": "22:00",
+          "end": "23:00",
+          "show_id": "nebulosa",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "tuesday",
+      "label": "Martes",
+      "programs": [
+        {
+          "start": "00:00",
+          "end": "08:00",
+          "show_id": "alucines",
+          "live": false
+        },
+        {
+          "start": "08:00",
+          "end": "09:00",
+          "show_id": "nebulosa",
+          "live": false
+        },
+        {
+          "start": "10:00",
+          "end": "11:00",
+          "show_id": "la-otra-oreja",
+          "live": false
+        },
+        {
+          "start": "12:00",
+          "end": "13:00",
+          "show_id": "ml-noticias-de-abajo",
+          "live": false
+        },
+        {
+          "start": "15:00",
+          "end": "16:00",
+          "show_id": "radio-bilingue",
+          "live": false
+        },
+        {
+          "start": "17:00",
+          "end": "18:00",
+          "show_id": "duermevela",
+          "live": false
+        },
+        {
+          "start": "20:00",
+          "end": "21:00",
+          "show_id": "salvese-quien-pueda",
+          "live": false
+        },
+        {
+          "start": "21:00",
+          "end": "22:00",
+          "show_id": "salvese-quien-pueda",
+          "live": false
+        },
+        {
+          "start": "22:00",
+          "end": "23:00",
+          "show_id": "nebulosa",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "wednesday",
+      "label": "Miércoles",
+      "programs": [
+        {
+          "start": "08:00",
+          "end": "09:00",
+          "show_id": "nebulosa",
+          "live": false
+        },
+        {
+          "start": "11:00",
+          "end": "12:00",
+          "show_id": "salvese-quien-pueda",
+          "live": false
+        },
+        {
+          "start": "12:00",
+          "end": "13:00",
+          "show_id": "salvese-quien-pueda",
+          "live": false
+        },
+        {
+          "start": "14:00",
+          "end": "15:00",
+          "show_id": "la-fabrica-de-blues-y-rock",
+          "live": false
+        },
+        {
+          "start": "15:00",
+          "end": "16:00",
+          "show_id": "radio-jarochelo",
+          "live": false
+        },
+        {
+          "start": "16:00",
+          "end": "17:00",
+          "show_id": "cronicas-desde-el-otro-lado-del-charco",
+          "live": false
+        },
+        {
+          "start": "17:00",
+          "end": "18:00",
+          "show_id": "monterrey-de-los-pobres",
+          "live": false
+        },
+        {
+          "start": "22:00",
+          "end": "23:00",
+          "show_id": "nebulosa",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "thursday",
+      "label": "Jueves",
+      "programs": [
+        {
+          "start": "00:00",
+          "end": "08:00",
+          "show_id": "otras",
+          "live": false
+        },
+        {
+          "start": "08:00",
+          "end": "09:00",
+          "show_id": "nebulosa",
+          "live": false
+        },
+        {
+          "start": "10:00",
+          "end": "11:00",
+          "show_id": "la-otra-oreja",
+          "live": false
+        },
+        {
+          "start": "12:00",
+          "end": "13:00",
+          "show_id": "ml-noticias-de-abajo",
+          "live": false
+        },
+        {
+          "start": "14:00",
+          "end": "15:00",
+          "show_id": "lo-consegui-sonando",
+          "live": false
+        },
+        {
+          "start": "15:00",
+          "end": "16:00",
+          "show_id": "lo-consegui-sonando",
+          "live": false
+        },
+        {
+          "start": "18:00",
+          "end": "19:00",
+          "show_id": "duermevela",
+          "live": false
+        },
+        {
+          "start": "20:00",
+          "end": "21:00",
+          "show_id": "cosmorama",
+          "live": false
+        },
+        {
+          "start": "22:00",
+          "end": "23:00",
+          "show_id": "nebulosa",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "friday",
+      "label": "Viernes",
+      "programs": [
+        {
+          "start": "00:00",
+          "end": "08:00",
+          "show_id": "hierbas",
+          "live": false
+        },
+        {
+          "start": "08:00",
+          "end": "09:00",
+          "show_id": "nebulosa",
+          "live": false
+        },
+        {
+          "start": "11:00",
+          "end": "12:00",
+          "show_id": "salvese-quien-pueda",
+          "live": false
+        },
+        {
+          "start": "12:00",
+          "end": "13:00",
+          "show_id": "salvese-quien-pueda",
+          "live": false
+        },
+        {
+          "start": "13:00",
+          "end": "14:00",
+          "show_id": "radio-muuch-xiimbal",
+          "live": false
+        },
+        {
+          "start": "14:00",
+          "end": "15:00",
+          "show_id": "sonora-surena",
+          "live": false
+        },
+        {
+          "start": "15:00",
+          "end": "16:00",
+          "show_id": "sonora-surena",
+          "live": false
+        },
+        {
+          "start": "21:00",
+          "end": "22:00",
+          "show_id": "la-fabrica-de-blues-y-rock",
+          "live": false
+        },
+        {
+          "start": "22:00",
+          "end": "23:00",
+          "show_id": "nebulosa",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "saturday",
+      "label": "Sábado",
+      "programs": [
+        {
+          "start": "00:00",
+          "end": "08:00",
+          "show_id": "unete",
+          "live": false
+        },
+        {
+          "start": "09:00",
+          "end": "10:00",
+          "show_id": "nebulosa",
+          "live": false
+        },
+        {
+          "start": "11:00",
+          "end": "12:00",
+          "show_id": "cronicas-desde-el-otro-lado-del-charco",
+          "live": false
+        },
+        {
+          "start": "12:00",
+          "end": "13:00",
+          "show_id": "una-hora-de-pura-musica",
+          "live": false
+        },
+        {
+          "start": "13:00",
+          "end": "14:00",
+          "show_id": "algo-huele-mal-en-dinamarca",
+          "live": false
+        },
+        {
+          "start": "20:00",
+          "end": "21:00",
+          "show_id": "noticias-de-kurdistan",
+          "live": false
+        },
+        {
+          "start": "21:00",
+          "end": "22:00",
+          "show_id": "monterrey-de-los-pobres",
+          "live": false
+        },
+        {
+          "start": "22:00",
+          "end": "23:00",
+          "show_id": "nebulosa",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "sunday",
+      "label": "Domingo",
+      "programs": [
+        {
+          "start": "00:00",
+          "end": "08:00",
+          "show_id": "al-viaje",
+          "live": false
+        },
+        {
+          "start": "09:00",
+          "end": "10:00",
+          "show_id": "nebulosa",
+          "live": false
+        },
+        {
+          "start": "10:00",
+          "end": "11:00",
+          "show_id": "radio-jarochelo",
+          "live": false
+        },
+        {
+          "start": "12:00",
+          "end": "13:00",
+          "show_id": "desde-la-tormenta",
+          "live": false
+        },
+        {
+          "start": "14:00",
+          "end": "15:00",
+          "show_id": "la-alegre-corchea-libertaria",
+          "live": false
+        },
+        {
+          "start": "18:00",
+          "end": "19:00",
+          "show_id": "seminario-de-marxismo-y-feminismo",
+          "live": false
+        },
+        {
+          "start": "20:00",
+          "end": "21:00",
+          "show_id": "salvese-quien-pueda",
+          "live": false
+        },
+        {
+          "start": "21:00",
+          "end": "22:00",
+          "show_id": "salvese-quien-pueda",
+          "live": false
+        },
+        {
+          "start": "23:00",
+          "end": "00:00",
+          "show_id": "nebulosa",
+          "live": false,
+          "crosses_midnight": true
+        }
+      ]
+    }
+  ]
+}

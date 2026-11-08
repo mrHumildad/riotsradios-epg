@@ -1,0 +1,48 @@
+{
+  "version": "2.0",
+  "station": "STATION NAME HERE",
+  "station_id": 99,
+  "schedule_type": "weekly",
+  "timezone": "Europe/Madrid",
+  "last_updated": "2026-01-15",
+  "source": "https://yourstation.org/programacion",
+  "contact": "programacion@yourstation.org",
+  "notes": "Replace this with schedule notes, e.g., biweekly shows marked *",
+
+  "metadata": {
+    "categories": {
+      "musica": "Música (automatizada)",
+      "podcast": "Podcast / Reemisión",
+      "directo": "En vivo",
+      "especial": "Especial",
+      "taller": "Taller / Educación"
+    },
+    "default_filler": {
+      "title": "Música",
+      "category": "musica"
+    }
+  },
+
+  "shows": {
+    "show-id-here": {
+      "title": "Program Name",
+      "category": "directo",
+      "url": "https://yourstation.org/programa/program-name/",
+      "description": "Optional longer description",
+      "hosts": "Host Names",
+      "recurrence_note": "* Quincenal (cada dos semanas)"
+    }
+  },
+
+  "days": [
+    {
+      "day": "monday",
+      "label": "Lunes",
+      "programs": [
+        { "start": "00:00", "end": "02:00", "show_id": "show-id-here", "live": true },
+        { "start": "02:00", "end": "02:30", "title": "Música", "category": "musica" },
+{ "start": "23:00", "end": "00:00", "show_id": "show-id-here", "crosses_midnight": true, "live": true }
+       ]
+     }
+   ]
+ }

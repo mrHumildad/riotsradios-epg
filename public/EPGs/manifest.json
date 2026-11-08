@@ -1,0 +1,125 @@
+{
+  "version": 1,
+  "generated_at": "2026-11-08T21:33:30.608Z",
+  "stations": {
+    "1": {
+      "file": "radio-contrabanda.json",
+      "status": "ok",
+      "updated": "2026-11-08",
+      "days": 7,
+      "programs": 178
+    },
+    "2": {
+      "file": "radio-arrebato.json",
+      "status": "ok",
+      "updated": "2026-11-08",
+      "days": 5,
+      "programs": 120
+    },
+    "3": {
+      "file": "ciroma.json",
+      "status": "legacy",
+      "updated": "2023-12-28",
+      "days": 7,
+      "programs": 37
+    },
+    "4": {
+      "file": "eguzki-irratia.json",
+      "status": "ok",
+      "updated": "2026-11-08",
+      "days": 7,
+      "programs": 60
+    },
+    "6": {
+      "file": "radio-bip.json",
+      "status": "ok",
+      "updated": "2026-11-08",
+      "days": 7,
+      "programs": 23
+    },
+    "10": {
+      "file": "radio-pica.json",
+      "status": "ok",
+      "updated": "2026-11-08",
+      "days": 5,
+      "programs": 81
+    },
+    "11": {
+      "file": "radio-enlace.json",
+      "status": "ok",
+      "updated": "2026-11-08",
+      "days": 7,
+      "programs": 107
+    },
+    "15": {
+      "file": "ke-huelga-radio.json",
+      "status": "ok",
+      "updated": "2026-11-08",
+      "days": 7,
+      "programs": 62
+    },
+    "17": {
+      "file": "radio-libertaire.json",
+      "status": "ok",
+      "updated": "2026-11-08",
+      "days": 7,
+      "programs": 57
+    },
+    "18": {
+      "file": "radio-topo.json",
+      "status": "ok",
+      "updated": "2026-11-08",
+      "days": 7,
+      "programs": 150
+    },
+    "20": {
+      "file": "radio-utopia.json",
+      "status": "ok",
+      "updated": "2026-11-08",
+      "days": 7,
+      "programs": 46
+    },
+    "23": {
+      "file": "radio-almaina.json",
+      "status": "ok",
+      "updated": "2026-11-08",
+      "days": 7,
+      "programs": 135
+    },
+    "26": {
+      "file": "radio-pimienta.json",
+      "status": "ok",
+      "updated": "2026-11-08",
+      "days": 7,
+      "programs": 105
+    },
+    "27": {
+      "file": "radio-onda-rossa.json",
+      "status": "ok",
+      "updated": "2026-11-08",
+      "days": 7,
+      "programs": 79
+    },
+    "65": {
+      "file": "ahijuna.json",
+      "status": "ok",
+      "updated": "2026-11-08",
+      "days": 7,
+      "programs": 44
+    },
+    "66": {
+      "file": "alba-ciudad-96-3-fm.json",
+      "status": "ok",
+      "updated": "2026-11-08",
+      "days": 7,
+      "programs": 27
+    },
+    "124": {
+      "file": "fm-la-boca.json",
+      "status": "ok",
+      "updated": "2026-11-08",
+      "days": 7,
+      "programs": 168
+    }
+  }
+}

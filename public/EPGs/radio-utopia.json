@@ -1,0 +1,525 @@
+{
+  "version": "2.0",
+  "station": "Radio Utopía",
+  "station_id": 20,
+  "schedule_type": "weekly",
+  "timezone": "Europe/Madrid",
+  "last_updated": "2026-11-08",
+  "source": "https://www.radioutopia.org.es/parrilla-2026/",
+  "notes": "Generado automáticamente desde https://www.radioutopia.org.es/parrilla-2026/ (snapshot 2026-11-08); revisar data/epg-report.json.",
+  "generator": "scripts/convert-raw-epg.mjs",
+  "metadata": {
+    "categories": {
+      "musica": "Música",
+      "directo": "Directo",
+      "podcast": "Podcast / repetición",
+      "especial": "Especial",
+      "taller": "Taller / educación"
+    },
+    "default_filler": {
+      "title": "Música",
+      "category": "musica"
+    }
+  },
+  "shows": {
+    "mas-que-jazz": {
+      "title": "Más que Jazz",
+      "category": "directo"
+    },
+    "pequeno-ternasko": {
+      "title": "Pequeño Ternasko",
+      "category": "directo"
+    },
+    "los-mundos-de-utopia": {
+      "title": "Los Mundos de Utopía",
+      "category": "directo"
+    },
+    "es-lo-que-hay-sanse-quincenal": {
+      "title": "Es lo que hay Sanse (Quincenal)",
+      "category": "directo"
+    },
+    "la-pedalera": {
+      "title": "La Pedalera",
+      "category": "directo"
+    },
+    "rimas-y-acordes": {
+      "title": "Rimas y Acordes",
+      "category": "directo"
+    },
+    "atrevete-a-pensar": {
+      "title": "Atrévete a Pensar",
+      "category": "directo"
+    },
+    "mar-de-fueguitos": {
+      "title": "Mar de Fueguitos",
+      "category": "directo"
+    },
+    "trovador-urbano": {
+      "title": "Trovador Urbano",
+      "category": "directo"
+    },
+    "porque-nos-gusta-el-flamenco": {
+      "title": "Porque nos gusta el Flamenco",
+      "category": "directo"
+    },
+    "wentipas-contra-el-odio": {
+      "title": "Wentipas contra el odio",
+      "category": "directo"
+    },
+    "la-proxima-estacion": {
+      "title": "La Próxima Estación",
+      "category": "directo"
+    },
+    "de-raiz": {
+      "title": "De Raíz",
+      "category": "directo"
+    },
+    "4-gatos-al-fresco": {
+      "title": "4 Gatos al Fresco",
+      "category": "directo"
+    },
+    "musica-para-el-bunker": {
+      "title": "Música para el Búnker",
+      "category": "musica"
+    },
+    "viviendo-sobrios": {
+      "title": "Viviendo Sobrios",
+      "category": "directo"
+    },
+    "blowin-in-the-american-winds": {
+      "title": "Blowin´In The American Winds",
+      "category": "directo"
+    },
+    "la-vuelta-al-mundo-en-80-musicas": {
+      "title": "La vuelta al mundo en 80 músicas",
+      "category": "directo"
+    },
+    "frecuencias-femeninas": {
+      "title": "Frecuencias Femeninas",
+      "category": "directo"
+    },
+    "aires-celtas": {
+      "title": "Aires Celtas",
+      "category": "directo"
+    },
+    "las-puertas-del-infierno": {
+      "title": "Las Puertas del Infierno",
+      "category": "directo"
+    },
+    "tertulia-de-utopicos": {
+      "title": "Tertulia de Utópicos",
+      "category": "directo"
+    },
+    "el-confiscador-de-sonajeros": {
+      "title": "El confiscador de sonajeros",
+      "category": "directo"
+    },
+    "la-linterna-de-diogenes": {
+      "title": "La Linterna de Diógenes",
+      "category": "directo"
+    },
+    "profesor-chiflado": {
+      "title": "Profesor Chiflado",
+      "category": "directo"
+    },
+    "especiales-radionovelas-y-teatro-leido": {
+      "title": "Especiales, Radionovelas y Teatro Leído.",
+      "category": "directo"
+    },
+    "la-butaca-sonora": {
+      "title": "La Butaca Sonora",
+      "category": "directo"
+    },
+    "las-peliculas-de-la-jose": {
+      "title": "Las Películas de la José",
+      "category": "directo"
+    },
+    "olvida-tu-equipaje": {
+      "title": "Olvida tu equipaje",
+      "category": "directo"
+    },
+    "corazon-cerrado": {
+      "title": "Corazón cerrado",
+      "category": "directo"
+    },
+    "submundo-mensual": {
+      "title": "Submundo (Mensual)",
+      "category": "directo"
+    },
+    "alcosse": {
+      "title": "ALCOSSE",
+      "category": "directo"
+    },
+    "primera-segunda-y-tercera-semana-de-mes": {
+      "title": "Primera, segunda y tercera semana de mes",
+      "category": "directo"
+    },
+    "frecuencia-fantasma": {
+      "title": "Frecuencia Fantasma",
+      "category": "directo"
+    },
+    "descontrol-sonoro": {
+      "title": "Descontrol Sonoro",
+      "category": "directo"
+    },
+    "rocanroleando": {
+      "title": "Rocanroleando",
+      "category": "directo"
+    },
+    "coracao-lusofono": {
+      "title": "Coraçao Lusófono",
+      "category": "directo"
+    },
+    "planeta-musica": {
+      "title": "Planeta Música",
+      "category": "directo"
+    },
+    "ateneo-de-saberes": {
+      "title": "Ateneo de Saberes",
+      "category": "directo"
+    },
+    "pongamos-que-hablo-de-mensual": {
+      "title": "Pongamos que Hablo De…(Mensual)",
+      "category": "directo"
+    },
+    "rebobinando-quincenal": {
+      "title": "Rebobinando (Quincenal)",
+      "category": "directo"
+    },
+    "pioneros": {
+      "title": "Pioneros",
+      "category": "directo"
+    },
+    "otra-movida": {
+      "title": "Otra Movida",
+      "category": "directo"
+    },
+    "sobrevivir-al-descalabro-quincenal": {
+      "title": "Sobrevivir al Descalabro (Quincenal)",
+      "category": "directo"
+    }
+  },
+  "days": [
+    {
+      "day": "monday",
+      "label": "Lunes",
+      "programs": [
+        {
+          "start": "12:00",
+          "end": "13:00",
+          "show_id": "mas-que-jazz",
+          "live": false
+        },
+        {
+          "start": "14:00",
+          "end": "15:30",
+          "show_id": "pequeno-ternasko",
+          "live": false
+        },
+        {
+          "start": "17:00",
+          "end": "18:30",
+          "show_id": "los-mundos-de-utopia",
+          "live": false
+        },
+        {
+          "start": "18:30",
+          "end": "20:00",
+          "show_id": "es-lo-que-hay-sanse-quincenal",
+          "live": false
+        },
+        {
+          "start": "20:00",
+          "end": "22:30",
+          "show_id": "la-pedalera",
+          "live": false
+        },
+        {
+          "start": "23:00",
+          "end": "00:00",
+          "show_id": "rimas-y-acordes",
+          "live": false,
+          "crosses_midnight": true
+        }
+      ]
+    },
+    {
+      "day": "tuesday",
+      "label": "Martes",
+      "programs": [
+        {
+          "start": "13:00",
+          "end": "14:00",
+          "show_id": "atrevete-a-pensar",
+          "live": false
+        },
+        {
+          "start": "14:30",
+          "end": "15:30",
+          "show_id": "mar-de-fueguitos",
+          "live": false
+        },
+        {
+          "start": "16:00",
+          "end": "19:00",
+          "show_id": "trovador-urbano",
+          "live": false
+        },
+        {
+          "start": "19:00",
+          "end": "20:00",
+          "show_id": "porque-nos-gusta-el-flamenco",
+          "live": false
+        },
+        {
+          "start": "20:15",
+          "end": "21:15",
+          "show_id": "wentipas-contra-el-odio",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "wednesday",
+      "label": "Miércoles",
+      "programs": [
+        {
+          "start": "08:30",
+          "end": "11:00",
+          "show_id": "la-proxima-estacion",
+          "live": false
+        },
+        {
+          "start": "13:00",
+          "end": "15:30",
+          "show_id": "de-raiz",
+          "live": false
+        },
+        {
+          "start": "18:15",
+          "end": "19:15",
+          "show_id": "4-gatos-al-fresco",
+          "live": false
+        },
+        {
+          "start": "19:30",
+          "end": "21:00",
+          "show_id": "musica-para-el-bunker",
+          "live": false
+        },
+        {
+          "start": "21:15",
+          "end": "22:15",
+          "show_id": "viviendo-sobrios",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "thursday",
+      "label": "Jueves",
+      "programs": [
+        {
+          "start": "08:00",
+          "end": "09:30",
+          "show_id": "blowin-in-the-american-winds",
+          "live": false
+        },
+        {
+          "start": "09:30",
+          "end": "11:00",
+          "show_id": "la-vuelta-al-mundo-en-80-musicas",
+          "live": false
+        },
+        {
+          "start": "11:00",
+          "end": "12:00",
+          "show_id": "frecuencias-femeninas",
+          "live": false
+        },
+        {
+          "start": "14:30",
+          "end": "16:00",
+          "show_id": "aires-celtas",
+          "live": false
+        },
+        {
+          "start": "17:00",
+          "end": "18:30",
+          "show_id": "las-puertas-del-infierno",
+          "live": false
+        },
+        {
+          "start": "19:00",
+          "end": "20:30",
+          "show_id": "tertulia-de-utopicos",
+          "live": false
+        },
+        {
+          "start": "21:00",
+          "end": "22:30",
+          "show_id": "el-confiscador-de-sonajeros",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "friday",
+      "label": "Viernes",
+      "programs": [
+        {
+          "start": "08:00",
+          "end": "10:00",
+          "show_id": "la-linterna-de-diogenes",
+          "live": false
+        },
+        {
+          "start": "13:30",
+          "end": "14:30",
+          "show_id": "profesor-chiflado",
+          "live": false
+        },
+        {
+          "start": "16:00",
+          "end": "17:00",
+          "show_id": "especiales-radionovelas-y-teatro-leido",
+          "live": false
+        },
+        {
+          "start": "17:00",
+          "end": "18:00",
+          "show_id": "la-butaca-sonora",
+          "live": false
+        },
+        {
+          "start": "18:00",
+          "end": "19:00",
+          "show_id": "las-peliculas-de-la-jose",
+          "live": false
+        },
+        {
+          "start": "19:00",
+          "end": "20:30",
+          "show_id": "olvida-tu-equipaje",
+          "live": false
+        },
+        {
+          "start": "22:00",
+          "end": "00:00",
+          "show_id": "corazon-cerrado",
+          "live": false,
+          "crosses_midnight": true
+        }
+      ]
+    },
+    {
+      "day": "saturday",
+      "label": "Sábado",
+      "programs": [
+        {
+          "start": "00:00",
+          "end": "01:00",
+          "show_id": "submundo-mensual",
+          "live": false
+        },
+        {
+          "start": "08:30",
+          "end": "09:30",
+          "show_id": "alcosse",
+          "live": false
+        },
+        {
+          "start": "11:30",
+          "end": "14:00",
+          "show_id": "primera-segunda-y-tercera-semana-de-mes",
+          "live": false
+        },
+        {
+          "start": "16:00",
+          "end": "17:00",
+          "show_id": "especiales-radionovelas-y-teatro-leido",
+          "live": false
+        },
+        {
+          "start": "17:00",
+          "end": "19:00",
+          "show_id": "frecuencia-fantasma",
+          "live": false
+        },
+        {
+          "start": "19:00",
+          "end": "20:00",
+          "show_id": "descontrol-sonoro",
+          "live": false
+        },
+        {
+          "start": "20:30",
+          "end": "21:30",
+          "show_id": "rocanroleando",
+          "live": false
+        },
+        {
+          "start": "22:30",
+          "end": "23:30",
+          "show_id": "coracao-lusofono",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "sunday",
+      "label": "Domingo",
+      "programs": [
+        {
+          "start": "00:00",
+          "end": "01:00",
+          "show_id": "planeta-musica",
+          "live": false
+        },
+        {
+          "start": "08:30",
+          "end": "10:00",
+          "show_id": "ateneo-de-saberes",
+          "live": false
+        },
+        {
+          "start": "10:00",
+          "end": "11:30",
+          "show_id": "pongamos-que-hablo-de-mensual",
+          "live": false
+        },
+        {
+          "start": "12:00",
+          "end": "14:00",
+          "show_id": "rebobinando-quincenal",
+          "live": false
+        },
+        {
+          "start": "16:00",
+          "end": "17:00",
+          "show_id": "especiales-radionovelas-y-teatro-leido",
+          "live": false
+        },
+        {
+          "start": "17:00",
+          "end": "19:00",
+          "show_id": "pioneros",
+          "live": false
+        },
+        {
+          "start": "19:30",
+          "end": "20:30",
+          "show_id": "otra-movida",
+          "live": false
+        },
+        {
+          "start": "21:30",
+          "end": "00:00",
+          "show_id": "sobrevivir-al-descalabro-quincenal",
+          "live": false,
+          "crosses_midnight": true
+        }
+      ]
+    }
+  ]
+}

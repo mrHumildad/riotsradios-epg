@@ -1,0 +1,335 @@
+{
+  "version": "2.0",
+  "station": "Ciroma",
+  "station_id": 3,
+  "schedule_type": "weekly",
+  "timezone": "Europe/Rome",
+  "last_updated": "2023-12-28",
+  "notes": "Palinsesto 2023/24. (R) = replica. Gli spazi non indicati non hanno un programma nel palinsesto.",
+  "metadata": {
+    "categories": {
+      "informazione": "Informazione",
+      "cultura": "Cultura / Intrattenimento",
+      "musica": "Musica",
+      "live": "Musica dal vivo / Selezioni"
+    }
+  },
+  "shows": {
+    "alba": {
+      "title": "Alba",
+      "category": "live"
+    },
+    "yestardays-paper": {
+      "title": "Yestarday's Paper",
+      "category": "live"
+    },
+    "una-canzone-con-nonu": {
+      "title": "Una canzone con Nonù",
+      "category": "cultura"
+    },
+    "exit-from-brexit": {
+      "title": "Exit from Brexit",
+      "category": "musica"
+    },
+    "jailhouse-rock": {
+      "title": "Jailhouse Rock",
+      "category": "live"
+    },
+    "bande-rumorose": {
+      "title": "Bande Rumorose",
+      "category": "musica"
+    },
+    "god-saves-the-djs": {
+      "title": "God Saves the DJs",
+      "category": "musica"
+    },
+    "swipe-up-art": {
+      "title": "Swipe Up Art",
+      "category": "cultura"
+    },
+    "un-ponte-sulla-realta": {
+      "title": "Un ponte sulla realtà",
+      "category": "cultura"
+    },
+    "radio-sottobanco": {
+      "title": "Radio Sottobanco",
+      "category": "cultura"
+    },
+    "la-tana-dello-sport": {
+      "title": "La tana dello sport",
+      "category": "cultura"
+    },
+    "fuori-dal-bunker": {
+      "title": "Fuori dal bunker",
+      "category": "cultura"
+    },
+    "oltre-il-titolo": {
+      "title": "Oltre il titolo",
+      "category": "informazione"
+    },
+    "vinilika": {
+      "title": "Vinilika",
+      "category": "musica"
+    },
+    "reggaeolamose": {
+      "title": "Reggaeolamose",
+      "category": "live"
+    },
+    "52nd-street": {
+      "title": "52nd Street",
+      "category": "musica"
+    },
+    "should-i-stay-or-should-i-go": {
+      "title": "Should I Stay or Should I Go",
+      "category": "musica"
+    },
+    "fatti-gravissimi": {
+      "title": "Fatti gravissimi",
+      "category": "informazione"
+    },
+    "transmission": {
+      "title": "Transmission",
+      "category": "musica"
+    },
+    "33-33-e-33": {
+      "title": "33 33 e 33",
+      "category": "cultura"
+    }
+  },
+  "days": [
+    {
+      "day": "monday",
+      "label": "lunedì",
+      "programs": [
+        {
+          "start": "07:00",
+          "end": "07:30",
+          "show_id": "alba"
+        },
+        {
+          "start": "07:30",
+          "end": "08:00",
+          "show_id": "yestardays-paper"
+        },
+        {
+          "start": "08:00",
+          "end": "09:00",
+          "show_id": "una-canzone-con-nonu",
+          "category": "musica",
+          "recurrence_note": "Replica"
+        },
+        {
+          "start": "14:30",
+          "end": "15:30",
+          "show_id": "radio-sottobanco",
+          "recurrence_note": "Replica"
+        }
+      ]
+    },
+    {
+      "day": "tuesday",
+      "label": "martedì",
+      "programs": [
+        {
+          "start": "07:00",
+          "end": "07:30",
+          "show_id": "alba"
+        },
+        {
+          "start": "07:30",
+          "end": "08:00",
+          "show_id": "yestardays-paper"
+        },
+        {
+          "start": "08:00",
+          "end": "09:00",
+          "show_id": "exit-from-brexit",
+          "recurrence_note": "Replica"
+        },
+        {
+          "start": "14:00",
+          "end": "15:00",
+          "show_id": "fuori-dal-bunker"
+        },
+        {
+          "start": "19:00",
+          "end": "20:00",
+          "show_id": "fatti-gravissimi"
+        }
+      ]
+    },
+    {
+      "day": "wednesday",
+      "label": "mercoledì",
+      "programs": [
+        {
+          "start": "07:00",
+          "end": "07:30",
+          "show_id": "alba"
+        },
+        {
+          "start": "07:30",
+          "end": "08:00",
+          "show_id": "yestardays-paper"
+        },
+        {
+          "start": "08:00",
+          "end": "09:00",
+          "show_id": "jailhouse-rock"
+        },
+        {
+          "start": "16:00",
+          "end": "16:30",
+          "show_id": "oltre-il-titolo"
+        },
+        {
+          "start": "19:00",
+          "end": "20:00",
+          "show_id": "bande-rumorose"
+        }
+      ]
+    },
+    {
+      "day": "thursday",
+      "label": "giovedì",
+      "programs": [
+        {
+          "start": "07:00",
+          "end": "07:30",
+          "show_id": "alba"
+        },
+        {
+          "start": "07:30",
+          "end": "08:00",
+          "show_id": "yestardays-paper"
+        },
+        {
+          "start": "08:00",
+          "end": "09:00",
+          "show_id": "bande-rumorose",
+          "recurrence_note": "Replica"
+        },
+        {
+          "start": "14:00",
+          "end": "15:00",
+          "show_id": "oltre-il-titolo",
+          "recurrence_note": "Replica"
+        },
+        {
+          "start": "18:00",
+          "end": "19:00",
+          "show_id": "52nd-street"
+        },
+        {
+          "start": "19:00",
+          "end": "20:00",
+          "show_id": "god-saves-the-djs"
+        },
+        {
+          "start": "20:00",
+          "end": "21:00",
+          "show_id": "transmission"
+        },
+        {
+          "start": "21:00",
+          "end": "22:00",
+          "show_id": "33-33-e-33"
+        }
+      ]
+    },
+    {
+      "day": "friday",
+      "label": "venerdì",
+      "programs": [
+        {
+          "start": "07:00",
+          "end": "07:30",
+          "show_id": "alba"
+        },
+        {
+          "start": "07:30",
+          "end": "08:00",
+          "show_id": "yestardays-paper"
+        },
+        {
+          "start": "08:00",
+          "end": "09:00",
+          "show_id": "god-saves-the-djs",
+          "recurrence_note": "Replica"
+        },
+        {
+          "start": "12:00",
+          "end": "13:00",
+          "show_id": "swipe-up-art"
+        },
+        {
+          "start": "13:00",
+          "end": "14:00",
+          "show_id": "la-tana-dello-sport"
+        },
+        {
+          "start": "15:00",
+          "end": "16:30",
+          "show_id": "vinilika"
+        },
+        {
+          "start": "18:00",
+          "end": "19:00",
+          "show_id": "should-i-stay-or-should-i-go"
+        },
+        {
+          "start": "19:00",
+          "end": "20:00",
+          "show_id": "exit-from-brexit"
+        }
+      ]
+    },
+    {
+      "day": "saturday",
+      "label": "sabato",
+      "programs": [
+        {
+          "start": "07:00",
+          "end": "07:30",
+          "show_id": "alba"
+        },
+        {
+          "start": "08:00",
+          "end": "09:00",
+          "show_id": "jailhouse-rock"
+        },
+        {
+          "start": "12:00",
+          "end": "13:00",
+          "show_id": "un-ponte-sulla-realta"
+        },
+        {
+          "start": "15:00",
+          "end": "16:30",
+          "show_id": "reggaeolamose"
+        }
+      ]
+    },
+    {
+      "day": "sunday",
+      "label": "domenica",
+      "programs": [
+        {
+          "start": "07:00",
+          "end": "07:30",
+          "show_id": "alba"
+        },
+        {
+          "start": "11:00",
+          "end": "12:00",
+          "show_id": "una-canzone-con-nonu"
+        },
+        {
+          "start": "12:00",
+          "end": "13:00",
+          "show_id": "radio-sottobanco"
+        }
+      ]
+    }
+  ]
+}

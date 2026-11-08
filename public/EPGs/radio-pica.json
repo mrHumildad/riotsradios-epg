@@ -1,0 +1,621 @@
+{
+  "version": "2.0",
+  "station": "Radio Pica",
+  "station_id": 10,
+  "schedule_type": "weekly",
+  "timezone": "Europe/Madrid",
+  "last_updated": "2026-11-08",
+  "source": "https://www.radiopica.cat/graella.htm",
+  "notes": "Generado automáticamente desde https://www.radiopica.cat/graella.htm (snapshot 2026-11-08); revisar data/epg-report.json.",
+  "generator": "scripts/convert-raw-epg.mjs",
+  "metadata": {
+    "categories": {
+      "musica": "Música",
+      "directo": "Directo",
+      "podcast": "Podcast / repetición",
+      "especial": "Especial",
+      "taller": "Taller / educación"
+    },
+    "default_filler": {
+      "title": "Música",
+      "category": "musica"
+    }
+  },
+  "shows": {
+    "punk": {
+      "title": "PUNK",
+      "category": "directo"
+    },
+    "descansar": {
+      "title": "DESCANSAR,",
+      "category": "directo"
+    },
+    "dona": {
+      "title": "DONA",
+      "category": "directo"
+    },
+    "ci-inici-de-la-programacio": {
+      "title": "cI.. INICI DE LA PROGRAMACIÓ",
+      "category": "directo"
+    },
+    "les": {
+      "title": "LES",
+      "category": "directo"
+    },
+    "global": {
+      "title": "GLOBAL",
+      "category": "directo"
+    },
+    "demesenlla": {
+      "title": "DEMÉSENLLÀ",
+      "category": "directo"
+    },
+    "el": {
+      "title": "EL",
+      "category": "directo"
+    },
+    "maximum": {
+      "title": "MAXIMUM",
+      "category": "directo"
+    },
+    "berlin": {
+      "title": "BERLIN",
+      "category": "directo"
+    },
+    "ciencia": {
+      "title": "CIENCIA",
+      "category": "directo"
+    },
+    "este-lado-de-la-tumba": {
+      "title": "ESTE LADO DE LA TUMBA",
+      "category": "directo"
+    },
+    "escarbat": {
+      "title": "ESCARBAT",
+      "category": "directo"
+    },
+    "otras": {
+      "title": "OTRAS",
+      "category": "directo"
+    },
+    "historia": {
+      "title": "HISTORIA",
+      "category": "directo"
+    },
+    "l-abocador": {
+      "title": "L´ABOCADOR",
+      "category": "directo"
+    },
+    "la": {
+      "title": "LA",
+      "category": "directo"
+    },
+    "baja": {
+      "title": "BAJA",
+      "category": "directo"
+    }
+  },
+  "days": [
+    {
+      "day": "monday",
+      "label": "Lunes",
+      "programs": [
+        {
+          "start": "01:00",
+          "end": "01:30",
+          "show_id": "punk",
+          "live": false
+        },
+        {
+          "start": "02:00",
+          "end": "02:30",
+          "show_id": "descansar",
+          "live": false
+        },
+        {
+          "start": "03:00",
+          "end": "03:30",
+          "show_id": "dona",
+          "live": false
+        },
+        {
+          "start": "06:00",
+          "end": "06:30",
+          "show_id": "punk",
+          "live": false
+        },
+        {
+          "start": "07:00",
+          "end": "07:30",
+          "show_id": "descansar",
+          "live": false
+        },
+        {
+          "start": "08:00",
+          "end": "08:30",
+          "show_id": "dona",
+          "live": false
+        },
+        {
+          "start": "11:00",
+          "end": "11:30",
+          "show_id": "punk",
+          "live": false
+        },
+        {
+          "start": "12:00",
+          "end": "12:30",
+          "show_id": "descansar",
+          "live": false
+        },
+        {
+          "start": "13:00",
+          "end": "13:30",
+          "show_id": "dona",
+          "live": false
+        },
+        {
+          "start": "14:00",
+          "end": "14:01",
+          "show_id": "ci-inici-de-la-programacio",
+          "live": false
+        },
+        {
+          "start": "15:00",
+          "end": "15:30",
+          "show_id": "punk",
+          "live": false
+        },
+        {
+          "start": "16:00",
+          "end": "16:30",
+          "show_id": "descansar",
+          "live": false
+        },
+        {
+          "start": "17:00",
+          "end": "17:30",
+          "show_id": "dona",
+          "live": false
+        },
+        {
+          "start": "20:00",
+          "end": "20:30",
+          "show_id": "punk",
+          "live": false
+        },
+        {
+          "start": "21:00",
+          "end": "21:30",
+          "show_id": "descansar",
+          "live": false
+        },
+        {
+          "start": "22:00",
+          "end": "22:30",
+          "show_id": "dona",
+          "live": false
+        },
+        {
+          "start": "23:00",
+          "end": "04:00",
+          "show_id": "les",
+          "live": false,
+          "crosses_midnight": true
+        }
+      ]
+    },
+    {
+      "day": "tuesday",
+      "label": "Martes",
+      "programs": [
+        {
+          "start": "01:00",
+          "end": "01:30",
+          "show_id": "global",
+          "live": false
+        },
+        {
+          "start": "02:00",
+          "end": "02:30",
+          "show_id": "demesenlla",
+          "live": false
+        },
+        {
+          "start": "03:00",
+          "end": "03:30",
+          "show_id": "demesenlla",
+          "live": false
+        },
+        {
+          "start": "06:00",
+          "end": "06:30",
+          "show_id": "global",
+          "live": false
+        },
+        {
+          "start": "07:00",
+          "end": "07:30",
+          "show_id": "demesenlla",
+          "live": false
+        },
+        {
+          "start": "08:00",
+          "end": "08:30",
+          "show_id": "demesenlla",
+          "live": false
+        },
+        {
+          "start": "11:00",
+          "end": "11:30",
+          "show_id": "global",
+          "live": false
+        },
+        {
+          "start": "12:00",
+          "end": "12:30",
+          "show_id": "demesenlla",
+          "live": false
+        },
+        {
+          "start": "13:00",
+          "end": "13:30",
+          "show_id": "demesenlla",
+          "live": false
+        },
+        {
+          "start": "15:00",
+          "end": "15:30",
+          "show_id": "global",
+          "live": false
+        },
+        {
+          "start": "16:00",
+          "end": "16:30",
+          "show_id": "demesenlla",
+          "live": false
+        },
+        {
+          "start": "17:00",
+          "end": "17:30",
+          "show_id": "demesenlla",
+          "live": false
+        },
+        {
+          "start": "20:00",
+          "end": "20:30",
+          "show_id": "global",
+          "live": false
+        },
+        {
+          "start": "21:00",
+          "end": "21:30",
+          "show_id": "demesenlla",
+          "live": false
+        },
+        {
+          "start": "22:00",
+          "end": "22:30",
+          "show_id": "demesenlla",
+          "live": false
+        },
+        {
+          "start": "23:00",
+          "end": "04:00",
+          "show_id": "el",
+          "live": false,
+          "crosses_midnight": true
+        }
+      ]
+    },
+    {
+      "day": "wednesday",
+      "label": "Miércoles",
+      "programs": [
+        {
+          "start": "01:00",
+          "end": "01:30",
+          "show_id": "maximum",
+          "live": false
+        },
+        {
+          "start": "02:00",
+          "end": "02:30",
+          "show_id": "berlin",
+          "live": false
+        },
+        {
+          "start": "03:00",
+          "end": "03:30",
+          "show_id": "ciencia",
+          "live": false
+        },
+        {
+          "start": "06:00",
+          "end": "06:30",
+          "show_id": "maximum",
+          "live": false
+        },
+        {
+          "start": "07:00",
+          "end": "07:30",
+          "show_id": "berlin",
+          "live": false
+        },
+        {
+          "start": "08:00",
+          "end": "08:30",
+          "show_id": "ciencia",
+          "live": false
+        },
+        {
+          "start": "11:00",
+          "end": "11:30",
+          "show_id": "maximum",
+          "live": false
+        },
+        {
+          "start": "12:00",
+          "end": "12:30",
+          "show_id": "berlin",
+          "live": false
+        },
+        {
+          "start": "13:00",
+          "end": "13:30",
+          "show_id": "ciencia",
+          "live": false
+        },
+        {
+          "start": "15:00",
+          "end": "15:30",
+          "show_id": "maximum",
+          "live": false
+        },
+        {
+          "start": "16:00",
+          "end": "16:30",
+          "show_id": "berlin",
+          "live": false
+        },
+        {
+          "start": "17:00",
+          "end": "17:30",
+          "show_id": "ciencia",
+          "live": false
+        },
+        {
+          "start": "20:00",
+          "end": "20:30",
+          "show_id": "maximum",
+          "live": false
+        },
+        {
+          "start": "21:00",
+          "end": "21:30",
+          "show_id": "berlin",
+          "live": false
+        },
+        {
+          "start": "22:00",
+          "end": "22:30",
+          "show_id": "ciencia",
+          "live": false
+        },
+        {
+          "start": "23:00",
+          "end": "04:00",
+          "show_id": "este-lado-de-la-tumba",
+          "live": false,
+          "crosses_midnight": true
+        }
+      ]
+    },
+    {
+      "day": "thursday",
+      "label": "Jueves",
+      "programs": [
+        {
+          "start": "01:00",
+          "end": "01:30",
+          "show_id": "escarbat",
+          "live": false
+        },
+        {
+          "start": "02:00",
+          "end": "02:30",
+          "show_id": "el",
+          "live": false
+        },
+        {
+          "start": "03:00",
+          "end": "03:30",
+          "show_id": "otras",
+          "live": false
+        },
+        {
+          "start": "06:00",
+          "end": "06:30",
+          "show_id": "escarbat",
+          "live": false
+        },
+        {
+          "start": "07:00",
+          "end": "07:30",
+          "show_id": "el",
+          "live": false
+        },
+        {
+          "start": "08:00",
+          "end": "08:30",
+          "show_id": "otras",
+          "live": false
+        },
+        {
+          "start": "11:00",
+          "end": "11:30",
+          "show_id": "escarbat",
+          "live": false
+        },
+        {
+          "start": "12:00",
+          "end": "12:30",
+          "show_id": "el",
+          "live": false
+        },
+        {
+          "start": "13:00",
+          "end": "13:30",
+          "show_id": "otras",
+          "live": false
+        },
+        {
+          "start": "15:00",
+          "end": "15:30",
+          "show_id": "escarbat",
+          "live": false
+        },
+        {
+          "start": "16:00",
+          "end": "16:30",
+          "show_id": "el",
+          "live": false
+        },
+        {
+          "start": "17:00",
+          "end": "17:30",
+          "show_id": "otras",
+          "live": false
+        },
+        {
+          "start": "20:00",
+          "end": "20:30",
+          "show_id": "escarbat",
+          "live": false
+        },
+        {
+          "start": "21:00",
+          "end": "21:30",
+          "show_id": "el",
+          "live": false
+        },
+        {
+          "start": "22:00",
+          "end": "22:30",
+          "show_id": "otras",
+          "live": false
+        },
+        {
+          "start": "23:00",
+          "end": "04:00",
+          "show_id": "historia",
+          "live": false,
+          "crosses_midnight": true
+        }
+      ]
+    },
+    {
+      "day": "friday",
+      "label": "Viernes",
+      "programs": [
+        {
+          "start": "01:00",
+          "end": "01:30",
+          "show_id": "l-abocador",
+          "live": false
+        },
+        {
+          "start": "02:00",
+          "end": "02:30",
+          "show_id": "la",
+          "live": false
+        },
+        {
+          "start": "03:00",
+          "end": "03:30",
+          "show_id": "baja",
+          "live": false
+        },
+        {
+          "start": "06:00",
+          "end": "06:30",
+          "show_id": "l-abocador",
+          "live": false
+        },
+        {
+          "start": "07:00",
+          "end": "07:30",
+          "show_id": "la",
+          "live": false
+        },
+        {
+          "start": "08:00",
+          "end": "08:30",
+          "show_id": "baja",
+          "live": false
+        },
+        {
+          "start": "11:00",
+          "end": "11:30",
+          "show_id": "l-abocador",
+          "live": false
+        },
+        {
+          "start": "12:00",
+          "end": "12:30",
+          "show_id": "la",
+          "live": false
+        },
+        {
+          "start": "13:00",
+          "end": "13:30",
+          "show_id": "baja",
+          "live": false
+        },
+        {
+          "start": "15:00",
+          "end": "15:30",
+          "show_id": "l-abocador",
+          "live": false
+        },
+        {
+          "start": "16:00",
+          "end": "16:30",
+          "show_id": "la",
+          "live": false
+        },
+        {
+          "start": "17:00",
+          "end": "17:30",
+          "show_id": "baja",
+          "live": false
+        },
+        {
+          "start": "20:00",
+          "end": "20:30",
+          "show_id": "l-abocador",
+          "live": false
+        },
+        {
+          "start": "21:00",
+          "end": "21:30",
+          "show_id": "la",
+          "live": false
+        },
+        {
+          "start": "22:00",
+          "end": "22:30",
+          "show_id": "baja",
+          "live": false
+        },
+        {
+          "start": "23:00",
+          "end": "04:00",
+          "show_id": "baja",
+          "live": false,
+          "crosses_midnight": true
+        }
+      ]
+    }
+  ]
+}

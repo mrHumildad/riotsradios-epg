@@ -1,0 +1,407 @@
+{
+  "version": "2.0",
+  "station": "Ahijuna",
+  "station_id": 65,
+  "schedule_type": "weekly",
+  "timezone": "America/Argentina/Buenos_Aires",
+  "last_updated": "2026-11-08",
+  "source": "https://ahijuna.fm/programas/",
+  "contact": "radio@ahijuna.fm",
+  "notes": "Generado automáticamente desde https://ahijuna.fm/programas/ (snapshot 2026-11-08); revisar data/epg-report.json.",
+  "generator": "scripts/convert-raw-epg.mjs",
+  "metadata": {
+    "categories": {
+      "musica": "Música",
+      "directo": "Directo",
+      "podcast": "Podcast / repetición",
+      "especial": "Especial",
+      "taller": "Taller / educación"
+    },
+    "default_filler": {
+      "title": "Música",
+      "category": "musica"
+    }
+  },
+  "shows": {
+    "buenas-tardes-china-conduccion-jairo-straccia-yamila-segovia": {
+      "title": "Buenas tardes China. Conducción: Jairo Straccia, Yamila Segovia y Déborah de Urieta.",
+      "category": "directo"
+    },
+    "loco-no-te-sobra-una-moneda-conduccion-pablo-martinez": {
+      "title": "Loco, ¿no te sobra una moneda? Conducción: Pablo Martínez.",
+      "category": "directo"
+    },
+    "la-patria-de-las-moscas-conduccion-pablo-ovin-desde-fm-en-tr": {
+      "title": "La Patria de las moscas. Conducción: Pablo Ovin desde FM En Tránsito.",
+      "category": "directo"
+    },
+    "fingiendo-demencia-conduccion-camila-belizan-y-fernando-mayo": {
+      "title": "Fingiendo demencia. Conducción: Camila Belizan y Fernando Mayorga desde FM La Uni en Polvorines.",
+      "category": "directo"
+    },
+    "hay-que-seguir-conduccion-jose-manuel-fernandez-desde-radio-": {
+      "title": "Hay que seguir. Conducción: José Manuel Fernández desde Radio Universidad en La Matanza.",
+      "category": "directo"
+    },
+    "al-carajo-informacion-politica-social-y-cultural-de-los-pueb": {
+      "title": "Al carajo. Información política, social y cultural de los pueblos de América del Sur, América Central y el Caribe.",
+      "category": "directo"
+    },
+    "con-cierto-sentido-el-programa-de-les-estudiantes-de-radio-d": {
+      "title": "Con cierto sentido. El programa de les estudiantes de radio de la Universidad Nacional de Quilmes.",
+      "category": "directo"
+    },
+    "manana-es-ayer-la-historia-del-rock-argentino-sus-origenes-y": {
+      "title": "Mañana es ayer. La historia del rock argentino, sus orígenes y evolución, musicalizado exclusivamente con vinilos.",
+      "category": "directo"
+    },
+    "tramas-el-ciclo-de-entrevistas-de-oscar-bosetti": {
+      "title": "Tramas. El ciclo de entrevistas de Oscar Bosetti.",
+      "category": "directo"
+    },
+    "mundo-hormiga-un-programa-de-la-cooperativa-huvaiti-dedicado": {
+      "title": "Mundo hormiga. Un programa de la Cooperativa Huvaiti dedicado a la economía social, solidaria, popular y comunitaria.",
+      "category": "directo"
+    },
+    "somos-grandes-un-programa-dedicado-a-las-personas-mayores-y-": {
+      "title": "Somos grandes. Un programa dedicado a las personas mayores y la lucha de jubilados y jubiladas. Conduce: Raquel Márquez.",
+      "category": "directo"
+    },
+    "vino-para-divulgar-el-programa-de-unq-radio-sobre-la-divulga": {
+      "title": "Vino para divulgar. El programa de UNQ Radio sobre la divulgación del conocimiento científico y cultural.",
+      "category": "directo"
+    },
+    "a-la-raiz-un-viaje-por-las-fusiones-musicales-las-expresione": {
+      "title": "A la raíz. Un viaje por las fusiones musicales, las expresiones folclóricas y los ritmos de la ciudad. Musicaliza: Ernesto Vera.",
+      "category": "directo"
+    },
+    "expreso-farco-las-radios-comunitarias-comparten-relatos-expe": {
+      "title": "Expreso FARCO. Las radios comunitarias comparten relatos, experiencias y noticias de todo el país.",
+      "category": "directo"
+    },
+    "revuelto-gramajo-un-plato-radial-que-combina-lecturas-cancio": {
+      "title": "Revuelto Gramajo. Un plato radial que combina lecturas, canciones y entrevistas de nuestra cultura.",
+      "category": "directo"
+    },
+    "agrandar-la-cancha-futbol-feminista-popular-y-disidente-para": {
+      "title": "Agrandar la cancha. Fútbol feminista, popular y disidente para que el juego se convierta en un espacio de goce.",
+      "category": "directo"
+    },
+    "nunca-detendran-la-primavera-la-memoria-de-latinoamerica-sus": {
+      "title": "Nunca detendrán la primavera. La memoria de Latinoamérica, sus hechos y protagonistas.",
+      "category": "directo"
+    },
+    "luz-para-mundos-remotos-musica-y-artistas-que-dejaron-huella": {
+      "title": "Luz para mundos remotos. Música y artistas que dejaron huellas en todo el mundo.",
+      "category": "directo"
+    }
+  },
+  "days": [
+    {
+      "day": "monday",
+      "label": "Lunes",
+      "programs": [
+        {
+          "start": "06:00",
+          "end": "08:00",
+          "show_id": "buenas-tardes-china-conduccion-jairo-straccia-yamila-segovia",
+          "live": false
+        },
+        {
+          "start": "08:00",
+          "end": "10:00",
+          "show_id": "loco-no-te-sobra-una-moneda-conduccion-pablo-martinez",
+          "live": false
+        },
+        {
+          "start": "10:00",
+          "end": "13:00",
+          "show_id": "la-patria-de-las-moscas-conduccion-pablo-ovin-desde-fm-en-tr",
+          "live": false
+        },
+        {
+          "start": "13:00",
+          "end": "16:00",
+          "show_id": "fingiendo-demencia-conduccion-camila-belizan-y-fernando-mayo",
+          "live": false
+        },
+        {
+          "start": "16:00",
+          "end": "18:00",
+          "show_id": "hay-que-seguir-conduccion-jose-manuel-fernandez-desde-radio-",
+          "live": false
+        },
+        {
+          "start": "22:00",
+          "end": "23:00",
+          "show_id": "al-carajo-informacion-politica-social-y-cultural-de-los-pueb",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "tuesday",
+      "label": "Martes",
+      "programs": [
+        {
+          "start": "06:00",
+          "end": "08:00",
+          "show_id": "buenas-tardes-china-conduccion-jairo-straccia-yamila-segovia",
+          "live": false
+        },
+        {
+          "start": "08:00",
+          "end": "10:00",
+          "show_id": "loco-no-te-sobra-una-moneda-conduccion-pablo-martinez",
+          "live": false
+        },
+        {
+          "start": "10:00",
+          "end": "13:00",
+          "show_id": "la-patria-de-las-moscas-conduccion-pablo-ovin-desde-fm-en-tr",
+          "live": false
+        },
+        {
+          "start": "13:00",
+          "end": "16:00",
+          "show_id": "fingiendo-demencia-conduccion-camila-belizan-y-fernando-mayo",
+          "live": false
+        },
+        {
+          "start": "16:00",
+          "end": "18:00",
+          "show_id": "hay-que-seguir-conduccion-jose-manuel-fernandez-desde-radio-",
+          "live": false
+        },
+        {
+          "start": "20:00",
+          "end": "21:00",
+          "show_id": "con-cierto-sentido-el-programa-de-les-estudiantes-de-radio-d",
+          "live": false
+        },
+        {
+          "start": "22:00",
+          "end": "23:00",
+          "show_id": "manana-es-ayer-la-historia-del-rock-argentino-sus-origenes-y",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "wednesday",
+      "label": "Miércoles",
+      "programs": [
+        {
+          "start": "06:00",
+          "end": "08:00",
+          "show_id": "buenas-tardes-china-conduccion-jairo-straccia-yamila-segovia",
+          "live": false
+        },
+        {
+          "start": "08:00",
+          "end": "10:00",
+          "show_id": "loco-no-te-sobra-una-moneda-conduccion-pablo-martinez",
+          "live": false
+        },
+        {
+          "start": "10:00",
+          "end": "13:00",
+          "show_id": "la-patria-de-las-moscas-conduccion-pablo-ovin-desde-fm-en-tr",
+          "live": false
+        },
+        {
+          "start": "13:00",
+          "end": "16:00",
+          "show_id": "fingiendo-demencia-conduccion-camila-belizan-y-fernando-mayo",
+          "live": false
+        },
+        {
+          "start": "16:00",
+          "end": "18:00",
+          "show_id": "hay-que-seguir-conduccion-jose-manuel-fernandez-desde-radio-",
+          "live": false
+        },
+        {
+          "start": "20:00",
+          "end": "21:00",
+          "show_id": "tramas-el-ciclo-de-entrevistas-de-oscar-bosetti",
+          "live": false
+        },
+        {
+          "start": "21:00",
+          "end": "22:00",
+          "show_id": "mundo-hormiga-un-programa-de-la-cooperativa-huvaiti-dedicado",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "thursday",
+      "label": "Jueves",
+      "programs": [
+        {
+          "start": "06:00",
+          "end": "08:00",
+          "show_id": "buenas-tardes-china-conduccion-jairo-straccia-yamila-segovia",
+          "live": false
+        },
+        {
+          "start": "08:00",
+          "end": "10:00",
+          "show_id": "loco-no-te-sobra-una-moneda-conduccion-pablo-martinez",
+          "live": false
+        },
+        {
+          "start": "10:00",
+          "end": "13:00",
+          "show_id": "la-patria-de-las-moscas-conduccion-pablo-ovin-desde-fm-en-tr",
+          "live": false
+        },
+        {
+          "start": "13:00",
+          "end": "16:00",
+          "show_id": "fingiendo-demencia-conduccion-camila-belizan-y-fernando-mayo",
+          "live": false
+        },
+        {
+          "start": "16:00",
+          "end": "18:00",
+          "show_id": "hay-que-seguir-conduccion-jose-manuel-fernandez-desde-radio-",
+          "live": false
+        },
+        {
+          "start": "20:00",
+          "end": "21:00",
+          "show_id": "somos-grandes-un-programa-dedicado-a-las-personas-mayores-y-",
+          "live": false
+        },
+        {
+          "start": "21:00",
+          "end": "22:00",
+          "show_id": "vino-para-divulgar-el-programa-de-unq-radio-sobre-la-divulga",
+          "live": false
+        },
+        {
+          "start": "22:00",
+          "end": "23:00",
+          "show_id": "a-la-raiz-un-viaje-por-las-fusiones-musicales-las-expresione",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "friday",
+      "label": "Viernes",
+      "programs": [
+        {
+          "start": "06:00",
+          "end": "08:00",
+          "show_id": "buenas-tardes-china-conduccion-jairo-straccia-yamila-segovia",
+          "live": false
+        },
+        {
+          "start": "08:00",
+          "end": "10:00",
+          "show_id": "loco-no-te-sobra-una-moneda-conduccion-pablo-martinez",
+          "live": false
+        },
+        {
+          "start": "10:00",
+          "end": "13:00",
+          "show_id": "la-patria-de-las-moscas-conduccion-pablo-ovin-desde-fm-en-tr",
+          "live": false
+        },
+        {
+          "start": "13:00",
+          "end": "16:00",
+          "show_id": "fingiendo-demencia-conduccion-camila-belizan-y-fernando-mayo",
+          "live": false
+        },
+        {
+          "start": "16:00",
+          "end": "18:00",
+          "show_id": "hay-que-seguir-conduccion-jose-manuel-fernandez-desde-radio-",
+          "live": false
+        },
+        {
+          "start": "20:00",
+          "end": "21:00",
+          "show_id": "expreso-farco-las-radios-comunitarias-comparten-relatos-expe",
+          "live": false
+        },
+        {
+          "start": "21:00",
+          "end": "22:00",
+          "show_id": "revuelto-gramajo-un-plato-radial-que-combina-lecturas-cancio",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "saturday",
+      "label": "Sábado",
+      "programs": [
+        {
+          "start": "09:00",
+          "end": "10:00",
+          "show_id": "expreso-farco-las-radios-comunitarias-comparten-relatos-expe",
+          "live": false
+        },
+        {
+          "start": "10:00",
+          "end": "11:00",
+          "show_id": "tramas-el-ciclo-de-entrevistas-de-oscar-bosetti",
+          "live": false
+        },
+        {
+          "start": "11:00",
+          "end": "12:00",
+          "show_id": "manana-es-ayer-la-historia-del-rock-argentino-sus-origenes-y",
+          "live": false
+        },
+        {
+          "start": "12:00",
+          "end": "13:00",
+          "show_id": "agrandar-la-cancha-futbol-feminista-popular-y-disidente-para",
+          "live": false
+        },
+        {
+          "start": "20:00",
+          "end": "21:00",
+          "show_id": "a-la-raiz-un-viaje-por-las-fusiones-musicales-las-expresione",
+          "live": false
+        },
+        {
+          "start": "21:00",
+          "end": "22:00",
+          "show_id": "nunca-detendran-la-primavera-la-memoria-de-latinoamerica-sus",
+          "live": false
+        },
+        {
+          "start": "22:00",
+          "end": "23:00",
+          "show_id": "luz-para-mundos-remotos-musica-y-artistas-que-dejaron-huella",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "sunday",
+      "label": "Domingo",
+      "programs": [
+        {
+          "start": "12:00",
+          "end": "13:00",
+          "show_id": "nunca-detendran-la-primavera-la-memoria-de-latinoamerica-sus",
+          "live": false
+        },
+        {
+          "start": "13:00",
+          "end": "14:00",
+          "show_id": "vino-para-divulgar-el-programa-de-unq-radio-sobre-la-divulga",
+          "live": false
+        }
+      ]
+    }
+  ]
+}

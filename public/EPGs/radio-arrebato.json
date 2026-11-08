@@ -1,0 +1,914 @@
+{
+  "version": "2.0",
+  "station": "Radio Arrebato",
+  "station_id": 2,
+  "schedule_type": "weekly",
+  "timezone": "Europe/Madrid",
+  "last_updated": "2026-11-08",
+  "source": "https://www.radioarrebato.net/programacion/",
+  "notes": "Generado automáticamente desde https://www.radioarrebato.net/programacion/ (snapshot 2026-11-08); revisar data/epg-report.json.",
+  "generator": "scripts/convert-raw-epg.mjs",
+  "metadata": {
+    "categories": {
+      "musica": "Música",
+      "directo": "Directo",
+      "podcast": "Podcast / repetición",
+      "especial": "Especial",
+      "taller": "Taller / educación"
+    },
+    "default_filler": {
+      "title": "Música",
+      "category": "musica"
+    }
+  },
+  "shows": {
+    "little-parrots-filologias-extranjeras": {
+      "title": "Little Parrots (Filologías extranjeras)",
+      "category": "directo"
+    },
+    "hablemos-de-cultura-cultura-y-politica": {
+      "title": "Hablemos de cultura (Cultura y política)",
+      "category": "directo"
+    },
+    "jazz-con-cosas-musical": {
+      "title": "Jazz con cosas (Musical)",
+      "category": "directo"
+    },
+    "martillo-metalico-metal": {
+      "title": "Martillo Metálico (Metal)",
+      "category": "directo"
+    },
+    "por-si-no-nos-vemos-luego-magazine": {
+      "title": "Por si no nos vemos luego… (Magazine)",
+      "category": "directo"
+    },
+    "math-is-in-the-air-mates": {
+      "title": "Math is in the Air (Mates)",
+      "category": "directo"
+    },
+    "la-briandahora-de-los-cuentos-lectura": {
+      "title": "La BriandaHora de los cuentos (Lectura)",
+      "category": "directo"
+    },
+    "por-si-te-ha-tocado-salud": {
+      "title": "Por si te ha tocado (Salud)",
+      "category": "directo"
+    },
+    "el-camerino-cultura": {
+      "title": "El camerino (Cultura)",
+      "category": "directo"
+    },
+    "radio-tijuana-musica": {
+      "title": "Radio Tijuana (Música)",
+      "category": "directo"
+    },
+    "culturema-cultura": {
+      "title": "Culturema (Cultura)",
+      "category": "directo"
+    },
+    "despues-de-la-fiebre-del-oro-rock-roll": {
+      "title": "Después de la fiebre del oro (Rock & Roll)",
+      "category": "directo"
+    },
+    "hablemos-de-la-vida-bienestar": {
+      "title": "Hablemos de la vida (Bienestar)",
+      "category": "directo"
+    },
+    "guadalajara-verde-medio-ambiente": {
+      "title": "Guadalajara Verde (Medio ambiente)",
+      "category": "directo"
+    },
+    "esto-es-rock-rock": {
+      "title": "Esto es rock! (Rock)",
+      "category": "directo"
+    },
+    "el-alambique-musical-musica-tranquila": {
+      "title": "El alambique musical (Música tranquila)",
+      "category": "directo"
+    },
+    "desbloqueo-sociedad": {
+      "title": "Desbloqueo (Sociedad)",
+      "category": "directo"
+    },
+    "ruido-inocente-cultura": {
+      "title": "Ruido inocente (Cultura)",
+      "category": "directo"
+    },
+    "a-solas-con-la-vida-bienestar-emocional": {
+      "title": "A solas con la vida (Bienestar emocional)",
+      "category": "directo"
+    },
+    "via-publica-musica-y-cultura": {
+      "title": "Vía pública (Música y cultura)",
+      "category": "directo"
+    },
+    "cegado-por-la-luz-rock": {
+      "title": "Cegado por la luz (Rock)",
+      "category": "directo"
+    },
+    "sintonia-emocional-bienestar": {
+      "title": "Sintonía emocional (Bienestar)",
+      "category": "directo"
+    },
+    "en-la-nube-kinton-comic-y-anime": {
+      "title": "En la Nube Kinton (Cómic y anime)",
+      "category": "directo"
+    },
+    "altravesano-deportes": {
+      "title": "Altravesaño (Deportes)",
+      "category": "directo"
+    },
+    "mr-keneddy-rock-soul": {
+      "title": "Mr. Keneddy (Rock & Soul)",
+      "category": "directo"
+    },
+    "hora-libre": {
+      "title": "¡Hora libre!",
+      "category": "directo"
+    },
+    "conociendonos-tertulia": {
+      "title": "Conociéndonos (Tertulia)",
+      "category": "directo"
+    },
+    "o-para-el-mundo-actualidad-cultura-entretenimiento": {
+      "title": "O para el mundo (Actualidad/Cultura/Entretenimiento)",
+      "category": "directo"
+    },
+    "la-caja-de-bombones-actualidad": {
+      "title": "La caja de bombones (Actualidad)",
+      "category": "directo"
+    },
+    "folkeando-folklore": {
+      "title": "Folkeando (Folklore)",
+      "category": "directo"
+    },
+    "esto-no-es-como-lo-habiamos-sonado-musica": {
+      "title": "Esto no es como lo habíamos soñado (Música)",
+      "category": "directo"
+    },
+    "hablemos-cultura-y-educacion": {
+      "title": "Hablemos (Cultura y educación)",
+      "category": "directo"
+    },
+    "receta-campesina-musica-alternativa": {
+      "title": "Receta campesina (Música alternativa)",
+      "category": "directo"
+    },
+    "mezcolanza-musica": {
+      "title": "Mezcolanza (Música)",
+      "category": "directo"
+    }
+  },
+  "days": [
+    {
+      "day": "monday",
+      "label": "Lunes",
+      "programs": [
+        {
+          "start": "00:30",
+          "end": "01:30",
+          "show_id": "little-parrots-filologias-extranjeras",
+          "live": false
+        },
+        {
+          "start": "01:30",
+          "end": "02:30",
+          "show_id": "hablemos-de-cultura-cultura-y-politica",
+          "live": false
+        },
+        {
+          "start": "02:30",
+          "end": "03:30",
+          "show_id": "jazz-con-cosas-musical",
+          "live": false
+        },
+        {
+          "start": "03:30",
+          "end": "04:30",
+          "show_id": "martillo-metalico-metal",
+          "live": false
+        },
+        {
+          "start": "04:30",
+          "end": "05:30",
+          "show_id": "por-si-no-nos-vemos-luego-magazine",
+          "live": false
+        },
+        {
+          "start": "05:30",
+          "end": "06:30",
+          "show_id": "math-is-in-the-air-mates",
+          "live": false
+        },
+        {
+          "start": "06:30",
+          "end": "07:30",
+          "show_id": "la-briandahora-de-los-cuentos-lectura",
+          "live": false
+        },
+        {
+          "start": "07:30",
+          "end": "08:30",
+          "show_id": "little-parrots-filologias-extranjeras",
+          "live": false
+        },
+        {
+          "start": "08:30",
+          "end": "09:30",
+          "show_id": "hablemos-de-cultura-cultura-y-politica",
+          "live": false
+        },
+        {
+          "start": "09:30",
+          "end": "10:30",
+          "show_id": "jazz-con-cosas-musical",
+          "live": false
+        },
+        {
+          "start": "10:30",
+          "end": "11:30",
+          "show_id": "martillo-metalico-metal",
+          "live": false
+        },
+        {
+          "start": "11:30",
+          "end": "12:30",
+          "show_id": "por-si-no-nos-vemos-luego-magazine",
+          "live": false
+        },
+        {
+          "start": "12:30",
+          "end": "13:30",
+          "show_id": "math-is-in-the-air-mates",
+          "live": false
+        },
+        {
+          "start": "13:30",
+          "end": "14:30",
+          "show_id": "la-briandahora-de-los-cuentos-lectura",
+          "live": false
+        },
+        {
+          "start": "14:30",
+          "end": "15:30",
+          "show_id": "por-si-no-nos-vemos-luego-magazine",
+          "live": false
+        },
+        {
+          "start": "15:30",
+          "end": "16:30",
+          "show_id": "math-is-in-the-air-mates",
+          "live": false
+        },
+        {
+          "start": "16:30",
+          "end": "17:30",
+          "show_id": "la-briandahora-de-los-cuentos-lectura",
+          "live": false
+        },
+        {
+          "start": "17:30",
+          "end": "18:30",
+          "show_id": "little-parrots-filologias-extranjeras",
+          "live": false
+        },
+        {
+          "start": "18:30",
+          "end": "19:30",
+          "show_id": "hablemos-de-cultura-cultura-y-politica",
+          "live": false
+        },
+        {
+          "start": "19:30",
+          "end": "20:30",
+          "show_id": "jazz-con-cosas-musical",
+          "live": false
+        },
+        {
+          "start": "20:30",
+          "end": "21:30",
+          "show_id": "martillo-metalico-metal",
+          "live": false
+        },
+        {
+          "start": "21:30",
+          "end": "22:30",
+          "show_id": "por-si-no-nos-vemos-luego-magazine",
+          "live": false
+        },
+        {
+          "start": "22:30",
+          "end": "23:30",
+          "show_id": "math-is-in-the-air-mates",
+          "live": false
+        },
+        {
+          "start": "23:30",
+          "end": "24:00",
+          "show_id": "la-briandahora-de-los-cuentos-lectura",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "tuesday",
+      "label": "Martes",
+      "programs": [
+        {
+          "start": "00:30",
+          "end": "01:30",
+          "show_id": "por-si-te-ha-tocado-salud",
+          "live": false
+        },
+        {
+          "start": "01:30",
+          "end": "02:30",
+          "show_id": "el-camerino-cultura",
+          "live": false
+        },
+        {
+          "start": "02:30",
+          "end": "03:30",
+          "show_id": "radio-tijuana-musica",
+          "live": false
+        },
+        {
+          "start": "03:30",
+          "end": "04:30",
+          "show_id": "culturema-cultura",
+          "live": false
+        },
+        {
+          "start": "04:30",
+          "end": "05:30",
+          "show_id": "despues-de-la-fiebre-del-oro-rock-roll",
+          "live": false
+        },
+        {
+          "start": "05:30",
+          "end": "06:30",
+          "show_id": "hablemos-de-la-vida-bienestar",
+          "live": false
+        },
+        {
+          "start": "06:30",
+          "end": "07:30",
+          "show_id": "guadalajara-verde-medio-ambiente",
+          "live": false
+        },
+        {
+          "start": "07:30",
+          "end": "08:30",
+          "show_id": "por-si-te-ha-tocado-salud",
+          "live": false
+        },
+        {
+          "start": "08:30",
+          "end": "09:30",
+          "show_id": "el-camerino-cultura",
+          "live": false
+        },
+        {
+          "start": "09:30",
+          "end": "10:30",
+          "show_id": "radio-tijuana-musica",
+          "live": false
+        },
+        {
+          "start": "10:30",
+          "end": "11:30",
+          "show_id": "culturema-cultura",
+          "live": false
+        },
+        {
+          "start": "11:30",
+          "end": "12:30",
+          "show_id": "despues-de-la-fiebre-del-oro-rock-roll",
+          "live": false
+        },
+        {
+          "start": "12:30",
+          "end": "13:30",
+          "show_id": "hablemos-de-la-vida-bienestar",
+          "live": false
+        },
+        {
+          "start": "13:30",
+          "end": "14:30",
+          "show_id": "guadalajara-verde-medio-ambiente",
+          "live": false
+        },
+        {
+          "start": "14:30",
+          "end": "15:30",
+          "show_id": "despues-de-la-fiebre-del-oro-rock-roll",
+          "live": false
+        },
+        {
+          "start": "15:30",
+          "end": "16:30",
+          "show_id": "hablemos-de-la-vida-bienestar",
+          "live": false
+        },
+        {
+          "start": "16:30",
+          "end": "17:30",
+          "show_id": "guadalajara-verde-medio-ambiente",
+          "live": false
+        },
+        {
+          "start": "17:30",
+          "end": "18:30",
+          "show_id": "por-si-te-ha-tocado-salud",
+          "live": false
+        },
+        {
+          "start": "18:30",
+          "end": "19:30",
+          "show_id": "el-camerino-cultura",
+          "live": false
+        },
+        {
+          "start": "19:30",
+          "end": "20:30",
+          "show_id": "radio-tijuana-musica",
+          "live": false
+        },
+        {
+          "start": "20:30",
+          "end": "21:30",
+          "show_id": "culturema-cultura",
+          "live": false
+        },
+        {
+          "start": "21:30",
+          "end": "22:30",
+          "show_id": "despues-de-la-fiebre-del-oro-rock-roll",
+          "live": false
+        },
+        {
+          "start": "22:30",
+          "end": "23:30",
+          "show_id": "hablemos-de-la-vida-bienestar",
+          "live": false
+        },
+        {
+          "start": "23:30",
+          "end": "24:00",
+          "show_id": "guadalajara-verde-medio-ambiente",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "wednesday",
+      "label": "Miércoles",
+      "programs": [
+        {
+          "start": "00:30",
+          "end": "01:30",
+          "show_id": "esto-es-rock-rock",
+          "live": false
+        },
+        {
+          "start": "01:30",
+          "end": "02:30",
+          "show_id": "el-alambique-musical-musica-tranquila",
+          "live": false
+        },
+        {
+          "start": "02:30",
+          "end": "03:30",
+          "show_id": "desbloqueo-sociedad",
+          "live": false
+        },
+        {
+          "start": "03:30",
+          "end": "04:30",
+          "show_id": "ruido-inocente-cultura",
+          "live": false
+        },
+        {
+          "start": "04:30",
+          "end": "05:30",
+          "show_id": "a-solas-con-la-vida-bienestar-emocional",
+          "live": false
+        },
+        {
+          "start": "05:30",
+          "end": "06:30",
+          "show_id": "via-publica-musica-y-cultura",
+          "live": false
+        },
+        {
+          "start": "06:30",
+          "end": "07:30",
+          "show_id": "cegado-por-la-luz-rock",
+          "live": false
+        },
+        {
+          "start": "07:30",
+          "end": "08:30",
+          "show_id": "esto-es-rock-rock",
+          "live": false
+        },
+        {
+          "start": "08:30",
+          "end": "09:30",
+          "show_id": "el-alambique-musical-musica-tranquila",
+          "live": false
+        },
+        {
+          "start": "09:30",
+          "end": "10:30",
+          "show_id": "desbloqueo-sociedad",
+          "live": false
+        },
+        {
+          "start": "10:30",
+          "end": "11:30",
+          "show_id": "ruido-inocente-cultura",
+          "live": false
+        },
+        {
+          "start": "11:30",
+          "end": "12:30",
+          "show_id": "a-solas-con-la-vida-bienestar-emocional",
+          "live": false
+        },
+        {
+          "start": "12:30",
+          "end": "13:30",
+          "show_id": "via-publica-musica-y-cultura",
+          "live": false
+        },
+        {
+          "start": "13:30",
+          "end": "14:30",
+          "show_id": "cegado-por-la-luz-rock",
+          "live": false
+        },
+        {
+          "start": "14:30",
+          "end": "15:30",
+          "show_id": "a-solas-con-la-vida-bienestar-emocional",
+          "live": false
+        },
+        {
+          "start": "15:30",
+          "end": "16:30",
+          "show_id": "via-publica-musica-y-cultura",
+          "live": false
+        },
+        {
+          "start": "16:30",
+          "end": "17:30",
+          "show_id": "cegado-por-la-luz-rock",
+          "live": false
+        },
+        {
+          "start": "17:30",
+          "end": "18:30",
+          "show_id": "esto-es-rock-rock",
+          "live": false
+        },
+        {
+          "start": "18:30",
+          "end": "19:30",
+          "show_id": "el-alambique-musical-musica-tranquila",
+          "live": false
+        },
+        {
+          "start": "19:30",
+          "end": "20:30",
+          "show_id": "desbloqueo-sociedad",
+          "live": false
+        },
+        {
+          "start": "20:30",
+          "end": "21:30",
+          "show_id": "ruido-inocente-cultura",
+          "live": false
+        },
+        {
+          "start": "21:30",
+          "end": "22:30",
+          "show_id": "a-solas-con-la-vida-bienestar-emocional",
+          "live": false
+        },
+        {
+          "start": "22:30",
+          "end": "23:30",
+          "show_id": "via-publica-musica-y-cultura",
+          "live": false
+        },
+        {
+          "start": "23:30",
+          "end": "24:00",
+          "show_id": "cegado-por-la-luz-rock",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "thursday",
+      "label": "Jueves",
+      "programs": [
+        {
+          "start": "00:30",
+          "end": "01:30",
+          "show_id": "sintonia-emocional-bienestar",
+          "live": false
+        },
+        {
+          "start": "01:30",
+          "end": "02:30",
+          "show_id": "en-la-nube-kinton-comic-y-anime",
+          "live": false
+        },
+        {
+          "start": "02:30",
+          "end": "03:30",
+          "show_id": "altravesano-deportes",
+          "live": false
+        },
+        {
+          "start": "03:30",
+          "end": "04:30",
+          "show_id": "mr-keneddy-rock-soul",
+          "live": false
+        },
+        {
+          "start": "04:30",
+          "end": "05:30",
+          "show_id": "hora-libre",
+          "live": false
+        },
+        {
+          "start": "05:30",
+          "end": "06:30",
+          "show_id": "conociendonos-tertulia",
+          "live": false
+        },
+        {
+          "start": "06:30",
+          "end": "07:30",
+          "show_id": "o-para-el-mundo-actualidad-cultura-entretenimiento",
+          "live": false
+        },
+        {
+          "start": "07:30",
+          "end": "08:30",
+          "show_id": "sintonia-emocional-bienestar",
+          "live": false
+        },
+        {
+          "start": "08:30",
+          "end": "09:30",
+          "show_id": "en-la-nube-kinton-comic-y-anime",
+          "live": false
+        },
+        {
+          "start": "09:30",
+          "end": "10:30",
+          "show_id": "altravesano-deportes",
+          "live": false
+        },
+        {
+          "start": "10:30",
+          "end": "11:30",
+          "show_id": "mr-keneddy-rock-soul",
+          "live": false
+        },
+        {
+          "start": "11:30",
+          "end": "12:30",
+          "show_id": "hora-libre",
+          "live": false
+        },
+        {
+          "start": "12:30",
+          "end": "13:30",
+          "show_id": "conociendonos-tertulia",
+          "live": false
+        },
+        {
+          "start": "13:30",
+          "end": "14:30",
+          "show_id": "o-para-el-mundo-actualidad-cultura-entretenimiento",
+          "live": false
+        },
+        {
+          "start": "14:30",
+          "end": "15:30",
+          "show_id": "hora-libre",
+          "live": false
+        },
+        {
+          "start": "15:30",
+          "end": "16:30",
+          "show_id": "conociendonos-tertulia",
+          "live": false
+        },
+        {
+          "start": "16:30",
+          "end": "17:30",
+          "show_id": "o-para-el-mundo-actualidad-cultura-entretenimiento",
+          "live": false
+        },
+        {
+          "start": "17:30",
+          "end": "18:30",
+          "show_id": "sintonia-emocional-bienestar",
+          "live": false
+        },
+        {
+          "start": "18:30",
+          "end": "19:30",
+          "show_id": "en-la-nube-kinton-comic-y-anime",
+          "live": false
+        },
+        {
+          "start": "19:30",
+          "end": "20:30",
+          "show_id": "altravesano-deportes",
+          "live": false
+        },
+        {
+          "start": "20:30",
+          "end": "21:30",
+          "show_id": "mr-keneddy-rock-soul",
+          "live": false
+        },
+        {
+          "start": "21:30",
+          "end": "22:30",
+          "show_id": "hora-libre",
+          "live": false
+        },
+        {
+          "start": "22:30",
+          "end": "23:30",
+          "show_id": "conociendonos-tertulia",
+          "live": false
+        },
+        {
+          "start": "23:30",
+          "end": "24:00",
+          "show_id": "o-para-el-mundo-actualidad-cultura-entretenimiento",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "friday",
+      "label": "Viernes",
+      "programs": [
+        {
+          "start": "00:30",
+          "end": "01:30",
+          "show_id": "hora-libre",
+          "live": false
+        },
+        {
+          "start": "01:30",
+          "end": "02:30",
+          "show_id": "la-caja-de-bombones-actualidad",
+          "live": false
+        },
+        {
+          "start": "02:30",
+          "end": "03:30",
+          "show_id": "folkeando-folklore",
+          "live": false
+        },
+        {
+          "start": "03:30",
+          "end": "04:30",
+          "show_id": "esto-no-es-como-lo-habiamos-sonado-musica",
+          "live": false
+        },
+        {
+          "start": "04:30",
+          "end": "05:30",
+          "show_id": "hablemos-cultura-y-educacion",
+          "live": false
+        },
+        {
+          "start": "05:30",
+          "end": "06:30",
+          "show_id": "receta-campesina-musica-alternativa",
+          "live": false
+        },
+        {
+          "start": "06:30",
+          "end": "07:30",
+          "show_id": "mezcolanza-musica",
+          "live": false
+        },
+        {
+          "start": "07:30",
+          "end": "08:30",
+          "show_id": "hora-libre",
+          "live": false
+        },
+        {
+          "start": "08:30",
+          "end": "09:30",
+          "show_id": "la-caja-de-bombones-actualidad",
+          "live": false
+        },
+        {
+          "start": "09:30",
+          "end": "10:30",
+          "show_id": "folkeando-folklore",
+          "live": false
+        },
+        {
+          "start": "10:30",
+          "end": "11:30",
+          "show_id": "esto-no-es-como-lo-habiamos-sonado-musica",
+          "live": false
+        },
+        {
+          "start": "11:30",
+          "end": "12:30",
+          "show_id": "hablemos-cultura-y-educacion",
+          "live": false
+        },
+        {
+          "start": "12:30",
+          "end": "13:30",
+          "show_id": "receta-campesina-musica-alternativa",
+          "live": false
+        },
+        {
+          "start": "13:30",
+          "end": "14:30",
+          "show_id": "mezcolanza-musica",
+          "live": false
+        },
+        {
+          "start": "14:30",
+          "end": "15:30",
+          "show_id": "hablemos-cultura-y-educacion",
+          "live": false
+        },
+        {
+          "start": "15:30",
+          "end": "16:30",
+          "show_id": "receta-campesina-musica-alternativa",
+          "live": false
+        },
+        {
+          "start": "16:30",
+          "end": "17:30",
+          "show_id": "mezcolanza-musica",
+          "live": false
+        },
+        {
+          "start": "17:30",
+          "end": "18:30",
+          "show_id": "hora-libre",
+          "live": false
+        },
+        {
+          "start": "18:30",
+          "end": "19:30",
+          "show_id": "la-caja-de-bombones-actualidad",
+          "live": false
+        },
+        {
+          "start": "19:30",
+          "end": "20:30",
+          "show_id": "folkeando-folklore",
+          "live": false
+        },
+        {
+          "start": "20:30",
+          "end": "21:30",
+          "show_id": "esto-no-es-como-lo-habiamos-sonado-musica",
+          "live": false
+        },
+        {
+          "start": "21:30",
+          "end": "22:30",
+          "show_id": "hablemos-cultura-y-educacion",
+          "live": false
+        },
+        {
+          "start": "22:30",
+          "end": "23:30",
+          "show_id": "receta-campesina-musica-alternativa",
+          "live": false
+        },
+        {
+          "start": "23:30",
+          "end": "24:00",
+          "show_id": "mezcolanza-musica",
+          "live": false
+        }
+      ]
+    }
+  ]
+}

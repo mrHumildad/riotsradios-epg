@@ -1,0 +1,640 @@
+{
+  "version": "2.0",
+  "station": "Radio Libertaire",
+  "station_id": 17,
+  "schedule_type": "weekly",
+  "timezone": "Europe/Paris",
+  "last_updated": "2026-11-08",
+  "source": "https://radio-libertaire.org/podcast/z_commun/tableau.php",
+  "notes": "Generado automáticamente desde https://radio-libertaire.org/podcast/z_commun/tableau.php (snapshot 2026-11-08); revisar data/epg-report.json.",
+  "generator": "scripts/convert-raw-epg.mjs",
+  "metadata": {
+    "categories": {
+      "musica": "Música",
+      "directo": "Directo",
+      "podcast": "Podcast / repetición",
+      "especial": "Especial",
+      "taller": "Taller / educación"
+    },
+    "default_filler": {
+      "title": "Música",
+      "category": "musica"
+    }
+  },
+  "shows": {
+    "nuit-noire-2eme-partie": {
+      "title": "Nuit noire (2ème partie)",
+      "category": "directo"
+    },
+    "lundi-matin": {
+      "title": "Lundi Matin",
+      "category": "directo"
+    },
+    "c-est-la-que-ca-se-passe": {
+      "title": "C’est là que ça se passe",
+      "category": "directo"
+    },
+    "ondes-de-choc": {
+      "title": "Ondes de choc",
+      "category": "directo"
+    },
+    "trous-noirs": {
+      "title": "Trous Noirs",
+      "category": "directo"
+    },
+    "les-mangeux-d-terre": {
+      "title": "Les mangeux d’terre",
+      "category": "directo"
+    },
+    "l-autre-voix-de-l-amerique": {
+      "title": "L’Autre Voix de l’Amérique",
+      "category": "directo"
+    },
+    "le-proton-se-rebiffe": {
+      "title": "Le proton se rebiffe",
+      "category": "directo"
+    },
+    "nuit-noire-1ere-partie": {
+      "title": "Nuit noire (1ère partie)",
+      "category": "directo"
+    },
+    "un-classique-s-il-vous-plait": {
+      "title": "Un classique, s’il vous plaît !",
+      "category": "directo"
+    },
+    "remue-meninges-feministe": {
+      "title": "Remue-méninges féministe",
+      "category": "directo"
+    },
+    "depechez-vous-de-rester-jeune": {
+      "title": "Dépêchez vous de rester jeune !",
+      "category": "directo"
+    },
+    "en-veux-tu-en-v-la": {
+      "title": "En veux-tu ? En v’là !",
+      "category": "directo"
+    },
+    "ideaux-et-debats": {
+      "title": "Idéaux et débats",
+      "category": "directo"
+    },
+    "paname-s-not-dead": {
+      "title": "Paname’s not dead",
+      "category": "directo"
+    },
+    "radiolibertaria-etpreci-75": {
+      "title": "Radiolibertaria : ETPRECI 75",
+      "category": "directo"
+    },
+    "wreck-this-mess": {
+      "title": "Wreck this mess",
+      "category": "directo"
+    },
+    "l-entonnoir": {
+      "title": "L’entonnoir",
+      "category": "directo"
+    },
+    "le-temps-des-poetes": {
+      "title": "Le temps des poètes",
+      "category": "directo"
+    },
+    "compositrices": {
+      "title": "Compositrices",
+      "category": "directo"
+    },
+    "flemmardise-et-reveil-mots": {
+      "title": "Flemmardise et rêveil mots",
+      "category": "directo"
+    },
+    "le-ferre-club": {
+      "title": "Le Ferré Club",
+      "category": "directo"
+    },
+    "et-pourtant-elle-existe-cette-litterature": {
+      "title": "Et pourtant elle existe cette Littérature...",
+      "category": "directo"
+    },
+    "femmes-libres": {
+      "title": "Femmes libres",
+      "category": "directo"
+    },
+    "surecoute": {
+      "title": "Surécoute",
+      "category": "directo"
+    },
+    "blues-en-liberte": {
+      "title": "Blues en liberté",
+      "category": "directo"
+    },
+    "livres-en-luttes": {
+      "title": "Livres en luttes",
+      "category": "directo"
+    },
+    "faites-nous-des-chansons": {
+      "title": "Faites-nous des chansons",
+      "category": "directo"
+    },
+    "radio-cartable": {
+      "title": "Radio cartable",
+      "category": "directo"
+    },
+    "bibliomanie": {
+      "title": "Bibliomanie",
+      "category": "directo"
+    },
+    "si-vis-pacem": {
+      "title": "Si vis pacem",
+      "category": "directo"
+    },
+    "jazzlib-premiere-partie": {
+      "title": "Jazzlib’ (première partie)",
+      "category": "directo"
+    },
+    "jazzlib-seconde-partie": {
+      "title": "Jazzlib’ (seconde partie)",
+      "category": "directo"
+    },
+    "epsilonia": {
+      "title": "Epsilonia",
+      "category": "directo"
+    },
+    "sure-shots": {
+      "title": "Sure shots",
+      "category": "directo"
+    },
+    "medias-et-antifascisme": {
+      "title": "Médias et antifascisme",
+      "category": "directo"
+    },
+    "les-oreilles-libres": {
+      "title": "Les oreilles libres",
+      "category": "directo"
+    },
+    "la-rage-dedans": {
+      "title": "La rage dedans",
+      "category": "directo"
+    },
+    "radio-esperanto": {
+      "title": "Radio espéranto",
+      "category": "directo"
+    },
+    "des-gens-et-des-droits": {
+      "title": "Des gens et des droits",
+      "category": "directo"
+    },
+    "les-amis-d-orwell": {
+      "title": "Les amis d’Orwell",
+      "category": "directo"
+    },
+    "reveil-hip-hop": {
+      "title": "Réveil hip-hop",
+      "category": "directo"
+    },
+    "la-philanthropie-de-l-ouvrier-charpentier": {
+      "title": "La philanthropie de l’ouvrier charpentier",
+      "category": "directo"
+    },
+    "chroniques-syndicales": {
+      "title": "Chroniques syndicales",
+      "category": "directo"
+    },
+    "chroniques-rebelles": {
+      "title": "Chroniques rebelles",
+      "category": "directo"
+    },
+    "deux-sous-de-scene": {
+      "title": "Deux sous de scène",
+      "category": "directo"
+    },
+    "bulles-noires": {
+      "title": "Bulles noires",
+      "category": "directo"
+    },
+    "tribuna-latinamericana": {
+      "title": "Tribuna latinamericana",
+      "category": "directo"
+    },
+    "tormentor": {
+      "title": "Tormentor",
+      "category": "directo"
+    },
+    "un-peu-d-air-frais": {
+      "title": "Un peu d’air frais",
+      "category": "directo"
+    },
+    "folk-a-lier": {
+      "title": "Folk à lier",
+      "category": "directo"
+    },
+    "tempete-sur-les-planches": {
+      "title": "Tempête sur les planches",
+      "category": "directo"
+    },
+    "on-a-deja-traite-le-sujet": {
+      "title": "On a déjà traité le sujet",
+      "category": "directo"
+    },
+    "le-melange": {
+      "title": "Le mélange",
+      "category": "directo"
+    },
+    "y-a-de-la-fumee-dans-le-poste": {
+      "title": "Y a de la fumée dans le poste",
+      "category": "directo"
+    },
+    "detruire-l-ennui": {
+      "title": "Détruire l’ennui",
+      "category": "directo"
+    },
+    "rudie-s-back-in-town": {
+      "title": "Rudie’s back in town",
+      "category": "directo"
+    }
+  },
+  "days": [
+    {
+      "day": "monday",
+      "label": "Lunes",
+      "programs": [
+        {
+          "start": "00:30",
+          "end": "11:00",
+          "show_id": "nuit-noire-2eme-partie",
+          "live": false
+        },
+        {
+          "start": "11:00",
+          "end": "13:00",
+          "show_id": "lundi-matin",
+          "live": false
+        },
+        {
+          "start": "13:00",
+          "end": "14:30",
+          "show_id": "c-est-la-que-ca-se-passe",
+          "live": false
+        },
+        {
+          "start": "14:30",
+          "end": "16:00",
+          "show_id": "ondes-de-choc",
+          "live": false
+        },
+        {
+          "start": "16:00",
+          "end": "18:00",
+          "show_id": "trous-noirs",
+          "live": false
+        },
+        {
+          "start": "18:00",
+          "end": "19:30",
+          "show_id": "les-mangeux-d-terre",
+          "live": false
+        },
+        {
+          "start": "19:30",
+          "end": "21:00",
+          "show_id": "l-autre-voix-de-l-amerique",
+          "live": false
+        },
+        {
+          "start": "21:00",
+          "end": "22:30",
+          "show_id": "le-proton-se-rebiffe",
+          "live": false
+        },
+        {
+          "start": "22:30",
+          "end": "23:00",
+          "show_id": "nuit-noire-1ere-partie",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "tuesday",
+      "label": "Martes",
+      "programs": [
+        {
+          "start": "10:30",
+          "end": "12:30",
+          "show_id": "un-classique-s-il-vous-plait",
+          "live": false
+        },
+        {
+          "start": "12:30",
+          "end": "15:00",
+          "show_id": "remue-meninges-feministe",
+          "live": false
+        },
+        {
+          "start": "15:00",
+          "end": "17:00",
+          "show_id": "depechez-vous-de-rester-jeune",
+          "live": false
+        },
+        {
+          "start": "17:00",
+          "end": "18:00",
+          "show_id": "en-veux-tu-en-v-la",
+          "live": false
+        },
+        {
+          "start": "18:00",
+          "end": "19:30",
+          "show_id": "ideaux-et-debats",
+          "live": false
+        },
+        {
+          "start": "19:30",
+          "end": "20:30",
+          "show_id": "paname-s-not-dead",
+          "live": false
+        },
+        {
+          "start": "20:30",
+          "end": "22:30",
+          "show_id": "radiolibertaria-etpreci-75",
+          "live": false
+        },
+        {
+          "start": "22:30",
+          "end": "23:00",
+          "show_id": "wreck-this-mess",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "wednesday",
+      "label": "Miércoles",
+      "programs": [
+        {
+          "start": "09:30",
+          "end": "10:30",
+          "show_id": "l-entonnoir",
+          "live": false
+        },
+        {
+          "start": "10:30",
+          "end": "12:30",
+          "show_id": "le-temps-des-poetes",
+          "live": false
+        },
+        {
+          "start": "12:30",
+          "end": "14:00",
+          "show_id": "compositrices",
+          "live": false
+        },
+        {
+          "start": "14:00",
+          "end": "16:00",
+          "show_id": "flemmardise-et-reveil-mots",
+          "live": false
+        },
+        {
+          "start": "16:00",
+          "end": "17:00",
+          "show_id": "le-ferre-club",
+          "live": false
+        },
+        {
+          "start": "17:00",
+          "end": "18:30",
+          "show_id": "et-pourtant-elle-existe-cette-litterature",
+          "live": false
+        },
+        {
+          "start": "18:30",
+          "end": "20:30",
+          "show_id": "femmes-libres",
+          "live": false
+        },
+        {
+          "start": "20:30",
+          "end": "22:30",
+          "show_id": "surecoute",
+          "live": false
+        },
+        {
+          "start": "22:30",
+          "end": "23:00",
+          "show_id": "blues-en-liberte",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "thursday",
+      "label": "Jueves",
+      "programs": [
+        {
+          "start": "11:00",
+          "end": "12:00",
+          "show_id": "livres-en-luttes",
+          "live": false
+        },
+        {
+          "start": "12:00",
+          "end": "14:00",
+          "show_id": "faites-nous-des-chansons",
+          "live": false
+        },
+        {
+          "start": "14:00",
+          "end": "15:00",
+          "show_id": "radio-cartable",
+          "live": false
+        },
+        {
+          "start": "15:00",
+          "end": "18:00",
+          "show_id": "bibliomanie",
+          "live": false
+        },
+        {
+          "start": "18:00",
+          "end": "19:30",
+          "show_id": "si-vis-pacem",
+          "live": false
+        },
+        {
+          "start": "19:30",
+          "end": "20:30",
+          "show_id": "jazzlib-premiere-partie",
+          "live": false
+        },
+        {
+          "start": "20:30",
+          "end": "22:00",
+          "show_id": "jazzlib-seconde-partie",
+          "live": false
+        },
+        {
+          "start": "22:00",
+          "end": "22:30",
+          "show_id": "epsilonia",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "friday",
+      "label": "Viernes",
+      "programs": [
+        {
+          "start": "00:00",
+          "end": "11:30",
+          "show_id": "sure-shots",
+          "live": false
+        },
+        {
+          "start": "11:30",
+          "end": "14:30",
+          "show_id": "medias-et-antifascisme",
+          "live": false
+        },
+        {
+          "start": "14:30",
+          "end": "16:30",
+          "show_id": "les-oreilles-libres",
+          "live": false
+        },
+        {
+          "start": "16:30",
+          "end": "17:30",
+          "show_id": "la-rage-dedans",
+          "live": false
+        },
+        {
+          "start": "17:30",
+          "end": "19:00",
+          "show_id": "radio-esperanto",
+          "live": false
+        },
+        {
+          "start": "19:00",
+          "end": "21:00",
+          "show_id": "des-gens-et-des-droits",
+          "live": false
+        },
+        {
+          "start": "21:00",
+          "end": "21:30",
+          "show_id": "les-amis-d-orwell",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "saturday",
+      "label": "Sábado",
+      "programs": [
+        {
+          "start": "08:00",
+          "end": "10:00",
+          "show_id": "reveil-hip-hop",
+          "live": false
+        },
+        {
+          "start": "10:00",
+          "end": "11:30",
+          "show_id": "la-philanthropie-de-l-ouvrier-charpentier",
+          "live": false
+        },
+        {
+          "start": "11:30",
+          "end": "13:30",
+          "show_id": "chroniques-syndicales",
+          "live": false
+        },
+        {
+          "start": "13:30",
+          "end": "15:30",
+          "show_id": "chroniques-rebelles",
+          "live": false
+        },
+        {
+          "start": "15:30",
+          "end": "17:00",
+          "show_id": "deux-sous-de-scene",
+          "live": false
+        },
+        {
+          "start": "17:00",
+          "end": "19:00",
+          "show_id": "bulles-noires",
+          "live": false
+        },
+        {
+          "start": "19:00",
+          "end": "21:00",
+          "show_id": "tribuna-latinamericana",
+          "live": false
+        },
+        {
+          "start": "21:00",
+          "end": "21:30",
+          "show_id": "tormentor",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "sunday",
+      "label": "Domingo",
+      "programs": [
+        {
+          "start": "10:00",
+          "end": "12:00",
+          "show_id": "un-peu-d-air-frais",
+          "live": false
+        },
+        {
+          "start": "12:00",
+          "end": "14:00",
+          "show_id": "folk-a-lier",
+          "live": false
+        },
+        {
+          "start": "14:00",
+          "end": "15:30",
+          "show_id": "tempete-sur-les-planches",
+          "live": false
+        },
+        {
+          "start": "15:30",
+          "end": "17:00",
+          "show_id": "on-a-deja-traite-le-sujet",
+          "live": false
+        },
+        {
+          "start": "17:00",
+          "end": "18:30",
+          "show_id": "le-melange",
+          "live": false
+        },
+        {
+          "start": "18:30",
+          "end": "20:30",
+          "show_id": "y-a-de-la-fumee-dans-le-poste",
+          "live": false
+        },
+        {
+          "start": "20:30",
+          "end": "22:00",
+          "show_id": "detruire-l-ennui",
+          "live": false
+        },
+        {
+          "start": "22:00",
+          "end": "22:30",
+          "show_id": "rudie-s-back-in-town",
+          "live": false
+        }
+      ]
+    }
+  ]
+}

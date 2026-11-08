@@ -1,0 +1,232 @@
+{
+  "version": "2.0",
+  "station": "Radiofabrik",
+  "station_id": 8,
+  "schedule_type": "weekly",
+  "timezone": "Europe/Vienna",
+  "last_updated": "2026-11-08",
+  "source": "https://radiofabrik.at/programm/sendungen/",
+  "notes": "Generado automáticamente desde https://radiofabrik.at/programm/sendungen/ (snapshot 2026-11-08); revisar data/epg-report.json.",
+  "generator": "scripts/convert-raw-epg.mjs",
+  "metadata": {
+    "categories": {
+      "musica": "Música",
+      "directo": "Directo",
+      "podcast": "Podcast / repetición",
+      "especial": "Especial",
+      "taller": "Taller / educación"
+    },
+    "default_filler": {
+      "title": "Música",
+      "category": "musica"
+    }
+  },
+  "shows": {
+    "nachtschiene": {
+      "title": "Nachtschiene",
+      "category": "directo"
+    },
+    "radiofabrik-von": {
+      "title": "Radiofabrik von",
+      "category": "directo"
+    },
+    "fruhschicht": {
+      "title": "Frühschicht",
+      "category": "directo"
+    },
+    "stepping-to-the-a-m": {
+      "title": "stepping to the a.m.",
+      "category": "directo"
+    },
+    "aus-meinem-bucherstapel-so-a-klasse-g-schicht": {
+      "title": "Aus meinem Bücherstapel - so a klasse G'schicht",
+      "category": "directo"
+    },
+    "kinderradio-spektrum-on-air": {
+      "title": "Kinderradio - Spektrum on Air",
+      "category": "directo"
+    },
+    "die-sportschau-mit-markus-dorn": {
+      "title": "Die Sportschau. Mit Markus Dorn..",
+      "category": "directo"
+    },
+    "die-sonntagsmelodie-evergreens-und-raritaten-aus-einem-gro-e": {
+      "title": "Die Sonntagsmelodie. Evergreens und Raritäten aus einem großen Schellack und LP-Archiv mit Edith Schiller.",
+      "category": "directo"
+    },
+    "senden-benden-bizden-von-dir-von-mir-von-uns": {
+      "title": "Senden Benden Bizden … Von dir, von mir, von uns …",
+      "category": "directo"
+    },
+    "neuentdeckung-afrikas-afrika-einmal-anders-mit-guy-mavar": {
+      "title": "Neuentdeckung Afrikas. Afrika einmal anders mit Guy Mavar.",
+      "category": "directo"
+    },
+    "jugendradio-your-voice-das-bewegte-jugendradio": {
+      "title": "Jugendradio - Your Voice. Das bewegte Jugendradio.",
+      "category": "directo"
+    },
+    "artarium-das-etwas-andere-kunnstbiotop-mit-norbert-k-hund-ch": {
+      "title": "Artarium. Das etwas andere KUNNSTbiotop mit Norbert K. Hund & Christopher Schmall.",
+      "category": "directo"
+    },
+    "panoptikum-bildung-ubernahme-von-radio-agora-karnten": {
+      "title": "Panoptikum Bildung. Übernahme von Radio Agora, Kärnten",
+      "category": "directo"
+    },
+    "szenenwechsel-lokale-sounds-aus-den-freien-radios": {
+      "title": "Szenenwechsel. Lokale Sounds aus den Freien Radios.",
+      "category": "directo"
+    },
+    "radio-literaturhaus-wo-das-leben-zur-sprache-kommt": {
+      "title": "Radio Literaturhaus. Wo das Leben zur Sprache kommt.",
+      "category": "directo"
+    },
+    "show-de-toilette-die-sendung-mit-dem-dystopischen-duo": {
+      "title": "Show de Toilette. Die Sendung mit dem Dystopischen Duo",
+      "category": "directo"
+    },
+    "fondue-an-den-grenzen-der-freiheit-des-freien-radios-mit-rob": {
+      "title": "Fondue. An den Grenzen der Freiheit des Freien Radios mit Robert Presslaber.",
+      "category": "directo"
+    },
+    "kopfhorer-lieder-aus-sechs-jahrzehnten-popularer-musik": {
+      "title": "Kopfhörer. Lieder aus sechs Jahrzehnten populärer Musik",
+      "category": "directo"
+    }
+  },
+  "days": [
+    {
+      "day": "sunday",
+      "label": "Domingo",
+      "programs": [
+        {
+          "start": "00:00",
+          "end": "01:00",
+          "show_id": "nachtschiene",
+          "live": false
+        },
+        {
+          "start": "01:00",
+          "end": "01:06",
+          "show_id": "radiofabrik-von",
+          "live": false
+        },
+        {
+          "start": "01:06",
+          "end": "06:06",
+          "show_id": "nachtschiene",
+          "live": false
+        },
+        {
+          "start": "06:06",
+          "end": "07:06",
+          "show_id": "fruhschicht",
+          "live": false
+        },
+        {
+          "start": "07:06",
+          "end": "08:06",
+          "show_id": "fruhschicht",
+          "live": false
+        },
+        {
+          "start": "08:06",
+          "end": "09:00",
+          "show_id": "stepping-to-the-a-m",
+          "live": false
+        },
+        {
+          "start": "09:00",
+          "end": "10:06",
+          "show_id": "aus-meinem-bucherstapel-so-a-klasse-g-schicht",
+          "live": false
+        },
+        {
+          "start": "10:06",
+          "end": "10:36",
+          "show_id": "kinderradio-spektrum-on-air",
+          "live": false
+        },
+        {
+          "start": "10:36",
+          "end": "11:00",
+          "show_id": "stepping-to-the-a-m",
+          "live": false
+        },
+        {
+          "start": "11:00",
+          "end": "12:00",
+          "show_id": "die-sportschau-mit-markus-dorn",
+          "live": false
+        },
+        {
+          "start": "12:00",
+          "end": "14:06",
+          "show_id": "die-sonntagsmelodie-evergreens-und-raritaten-aus-einem-gro-e",
+          "live": false
+        },
+        {
+          "start": "14:06",
+          "end": "15:00",
+          "show_id": "senden-benden-bizden-von-dir-von-mir-von-uns",
+          "live": false
+        },
+        {
+          "start": "15:00",
+          "end": "16:00",
+          "show_id": "neuentdeckung-afrikas-afrika-einmal-anders-mit-guy-mavar",
+          "live": false
+        },
+        {
+          "start": "16:00",
+          "end": "17:06",
+          "show_id": "jugendradio-your-voice-das-bewegte-jugendradio",
+          "live": false
+        },
+        {
+          "start": "17:06",
+          "end": "18:00",
+          "show_id": "artarium-das-etwas-andere-kunnstbiotop-mit-norbert-k-hund-ch",
+          "live": false
+        },
+        {
+          "start": "18:00",
+          "end": "19:00",
+          "show_id": "panoptikum-bildung-ubernahme-von-radio-agora-karnten",
+          "live": false
+        },
+        {
+          "start": "19:00",
+          "end": "20:00",
+          "show_id": "szenenwechsel-lokale-sounds-aus-den-freien-radios",
+          "live": false
+        },
+        {
+          "start": "20:00",
+          "end": "21:00",
+          "show_id": "radio-literaturhaus-wo-das-leben-zur-sprache-kommt",
+          "live": false
+        },
+        {
+          "start": "21:00",
+          "end": "22:00",
+          "show_id": "show-de-toilette-die-sendung-mit-dem-dystopischen-duo",
+          "live": false
+        },
+        {
+          "start": "22:00",
+          "end": "23:00",
+          "show_id": "fondue-an-den-grenzen-der-freiheit-des-freien-radios-mit-rob",
+          "live": false
+        },
+        {
+          "start": "23:00",
+          "end": "24:00",
+          "show_id": "kopfhorer-lieder-aus-sechs-jahrzehnten-popularer-musik",
+          "live": false
+        }
+      ]
+    }
+  ]
+}
