@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-08",
+  "generated": "2026-11-09",
   "stations": {
     "1": {
       "name": "Radio Contrabanda",
@@ -706,34 +706,8 @@
     },
     "19": {
       "name": "Radio Vallekas",
-      "checked_at": "2026-11-08",
+      "checked_at": "2026-11-09",
       "alternatives": [
-        {
-          "url": "https://www.radiovallekas.org/programacion/",
-          "ok": true,
-          "format": "js-rendered",
-          "via": "probe:/programacion",
-          "link_score": 0.5,
-          "days": 0,
-          "times": 0,
-          "gcal": [],
-          "tls_unverified": false,
-          "page_score": 0.45,
-          "confidence": 0.47
-        },
-        {
-          "url": "https://www.radiovallekas.org/parrilla/",
-          "ok": true,
-          "format": "js-rendered",
-          "via": "probe:/parrilla",
-          "link_score": 0.5,
-          "days": 0,
-          "times": 0,
-          "gcal": [],
-          "tls_unverified": false,
-          "page_score": 0.45,
-          "confidence": 0.47
-        },
         {
           "url": "https://www.radiovallekas.org/nuestros-programas/",
           "ok": true,
@@ -744,20 +718,78 @@
           "times": 0,
           "gcal": [],
           "tls_unverified": false,
+          "title": "Nuestros programas - VALLEKAS RADIO",
+          "scripts": 10,
+          "text_len": 893,
+          "iframes": [],
+          "schedule_assets": [],
           "page_score": 0.45,
-          "confidence": 0.43
+          "confidence": 0.43,
+          "action": "render_or_manual"
+        },
+        {
+          "url": "https://www.radiovallekas.org/emision-en-directo/",
+          "ok": true,
+          "format": "js-rendered",
+          "via": "link:Emisión en directo",
+          "link_score": 0.4,
+          "days": 0,
+          "times": 0,
+          "gcal": [],
+          "tls_unverified": false,
+          "title": "Emisión en directo - VALLEKAS RADIO",
+          "scripts": 10,
+          "text_len": 792,
+          "iframes": [
+            "https://radio.radiobot.org/public/rvk/embed"
+          ],
+          "schedule_assets": [],
+          "page_score": 0.45,
+          "confidence": 0.43,
+          "action": "render_or_manual"
+        },
+        {
+          "url": "https://www.radiovallekas.org/",
+          "ok": true,
+          "format": "js-rendered",
+          "via": "homepage",
+          "link_score": 0.2,
+          "days": 0,
+          "times": 0,
+          "gcal": [],
+          "tls_unverified": false,
+          "title": "Vallekas Radio - VALLEKAS RADIO",
+          "scripts": 10,
+          "text_len": 2233,
+          "iframes": [
+            "https://radio.radiobot.org/public/rvk/embed?autoplay=1&continuous=1"
+          ],
+          "schedule_assets": [],
+          "page_score": 0.45,
+          "confidence": 0.36,
+          "action": "render_or_manual"
         }
       ],
       "failed": [],
-      "url": "https://www.radiovallekas.org/parrilla/",
-      "format": "js-rendered",
-      "confidence": 0.5,
+      "homepage_status": 200,
+      "homepage_title": "Vallekas Radio - VALLEKAS RADIO",
+      "homepage_suspicious": false,
+      "url": "https://sapo.radiobot.org/api_schedule.php?station=rvk",
+      "format": "json-api",
+      "confidence": 0.94,
       "method": "link:Programación",
       "days": 0,
       "times": 0,
       "tls_unverified": false,
       "post_like": false,
-      "status": "needs_review",
+      "action": "add_source",
+      "page_url": "https://www.radiovallekas.org/parrilla/",
+      "evidence": {
+        "title": "Parrilla - VALLEKAS RADIO",
+        "scripts": 11,
+        "text_len": 778
+      },
+      "status": "ok",
       "locked": false
     },
     "20": {
@@ -1054,11 +1086,15 @@
     },
     "28": {
       "name": "Radio Onda d'Urto",
-      "checked_at": "2026-11-08",
+      "checked_at": "2026-11-09",
       "alternatives": [],
       "failed": [],
+      "homepage_status": 0,
+      "homepage_title": null,
+      "homepage_suspicious": false,
       "status": "error",
       "error": "homepage: blocked by robots.txt",
+      "action": "blocked_by_robots",
       "locked": false
     },
     "29": {
@@ -1197,33 +1233,47 @@
     },
     "45": {
       "name": "Radio Roja",
-      "checked_at": "2026-11-08",
+      "checked_at": "2026-11-09",
       "alternatives": [
         {
-          "url": "https://radioroja.com.ar/programacion/",
+          "url": "https://radioroja.com.ar/wp-content/uploads/2025/11/ENREDANDO-LAS-MANANAS-ultimo-programa-disponible-BANNER-1024x576.jpg",
           "ok": true,
-          "format": "html",
-          "via": "probe:/programacion",
-          "link_score": 0.5,
-          "days": 4,
-          "times": 2,
+          "format": "image",
+          "via": "asset:homepage",
+          "link_score": 0.55,
+          "days": 0,
+          "times": 0,
           "gcal": [],
           "tls_unverified": false,
-          "page_score": 0.37,
-          "confidence": 0.42
+          "title": "",
+          "scripts": 0,
+          "text_len": 0,
+          "iframes": [],
+          "schedule_assets": [],
+          "page_score": 0.5,
+          "post_like": true,
+          "confidence": 0.5,
+          "action": "ocr_or_manual"
         },
         {
-          "url": "https://radioroja.com.ar/programacion/",
+          "url": "https://radioroja.com.ar/wp-content/uploads/2025/11/CANASTA-BASICA-ultimo-programa-disponible-BANNER-1-1024x576.jpg",
           "ok": true,
-          "format": "html",
-          "via": "probe:/programacio",
-          "link_score": 0.5,
-          "days": 4,
-          "times": 2,
+          "format": "image",
+          "via": "asset:homepage",
+          "link_score": 0.55,
+          "days": 0,
+          "times": 0,
           "gcal": [],
           "tls_unverified": false,
-          "page_score": 0.37,
-          "confidence": 0.42
+          "title": "",
+          "scripts": 0,
+          "text_len": 0,
+          "iframes": [],
+          "schedule_assets": [],
+          "page_score": 0.5,
+          "post_like": true,
+          "confidence": 0.5,
+          "action": "ocr_or_manual"
         },
         {
           "url": "https://radioroja.com.ar/",
@@ -1232,23 +1282,45 @@
           "via": "homepage",
           "link_score": 0.2,
           "days": 4,
-          "times": 2,
+          "times": 6,
           "gcal": [],
           "tls_unverified": false,
-          "page_score": 0.37,
-          "confidence": 0.31
+          "title": "Radio Roja – Sitio Web de Radio Roja FM 90.1",
+          "scripts": 18,
+          "text_len": 14386,
+          "iframes": [],
+          "schedule_assets": [
+            "https://radioroja.com.ar/wp-content/uploads/2025/11/ENREDANDO-LAS-MANANAS-ultimo-programa-disponible-BANNER-1024x576.jpg",
+            "https://radioroja.com.ar/wp-content/uploads/2025/11/CANASTA-BASICA-ultimo-programa-disponible-BANNER-1-1024x576.jpg"
+          ],
+          "page_score": 0.42,
+          "confidence": 0.34,
+          "action": "review_partial"
         }
       ],
       "failed": [],
+      "homepage_status": 200,
+      "homepage_title": "Radio Roja – Sitio Web de Radio Roja FM 90.1",
+      "homepage_suspicious": false,
       "url": "https://radioroja.com.ar/programacion/",
       "format": "html",
-      "confidence": 0.59,
+      "confidence": 0.65,
       "method": "link:PROGRAMACIÓN PROGRAMACIÓN",
       "days": 4,
-      "times": 2,
+      "times": 9,
       "tls_unverified": false,
       "post_like": false,
-      "status": "needs_review",
+      "action": "add_source",
+      "evidence": {
+        "title": "PROGRAMACIÓN – Radio Roja",
+        "scripts": 18,
+        "text_len": 6337,
+        "schedule_assets": [
+          "https://radioroja.com.ar/wp-content/uploads/2025/11/ENREDANDO-LAS-MANANAS-ultimo-programa-disponible-BANNER-1024x576.jpg",
+          "https://radioroja.com.ar/wp-content/uploads/2025/11/CANASTA-BASICA-ultimo-programa-disponible-BANNER-1-1024x576.jpg"
+        ]
+      },
+      "status": "ok",
       "locked": false
     },
     "46": {
@@ -1796,6 +1868,14 @@
       "post_like": false,
       "status": "ok",
       "locked": false
+    }
+  },
+  "summary": {
+    "stations": 48,
+    "actions": {
+      "add_source": 2,
+      "blocked_by_robots": 1,
+      "unknown": 45
     }
   }
 }

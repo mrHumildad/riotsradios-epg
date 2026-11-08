@@ -12,11 +12,14 @@ id,name,countrycode,timezone,homepage,epg_url,epg_file,enabled,mailto
 15,Ké Huelga Radio,MX,America/Mexico_City,https://kehuelga.net/,https://kehuelga.net/article52,ke-huelga-radio.json,true,kehuelga@kehuelga.net
 17,Radio Libertaire,FR,Europe/Paris,https://radio-libertaire.org/,https://radio-libertaire.org/podcast/z_commun/tableau.php,radio-libertaire.json,true,
 18,Radio Topo,ES,Europe/Madrid,https://radiotopo.org/,https://www.radiotopo.org/parrilla-semanal/,radio-topo.json,true,
+19,Radio Vallekas,ES,Europe/Madrid,https://radiovallekas.org/,https://sapo.radiobot.org/api_schedule.php?station=rvk,radio-vallekas.json,true,
 20,Radio Utopía,ES,Europe/Madrid,https://radioutopia.org.es/,https://www.radioutopia.org.es/parrilla-2026/,radio-utopia.json,true,
 23,Radio Almaina,ES,Europe/Madrid,https://radioalmaina.org/,https://radioalmaina.org/programacion/,radio-almaina.json,true,
 26,Radio Pimienta,ES,Europe/Madrid,https://www.radiopimienta.org/,https://www.radiopimienta.org/programacion/,radio-pimienta.json,true,
 27,Radio Onda Rossa,IT,Europe/Rome,https://www.ondarossa.info/,https://www.ondarossa.info/palinsesto,radio-onda-rossa.json,true,
+28,Radio Onda d'Urto,IT,Europe/Rome,https://www.radiondadurto.org/,,,false,
 29,Radio Blackout,IT,Europe/Rome,https://radioblackout.org/,https://radioblackout.org/palinsesto,radio-blackout.json,true,
+45,Radio Roja,AR,America/Argentina/Buenos_Aires,https://radioroja.com.ar/,,,false,informes@radioroja.com.ar
 65,Ahijuna,AR,America/Argentina/Buenos_Aires,https://ahijuna.fm/,https://ahijuna.fm/programas/,ahijuna.json,true,radio@ahijuna.fm
 66,Alba Ciudad 96.3 FM,VE,America/Caracas,http://www.albaciudad.org,https://albaciudad.org/nuestros-programas/,alba-ciudad-96-3-fm.json,true,albaciudadfm@gmail.com
 124,FM La Boca,AR,America/Argentina/Buenos_Aires,https://fmlaboca.com.ar/,https://fmlaboca.com.ar/programacion/,fm-la-boca.json,true,

@@ -1509,6 +1509,123 @@ function snapshotDay(fetchedAt) {
   return DAY_NAMES[(safe.getUTCDay() + 6) % 7]
 }
 
+function parseSapoClock(value) {
+  const match = /^(\d{1,2}):(\d{2})$/.exec(String(value || '').trim())
+  if (!match) return null
+  return toMinutes(match[1], match[2])
+}
+
+function sapoPrograms(payload) {
+  if (!payload || !Array.isArray(payload.schedule)) return { programs: [], detail: 'no schedule[]' }
+  const programs = []
+  for (const dayEntry of payload.schedule) {
+    const day = dayFromHeading(dayEntry?.name || '')
+    if (!day) continue
+    for (const program of dayEntry.programs || []) {
+      const startMin = parseSapoClock(program.start_time)
+      const endMin = parseSapoClock(program.end_time)
+      const title = cleanTitle(program.title || '')
+      if (startMin === null || !isTitle(title)) continue
+      programs.push({ day, startMin, endMin, title })
+    }
+  }
+  return { programs, detail: `${payload.schedule.length} day blocks` }
+}
+
+async function convertSapoStation(id, station, outDir, meta, buffer, report, guides, options) {
+  let payload
+  try {
+    payload = JSON.parse(buffer.toString('utf8'))
+  } catch (error) {
+    report.errors.push(`unreadable JSON snapshot: ${error.message}`)
+    return report
+  }
+  const { programs, detail } = sapoPrograms(payload)
+  report.format = 'json-api'
+  report.strategy = 'sapo-json'
+  report.diagnostics.push(`sapo schedule: ${programs.length} programmes — ${detail}`)
+  if (!programs.length) {
+    report.errors.push('no weekly schedule could be extracted from the SAPO schedule')
+    return report
+  }
+
+  const finalized = finalizePrograms(programs)
+  report.stats = finalized.stats
+  report.warnings.push(...finalized.warnings.slice(0, 80))
+  if (finalized.warnings.length > 80) report.warnings.push(`… ${finalized.warnings.length - 80} more warning(s) in this station`)
+  if (!finalized.days.length || finalized.stats.kept < 3) {
+    report.status = 'failed'
+    report.errors.push(`extraction produced only ${finalized.stats.kept} usable programme(s)`)
+    return report
+  }
+
+  const existing = guides.get(Number(id))
+  const timezoneDiagnostics = []
+  const timezone = timezoneFor(station || {}, existing, timezoneDiagnostics, 'es')
+  report.diagnostics.push(...timezoneDiagnostics)
+
+  const base = slugify(station?.name || meta.name || `station-${id}`)
+  let fileName = `${base}.json`
+  if (existsSync(join(outDir, fileName))) {
+    try {
+      const current = JSON.parse(await readFile(join(outDir, fileName), 'utf8'))
+      if (!current.generator && !options.force) {
+        report.status = 'skipped'
+        report.file = null
+        report.suggested_epg_file = fileName
+        report.errors.push(`refusing to overwrite the curated guide ${fileName} (use --force)`)
+        return report
+      }
+    } catch {
+      /* unreadable target: overwrite is safe */
+    }
+  }
+
+  const epg = {
+    version: VERSION,
+    station: station?.name || meta.name || `Station ${id}`,
+    station_id: Number(id),
+    schedule_type: 'weekly',
+    timezone,
+    last_updated: String(meta.fetched_at || new Date().toISOString()).slice(0, 10),
+    source: report.source || undefined,
+    contact: station?.mailto || undefined,
+    notes: `Generado automáticamente desde ${report.source || 'la fuente'} (snapshot ${String(meta.fetched_at || '').slice(0, 10)}); revisar data/epg-report.json.`,
+    generator: 'scripts/convert-raw-epg.mjs',
+    metadata: {
+      categories: CATEGORY_LABELS,
+      default_filler: { title: 'Música', category: 'musica' },
+    },
+    shows: finalized.shows,
+    days: finalized.days,
+  }
+  if (!epg.contact) delete epg.contact
+
+  await mkdir(outDir, { recursive: true })
+  await writeFile(join(outDir, fileName), `${JSON.stringify(epg, null, 2)}\n`, 'utf8')
+
+  report.file = fileName
+  report.suggested_epg_file = fileName
+  report.confidence = Math.max(
+    0.1,
+    Math.min(
+      0.98,
+      0.15 + finalized.stats.daysWithPrograms * 0.1 + Math.min(finalized.stats.kept / 60, 0.4) - (finalized.stats.missingTitles + finalized.stats.invalidTimes > 10 ? 0.1 : 0)
+    )
+  )
+
+  const dayNames = new Set(finalized.days.map((day) => day.day))
+  const missingDays = DAY_NAMES.filter((day) => !dayNames.has(day))
+  if (missingDays.length) report.warnings.push(`no programmes extracted for: ${missingDays.join(', ')}`)
+  if (finalized.stats.daysWithPrograms === 1) report.warnings.push('only one day extracted (the source may show only the active day)')
+
+  report.status = finalized.stats.daysWithPrograms >= 3 && finalized.stats.kept >= 8 && finalized.stats.missingTitles + finalized.stats.invalidTimes <= 5
+    ? 'ok'
+    : 'partial'
+  if (report.status === 'partial') report.warnings.push('partial extraction: review the strategy diagnostics before publishing this guide')
+  return report
+}
+
 function decodeSnapshot(buffer) {
   const utf8 = new TextDecoder('utf-8', { fatal: false }).decode(buffer)
   const bad = (utf8.match(/\uFFFD/g) || []).length
@@ -1566,8 +1683,13 @@ async function convertStation(id, station, rawDir, outDir, guides, options) {
     report.errors.push('no latest.* snapshot')
     return report
   }
+  if (meta.kind === 'json') {
+    const buffer = await readFile(join(dir, snapshot))
+    report.diagnostics.push(`snapshot ${snapshot} (${buffer.length} bytes, json)`)
+    return convertSapoStation(id, station, outDir, meta, buffer, report, guides, options)
+  }
   if (meta.kind !== 'html') {
-    report.errors.push(`unsupported snapshot format "${meta.kind}" (HTML only for now)`)
+    report.errors.push(`unsupported snapshot format "${meta.kind}" (HTML or SAPO JSON only for now)`)
     report.diagnostics.push(`file ${snapshot}, ${meta.bytes || '?'} bytes`)
     return report
   }

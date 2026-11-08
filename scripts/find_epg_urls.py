@@ -15,6 +15,12 @@ What changed in v2
            (/programacion/parrilla/); German "Programm" is understood.
   TLS      a station with a broken certificate is read anyway, flagged `tls_unverified`
            (disable with --strict-tls). Step 2 honours the flag.
+  EVIDENCE candidate pages also report schedule images, PDFs, iframes, title and script count.
+  ACTION   every result is classified as add_source, review_partial, ocr_or_manual,
+           render_or_manual, blocked_by_robots, fix_homepage or no_schedule.
+  ASSETS   schedule images and documents become candidates even without link text.
+  SOURCE   SAPO radio widgets (data-station + sapo-widget.js) resolve to their JSON
+           schedule API, so JS-only pages with that widget become add_source.
 
 Usage (repo root):
     python3 scripts/find_epg_urls.py                    # dry run
@@ -40,12 +46,13 @@ import unicodedata
 import urllib.error
 import urllib.request
 import urllib.robotparser
+from collections import Counter
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import date
 from html.parser import HTMLParser
-from urllib.parse import urldefrag, urljoin, urlparse
+from urllib.parse import quote, urldefrag, urljoin, urlparse
 
-UA = "riotsradios-epg-finder/0.2 (+https://github.com/mrHumildad/riotsradios-epg)"
+UA = "riotsradios-epg-finder/0.3 (+https://github.com/mrHumildad/riotsradios-epg)"
 MAX_BYTES = 2_000_000
 
 # --------------------------------------------------------------------------- text helpers
@@ -67,7 +74,12 @@ DAYS = [
     ["domingo", "diumenge", "domenica", "dimanche", "sunday", "sonntag", "igandea"],
 ]
 DAY_RES = [re.compile(r"\b(?:%s)\b" % "|".join(names)) for names in DAYS]
-TIME_RE = re.compile(r"\b(?:[01]?\d|2[0-3])(?::|h)[0-5]\d\b")
+TIME_RE = re.compile(
+    r"\b(?:[01]?\d|2[0-3])(?:(?::|h|\.)\s?[0-5]\d|\s?(?:hs?|am|pm))\b", re.I
+)
+ASSET_RE = re.compile(r"program|parrilla|palinsest|grill|horari|agenda|calend|semanal|schedule|programm", re.I)
+DOC_RE = re.compile(r"\.(?:pdf|jpe?g|png|webp)(?:\?|$)", re.I)
+SUSPICIOUS_RE = re.compile(r"casino|apuestas|bonos|slots|pin up|domain (?:for sale|parked)|redirecting", re.I)
 
 STRONG = re.compile(
     r"parrilla|programaci|palinsesto|programmazione|grille|sendeplan|horario|schedule|egitarau|"
@@ -113,26 +125,43 @@ def count_days_times(text: str):
 class PageParser(HTMLParser):
     def __init__(self):
         super().__init__(convert_charrefs=True)
-        self.links, self.text, self.iframes = [], [], []
+        self.links, self.text, self.iframes, self.images = [], [], [], []
         self.scripts = 0
+        self.script_srcs = []
+        self.sapo_stations = []
+        self.title = ""
         self.lang = None
         self._skip = 0
         self._a = None
+        self._in_title = False
 
     def handle_starttag(self, tag, attrs):
         a = dict(attrs)
         if tag == "html" and a.get("lang"):
             self.lang = a["lang"][:2].lower()
+        if tag == "title":
+            self._in_title = True
         if tag in ("script", "style", "noscript"):
             self._skip += 1
             if tag == "script":
                 self.scripts += 1
+                if a.get("src"):
+                    self.script_srcs.append(a["src"])
         elif tag == "a" and a.get("href"):
             self._a = [a["href"], ((a.get("aria-label") or "") + " " + (a.get("title") or "")).strip()]
         elif tag == "iframe" and a.get("src"):
             self.iframes.append(a["src"])
+        elif tag == "img" and a.get("src"):
+            self.images.append((a["src"], a.get("alt") or ""))
+        elif tag == "div":
+            if a.get("id") == "sapo-widget" or "sapo-widget" in (a.get("class") or ""):
+                station = (a.get("data-station") or "").strip()
+                if station:
+                    self.sapo_stations.append(station)
 
     def handle_endtag(self, tag):
+        if tag == "title":
+            self._in_title = False
         if tag in ("script", "style", "noscript") and self._skip:
             self._skip -= 1
         elif tag == "a" and self._a:
@@ -140,6 +169,8 @@ class PageParser(HTMLParser):
             self._a = None
 
     def handle_data(self, data):
+        if self._in_title:
+            self.title += data
         if self._skip:
             return
         self.text.append(data)
@@ -159,6 +190,58 @@ def parse_html(body: bytes, ctype_hint: str = ""):
     except Exception:
         pass
     return html, p
+
+
+def sapo_api_url(base, p):
+    """SAPO renders client-side; its JSON API is the real, repeatable source."""
+    if not p.sapo_stations:
+        return None
+    for src in p.script_srcs:
+        if "sapo-widget" not in src:
+            continue
+        u = urlparse(urljoin(base, src))
+        if u.scheme in ("http", "https") and u.netloc:
+            station = quote(p.sapo_stations[0], safe="")
+            return f"{u.scheme}://{u.netloc}/api_schedule.php?station={station}"
+    return None
+
+
+def asset_urls(base, p):
+    """Schedule images and documents found on a page, even without useful link text."""
+    found = []
+    for src, alt in p.images:
+        if ASSET_RE.search(norm(f"{src} {alt}")):
+            u = clean_url(base, src)
+            if u:
+                found.append(u)
+    for href, text in p.links:
+        if DOC_RE.search(href) and ASSET_RE.search(norm(f"{href} {text}")):
+            u = clean_url(base, href)
+            if u:
+                found.append(u)
+    return list(dict.fromkeys(found))
+
+
+def action_for(candidate):
+    """Turn the evidence into the next human action."""
+    if not candidate.get("ok"):
+        return "fix_homepage"
+    fmt = candidate.get("format")
+    days = candidate.get("days", 0)
+    times = candidate.get("times", 0)
+    if fmt in ("pdf", "image"):
+        return "ocr_or_manual"
+    if fmt == "js-rendered":
+        return "render_or_manual"
+    if fmt in ("ical", "json-api"):
+        return "add_source"
+    if (days >= 5 and times >= 2) or (days >= 4 and times >= 8):
+        return "add_source"
+    if days >= 1 or times >= 3:
+        return "review_partial"
+    if candidate.get("schedule_assets"):
+        return "ocr_or_manual"
+    return "manual_review"
 
 
 # --------------------------------------------------------------------------- fetching (thread-safe)
@@ -299,16 +382,29 @@ def evaluate(fetcher, url, link_score, via, resp=None):
         return {"url": url, "ok": False, "error": r["error"] or f"HTTP {r['status']}", "via": via}
     fmt, html, p = classify_response(r)
     out = {"url": r["url"], "ok": True, "format": fmt, "via": via, "link_score": round(link_score, 2),
-           "days": 0, "times": 0, "gcal": [], "tls_unverified": r.get("tls_unverified", False)}
+           "days": 0, "times": 0, "gcal": [], "tls_unverified": r.get("tls_unverified", False),
+           "title": "", "scripts": 0, "text_len": 0, "iframes": [], "schedule_assets": []}
     if fmt == "html":
         text = " ".join(p.text)
         days, times = count_days_times(text)
         out["days"], out["times"] = days, times
         out["gcal"] = GCAL_RE.findall(html)
+        out["title"] = " ".join(p.title.split())[:120]
+        out["scripts"] = p.scripts
+        out["text_len"] = len(text)
+        out["iframes"] = [urljoin(r["url"], s) for s in p.iframes[:5]]
+        out["schedule_assets"] = asset_urls(r["url"], p)[:6]
         page = 0.6 * min(days, 7) / 7 + 0.4 * min(times, 30) / 30
         if days == 0 and times < 3 and p.scripts >= 5 and len(text) < 3000:
             out["format"] = "js-rendered"
             page = 0.45
+        sapo = sapo_api_url(r["url"], p)
+        if sapo:
+            out["page_url"] = r["url"]
+            out["sapo_station"] = p.sapo_stations[0]
+            out["url"] = sapo
+            out["format"] = "json-api"
+            page = 0.9
         out["page_score"] = round(page, 2)
         out["_parser"] = p
     else:
@@ -319,18 +415,27 @@ def evaluate(fetcher, url, link_score, via, resp=None):
     if is_post_url(out["url"]):          # an article, not the schedule: always needs a human look
         conf, out["post_like"] = min(conf, 0.5), True
     out["confidence"] = round(conf, 2)
+    out["action"] = action_for(out)
     return out
 
 
 def find_for_station(fetcher, homepage, country="", max_eval=8):
     home = fetcher.get(homepage)
+    meta = {"homepage_status": home["status"], "homepage_url": home["url"]}
     if home["error"] or home["status"] != 200:
-        return {"status": "error", "error": "homepage: " + (home["error"] or f"HTTP {home['status']}"),
-                "candidates": []}
+        error = "homepage: " + (home["error"] or f"HTTP {home['status']}")
+        action = "blocked_by_robots" if "robots" in error.lower() else "fix_homepage"
+        return {**meta, "status": "error", "error": error, "candidates": [], "action": action}
     fmt, html, p = classify_response(home)
     if fmt != "html":
-        return {"status": "error", "error": "homepage is not html", "candidates": []}
+        return {**meta, "status": "error", "error": "homepage is not html", "candidates": [],
+                "homepage_format": fmt, "action": "ocr_or_manual"}
     base = home["url"]
+    home_text = " ".join(p.text)
+    home_title = " ".join(p.title.split())[:120]
+    home_assets = asset_urls(base, p)
+    suspicious = bool(SUSPICIOUS_RE.search(norm(home_title + " " + home_text[:2000])))
+    meta.update(homepage_title=home_title, homepage_suspicious=suspicious, homepage_assets=home_assets[:6])
     lang = COUNTRY_LANG.get((country or "").upper()) or p.lang
     lang = lang if lang in PROBES else None
 
@@ -343,6 +448,8 @@ def find_for_station(fetcher, homepage, country="", max_eval=8):
         if s > 0 and (u not in cands or s > cands[u][0]):
             cands[u] = (s, "link:" + " ".join(text.split())[:40])
     candidates = dict(sorted(cands.items(), key=lambda kv: -kv[1][0])[:5])
+    for asset in home_assets[:5]:
+        candidates.setdefault(asset, (0.55, "asset:homepage"))
     for g in GCAL_RE.findall(html):
         candidates.setdefault(g.replace("&amp;", "&"), (0.6, "gcal-embed"))
     candidates.setdefault(base, (0.2, "homepage"))
@@ -391,8 +498,18 @@ def find_for_station(fetcher, homepage, country="", max_eval=8):
     good = sorted([r for r in results if r.get("ok")], key=lambda r: -r["confidence"])
     for r in good:
         r.pop("_parser", None)
-    return {"status": "ok" if good else "error", "error": None if good else "no candidate reachable",
-            "candidates": good, "failed": [r for r in results if not r.get("ok")]}
+    if good:
+        action = good[0].get("action", "manual_review")
+    elif suspicious:
+        action = "fix_homepage"
+    elif home_assets:
+        action = "ocr_or_manual"
+    else:
+        action = "no_schedule"
+    return {**meta, "status": "ok" if good else "error",
+            "error": None if good else "no candidate reachable",
+            "candidates": good, "failed": [r for r in results if not r.get("ok")],
+            "action": action}
 
 
 # --------------------------------------------------------------------------- optional Ollama tie-break
@@ -496,13 +613,23 @@ def main():
                 continue
             cands = res["candidates"]
             entry = {"name": row["name"], "checked_at": today, "alternatives": cands[1:4],
-                     "failed": res.get("failed", [])[:3]}
+                     "failed": res.get("failed", [])[:3],
+                     "homepage_status": res.get("homepage_status"),
+                     "homepage_title": res.get("homepage_title"),
+                     "homepage_suspicious": res.get("homepage_suspicious", False)}
             if cands:
                 best = cands[0]
                 entry.update(url=best["url"], format=best["format"], confidence=best["confidence"],
                              method=best["via"], days=best["days"], times=best["times"],
                              tls_unverified=best.get("tls_unverified", False),
-                             post_like=best.get("post_like", False))
+                             post_like=best.get("post_like", False),
+                             action=best.get("action", "manual_review"))
+                if best.get("page_url"):
+                    entry["page_url"] = best["page_url"]
+                evidence = {k: best.get(k) for k in ("title", "scripts", "text_len", "iframes", "schedule_assets")
+                            if best.get(k)}
+                if evidence:
+                    entry["evidence"] = evidence
                 if best["confidence"] >= args.threshold:
                     entry["status"] = "ok"
                     if args.write:
@@ -511,15 +638,17 @@ def main():
                 else:
                     entry["status"] = "needs_review"
                 flags = (" [TLS unverified]" if entry["tls_unverified"] else "") + (" [post-like]" if entry["post_like"] else "")
-                print(f"{prog} [{sid}] {row['name']}: {entry['status']:12s} {best['confidence']:.2f} "
-                      f"{best['format']:12s} {best['url']}{flags}")
+                print(f"{prog} [{sid}] {row['name']}: {entry['status']:12s} {entry['action']:16s} "
+                      f"{best['confidence']:.2f} {best['format']:12s} {best['url']}{flags}")
             else:
-                entry.update(status="error", error=res["error"])
-                print(f"{prog} [{sid}] {row['name']}: ERROR {res['error']}")
+                entry.update(status="error", error=res["error"], action=res.get("action", "no_schedule"))
+                print(f"{prog} [{sid}] {row['name']}: ERROR {entry['action']:16s} {res['error']}")
             entry["locked"] = stations.get(sid, {}).get("locked", False)
             stations[sid] = entry
 
+    actions = Counter(e.get("action", "unknown") for e in stations.values())
     sidecar["generated"] = today
+    sidecar["summary"] = {"stations": len(stations), "actions": dict(sorted(actions.items()))}
     os.makedirs(os.path.dirname(args.out) or ".", exist_ok=True)
     with open(args.out, "w", encoding="utf-8") as f:
         json.dump(sidecar, f, ensure_ascii=False, indent=2)
@@ -534,6 +663,7 @@ def main():
         print(f"\nupdated {changed} epg_url value(s) in {args.csv} - review with `git diff`")
     elif not args.write:
         print("\ndry run: nothing written to stations.csv (use --write)")
+    print("actions: " + ", ".join(f"{k}={v}" for k, v in sorted(actions.items())))
     print(f"{len(todo)} stations in {time.time() - t0:.1f}s - details: {args.out}")
 
 

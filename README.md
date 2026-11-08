@@ -59,6 +59,12 @@ node scripts/build-manifest.mjs --check            # fail if it is stale
 npm test                                           # config + manifest tests
 ```
 
+Discovery records an `action` per station in `data/epg_sources.json`:
+`add_source`, `review_partial`, `ocr_or_manual`, `render_or_manual`,
+`blocked_by_robots`, `fix_homepage` or `no_schedule`. The same pass records
+schedule images, PDFs, iframes, page titles and weekday/time evidence, so the
+next discovery run does not re-derive the classification by hand.
+
 The pipeline has no npm dependencies. Python is stdlib-only; Playwright is
 optional and only used by `fetch_epgs.py --render`.
 

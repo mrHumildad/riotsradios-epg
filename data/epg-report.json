@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-11-08T21:33:30.516Z",
+  "generated_at": "2026-11-08T23:04:59.472Z",
   "raw_dir": "data/raw",
   "out_dir": "public/EPGs",
   "html_only": true,
   "summary": {
-    "stations": 21,
-    "ok": 16,
+    "stations": 22,
+    "ok": 17,
     "partial": 2,
     "failed": 3,
     "skipped": 0,
-    "extracted": 1486,
-    "programmes": 1470,
-    "shows": 667,
+    "extracted": 1628,
+    "programmes": 1610,
+    "shows": 700,
     "missingTitles": 0,
     "invalidTimes": 4,
-    "duplicates": 12,
-    "gaps": 389,
-    "gapMinutes": 59415,
-    "overlapsClipped": 11
+    "duplicates": 14,
+    "gaps": 428,
+    "gapMinutes": 61837,
+    "overlapsClipped": 30
   },
   "stations": [
     {
@@ -117,7 +117,7 @@
       "stats": {},
       "warnings": [],
       "errors": [
-        "unsupported snapshot format \"pdf\" (HTML only for now)"
+        "unsupported snapshot format \"pdf\" (HTML or SAPO JSON only for now)"
       ],
       "diagnostics": [
         "file latest.pdf, 42944 bytes"
@@ -572,6 +572,64 @@
         "strategy single-day: 0 programmes / 0 days — only 0 time-coded lines (0 titles)"
       ],
       "suggested_epg_file": "radio-topo.json"
+    },
+    {
+      "id": 19,
+      "name": "Radio Vallekas",
+      "source": "https://sapo.radiobot.org/api_schedule.php?station=rvk",
+      "format": "json-api",
+      "status": "ok",
+      "strategy": "sapo-json",
+      "file": "radio-vallekas.json",
+      "confidence": 0.98,
+      "stats": {
+        "extracted": 142,
+        "kept": 140,
+        "uniqueShows": 33,
+        "missingTitles": 0,
+        "invalidTimes": 0,
+        "duplicates": 2,
+        "overlapsClipped": 19,
+        "gapCount": 39,
+        "gapMinutes": 2422,
+        "daysWithPrograms": 7
+      },
+      "warnings": [
+        "monday 00:00: duplicate start (kept \"IGUANAROCK\", dropped \"LA MORADA DEL ERMITAÑO\")",
+        "monday 01:30: overlap clipped at 02:00 (\"Boletín Amnistía Internacional\")",
+        "monday 08:00: overlap clipped at 08:30 (\"Boletín Amnistía Internacional\")",
+        "monday 13:00: overlap clipped at 13:30 (\"Boletín Amnistía Internacional\")",
+        "monday 16:05: overlap clipped at 17:00 (\"YAYOS CONTRA EL MACHISMO\")",
+        "monday: 5 gap(s), 156 min (06:00-06:30, 10:00-11:30, 14:00-14:30, …)",
+        "tuesday 00:00: duplicate start (kept \"IGUANAROCK\", dropped \"¿POR QUÉ ESTOY TAN TRISTE TENIÉNDOLO TODO?\")",
+        "tuesday 08:00: overlap clipped at 08:30 (\"Boletín Amnistía Internacional\")",
+        "tuesday 13:00: overlap clipped at 13:30 (\"Boletín Amnistía Internacional\")",
+        "tuesday: 8 gap(s), 495 min (02:30-03:30, 07:00-08:00, 09:00-10:00, …)",
+        "wednesday 01:30: overlap clipped at 02:00 (\"Boletín Amnistía Internacional\")",
+        "wednesday 08:00: overlap clipped at 08:30 (\"Boletín Amnistía Internacional\")",
+        "wednesday 13:00: overlap clipped at 13:30 (\"Boletín Amnistía Internacional\")",
+        "wednesday: 4 gap(s), 270 min (11:30-13:00, 14:00-14:30, 20:00-21:00, …)",
+        "thursday 01:30: overlap clipped at 02:00 (\"Boletín Amnistía Internacional\")",
+        "thursday 08:00: overlap clipped at 08:30 (\"Boletín Amnistía Internacional\")",
+        "thursday 13:00: overlap clipped at 13:30 (\"Boletín Amnistía Internacional\")",
+        "thursday: 5 gap(s), 315 min (09:00-11:00, 12:30-13:00, 14:00-14:30, …)",
+        "friday 01:30: overlap clipped at 02:00 (\"Boletín Amnistía Internacional\")",
+        "friday 08:00: overlap clipped at 08:30 (\"Boletín Amnistía Internacional\")",
+        "friday 13:00: overlap clipped at 13:30 (\"Boletín Amnistía Internacional\")",
+        "friday: 4 gap(s), 240 min (04:00-05:00, 14:00-14:30, 15:00-16:00, …)",
+        "saturday 01:30: overlap clipped at 02:00 (\"Boletín Amnistía Internacional\")",
+        "saturday 08:00: overlap clipped at 08:30 (\"Boletín Amnistía Internacional\")",
+        "saturday: 8 gap(s), 555 min (00:00-01:00, 03:00-03:30, 09:00-10:00, …)",
+        "sunday 08:00: overlap clipped at 08:30 (\"Boletín Amnistía Internacional\")",
+        "sunday 11:00: overlap clipped at 11:30 (\"VIÑETA LIBRE\")",
+        "sunday: 5 gap(s), 391 min (02:30-05:00, 10:00-11:00, 13:00-14:00, …)"
+      ],
+      "errors": [],
+      "diagnostics": [
+        "snapshot latest.json (186567 bytes, json)",
+        "sapo schedule: 142 programmes — 7 day blocks"
+      ],
+      "suggested_epg_file": "radio-vallekas.json"
     },
     {
       "id": 20,

@@ -1,0 +1,1042 @@
+{
+  "version": "2.0",
+  "station": "Radio Vallekas",
+  "station_id": 19,
+  "schedule_type": "weekly",
+  "timezone": "Europe/Madrid",
+  "last_updated": "2026-11-08",
+  "source": "https://sapo.radiobot.org/api_schedule.php?station=rvk",
+  "notes": "Generado automáticamente desde https://sapo.radiobot.org/api_schedule.php?station=rvk (snapshot 2026-11-08); revisar data/epg-report.json.",
+  "generator": "scripts/convert-raw-epg.mjs",
+  "metadata": {
+    "categories": {
+      "musica": "Música",
+      "directo": "Directo",
+      "podcast": "Podcast / repetición",
+      "especial": "Especial",
+      "taller": "Taller / educación"
+    },
+    "default_filler": {
+      "title": "Música",
+      "category": "musica"
+    }
+  },
+  "shows": {
+    "la-morada-del-ermitano": {
+      "title": "LA MORADA DEL ERMITAÑO",
+      "category": "directo"
+    },
+    "capsulas-feministas-radio-almaina": {
+      "title": "Cápsulas Feministas [Radio Almaina]",
+      "category": "directo"
+    },
+    "boletin-amnistia-internacional": {
+      "title": "Boletín Amnistía Internacional",
+      "category": "directo"
+    },
+    "el-cascote-radiofonico": {
+      "title": "EL CASCOTE RADIOFÓNICO",
+      "category": "directo"
+    },
+    "bruce-lee-y-nosotras-tambien": {
+      "title": "BRUCE LEE Y NOSOTRAS TAMBIÉN",
+      "category": "directo"
+    },
+    "democracy-now": {
+      "title": "Democracy Now",
+      "category": "directo"
+    },
+    "el-corazon-al-viento": {
+      "title": "EL CORAZÓN AL VIENTO",
+      "category": "directo"
+    },
+    "el-salto-radio-el-salto": {
+      "title": "El Salto Radio [EL SALTO]",
+      "category": "directo"
+    },
+    "radiokalmente": {
+      "title": "RADIOKALMENTE",
+      "category": "directo"
+    },
+    "despues-del-futuro-radio-oca": {
+      "title": "Después del futuro [Radio OCA]",
+      "category": "directo"
+    },
+    "yayos-contra-el-machismo": {
+      "title": "YAYOS CONTRA EL MACHISMO",
+      "category": "directo"
+    },
+    "lo-que-dicen-las-que-escuchan": {
+      "title": "LO QUE DICEN LAS QUE ESCUCHAN",
+      "category": "directo"
+    },
+    "vineta-libre": {
+      "title": "VIÑETA LIBRE",
+      "category": "directo"
+    },
+    "musica-kasual": {
+      "title": "MÚSICA KASUAL",
+      "category": "musica"
+    },
+    "ovejas-negrax": {
+      "title": "Ovejas Negrax",
+      "category": "directo"
+    },
+    "iguanarock": {
+      "title": "IGUANAROCK",
+      "category": "directo"
+    },
+    "por-que-estoy-tan-triste-teniendolo-todo": {
+      "title": "¿POR QUÉ ESTOY TAN TRISTE TENIÉNDOLO TODO?",
+      "category": "directo"
+    },
+    "el-cafe-de-silverio": {
+      "title": "El Café de Silverio",
+      "category": "directo"
+    },
+    "aires-celtas-radio-alfaguara": {
+      "title": "Aires Celtas [Radio Alfaguara]",
+      "category": "directo"
+    },
+    "la-linterna-de-diogenes-radio-utopia": {
+      "title": "La linterna de Diógenes [Radio Utopía]",
+      "category": "directo"
+    },
+    "radio-kalle-que-no-calle-radio-kalle": {
+      "title": "Radio Kalle Que No Calle [Radio Kalle]",
+      "category": "directo"
+    },
+    "sangre-fucsia-radio-agora-sol": {
+      "title": "Sangre Fucsia [Radio Ágora Sol]",
+      "category": "directo"
+    },
+    "las-del-siete": {
+      "title": "Las del siete",
+      "category": "directo"
+    },
+    "salto-al-vacio-radio-agora-sol": {
+      "title": "Salto al vacío [Radio Ágora Sol]",
+      "category": "directo"
+    },
+    "poesia-radioactiva-radio-omc": {
+      "title": "Poesia Radioactiva [Radio OMC]",
+      "category": "directo"
+    },
+    "ya-no-se-hace-musica-como-antes": {
+      "title": "YA NO SE HACE MÚSICA COMO ANTES",
+      "category": "directo"
+    },
+    "mar-de-fueguitos-97-irratia": {
+      "title": "Mar de fueguitos [97 Irratia]",
+      "category": "directo"
+    },
+    "archivo-sonoro-del-barrio": {
+      "title": "ARCHIVO SONORO DEL BARRIO",
+      "category": "directo"
+    },
+    "sonidos-gordos-radio-qk": {
+      "title": "Sonidos Gordos [Radio QK]",
+      "category": "directo"
+    },
+    "la-hora-de-la-aguja": {
+      "title": "La Hora de la Aguja",
+      "category": "directo"
+    },
+    "distorsion-en-las-ondas": {
+      "title": "DISTORSION EN LAS ONDAS",
+      "category": "directo"
+    },
+    "barrio-canino-radio-agora-sol": {
+      "title": "Barrio Canino [Radio Ágora Sol]",
+      "category": "directo"
+    },
+    "100fuegos-radio-xata": {
+      "title": "100Fuegos [Radio Xata]",
+      "category": "directo"
+    }
+  },
+  "days": [
+    {
+      "day": "monday",
+      "label": "Lunes",
+      "programs": [
+        {
+          "start": "00:00",
+          "end": "01:00",
+          "show_id": "la-morada-del-ermitano",
+          "live": false
+        },
+        {
+          "start": "01:00",
+          "end": "01:30",
+          "show_id": "capsulas-feministas-radio-almaina",
+          "live": false
+        },
+        {
+          "start": "01:30",
+          "end": "02:00",
+          "show_id": "boletin-amnistia-internacional",
+          "live": false
+        },
+        {
+          "start": "02:00",
+          "end": "04:00",
+          "show_id": "el-cascote-radiofonico",
+          "live": false
+        },
+        {
+          "start": "04:00",
+          "end": "05:00",
+          "show_id": "bruce-lee-y-nosotras-tambien",
+          "live": false
+        },
+        {
+          "start": "05:00",
+          "end": "05:30",
+          "show_id": "democracy-now",
+          "live": false
+        },
+        {
+          "start": "05:30",
+          "end": "06:00",
+          "show_id": "capsulas-feministas-radio-almaina",
+          "live": false
+        },
+        {
+          "start": "06:30",
+          "end": "08:00",
+          "show_id": "el-corazon-al-viento",
+          "live": false
+        },
+        {
+          "start": "08:00",
+          "end": "08:30",
+          "show_id": "boletin-amnistia-internacional",
+          "live": false
+        },
+        {
+          "start": "08:30",
+          "end": "09:00",
+          "show_id": "democracy-now",
+          "live": false
+        },
+        {
+          "start": "09:00",
+          "end": "10:00",
+          "show_id": "el-salto-radio-el-salto",
+          "live": false
+        },
+        {
+          "start": "11:30",
+          "end": "13:00",
+          "show_id": "radiokalmente",
+          "live": false
+        },
+        {
+          "start": "13:00",
+          "end": "13:30",
+          "show_id": "boletin-amnistia-internacional",
+          "live": false
+        },
+        {
+          "start": "13:30",
+          "end": "14:00",
+          "show_id": "capsulas-feministas-radio-almaina",
+          "live": false
+        },
+        {
+          "start": "14:30",
+          "end": "15:00",
+          "show_id": "democracy-now",
+          "live": false
+        },
+        {
+          "start": "15:00",
+          "end": "16:00",
+          "show_id": "despues-del-futuro-radio-oca",
+          "live": false
+        },
+        {
+          "start": "16:05",
+          "end": "17:00",
+          "show_id": "yayos-contra-el-machismo",
+          "live": false
+        },
+        {
+          "start": "17:00",
+          "end": "18:00",
+          "show_id": "lo-que-dicen-las-que-escuchan",
+          "live": false
+        },
+        {
+          "start": "18:00",
+          "end": "19:00",
+          "show_id": "vineta-libre",
+          "live": false
+        },
+        {
+          "start": "19:00",
+          "end": "21:00",
+          "show_id": "musica-kasual",
+          "live": false
+        },
+        {
+          "start": "21:00",
+          "end": "22:00",
+          "show_id": "ovejas-negrax",
+          "live": false
+        },
+        {
+          "start": "22:00",
+          "end": "23:59",
+          "show_id": "iguanarock",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "tuesday",
+      "label": "Martes",
+      "programs": [
+        {
+          "start": "00:00",
+          "end": "01:00",
+          "show_id": "por-que-estoy-tan-triste-teniendolo-todo",
+          "live": false
+        },
+        {
+          "start": "01:00",
+          "end": "01:30",
+          "show_id": "capsulas-feministas-radio-almaina",
+          "live": false
+        },
+        {
+          "start": "01:30",
+          "end": "02:30",
+          "show_id": "boletin-amnistia-internacional",
+          "live": false
+        },
+        {
+          "start": "03:30",
+          "end": "05:00",
+          "show_id": "el-cafe-de-silverio",
+          "live": false
+        },
+        {
+          "start": "05:00",
+          "end": "05:30",
+          "show_id": "democracy-now",
+          "live": false
+        },
+        {
+          "start": "05:30",
+          "end": "06:00",
+          "show_id": "capsulas-feministas-radio-almaina",
+          "live": false
+        },
+        {
+          "start": "06:00",
+          "end": "07:00",
+          "show_id": "aires-celtas-radio-alfaguara",
+          "live": false
+        },
+        {
+          "start": "08:00",
+          "end": "08:30",
+          "show_id": "boletin-amnistia-internacional",
+          "live": false
+        },
+        {
+          "start": "08:30",
+          "end": "09:00",
+          "show_id": "democracy-now",
+          "live": false
+        },
+        {
+          "start": "10:00",
+          "end": "11:00",
+          "show_id": "la-linterna-de-diogenes-radio-utopia",
+          "live": false
+        },
+        {
+          "start": "13:00",
+          "end": "13:30",
+          "show_id": "boletin-amnistia-internacional",
+          "live": false
+        },
+        {
+          "start": "13:30",
+          "end": "14:00",
+          "show_id": "capsulas-feministas-radio-almaina",
+          "live": false
+        },
+        {
+          "start": "14:30",
+          "end": "15:00",
+          "show_id": "democracy-now",
+          "live": false
+        },
+        {
+          "start": "15:00",
+          "end": "16:00",
+          "show_id": "yayos-contra-el-machismo",
+          "live": false
+        },
+        {
+          "start": "16:00",
+          "end": "17:00",
+          "show_id": "radio-kalle-que-no-calle-radio-kalle",
+          "live": false
+        },
+        {
+          "start": "17:00",
+          "end": "18:00",
+          "show_id": "sangre-fucsia-radio-agora-sol",
+          "live": false
+        },
+        {
+          "start": "18:00",
+          "end": "19:00",
+          "show_id": "las-del-siete",
+          "live": false
+        },
+        {
+          "start": "19:30",
+          "end": "20:30",
+          "show_id": "salto-al-vacio-radio-agora-sol",
+          "live": false
+        },
+        {
+          "start": "22:00",
+          "end": "23:00",
+          "show_id": "la-morada-del-ermitano",
+          "live": false
+        },
+        {
+          "start": "23:00",
+          "end": "23:15",
+          "show_id": "poesia-radioactiva-radio-omc",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "wednesday",
+      "label": "Miércoles",
+      "programs": [
+        {
+          "start": "00:00",
+          "end": "01:00",
+          "show_id": "vineta-libre",
+          "live": false
+        },
+        {
+          "start": "01:00",
+          "end": "01:30",
+          "show_id": "capsulas-feministas-radio-almaina",
+          "live": false
+        },
+        {
+          "start": "01:30",
+          "end": "02:00",
+          "show_id": "boletin-amnistia-internacional",
+          "live": false
+        },
+        {
+          "start": "02:00",
+          "end": "03:00",
+          "show_id": "yayos-contra-el-machismo",
+          "live": false
+        },
+        {
+          "start": "03:00",
+          "end": "05:00",
+          "show_id": "iguanarock",
+          "live": false
+        },
+        {
+          "start": "05:00",
+          "end": "05:30",
+          "show_id": "democracy-now",
+          "live": false
+        },
+        {
+          "start": "05:30",
+          "end": "06:00",
+          "show_id": "capsulas-feministas-radio-almaina",
+          "live": false
+        },
+        {
+          "start": "06:00",
+          "end": "08:00",
+          "show_id": "musica-kasual",
+          "live": false
+        },
+        {
+          "start": "08:00",
+          "end": "08:30",
+          "show_id": "boletin-amnistia-internacional",
+          "live": false
+        },
+        {
+          "start": "08:30",
+          "end": "09:00",
+          "show_id": "democracy-now",
+          "live": false
+        },
+        {
+          "start": "09:00",
+          "end": "10:00",
+          "show_id": "el-salto-radio-el-salto",
+          "live": false
+        },
+        {
+          "start": "10:00",
+          "end": "11:30",
+          "show_id": "ya-no-se-hace-musica-como-antes",
+          "live": false
+        },
+        {
+          "start": "13:00",
+          "end": "13:30",
+          "show_id": "boletin-amnistia-internacional",
+          "live": false
+        },
+        {
+          "start": "13:30",
+          "end": "14:00",
+          "show_id": "capsulas-feministas-radio-almaina",
+          "live": false
+        },
+        {
+          "start": "14:30",
+          "end": "15:00",
+          "show_id": "democracy-now",
+          "live": false
+        },
+        {
+          "start": "15:00",
+          "end": "16:00",
+          "show_id": "mar-de-fueguitos-97-irratia",
+          "live": false
+        },
+        {
+          "start": "16:00",
+          "end": "18:00",
+          "show_id": "archivo-sonoro-del-barrio",
+          "live": false
+        },
+        {
+          "start": "18:00",
+          "end": "19:00",
+          "show_id": "lo-que-dicen-las-que-escuchan",
+          "live": false
+        },
+        {
+          "start": "19:00",
+          "end": "20:00",
+          "show_id": "sonidos-gordos-radio-qk",
+          "live": false
+        },
+        {
+          "start": "21:00",
+          "end": "22:30",
+          "show_id": "el-cafe-de-silverio",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "thursday",
+      "label": "Jueves",
+      "programs": [
+        {
+          "start": "00:00",
+          "end": "01:00",
+          "show_id": "las-del-siete",
+          "live": false
+        },
+        {
+          "start": "01:00",
+          "end": "01:30",
+          "show_id": "capsulas-feministas-radio-almaina",
+          "live": false
+        },
+        {
+          "start": "01:30",
+          "end": "02:00",
+          "show_id": "boletin-amnistia-internacional",
+          "live": false
+        },
+        {
+          "start": "02:00",
+          "end": "03:00",
+          "show_id": "despues-del-futuro-radio-oca",
+          "live": false
+        },
+        {
+          "start": "03:00",
+          "end": "05:00",
+          "show_id": "la-hora-de-la-aguja",
+          "live": false
+        },
+        {
+          "start": "05:00",
+          "end": "05:30",
+          "show_id": "democracy-now",
+          "live": false
+        },
+        {
+          "start": "05:30",
+          "end": "06:00",
+          "show_id": "capsulas-feministas-radio-almaina",
+          "live": false
+        },
+        {
+          "start": "06:00",
+          "end": "07:00",
+          "show_id": "sangre-fucsia-radio-agora-sol",
+          "live": false
+        },
+        {
+          "start": "07:00",
+          "end": "08:00",
+          "show_id": "la-morada-del-ermitano",
+          "live": false
+        },
+        {
+          "start": "08:00",
+          "end": "08:30",
+          "show_id": "boletin-amnistia-internacional",
+          "live": false
+        },
+        {
+          "start": "08:30",
+          "end": "09:00",
+          "show_id": "democracy-now",
+          "live": false
+        },
+        {
+          "start": "11:00",
+          "end": "12:30",
+          "show_id": "distorsion-en-las-ondas",
+          "live": false
+        },
+        {
+          "start": "13:00",
+          "end": "13:30",
+          "show_id": "boletin-amnistia-internacional",
+          "live": false
+        },
+        {
+          "start": "13:30",
+          "end": "14:00",
+          "show_id": "capsulas-feministas-radio-almaina",
+          "live": false
+        },
+        {
+          "start": "14:30",
+          "end": "15:00",
+          "show_id": "democracy-now",
+          "live": false
+        },
+        {
+          "start": "15:00",
+          "end": "16:00",
+          "show_id": "ovejas-negrax",
+          "live": false
+        },
+        {
+          "start": "16:00",
+          "end": "17:00",
+          "show_id": "aires-celtas-radio-alfaguara",
+          "live": false
+        },
+        {
+          "start": "17:00",
+          "end": "18:00",
+          "show_id": "lo-que-dicen-las-que-escuchan",
+          "live": false
+        },
+        {
+          "start": "18:00",
+          "end": "19:00",
+          "show_id": "por-que-estoy-tan-triste-teniendolo-todo",
+          "live": false
+        },
+        {
+          "start": "19:00",
+          "end": "20:00",
+          "show_id": "poesia-radioactiva-radio-omc",
+          "live": false
+        },
+        {
+          "start": "20:00",
+          "end": "21:30",
+          "show_id": "el-corazon-al-viento",
+          "live": false
+        },
+        {
+          "start": "23:00",
+          "end": "23:15",
+          "show_id": "salto-al-vacio-radio-agora-sol",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "friday",
+      "label": "Viernes",
+      "programs": [
+        {
+          "start": "00:00",
+          "end": "01:00",
+          "show_id": "despues-del-futuro-radio-oca",
+          "live": false
+        },
+        {
+          "start": "01:00",
+          "end": "01:30",
+          "show_id": "capsulas-feministas-radio-almaina",
+          "live": false
+        },
+        {
+          "start": "01:30",
+          "end": "02:00",
+          "show_id": "boletin-amnistia-internacional",
+          "live": false
+        },
+        {
+          "start": "02:00",
+          "end": "04:00",
+          "show_id": "barrio-canino-radio-agora-sol",
+          "live": false
+        },
+        {
+          "start": "05:00",
+          "end": "05:30",
+          "show_id": "democracy-now",
+          "live": false
+        },
+        {
+          "start": "05:30",
+          "end": "06:00",
+          "show_id": "capsulas-feministas-radio-almaina",
+          "live": false
+        },
+        {
+          "start": "06:00",
+          "end": "08:00",
+          "show_id": "la-hora-de-la-aguja",
+          "live": false
+        },
+        {
+          "start": "08:00",
+          "end": "08:30",
+          "show_id": "boletin-amnistia-internacional",
+          "live": false
+        },
+        {
+          "start": "08:30",
+          "end": "09:00",
+          "show_id": "democracy-now",
+          "live": false
+        },
+        {
+          "start": "09:00",
+          "end": "10:00",
+          "show_id": "el-salto-radio-el-salto",
+          "live": false
+        },
+        {
+          "start": "10:00",
+          "end": "11:00",
+          "show_id": "bruce-lee-y-nosotras-tambien",
+          "live": false
+        },
+        {
+          "start": "11:00",
+          "end": "13:00",
+          "show_id": "archivo-sonoro-del-barrio",
+          "live": false
+        },
+        {
+          "start": "13:00",
+          "end": "13:30",
+          "show_id": "boletin-amnistia-internacional",
+          "live": false
+        },
+        {
+          "start": "13:30",
+          "end": "14:00",
+          "show_id": "capsulas-feministas-radio-almaina",
+          "live": false
+        },
+        {
+          "start": "14:30",
+          "end": "15:00",
+          "show_id": "democracy-now",
+          "live": false
+        },
+        {
+          "start": "16:00",
+          "end": "17:00",
+          "show_id": "la-morada-del-ermitano",
+          "live": false
+        },
+        {
+          "start": "17:00",
+          "end": "18:00",
+          "show_id": "vineta-libre",
+          "live": false
+        },
+        {
+          "start": "18:00",
+          "end": "19:00",
+          "show_id": "lo-que-dicen-las-que-escuchan",
+          "live": false
+        },
+        {
+          "start": "19:00",
+          "end": "21:00",
+          "show_id": "musica-kasual",
+          "live": false
+        },
+        {
+          "start": "21:00",
+          "end": "22:30",
+          "show_id": "ya-no-se-hace-musica-como-antes",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "saturday",
+      "label": "Sábado",
+      "programs": [
+        {
+          "start": "01:00",
+          "end": "01:30",
+          "show_id": "capsulas-feministas-radio-almaina",
+          "live": false
+        },
+        {
+          "start": "01:30",
+          "end": "02:00",
+          "show_id": "boletin-amnistia-internacional",
+          "live": false
+        },
+        {
+          "start": "02:00",
+          "end": "03:00",
+          "show_id": "aires-celtas-radio-alfaguara",
+          "live": false
+        },
+        {
+          "start": "03:30",
+          "end": "05:00",
+          "show_id": "el-corazon-al-viento",
+          "live": false
+        },
+        {
+          "start": "05:00",
+          "end": "05:30",
+          "show_id": "democracy-now",
+          "live": false
+        },
+        {
+          "start": "05:30",
+          "end": "06:00",
+          "show_id": "capsulas-feministas-radio-almaina",
+          "live": false
+        },
+        {
+          "start": "06:00",
+          "end": "07:00",
+          "show_id": "las-del-siete",
+          "live": false
+        },
+        {
+          "start": "07:00",
+          "end": "08:00",
+          "show_id": "la-morada-del-ermitano",
+          "live": false
+        },
+        {
+          "start": "08:00",
+          "end": "08:30",
+          "show_id": "boletin-amnistia-internacional",
+          "live": false
+        },
+        {
+          "start": "08:30",
+          "end": "09:00",
+          "show_id": "democracy-now",
+          "live": false
+        },
+        {
+          "start": "10:00",
+          "end": "11:00",
+          "show_id": "bruce-lee-y-nosotras-tambien",
+          "live": false
+        },
+        {
+          "start": "12:00",
+          "end": "14:00",
+          "show_id": "el-cascote-radiofonico",
+          "live": false
+        },
+        {
+          "start": "15:00",
+          "end": "16:00",
+          "show_id": "yayos-contra-el-machismo",
+          "live": false
+        },
+        {
+          "start": "16:00",
+          "end": "17:00",
+          "show_id": "100fuegos-radio-xata",
+          "live": false
+        },
+        {
+          "start": "19:00",
+          "end": "20:00",
+          "show_id": "sonidos-gordos-radio-qk",
+          "live": false
+        },
+        {
+          "start": "22:00",
+          "end": "23:00",
+          "show_id": "salto-al-vacio-radio-agora-sol",
+          "live": false
+        },
+        {
+          "start": "23:00",
+          "end": "23:15",
+          "show_id": "ovejas-negrax",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "sunday",
+      "label": "Domingo",
+      "programs": [
+        {
+          "start": "00:00",
+          "end": "01:00",
+          "show_id": "mar-de-fueguitos-97-irratia",
+          "live": false
+        },
+        {
+          "start": "01:00",
+          "end": "01:30",
+          "show_id": "capsulas-feministas-radio-almaina",
+          "live": false
+        },
+        {
+          "start": "01:30",
+          "end": "02:30",
+          "show_id": "boletin-amnistia-internacional",
+          "live": false
+        },
+        {
+          "start": "05:00",
+          "end": "05:30",
+          "show_id": "democracy-now",
+          "live": false
+        },
+        {
+          "start": "05:30",
+          "end": "06:00",
+          "show_id": "capsulas-feministas-radio-almaina",
+          "live": false
+        },
+        {
+          "start": "06:00",
+          "end": "07:00",
+          "show_id": "poesia-radioactiva-radio-omc",
+          "live": false
+        },
+        {
+          "start": "07:00",
+          "end": "08:00",
+          "show_id": "yayos-contra-el-machismo",
+          "live": false
+        },
+        {
+          "start": "08:00",
+          "end": "08:30",
+          "show_id": "boletin-amnistia-internacional",
+          "live": false
+        },
+        {
+          "start": "08:30",
+          "end": "09:00",
+          "show_id": "democracy-now",
+          "live": false
+        },
+        {
+          "start": "09:00",
+          "end": "10:00",
+          "show_id": "el-salto-radio-el-salto",
+          "live": false
+        },
+        {
+          "start": "11:00",
+          "end": "11:30",
+          "show_id": "vineta-libre",
+          "live": false
+        },
+        {
+          "start": "11:30",
+          "end": "13:00",
+          "show_id": "ya-no-se-hace-musica-como-antes",
+          "live": false
+        },
+        {
+          "start": "14:00",
+          "end": "15:00",
+          "show_id": "lo-que-dicen-las-que-escuchan",
+          "live": false
+        },
+        {
+          "start": "15:00",
+          "end": "16:00",
+          "show_id": "las-del-siete",
+          "live": false
+        },
+        {
+          "start": "16:00",
+          "end": "17:00",
+          "show_id": "radio-kalle-que-no-calle-radio-kalle",
+          "live": false
+        },
+        {
+          "start": "17:00",
+          "end": "18:00",
+          "show_id": "sangre-fucsia-radio-agora-sol",
+          "live": false
+        },
+        {
+          "start": "20:00",
+          "end": "21:00",
+          "show_id": "por-que-estoy-tan-triste-teniendolo-todo",
+          "live": false
+        },
+        {
+          "start": "21:00",
+          "end": "22:00",
+          "show_id": "la-morada-del-ermitano",
+          "live": false
+        },
+        {
+          "start": "22:00",
+          "end": "23:59",
+          "show_id": "iguanarock",
+          "live": false
+        }
+      ]
+    }
+  ]
+}
