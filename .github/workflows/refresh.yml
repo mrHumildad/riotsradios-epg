@@ -1,0 +1,114 @@
+name: Refresh EPG
+
+on:
+  schedule:
+    # Daily, after the stream-health probe. GitHub cron is UTC.
+    - cron: '37 4 * * *'
+  workflow_dispatch:
+    inputs:
+      only:
+        description: 'Optional space-separated station ids'
+        required: false
+      force:
+        description: 'Ignore ETag and Last-Modified'
+        type: boolean
+        default: false
+      render:
+        description: 'Render JavaScript pages with Playwright'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: epg-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install optional renderer
+        if: ${{ inputs.render == true }}
+        run: |
+          python3 -m pip install playwright
+          python3 -m playwright install --with-deps chromium
+
+      - name: Restore raw snapshots
+        uses: actions/cache@v4
+        with:
+          path: data/raw
+          key: epg-raw-${{ github.run_id }}
+          restore-keys: |
+            epg-raw-
+
+      - name: Fetch sources
+        env:
+          ONLY: ${{ inputs.only }}
+          FORCE: ${{ inputs.force }}
+          RENDER: ${{ inputs.render }}
+        run: |
+          EXTRA=()
+          if [ -n "$ONLY" ]; then
+            read -r -a IDS <<< "$ONLY"
+            EXTRA+=(--only "${IDS[@]}")
+          fi
+          if [ "$FORCE" = "true" ]; then
+            EXTRA+=(--force)
+          fi
+          if [ "$RENDER" = "true" ]; then
+            EXTRA+=(--render)
+          fi
+          python3 scripts/fetch_epgs.py --max-age-hours 20 "${EXTRA[@]}"
+
+      - name: Convert snapshots
+        run: node scripts/convert-raw-epg.mjs
+
+      - name: Validate guides
+        run: node scripts/validate-epgs.js
+
+      - name: Build manifest
+        run: node scripts/build-manifest.mjs
+
+      - name: Upload report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: epg-report
+          path: |
+            data/epg-report.json
+            data/raw/_run.json
+          if-no-files-found: warn
+
+      - name: Commit refreshed guides
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/EPGs data/epg-report.json
+          if git diff --cached --quiet; then
+            echo "EPG output unchanged"
+            exit 0
+          fi
+          git commit -m "chore(epg): refresh guides and manifest"
+          git push
+
+      - name: Publish to gh-pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: ./public
+          force_orphan: true
+          enable_jekyll: false

@@ -92,7 +92,41 @@ A guide is published only when:
 Failures are visible in `data/epg-report.json`; they do not delete the previous
 good guide. Raw snapshots are cache, not source, and stay out of git.
 
-## Next phase
+## Scheduled refresh and publishing
 
-The cron refresh, Pages publishing and the app's switch to the remote manifest
-are Phase 2/3 of the RIOTSRADIOS split.
+`.github/workflows/refresh.yml` runs daily at **04:37 UTC** (and on manual
+`workflow_dispatch`):
+
+1. restores the `data/raw` cache;
+2. fetches changed sources with a 20-hour freshness window;
+3. converts and validates the guides;
+4. rebuilds `public/EPGs/manifest.json`;
+5. uploads `data/epg-report.json` as an artifact;
+6. commits changed guides/report;
+7. publishes `public/` to the `gh-pages` branch.
+
+Enable Pages once in **Settings → Pages → Deploy from a branch**, branch
+`gh-pages`, folder `/ (root)`. The published base is:
+
+```text
+https://mrhumildad.github.io/riotsradios-epg/
+```
+
+`.github/workflows/discover.yml` runs weekly, updates
+`config/stations.csv`/`data/epg_sources.json`, and opens a review PR instead of
+writing to `main`.
+
+## App contract
+
+The app fetches `EPGs/manifest.json` and then the advertised guides. It should
+use `VITE_EPG_BASE_URL` to point at a staging deployment. If the manifest or a
+guide is unavailable, the app falls back to its bundled `public/EPGs/` copy;
+that is why the legacy `ciroma.json` and generated guides remain in the app
+until the fallback period ends.
+
+Verify CORS after the first Pages deployment:
+
+```bash
+curl -sI https://mrhumildad.github.io/riotsradios-epg/EPGs/manifest.json \
+  | grep -i access-control
+```

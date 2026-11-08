@@ -1,0 +1,55 @@
+name: Discover EPG sources
+
+on:
+  schedule:
+    # Weekly, off-peak. GitHub cron is UTC.
+    - cron: '23 3 * * 1'
+  workflow_dispatch:
+    inputs:
+      only:
+        description: 'Optional space-separated station ids'
+        required: false
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: epg-discovery
+  cancel-in-progress: false
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Find schedule pages
+        env:
+          ONLY: ${{ inputs.only }}
+        run: |
+          EXTRA=()
+          if [ -n "$ONLY" ]; then
+            read -r -a IDS <<< "$ONLY"
+            EXTRA+=(--only "${IDS[@]}")
+          fi
+          python3 scripts/find_epg_urls.py --resume --write "${EXTRA[@]}"
+
+      - name: Open review PR
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: epg/discovery
+          delete-branch: true
+          title: 'chore(epg): refresh source discovery'
+          commit-message: 'chore(epg): refresh source discovery'
+          add-paths: |
+            config/stations.csv
+            data/epg_sources.json
+          body: |
+            Automated source discovery. Review the proposed `epg_url` changes and
+            the sidecar diagnostics before merging; this PR does not publish guides.
