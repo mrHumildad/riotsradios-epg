@@ -2,8 +2,10 @@ import test from 'node:test'
 import assert from 'node:assert/strict'
 import {
   dayFromExact,
+  embeddedSchedulePrograms,
   hermesPrograms,
   jsonSchedule,
+  parseHourDotLines,
   parseHtml,
   parseLinesForDay,
   ocrTablePrograms,
@@ -154,4 +156,42 @@ test('an OCR page without a weekday header yields nothing', () => {
   const { programs, detail } = ocrTablePrograms('10:00\tUno\n11:00\tDos')
   assert.equal(programs.length, 0)
   assert.match(detail, /weekday header/)
+})
+
+test('a schedule embedded in __NEXT_DATA__ keeps one day per collection', () => {
+  const payload = {
+    props: {
+      pageProps: {
+        content: {
+          content: [{
+            attributes: {
+              schedule: {
+                mondayCollection: { items: [{ title: 'NEU Klara 06:00 - 07:00 Uhr', timeFrom: '06:00', timeTo: '07:00' }] },
+                tuesdayCollection: { items: [{ title: 'Furioso 19:00 - 20:00', timeFrom: '19:00', timeTo: '20:00' }] },
+                sundayCollection: { items: [{ title: 'Kirche 06:00 - 07:00', timeFrom: '06:00', timeTo: '07:00' }] },
+              },
+            },
+          }],
+        },
+      },
+    },
+  }
+  const html = `<html><body><script id="__NEXT_DATA__" type="application/json">${JSON.stringify(payload)}</script></body></html>`
+  const { programs, detail } = embeddedSchedulePrograms(html)
+  assert.equal(programs.length, 3)
+  assert.deepEqual(programs[0], { day: 'monday', startMin: 360, endMin: 420, title: 'Klara' })
+  assert.equal(programs[1].day, 'tuesday')
+  assert.match(detail, /1 day collection/)
+})
+
+test('hour-dot clocks resolve AM/PM in order and accept a trailing range', () => {
+  const lines = [
+    'home', 'Monday', '12.0 AM', 'The Melody Lingers on', '3.0', 'Peter Tomlinson',
+    '10.0', 'Sonia Beldom', '1.0', 'DAVID YARNALL', '10.0 – 12.0', 'The Quiet Hour',
+  ]
+  const programs = parseHourDotLines(lines, 'monday')
+  assert.equal(programs.length, 5)
+  assert.deepEqual(programs.map((entry) => entry.startMin), [0, 180, 600, 780, 1320])
+  assert.equal(programs[4].endMin, 1440)
+  assert.equal(programs[4].title, 'The Quiet Hour')
 })

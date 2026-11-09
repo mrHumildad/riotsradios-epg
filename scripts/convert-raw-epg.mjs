@@ -681,6 +681,63 @@ function parseClockOnly(line) {
   return value !== null && value < MINUTES_PER_DAY ? value : null
 }
 
+/**
+ * Pages that write the hour as "3.0" / "5.30" / "12.0 AM" (Serenade Radio's
+ * weekday pages) drop the zero minutes and often state AM/PM once or never.
+ * Resolve each clock monotonically against the previous start.
+ */
+function hourDotClock(text) {
+  const match = /^(\d{1,2})\s*\.\s*(\d{1,2})\s*(a\.?m\.?|p\.?m\.?)?/i.exec(String(text || '').trim())
+  if (!match) return null
+  const hour = Number(match[1])
+  const minute = Number(match[2])
+  if (!Number.isInteger(hour) || hour > 24 || !Number.isInteger(minute) || minute > 59) return null
+  const ampm = String(match[3] || '').toLowerCase()
+  return { hour, minute, ampm: ampm ? (ampm[0] === 'p' ? 'pm' : 'am') : '', length: match[0].length }
+}
+
+function hourDotMinutes(clock, { after = null, inclusive = false } = {}) {
+  const base = clock.hour % 12
+  const offsets = clock.ampm === 'am' ? [0] : clock.ampm === 'pm' ? [12] : [0, 12]
+  const candidates = []
+  for (const offset of offsets) {
+    for (const wrap of [0, MINUTES_PER_DAY]) {
+      const value = (base + offset) * 60 + clock.minute + wrap
+      if (value < 0 || value > MINUTES_PER_DAY) continue
+      if (after === null) candidates.push(value)
+      else if (inclusive ? value >= after : value > after) candidates.push(value)
+    }
+  }
+  return candidates.length ? Math.min(...candidates) : null
+}
+
+const HOUR_DOT_SEPARATOR = /^(?:-|–|—|to\b|bis\b|a\b|à\b)\s*/i
+
+function parseHourDotLines(lines, day) {
+  const entries = []
+  let previous = null
+  for (let index = 0; index < lines.length; index++) {
+    const line = normalizeTimes(lines[index]).trim()
+    const start = hourDotClock(line)
+    if (!start) continue
+    const startMin = hourDotMinutes(start, { after: previous, inclusive: previous === null })
+    if (startMin === null) continue
+    const rest = line.slice(start.length).trim()
+    const separator = HOUR_DOT_SEPARATOR.exec(rest)
+    const end = separator ? hourDotClock(rest.slice(separator[0].length)) : null
+    const endMin = end ? hourDotMinutes(end, { after: startMin, inclusive: true }) : null
+    let title = cutDescription(tidyCandidate(rest))
+    if (!isTitle(title)) {
+      const next = lines.slice(index + 1).find((candidate) => String(candidate || '').trim())
+      title = next ? cutDescription(tidyCandidate(next)) : ''
+    }
+    if (!isTitle(title)) continue
+    entries.push({ day, startMin, endMin: endMin !== null && endMin > startMin ? endMin : null, title })
+    previous = startMin
+  }
+  return entries
+}
+
 function parseLinesForDay(lines, day) {
   const whole = Array.isArray(lines) ? lines.join('\n') : String(lines || '')
   // A range and its title often live in sibling blocks ("09:00 — 10:00" then
@@ -1813,6 +1870,87 @@ function jsonSchedule(payload) {
   return { adapter: null, programs: [], detail: 'unrecognised JSON object' }
 }
 
+// ---------------------------------------------------------------------------
+// strategy: weekly grid embedded in a JSON payload (Next.js / headless CMS)
+// ---------------------------------------------------------------------------
+
+const DAY_COLLECTION_KEYS = new Map()
+for (const entry of DAY_DEFS) {
+  DAY_COLLECTION_KEYS.set(entry.day, entry.day)
+  DAY_COLLECTION_KEYS.set(`${entry.day}collection`, entry.day)
+}
+
+function embeddedSchedulePayloads(html) {
+  const payloads = []
+  const re = /<script[^>]+id=["']__NEXT_DATA__["'][^>]*>([\s\S]*?)<\/script>/gi
+  let match
+  while ((match = re.exec(String(html || '')))) {
+    try {
+      payloads.push(JSON.parse(match[1]))
+    } catch {
+      /* a malformed payload is not a schedule */
+    }
+  }
+  return payloads
+}
+
+/** Collect every object that carries a monday…sunday collection of items. */
+function collectDayCollections(node, found = [], seen = new Set()) {
+  if (!node || typeof node !== 'object' || seen.has(node)) return found
+  seen.add(node)
+  if (Array.isArray(node)) {
+    for (const value of node) collectDayCollections(value, found, seen)
+    return found
+  }
+  const byDay = new Map()
+  for (const [key, value] of Object.entries(node)) {
+    const day = DAY_COLLECTION_KEYS.get(key.toLowerCase())
+    if (!day) continue
+    if (value && Array.isArray(value.items)) byDay.set(day, value.items)
+    else if (Array.isArray(value)) byDay.set(day, value)
+  }
+  if (byDay.size >= 3) found.push(byDay)
+  for (const value of Object.values(node)) collectDayCollections(value, found, seen)
+  return found
+}
+
+function embeddedTitle(item) {
+  const candidates = [item?.title, item?.headline]
+  for (const raw of candidates) {
+    const value = cleanSpace(String(raw || '').replace(/\s+/g, ' '))
+      .replace(/^\s*(?:neu|new|nuevo|nouveau|nuovo)\s+/i, '')
+      .replace(/\s*[-–—]?\s*\d{1,2}\s*[:.]\s*\d{2}\s*(?:uhr)?\s*(?:-|–|—|bis|to)\s*\d{1,2}\s*[:.]\s*\d{2}\s*(?:uhr)?\s*$/i, '')
+      .trim()
+    if (isTitle(value)) return value
+  }
+  return ''
+}
+
+function embeddedSchedulePrograms(html) {
+  const payloads = embeddedSchedulePayloads(html)
+  if (!payloads.length) return { programs: [], detail: 'no __NEXT_DATA__ payload' }
+  const collections = payloads.flatMap((payload) => collectDayCollections(payload))
+  if (!collections.length) return { programs: [], detail: `${payloads.length} JSON payload(s), no day collections` }
+  const programs = []
+  const seen = new Set()
+  for (const collection of collections) {
+    for (const [day, items] of collection) {
+      for (const item of items) {
+        if (!item || typeof item !== 'object') continue
+        const startMin = findClocks(String(item.timeFrom || ''))[0]?.value
+        const endMin = findClocks(String(item.timeTo || ''))[0]?.value
+        const title = embeddedTitle(item)
+        if (startMin === undefined || !title) continue
+        const key = `${day}|${startMin}|${fold(title)}`
+        if (seen.has(key)) continue
+        seen.add(key)
+        programs.push({ day, startMin, endMin: endMin !== undefined && endMin > startMin ? endMin : null, title })
+      }
+    }
+  }
+  return { programs, detail: `${collections.length} day collection(s)` }
+}
+
 async function convertJsonStation(id, station, outDir, meta, buffer, report, guides, options) {
   let payload
   try {
@@ -2236,10 +2374,12 @@ async function readDayPagePrograms(dir, diagnostics) {
     const dom = parseHtml(html)
     const lines = blockText(dom).split('\n').map((line) => line.trim()).filter(Boolean)
     const stop = lines.findIndex((line) => /^(articoli correlati|altro dall'autore|ascolta la diretta|iscriviti alla newsletter|related articles)\b/i.test(line))
-    const scheduleLines = (stop >= 0 ? lines.slice(0, stop) : lines)
+    const bodyLines = stop >= 0 ? lines.slice(0, stop) : lines
+    const scheduleLines = bodyLines
       .filter((line) => /^(?:a las\s+)?\d{1,2}\s*[:.h]\s*\d{2}/i.test(line))
     let entries = []
     for (const line of scheduleLines) entries.push(...parseLinesForDay([line], day))
+    if (!entries.length) entries = parseHourDotLines(bodyLines, day)
     if (!entries.length) entries = singleDayStrategy(dom, day, diagnostics).programs || []
     if (entries.length) {
       programs.push(...entries)
@@ -2361,6 +2501,17 @@ async function convertStation(id, station, rawDir, outDir, guides, options) {
   run('day-ranges', () => dayRangeStrategy(dom, diagnostics))
   run('linear', () => linearStrategy(dom, diagnostics))
   run('single-day', () => singleDayStrategy(dom, fallbackDay, diagnostics))
+
+  const embedded = embeddedSchedulePrograms(html)
+  if (embedded.programs.length) {
+    const embeddedDays = new Set(embedded.programs.map((entry) => entry.day))
+    candidates.push({
+      name: 'embedded-json',
+      programs: embedded.programs,
+      detail: embedded.detail,
+      score: embeddedDays.size * 60 + Math.min(embedded.programs.length, 120) + (embedded.programs.length >= 8 ? 20 : 0),
+    })
+  }
 
   const dayPages = await readDayPagePrograms(dir, diagnostics)
   const dayPageDays = new Set(dayPages.programs.map((entry) => entry.day))
@@ -2607,6 +2758,7 @@ export {
   dayFromExact,
   descendants,
   directCells,
+  embeddedSchedulePrograms,
   extractRangedPrograms,
   findClocks,
   headerMapping,
@@ -2615,6 +2767,7 @@ export {
   jsonSchedule,
   nestedColumnsStrategy,
   parseHtml,
+  parseHourDotLines,
   parseLinesForDay,
   ocrTablePrograms,
   parseNestedDayTable,

@@ -22,12 +22,64 @@
     }
   },
   "shows": {
-    "programm-am-montag": {
-      "title": "Programm am Montag",
+    "klara-jager": {
+      "title": "Klara Jäger",
       "category": "directo"
     },
-    "uhr": {
-      "title": "Uhr",
+    "stefan-ibelshauser": {
+      "title": "Stefan Ibelshäuser",
+      "category": "directo"
+    },
+    "alexandra-berger": {
+      "title": "Alexandra Berger",
+      "category": "directo"
+    },
+    "klassik-radio-spezial": {
+      "title": "Klassik Radio Spezial",
+      "category": "directo"
+    },
+    "furioso": {
+      "title": "Furioso",
+      "category": "directo"
+    },
+    "klassik-radio-dreams": {
+      "title": "Klassik Radio Dreams",
+      "category": "directo"
+    },
+    "musik-nonstop": {
+      "title": "Musik NonStop",
+      "category": "musica"
+    },
+    "klassik-radio-movie-evita-helling": {
+      "title": "Klassik Radio Movie (Evita Helling)",
+      "category": "directo"
+    },
+    "farah-losch": {
+      "title": "Farah Losch",
+      "category": "directo"
+    },
+    "die-till-bronner-show": {
+      "title": "Die Till Brönner Show",
+      "category": "directo"
+    },
+    "sabrina-gander-wochenende": {
+      "title": "Sabrina Gander Wochenende",
+      "category": "directo"
+    },
+    "klara-jager-wochenende": {
+      "title": "Klara Jäger Wochenende",
+      "category": "directo"
+    },
+    "kirche": {
+      "title": "Kirche",
+      "category": "directo"
+    },
+    "nina-voges-wochenende": {
+      "title": "Nina Voges Wochenende",
+      "category": "directo"
+    },
+    "klassik-radio-konzertabend": {
+      "title": "Klassik Radio Konzertabend",
       "category": "directo"
     }
   },
@@ -39,49 +91,325 @@
         {
           "start": "06:00",
           "end": "07:00",
-          "show_id": "programm-am-montag",
+          "show_id": "klara-jager",
           "live": false
         },
         {
           "start": "07:00",
           "end": "12:00",
-          "show_id": "uhr",
+          "show_id": "stefan-ibelshauser",
           "live": false
         },
         {
           "start": "12:00",
           "end": "13:00",
-          "show_id": "uhr",
+          "show_id": "stefan-ibelshauser",
           "live": false
         },
         {
           "start": "13:00",
           "end": "18:00",
-          "show_id": "uhr",
+          "show_id": "alexandra-berger",
           "live": false
         },
         {
           "start": "18:00",
           "end": "19:00",
-          "show_id": "uhr",
+          "show_id": "klassik-radio-spezial",
           "live": false
         },
         {
           "start": "19:00",
           "end": "20:00",
-          "show_id": "uhr",
+          "show_id": "furioso",
           "live": false
         },
         {
           "start": "20:00",
           "end": "22:00",
-          "show_id": "uhr",
+          "show_id": "klassik-radio-dreams",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "tuesday",
+      "label": "Martes",
+      "programs": [
+        {
+          "start": "06:00",
+          "end": "07:00",
+          "show_id": "klara-jager",
+          "live": false
+        },
+        {
+          "start": "07:00",
+          "end": "12:00",
+          "show_id": "stefan-ibelshauser",
+          "live": false
+        },
+        {
+          "start": "12:00",
+          "end": "13:00",
+          "show_id": "stefan-ibelshauser",
+          "live": false
+        },
+        {
+          "start": "13:00",
+          "end": "18:00",
+          "show_id": "alexandra-berger",
+          "live": false
+        },
+        {
+          "start": "18:00",
+          "end": "19:00",
+          "show_id": "musik-nonstop",
+          "live": false
+        },
+        {
+          "start": "19:00",
+          "end": "20:00",
+          "show_id": "furioso",
+          "live": false
+        },
+        {
+          "start": "20:00",
+          "end": "22:00",
+          "show_id": "klassik-radio-dreams",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "wednesday",
+      "label": "Miércoles",
+      "programs": [
+        {
+          "start": "06:00",
+          "end": "07:00",
+          "show_id": "klara-jager",
+          "live": false
+        },
+        {
+          "start": "07:00",
+          "end": "12:00",
+          "show_id": "stefan-ibelshauser",
+          "live": false
+        },
+        {
+          "start": "12:00",
+          "end": "13:00",
+          "show_id": "stefan-ibelshauser",
+          "live": false
+        },
+        {
+          "start": "13:00",
+          "end": "18:00",
+          "show_id": "alexandra-berger",
+          "live": false
+        },
+        {
+          "start": "18:00",
+          "end": "19:00",
+          "show_id": "klassik-radio-spezial",
+          "live": false
+        },
+        {
+          "start": "19:00",
+          "end": "20:00",
+          "show_id": "furioso",
+          "live": false
+        },
+        {
+          "start": "20:00",
+          "end": "22:00",
+          "show_id": "klassik-radio-dreams",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "thursday",
+      "label": "Jueves",
+      "programs": [
+        {
+          "start": "06:00",
+          "end": "07:00",
+          "show_id": "klara-jager",
+          "live": false
+        },
+        {
+          "start": "07:00",
+          "end": "12:00",
+          "show_id": "stefan-ibelshauser",
+          "live": false
+        },
+        {
+          "start": "12:00",
+          "end": "13:00",
+          "show_id": "stefan-ibelshauser",
+          "live": false
+        },
+        {
+          "start": "13:00",
+          "end": "18:00",
+          "show_id": "alexandra-berger",
+          "live": false
+        },
+        {
+          "start": "18:00",
+          "end": "19:00",
+          "show_id": "musik-nonstop",
+          "live": false
+        },
+        {
+          "start": "19:00",
+          "end": "20:00",
+          "show_id": "furioso",
+          "live": false
+        },
+        {
+          "start": "20:00",
+          "end": "22:00",
+          "show_id": "klassik-radio-movie-evita-helling",
           "live": false
         },
         {
           "start": "22:00",
           "end": "23:00",
-          "show_id": "uhr",
+          "show_id": "farah-losch",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "friday",
+      "label": "Viernes",
+      "programs": [
+        {
+          "start": "06:00",
+          "end": "07:00",
+          "show_id": "klara-jager",
+          "live": false
+        },
+        {
+          "start": "07:00",
+          "end": "12:00",
+          "show_id": "stefan-ibelshauser",
+          "live": false
+        },
+        {
+          "start": "12:00",
+          "end": "13:00",
+          "show_id": "stefan-ibelshauser",
+          "live": false
+        },
+        {
+          "start": "13:00",
+          "end": "18:00",
+          "show_id": "klara-jager",
+          "live": false
+        },
+        {
+          "start": "18:00",
+          "end": "19:00",
+          "show_id": "klassik-radio-spezial",
+          "live": false
+        },
+        {
+          "start": "19:00",
+          "end": "20:00",
+          "show_id": "furioso",
+          "live": false
+        },
+        {
+          "start": "20:00",
+          "end": "22:00",
+          "show_id": "die-till-bronner-show",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "saturday",
+      "label": "Sábado",
+      "programs": [
+        {
+          "start": "07:00",
+          "end": "12:00",
+          "show_id": "sabrina-gander-wochenende",
+          "live": false
+        },
+        {
+          "start": "12:00",
+          "end": "13:00",
+          "show_id": "stefan-ibelshauser",
+          "live": false
+        },
+        {
+          "start": "13:00",
+          "end": "18:00",
+          "show_id": "klara-jager-wochenende",
+          "live": false
+        },
+        {
+          "start": "18:00",
+          "end": "19:00",
+          "show_id": "klassik-radio-spezial",
+          "live": false
+        },
+        {
+          "start": "19:00",
+          "end": "22:00",
+          "show_id": "klassik-radio-dreams",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "sunday",
+      "label": "Domingo",
+      "programs": [
+        {
+          "start": "06:00",
+          "end": "07:00",
+          "show_id": "kirche",
+          "live": false
+        },
+        {
+          "start": "07:00",
+          "end": "12:00",
+          "show_id": "sabrina-gander-wochenende",
+          "live": false
+        },
+        {
+          "start": "12:00",
+          "end": "13:00",
+          "show_id": "stefan-ibelshauser",
+          "live": false
+        },
+        {
+          "start": "13:00",
+          "end": "18:00",
+          "show_id": "nina-voges-wochenende",
+          "live": false
+        },
+        {
+          "start": "18:00",
+          "end": "19:00",
+          "show_id": "musik-nonstop",
+          "live": false
+        },
+        {
+          "start": "19:00",
+          "end": "20:00",
+          "show_id": "klassik-radio-konzertabend",
+          "live": false
+        },
+        {
+          "start": "20:00",
+          "end": "22:00",
+          "show_id": "klassik-radio-dreams",
           "live": false
         }
       ]

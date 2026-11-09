@@ -52,5 +52,5 @@ id,name,countrycode,timezone,homepage,epg_url,epg_file,enabled,mailto
 147,Radio FilispiM,ES,Europe/Madrid,https://opaii.blogspot.com/,,,false,
 148,Hirschmilch Radio,DE,Europe/Berlin,https://hirschmilch.de/homepage,,,false,
 149,Alpha Boys School Radio,JM,America/Jamaica,https://www.alphaboysschoolradio.com/,,,false,
-150,Klassik Radio,DE,Europe/Berlin,https://www.klassikradio.de/,https://www.klassikradio.de/programm/,,false,
-151,Serenade Radio,GB,Europe/London,https://www.serenade-radio.com/,https://www.serenade-radio.com/schedule/,,false,
+150,Klassik Radio,DE,Europe/Berlin,https://www.klassikradio.de/,https://www.klassikradio.de/programm/,klassik-radio.json,true,
+151,Serenade Radio,GB,Europe/London,https://www.serenade-radio.com/,https://www.serenade-radio.com/monday/,serenade-radio.json,true,

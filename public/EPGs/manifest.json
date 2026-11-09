@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-09T11:26:19.713Z",
+  "generated_at": "2026-11-09T11:54:50.449Z",
   "stations": {
     "1": {
       "file": "radio-contrabanda.json",
@@ -204,6 +204,20 @@
       "updated": "2026-11-09",
       "days": 7,
       "programs": 47
+    },
+    "150": {
+      "file": "klassik-radio.json",
+      "status": "ok",
+      "updated": "2026-11-09",
+      "days": 7,
+      "programs": 48
+    },
+    "151": {
+      "file": "serenade-radio.json",
+      "status": "ok",
+      "updated": "2026-11-09",
+      "days": 7,
+      "programs": 102
     }
   }
 }
