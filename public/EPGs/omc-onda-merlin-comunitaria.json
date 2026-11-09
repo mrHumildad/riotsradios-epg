@@ -1,0 +1,605 @@
+{
+  "version": "2.0",
+  "station": "OMC Onda Merlín Comunitaria",
+  "station_id": 132,
+  "schedule_type": "weekly",
+  "timezone": "Europe/Madrid",
+  "last_updated": "2026-11-09",
+  "source": "https://omcradio.org/programacion/",
+  "notes": "Generado automáticamente desde https://omcradio.org/programacion/ (snapshot 2026-11-09); revisar data/epg-report.json.",
+  "generator": "scripts/convert-raw-epg.mjs",
+  "metadata": {
+    "categories": {
+      "musica": "Música",
+      "directo": "Directo",
+      "podcast": "Podcast / repetición",
+      "especial": "Especial",
+      "taller": "Taller / educación"
+    },
+    "default_filler": {
+      "title": "Música",
+      "category": "musica"
+    }
+  },
+  "shows": {
+    "buena-onda": {
+      "title": "Buena Onda",
+      "category": "directo"
+    },
+    "cosmopolitas": {
+      "title": "Cosmopolitas",
+      "category": "directo"
+    },
+    "el-abrazo-del-oso": {
+      "title": "El Abrazo del Oso",
+      "category": "directo"
+    },
+    "abrete-camino": {
+      "title": "Ábrete camino",
+      "category": "directo"
+    },
+    "las-chicas-de-eva": {
+      "title": "Las Chicas de Eva",
+      "category": "directo"
+    },
+    "con-mayor-voz": {
+      "title": "Con Mayor Voz",
+      "category": "directo"
+    },
+    "malhumoradas": {
+      "title": "Malhumoradas",
+      "category": "directo"
+    },
+    "poesia-radioactiva": {
+      "title": "Poesía Radioactiva",
+      "category": "directo"
+    },
+    "la-letra-capital": {
+      "title": "La Letra Capital",
+      "category": "directo"
+    },
+    "peligrosas-sociales": {
+      "title": "Peligrosas Sociales",
+      "category": "directo"
+    },
+    "entre-lobas": {
+      "title": "Entre Lobas",
+      "category": "directo"
+    },
+    "radio-parafuso": {
+      "title": "Radio Parafuso",
+      "category": "directo"
+    },
+    "sin-maneras-lab": {
+      "title": "Sin Maneras Lab",
+      "category": "directo"
+    },
+    "libres-comunitarias": {
+      "title": "Libres & comunitarias",
+      "category": "directo"
+    },
+    "kyomusfera": {
+      "title": "Kyomusfera",
+      "category": "directo"
+    },
+    "planeta-escenico": {
+      "title": "Planeta Escénico",
+      "category": "directo"
+    },
+    "conexion-joven": {
+      "title": "Conexión Joven",
+      "category": "directo"
+    },
+    "buenos-dias-seran-pa-ti": {
+      "title": "Buenos días...¡Serán pá ti!",
+      "category": "directo"
+    },
+    "villaverde-en-sintonia": {
+      "title": "Villaverde en Sintonía",
+      "category": "directo"
+    },
+    "la-mansion": {
+      "title": "La mansión",
+      "category": "directo"
+    },
+    "onda-salud": {
+      "title": "Onda Salud",
+      "category": "directo"
+    },
+    "el-espejo-de-los-invisibles": {
+      "title": "El espejo de los invisibles",
+      "category": "directo"
+    },
+    "echale-papas": {
+      "title": "Échale papas",
+      "category": "directo"
+    },
+    "accion-sonora": {
+      "title": "Acción Sonora",
+      "category": "directo"
+    },
+    "100fuegos-politica-y-rock": {
+      "title": "100Fuegos - política y rock-",
+      "category": "directo"
+    },
+    "alimentando-la-igualdad": {
+      "title": "Alimentando la Igualdad",
+      "category": "directo"
+    },
+    "atrevete-a-pensar": {
+      "title": "Atrévete a pensar",
+      "category": "directo"
+    },
+    "a-altas-horas": {
+      "title": "A altas horas",
+      "category": "directo"
+    },
+    "omc-escuela": {
+      "title": "OMC Escuela",
+      "category": "directo"
+    },
+    "underground-groove": {
+      "title": "Underground Groove",
+      "category": "directo"
+    },
+    "tropikalia-siberia-fm": {
+      "title": "Tropikalia Siberia FM",
+      "category": "directo"
+    }
+  },
+  "days": [
+    {
+      "day": "monday",
+      "label": "Lunes",
+      "programs": [
+        {
+          "start": "11:00",
+          "end": "12:00",
+          "show_id": "buena-onda",
+          "live": false
+        },
+        {
+          "start": "12:00",
+          "end": "13:00",
+          "show_id": "cosmopolitas",
+          "live": false
+        },
+        {
+          "start": "13:00",
+          "end": "15:00",
+          "show_id": "el-abrazo-del-oso",
+          "live": false
+        },
+        {
+          "start": "15:00",
+          "end": "16:00",
+          "show_id": "abrete-camino",
+          "live": false
+        },
+        {
+          "start": "16:00",
+          "end": "17:00",
+          "show_id": "las-chicas-de-eva",
+          "live": false
+        },
+        {
+          "start": "17:00",
+          "end": "18:00",
+          "show_id": "con-mayor-voz",
+          "live": false
+        },
+        {
+          "start": "18:00",
+          "end": "19:00",
+          "show_id": "malhumoradas",
+          "live": false
+        },
+        {
+          "start": "19:00",
+          "end": "20:00",
+          "show_id": "poesia-radioactiva",
+          "live": false
+        },
+        {
+          "start": "21:00",
+          "end": "22:00",
+          "show_id": "la-letra-capital",
+          "live": false
+        },
+        {
+          "start": "22:00",
+          "end": "00:00",
+          "show_id": "peligrosas-sociales",
+          "live": false,
+          "crosses_midnight": true
+        }
+      ]
+    },
+    {
+      "day": "tuesday",
+      "label": "Martes",
+      "programs": [
+        {
+          "start": "10:00",
+          "end": "11:00",
+          "show_id": "entre-lobas",
+          "live": false
+        },
+        {
+          "start": "12:00",
+          "end": "13:00",
+          "show_id": "radio-parafuso",
+          "live": false
+        },
+        {
+          "start": "13:00",
+          "end": "15:00",
+          "show_id": "sin-maneras-lab",
+          "live": false
+        },
+        {
+          "start": "15:00",
+          "end": "16:00",
+          "show_id": "libres-comunitarias",
+          "live": false
+        },
+        {
+          "start": "16:00",
+          "end": "17:00",
+          "show_id": "kyomusfera",
+          "live": false
+        },
+        {
+          "start": "17:00",
+          "end": "18:00",
+          "show_id": "planeta-escenico",
+          "live": false
+        },
+        {
+          "start": "18:00",
+          "end": "19:00",
+          "show_id": "conexion-joven",
+          "live": false
+        },
+        {
+          "start": "19:00",
+          "end": "20:00",
+          "show_id": "buenos-dias-seran-pa-ti",
+          "live": false
+        },
+        {
+          "start": "20:00",
+          "end": "21:00",
+          "show_id": "villaverde-en-sintonia",
+          "live": false
+        },
+        {
+          "start": "21:00",
+          "end": "23:00",
+          "show_id": "la-mansion",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "wednesday",
+      "label": "Miércoles",
+      "programs": [
+        {
+          "start": "10:00",
+          "end": "11:00",
+          "show_id": "onda-salud",
+          "live": false
+        },
+        {
+          "start": "12:00",
+          "end": "13:00",
+          "show_id": "las-chicas-de-eva",
+          "live": false
+        },
+        {
+          "start": "13:00",
+          "end": "14:00",
+          "show_id": "buena-onda",
+          "live": false
+        },
+        {
+          "start": "14:00",
+          "end": "15:00",
+          "show_id": "el-espejo-de-los-invisibles",
+          "live": false
+        },
+        {
+          "start": "15:00",
+          "end": "16:00",
+          "show_id": "poesia-radioactiva",
+          "live": false
+        },
+        {
+          "start": "16:00",
+          "end": "17:00",
+          "show_id": "echale-papas",
+          "live": false
+        },
+        {
+          "start": "17:00",
+          "end": "18:00",
+          "show_id": "accion-sonora",
+          "live": false
+        },
+        {
+          "start": "18:00",
+          "end": "19:30",
+          "show_id": "100fuegos-politica-y-rock",
+          "live": false
+        },
+        {
+          "start": "20:00",
+          "end": "21:00",
+          "show_id": "abrete-camino",
+          "live": false
+        },
+        {
+          "start": "21:00",
+          "end": "22:00",
+          "show_id": "alimentando-la-igualdad",
+          "live": false
+        },
+        {
+          "start": "23:00",
+          "end": "00:00",
+          "show_id": "cosmopolitas",
+          "live": false,
+          "crosses_midnight": true
+        }
+      ]
+    },
+    {
+      "day": "thursday",
+      "label": "Jueves",
+      "programs": [
+        {
+          "start": "10:00",
+          "end": "11:00",
+          "show_id": "villaverde-en-sintonia",
+          "live": false
+        },
+        {
+          "start": "11:00",
+          "end": "12:00",
+          "show_id": "malhumoradas",
+          "live": false
+        },
+        {
+          "start": "12:00",
+          "end": "13:00",
+          "show_id": "buenos-dias-seran-pa-ti",
+          "live": false
+        },
+        {
+          "start": "13:00",
+          "end": "14:00",
+          "show_id": "atrevete-a-pensar",
+          "live": false
+        },
+        {
+          "start": "15:00",
+          "end": "16:00",
+          "show_id": "planeta-escenico",
+          "live": false
+        },
+        {
+          "start": "16:00",
+          "end": "17:00",
+          "show_id": "conexion-joven",
+          "live": false
+        },
+        {
+          "start": "17:00",
+          "end": "18:00",
+          "show_id": "con-mayor-voz",
+          "live": false
+        },
+        {
+          "start": "19:00",
+          "end": "20:00",
+          "show_id": "la-letra-capital",
+          "live": false
+        },
+        {
+          "start": "20:00",
+          "end": "21:00",
+          "show_id": "radio-parafuso",
+          "live": false
+        },
+        {
+          "start": "21:30",
+          "end": "23:00",
+          "show_id": "a-altas-horas",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "friday",
+      "label": "Viernes",
+      "programs": [
+        {
+          "start": "09:30",
+          "end": "10:30",
+          "show_id": "abrete-camino",
+          "live": false
+        },
+        {
+          "start": "11:00",
+          "end": "12:00",
+          "show_id": "el-espejo-de-los-invisibles",
+          "live": false
+        },
+        {
+          "start": "12:00",
+          "end": "13:00",
+          "show_id": "echale-papas",
+          "live": false
+        },
+        {
+          "start": "14:00",
+          "end": "15:00",
+          "show_id": "accion-sonora",
+          "live": false
+        },
+        {
+          "start": "15:00",
+          "end": "16:00",
+          "show_id": "onda-salud",
+          "live": false
+        },
+        {
+          "start": "16:00",
+          "end": "17:00",
+          "show_id": "malhumoradas",
+          "live": false
+        },
+        {
+          "start": "18:00",
+          "end": "19:00",
+          "show_id": "omc-escuela",
+          "live": false
+        },
+        {
+          "start": "19:00",
+          "end": "20:00",
+          "show_id": "kyomusfera",
+          "live": false
+        },
+        {
+          "start": "20:00",
+          "end": "22:00",
+          "show_id": "peligrosas-sociales",
+          "live": false
+        },
+        {
+          "start": "22:00",
+          "end": "00:00",
+          "show_id": "underground-groove",
+          "live": false,
+          "crosses_midnight": true
+        }
+      ]
+    },
+    {
+      "day": "saturday",
+      "label": "Sábado",
+      "programs": [
+        {
+          "start": "10:00",
+          "end": "12:00",
+          "show_id": "tropikalia-siberia-fm",
+          "live": false
+        },
+        {
+          "start": "13:00",
+          "end": "15:00",
+          "show_id": "el-abrazo-del-oso",
+          "live": false
+        },
+        {
+          "start": "15:00",
+          "end": "16:00",
+          "show_id": "planeta-escenico",
+          "live": false
+        },
+        {
+          "start": "16:00",
+          "end": "17:00",
+          "show_id": "atrevete-a-pensar",
+          "live": false
+        },
+        {
+          "start": "17:00",
+          "end": "18:00",
+          "show_id": "con-mayor-voz",
+          "live": false
+        },
+        {
+          "start": "18:00",
+          "end": "19:00",
+          "show_id": "buenos-dias-seran-pa-ti",
+          "live": false
+        },
+        {
+          "start": "19:00",
+          "end": "20:00",
+          "show_id": "cosmopolitas",
+          "live": false
+        },
+        {
+          "start": "20:00",
+          "end": "21:00",
+          "show_id": "las-chicas-de-eva",
+          "live": false
+        },
+        {
+          "start": "22:00",
+          "end": "23:30",
+          "show_id": "a-altas-horas",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "sunday",
+      "label": "Domingo",
+      "programs": [
+        {
+          "start": "10:00",
+          "end": "11:00",
+          "show_id": "kyomusfera",
+          "live": false
+        },
+        {
+          "start": "12:00",
+          "end": "13:00",
+          "show_id": "onda-salud",
+          "live": false
+        },
+        {
+          "start": "13:00",
+          "end": "15:00",
+          "show_id": "sin-maneras-lab",
+          "live": false
+        },
+        {
+          "start": "15:00",
+          "end": "17:00",
+          "show_id": "la-mansion",
+          "live": false
+        },
+        {
+          "start": "17:00",
+          "end": "19:00",
+          "show_id": "peligrosas-sociales",
+          "live": false
+        },
+        {
+          "start": "19:00",
+          "end": "20:00",
+          "show_id": "el-espejo-de-los-invisibles",
+          "live": false
+        },
+        {
+          "start": "20:00",
+          "end": "21:00",
+          "show_id": "entre-lobas",
+          "live": false
+        },
+        {
+          "start": "21:00",
+          "end": "22:00",
+          "show_id": "echale-papas",
+          "live": false
+        }
+      ]
+    }
+  ]
+}

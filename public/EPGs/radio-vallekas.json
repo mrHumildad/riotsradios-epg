@@ -4,9 +4,9 @@
   "station_id": 19,
   "schedule_type": "weekly",
   "timezone": "Europe/Madrid",
-  "last_updated": "2026-11-08",
+  "last_updated": "2026-11-09",
   "source": "https://sapo.radiobot.org/api_schedule.php?station=rvk",
-  "notes": "Generado automáticamente desde https://sapo.radiobot.org/api_schedule.php?station=rvk (snapshot 2026-11-08); revisar data/epg-report.json.",
+  "notes": "Generado automáticamente desde https://sapo.radiobot.org/api_schedule.php?station=rvk (snapshot 2026-11-09); revisar data/epg-report.json.",
   "generator": "scripts/convert-raw-epg.mjs",
   "metadata": {
     "categories": {

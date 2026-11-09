@@ -1,0 +1,160 @@
+{
+  "version": "2.0",
+  "station": "Almenara Radio",
+  "station_id": 128,
+  "schedule_type": "weekly",
+  "timezone": "Europe/Madrid",
+  "last_updated": "2026-11-09",
+  "source": "https://radioalmenara.net/horarios/",
+  "notes": "Generado automáticamente desde https://radioalmenara.net/horarios/ (snapshot 2026-11-09); revisar data/epg-report.json.",
+  "generator": "scripts/convert-raw-epg.mjs",
+  "metadata": {
+    "categories": {
+      "musica": "Música",
+      "directo": "Directo",
+      "podcast": "Podcast / repetición",
+      "especial": "Especial",
+      "taller": "Taller / educación"
+    },
+    "default_filler": {
+      "title": "Música",
+      "category": "musica"
+    }
+  },
+  "shows": {
+    "la-luciernaga": {
+      "title": "La luciérnaga",
+      "category": "directo"
+    },
+    "orcos": {
+      "title": "Orcos",
+      "category": "directo"
+    },
+    "sabor-de-barrio": {
+      "title": "Sabor de Barrio",
+      "category": "directo"
+    },
+    "planeta-incognito": {
+      "title": "Planeta Incógnito",
+      "category": "directo"
+    },
+    "locuciencia": {
+      "title": "Locuciencia",
+      "category": "directo"
+    },
+    "no-odias-los-lunes": {
+      "title": "No odias los lunes",
+      "category": "directo"
+    },
+    "buenos-dias-tetuan": {
+      "title": "Buenos Días Tetuán",
+      "category": "directo"
+    },
+    "trajinerxs": {
+      "title": "Trajinerxs",
+      "category": "directo"
+    },
+    "la-merienda": {
+      "title": "La merienda",
+      "category": "directo"
+    }
+  },
+  "days": [
+    {
+      "day": "monday",
+      "label": "Lunes",
+      "programs": [
+        {
+          "start": "18:30",
+          "end": "20:30",
+          "show_id": "la-luciernaga",
+          "live": false
+        },
+        {
+          "start": "20:30",
+          "end": "22:30",
+          "show_id": "orcos",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "tuesday",
+      "label": "Martes",
+      "programs": [
+        {
+          "start": "12:00",
+          "end": "13:00",
+          "show_id": "sabor-de-barrio",
+          "live": false
+        },
+        {
+          "start": "17:00",
+          "end": "18:30",
+          "show_id": "planeta-incognito",
+          "live": false
+        },
+        {
+          "start": "18:30",
+          "end": "20:30",
+          "show_id": "locuciencia",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "wednesday",
+      "label": "Miércoles",
+      "programs": [
+        {
+          "start": "17:30",
+          "end": "19:30",
+          "show_id": "no-odias-los-lunes",
+          "live": false
+        },
+        {
+          "start": "19:30",
+          "end": "21:30",
+          "show_id": "buenos-dias-tetuan",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "thursday",
+      "label": "Jueves",
+      "programs": [
+        {
+          "start": "13:00",
+          "end": "14:00",
+          "show_id": "trajinerxs",
+          "live": false
+        },
+        {
+          "start": "14:00",
+          "end": "15:00",
+          "show_id": "trajinerxs",
+          "live": false
+        },
+        {
+          "start": "15:00",
+          "end": "16:00",
+          "show_id": "trajinerxs",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "friday",
+      "label": "Viernes",
+      "programs": [
+        {
+          "start": "17:00",
+          "end": "19:00",
+          "show_id": "la-merienda",
+          "live": false
+        }
+      ]
+    }
+  ]
+}

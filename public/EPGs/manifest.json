@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-09T09:28:37.818Z",
+  "generated_at": "2026-11-09T11:26:19.713Z",
   "stations": {
     "1": {
       "file": "radio-contrabanda.json",
@@ -29,13 +29,6 @@
       "updated": "2026-11-08",
       "days": 7,
       "programs": 60
-    },
-    "5": {
-      "file": "radio-citta-fujiko.json",
-      "status": "ok",
-      "updated": "2026-11-08",
-      "days": 7,
-      "programs": 175
     },
     "6": {
       "file": "radio-bip.json",
@@ -89,7 +82,7 @@
     "19": {
       "file": "radio-vallekas.json",
       "status": "ok",
-      "updated": "2026-11-08",
+      "updated": "2026-11-09",
       "days": 7,
       "programs": 140
     },
@@ -162,6 +155,55 @@
       "updated": "2026-11-08",
       "days": 7,
       "programs": 168
+    },
+    "126": {
+      "file": "cuac-fm.json",
+      "status": "ok",
+      "updated": "2026-11-09",
+      "days": 5,
+      "programs": 50
+    },
+    "128": {
+      "file": "almenara-radio.json",
+      "status": "ok",
+      "updated": "2026-11-09",
+      "days": 5,
+      "programs": 11
+    },
+    "129": {
+      "file": "radio-argayo.json",
+      "status": "ok",
+      "updated": "2026-11-09",
+      "days": 7,
+      "programs": 34
+    },
+    "132": {
+      "file": "omc-onda-merlin-comunitaria.json",
+      "status": "ok",
+      "updated": "2026-11-09",
+      "days": 7,
+      "programs": 68
+    },
+    "135": {
+      "file": "radio-xata.json",
+      "status": "ok",
+      "updated": "2026-11-09",
+      "days": 7,
+      "programs": 70
+    },
+    "142": {
+      "file": "agora-sol-radio.json",
+      "status": "ok",
+      "updated": "2026-11-09",
+      "days": 7,
+      "programs": 20
+    },
+    "145": {
+      "file": "radio-kolor.json",
+      "status": "ok",
+      "updated": "2026-11-09",
+      "days": 7,
+      "programs": 47
     }
   }
 }

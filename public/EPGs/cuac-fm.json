@@ -1,0 +1,398 @@
+{
+  "version": "2.0",
+  "station": "Cuac FM",
+  "station_id": 126,
+  "schedule_type": "weekly",
+  "timezone": "Europe/Madrid",
+  "last_updated": "2026-11-09",
+  "source": "https://cuacfm.org/radioco/programmes/",
+  "notes": "Generado automáticamente desde https://cuacfm.org/radioco/programmes/ (snapshot 2026-11-09); revisar data/epg-report.json.",
+  "generator": "scripts/convert-raw-epg.mjs",
+  "metadata": {
+    "categories": {
+      "musica": "Música",
+      "directo": "Directo",
+      "podcast": "Podcast / repetición",
+      "especial": "Especial",
+      "taller": "Taller / educación"
+    },
+    "default_filler": {
+      "title": "Música",
+      "category": "musica"
+    }
+  },
+  "shows": {
+    "en-el-103-4-de-la-fm-de-a-coruna-en-https-cuacfm-org-directo": {
+      "title": "en el 103.4 de la FM de A Coruña, en https://cuacfm.org/directo/ y en las app de CUAC FM para Android e iOS.",
+      "category": "directo"
+    },
+    "mas-informacion": {
+      "title": "Más Información",
+      "category": "directo"
+    },
+    "mas-la-cafetera-en": {
+      "title": "Más La Cafetera en:",
+      "category": "directo"
+    },
+    "mas-se-va-a-liar-y-lo-sabes-en": {
+      "title": "Más Se va a liar... y lo sabes en:",
+      "category": "directo"
+    },
+    "centrado-en-la-cultura-local-con-entrevistas-a-diferentes-ar": {
+      "title": ". Centrado en la cultura local con entrevistas a diferentes artistas del territorio, reportajes, crecimiento personal, historias de la vida",
+      "category": "directo"
+    },
+    "de-forma-quincenal": {
+      "title": "de forma quincenal.",
+      "category": "directo"
+    },
+    "de-la-manana-en-el-103-4-de-cuac-fm": {
+      "title": "de la mañana en el 103.4 de CUAC FM",
+      "category": "directo"
+    },
+    "el-nombre-del-programa-es-una-fusion-de-dos-emitidos-en-radi": {
+      "title": "El nombre del programa es una fusión de dos emitidos en Radio3 hace años:",
+      "category": "directo"
+    },
+    "rs-en-cuac-fm-103-4": {
+      "title": "rs., en Cuac FM 103.4.",
+      "category": "directo"
+    },
+    "con-cintia-garcia-cristina-varela-guillermo-gantes-y-ramon-r": {
+      "title": ", con Cintia García, Cristina Varela, Guillermo Gantes y Ramón Rivas.",
+      "category": "directo"
+    }
+  },
+  "days": [
+    {
+      "day": "monday",
+      "label": "Lunes",
+      "programs": [
+        {
+          "start": "09:00",
+          "end": "10:00",
+          "show_id": "en-el-103-4-de-la-fm-de-a-coruna-en-https-cuacfm-org-directo",
+          "live": true
+        },
+        {
+          "start": "11:00",
+          "end": "12:00",
+          "show_id": "mas-informacion",
+          "live": false
+        },
+        {
+          "start": "12:00",
+          "end": "13:00",
+          "show_id": "mas-la-cafetera-en",
+          "live": false
+        },
+        {
+          "start": "16:00",
+          "end": "17:00",
+          "show_id": "mas-se-va-a-liar-y-lo-sabes-en",
+          "live": false
+        },
+        {
+          "start": "17:00",
+          "end": "18:00",
+          "show_id": "centrado-en-la-cultura-local-con-entrevistas-a-diferentes-ar",
+          "live": false
+        },
+        {
+          "start": "18:00",
+          "end": "19:00",
+          "show_id": "de-forma-quincenal",
+          "live": false
+        },
+        {
+          "start": "19:00",
+          "end": "20:00",
+          "show_id": "de-la-manana-en-el-103-4-de-cuac-fm",
+          "live": false
+        },
+        {
+          "start": "20:00",
+          "end": "22:00",
+          "show_id": "el-nombre-del-programa-es-una-fusion-de-dos-emitidos-en-radi",
+          "live": false
+        },
+        {
+          "start": "22:00",
+          "end": "23:00",
+          "show_id": "rs-en-cuac-fm-103-4",
+          "live": false
+        },
+        {
+          "start": "23:00",
+          "end": "24:00",
+          "show_id": "con-cintia-garcia-cristina-varela-guillermo-gantes-y-ramon-r",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "tuesday",
+      "label": "Martes",
+      "programs": [
+        {
+          "start": "09:00",
+          "end": "10:00",
+          "show_id": "en-el-103-4-de-la-fm-de-a-coruna-en-https-cuacfm-org-directo",
+          "live": true
+        },
+        {
+          "start": "11:00",
+          "end": "12:00",
+          "show_id": "mas-informacion",
+          "live": false
+        },
+        {
+          "start": "12:00",
+          "end": "13:00",
+          "show_id": "mas-la-cafetera-en",
+          "live": false
+        },
+        {
+          "start": "16:00",
+          "end": "17:00",
+          "show_id": "mas-se-va-a-liar-y-lo-sabes-en",
+          "live": false
+        },
+        {
+          "start": "17:00",
+          "end": "18:00",
+          "show_id": "centrado-en-la-cultura-local-con-entrevistas-a-diferentes-ar",
+          "live": false
+        },
+        {
+          "start": "18:00",
+          "end": "19:00",
+          "show_id": "de-forma-quincenal",
+          "live": false
+        },
+        {
+          "start": "19:00",
+          "end": "20:00",
+          "show_id": "de-la-manana-en-el-103-4-de-cuac-fm",
+          "live": false
+        },
+        {
+          "start": "20:00",
+          "end": "22:00",
+          "show_id": "el-nombre-del-programa-es-una-fusion-de-dos-emitidos-en-radi",
+          "live": false
+        },
+        {
+          "start": "22:00",
+          "end": "23:00",
+          "show_id": "rs-en-cuac-fm-103-4",
+          "live": false
+        },
+        {
+          "start": "23:00",
+          "end": "24:00",
+          "show_id": "con-cintia-garcia-cristina-varela-guillermo-gantes-y-ramon-r",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "wednesday",
+      "label": "Miércoles",
+      "programs": [
+        {
+          "start": "09:00",
+          "end": "10:00",
+          "show_id": "en-el-103-4-de-la-fm-de-a-coruna-en-https-cuacfm-org-directo",
+          "live": true
+        },
+        {
+          "start": "11:00",
+          "end": "12:00",
+          "show_id": "mas-informacion",
+          "live": false
+        },
+        {
+          "start": "12:00",
+          "end": "13:00",
+          "show_id": "mas-la-cafetera-en",
+          "live": false
+        },
+        {
+          "start": "16:00",
+          "end": "17:00",
+          "show_id": "mas-se-va-a-liar-y-lo-sabes-en",
+          "live": false
+        },
+        {
+          "start": "17:00",
+          "end": "18:00",
+          "show_id": "centrado-en-la-cultura-local-con-entrevistas-a-diferentes-ar",
+          "live": false
+        },
+        {
+          "start": "18:00",
+          "end": "19:00",
+          "show_id": "de-forma-quincenal",
+          "live": false
+        },
+        {
+          "start": "19:00",
+          "end": "20:00",
+          "show_id": "de-la-manana-en-el-103-4-de-cuac-fm",
+          "live": false
+        },
+        {
+          "start": "20:00",
+          "end": "22:00",
+          "show_id": "el-nombre-del-programa-es-una-fusion-de-dos-emitidos-en-radi",
+          "live": false
+        },
+        {
+          "start": "22:00",
+          "end": "23:00",
+          "show_id": "rs-en-cuac-fm-103-4",
+          "live": false
+        },
+        {
+          "start": "23:00",
+          "end": "24:00",
+          "show_id": "con-cintia-garcia-cristina-varela-guillermo-gantes-y-ramon-r",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "thursday",
+      "label": "Jueves",
+      "programs": [
+        {
+          "start": "09:00",
+          "end": "10:00",
+          "show_id": "en-el-103-4-de-la-fm-de-a-coruna-en-https-cuacfm-org-directo",
+          "live": true
+        },
+        {
+          "start": "11:00",
+          "end": "12:00",
+          "show_id": "mas-informacion",
+          "live": false
+        },
+        {
+          "start": "12:00",
+          "end": "13:00",
+          "show_id": "mas-la-cafetera-en",
+          "live": false
+        },
+        {
+          "start": "16:00",
+          "end": "17:00",
+          "show_id": "mas-se-va-a-liar-y-lo-sabes-en",
+          "live": false
+        },
+        {
+          "start": "17:00",
+          "end": "18:00",
+          "show_id": "centrado-en-la-cultura-local-con-entrevistas-a-diferentes-ar",
+          "live": false
+        },
+        {
+          "start": "18:00",
+          "end": "19:00",
+          "show_id": "de-forma-quincenal",
+          "live": false
+        },
+        {
+          "start": "19:00",
+          "end": "20:00",
+          "show_id": "de-la-manana-en-el-103-4-de-cuac-fm",
+          "live": false
+        },
+        {
+          "start": "20:00",
+          "end": "22:00",
+          "show_id": "el-nombre-del-programa-es-una-fusion-de-dos-emitidos-en-radi",
+          "live": false
+        },
+        {
+          "start": "22:00",
+          "end": "23:00",
+          "show_id": "rs-en-cuac-fm-103-4",
+          "live": false
+        },
+        {
+          "start": "23:00",
+          "end": "24:00",
+          "show_id": "con-cintia-garcia-cristina-varela-guillermo-gantes-y-ramon-r",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "friday",
+      "label": "Viernes",
+      "programs": [
+        {
+          "start": "09:00",
+          "end": "10:00",
+          "show_id": "en-el-103-4-de-la-fm-de-a-coruna-en-https-cuacfm-org-directo",
+          "live": true
+        },
+        {
+          "start": "11:00",
+          "end": "12:00",
+          "show_id": "mas-informacion",
+          "live": false
+        },
+        {
+          "start": "12:00",
+          "end": "13:00",
+          "show_id": "mas-la-cafetera-en",
+          "live": false
+        },
+        {
+          "start": "16:00",
+          "end": "17:00",
+          "show_id": "mas-se-va-a-liar-y-lo-sabes-en",
+          "live": false
+        },
+        {
+          "start": "17:00",
+          "end": "18:00",
+          "show_id": "centrado-en-la-cultura-local-con-entrevistas-a-diferentes-ar",
+          "live": false
+        },
+        {
+          "start": "18:00",
+          "end": "19:00",
+          "show_id": "de-forma-quincenal",
+          "live": false
+        },
+        {
+          "start": "19:00",
+          "end": "20:00",
+          "show_id": "de-la-manana-en-el-103-4-de-cuac-fm",
+          "live": false
+        },
+        {
+          "start": "20:00",
+          "end": "22:00",
+          "show_id": "el-nombre-del-programa-es-una-fusion-de-dos-emitidos-en-radi",
+          "live": false
+        },
+        {
+          "start": "22:00",
+          "end": "23:00",
+          "show_id": "rs-en-cuac-fm-103-4",
+          "live": false
+        },
+        {
+          "start": "23:00",
+          "end": "24:00",
+          "show_id": "con-cintia-garcia-cristina-varela-guillermo-gantes-y-ramon-r",
+          "live": false
+        }
+      ]
+    }
+  ]
+}

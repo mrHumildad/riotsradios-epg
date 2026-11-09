@@ -1,0 +1,90 @@
+{
+  "version": "2.0",
+  "station": "Klassik Radio",
+  "station_id": 150,
+  "schedule_type": "weekly",
+  "timezone": "Europe/Berlin",
+  "last_updated": "2026-11-09",
+  "source": "https://www.klassikradio.de/programm/",
+  "notes": "Generado automáticamente desde https://www.klassikradio.de/programm/ (snapshot 2026-11-09); revisar data/epg-report.json.",
+  "generator": "scripts/convert-raw-epg.mjs",
+  "metadata": {
+    "categories": {
+      "musica": "Música",
+      "directo": "Directo",
+      "podcast": "Podcast / repetición",
+      "especial": "Especial",
+      "taller": "Taller / educación"
+    },
+    "default_filler": {
+      "title": "Música",
+      "category": "musica"
+    }
+  },
+  "shows": {
+    "programm-am-montag": {
+      "title": "Programm am Montag",
+      "category": "directo"
+    },
+    "uhr": {
+      "title": "Uhr",
+      "category": "directo"
+    }
+  },
+  "days": [
+    {
+      "day": "monday",
+      "label": "Lunes",
+      "programs": [
+        {
+          "start": "06:00",
+          "end": "07:00",
+          "show_id": "programm-am-montag",
+          "live": false
+        },
+        {
+          "start": "07:00",
+          "end": "12:00",
+          "show_id": "uhr",
+          "live": false
+        },
+        {
+          "start": "12:00",
+          "end": "13:00",
+          "show_id": "uhr",
+          "live": false
+        },
+        {
+          "start": "13:00",
+          "end": "18:00",
+          "show_id": "uhr",
+          "live": false
+        },
+        {
+          "start": "18:00",
+          "end": "19:00",
+          "show_id": "uhr",
+          "live": false
+        },
+        {
+          "start": "19:00",
+          "end": "20:00",
+          "show_id": "uhr",
+          "live": false
+        },
+        {
+          "start": "20:00",
+          "end": "22:00",
+          "show_id": "uhr",
+          "live": false
+        },
+        {
+          "start": "22:00",
+          "end": "23:00",
+          "show_id": "uhr",
+          "live": false
+        }
+      ]
+    }
+  ]
+}

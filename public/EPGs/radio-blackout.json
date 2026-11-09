@@ -4,9 +4,9 @@
   "station_id": 29,
   "schedule_type": "weekly",
   "timezone": "Europe/Rome",
-  "last_updated": "2026-11-09",
-  "source": "Blackout",
-  "notes": "Generado automáticamente desde Blackout (snapshot 2026-11-09); revisar data/epg-report.json.",
+  "last_updated": "2026-11-08",
+  "source": "https://radioblackout.org/palinsesto",
+  "notes": "Generado automáticamente desde https://radioblackout.org/palinsesto (snapshot 2026-11-08); revisar data/epg-report.json.",
   "generator": "scripts/convert-raw-epg.mjs",
   "metadata": {
     "categories": {
