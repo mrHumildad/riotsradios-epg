@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-09T11:54:50.449Z",
+  "generated_at": "2026-11-09T12:03:48.940Z",
   "stations": {
     "1": {
       "file": "radio-contrabanda.json",
@@ -177,12 +177,26 @@
       "days": 7,
       "programs": 34
     },
+    "130": {
+      "file": "eco-leganes.json",
+      "status": "ok",
+      "updated": "2026-11-09",
+      "days": 7,
+      "programs": 118
+    },
     "132": {
       "file": "omc-onda-merlin-comunitaria.json",
       "status": "ok",
       "updated": "2026-11-09",
       "days": 7,
       "programs": 68
+    },
+    "133": {
+      "file": "radio-iris-7.json",
+      "status": "ok",
+      "updated": "2026-11-09",
+      "days": 7,
+      "programs": 104
     },
     "135": {
       "file": "radio-xata.json",

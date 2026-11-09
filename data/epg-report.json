@@ -4,19 +4,19 @@
   "out_dir": "public/EPGs",
   "html_only": true,
   "summary": {
-    "stations": 37,
-    "ok": 31,
+    "stations": 39,
+    "ok": 33,
     "partial": 4,
     "failed": 2,
     "skipped": 0,
-    "extracted": 2538,
-    "programmes": 2379,
-    "shows": 1030,
+    "extracted": 2760,
+    "programmes": 2601,
+    "shows": 1100,
     "missingTitles": 2,
     "invalidTimes": 4,
     "duplicates": 153,
-    "gaps": 672,
-    "gapMinutes": 134467,
+    "gaps": 688,
+    "gapMinutes": 135457,
     "overlapsClipped": 52
   },
   "stations": [
@@ -1858,6 +1858,87 @@
         "strategy day-pages: 102 programmes / 7 days — 7 day page(s), 7 day(s)"
       ],
       "suggested_epg_file": "serenade-radio.json"
+    },
+    {
+      "id": 130,
+      "name": "Eco Leganés",
+      "source": "https://ecoleganes.org/2018/01/01/parrilla/",
+      "format": "html",
+      "status": "ok",
+      "strategy": "linear",
+      "file": "eco-leganes.json",
+      "confidence": 0.98,
+      "stats": {
+        "extracted": 118,
+        "kept": 118,
+        "uniqueShows": 39,
+        "missingTitles": 0,
+        "invalidTimes": 0,
+        "duplicates": 0,
+        "overlapsClipped": 0,
+        "gapCount": 5,
+        "gapMinutes": 300,
+        "daysWithPrograms": 7
+      },
+      "warnings": [
+        "thursday: 2 gap(s), 120 min (01:00-02:00, 18:00-19:00)",
+        "saturday: 2 gap(s), 120 min (14:00-15:00, 16:00-17:00)",
+        "sunday: 1 gap(s), 60 min (14:00-15:00)"
+      ],
+      "errors": [],
+      "diagnostics": [
+        "snapshot latest.html (117434 bytes, utf-8), language hint es, fallback day monday",
+        "strategy tables: 0 programmes / 0 days — 0 tables, none with a day header + time rows",
+        "strategy nested-columns: 0 programmes / 0 days — no nested day tables",
+        "strategy hour-rail: 0 programmes / 0 days — no hour-rail column layout",
+        "strategy tabs: 0 programmes / 0 days — 7 day tabs, no matching 7-panel container",
+        "strategy columns: 0 programmes / 0 days — 0 columns but only 0 blocks",
+        "strategy sections: 0 programmes / 0 days — 14 day headings but no programmes under them",
+        "strategy item-list: 121 programmes / 1 days — 8 item children",
+        "strategy show-cards: 0 programmes / 0 days — no day+hours schedule cards",
+        "strategy day-ranges: 0 programmes / 0 days — no day+range lines",
+        "strategy linear: 118 programmes / 7 days — linear text, 7 day headings",
+        "strategy single-day: 118 programmes / 1 days — single day assumed monday (118 entries)"
+      ],
+      "suggested_epg_file": "eco-leganes.json"
+    },
+    {
+      "id": 133,
+      "name": "Radio Iris 7",
+      "source": "https://radioiris7.es/wp-content/uploads/2026/03/Programacion-de-Radio-Iris-7.pdf",
+      "format": "pdf",
+      "status": "ok",
+      "strategy": "pdf-text",
+      "file": "radio-iris-7.json",
+      "confidence": 0.98,
+      "stats": {
+        "extracted": 104,
+        "kept": 104,
+        "uniqueShows": 31,
+        "missingTitles": 0,
+        "invalidTimes": 0,
+        "duplicates": 0,
+        "overlapsClipped": 0,
+        "gapCount": 11,
+        "gapMinutes": 690,
+        "daysWithPrograms": 7
+      },
+      "warnings": [
+        "monday: 1 gap(s), 90 min (00:00-01:30)",
+        "tuesday: 2 gap(s), 105 min (00:00-01:30, 23:45-24:00)",
+        "wednesday: 1 gap(s), 90 min (00:00-01:30)",
+        "thursday: 1 gap(s), 90 min (00:00-01:30)",
+        "friday: 2 gap(s), 105 min (00:00-01:30, 23:45-24:00)",
+        "saturday: 2 gap(s), 105 min (00:00-01:30, 23:45-24:00)",
+        "sunday: 2 gap(s), 105 min (00:00-01:30, 23:45-24:00)"
+      ],
+      "errors": [],
+      "diagnostics": [
+        "snapshot latest.pdf (165983 bytes, pdf)",
+        "pdf: 680 text blocks",
+        "pdf grid: 7 day columns, 81 time rows, 104 programmes"
+      ],
+      "suggested_epg_file": "radio-iris-7.json"
     }
   ]
 }

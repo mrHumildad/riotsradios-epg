@@ -1,0 +1,818 @@
+{
+  "version": "2.0",
+  "station": "Radio Iris 7",
+  "station_id": 133,
+  "schedule_type": "weekly",
+  "timezone": "Europe/Madrid",
+  "last_updated": "2026-11-09",
+  "source": "https://radioiris7.es/wp-content/uploads/2026/03/Programacion-de-Radio-Iris-7.pdf",
+  "notes": "Generado automáticamente desde https://radioiris7.es/wp-content/uploads/2026/03/Programacion-de-Radio-Iris-7.pdf (snapshot 2026-11-09); revisar data/epg-report.json.",
+  "generator": "scripts/convert-raw-epg.mjs",
+  "metadata": {
+    "categories": {
+      "musica": "Música",
+      "directo": "Directo",
+      "podcast": "Podcast / repetición",
+      "especial": "Especial",
+      "taller": "Taller / educación"
+    },
+    "default_filler": {
+      "title": "Música",
+      "category": "musica"
+    }
+  },
+  "shows": {
+    "musica-clasica": {
+      "title": "Música Clásica",
+      "category": "musica"
+    },
+    "musica-de-noche-lenta-y-varios": {
+      "title": "Música de Noche Lenta y Varios",
+      "category": "musica"
+    },
+    "agenda-cultural": {
+      "title": "Agenda Cultural",
+      "category": "directo"
+    },
+    "musica-matinal-y-novedades": {
+      "title": "Música Matinal y Novedades",
+      "category": "musica"
+    },
+    "tiempo-cero-2-0": {
+      "title": "Tiempo Cero 2.0",
+      "category": "directo"
+    },
+    "cuaderno-rojo": {
+      "title": "Cuaderno Rojo",
+      "category": "directo"
+    },
+    "musica-medio-dia-y-varios": {
+      "title": "Música Medio Día y Varios",
+      "category": "musica"
+    },
+    "musica-de-tarde-y-novedades": {
+      "title": "Música de Tarde y Novedades",
+      "category": "musica"
+    },
+    "musica-de-los-80": {
+      "title": "Música de los 80",
+      "category": "musica"
+    },
+    "aires-celtas": {
+      "title": "Aires Celtas",
+      "category": "directo"
+    },
+    "la-era-del-600": {
+      "title": "La Era del 600",
+      "category": "directo"
+    },
+    "de-raiz": {
+      "title": "De Raíz",
+      "category": "directo"
+    },
+    "arruba": {
+      "title": "Arruba",
+      "category": "directo"
+    },
+    "la-cafetera": {
+      "title": "La Cafetera",
+      "category": "directo"
+    },
+    "a-traves-de-nuestro-prisma": {
+      "title": "A través de nuestro prisma",
+      "category": "directo"
+    },
+    "escuter-iberico-o-el-arrabal-musical": {
+      "title": "Escúter Ibérico o El Arrabal Musical",
+      "category": "directo"
+    },
+    "radioteca-de-radio-iris-7": {
+      "title": "Radioteca de Radio Iris 7",
+      "category": "directo"
+    },
+    "mar-de-fueguitos": {
+      "title": "Mar de Fueguitos",
+      "category": "directo"
+    },
+    "la-linea-intermedia": {
+      "title": "La Línea Intermedia",
+      "category": "directo"
+    },
+    "luna-roja": {
+      "title": "Luna Roja",
+      "category": "directo"
+    },
+    "la-luna-sale-a-tiempo": {
+      "title": "La Luna sale a tiempo",
+      "category": "directo"
+    },
+    "la-biblioteca-perdida": {
+      "title": "La Biblioteca Perdida",
+      "category": "directo"
+    },
+    "musica-rock": {
+      "title": "Música Rock",
+      "category": "musica"
+    },
+    "musica-disco-y-dance": {
+      "title": "Música Disco y Dance",
+      "category": "musica"
+    },
+    "suenan-los-androides-11-30-11-30-con-guitarras-11-45-11-45-e": {
+      "title": "¿Sueñan los androides 11:30 11:30 con guitarras 11:45 11:45 electricas?",
+      "category": "directo"
+    },
+    "el-canal-2-con-dj-duque": {
+      "title": "El Canal 2 con… Dj Duque",
+      "category": "directo"
+    },
+    "ritmos-latinos": {
+      "title": "Ritmos Latinos",
+      "category": "directo"
+    },
+    "tiempo-de-radio": {
+      "title": "Tiempo de Radio",
+      "category": "directo"
+    },
+    "musica-folklore": {
+      "title": "Música Folklore",
+      "category": "musica"
+    },
+    "musica-bso": {
+      "title": "Música BSO",
+      "category": "musica"
+    },
+    "musica-de-grupos-locales": {
+      "title": "Música de Grupos Locales",
+      "category": "musica"
+    }
+  },
+  "days": [
+    {
+      "day": "monday",
+      "label": "Lunes",
+      "programs": [
+        {
+          "start": "01:30",
+          "end": "05:00",
+          "show_id": "musica-clasica",
+          "live": false
+        },
+        {
+          "start": "05:00",
+          "end": "08:30",
+          "show_id": "musica-de-noche-lenta-y-varios",
+          "live": false
+        },
+        {
+          "start": "08:30",
+          "end": "08:45",
+          "show_id": "agenda-cultural",
+          "live": false
+        },
+        {
+          "start": "08:45",
+          "end": "10:15",
+          "show_id": "musica-matinal-y-novedades",
+          "live": false
+        },
+        {
+          "start": "10:15",
+          "end": "12:30",
+          "show_id": "tiempo-cero-2-0",
+          "live": false
+        },
+        {
+          "start": "12:30",
+          "end": "14:15",
+          "show_id": "musica-matinal-y-novedades",
+          "live": false
+        },
+        {
+          "start": "14:15",
+          "end": "15:00",
+          "show_id": "cuaderno-rojo",
+          "live": false
+        },
+        {
+          "start": "15:00",
+          "end": "16:30",
+          "show_id": "musica-medio-dia-y-varios",
+          "live": false
+        },
+        {
+          "start": "16:30",
+          "end": "17:45",
+          "show_id": "agenda-cultural",
+          "live": false
+        },
+        {
+          "start": "17:45",
+          "end": "19:15",
+          "show_id": "musica-de-tarde-y-novedades",
+          "live": false
+        },
+        {
+          "start": "19:15",
+          "end": "20:15",
+          "show_id": "cuaderno-rojo",
+          "live": false
+        },
+        {
+          "start": "20:15",
+          "end": "21:45",
+          "show_id": "musica-de-los-80",
+          "live": false
+        },
+        {
+          "start": "21:45",
+          "end": "22:45",
+          "show_id": "aires-celtas",
+          "live": false
+        },
+        {
+          "start": "22:45",
+          "end": "23:45",
+          "show_id": "la-era-del-600",
+          "live": false
+        },
+        {
+          "start": "23:45",
+          "end": "24:00",
+          "show_id": "musica-de-los-80",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "tuesday",
+      "label": "Martes",
+      "programs": [
+        {
+          "start": "01:30",
+          "end": "05:00",
+          "show_id": "musica-clasica",
+          "live": false
+        },
+        {
+          "start": "05:00",
+          "end": "08:30",
+          "show_id": "musica-de-noche-lenta-y-varios",
+          "live": false
+        },
+        {
+          "start": "08:30",
+          "end": "08:45",
+          "show_id": "agenda-cultural",
+          "live": false
+        },
+        {
+          "start": "08:45",
+          "end": "10:15",
+          "show_id": "musica-matinal-y-novedades",
+          "live": false
+        },
+        {
+          "start": "10:15",
+          "end": "12:30",
+          "show_id": "de-raiz",
+          "live": false
+        },
+        {
+          "start": "12:30",
+          "end": "14:15",
+          "show_id": "musica-matinal-y-novedades",
+          "live": false
+        },
+        {
+          "start": "14:15",
+          "end": "15:00",
+          "show_id": "cuaderno-rojo",
+          "live": false
+        },
+        {
+          "start": "15:00",
+          "end": "16:30",
+          "show_id": "musica-medio-dia-y-varios",
+          "live": false
+        },
+        {
+          "start": "16:30",
+          "end": "17:45",
+          "show_id": "agenda-cultural",
+          "live": false
+        },
+        {
+          "start": "17:45",
+          "end": "19:15",
+          "show_id": "musica-de-tarde-y-novedades",
+          "live": false
+        },
+        {
+          "start": "19:15",
+          "end": "20:15",
+          "show_id": "cuaderno-rojo",
+          "live": false
+        },
+        {
+          "start": "20:15",
+          "end": "21:45",
+          "show_id": "musica-de-los-80",
+          "live": false
+        },
+        {
+          "start": "21:45",
+          "end": "23:15",
+          "show_id": "arruba",
+          "live": false
+        },
+        {
+          "start": "23:15",
+          "end": "23:45",
+          "show_id": "musica-de-los-80",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "wednesday",
+      "label": "Miércoles",
+      "programs": [
+        {
+          "start": "01:30",
+          "end": "05:00",
+          "show_id": "musica-clasica",
+          "live": false
+        },
+        {
+          "start": "05:00",
+          "end": "08:30",
+          "show_id": "musica-de-noche-lenta-y-varios",
+          "live": false
+        },
+        {
+          "start": "08:30",
+          "end": "08:45",
+          "show_id": "agenda-cultural",
+          "live": false
+        },
+        {
+          "start": "08:45",
+          "end": "09:45",
+          "show_id": "musica-matinal-y-novedades",
+          "live": false
+        },
+        {
+          "start": "09:45",
+          "end": "10:30",
+          "show_id": "la-cafetera",
+          "live": false
+        },
+        {
+          "start": "10:30",
+          "end": "12:30",
+          "show_id": "a-traves-de-nuestro-prisma",
+          "live": false
+        },
+        {
+          "start": "12:30",
+          "end": "14:15",
+          "show_id": "musica-matinal-y-novedades",
+          "live": false
+        },
+        {
+          "start": "14:15",
+          "end": "15:00",
+          "show_id": "cuaderno-rojo",
+          "live": false
+        },
+        {
+          "start": "15:00",
+          "end": "16:30",
+          "show_id": "musica-medio-dia-y-varios",
+          "live": false
+        },
+        {
+          "start": "16:30",
+          "end": "17:45",
+          "show_id": "agenda-cultural",
+          "live": false
+        },
+        {
+          "start": "17:45",
+          "end": "19:15",
+          "show_id": "musica-de-tarde-y-novedades",
+          "live": false
+        },
+        {
+          "start": "19:15",
+          "end": "20:15",
+          "show_id": "cuaderno-rojo",
+          "live": false
+        },
+        {
+          "start": "20:15",
+          "end": "21:30",
+          "show_id": "musica-de-los-80",
+          "live": false
+        },
+        {
+          "start": "21:30",
+          "end": "22:45",
+          "show_id": "escuter-iberico-o-el-arrabal-musical",
+          "live": false
+        },
+        {
+          "start": "22:45",
+          "end": "23:30",
+          "show_id": "musica-de-los-80",
+          "live": false
+        },
+        {
+          "start": "23:30",
+          "end": "24:00",
+          "show_id": "radioteca-de-radio-iris-7",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "thursday",
+      "label": "Jueves",
+      "programs": [
+        {
+          "start": "01:30",
+          "end": "05:00",
+          "show_id": "musica-clasica",
+          "live": false
+        },
+        {
+          "start": "05:00",
+          "end": "08:30",
+          "show_id": "musica-de-noche-lenta-y-varios",
+          "live": false
+        },
+        {
+          "start": "08:30",
+          "end": "08:45",
+          "show_id": "agenda-cultural",
+          "live": false
+        },
+        {
+          "start": "08:45",
+          "end": "09:45",
+          "show_id": "musica-matinal-y-novedades",
+          "live": false
+        },
+        {
+          "start": "09:45",
+          "end": "10:45",
+          "show_id": "la-cafetera",
+          "live": false
+        },
+        {
+          "start": "10:45",
+          "end": "12:30",
+          "show_id": "mar-de-fueguitos",
+          "live": false
+        },
+        {
+          "start": "12:30",
+          "end": "14:15",
+          "show_id": "musica-matinal-y-novedades",
+          "live": false
+        },
+        {
+          "start": "14:15",
+          "end": "15:00",
+          "show_id": "cuaderno-rojo",
+          "live": false
+        },
+        {
+          "start": "15:00",
+          "end": "16:30",
+          "show_id": "musica-medio-dia-y-varios",
+          "live": false
+        },
+        {
+          "start": "16:30",
+          "end": "17:45",
+          "show_id": "agenda-cultural",
+          "live": false
+        },
+        {
+          "start": "17:45",
+          "end": "19:15",
+          "show_id": "musica-de-tarde-y-novedades",
+          "live": false
+        },
+        {
+          "start": "19:15",
+          "end": "20:15",
+          "show_id": "cuaderno-rojo",
+          "live": false
+        },
+        {
+          "start": "20:15",
+          "end": "21:45",
+          "show_id": "musica-de-los-80",
+          "live": false
+        },
+        {
+          "start": "21:45",
+          "end": "22:45",
+          "show_id": "la-linea-intermedia",
+          "live": false
+        },
+        {
+          "start": "22:45",
+          "end": "23:45",
+          "show_id": "luna-roja",
+          "live": false
+        },
+        {
+          "start": "23:45",
+          "end": "24:00",
+          "show_id": "musica-de-los-80",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "friday",
+      "label": "Viernes",
+      "programs": [
+        {
+          "start": "01:30",
+          "end": "05:00",
+          "show_id": "musica-clasica",
+          "live": false
+        },
+        {
+          "start": "05:00",
+          "end": "08:30",
+          "show_id": "musica-de-noche-lenta-y-varios",
+          "live": false
+        },
+        {
+          "start": "08:30",
+          "end": "08:45",
+          "show_id": "agenda-cultural",
+          "live": false
+        },
+        {
+          "start": "08:45",
+          "end": "10:15",
+          "show_id": "musica-matinal-y-novedades",
+          "live": false
+        },
+        {
+          "start": "10:15",
+          "end": "12:30",
+          "show_id": "la-luna-sale-a-tiempo",
+          "live": false
+        },
+        {
+          "start": "12:30",
+          "end": "14:15",
+          "show_id": "musica-matinal-y-novedades",
+          "live": false
+        },
+        {
+          "start": "14:15",
+          "end": "15:00",
+          "show_id": "cuaderno-rojo",
+          "live": false
+        },
+        {
+          "start": "15:00",
+          "end": "16:30",
+          "show_id": "musica-medio-dia-y-varios",
+          "live": false
+        },
+        {
+          "start": "16:30",
+          "end": "17:45",
+          "show_id": "agenda-cultural",
+          "live": false
+        },
+        {
+          "start": "17:45",
+          "end": "19:15",
+          "show_id": "musica-de-tarde-y-novedades",
+          "live": false
+        },
+        {
+          "start": "19:15",
+          "end": "20:45",
+          "show_id": "cuaderno-rojo",
+          "live": false
+        },
+        {
+          "start": "20:45",
+          "end": "23:15",
+          "show_id": "musica-de-los-80",
+          "live": false
+        },
+        {
+          "start": "23:15",
+          "end": "23:45",
+          "show_id": "la-biblioteca-perdida",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "saturday",
+      "label": "Sábado",
+      "programs": [
+        {
+          "start": "01:30",
+          "end": "04:00",
+          "show_id": "musica-rock",
+          "live": false
+        },
+        {
+          "start": "04:00",
+          "end": "07:00",
+          "show_id": "musica-disco-y-dance",
+          "live": false
+        },
+        {
+          "start": "07:00",
+          "end": "08:30",
+          "show_id": "musica-de-noche-lenta-y-varios",
+          "live": false
+        },
+        {
+          "start": "08:30",
+          "end": "09:30",
+          "show_id": "musica-matinal-y-novedades",
+          "live": false
+        },
+        {
+          "start": "09:30",
+          "end": "10:30",
+          "show_id": "radioteca-de-radio-iris-7",
+          "live": false
+        },
+        {
+          "start": "10:30",
+          "end": "11:30",
+          "show_id": "musica-matinal-y-novedades",
+          "live": false
+        },
+        {
+          "start": "11:30",
+          "end": "13:00",
+          "show_id": "suenan-los-androides-11-30-11-30-con-guitarras-11-45-11-45-e",
+          "live": false
+        },
+        {
+          "start": "13:00",
+          "end": "14:15",
+          "show_id": "musica-matinal-y-novedades",
+          "live": false
+        },
+        {
+          "start": "14:15",
+          "end": "15:00",
+          "show_id": "cuaderno-rojo",
+          "live": false
+        },
+        {
+          "start": "15:00",
+          "end": "17:15",
+          "show_id": "musica-medio-dia-y-varios",
+          "live": false
+        },
+        {
+          "start": "17:15",
+          "end": "19:15",
+          "show_id": "el-canal-2-con-dj-duque",
+          "live": false
+        },
+        {
+          "start": "19:15",
+          "end": "19:45",
+          "show_id": "cuaderno-rojo",
+          "live": false
+        },
+        {
+          "start": "19:45",
+          "end": "20:30",
+          "show_id": "ritmos-latinos",
+          "live": false
+        },
+        {
+          "start": "20:30",
+          "end": "21:45",
+          "show_id": "a-traves-de-nuestro-prisma",
+          "live": false
+        },
+        {
+          "start": "21:45",
+          "end": "23:15",
+          "show_id": "ritmos-latinos",
+          "live": false
+        },
+        {
+          "start": "23:15",
+          "end": "23:45",
+          "show_id": "musica-rock",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "sunday",
+      "label": "Domingo",
+      "programs": [
+        {
+          "start": "01:30",
+          "end": "04:00",
+          "show_id": "musica-rock",
+          "live": false
+        },
+        {
+          "start": "04:00",
+          "end": "07:00",
+          "show_id": "musica-disco-y-dance",
+          "live": false
+        },
+        {
+          "start": "07:00",
+          "end": "08:30",
+          "show_id": "musica-de-noche-lenta-y-varios",
+          "live": false
+        },
+        {
+          "start": "08:30",
+          "end": "09:30",
+          "show_id": "musica-matinal-y-novedades",
+          "live": false
+        },
+        {
+          "start": "09:30",
+          "end": "10:45",
+          "show_id": "radioteca-de-radio-iris-7",
+          "live": false
+        },
+        {
+          "start": "10:45",
+          "end": "12:45",
+          "show_id": "tiempo-de-radio",
+          "live": false
+        },
+        {
+          "start": "12:45",
+          "end": "14:15",
+          "show_id": "musica-folklore",
+          "live": false
+        },
+        {
+          "start": "14:15",
+          "end": "15:15",
+          "show_id": "cuaderno-rojo",
+          "live": false
+        },
+        {
+          "start": "15:15",
+          "end": "16:45",
+          "show_id": "musica-bso",
+          "live": false
+        },
+        {
+          "start": "16:45",
+          "end": "18:00",
+          "show_id": "la-linea-intermedia",
+          "live": false
+        },
+        {
+          "start": "18:00",
+          "end": "19:15",
+          "show_id": "musica-de-grupos-locales",
+          "live": false
+        },
+        {
+          "start": "19:15",
+          "end": "20:45",
+          "show_id": "cuaderno-rojo",
+          "live": false
+        },
+        {
+          "start": "20:45",
+          "end": "23:15",
+          "show_id": "ritmos-latinos",
+          "live": false
+        },
+        {
+          "start": "23:15",
+          "end": "23:45",
+          "show_id": "musica-rock",
+          "live": false
+        }
+      ]
+    }
+  ]
+}

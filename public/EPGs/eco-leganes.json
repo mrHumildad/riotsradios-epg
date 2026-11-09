@@ -1,0 +1,941 @@
+{
+  "version": "2.0",
+  "station": "Eco Leganés",
+  "station_id": 130,
+  "schedule_type": "weekly",
+  "timezone": "Europe/Madrid",
+  "last_updated": "2026-11-09",
+  "source": "https://ecoleganes.org/2018/01/01/parrilla/",
+  "notes": "Generado automáticamente desde https://ecoleganes.org/2018/01/01/parrilla/ (snapshot 2026-11-09); revisar data/epg-report.json.",
+  "generator": "scripts/convert-raw-epg.mjs",
+  "metadata": {
+    "categories": {
+      "musica": "Música",
+      "directo": "Directo",
+      "podcast": "Podcast / repetición",
+      "especial": "Especial",
+      "taller": "Taller / educación"
+    },
+    "default_filler": {
+      "title": "Música",
+      "category": "musica"
+    }
+  },
+  "shows": {
+    "la-luna-sale-a-tiempo-radio-klara": {
+      "title": "La Luna Sale a Tiempo – Radio Klara",
+      "category": "directo"
+    },
+    "musica": {
+      "title": "Música",
+      "category": "musica"
+    },
+    "informativos": {
+      "title": "Informativos",
+      "category": "directo"
+    },
+    "informativo-leganenses": {
+      "title": "Informativo Leganenses",
+      "category": "directo"
+    },
+    "miscelaneas": {
+      "title": "Misceláneas",
+      "category": "directo"
+    },
+    "carne": {
+      "title": "Carne",
+      "category": "directo"
+    },
+    "onda-amas": {
+      "title": "Onda AMÁS",
+      "category": "directo"
+    },
+    "radio": {
+      "title": "Radio",
+      "category": "directo"
+    },
+    "nosotras": {
+      "title": "Nosotras",
+      "category": "directo"
+    },
+    "informativo-saharaui-malainin-mustafa-mohamed": {
+      "title": "Informativo Saharaui - Malainin Mustafa Mohamed",
+      "category": "directo"
+    },
+    "la-hora-de-la-verdad": {
+      "title": "La Hora de la Verdad",
+      "category": "directo"
+    },
+    "100-fuegos-radio-xata": {
+      "title": "100 Fuegos - Radio Xata",
+      "category": "directo"
+    },
+    "compartiendo-infierno": {
+      "title": "Compartiendo Infierno",
+      "category": "directo"
+    },
+    "la-linterna-de-diogenes-irola-irratia": {
+      "title": "La Linterna de Diógenes – Irola Irratia",
+      "category": "directo"
+    },
+    "onda-literaria": {
+      "title": "Onda Literaria",
+      "category": "directo"
+    },
+    "educomuniquemos": {
+      "title": "¡Educomuniquemos!",
+      "category": "directo"
+    },
+    "el-ronroneo-del-cal-radio-el-candil": {
+      "title": "El Ronroneo del CAL - Radio El Candil",
+      "category": "directo"
+    },
+    "onda-salud-omc-radio": {
+      "title": "Onda Salud – OMC Radio",
+      "category": "directo"
+    },
+    "scanners": {
+      "title": "Scanners",
+      "category": "directo"
+    },
+    "la-bicicleta": {
+      "title": "La Bicicleta",
+      "category": "directo"
+    },
+    "musica-entre-musicas-radio-el-candil": {
+      "title": "Música entre Músicas - Radio El Candil",
+      "category": "musica"
+    },
+    "espacio-comun-15m-agora-sol-radio": {
+      "title": "Espacio Común 15M - Ágora Sol Radio",
+      "category": "directo"
+    },
+    "radio-fapa-radio-enlace": {
+      "title": "Radio FAPA - Radio Enlace",
+      "category": "directo"
+    },
+    "letras-encadenadas": {
+      "title": "Letras Encadenadas",
+      "category": "directo"
+    },
+    "africania-urcm": {
+      "title": "Africanía - URCM",
+      "category": "directo"
+    },
+    "barrio": {
+      "title": "Barrio",
+      "category": "directo"
+    },
+    "colapsistas": {
+      "title": "Colapsistas",
+      "category": "directo"
+    },
+    "conmayorvoz": {
+      "title": "#ConMayorVoz",
+      "category": "directo"
+    },
+    "atrevete-a-pensar-cruces-aldea": {
+      "title": "Atrévete a pensar - Cruces Aldea",
+      "category": "directo"
+    },
+    "cerca-de-la-puerta-de-tannhauser-radio-el-candil": {
+      "title": "Cerca de la Puerta de Tannhäuser - Radio El Candil",
+      "category": "directo"
+    },
+    "universos-paralelos-onda-verde": {
+      "title": "Universos Paralelos - Onda Verde",
+      "category": "directo"
+    },
+    "socialmente-saludables-radio-el-candil": {
+      "title": "Socialmente Saludables - Radio El Candil",
+      "category": "directo"
+    },
+    "sangre-fucsia-agora-sol-radio": {
+      "title": "Sangre Fucsia – Ágora Sol Radio",
+      "category": "directo"
+    },
+    "mujeres-con-historia-radio-enlace": {
+      "title": "Mujeres con historia – Radio Enlace",
+      "category": "directo"
+    },
+    "coffee-break-iac": {
+      "title": "Coffee Break – IAC",
+      "category": "directo"
+    },
+    "compartiendo": {
+      "title": "Compartiendo",
+      "category": "directo"
+    },
+    "el-salto-radio": {
+      "title": "El Salto Radio",
+      "category": "directo"
+    },
+    "radioficciones": {
+      "title": "Radioficciones",
+      "category": "directo"
+    },
+    "el-desinformativo-cuac-fm": {
+      "title": "El Desinformativo – CUAC FM",
+      "category": "directo"
+    }
+  },
+  "days": [
+    {
+      "day": "monday",
+      "label": "Lunes",
+      "programs": [
+        {
+          "start": "00:00",
+          "end": "02:00",
+          "show_id": "la-luna-sale-a-tiempo-radio-klara",
+          "live": false
+        },
+        {
+          "start": "02:00",
+          "end": "07:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "07:00",
+          "end": "08:00",
+          "show_id": "informativos",
+          "live": false
+        },
+        {
+          "start": "08:00",
+          "end": "09:00",
+          "show_id": "informativo-leganenses",
+          "live": false
+        },
+        {
+          "start": "09:00",
+          "end": "10:00",
+          "show_id": "miscelaneas",
+          "live": false
+        },
+        {
+          "start": "10:00",
+          "end": "12:00",
+          "show_id": "carne",
+          "live": false
+        },
+        {
+          "start": "12:00",
+          "end": "13:00",
+          "show_id": "onda-amas",
+          "live": false
+        },
+        {
+          "start": "13:00",
+          "end": "14:00",
+          "show_id": "radio",
+          "live": false
+        },
+        {
+          "start": "14:00",
+          "end": "15:00",
+          "show_id": "informativo-leganenses",
+          "live": false
+        },
+        {
+          "start": "15:00",
+          "end": "16:00",
+          "show_id": "informativos",
+          "live": false
+        },
+        {
+          "start": "16:00",
+          "end": "17:00",
+          "show_id": "nosotras",
+          "live": false
+        },
+        {
+          "start": "17:00",
+          "end": "18:00",
+          "show_id": "informativo-saharaui-malainin-mustafa-mohamed",
+          "live": false
+        },
+        {
+          "start": "18:00",
+          "end": "19:00",
+          "show_id": "la-hora-de-la-verdad",
+          "live": false
+        },
+        {
+          "start": "19:00",
+          "end": "21:00",
+          "show_id": "100-fuegos-radio-xata",
+          "live": false
+        },
+        {
+          "start": "21:00",
+          "end": "22:00",
+          "show_id": "informativo-leganenses",
+          "live": false
+        },
+        {
+          "start": "22:00",
+          "end": "23:00",
+          "show_id": "informativos",
+          "live": false
+        },
+        {
+          "start": "23:00",
+          "end": "00:00",
+          "show_id": "compartiendo-infierno",
+          "live": false,
+          "crosses_midnight": true
+        }
+      ]
+    },
+    {
+      "day": "tuesday",
+      "label": "Martes",
+      "programs": [
+        {
+          "start": "00:00",
+          "end": "03:00",
+          "show_id": "la-linterna-de-diogenes-irola-irratia",
+          "live": false
+        },
+        {
+          "start": "03:00",
+          "end": "07:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "07:00",
+          "end": "08:00",
+          "show_id": "informativos",
+          "live": false
+        },
+        {
+          "start": "08:00",
+          "end": "09:00",
+          "show_id": "informativo-leganenses",
+          "live": false
+        },
+        {
+          "start": "09:00",
+          "end": "10:00",
+          "show_id": "onda-literaria",
+          "live": false
+        },
+        {
+          "start": "10:00",
+          "end": "12:00",
+          "show_id": "carne",
+          "live": false
+        },
+        {
+          "start": "12:00",
+          "end": "13:00",
+          "show_id": "educomuniquemos",
+          "live": false
+        },
+        {
+          "start": "13:00",
+          "end": "14:00",
+          "show_id": "el-ronroneo-del-cal-radio-el-candil",
+          "live": false
+        },
+        {
+          "start": "14:00",
+          "end": "15:00",
+          "show_id": "informativo-leganenses",
+          "live": false
+        },
+        {
+          "start": "15:00",
+          "end": "16:00",
+          "show_id": "informativos",
+          "live": false
+        },
+        {
+          "start": "16:00",
+          "end": "17:00",
+          "show_id": "onda-salud-omc-radio",
+          "live": false
+        },
+        {
+          "start": "17:00",
+          "end": "19:00",
+          "show_id": "scanners",
+          "live": false
+        },
+        {
+          "start": "19:00",
+          "end": "20:00",
+          "show_id": "la-bicicleta",
+          "live": false
+        },
+        {
+          "start": "20:00",
+          "end": "21:00",
+          "show_id": "miscelaneas",
+          "live": false
+        },
+        {
+          "start": "21:00",
+          "end": "22:00",
+          "show_id": "informativo-leganenses",
+          "live": false
+        },
+        {
+          "start": "22:00",
+          "end": "23:00",
+          "show_id": "informativos",
+          "live": false
+        },
+        {
+          "start": "23:00",
+          "end": "00:00",
+          "show_id": "onda-amas",
+          "live": false,
+          "crosses_midnight": true
+        }
+      ]
+    },
+    {
+      "day": "wednesday",
+      "label": "Miércoles",
+      "programs": [
+        {
+          "start": "00:00",
+          "end": "01:00",
+          "show_id": "musica-entre-musicas-radio-el-candil",
+          "live": false
+        },
+        {
+          "start": "01:00",
+          "end": "07:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "07:00",
+          "end": "08:00",
+          "show_id": "informativos",
+          "live": false
+        },
+        {
+          "start": "08:00",
+          "end": "09:00",
+          "show_id": "informativo-leganenses",
+          "live": false
+        },
+        {
+          "start": "09:00",
+          "end": "10:00",
+          "show_id": "miscelaneas",
+          "live": false
+        },
+        {
+          "start": "10:00",
+          "end": "12:00",
+          "show_id": "carne",
+          "live": false
+        },
+        {
+          "start": "12:00",
+          "end": "13:30",
+          "show_id": "espacio-comun-15m-agora-sol-radio",
+          "live": false
+        },
+        {
+          "start": "13:30",
+          "end": "14:00",
+          "show_id": "miscelaneas",
+          "live": false
+        },
+        {
+          "start": "14:00",
+          "end": "15:00",
+          "show_id": "informativo-leganenses",
+          "live": false
+        },
+        {
+          "start": "15:00",
+          "end": "16:00",
+          "show_id": "informativos",
+          "live": false
+        },
+        {
+          "start": "16:00",
+          "end": "17:00",
+          "show_id": "radio-fapa-radio-enlace",
+          "live": false
+        },
+        {
+          "start": "17:00",
+          "end": "18:00",
+          "show_id": "la-bicicleta",
+          "live": false
+        },
+        {
+          "start": "18:00",
+          "end": "19:00",
+          "show_id": "compartiendo-infierno",
+          "live": false
+        },
+        {
+          "start": "19:00",
+          "end": "20:00",
+          "show_id": "la-hora-de-la-verdad",
+          "live": false
+        },
+        {
+          "start": "20:00",
+          "end": "21:00",
+          "show_id": "miscelaneas",
+          "live": false
+        },
+        {
+          "start": "21:00",
+          "end": "22:00",
+          "show_id": "informativo-leganenses",
+          "live": false
+        },
+        {
+          "start": "22:00",
+          "end": "23:00",
+          "show_id": "informativos",
+          "live": false
+        },
+        {
+          "start": "23:00",
+          "end": "00:00",
+          "show_id": "letras-encadenadas",
+          "live": false,
+          "crosses_midnight": true
+        }
+      ]
+    },
+    {
+      "day": "thursday",
+      "label": "Jueves",
+      "programs": [
+        {
+          "start": "00:00",
+          "end": "01:00",
+          "show_id": "la-bicicleta",
+          "live": false
+        },
+        {
+          "start": "02:00",
+          "end": "03:00",
+          "show_id": "miscelaneas",
+          "live": false
+        },
+        {
+          "start": "03:00",
+          "end": "07:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "07:00",
+          "end": "08:00",
+          "show_id": "informativos",
+          "live": false
+        },
+        {
+          "start": "08:00",
+          "end": "09:00",
+          "show_id": "informativo-leganenses",
+          "live": false
+        },
+        {
+          "start": "09:00",
+          "end": "10:00",
+          "show_id": "miscelaneas",
+          "live": false
+        },
+        {
+          "start": "10:00",
+          "end": "12:00",
+          "show_id": "carne",
+          "live": false
+        },
+        {
+          "start": "12:00",
+          "end": "13:00",
+          "show_id": "onda-literaria",
+          "live": false
+        },
+        {
+          "start": "13:00",
+          "end": "14:00",
+          "show_id": "miscelaneas",
+          "live": false
+        },
+        {
+          "start": "14:00",
+          "end": "15:00",
+          "show_id": "informativo-leganenses",
+          "live": false
+        },
+        {
+          "start": "15:00",
+          "end": "16:00",
+          "show_id": "informativos",
+          "live": false
+        },
+        {
+          "start": "16:00",
+          "end": "17:00",
+          "show_id": "africania-urcm",
+          "live": false
+        },
+        {
+          "start": "17:00",
+          "end": "18:00",
+          "show_id": "informativo-saharaui-malainin-mustafa-mohamed",
+          "live": false
+        },
+        {
+          "start": "19:00",
+          "end": "20:00",
+          "show_id": "onda-amas",
+          "live": false
+        },
+        {
+          "start": "20:00",
+          "end": "21:00",
+          "show_id": "miscelaneas",
+          "live": false
+        },
+        {
+          "start": "21:00",
+          "end": "22:00",
+          "show_id": "informativo-leganenses",
+          "live": false
+        },
+        {
+          "start": "22:00",
+          "end": "23:00",
+          "show_id": "informativos",
+          "live": false
+        },
+        {
+          "start": "23:00",
+          "end": "00:00",
+          "show_id": "educomuniquemos",
+          "live": false,
+          "crosses_midnight": true
+        }
+      ]
+    },
+    {
+      "day": "friday",
+      "label": "Viernes",
+      "programs": [
+        {
+          "start": "00:00",
+          "end": "03:00",
+          "show_id": "barrio",
+          "live": false
+        },
+        {
+          "start": "03:00",
+          "end": "07:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "07:00",
+          "end": "08:00",
+          "show_id": "informativos",
+          "live": false
+        },
+        {
+          "start": "08:00",
+          "end": "09:00",
+          "show_id": "informativo-leganenses",
+          "live": false
+        },
+        {
+          "start": "09:00",
+          "end": "10:00",
+          "show_id": "miscelaneas",
+          "live": false
+        },
+        {
+          "start": "10:00",
+          "end": "12:00",
+          "show_id": "carne",
+          "live": false
+        },
+        {
+          "start": "12:00",
+          "end": "14:00",
+          "show_id": "colapsistas",
+          "live": false
+        },
+        {
+          "start": "14:00",
+          "end": "15:00",
+          "show_id": "informativo-leganenses",
+          "live": false
+        },
+        {
+          "start": "15:00",
+          "end": "16:00",
+          "show_id": "informativos",
+          "live": false
+        },
+        {
+          "start": "16:00",
+          "end": "17:00",
+          "show_id": "conmayorvoz",
+          "live": false
+        },
+        {
+          "start": "17:00",
+          "end": "18:00",
+          "show_id": "atrevete-a-pensar-cruces-aldea",
+          "live": false
+        },
+        {
+          "start": "18:00",
+          "end": "19:00",
+          "show_id": "la-bicicleta",
+          "live": false
+        },
+        {
+          "start": "19:00",
+          "end": "20:00",
+          "show_id": "musica-entre-musicas-radio-el-candil",
+          "live": false
+        },
+        {
+          "start": "20:00",
+          "end": "21:00",
+          "show_id": "cerca-de-la-puerta-de-tannhauser-radio-el-candil",
+          "live": false
+        },
+        {
+          "start": "21:00",
+          "end": "22:00",
+          "show_id": "informativo-leganenses",
+          "live": false
+        },
+        {
+          "start": "22:00",
+          "end": "23:00",
+          "show_id": "informativos",
+          "live": false
+        },
+        {
+          "start": "23:00",
+          "end": "00:00",
+          "show_id": "universos-paralelos-onda-verde",
+          "live": false,
+          "crosses_midnight": true
+        }
+      ]
+    },
+    {
+      "day": "saturday",
+      "label": "Sábado",
+      "programs": [
+        {
+          "start": "00:00",
+          "end": "01:00",
+          "show_id": "onda-literaria",
+          "live": false
+        },
+        {
+          "start": "01:00",
+          "end": "07:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "07:00",
+          "end": "08:00",
+          "show_id": "informativos",
+          "live": false
+        },
+        {
+          "start": "08:00",
+          "end": "09:00",
+          "show_id": "informativo-leganenses",
+          "live": false
+        },
+        {
+          "start": "09:00",
+          "end": "11:00",
+          "show_id": "socialmente-saludables-radio-el-candil",
+          "live": false
+        },
+        {
+          "start": "11:00",
+          "end": "12:00",
+          "show_id": "miscelaneas",
+          "live": false
+        },
+        {
+          "start": "12:00",
+          "end": "13:00",
+          "show_id": "sangre-fucsia-agora-sol-radio",
+          "live": false
+        },
+        {
+          "start": "13:00",
+          "end": "14:00",
+          "show_id": "letras-encadenadas",
+          "live": false
+        },
+        {
+          "start": "15:00",
+          "end": "16:00",
+          "show_id": "informativos",
+          "live": false
+        },
+        {
+          "start": "17:00",
+          "end": "18:00",
+          "show_id": "onda-amas",
+          "live": false
+        },
+        {
+          "start": "18:00",
+          "end": "20:00",
+          "show_id": "miscelaneas",
+          "live": false
+        },
+        {
+          "start": "20:00",
+          "end": "21:00",
+          "show_id": "mujeres-con-historia-radio-enlace",
+          "live": false
+        },
+        {
+          "start": "21:00",
+          "end": "22:00",
+          "show_id": "informativo-leganenses",
+          "live": false
+        },
+        {
+          "start": "22:00",
+          "end": "23:00",
+          "show_id": "informativos",
+          "live": false
+        },
+        {
+          "start": "23:00",
+          "end": "00:00",
+          "show_id": "la-hora-de-la-verdad",
+          "live": false,
+          "crosses_midnight": true
+        }
+      ]
+    },
+    {
+      "day": "sunday",
+      "label": "Domingo",
+      "programs": [
+        {
+          "start": "00:00",
+          "end": "03:00",
+          "show_id": "coffee-break-iac",
+          "live": false
+        },
+        {
+          "start": "03:00",
+          "end": "07:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "07:00",
+          "end": "08:00",
+          "show_id": "informativos",
+          "live": false
+        },
+        {
+          "start": "08:00",
+          "end": "09:00",
+          "show_id": "informativo-leganenses",
+          "live": false
+        },
+        {
+          "start": "09:00",
+          "end": "10:00",
+          "show_id": "miscelaneas",
+          "live": false
+        },
+        {
+          "start": "10:00",
+          "end": "11:00",
+          "show_id": "musica-entre-musicas-radio-el-candil",
+          "live": false
+        },
+        {
+          "start": "11:00",
+          "end": "12:00",
+          "show_id": "onda-literaria",
+          "live": false
+        },
+        {
+          "start": "12:00",
+          "end": "13:00",
+          "show_id": "compartiendo",
+          "live": false
+        },
+        {
+          "start": "13:00",
+          "end": "14:00",
+          "show_id": "educomuniquemos",
+          "live": false
+        },
+        {
+          "start": "15:00",
+          "end": "16:00",
+          "show_id": "informativos",
+          "live": false
+        },
+        {
+          "start": "16:00",
+          "end": "17:00",
+          "show_id": "el-salto-radio",
+          "live": false
+        },
+        {
+          "start": "17:00",
+          "end": "19:00",
+          "show_id": "radioficciones",
+          "live": false
+        },
+        {
+          "start": "19:00",
+          "end": "21:00",
+          "show_id": "el-desinformativo-cuac-fm",
+          "live": false
+        },
+        {
+          "start": "21:00",
+          "end": "22:00",
+          "show_id": "informativo-leganenses",
+          "live": false
+        },
+        {
+          "start": "22:00",
+          "end": "23:00",
+          "show_id": "informativos",
+          "live": false
+        },
+        {
+          "start": "23:00",
+          "end": "00:00",
+          "show_id": "la-luna-sale-a-tiempo-radio-klara",
+          "live": false,
+          "crosses_midnight": true
+        }
+      ]
+    }
+  ]
+}
