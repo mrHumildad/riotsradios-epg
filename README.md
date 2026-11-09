@@ -108,7 +108,7 @@ the EPG pipeline needs.
 | `homepage` | Site used by source discovery. |
 | `epg_url` | Exact schedule page or document. |
 | `epg_file` | Published file in `public/EPGs/`, or blank. |
-| `enabled` | `false` keeps the station out of the manifest. |
+| `enabled` | `false` keeps the station out of the manifest. New app stations start here. |
 | `mailto` | Optional contact written into the guide. |
 
 ## Publishing policy
@@ -128,13 +128,38 @@ good guide. Raw snapshots are cache, not source, and stay out of git.
 `.github/workflows/refresh.yml` runs daily at **04:37 UTC** (and on manual
 `workflow_dispatch`):
 
-1. restores the `data/raw` cache;
-2. fetches changed sources with a 20-hour freshness window;
-3. converts and validates the guides;
-4. rebuilds `public/EPGs/manifest.json`;
-5. uploads `data/epg-report.json` as an artifact;
-6. commits changed guides/report;
-7. publishes `public/` to the `gh-pages` branch.
+1. reads the app's `stations.csv` and appends stations above the highest id
+   already in `config/stations.csv` as **disabled** rows;
+2. runs source discovery for those new ids;
+3. restores the `data/raw` cache;
+4. fetches changed sources with a 20-hour freshness window;
+5. converts the guides;
+6. enables a new row only when its conversion report is `ok` and the generated
+   guide has the matching `station_id`;
+7. validates the guides and rebuilds `public/EPGs/manifest.json`;
+8. uploads `data/epg-report.json` as an artifact;
+9. commits the config, discovery sidecar, guides, report and manifest;
+10. publishes `public/` to the `gh-pages` branch.
+
+### Automatic app sync
+
+The daily refresh keeps the EPG catalog in step with the app. The app assigns
+station ids append-only, so the highest id in `config/stations.csv` is the
+high-water mark: older app rows that were deliberately left out (no schedule,
+retired, etc.) are never re-imported. A newly added app station is appended with
+`enabled=false`, an inferred timezone and a blank `epg_url`/`epg_file`. If the
+country has no timezone in the mapping, the row keeps an empty timezone and
+stays disabled until a human sets it.
+
+Discovery then looks for its schedule. If the converter produces a complete
+guide (`status: "ok"`), the workflow writes its filename to `epg_file` and sets
+`enabled=true`; the manifest publishes it on the next run. If no source is found,
+or the extraction is only partial, the row stays disabled and visible in
+`data/epg-report.json` for review. This gate prevents a doubtful discovery from
+shipping a wrong guide automatically.
+
+Set `APP_STATIONS_URL` to point at a fork or a staging catalog. The default is
+the `main` branch of `mrHumildad/riotsradios`.
 
 Enable Pages once in **Settings → Pages → Deploy from a branch**, branch
 `gh-pages`, folder `/ (root)`. The published base is:

@@ -28,7 +28,7 @@ concurrency:
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 90
     steps:
       - uses: actions/checkout@v4
 
@@ -39,6 +39,10 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
+
+      - name: Sync new stations from the app catalog
+        id: sync
+        run: node scripts/sync-app-stations.mjs --write
 
       - name: Install optional renderer
         if: ${{ inputs.render == true }}
@@ -54,15 +58,26 @@ jobs:
           restore-keys: |
             epg-raw-
 
+      - name: Discover sources for new stations
+        if: steps.sync.outputs.added != ''
+        env:
+          ADDED: ${{ steps.sync.outputs.added }}
+        run: python3 scripts/find_epg_urls.py --resume --write --only $ADDED
+
       - name: Fetch sources
         env:
           ONLY: ${{ inputs.only }}
+          ADDED: ${{ steps.sync.outputs.added }}
           FORCE: ${{ inputs.force }}
           RENDER: ${{ inputs.render }}
         run: |
           EXTRA=()
           if [ -n "$ONLY" ]; then
             read -r -a IDS <<< "$ONLY"
+            if [ -n "$ADDED" ]; then
+              read -r -a NEW <<< "$ADDED"
+              IDS+=("${NEW[@]}")
+            fi
             EXTRA+=(--only "${IDS[@]}")
           fi
           if [ "$FORCE" = "true" ]; then
@@ -80,6 +95,12 @@ jobs:
         env:
           OCR_SPACE_API_KEY: ${{ secrets.OCR_SPACE_API_KEY }}
         run: node scripts/convert-raw-epg.mjs
+
+      - name: Apply guides for new stations
+        if: steps.sync.outputs.added != ''
+        env:
+          ADDED: ${{ steps.sync.outputs.added }}
+        run: node scripts/apply-epg-report.mjs --only $ADDED
 
       - name: Validate guides
         run: node scripts/validate-epgs.js
@@ -101,12 +122,12 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add public/EPGs data/epg-report.json
+          git add config/stations.csv data/epg_sources.json public/EPGs data/epg-report.json
           if git diff --cached --quiet; then
             echo "EPG output unchanged"
             exit 0
           fi
-          git commit -m "chore(epg): refresh guides and manifest"
+          git commit -m "chore(epg): sync app stations and refresh guides"
           git push
 
       - name: Publish to gh-pages
