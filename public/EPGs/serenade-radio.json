@@ -5,8 +5,8 @@
   "schedule_type": "weekly",
   "timezone": "Europe/London",
   "last_updated": "2026-11-09",
-  "source": "https://www.serenade-radio.com/monday/",
-  "notes": "Generado automáticamente desde https://www.serenade-radio.com/monday/ (snapshot 2026-11-09); revisar data/epg-report.json.",
+  "source": "https://www.serenade-radio.com/schedule/",
+  "notes": "Generado automáticamente desde https://www.serenade-radio.com/schedule/ (snapshot 2026-11-09); revisar data/epg-report.json.",
   "generator": "scripts/convert-raw-epg.mjs",
   "metadata": {
     "categories": {
