@@ -24,5 +24,6 @@ id,name,countrycode,timezone,homepage,epg_url,epg_file,enabled,mailto
 63,Kmoradio,ES,Europe/Madrid,https://www.km0radio.es/,https://www.km0radio.es/,kmoradio.json,true,km0radio@hotmail.com
 65,Ahijuna,AR,America/Argentina/Buenos_Aires,https://ahijuna.fm/,https://ahijuna.fm/programas/,ahijuna.json,true,radio@ahijuna.fm
 66,Alba Ciudad 96.3 FM,VE,America/Caracas,http://www.albaciudad.org,https://albaciudad.org/nuestros-programas/,alba-ciudad-96-3-fm.json,true,albaciudadfm@gmail.com
+73,Espika FM,UY,America/Montevideo,http://colectivoespika.sejuntalagente.org,https://colectivoespika.sejuntalagente.org/wp-content/uploads/2011/03/EspikaFM-Programacion.jpg,espika-fm.json,true,espikafm@sejuntalagente.org
 100,Mochileros,AR,America/Argentina/Buenos_Aires,https://www.mochilerosradio.com/,https://www.mochilerosradio.com/,mochileros.json,true,radiomochileros@gmial.com
 124,FM La Boca,AR,America/Argentina/Buenos_Aires,https://fmlaboca.com.ar/,https://fmlaboca.com.ar/programacion/,fm-la-boca.json,true,

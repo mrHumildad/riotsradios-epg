@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-11-09T02:23:05.212Z",
+  "generated_at": "2026-11-09T09:26:19.878Z",
   "raw_dir": "data/raw",
   "out_dir": "public/EPGs",
   "html_only": true,
   "summary": {
-    "stations": 26,
-    "ok": 22,
+    "stations": 27,
+    "ok": 23,
     "partial": 2,
     "failed": 2,
     "skipped": 0,
-    "extracted": 1968,
-    "programmes": 1941,
-    "shows": 902,
+    "extracted": 2105,
+    "programmes": 2078,
+    "shows": 929,
     "missingTitles": 2,
     "invalidTimes": 4,
     "duplicates": 21,
-    "gaps": 499,
-    "gapMinutes": 85963,
+    "gaps": 503,
+    "gapMinutes": 86893,
     "overlapsClipped": 29
   },
   "stations": [
@@ -1133,6 +1133,41 @@
         "strategy single-day: 0 programmes / 0 days — only 0 time-coded lines (0 titles)"
       ],
       "suggested_epg_file": "alba-ciudad-96-3-fm.json"
+    },
+    {
+      "id": 73,
+      "name": "Espika FM",
+      "source": "https://colectivoespika.sejuntalagente.org/wp-content/uploads/2011/03/EspikaFM-Programacion.jpg",
+      "format": "image",
+      "status": "ok",
+      "strategy": "ocr-table",
+      "file": "espika-fm.json",
+      "confidence": 0.98,
+      "stats": {
+        "extracted": 137,
+        "kept": 137,
+        "uniqueShows": 27,
+        "missingTitles": 0,
+        "invalidTimes": 0,
+        "duplicates": 0,
+        "overlapsClipped": 0,
+        "gapCount": 4,
+        "gapMinutes": 930,
+        "daysWithPrograms": 7
+      },
+      "warnings": [
+        "OCR_SPACE_API_KEY is not set; using the rate-limited OCR.space demo key",
+        "thursday: 1 gap(s), 60 min (23:00-24:00)",
+        "friday: 1 gap(s), 120 min (22:00-24:00)",
+        "saturday: 1 gap(s), 300 min (19:00-24:00)",
+        "sunday: 1 gap(s), 450 min (16:30-24:00)"
+      ],
+      "errors": [],
+      "diagnostics": [
+        "snapshot latest.jpg (165874 bytes, image)",
+        "OCR.space table: 137 programmes — 7 days, 27 time rows, 137 cells"
+      ],
+      "suggested_epg_file": "espika-fm.json"
     },
     {
       "id": 100,

@@ -43,8 +43,11 @@ of `radio-contrabanda.json` and `radio-topo.json`.
 Partial guides remain in the repository and report but are not published. PDF
 sources are read from their embedded text layer with `pdftotext -bbox-layout`
 (poppler-utils): the weekday header gives the columns, the time labels the
-rows, and each text block becomes a programme. Image-only PDFs and schedule
-images still need OCR.
+rows, and each text block becomes a programme. Image-only PDFs still need a text layer. Schedule images are read with the
+OCR.space table engine (`isTable`, engine 2), whose tab-separated output keeps
+the weekday header and clock rows aligned; the converter turns that into the
+same guide shape and applies the same quality gate. Set `OCR_SPACE_API_KEY`
+for the convert step (the shared demo key is rate-limited and only for tests).
 
 ## Commands
 

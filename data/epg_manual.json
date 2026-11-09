@@ -47,8 +47,8 @@
     "45": {
       "name": "Radio Roja",
       "status": "manual_ocr",
-      "reason": "Only a weekly schedule image (GRILLA-ROJA-2026.jpg); OCR quality is not sufficient yet.",
-      "next": "Run the OCR stage once Tesseract is available, then review the result."
+      "reason": "The 800x566 weekly grid JPEG has no legible weekday header; OCR.space table mode returns no rows.",
+      "next": "Ask the station for a larger grid or transcribe the shows manually."
     },
     "46": {
       "name": "Radio Kvrruf",
@@ -65,8 +65,8 @@
     "52": {
       "name": "Zintzilik Irratia",
       "status": "manual_ocr",
-      "reason": "Schedule is one large image with mixed fonts; OCR is not reliable.",
-      "next": "Transcribe manually or ask the station for the source file."
+      "reason": "The known schedule image URL returns 404 and no replacement image was found on the site.",
+      "next": "Re-check the site for a new schedule image, or ask the station for the source file."
     },
     "57": {
       "name": "Radio Suscal",
@@ -79,12 +79,6 @@
       "status": "manual",
       "reason": "Blogspot page with programme descriptions, not day/time slots.",
       "next": "Email the station for the parrilla."
-    },
-    "73": {
-      "name": "Espika FM",
-      "status": "manual_ocr",
-      "reason": "Only a schedule image (EspikaFM-Programacion.jpg); OCR quality is not sufficient yet.",
-      "next": "Run the OCR stage once Tesseract is available, then review the result."
     },
     "77": {
       "name": "Soul System Radio",
@@ -113,8 +107,8 @@
     "91": {
       "name": "La 5ta Pata",
       "status": "manual_ocr",
-      "reason": "Only a schedule image (Grafico-horario...jpeg); OCR quality is not sufficient yet.",
-      "next": "Run the OCR stage once Tesseract is available, then review the result."
+      "reason": "The weekly grid uses merged cells across clock rows; OCR.space table output shifts cells between days and produces wrong times.",
+      "next": "Transcribe manually or ask the station for a structured schedule."
     },
     "97": {
       "name": "Cholollan Radio",

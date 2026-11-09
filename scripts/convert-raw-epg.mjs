@@ -1907,6 +1907,223 @@ async function convertJsonStation(id, station, outDir, meta, buffer, report, gui
   return report
 }
 
+/**
+ * Schedule images are read with OCR.space's table engine. Local Tesseract was
+ * measured on the same grids and could not separate the day columns reliably;
+ * the table engine returns one tab-separated line per visual row, which keeps
+ * the weekday header and the clock column aligned.
+ */
+async function ocrSpaceText(buffer, meta, apiKey) {
+  const ext = String(meta.ext || 'jpg').toLowerCase()
+  const mime = { png: 'image/png', jpg: 'image/jpeg', jpeg: 'image/jpeg', gif: 'image/gif', webp: 'image/webp' }[ext] || 'image/jpeg'
+  const form = new FormData()
+  form.append('apikey', apiKey)
+  form.append('language', 'spa')
+  form.append('isTable', 'true')
+  form.append('scale', 'true')
+  form.append('OCREngine', '2')
+  form.append('file', new Blob([buffer], { type: mime }), `schedule.${ext}`)
+  const response = await fetch('https://api.ocr.space/parse/image', {
+    method: 'POST',
+    body: form,
+    signal: AbortSignal.timeout(120_000),
+  })
+  if (!response.ok) throw new Error(`HTTP ${response.status} from OCR.space`)
+  const payload = await response.json()
+  const message = Array.isArray(payload.ErrorMessage) ? payload.ErrorMessage.join('; ') : payload.ErrorMessage
+  if (payload.IsErroredOnProcessing || message) throw new Error(message || 'OCR.space rejected the image')
+  const text = (payload.ParsedResults || []).map((result) => result.ParsedText || '').join('\n').trim()
+  if (!text) throw new Error('OCR.space returned no text')
+  return text
+}
+
+function ocrClockMinutes(text) {
+  const match = /(\d{1,2})\s*[:.]\s*(\d{2})/.exec(String(text || ''))
+  if (!match) return null
+  const hours = Number(match[1])
+  const minutes = Number(match[2])
+  return hours < 24 && minutes < 60 ? hours * 60 + minutes : null
+}
+
+function cleanOcrTitle(text) {
+  return String(text || '')
+    .replace(/^[\s|[\]]+|[\s|[\]]+$/g, '')
+    .replace(/\s+/g, ' ')
+    .trim()
+}
+
+function ocrTablePrograms(text) {
+  const lines = String(text || '')
+    .split(/\r?\n/)
+    .map((line) => line.split('\t').map((cell) => cell.trim()))
+
+  let header = null
+  lines.forEach((cells, index) => {
+    const days = []
+    cells.forEach((cell, cellIndex) => {
+      const day = dayFromExact(cell)
+      if (day && !days.some((entry) => entry.day === day)) days.push({ day, index: cellIndex })
+    })
+    if (days.length >= 3 && (!header || days.length > header.days.length)) header = { days, index }
+  })
+  if (!header) return { programs: [], detail: 'no weekday header row' }
+
+  const shift = header.days[0].index === 0 ? 1 : 0
+  const dayAt = (index) => header.days.find((entry) => entry.index === index - shift)?.day || null
+  const rows = []
+  let current = null
+  let skipped = 0
+
+  for (const cells of lines.slice(header.index + 1)) {
+    const startMin = ocrClockMinutes(cells[0])
+    if (startMin !== null) {
+      current = { startMin, cells: new Map() }
+      rows.push(current)
+    }
+    if (!current) continue
+
+    const titles = []
+    cells.forEach((cell, index) => {
+      const day = dayAt(index)
+      const title = cleanOcrTitle(cell)
+      if (!day || !title) return
+      if (ocrClockMinutes(title) !== null || dayFromExact(title)) return
+      if (title.replace(/[^a-z0-9]/gi, '').length < 2) return
+      titles.push({ day, title })
+    })
+
+    if (startMin === null) {
+      // A wrapped title line sits between two clock rows. Only merge it when
+      // OCR kept several columns; a lone fragment has lost its column.
+      if (titles.length < 2) {
+        if (titles.length) skipped += 1
+        continue
+      }
+      for (const { day, title } of titles) {
+        const previous = current.cells.get(day)
+        if (previous) current.cells.set(day, `${previous} ${title}`)
+      }
+      continue
+    }
+
+    for (const { day, title } of titles) {
+      const previous = current.cells.get(day)
+      if (previous !== title) current.cells.set(day, previous ? `${previous} ${title}` : title)
+    }
+  }
+
+  const seen = new Set()
+  const programs = []
+  for (const row of rows) {
+    for (const [day, title] of row.cells) {
+      const key = `${day}|${row.startMin}|${title}`
+      if (seen.has(key)) continue
+      seen.add(key)
+      programs.push({ day, startMin: row.startMin, title })
+    }
+  }
+  const detail = `${header.days.length} days, ${rows.length} time rows, ${programs.length} cells${skipped ? `, ${skipped} wrapped line(s) skipped` : ''}`
+  return { programs, detail }
+}
+
+async function convertImageStation(id, station, outDir, meta, buffer, report, guides, options) {
+  report.format = 'image'
+  report.strategy = 'ocr-table'
+  const apiKey = process.env.OCR_SPACE_API_KEY || 'helloworld'
+  if (!process.env.OCR_SPACE_API_KEY) report.warnings.push('OCR_SPACE_API_KEY is not set; using the rate-limited OCR.space demo key')
+
+  let text
+  try {
+    text = await ocrSpaceText(buffer, meta, apiKey)
+  } catch (error) {
+    report.errors.push(`OCR failed: ${error.message}`)
+    return report
+  }
+
+  const { programs, detail } = ocrTablePrograms(text)
+  report.diagnostics.push(`OCR.space table: ${programs.length} programmes — ${detail}`)
+  if (!programs.length) {
+    report.errors.push('no weekly grid could be read from the schedule image')
+    return report
+  }
+
+  const finalized = finalizePrograms(programs)
+  report.stats = finalized.stats
+  report.warnings.push(...finalized.warnings.slice(0, 80))
+  if (finalized.warnings.length > 80) report.warnings.push(`… ${finalized.warnings.length - 80} more warning(s) in this station`)
+  if (!finalized.days.length || finalized.stats.kept < 3) {
+    report.status = 'failed'
+    report.errors.push(`extraction produced only ${finalized.stats.kept} usable programme(s)`)
+    return report
+  }
+
+  const existing = guides.get(Number(id))
+  const timezoneDiagnostics = []
+  const timezone = timezoneFor(station || {}, existing, timezoneDiagnostics, 'es')
+  report.diagnostics.push(...timezoneDiagnostics)
+
+  // The catalog owns the published name; fall back to a slug for ad-hoc snapshots.
+  const fileName = station?.epg_file || `${slugify(station?.name || meta.name || `station-${id}`)}.json`
+  if (existsSync(join(outDir, fileName))) {
+    try {
+      const current = JSON.parse(await readFile(join(outDir, fileName), 'utf8'))
+      if (!current.generator && !options.force) {
+        report.status = 'skipped'
+        report.file = null
+        report.suggested_epg_file = fileName
+        report.errors.push(`refusing to overwrite the curated guide ${fileName} (use --force)`)
+        return report
+      }
+    } catch {
+      /* unreadable target: overwrite is safe */
+    }
+  }
+
+  const epg = {
+    version: VERSION,
+    station: station?.name || meta.name || `Station ${id}`,
+    station_id: Number(id),
+    schedule_type: 'weekly',
+    timezone,
+    last_updated: String(meta.fetched_at || new Date().toISOString()).slice(0, 10),
+    source: report.source || undefined,
+    contact: station?.mailto || undefined,
+    notes: `Generado automáticamente desde ${report.source || 'la fuente'} (snapshot ${String(meta.fetched_at || '').slice(0, 10)}); revisar data/epg-report.json.`,
+    generator: 'scripts/convert-raw-epg.mjs',
+    metadata: {
+      categories: CATEGORY_LABELS,
+      default_filler: { title: 'Música', category: 'musica' },
+    },
+    shows: finalized.shows,
+    days: finalized.days,
+  }
+  if (!epg.contact) delete epg.contact
+
+  await mkdir(outDir, { recursive: true })
+  await writeFile(join(outDir, fileName), `${JSON.stringify(epg, null, 2)}\n`, 'utf8')
+
+  report.file = fileName
+  report.suggested_epg_file = fileName
+  report.confidence = Math.max(
+    0.1,
+    Math.min(
+      0.98,
+      0.15 + finalized.stats.daysWithPrograms * 0.1 + Math.min(finalized.stats.kept / 60, 0.4) - (finalized.stats.missingTitles + finalized.stats.invalidTimes > 10 ? 0.1 : 0)
+    )
+  )
+
+  const dayNames = new Set(finalized.days.map((day) => day.day))
+  const missingDays = DAY_NAMES.filter((day) => !dayNames.has(day))
+  if (missingDays.length) report.warnings.push(`no programmes extracted for: ${missingDays.join(', ')}`)
+  if (finalized.stats.daysWithPrograms === 1) report.warnings.push('only one day extracted (the source may show only the active day)')
+
+  report.status = finalized.stats.daysWithPrograms >= 3 && finalized.stats.kept >= 8 && finalized.stats.missingTitles + finalized.stats.invalidTimes <= 5
+    ? 'ok'
+    : 'partial'
+  if (report.status === 'partial') report.warnings.push('partial extraction: review the strategy diagnostics before publishing this guide')
+  return report
+}
+
 async function convertPdfStation(id, station, outDir, meta, snapshotPath, report, guides, options) {
   report.format = 'pdf'
   report.strategy = 'pdf-text'
@@ -2090,6 +2307,11 @@ async function convertStation(id, station, rawDir, outDir, guides, options) {
   if (!snapshot) {
     report.errors.push('no latest.* snapshot')
     return report
+  }
+  if (meta.kind === 'image') {
+    const buffer = await readFile(join(dir, snapshot))
+    report.diagnostics.push(`snapshot ${snapshot} (${buffer.length} bytes, image)`)
+    return convertImageStation(id, station, outDir, meta, buffer, report, guides, options)
   }
   if (meta.kind === 'pdf') {
     const buffer = await readFile(join(dir, snapshot))
@@ -2394,6 +2616,7 @@ export {
   nestedColumnsStrategy,
   parseHtml,
   parseLinesForDay,
+  ocrTablePrograms,
   parseNestedDayTable,
   parseStartLine,
   pdfProgramsFromBlocks,

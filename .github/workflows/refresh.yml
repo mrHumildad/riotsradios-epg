@@ -77,6 +77,8 @@ jobs:
         run: sudo apt-get update && sudo apt-get install -y poppler-utils
 
       - name: Convert snapshots
+        env:
+          OCR_SPACE_API_KEY: ${{ secrets.OCR_SPACE_API_KEY }}
         run: node scripts/convert-raw-epg.mjs
 
       - name: Validate guides

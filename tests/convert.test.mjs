@@ -6,6 +6,7 @@ import {
   jsonSchedule,
   parseHtml,
   parseLinesForDay,
+  ocrTablePrograms,
   pdfProgramsFromBlocks,
   showCardStrategy,
   tabsStrategy,
@@ -109,4 +110,48 @@ test('PDF blocks map to day columns and time rows', () => {
     { day: 'monday', startMin: 540, endMin: 570, title: 'NOVE' },
     { day: 'tuesday', startMin: 540, endMin: 570, title: 'EXIT' },
   ])
+})
+
+test('an OCR table maps weekday columns and clock rows', () => {
+  const text = [
+    'Lunes\tmartes\tmiércoles',
+    '00:00\tDistorsionados\tSkachabacha\tSkachabacha',
+    'Al Mundo Le Falta Un',
+    '10:30\tVoces del Cabildo\tVoces del Cabildo\tTornillo',
+  ].join('\n')
+  const { programs, detail } = ocrTablePrograms(text)
+  assert.equal(programs.length, 6)
+  assert.deepEqual(programs[0], { day: 'monday', startMin: 0, title: 'Distorsionados' })
+  assert.deepEqual(programs[3], { day: 'monday', startMin: 630, title: 'Voces del Cabildo' })
+  assert.match(detail, /3 days, 2 time rows/)
+})
+
+test('OCR clock cells tolerate punctuation, dots and trailing text', () => {
+  const text = [
+    'HORA\tLUNES\tMARTES\tMIÉRCOLES',
+    '- 10:00\tUno\tDos\tTres\t10:00',
+    '10.00hs\tCuatro',
+  ].join('\n')
+  const { programs } = ocrTablePrograms(text)
+  assert.equal(programs.length, 4)
+  assert.ok(programs.every((entry) => entry.startMin === 600))
+})
+
+test('OCR wrapped lines merge into the cell above them', () => {
+  const text = [
+    'LUNES\tMARTES\tMIÉRCOLES',
+    '09:30\tINFORMATIVO\tINFORMATIVO\tINFORMATIVO',
+    'FARCO\tFARCO\tFARCO',
+    '11:00\tALTA\tALTA\tALTA',
+  ].join('\n')
+  const { programs } = ocrTablePrograms(text)
+  assert.equal(programs.length, 6)
+  assert.equal(programs[0].title, 'INFORMATIVO FARCO')
+  assert.equal(programs[1].title, 'INFORMATIVO FARCO')
+})
+
+test('an OCR page without a weekday header yields nothing', () => {
+  const { programs, detail } = ocrTablePrograms('10:00\tUno\n11:00\tDos')
+  assert.equal(programs.length, 0)
+  assert.match(detail, /weekday header/)
 })

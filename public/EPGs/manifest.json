@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-09T02:23:14.917Z",
+  "generated_at": "2026-11-09T09:28:37.818Z",
   "stations": {
     "1": {
       "file": "radio-contrabanda.json",
@@ -141,6 +141,13 @@
       "updated": "2026-11-08",
       "days": 7,
       "programs": 27
+    },
+    "73": {
+      "file": "espika-fm.json",
+      "status": "ok",
+      "updated": "2026-11-09",
+      "days": 7,
+      "programs": 137
     },
     "100": {
       "file": "mochileros.json",
