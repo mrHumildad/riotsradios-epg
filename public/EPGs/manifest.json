@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-09T02:13:33.445Z",
+  "generated_at": "2026-11-09T02:23:14.917Z",
   "stations": {
     "1": {
       "file": "radio-contrabanda.json",
@@ -18,10 +18,10 @@
     },
     "3": {
       "file": "ciroma.json",
-      "status": "legacy",
-      "updated": "2023-12-28",
+      "status": "ok",
+      "updated": "2026-11-08",
       "days": 7,
-      "programs": 37
+      "programs": 36
     },
     "4": {
       "file": "eguzki-irratia.json",

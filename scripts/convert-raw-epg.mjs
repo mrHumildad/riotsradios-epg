@@ -26,6 +26,7 @@
  * HTML only for now: PDF/image snapshots are reported as unsupported. The
  * script does not edit config/stations.csv; the report suggests the epg_file value.
  */
+import { spawnSync } from 'node:child_process'
 import { readFile, writeFile, readdir, mkdir } from 'node:fs/promises'
 import { existsSync } from 'node:fs'
 import { join } from 'node:path'
@@ -1693,6 +1694,113 @@ function hermesPrograms(payload) {
   return { programs, detail: `${programs.length} entries${skipped ? `, ${skipped} skipped` : ''}` }
 }
 
+// ---------------------------------------------------------------------------
+// PDF sources: word geometry from `pdftotext -bbox-layout`
+// ---------------------------------------------------------------------------
+
+const PDF_ROW_TOLERANCE = 8
+
+function parsePdfClock(text) {
+  const match = /^(\d{1,2})\s*[:.]\s*(\d{2})$/.exec(String(text || '').trim())
+  if (!match) return null
+  const value = toMinutes(match[1], match[2])
+  return value !== null && value < MINUTES_PER_DAY ? value : null
+}
+
+function dayFromPdfBlock(text) {
+  const token = fold(text).replace(/[^a-z]/g, '')
+  if (!token || token.length > 12) return null
+  return DAY_BY_ALIAS.get(token) || null
+}
+
+/** `pdftotext -bbox-layout` gives one <block> per schedule cell: title + x/y. */
+function pdfLayoutBlocks(path) {
+  const run = spawnSync('pdftotext', ['-bbox-layout', path, '-'], { encoding: 'utf8', maxBuffer: 40_000_000 })
+  if (run.error) return { blocks: [], error: `pdftotext is not available (${run.error.code}); install poppler-utils` }
+  if (run.status !== 0) return { blocks: [], error: `pdftotext failed: ${String(run.stderr || '').trim().slice(0, 120)}` }
+  const dom = parseHtml(run.stdout || '')
+  const blocks = []
+  for (const node of descendants(dom)) {
+    if (node.tag !== 'block') continue
+    const text = plainText(node).replace(/\s+/g, ' ').trim()
+    if (!text) continue
+    const xMin = Number(node.attrs.xmin)
+    const xMax = Number(node.attrs.xmax)
+    const yMin = Number(node.attrs.ymin)
+    if (!Number.isFinite(xMin) || !Number.isFinite(xMax) || !Number.isFinite(yMin)) continue
+    blocks.push({ text, xMin, xMax, xCenter: (xMin + xMax) / 2, yMin })
+  }
+  return { blocks, error: null }
+}
+
+/** Map positioned blocks to a weekly grid: x picks the day, the nearest row above picks the time. */
+function pdfProgramsFromBlocks(blocks) {
+  if (!Array.isArray(blocks) || !blocks.length) return { programs: [], detail: 'no text blocks' }
+
+  // The header is the row with the most weekday names (ignores a show called "Sabato").
+  const headerRows = []
+  for (const block of blocks) {
+    const day = dayFromPdfBlock(block.text)
+    if (!day) continue
+    let row = headerRows.find((entry) => Math.abs(entry.yMin - block.yMin) <= 6)
+    if (!row) headerRows.push((row = { yMin: block.yMin, days: new Map() }))
+    if (!row.days.has(day)) row.days.set(day, block.xCenter)
+  }
+  headerRows.sort((a, b) => b.days.size - a.days.size)
+  const header = headerRows[0]
+  if (!header || header.days.size < 3) return { programs: [], detail: `${header ? header.days.size : 0} day headers` }
+
+  const columns = [...header.days.entries()]
+    .map(([day, xCenter]) => ({ day, xCenter }))
+    .sort((a, b) => a.xCenter - b.xCenter)
+  const centers = columns.map((column) => column.xCenter)
+  const gaps = centers.slice(1).map((center, index) => center - centers[index])
+  const spacing = gaps.length ? gaps.reduce((total, gap) => total + gap, 0) / gaps.length : 100
+
+  const times = blocks
+    .map((block) => ({ ...block, startMin: parsePdfClock(block.text) }))
+    .filter((block) => block.startMin !== null && block.xCenter < centers[0] - spacing * 0.35)
+    .sort((a, b) => a.yMin - b.yMin)
+  if (times.length < 3) return { programs: [], detail: `${times.length} time labels` }
+  // Text below the last time row is a legend/footer, not a programme.
+  const gridBottom = times[times.length - 1].yMin + PDF_ROW_TOLERANCE * 2
+
+  const byKey = new Map()
+  for (const block of blocks) {
+    if (block.yMin > gridBottom) continue
+    if (dayFromPdfBlock(block.text) || parsePdfClock(block.text) !== null) continue
+    let column = null
+    let distance = Infinity
+    for (const candidate of columns) {
+      const current = Math.abs(block.xCenter - candidate.xCenter)
+      if (current < distance) {
+        distance = current
+        column = candidate
+      }
+    }
+    if (!column || distance > spacing * 0.7) continue
+    const slot = times.filter((time) => time.yMin <= block.yMin + PDF_ROW_TOLERANCE).pop()
+    if (!slot) continue
+    const title = cutDescription(tidyCandidate(block.text))
+    if (!isTitle(title)) continue
+    const key = `${column.day}|${slot.startMin}`
+    const previous = byKey.get(key)
+    if (!previous || title.length > previous.title.length) {
+      byKey.set(key, { day: column.day, startMin: slot.startMin, endMin: null, title })
+    }
+  }
+
+  const programs = [...byKey.values()].sort((a, b) => DAY_INDEX.get(a.day) - DAY_INDEX.get(b.day) || a.startMin - b.startMin)
+  for (const program of programs) {
+    const next = programs.find((entry) => entry.day === program.day && entry.startMin > program.startMin)
+    program.endMin = next ? next.startMin : Math.min(program.startMin + 30, MINUTES_PER_DAY)
+  }
+  return {
+    programs,
+    detail: `${columns.length} day columns, ${times.length} time rows, ${programs.length} programmes`,
+  }
+}
+
 /** Pick the JSON adapter by payload shape rather than by station id. */
 function jsonSchedule(payload) {
   if (Array.isArray(payload)) {
@@ -1737,8 +1845,106 @@ async function convertJsonStation(id, station, outDir, meta, buffer, report, gui
   const timezone = timezoneFor(station || {}, existing, timezoneDiagnostics, 'es')
   report.diagnostics.push(...timezoneDiagnostics)
 
-  const base = slugify(station?.name || meta.name || `station-${id}`)
-  let fileName = `${base}.json`
+  // The catalog owns the published name; fall back to a slug for ad-hoc snapshots.
+  const fileName = station?.epg_file || `${slugify(station?.name || meta.name || `station-${id}`)}.json`
+  if (existsSync(join(outDir, fileName))) {
+    try {
+      const current = JSON.parse(await readFile(join(outDir, fileName), 'utf8'))
+      if (!current.generator && !options.force) {
+        report.status = 'skipped'
+        report.file = null
+        report.suggested_epg_file = fileName
+        report.errors.push(`refusing to overwrite the curated guide ${fileName} (use --force)`)
+        return report
+      }
+    } catch {
+      /* unreadable target: overwrite is safe */
+    }
+  }
+
+  const epg = {
+    version: VERSION,
+    station: station?.name || meta.name || `Station ${id}`,
+    station_id: Number(id),
+    schedule_type: 'weekly',
+    timezone,
+    last_updated: String(meta.fetched_at || new Date().toISOString()).slice(0, 10),
+    source: report.source || undefined,
+    contact: station?.mailto || undefined,
+    notes: `Generado automáticamente desde ${report.source || 'la fuente'} (snapshot ${String(meta.fetched_at || '').slice(0, 10)}); revisar data/epg-report.json.`,
+    generator: 'scripts/convert-raw-epg.mjs',
+    metadata: {
+      categories: CATEGORY_LABELS,
+      default_filler: { title: 'Música', category: 'musica' },
+    },
+    shows: finalized.shows,
+    days: finalized.days,
+  }
+  if (!epg.contact) delete epg.contact
+
+  await mkdir(outDir, { recursive: true })
+  await writeFile(join(outDir, fileName), `${JSON.stringify(epg, null, 2)}\n`, 'utf8')
+
+  report.file = fileName
+  report.suggested_epg_file = fileName
+  report.confidence = Math.max(
+    0.1,
+    Math.min(
+      0.98,
+      0.15 + finalized.stats.daysWithPrograms * 0.1 + Math.min(finalized.stats.kept / 60, 0.4) - (finalized.stats.missingTitles + finalized.stats.invalidTimes > 10 ? 0.1 : 0)
+    )
+  )
+
+  const dayNames = new Set(finalized.days.map((day) => day.day))
+  const missingDays = DAY_NAMES.filter((day) => !dayNames.has(day))
+  if (missingDays.length) report.warnings.push(`no programmes extracted for: ${missingDays.join(', ')}`)
+  if (finalized.stats.daysWithPrograms === 1) report.warnings.push('only one day extracted (the source may show only the active day)')
+
+  report.status = finalized.stats.daysWithPrograms >= 3 && finalized.stats.kept >= 8 && finalized.stats.missingTitles + finalized.stats.invalidTimes <= 5
+    ? 'ok'
+    : 'partial'
+  if (report.status === 'partial') report.warnings.push('partial extraction: review the strategy diagnostics before publishing this guide')
+  return report
+}
+
+async function convertPdfStation(id, station, outDir, meta, snapshotPath, report, guides, options) {
+  report.format = 'pdf'
+  report.strategy = 'pdf-text'
+  const { blocks, error } = pdfLayoutBlocks(snapshotPath)
+  if (error) {
+    report.errors.push(error)
+    return report
+  }
+  report.diagnostics.push(`pdf: ${blocks.length} text blocks`)
+  if (blocks.length < 10) {
+    report.errors.push('the PDF has no usable text layer; it needs OCR (see data/epg_manual.json)')
+    return report
+  }
+  const { programs, detail } = pdfProgramsFromBlocks(blocks)
+  report.diagnostics.push(`pdf grid: ${detail}`)
+  if (!programs.length) {
+    report.errors.push('no weekly grid could be read from the PDF text layer')
+    return report
+  }
+
+  const finalized = finalizePrograms(programs)
+  report.stats = finalized.stats
+  report.warnings.push(...finalized.warnings.slice(0, 80))
+  if (finalized.warnings.length > 80) report.warnings.push(`… ${finalized.warnings.length - 80} more warning(s) in this station`)
+  if (!finalized.days.length || finalized.stats.kept < 3) {
+    report.status = 'failed'
+    report.errors.push(`extraction produced only ${finalized.stats.kept} usable programme(s)`)
+    return report
+  }
+
+  const language = stationLanguage(station || {})
+  const existing = guides.get(Number(id))
+  const timezoneDiagnostics = []
+  const timezone = timezoneFor(station || {}, existing, timezoneDiagnostics, language)
+  report.diagnostics.push(...timezoneDiagnostics)
+
+  // The catalog owns the published name; fall back to a slug for ad-hoc snapshots.
+  const fileName = station?.epg_file || `${slugify(station?.name || meta.name || `station-${id}`)}.json`
   if (existsSync(join(outDir, fileName))) {
     try {
       const current = JSON.parse(await readFile(join(outDir, fileName), 'utf8'))
@@ -1885,13 +2091,18 @@ async function convertStation(id, station, rawDir, outDir, guides, options) {
     report.errors.push('no latest.* snapshot')
     return report
   }
+  if (meta.kind === 'pdf') {
+    const buffer = await readFile(join(dir, snapshot))
+    report.diagnostics.push(`snapshot ${snapshot} (${buffer.length} bytes, pdf)`)
+    return convertPdfStation(id, station, outDir, meta, join(dir, snapshot), report, guides, options)
+  }
   if (meta.kind === 'json') {
     const buffer = await readFile(join(dir, snapshot))
     report.diagnostics.push(`snapshot ${snapshot} (${buffer.length} bytes, json)`)
     return convertJsonStation(id, station, outDir, meta, buffer, report, guides, options)
   }
   if (meta.kind !== 'html') {
-    report.errors.push(`unsupported snapshot format "${meta.kind}" (HTML, SAPO or Hermes JSON only for now)`)
+    report.errors.push(`unsupported snapshot format "${meta.kind}" (HTML, PDF or JSON only for now)`)
     report.diagnostics.push(`file ${snapshot}, ${meta.bytes || '?'} bytes`)
     return report
   }
@@ -1969,8 +2180,8 @@ async function convertStation(id, station, rawDir, outDir, guides, options) {
   const timezone = timezoneFor(station || {}, existing, timezoneDiagnostics, language)
   report.diagnostics.push(...timezoneDiagnostics)
 
-  const base = slugify(station?.name || meta.name || `station-${id}`)
-  let fileName = `${base}.json`
+  // The catalog owns the published name; fall back to a slug for ad-hoc snapshots.
+  const fileName = station?.epg_file || `${slugify(station?.name || meta.name || `station-${id}`)}.json`
   if (existsSync(join(outDir, fileName))) {
     try {
       const current = JSON.parse(await readFile(join(outDir, fileName), 'utf8'))
@@ -2185,6 +2396,7 @@ export {
   parseLinesForDay,
   parseNestedDayTable,
   parseStartLine,
+  pdfProgramsFromBlocks,
   plainText,
   sectionsStrategy,
   showCardStrategy,

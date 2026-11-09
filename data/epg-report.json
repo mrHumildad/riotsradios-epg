@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-11-09T02:13:21.668Z",
+  "generated_at": "2026-11-09T02:23:05.212Z",
   "raw_dir": "data/raw",
   "out_dir": "public/EPGs",
   "html_only": true,
   "summary": {
     "stations": 26,
-    "ok": 21,
+    "ok": 22,
     "partial": 2,
-    "failed": 3,
+    "failed": 2,
     "skipped": 0,
-    "extracted": 1932,
-    "programmes": 1905,
-    "shows": 877,
+    "extracted": 1968,
+    "programmes": 1941,
+    "shows": 902,
     "missingTitles": 2,
     "invalidTimes": 4,
     "duplicates": 21,
-    "gaps": 485,
-    "gapMinutes": 80293,
+    "gaps": 499,
+    "gapMinutes": 85963,
     "overlapsClipped": 29
   },
   "stations": [
@@ -112,19 +112,38 @@
       "name": "Radio Ciroma",
       "source": "https://ciroma.org/palinsesto.pdf",
       "format": "pdf",
-      "status": "failed",
-      "strategy": null,
-      "file": null,
-      "confidence": 0,
-      "stats": {},
-      "warnings": [],
-      "errors": [
-        "unsupported snapshot format \"pdf\" (HTML, SAPO or Hermes JSON only for now)"
+      "status": "ok",
+      "strategy": "pdf-text",
+      "file": "ciroma.json",
+      "confidence": 0.98,
+      "stats": {
+        "extracted": 36,
+        "kept": 36,
+        "uniqueShows": 25,
+        "missingTitles": 0,
+        "invalidTimes": 0,
+        "duplicates": 0,
+        "overlapsClipped": 0,
+        "gapCount": 14,
+        "gapMinutes": 5670,
+        "daysWithPrograms": 7
+      },
+      "warnings": [
+        "monday: 2 gap(s), 960 min (00:00-07:00, 15:00-24:00)",
+        "tuesday: 2 gap(s), 690 min (00:00-07:00, 19:30-24:00)",
+        "wednesday: 2 gap(s), 690 min (00:00-07:00, 19:30-24:00)",
+        "thursday: 2 gap(s), 630 min (00:00-07:00, 20:30-24:00)",
+        "friday: 2 gap(s), 690 min (00:00-07:00, 19:30-24:00)",
+        "saturday: 2 gap(s), 900 min (00:00-07:00, 16:00-24:00)",
+        "sunday: 2 gap(s), 1110 min (00:00-07:00, 12:30-24:00)"
       ],
+      "errors": [],
       "diagnostics": [
-        "file latest.pdf, 42944 bytes"
+        "snapshot latest.pdf (42944 bytes, pdf)",
+        "pdf: 84 text blocks",
+        "pdf grid: 7 day columns, 35 time rows, 36 programmes"
       ],
-      "suggested_epg_file": null
+      "suggested_epg_file": "ciroma.json"
     },
     {
       "id": 4,

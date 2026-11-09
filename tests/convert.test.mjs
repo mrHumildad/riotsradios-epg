@@ -6,6 +6,7 @@ import {
   jsonSchedule,
   parseHtml,
   parseLinesForDay,
+  pdfProgramsFromBlocks,
   showCardStrategy,
   tabsStrategy,
 } from '../scripts/convert-raw-epg.mjs'
@@ -68,4 +69,44 @@ test('schedule cards that state their own day and hours', () => {
   assert.equal(programs.length, 4)
   assert.deepEqual(programs.filter((entry) => entry.title === 'Asi es mi tierra').map((entry) => entry.day).sort(), ['monday', 'saturday', 'sunday'])
   assert.deepEqual(programs.find((entry) => entry.title === 'Andar Bien'), { day: 'wednesday', startMin: 1170, endMin: 1230, title: 'Andar Bien' })
+})
+
+test('PDF legend blocks below the grid are ignored', () => {
+  const weekdays = ['lunedi', 'martedi', 'mercoledi', 'giovedi', 'venerdi', 'sabato', 'domenica']
+  const blocks = weekdays.map((text, index) => ({
+    text, xMin: 140 + index * 102, xMax: 160 + index * 102, xCenter: 150 + index * 102, yMin: 32,
+  }))
+  blocks.push({ text: '8:00', xMin: 50, xMax: 70, xCenter: 60, yMin: 50 })
+  blocks.push({ text: '9:00', xMin: 50, xMax: 70, xCenter: 60, yMin: 64 })
+  blocks.push({ text: '10:00', xMin: 50, xMax: 70, xCenter: 60, yMin: 78 })
+  blocks.push({ text: 'ALBA', xMin: 140, xMax: 160, xCenter: 150, yMin: 50 })
+  blocks.push({ text: 'GIALLO = INFORMAZIONE', xMin: 140, xMax: 160, xCenter: 150, yMin: 400 })
+  const { programs } = pdfProgramsFromBlocks(blocks)
+  assert.equal(programs.length, 1)
+  assert.equal(programs[0].title, 'ALBA')
+})
+
+test('PDF blocks map to day columns and time rows', () => {
+  const weekdays = ['lunedi', 'martedi', 'mercoledi', 'giovedi', 'venerdi', 'sabato', 'domenica']
+  const blocks = weekdays.map((text, index) => ({
+    text,
+    xMin: 140 + index * 102,
+    xMax: 160 + index * 102,
+    xCenter: 150 + index * 102,
+    yMin: 32,
+  }))
+  blocks.push({ text: '8:00', xMin: 50, xMax: 70, xCenter: 60, yMin: 50 })
+  blocks.push({ text: '9:00', xMin: 50, xMax: 70, xCenter: 60, yMin: 64 })
+  blocks.push({ text: '10:00', xMin: 50, xMax: 70, xCenter: 60, yMin: 78 })
+  blocks.push({ text: 'ALBA', xMin: 140, xMax: 160, xCenter: 150, yMin: 50 })
+  blocks.push({ text: 'NOVE', xMin: 140, xMax: 160, xCenter: 150, yMin: 64 })
+  blocks.push({ text: 'EXIT', xMin: 240, xMax: 260, xCenter: 250, yMin: 64 })
+
+  const { programs, detail } = pdfProgramsFromBlocks(blocks)
+  assert.match(detail, /7 day columns/)
+  assert.deepEqual(programs, [
+    { day: 'monday', startMin: 480, endMin: 540, title: 'ALBA' },
+    { day: 'monday', startMin: 540, endMin: 570, title: 'NOVE' },
+    { day: 'tuesday', startMin: 540, endMin: 570, title: 'EXIT' },
+  ])
 })

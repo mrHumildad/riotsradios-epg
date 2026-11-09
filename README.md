@@ -38,13 +38,13 @@ policy:
 ```
 
 Generated guides are canonical. `1.json` and `topo.json` were retired in favour
-of `radio-contrabanda.json` and `radio-topo.json`. `ciroma.json` is the only
-legacy guide kept: station 3 publishes a PDF, so there is no generated
-replacement yet; it is marked `status: "legacy"` in the manifest.
+of `radio-contrabanda.json` and `radio-topo.json`.
 
-Partial guides remain in the repository and report but are not published. If a
-source is a PDF or image, the converter reports it as unsupported instead of
-inventing a schedule.
+Partial guides remain in the repository and report but are not published. PDF
+sources are read from their embedded text layer with `pdftotext -bbox-layout`
+(poppler-utils): the weekday header gives the columns, the time labels the
+rows, and each text block becomes a programme. Image-only PDFs and schedule
+images still need OCR.
 
 ## Commands
 

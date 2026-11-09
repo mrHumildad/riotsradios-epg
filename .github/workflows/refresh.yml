@@ -73,6 +73,9 @@ jobs:
           fi
           python3 scripts/fetch_epgs.py --max-age-hours 20 "${EXTRA[@]}"
 
+      - name: Install poppler (PDF text layer)
+        run: sudo apt-get update && sudo apt-get install -y poppler-utils
+
       - name: Convert snapshots
         run: node scripts/convert-raw-epg.mjs
 
