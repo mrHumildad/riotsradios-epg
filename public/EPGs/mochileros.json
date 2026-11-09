@@ -1,0 +1,215 @@
+{
+  "version": "2.0",
+  "station": "Mochileros",
+  "station_id": 100,
+  "schedule_type": "weekly",
+  "timezone": "America/Argentina/Buenos_Aires",
+  "last_updated": "2026-11-09",
+  "source": "https://www.mochilerosradio.com/",
+  "contact": "radiomochileros@gmial.com",
+  "notes": "Generado automáticamente desde https://www.mochilerosradio.com/ (snapshot 2026-11-09); revisar data/epg-report.json.",
+  "generator": "scripts/convert-raw-epg.mjs",
+  "metadata": {
+    "categories": {
+      "musica": "Música",
+      "directo": "Directo",
+      "podcast": "Podcast / repetición",
+      "especial": "Especial",
+      "taller": "Taller / educación"
+    },
+    "default_filler": {
+      "title": "Música",
+      "category": "musica"
+    }
+  },
+  "shows": {
+    "el-desconcierto": {
+      "title": "El Desconcierto",
+      "category": "directo"
+    },
+    "asi-es-mi-tierra": {
+      "title": "Asi es mi tierra",
+      "category": "directo"
+    },
+    "mochileros-radio": {
+      "title": "Mochileros Radio",
+      "category": "directo"
+    },
+    "viejos-vinilos-radio": {
+      "title": "Viejos Vinilos Radio",
+      "category": "directo"
+    },
+    "saber-es-tu-derecho": {
+      "title": "Saber es tu derecho",
+      "category": "directo"
+    },
+    "voces-andantes": {
+      "title": "Voces Andantes",
+      "category": "directo"
+    },
+    "de-pueblos-y-caminates": {
+      "title": "De pueblos y Caminates",
+      "category": "directo"
+    },
+    "andar-bien": {
+      "title": "Andar Bien",
+      "category": "directo"
+    },
+    "el-gran-tuleque": {
+      "title": "El Gran Tuleque",
+      "category": "directo"
+    }
+  },
+  "days": [
+    {
+      "day": "monday",
+      "label": "Lunes",
+      "programs": [
+        {
+          "start": "14:00",
+          "end": "17:00",
+          "show_id": "el-desconcierto",
+          "live": false
+        },
+        {
+          "start": "20:00",
+          "end": "21:00",
+          "show_id": "asi-es-mi-tierra",
+          "live": false
+        },
+        {
+          "start": "21:00",
+          "end": "23:00",
+          "show_id": "mochileros-radio",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "tuesday",
+      "label": "Martes",
+      "programs": [
+        {
+          "start": "19:00",
+          "end": "20:00",
+          "show_id": "viejos-vinilos-radio",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "wednesday",
+      "label": "Miércoles",
+      "programs": [
+        {
+          "start": "06:00",
+          "end": "08:00",
+          "show_id": "saber-es-tu-derecho",
+          "live": false
+        },
+        {
+          "start": "13:00",
+          "end": "14:00",
+          "show_id": "voces-andantes",
+          "live": false
+        },
+        {
+          "start": "16:00",
+          "end": "18:00",
+          "show_id": "de-pueblos-y-caminates",
+          "live": false
+        },
+        {
+          "start": "19:30",
+          "end": "20:30",
+          "show_id": "andar-bien",
+          "live": false
+        },
+        {
+          "start": "21:00",
+          "end": "22:00",
+          "show_id": "voces-andantes",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "thursday",
+      "label": "Jueves",
+      "programs": [
+        {
+          "start": "19:00",
+          "end": "20:00",
+          "show_id": "el-gran-tuleque",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "friday",
+      "label": "Viernes",
+      "programs": [
+        {
+          "start": "21:00",
+          "end": "23:00",
+          "show_id": "mochileros-radio",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "saturday",
+      "label": "Sábado",
+      "programs": [
+        {
+          "start": "20:00",
+          "end": "21:00",
+          "show_id": "asi-es-mi-tierra",
+          "live": false
+        },
+        {
+          "start": "21:00",
+          "end": "23:00",
+          "show_id": "mochileros-radio",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "sunday",
+      "label": "Domingo",
+      "programs": [
+        {
+          "start": "06:00",
+          "end": "08:00",
+          "show_id": "saber-es-tu-derecho",
+          "live": false
+        },
+        {
+          "start": "13:00",
+          "end": "14:00",
+          "show_id": "voces-andantes",
+          "live": false
+        },
+        {
+          "start": "14:00",
+          "end": "17:00",
+          "show_id": "el-desconcierto",
+          "live": false
+        },
+        {
+          "start": "20:00",
+          "end": "21:00",
+          "show_id": "asi-es-mi-tierra",
+          "live": false
+        },
+        {
+          "start": "21:00",
+          "end": "24:00",
+          "show_id": "el-desconcierto",
+          "live": false
+        }
+      ]
+    }
+  ]
+}

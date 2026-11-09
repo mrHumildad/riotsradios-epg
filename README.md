@@ -62,7 +62,24 @@ npm test                                           # config + manifest tests
 Hubs that publish one page per weekday (Fujiko-style) are recorded in the
 sidecar's `day_pages` map. Fetch stores those pages under
 `data/raw/<id>/days/`; convert scores the combined week as a `day-pages`
-candidate.
+candidate. Calendar-style day tabs ("Lun 09.11.2026") and day panels whose
+rows are a bare clock followed by a title are handled by the `tabs`
+strategy.
+
+Non-HTML sources are supported when the provider exposes a stable feed:
+
+- **Hermes JSON** (FM La Tribu): `.../schedules/<id>/entries` returns
+  `dayOfWeek` (1 = Monday), decimal `hourStart`/`hourEnd` and
+  `activity.name`. The converter detects the payload shape and maps it
+  directly.
+- **Schedule cards** (Mochileros): items that state their own days and hours
+  ("Martes 20hs.", "20 a 21hs.", "Domingo de 14 a 17hs") become one
+  programme per day. Wrapper cards are ignored so days are not mixed up.
+
+`data/epg_manual.json` records the stations that cannot be crawled, with the
+reason and the next action (manual, OCR, robots-blocked, no source). Their
+`data/epg_sources.json` entries are `locked: true`, so weekly discovery skips
+them instead of probing them again.
 
 Discovery records an `action` per station in `data/epg_sources.json`:
 `add_source`, `review_partial`, `ocr_or_manual`, `render_or_manual`,

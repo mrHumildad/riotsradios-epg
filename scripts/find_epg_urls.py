@@ -125,6 +125,12 @@ def day_from_text(text: str):
     for index, names in enumerate(DAYS):
         if value in names:
             return DAY_NAMES[index]
+    # Calendar tabs carry the date too: "Lun 09.11.2026", "Montag, 10.11."
+    head = re.split(r"[\s,]+", value)[0] if value else ""
+    if head and re.match(r"^%s\s*,?\s*\d" % re.escape(head), value):
+        for index, names in enumerate(DAYS):
+            if head in names:
+                return DAY_NAMES[index]
     return None
 
 
@@ -136,7 +142,8 @@ def day_page_links(base, p):
         if not day:
             continue
         url = clean_url(base, href)
-        if url:
+        # A fragment-only day tab (#2026-11-09) is the same page, not a day URL.
+        if url and url != base:
             found.setdefault(day, url)
     return found if len(found) >= 3 else {}
 

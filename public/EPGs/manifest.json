@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-08T23:22:57.166Z",
+  "generated_at": "2026-11-09T02:13:33.445Z",
   "stations": {
     "1": {
       "file": "radio-contrabanda.json",
@@ -43,6 +43,13 @@
       "updated": "2026-11-08",
       "days": 7,
       "programs": 23
+    },
+    "7": {
+      "file": "fm-la-tribu.json",
+      "status": "ok",
+      "updated": "2026-11-09",
+      "days": 7,
+      "programs": 76
     },
     "10": {
       "file": "radio-pica.json",
@@ -114,6 +121,13 @@
       "days": 7,
       "programs": 79
     },
+    "63": {
+      "file": "kmoradio.json",
+      "status": "ok",
+      "updated": "2026-11-09",
+      "days": 7,
+      "programs": 26
+    },
     "65": {
       "file": "ahijuna.json",
       "status": "ok",
@@ -127,6 +141,13 @@
       "updated": "2026-11-08",
       "days": 7,
       "programs": 27
+    },
+    "100": {
+      "file": "mochileros.json",
+      "status": "ok",
+      "updated": "2026-11-09",
+      "days": 7,
+      "programs": 18
     },
     "124": {
       "file": "fm-la-boca.json",

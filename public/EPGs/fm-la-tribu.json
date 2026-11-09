@@ -1,0 +1,734 @@
+{
+  "version": "2.0",
+  "station": "FM La Tribu",
+  "station_id": 7,
+  "schedule_type": "weekly",
+  "timezone": "America/Argentina/Buenos_Aires",
+  "last_updated": "2026-11-09",
+  "source": "https://hermes-scheduler-sys.zeclogiccloud.com.de/public/sites/fmlatribu.com/schedules/5/entries",
+  "notes": "Generado automáticamente desde https://hermes-scheduler-sys.zeclogiccloud.com.de/public/sites/fmlatribu.com/schedules/5/entries (snapshot 2026-11-09); revisar data/epg-report.json.",
+  "generator": "scripts/convert-raw-epg.mjs",
+  "metadata": {
+    "categories": {
+      "musica": "Música",
+      "directo": "Directo",
+      "podcast": "Podcast / repetición",
+      "especial": "Especial",
+      "taller": "Taller / educación"
+    },
+    "default_filler": {
+      "title": "Música",
+      "category": "musica"
+    }
+  },
+  "shows": {
+    "revuelto-de-radio": {
+      "title": "Revuelto de Radio",
+      "category": "directo"
+    },
+    "onda-corta": {
+      "title": "Onda Corta",
+      "category": "directo"
+    },
+    "buen-dia-fin-del-mundo": {
+      "title": "Buen día, fin del mundo",
+      "category": "directo"
+    },
+    "esto-y-lo-otro": {
+      "title": "Esto y lo otro",
+      "category": "directo"
+    },
+    "eso-que-falta": {
+      "title": "Eso que Falta",
+      "category": "directo"
+    },
+    "viajeres-del-eter": {
+      "title": "Viajeres del Eter",
+      "category": "directo"
+    },
+    "pasadas-por-alto": {
+      "title": "Pasadas por Alto",
+      "category": "directo"
+    },
+    "algo-con-erre": {
+      "title": "Algo con eRRe",
+      "category": "directo"
+    },
+    "carnaval-de-radio": {
+      "title": "Carnaval de Radio",
+      "category": "directo"
+    },
+    "temporada-de-koalas": {
+      "title": "Temporada de Koalas",
+      "category": "directo"
+    },
+    "hora-quemada": {
+      "title": "Hora Quemada",
+      "category": "directo"
+    },
+    "cenizas": {
+      "title": "Cenizas",
+      "category": "directo"
+    },
+    "recalculando": {
+      "title": "Recalculando",
+      "category": "directo"
+    },
+    "charco-de-arena": {
+      "title": "Charco de Arena",
+      "category": "directo"
+    },
+    "argentina-produce": {
+      "title": "Argentina Produce",
+      "category": "directo"
+    },
+    "deja-vu-match": {
+      "title": "Deja Vú Match",
+      "category": "directo"
+    },
+    "pica-la-etiqueta": {
+      "title": "Pica la Etiqueta",
+      "category": "directo"
+    },
+    "a-que-vinimos": {
+      "title": "A qué vinimos",
+      "category": "directo"
+    },
+    "los-locos-de-buenos-aires": {
+      "title": "Los Locos de Buenos Aires",
+      "category": "directo"
+    },
+    "bajo-el-volcan": {
+      "title": "Bajo el Volcán",
+      "category": "directo"
+    },
+    "revancha-random": {
+      "title": "Revancha Random",
+      "category": "directo"
+    },
+    "cosas-lindas": {
+      "title": "Cosas Lindas",
+      "category": "directo"
+    },
+    "el-peso-del-rocio": {
+      "title": "El Peso del Rocío",
+      "category": "directo"
+    },
+    "discos-y-libros-de-jazz": {
+      "title": "Discos y Libros de Jazz",
+      "category": "directo"
+    },
+    "bancame-hasta-manana": {
+      "title": "Bancame hasta mañana",
+      "category": "directo"
+    },
+    "crisis-en-el-aire": {
+      "title": "Crisis en el Aire",
+      "category": "directo"
+    },
+    "hacedoras": {
+      "title": "Hacedoras",
+      "category": "directo"
+    },
+    "haciendo-cosas-raras": {
+      "title": "Haciendo Cosas Raras",
+      "category": "directo"
+    },
+    "segunda-mano": {
+      "title": "Segunda Mano",
+      "category": "directo"
+    },
+    "va-de-retro": {
+      "title": "Va de Retro",
+      "category": "directo"
+    },
+    "la-otra-oreja": {
+      "title": "La Otra Oreja",
+      "category": "directo"
+    },
+    "por-el-mismo-camino": {
+      "title": "Por el Mismo Camino",
+      "category": "directo"
+    },
+    "nunca-fuiste-al-cine": {
+      "title": "Nunca fuiste al cine",
+      "category": "directo"
+    },
+    "fmi-fuimos-muy-ingenues": {
+      "title": "FMI (Fuimos muy ingenues)",
+      "category": "directo"
+    },
+    "patologias-culturales": {
+      "title": "Patologías Culturales",
+      "category": "directo"
+    },
+    "que-fiaca-conocer-gente": {
+      "title": "Que Fiaca Conocer Gente",
+      "category": "directo"
+    },
+    "estacion-beligerante": {
+      "title": "Estación Beligerante",
+      "category": "directo"
+    },
+    "cinta": {
+      "title": "Cinta",
+      "category": "directo"
+    },
+    "bola-sin-manija": {
+      "title": "Bola sin Manija",
+      "category": "directo"
+    },
+    "gambeteando-el-algoritmo": {
+      "title": "Gambeteando el Algoritmo",
+      "category": "directo"
+    },
+    "oral-y-publico": {
+      "title": "Oral y Público",
+      "category": "directo"
+    },
+    "resumen-latinoamericano": {
+      "title": "Resumen Latinoamericano",
+      "category": "directo"
+    },
+    "mundo-hormiga": {
+      "title": "Mundo Hormiga",
+      "category": "directo"
+    },
+    "radio-tacatun": {
+      "title": "Radio Tacatún",
+      "category": "directo"
+    },
+    "territorialidades": {
+      "title": "Territorialidades",
+      "category": "directo"
+    },
+    "raices": {
+      "title": "Raíces",
+      "category": "directo"
+    },
+    "cuentas-y-cuentos": {
+      "title": "Cuentas y Cuentos",
+      "category": "directo"
+    },
+    "almagro-obrero": {
+      "title": "Almagro Obrero",
+      "category": "directo"
+    },
+    "compania-tirabombones-senorita-rosita": {
+      "title": "Compañía Tirabombones Señorita Rosita",
+      "category": "directo"
+    },
+    "el-cuartito-de-bogado": {
+      "title": "El Cuartito de Bogado",
+      "category": "directo"
+    },
+    "radio-rebelde": {
+      "title": "Radio Rebelde",
+      "category": "directo"
+    },
+    "putx-el-que-lee": {
+      "title": "Putx el que lee",
+      "category": "directo"
+    }
+  },
+  "days": [
+    {
+      "day": "monday",
+      "label": "Lunes",
+      "programs": [
+        {
+          "start": "01:00",
+          "end": "03:00",
+          "show_id": "revuelto-de-radio",
+          "live": false
+        },
+        {
+          "start": "08:00",
+          "end": "09:00",
+          "show_id": "onda-corta",
+          "live": false
+        },
+        {
+          "start": "09:00",
+          "end": "12:00",
+          "show_id": "buen-dia-fin-del-mundo",
+          "live": false
+        },
+        {
+          "start": "12:00",
+          "end": "14:00",
+          "show_id": "esto-y-lo-otro",
+          "live": false
+        },
+        {
+          "start": "14:00",
+          "end": "16:00",
+          "show_id": "eso-que-falta",
+          "live": false
+        },
+        {
+          "start": "17:00",
+          "end": "18:00",
+          "show_id": "viajeres-del-eter",
+          "live": false
+        },
+        {
+          "start": "18:00",
+          "end": "19:00",
+          "show_id": "pasadas-por-alto",
+          "live": false
+        },
+        {
+          "start": "19:00",
+          "end": "20:00",
+          "show_id": "algo-con-erre",
+          "live": false
+        },
+        {
+          "start": "20:00",
+          "end": "21:00",
+          "show_id": "carnaval-de-radio",
+          "live": false
+        },
+        {
+          "start": "21:00",
+          "end": "23:00",
+          "show_id": "temporada-de-koalas",
+          "live": false
+        },
+        {
+          "start": "23:00",
+          "end": "24:00",
+          "show_id": "hora-quemada",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "tuesday",
+      "label": "Martes",
+      "programs": [
+        {
+          "start": "00:00",
+          "end": "01:00",
+          "show_id": "cenizas",
+          "live": false
+        },
+        {
+          "start": "08:00",
+          "end": "09:00",
+          "show_id": "onda-corta",
+          "live": false
+        },
+        {
+          "start": "09:00",
+          "end": "12:00",
+          "show_id": "buen-dia-fin-del-mundo",
+          "live": false
+        },
+        {
+          "start": "12:00",
+          "end": "14:00",
+          "show_id": "esto-y-lo-otro",
+          "live": false
+        },
+        {
+          "start": "14:00",
+          "end": "16:00",
+          "show_id": "recalculando",
+          "live": false
+        },
+        {
+          "start": "16:00",
+          "end": "18:00",
+          "show_id": "charco-de-arena",
+          "live": false
+        },
+        {
+          "start": "18:00",
+          "end": "19:00",
+          "show_id": "argentina-produce",
+          "live": false
+        },
+        {
+          "start": "19:00",
+          "end": "20:00",
+          "show_id": "algo-con-erre",
+          "live": false
+        },
+        {
+          "start": "20:00",
+          "end": "21:00",
+          "show_id": "deja-vu-match",
+          "live": false
+        },
+        {
+          "start": "21:00",
+          "end": "23:00",
+          "show_id": "pica-la-etiqueta",
+          "live": false
+        },
+        {
+          "start": "23:00",
+          "end": "24:00",
+          "show_id": "hora-quemada",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "wednesday",
+      "label": "Miércoles",
+      "programs": [
+        {
+          "start": "00:00",
+          "end": "01:00",
+          "show_id": "cenizas",
+          "live": false
+        },
+        {
+          "start": "08:00",
+          "end": "09:00",
+          "show_id": "onda-corta",
+          "live": false
+        },
+        {
+          "start": "09:00",
+          "end": "12:00",
+          "show_id": "buen-dia-fin-del-mundo",
+          "live": false
+        },
+        {
+          "start": "12:00",
+          "end": "14:00",
+          "show_id": "esto-y-lo-otro",
+          "live": false
+        },
+        {
+          "start": "14:00",
+          "end": "16:00",
+          "show_id": "a-que-vinimos",
+          "live": false
+        },
+        {
+          "start": "17:00",
+          "end": "19:00",
+          "show_id": "los-locos-de-buenos-aires",
+          "live": false
+        },
+        {
+          "start": "19:00",
+          "end": "20:00",
+          "show_id": "algo-con-erre",
+          "live": false
+        },
+        {
+          "start": "20:00",
+          "end": "21:00",
+          "show_id": "bajo-el-volcan",
+          "live": false
+        },
+        {
+          "start": "21:00",
+          "end": "23:00",
+          "show_id": "revancha-random",
+          "live": false
+        },
+        {
+          "start": "23:00",
+          "end": "24:00",
+          "show_id": "hora-quemada",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "thursday",
+      "label": "Jueves",
+      "programs": [
+        {
+          "start": "00:00",
+          "end": "01:00",
+          "show_id": "cenizas",
+          "live": false
+        },
+        {
+          "start": "08:00",
+          "end": "09:00",
+          "show_id": "onda-corta",
+          "live": false
+        },
+        {
+          "start": "09:00",
+          "end": "12:00",
+          "show_id": "buen-dia-fin-del-mundo",
+          "live": false
+        },
+        {
+          "start": "12:00",
+          "end": "14:00",
+          "show_id": "esto-y-lo-otro",
+          "live": false
+        },
+        {
+          "start": "14:00",
+          "end": "16:00",
+          "show_id": "cosas-lindas",
+          "live": false
+        },
+        {
+          "start": "17:00",
+          "end": "18:00",
+          "show_id": "el-peso-del-rocio",
+          "live": false
+        },
+        {
+          "start": "19:00",
+          "end": "20:00",
+          "show_id": "algo-con-erre",
+          "live": false
+        },
+        {
+          "start": "20:00",
+          "end": "21:00",
+          "show_id": "discos-y-libros-de-jazz",
+          "live": false
+        },
+        {
+          "start": "21:00",
+          "end": "23:00",
+          "show_id": "bancame-hasta-manana",
+          "live": false
+        },
+        {
+          "start": "23:00",
+          "end": "24:00",
+          "show_id": "hora-quemada",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "friday",
+      "label": "Viernes",
+      "programs": [
+        {
+          "start": "00:00",
+          "end": "01:00",
+          "show_id": "cenizas",
+          "live": false
+        },
+        {
+          "start": "08:00",
+          "end": "09:00",
+          "show_id": "onda-corta",
+          "live": false
+        },
+        {
+          "start": "09:00",
+          "end": "12:00",
+          "show_id": "buen-dia-fin-del-mundo",
+          "live": false
+        },
+        {
+          "start": "12:00",
+          "end": "14:00",
+          "show_id": "esto-y-lo-otro",
+          "live": false
+        },
+        {
+          "start": "14:00",
+          "end": "16:00",
+          "show_id": "crisis-en-el-aire",
+          "live": false
+        },
+        {
+          "start": "17:00",
+          "end": "18:00",
+          "show_id": "hacedoras",
+          "live": false
+        },
+        {
+          "start": "18:00",
+          "end": "19:00",
+          "show_id": "haciendo-cosas-raras",
+          "live": false
+        },
+        {
+          "start": "19:00",
+          "end": "20:00",
+          "show_id": "algo-con-erre",
+          "live": false
+        },
+        {
+          "start": "20:00",
+          "end": "21:00",
+          "show_id": "segunda-mano",
+          "live": false
+        },
+        {
+          "start": "21:00",
+          "end": "23:00",
+          "show_id": "va-de-retro",
+          "live": false
+        },
+        {
+          "start": "23:00",
+          "end": "24:00",
+          "show_id": "hora-quemada",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "saturday",
+      "label": "Sábado",
+      "programs": [
+        {
+          "start": "00:00",
+          "end": "01:00",
+          "show_id": "cenizas",
+          "live": false
+        },
+        {
+          "start": "08:00",
+          "end": "09:00",
+          "show_id": "la-otra-oreja",
+          "live": false
+        },
+        {
+          "start": "09:00",
+          "end": "12:00",
+          "show_id": "por-el-mismo-camino",
+          "live": false
+        },
+        {
+          "start": "14:00",
+          "end": "16:00",
+          "show_id": "nunca-fuiste-al-cine",
+          "live": false
+        },
+        {
+          "start": "16:00",
+          "end": "18:00",
+          "show_id": "fmi-fuimos-muy-ingenues",
+          "live": false
+        },
+        {
+          "start": "18:00",
+          "end": "20:00",
+          "show_id": "patologias-culturales",
+          "live": false
+        },
+        {
+          "start": "20:00",
+          "end": "21:00",
+          "show_id": "que-fiaca-conocer-gente",
+          "live": false
+        },
+        {
+          "start": "21:00",
+          "end": "23:00",
+          "show_id": "estacion-beligerante",
+          "live": false
+        },
+        {
+          "start": "23:00",
+          "end": "24:00",
+          "show_id": "cinta",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "sunday",
+      "label": "Domingo",
+      "programs": [
+        {
+          "start": "00:00",
+          "end": "01:00",
+          "show_id": "bola-sin-manija",
+          "live": false
+        },
+        {
+          "start": "01:00",
+          "end": "02:00",
+          "show_id": "gambeteando-el-algoritmo",
+          "live": false
+        },
+        {
+          "start": "08:00",
+          "end": "09:00",
+          "show_id": "oral-y-publico",
+          "live": false
+        },
+        {
+          "start": "09:00",
+          "end": "11:00",
+          "show_id": "resumen-latinoamericano",
+          "live": false
+        },
+        {
+          "start": "11:00",
+          "end": "12:00",
+          "show_id": "mundo-hormiga",
+          "live": false
+        },
+        {
+          "start": "12:00",
+          "end": "13:00",
+          "show_id": "radio-tacatun",
+          "live": false
+        },
+        {
+          "start": "13:00",
+          "end": "15:00",
+          "show_id": "territorialidades",
+          "live": false
+        },
+        {
+          "start": "15:00",
+          "end": "16:00",
+          "show_id": "raices",
+          "live": false
+        },
+        {
+          "start": "16:00",
+          "end": "18:00",
+          "show_id": "cuentas-y-cuentos",
+          "live": false
+        },
+        {
+          "start": "18:00",
+          "end": "19:00",
+          "show_id": "almagro-obrero",
+          "live": false
+        },
+        {
+          "start": "19:00",
+          "end": "20:00",
+          "show_id": "compania-tirabombones-senorita-rosita",
+          "live": false
+        },
+        {
+          "start": "20:00",
+          "end": "21:00",
+          "show_id": "el-cuartito-de-bogado",
+          "live": false
+        },
+        {
+          "start": "21:00",
+          "end": "22:00",
+          "show_id": "radio-rebelde",
+          "live": false
+        },
+        {
+          "start": "22:00",
+          "end": "23:00",
+          "show_id": "putx-el-que-lee",
+          "live": false
+        }
+      ]
+    }
+  ]
+}

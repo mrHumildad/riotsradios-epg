@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-11-08T23:22:57.058Z",
+  "generated_at": "2026-11-09T02:13:21.668Z",
   "raw_dir": "data/raw",
   "out_dir": "public/EPGs",
   "html_only": true,
   "summary": {
-    "stations": 22,
-    "ok": 18,
+    "stations": 26,
+    "ok": 21,
     "partial": 2,
-    "failed": 2,
+    "failed": 3,
     "skipped": 0,
-    "extracted": 1802,
-    "programmes": 1784,
-    "shows": 799,
-    "missingTitles": 0,
+    "extracted": 1932,
+    "programmes": 1905,
+    "shows": 877,
+    "missingTitles": 2,
     "invalidTimes": 4,
-    "duplicates": 14,
-    "gaps": 434,
-    "gapMinutes": 62977,
-    "overlapsClipped": 30
+    "duplicates": 21,
+    "gaps": 485,
+    "gapMinutes": 80293,
+    "overlapsClipped": 29
   },
   "stations": [
     {
@@ -52,8 +52,9 @@
         "strategy hour-rail: 0 programmes / 0 days — no hour-rail column layout",
         "strategy tabs: 0 programmes / 0 days — 7 day tabs, no matching 7-panel container",
         "strategy columns: 178 programmes / 7 days — 7 day columns",
-        "strategy sections: 0 programmes / 0 days — 7 day headings but no programmes under them",
+        "strategy sections: 156 programmes / 7 days — 7 day headings",
         "strategy item-list: 25 programmes / 1 days — 26 item children",
+        "strategy show-cards: 0 programmes / 0 days — no day+hours schedule cards",
         "strategy day-ranges: 0 programmes / 0 days — no day+range lines",
         "strategy linear: 0 programmes / 0 days — linear text, 0 day headings",
         "strategy single-day: 0 programmes / 0 days — only 1 time-coded lines (1 titles)"
@@ -97,8 +98,9 @@
         "strategy hour-rail: 0 programmes / 0 days — no hour-rail column layout",
         "strategy tabs: 0 programmes / 0 days — 0 day labels",
         "strategy columns: 0 programmes / 0 days — 0 day columns",
-        "strategy sections: 0 programmes / 0 days — 5 day headings but no programmes under them",
+        "strategy sections: 35 programmes / 5 days — 5 day headings",
         "strategy item-list: 0 programmes / 0 days — no item list",
+        "strategy show-cards: 0 programmes / 0 days — no day+hours schedule cards",
         "strategy day-ranges: 0 programmes / 0 days — no day+range lines",
         "strategy linear: 120 programmes / 5 days — linear text, 5 day headings",
         "strategy single-day: 120 programmes / 1 days — single day assumed sunday (120 entries)"
@@ -117,7 +119,7 @@
       "stats": {},
       "warnings": [],
       "errors": [
-        "unsupported snapshot format \"pdf\" (HTML or SAPO JSON only for now)"
+        "unsupported snapshot format \"pdf\" (HTML, SAPO or Hermes JSON only for now)"
       ],
       "diagnostics": [
         "file latest.pdf, 42944 bytes"
@@ -166,6 +168,7 @@
         "strategy columns: 0 programmes / 0 days — 1 day columns",
         "strategy sections: 0 programmes / 0 days — 7 day headings but no programmes under them",
         "strategy item-list: 62 programmes / 1 days — 7 item children",
+        "strategy show-cards: 0 programmes / 0 days — no day+hours schedule cards",
         "strategy day-ranges: 0 programmes / 0 days — no day+range lines",
         "strategy linear: 0 programmes / 0 days — linear text, 0 day headings",
         "strategy single-day: 0 programmes / 0 days — only 0 time-coded lines (0 titles)"
@@ -212,6 +215,7 @@
         "strategy columns: 0 programmes / 0 days — 0 day columns",
         "strategy sections: 0 programmes / 0 days — 14 day headings but no programmes under them",
         "strategy item-list: 0 programmes / 0 days — no item list",
+        "strategy show-cards: 0 programmes / 0 days — no day+hours schedule cards",
         "strategy day-ranges: 0 programmes / 0 days — no day+range lines",
         "strategy linear: 1 programmes / 1 days — linear text, 1 day headings",
         "strategy single-day: 0 programmes / 0 days — only 1 time-coded lines (1 titles)",
@@ -260,6 +264,7 @@
         "strategy columns: 0 programmes / 0 days — 0 columns but only 0 blocks",
         "strategy sections: 24 programmes / 7 days — 15 day headings",
         "strategy item-list: 24 programmes / 1 days — 8 item children",
+        "strategy show-cards: 0 programmes / 0 days — no day+hours schedule cards",
         "strategy day-ranges: 0 programmes / 0 days — no day+range lines",
         "strategy linear: 5 programmes / 5 days — linear text, 5 day headings",
         "strategy single-day: 0 programmes / 0 days — only 0 time-coded lines (0 titles)"
@@ -267,45 +272,84 @@
       "suggested_epg_file": "radio-bip.json"
     },
     {
+      "id": 7,
+      "name": "FM La Tribu",
+      "source": "https://hermes-scheduler-sys.zeclogiccloud.com.de/public/sites/fmlatribu.com/schedules/5/entries",
+      "format": "json-api",
+      "status": "ok",
+      "strategy": "hermes-json",
+      "file": "fm-la-tribu.json",
+      "confidence": 0.98,
+      "stats": {
+        "extracted": 76,
+        "kept": 76,
+        "uniqueShows": 52,
+        "missingTitles": 0,
+        "invalidTimes": 0,
+        "duplicates": 0,
+        "overlapsClipped": 0,
+        "gapCount": 15,
+        "gapMinutes": 3300,
+        "daysWithPrograms": 7
+      },
+      "warnings": [
+        "monday: 3 gap(s), 420 min (00:00-01:00, 03:00-08:00, 16:00-17:00)",
+        "tuesday: 1 gap(s), 420 min (01:00-08:00)",
+        "wednesday: 2 gap(s), 480 min (01:00-08:00, 16:00-17:00)",
+        "thursday: 3 gap(s), 540 min (01:00-08:00, 16:00-17:00, 18:00-19:00)",
+        "friday: 2 gap(s), 480 min (01:00-08:00, 16:00-17:00)",
+        "saturday: 2 gap(s), 540 min (01:00-08:00, 12:00-14:00)",
+        "sunday: 2 gap(s), 420 min (02:00-08:00, 23:00-24:00)"
+      ],
+      "errors": [],
+      "diagnostics": [
+        "snapshot latest.json (17204 bytes, json)",
+        "hermes schedule: 76 programmes — 76 entries"
+      ],
+      "suggested_epg_file": "fm-la-tribu.json"
+    },
+    {
       "id": 8,
       "name": "Radiofabrik",
-      "source": "https://radiofabrik.at/programm/sendungen/",
+      "source": "https://radiofabrik.at/programm/tagesprogramm/",
       "format": "html",
       "status": "partial",
       "strategy": "item-list",
       "file": "radiofabrik.json",
       "confidence": 0.6,
       "stats": {
-        "extracted": 21,
+        "extracted": 22,
         "kept": 21,
-        "uniqueShows": 18,
+        "uniqueShows": 19,
         "missingTitles": 0,
         "invalidTimes": 0,
-        "duplicates": 0,
-        "overlapsClipped": 1,
-        "gapCount": 0,
-        "gapMinutes": 0,
+        "duplicates": 1,
+        "overlapsClipped": 0,
+        "gapCount": 1,
+        "gapMinutes": 246,
         "daysWithPrograms": 1
       },
       "warnings": [
-        "sunday 01:00: overlap clipped at 01:06 (\"Radiofabrik von\")",
-        "no programmes extracted for: monday, tuesday, wednesday, thursday, friday, saturday",
+        "monday 01:00: duplicate start (kept \"Radiofabrik von\", dropped \"Radiofabrik von\")",
+        "monday: 1 gap(s), 246 min (02:00-06:06)",
+        "no programmes extracted for: tuesday, wednesday, thursday, friday, saturday, sunday",
         "only one day extracted (the source may show only the active day)",
         "partial extraction: review the strategy diagnostics before publishing this guide"
       ],
       "errors": [],
       "diagnostics": [
-        "snapshot latest.html (1278383 bytes, utf-8), language hint de, fallback day sunday",
+        "snapshot latest.html (299438 bytes, utf-8), language hint de, fallback day monday",
         "strategy tables: 0 programmes / 0 days — 0 tables, none with a day header + time rows",
         "strategy nested-columns: 0 programmes / 0 days — no nested day tables",
         "strategy hour-rail: 0 programmes / 0 days — no hour-rail column layout",
         "strategy tabs: 0 programmes / 0 days — 0 day labels",
         "strategy columns: 0 programmes / 0 days — 0 day columns",
         "strategy sections: 0 programmes / 0 days — no day headings",
-        "strategy item-list: 21 programmes / 1 days — 21 item children",
+        "strategy item-list: 22 programmes / 1 days — 23 item children",
+        "strategy show-cards: 0 programmes / 0 days — no day+hours schedule cards",
         "strategy day-ranges: 0 programmes / 0 days — no day+range lines",
         "strategy linear: 0 programmes / 0 days — linear text, no day headings",
-        "strategy single-day: 0 programmes / 0 days — only 3 time-coded lines (2 titles)"
+        "strategy single-day: 5 programmes / 1 days — single day assumed monday (5 entries)"
       ],
       "suggested_epg_file": "radiofabrik.json"
     },
@@ -348,6 +392,7 @@
         "strategy columns: 0 programmes / 0 days — 0 day columns",
         "strategy sections: 0 programmes / 0 days — 35 day headings but no programmes under them",
         "strategy item-list: 0 programmes / 0 days — 9 item children",
+        "strategy show-cards: 0 programmes / 0 days — no day+hours schedule cards",
         "strategy day-ranges: 0 programmes / 0 days — no day+range lines",
         "strategy linear: 1 programmes / 1 days — linear text, 1 day headings",
         "strategy single-day: 0 programmes / 0 days — only 1 time-coded lines (1 titles)"
@@ -405,6 +450,7 @@
         "strategy columns: 29 programmes / 1 days — 1 day columns",
         "strategy sections: 115 programmes / 7 days — 588 day headings",
         "strategy item-list: 115 programmes / 1 days — 7 item children",
+        "strategy show-cards: 0 programmes / 0 days — no day+hours schedule cards",
         "strategy day-ranges: 26 programmes / 1 days — 26 day+range lines over 1 days",
         "strategy linear: 0 programmes / 0 days — linear text, 0 day headings",
         "strategy single-day: 0 programmes / 0 days — only 0 time-coded lines (0 titles)"
@@ -417,13 +463,27 @@
       "source": "https://radiomalva.org/programacion/",
       "format": "html",
       "status": "failed",
-      "strategy": null,
+      "strategy": "show-cards",
       "file": null,
       "confidence": 0,
-      "stats": {},
-      "warnings": [],
+      "stats": {
+        "extracted": 2,
+        "kept": 1,
+        "uniqueShows": 1,
+        "missingTitles": 0,
+        "invalidTimes": 0,
+        "duplicates": 1,
+        "overlapsClipped": 0,
+        "gapCount": 2,
+        "gapMinutes": 1380,
+        "daysWithPrograms": 1
+      },
+      "warnings": [
+        "wednesday 19:00: duplicate start (kept \"C/ Barraca 57, bajo\", dropped \"C/ Barraca 57, bajo.\")",
+        "wednesday: 2 gap(s), 1380 min (00:00-19:00, 20:00-24:00)"
+      ],
       "errors": [
-        "no weekly schedule could be extracted"
+        "extraction produced only 1 usable programme(s)"
       ],
       "diagnostics": [
         "snapshot latest.html (282611 bytes, utf-8), language hint es, fallback day sunday",
@@ -434,6 +494,7 @@
         "strategy columns: 0 programmes / 0 days — 0 day columns",
         "strategy sections: 0 programmes / 0 days — no day headings",
         "strategy item-list: 0 programmes / 0 days — 15 item children",
+        "strategy show-cards: 2 programmes / 1 days — 2 day+hours schedule cards",
         "strategy day-ranges: 0 programmes / 0 days — no day+range lines",
         "strategy linear: 0 programmes / 0 days — linear text, no day headings",
         "strategy single-day: 0 programmes / 0 days — only 2 time-coded lines (2 titles)"
@@ -480,6 +541,7 @@
         "strategy columns: 0 programmes / 0 days — 0 day columns",
         "strategy sections: 0 programmes / 0 days — 7 day headings but no programmes under them",
         "strategy item-list: 16 programmes / 1 days — 17 item children",
+        "strategy show-cards: 0 programmes / 0 days — no day+hours schedule cards",
         "strategy day-ranges: 0 programmes / 0 days — no day+range lines",
         "strategy linear: 0 programmes / 0 days — linear text, 0 day headings",
         "strategy single-day: 0 programmes / 0 days — only 0 time-coded lines (0 titles)"
@@ -526,6 +588,7 @@
         "strategy columns: 0 programmes / 0 days — 0 columns but only 0 blocks",
         "strategy sections: 0 programmes / 0 days — 7 day headings but no programmes under them",
         "strategy item-list: 0 programmes / 0 days — no item list",
+        "strategy show-cards: 0 programmes / 0 days — no day+hours schedule cards",
         "strategy day-ranges: 0 programmes / 0 days — no day+range lines",
         "strategy linear: 0 programmes / 0 days — linear text, 0 day headings",
         "strategy single-day: 0 programmes / 0 days — only 0 time-coded lines (0 titles)"
@@ -572,6 +635,7 @@
         "strategy columns: 23 programmes / 1 days — 1 day columns",
         "strategy sections: 1 programmes / 1 days — 470 day headings",
         "strategy item-list: 150 programmes / 1 days — 24 item children",
+        "strategy show-cards: 0 programmes / 0 days — no day+hours schedule cards",
         "strategy day-ranges: 0 programmes / 0 days — no day+range lines",
         "strategy linear: 0 programmes / 0 days — linear text, 0 day headings",
         "strategy single-day: 0 programmes / 0 days — only 0 time-coded lines (0 titles)"
@@ -669,7 +733,7 @@
       ],
       "errors": [],
       "diagnostics": [
-        "snapshot latest.html (222327 bytes, utf-8), language hint es, fallback day sunday",
+        "snapshot latest.html (222327 bytes, utf-8), language hint es, fallback day monday",
         "strategy tables: 0 programmes / 0 days — 6 tables, none with a day header + time rows",
         "strategy nested-columns: 0 programmes / 0 days — no nested day tables",
         "strategy hour-rail: 0 programmes / 0 days — no hour-rail column layout",
@@ -677,6 +741,7 @@
         "strategy columns: 0 programmes / 0 days — 0 columns but only 0 blocks",
         "strategy sections: 0 programmes / 0 days — 21 day headings but no programmes under them",
         "strategy item-list: 47 programmes / 1 days — 7 item children",
+        "strategy show-cards: 0 programmes / 0 days — no day+hours schedule cards",
         "strategy day-ranges: 0 programmes / 0 days — no day+range lines",
         "strategy linear: 0 programmes / 0 days — linear text, 0 day headings",
         "strategy single-day: 0 programmes / 0 days — only 0 time-coded lines (0 titles)"
@@ -723,6 +788,7 @@
         "strategy columns: 0 programmes / 0 days — 0 columns but only 0 blocks",
         "strategy sections: 1 programmes / 1 days — 14 day headings",
         "strategy item-list: 17 programmes / 1 days — 17 item children",
+        "strategy show-cards: 6 programmes / 3 days — 6 day+hours schedule cards",
         "strategy day-ranges: 0 programmes / 0 days — no day+range lines",
         "strategy linear: 20 programmes / 2 days — linear text, 2 day headings",
         "strategy single-day: 20 programmes / 1 days — single day assumed sunday (20 entries)"
@@ -776,6 +842,7 @@
         "strategy columns: 0 programmes / 0 days — 2 day columns",
         "strategy sections: 0 programmes / 0 days — 7 day headings but no programmes under them",
         "strategy item-list: 14 programmes / 1 days — 14 item children",
+        "strategy show-cards: 0 programmes / 0 days — no day+hours schedule cards",
         "strategy day-ranges: 0 programmes / 0 days — no day+range lines",
         "strategy linear: 0 programmes / 0 days — linear text, 0 day headings",
         "strategy single-day: 0 programmes / 0 days — only 0 time-coded lines (0 titles)"
@@ -822,6 +889,7 @@
         "strategy columns: 0 programmes / 0 days — 2 day columns",
         "strategy sections: 79 programmes / 7 days — 7 day headings",
         "strategy item-list: 13 programmes / 1 days — 14 item children",
+        "strategy show-cards: 0 programmes / 0 days — no day+hours schedule cards",
         "strategy day-ranges: 0 programmes / 0 days — no day+range lines",
         "strategy linear: 0 programmes / 0 days — linear text, 0 day headings",
         "strategy single-day: 0 programmes / 0 days — only 0 time-coded lines (0 titles)"
@@ -831,7 +899,7 @@
     {
       "id": 29,
       "name": "Radio Blackout",
-      "source": "https://radioblackout.org/palinsesto",
+      "source": "Blackout",
       "format": "html",
       "status": "partial",
       "strategy": "item-list",
@@ -859,7 +927,7 @@
       ],
       "errors": [],
       "diagnostics": [
-        "snapshot latest.html (509803 bytes, utf-8), language hint it, fallback day sunday",
+        "snapshot latest.html (508052 bytes, utf-8), language hint it, fallback day sunday",
         "strategy tables: 0 programmes / 0 days — 0 tables, none with a day header + time rows",
         "strategy nested-columns: 0 programmes / 0 days — no nested day tables",
         "strategy hour-rail: 0 programmes / 0 days — no hour-rail column layout",
@@ -867,11 +935,89 @@
         "strategy columns: 0 programmes / 0 days — 0 day columns",
         "strategy sections: 0 programmes / 0 days — 7 day headings but no programmes under them",
         "strategy item-list: 8 programmes / 1 days — 8 item children",
+        "strategy show-cards: 0 programmes / 0 days — no day+hours schedule cards",
         "strategy day-ranges: 0 programmes / 0 days — no day+range lines",
         "strategy linear: 0 programmes / 0 days — linear text, no day headings",
         "strategy single-day: 0 programmes / 0 days — only 0 time-coded lines (0 titles)"
       ],
       "suggested_epg_file": "radio-blackout.json"
+    },
+    {
+      "id": 46,
+      "name": "Station 46",
+      "source": "Kvrruf",
+      "format": "html",
+      "status": "failed",
+      "strategy": null,
+      "file": null,
+      "confidence": 0,
+      "stats": {},
+      "warnings": [],
+      "errors": [
+        "no weekly schedule could be extracted"
+      ],
+      "diagnostics": [
+        "snapshot latest.html (120977 bytes, utf-8), language hint en, fallback day monday",
+        "strategy tables: 0 programmes / 0 days — 0 tables, none with a day header + time rows",
+        "strategy nested-columns: 0 programmes / 0 days — no nested day tables",
+        "strategy hour-rail: 0 programmes / 0 days — no hour-rail column layout",
+        "strategy tabs: 0 programmes / 0 days — 0 day labels",
+        "strategy columns: 0 programmes / 0 days — 0 day columns",
+        "strategy sections: 0 programmes / 0 days — no day headings",
+        "strategy item-list: 0 programmes / 0 days — no item list",
+        "strategy show-cards: 0 programmes / 0 days — no day+hours schedule cards",
+        "strategy day-ranges: 0 programmes / 0 days — no day+range lines",
+        "strategy linear: 0 programmes / 0 days — linear text, no day headings",
+        "strategy single-day: 0 programmes / 0 days — only 0 time-coded lines (0 titles)"
+      ],
+      "suggested_epg_file": null
+    },
+    {
+      "id": 63,
+      "name": "Kmoradio",
+      "source": "https://www.km0radio.es/",
+      "format": "html",
+      "status": "ok",
+      "strategy": "tabs",
+      "file": "kmoradio.json",
+      "confidence": 0.98,
+      "stats": {
+        "extracted": 26,
+        "kept": 26,
+        "uniqueShows": 15,
+        "missingTitles": 0,
+        "invalidTimes": 0,
+        "duplicates": 0,
+        "overlapsClipped": 0,
+        "gapCount": 13,
+        "gapMinutes": 4110,
+        "daysWithPrograms": 7
+      },
+      "warnings": [
+        "monday: 2 gap(s), 480 min (00:00-07:00, 23:00-24:00)",
+        "tuesday: 2 gap(s), 480 min (00:00-07:00, 23:00-24:00)",
+        "wednesday: 2 gap(s), 480 min (00:00-07:00, 23:00-24:00)",
+        "thursday: 2 gap(s), 480 min (00:00-07:00, 23:00-24:00)",
+        "friday: 1 gap(s), 30 min (00:00-00:30)",
+        "saturday: 2 gap(s), 1080 min (00:00-12:00, 18:00-24:00)",
+        "sunday: 2 gap(s), 1080 min (00:00-12:00, 18:00-24:00)"
+      ],
+      "errors": [],
+      "diagnostics": [
+        "snapshot latest.html (91368 bytes, utf-8), language hint es, fallback day monday",
+        "strategy tables: 0 programmes / 0 days — 9 tables, none with a day header + time rows",
+        "strategy nested-columns: 0 programmes / 0 days — no nested day tables",
+        "strategy hour-rail: 0 programmes / 0 days — no hour-rail column layout",
+        "strategy tabs: 26 programmes / 7 days — tab strip (7 days) + 7 panels, 26 time markers",
+        "strategy columns: 0 programmes / 0 days — 1 day columns",
+        "strategy sections: 0 programmes / 0 days — 21 day headings but no programmes under them",
+        "strategy item-list: 7 programmes / 1 days — 7 item children",
+        "strategy show-cards: 0 programmes / 0 days — no day+hours schedule cards",
+        "strategy day-ranges: 0 programmes / 0 days — no day+range lines",
+        "strategy linear: 0 programmes / 0 days — linear text, 0 day headings",
+        "strategy single-day: 0 programmes / 0 days — only 0 time-coded lines (0 titles)"
+      ],
+      "suggested_epg_file": "kmoradio.json"
     },
     {
       "id": 65,
@@ -913,6 +1059,7 @@
         "strategy columns: 0 programmes / 0 days — 0 day columns",
         "strategy sections: 26 programmes / 7 days — 14 day headings",
         "strategy item-list: 0 programmes / 0 days — no item list",
+        "strategy show-cards: 0 programmes / 0 days — no day+hours schedule cards",
         "strategy day-ranges: 0 programmes / 0 days — no day+range lines",
         "strategy linear: 44 programmes / 7 days — linear text, 7 day headings",
         "strategy single-day: 30 programmes / 1 days — single day assumed sunday (30 entries)"
@@ -961,11 +1108,64 @@
         "strategy columns: 0 programmes / 0 days — 0 day columns",
         "strategy sections: 0 programmes / 0 days — no day headings",
         "strategy item-list: 25 programmes / 1 days — 24 item children",
+        "strategy show-cards: 0 programmes / 0 days — no day+hours schedule cards",
         "strategy day-ranges: 29 programmes / 7 days — 29 day+range lines over 7 days",
         "strategy linear: 30 programmes / 5 days — linear text, no day headings",
         "strategy single-day: 0 programmes / 0 days — only 0 time-coded lines (0 titles)"
       ],
       "suggested_epg_file": "alba-ciudad-96-3-fm.json"
+    },
+    {
+      "id": 100,
+      "name": "Mochileros",
+      "source": "https://www.mochilerosradio.com/",
+      "format": "html",
+      "status": "ok",
+      "strategy": "show-cards",
+      "file": "mochileros.json",
+      "confidence": 0.98,
+      "stats": {
+        "extracted": 25,
+        "kept": 18,
+        "uniqueShows": 9,
+        "missingTitles": 2,
+        "invalidTimes": 0,
+        "duplicates": 5,
+        "overlapsClipped": 0,
+        "gapCount": 20,
+        "gapMinutes": 8280,
+        "daysWithPrograms": 7
+      },
+      "warnings": [
+        "monday: 3 gap(s), 1080 min (00:00-14:00, 17:00-20:00, 23:00-24:00)",
+        "tuesday: 2 gap(s), 1380 min (00:00-19:00, 20:00-24:00)",
+        "wednesday: 6 gap(s), 1020 min (00:00-06:00, 08:00-13:00, 14:00-16:00, …)",
+        "thursday: 2 gap(s), 1380 min (00:00-19:00, 20:00-24:00)",
+        "friday: 2 gap(s), 1320 min (00:00-21:00, 23:00-24:00)",
+        "saturday 20:00: duplicate start (kept \"Asi es mi tierra\", dropped \"Voces Protagonistas\")",
+        "saturday 21:00: duplicate start (kept \"Mochileros Radio\", dropped \"Saber es tu derecho\")",
+        "saturday: 2 gap(s), 1260 min (00:00-20:00, 23:00-24:00)",
+        "sunday 20:00: duplicate start (kept \"Asi es mi tierra\", dropped \"Voces Protagonistas\")",
+        "sunday 21:00: duplicate start (kept \"Voces Andantes\", dropped \"Mochileros Radio\")",
+        "sunday 21:00: duplicate start (kept \"Mochileros Radio\", dropped \"El Desconcierto\")",
+        "sunday: 3 gap(s), 840 min (00:00-06:00, 08:00-13:00, 17:00-20:00)"
+      ],
+      "errors": [],
+      "diagnostics": [
+        "snapshot latest.html (59597 bytes, utf-8), language hint es, fallback day monday",
+        "strategy tables: 0 programmes / 0 days — 0 tables, none with a day header + time rows",
+        "strategy nested-columns: 0 programmes / 0 days — no nested day tables",
+        "strategy hour-rail: 0 programmes / 0 days — no hour-rail column layout",
+        "strategy tabs: 0 programmes / 0 days — 7 day tabs, no matching 7-panel container",
+        "strategy columns: 0 programmes / 0 days — 0 day columns",
+        "strategy sections: 3 programmes / 2 days — 39 day headings",
+        "strategy item-list: 0 programmes / 0 days — no item list",
+        "strategy show-cards: 25 programmes / 7 days — 25 day+hours schedule cards",
+        "strategy day-ranges: 6 programmes / 4 days — 6 day+range lines over 4 days",
+        "strategy linear: 8 programmes / 2 days — linear text, 2 day headings",
+        "strategy single-day: 8 programmes / 1 days — single day assumed monday (8 entries)"
+      ],
+      "suggested_epg_file": "mochileros.json"
     },
     {
       "id": 124,
@@ -999,6 +1199,7 @@
         "strategy columns: 0 programmes / 0 days — 0 day columns",
         "strategy sections: 0 programmes / 0 days — 28 day headings but no programmes under them",
         "strategy item-list: 0 programmes / 0 days — no item list",
+        "strategy show-cards: 0 programmes / 0 days — no day+hours schedule cards",
         "strategy day-ranges: 0 programmes / 0 days — no day+range lines",
         "strategy linear: 0 programmes / 0 days — linear text, 0 day headings",
         "strategy single-day: 0 programmes / 0 days — only 0 time-coded lines (0 titles)"

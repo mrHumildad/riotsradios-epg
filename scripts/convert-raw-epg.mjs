@@ -142,7 +142,13 @@ function escapeRe(value) {
 }
 
 function cleanSpace(value) {
-  return String(value || '').replace(/\u00a0/g, ' ').replace(/[ \t]+/g, ' ').replace(/ *\n */g, '\n').replace(/\n{2,}/g, '\n').trim()
+  return String(value || '')
+    .replace(/\r\n?/g, '\n')
+    .replace(/\u00a0/g, ' ')
+    .replace(/[ \t]+/g, ' ')
+    .replace(/ *\n */g, '\n')
+    .replace(/\n{2,}/g, '\n')
+    .trim()
 }
 
 function formatMinutes(value) {
@@ -161,12 +167,16 @@ function unique(values) {
   return [...new Set(values)]
 }
 
+/** A calendar label after a weekday: "09.11.2026", "10/11", "10 de noviembre". */
+const DATE_AFTER_DAY = String.raw`\s*,?\s*(?:\d{1,2}\s*[/.\-]\s*\d{1,2}(?:\s*[/.\-]\s*\d{2,4})?|\d{1,2}\s+(?:de\s+)?[a-z]{3,10}(?:\s+\d{2,4})?)`
+
 function dayFromExact(text) {
   const value = fold(text).replace(/\s+/g, ' ').trim().replace(/[.:]+$/, '')
   if (!value) return null
   for (const alias of DAY_ALIASES) {
     if (value === alias) return DAY_BY_ALIAS.get(alias)
-    if (new RegExp(`^${escapeRe(alias)}\\s+\\d{1,2}[/.\\-]\\d{1,2}$`).test(value)) return DAY_BY_ALIAS.get(alias)
+    // Day tabs often carry the date too: "Lun 09.11.2026", "Montag, 10.11."
+    if (new RegExp(`^${escapeRe(alias)}${DATE_AFTER_DAY}$`).test(value)) return DAY_BY_ALIAS.get(alias)
   }
   return null
 }
@@ -529,6 +539,19 @@ function classesOf(node) {
   return String(node?.attrs?.class || '')
 }
 
+/** Day of the tab a one-day view is showing, instead of guessing from the fetch date. */
+function activeTabDay(root) {
+  for (const node of descendants(root)) {
+    const marker = `${classesOf(node)} ${attrsOf(node)['aria-selected'] || ''} ${attrsOf(node)['aria-current'] || ''}`
+    if (!/active|selected|current|true/i.test(marker)) continue
+    const text = blockText(node).replace(/\n+/g, ' ').trim()
+    if (!text || text.length > 40) continue
+    const day = dayFromExact(text)
+    if (day) return day
+  }
+  return null
+}
+
 function attrsOf(node) {
   return node?.attrs || {}
 }
@@ -648,6 +671,15 @@ function parseStartLine(line) {
 
 const SKIP_LINE = /^(se vuelve a emitir|franja|horarios? de redifusion|repeticiones?:|programas? antiguos|archivo|menu|inicio|contacto|buscar|aceptar|rechazar|cerrar)/i
 
+/** A line holding nothing but a clock ("07:00", "7h"): its title is on the next line. */
+function parseClockOnly(line) {
+  const text = normalizeTimes(line).trim()
+  const match = /^(?:a\s+las\s+)?(\d{1,2})\s*[:.h]\s*(\d{2})\s*(?:hs?\.?)?$/i.exec(text)
+  if (!match) return null
+  const value = toMinutes(match[1], match[2])
+  return value !== null && value < MINUTES_PER_DAY ? value : null
+}
+
 function parseLinesForDay(lines, day) {
   const whole = Array.isArray(lines) ? lines.join('\n') : String(lines || '')
   // A range and its title often live in sibling blocks ("09:00 — 10:00" then
@@ -656,9 +688,24 @@ function parseLinesForDay(lines, day) {
   if (wholeRanges.length) return wholeRanges.map((entry) => ({ day, ...entry }))
 
   const entries = []
+  let pendingStart = null
   for (const rawLine of lines) {
-    const line = normalizeTimes(rawLine)
+    const line = normalizeTimes(rawLine).trim()
     if (!line || SKIP_LINE.test(line)) continue
+    const clockOnly = parseClockOnly(line)
+    if (clockOnly !== null) {
+      pendingStart = clockOnly
+      continue
+    }
+    if (pendingStart !== null) {
+      const title = cutDescription(tidyCandidate(line))
+      if (isTitle(title)) {
+        entries.push({ day, startMin: pendingStart, endMin: null, title })
+        pendingStart = null
+        continue
+      }
+      pendingStart = null
+    }
     const ranges = extractRangedPrograms(line)
     if (ranges.length) {
       for (const entry of ranges) entries.push({ day, ...entry })
@@ -1120,6 +1167,90 @@ function dayRangeStrategy(root, diagnostics) {
 // strategy: a list of items (one day, active tab or "today" list)
 // ---------------------------------------------------------------------------
 
+/** Schedule cards that state their own days and hours: "Martes 20hs.",
+    "20 a 21hs.", "Domingo de 14 a 17hs - Lunes de 21 a 24hs." (Mochileros). */
+function cardTimeClauses(line) {
+  const aliases = DAY_ALIASES.filter((alias) => alias.length >= 3).join('|')
+  const re = new RegExp(`(?:(?:${aliases})\\b[^0-9]{0,12})?(\\d{1,2})(?:\\s*[:.]\\s*(\\d{2}))?\\s*(?:(?:a|al|hasta)\\s*(\\d{1,2})(?:\\s*[:.]\\s*(\\d{2}))?)?\\s*hs?\\b\\.?`, 'gi')
+  const out = []
+  let match
+  while ((match = re.exec(line))) {
+    const prefix = line.slice(Math.max(0, match.index - 24), match.index).toLowerCase()
+    const startMin = toMinutes(match[1], match[2] || 0)
+    if (startMin === null || startMin >= MINUTES_PER_DAY) continue
+    let endMin = match[3] ? toMinutes(match[3], match[4] || 0) : null
+    if (endMin === null) endMin = Math.min(startMin + 60, MINUTES_PER_DAY)
+    let day = null
+    for (const alias of DAY_ALIASES) {
+      if (alias.length >= 3 && new RegExp(`\\b${escapeRe(alias)}\\b`).test(prefix)) day = DAY_BY_ALIAS.get(alias)
+    }
+    out.push({ startMin, endMin, day })
+  }
+  return out
+}
+
+function cardDayList(lines) {
+  const days = []
+  for (const line of lines) {
+    const value = fold(line).replace(/\s+/g, ' ').trim()
+    if (!value || value.length > 60) continue
+    const rest = value.replace(/\b[a-z]{3,10}\b/g, (word) => (DAY_BY_ALIAS.has(word) ? ' ' : word))
+    if (rest.replace(/[\s,;./&y]+/g, '')) continue
+    for (const alias of DAY_ALIASES) {
+      if (alias.length >= 3 && new RegExp(`\\b${escapeRe(alias)}\\b`).test(value)) days.push(DAY_BY_ALIAS.get(alias))
+    }
+  }
+  return unique(days)
+}
+
+function showCardStrategy(root, diagnostics) {
+  const cards = []
+  for (const node of descendants(root)) {
+    if (!['article', 'li', 'div', 'section'].includes(node.tag)) continue
+    const text = blockText(node)
+    if (text.length < 8 || text.length > 500) continue
+    if (!/\d[^\n]{0,12}hs?\b/i.test(text)) continue
+    if (/\d{1,3}[.,]\d\s*(?:mgz|mhz)/i.test(text)) continue // transmitter lists, not programmes
+    const lines = text.split('\n').map((line) => line.trim()).filter(Boolean)
+    if (lines.length < 2) continue
+    if (!lines.some((line) => cardTimeClauses(line).length)) continue
+    cards.push({ text, lines })
+  }
+  // Only the innermost card: a wrapper around several cards would mix their days.
+  const leafCards = cards.filter((card) => !cards.some((other) =>
+    other !== card && other.text.length < card.text.length && card.text.includes(other.text)))
+
+  const programs = []
+  const seen = new Set()
+  for (const { lines } of leafCards) {
+    const clauses = lines.flatMap(cardTimeClauses)
+    const listedDays = cardDayList(lines)
+    const titleLine = lines.find((line) => {
+      if (line.length < 2 || line.length > 80) return false
+      if (/^ver$/i.test(line)) return false
+      if (cardTimeClauses(line).length) return false
+      if (dayFromExact(line) || cardDayList([line]).length) return false
+      return true
+    })
+    const title = titleLine || ''
+    if (!title) continue
+    // The same page often lists the transmitter network ("Radio Web X", "88.3 Mgz.").
+    if (/^(?:radio\s*web|.*\b(?:mgz|mhz)\b)/i.test(title)) continue
+    for (const clause of clauses) {
+      const days = clause.day ? [clause.day] : listedDays
+      for (const day of days) {
+        const key = `${day}|${clause.startMin}|${fold(title)}`
+        if (seen.has(key)) continue
+        seen.add(key)
+        programs.push({ day, startMin: clause.startMin, endMin: clause.endMin, title })
+      }
+    }
+  }
+  return programs.length
+    ? { programs, detail: `${programs.length} day+hours schedule cards` }
+    : { programs: [], detail: 'no day+hours schedule cards' }
+}
+
 function itemListStrategy(root, fallbackDay) {
   let best = []
   let detail = 'no item list'
@@ -1532,7 +1663,49 @@ function sapoPrograms(payload) {
   return { programs, detail: `${payload.schedule.length} day blocks` }
 }
 
-async function convertSapoStation(id, station, outDir, meta, buffer, report, guides, options) {
+/** Hermes scheduler (FM La Tribu): dayOfWeek 1–7, hourStart/hourEnd as decimal hours. */
+function hermesPrograms(payload) {
+  const programs = []
+  let skipped = 0
+  for (const entry of payload) {
+    const dayNumber = Number(entry?.dayOfWeek)
+    const day = Number.isInteger(dayNumber) && dayNumber >= 1 && dayNumber <= 7 ? DAY_NAMES[dayNumber - 1] : null
+    const startHour = Number(entry?.hourStart)
+    const endHour = Number(entry?.hourEnd)
+    const title = cleanTitle(entry?.activity?.name || '')
+    if (!day || !Number.isFinite(startHour) || !Number.isFinite(endHour) || !isTitle(title)) {
+      skipped++
+      continue
+    }
+    const startMin = Math.round(startHour * 60)
+    let endMin = Math.round(endHour * 60)
+    if (startMin < 0 || startMin >= MINUTES_PER_DAY) {
+      skipped++
+      continue
+    }
+    if (endMin <= startMin) endMin += MINUTES_PER_DAY
+    if (endMin > startMin + MINUTES_PER_DAY) {
+      skipped++
+      continue
+    }
+    programs.push({ day, startMin, endMin, title })
+  }
+  return { programs, detail: `${programs.length} entries${skipped ? `, ${skipped} skipped` : ''}` }
+}
+
+/** Pick the JSON adapter by payload shape rather than by station id. */
+function jsonSchedule(payload) {
+  if (Array.isArray(payload)) {
+    if (payload.some((entry) => entry && typeof entry === 'object' && 'dayOfWeek' in entry)) {
+      return { adapter: 'hermes', ...hermesPrograms(payload) }
+    }
+    return { adapter: null, programs: [], detail: 'unrecognised JSON array' }
+  }
+  if (payload && Array.isArray(payload.schedule)) return { adapter: 'sapo', ...sapoPrograms(payload) }
+  return { adapter: null, programs: [], detail: 'unrecognised JSON object' }
+}
+
+async function convertJsonStation(id, station, outDir, meta, buffer, report, guides, options) {
   let payload
   try {
     payload = JSON.parse(buffer.toString('utf8'))
@@ -1540,10 +1713,10 @@ async function convertSapoStation(id, station, outDir, meta, buffer, report, gui
     report.errors.push(`unreadable JSON snapshot: ${error.message}`)
     return report
   }
-  const { programs, detail } = sapoPrograms(payload)
+  const { adapter, programs, detail } = jsonSchedule(payload)
   report.format = 'json-api'
-  report.strategy = 'sapo-json'
-  report.diagnostics.push(`sapo schedule: ${programs.length} programmes — ${detail}`)
+  report.strategy = adapter ? `${adapter}-json` : 'json'
+  report.diagnostics.push(`${adapter || 'unknown'} schedule: ${programs.length} programmes — ${detail}`)
   if (!programs.length) {
     report.errors.push('no weekly schedule could be extracted from the SAPO schedule')
     return report
@@ -1715,10 +1888,10 @@ async function convertStation(id, station, rawDir, outDir, guides, options) {
   if (meta.kind === 'json') {
     const buffer = await readFile(join(dir, snapshot))
     report.diagnostics.push(`snapshot ${snapshot} (${buffer.length} bytes, json)`)
-    return convertSapoStation(id, station, outDir, meta, buffer, report, guides, options)
+    return convertJsonStation(id, station, outDir, meta, buffer, report, guides, options)
   }
   if (meta.kind !== 'html') {
-    report.errors.push(`unsupported snapshot format "${meta.kind}" (HTML or SAPO JSON only for now)`)
+    report.errors.push(`unsupported snapshot format "${meta.kind}" (HTML, SAPO or Hermes JSON only for now)`)
     report.diagnostics.push(`file ${snapshot}, ${meta.bytes || '?'} bytes`)
     return report
   }
@@ -1726,7 +1899,8 @@ async function convertStation(id, station, rawDir, outDir, guides, options) {
   const buffer = await readFile(join(dir, snapshot))
   const { html, charset } = decodeSnapshot(buffer)
   const dom = parseHtml(html)
-  const fallbackDay = snapshotDay(meta.fetched_at)
+  const activeDay = activeTabDay(dom)
+  const fallbackDay = activeDay || snapshotDay(meta.fetched_at)
   const language = stationLanguage(station || {})
   report.diagnostics.push(`snapshot ${snapshot} (${buffer.length} bytes, ${charset}), language hint ${language}, fallback day ${fallbackDay}`)
 
@@ -1750,6 +1924,7 @@ async function convertStation(id, station, rawDir, outDir, guides, options) {
   run('columns', () => columnsStrategy(dom, diagnostics))
   run('sections', () => sectionsStrategy(dom, diagnostics))
   run('item-list', () => itemListStrategy(dom, fallbackDay))
+  run('show-cards', () => showCardStrategy(dom, diagnostics))
   run('day-ranges', () => dayRangeStrategy(dom, diagnostics))
   run('linear', () => linearStrategy(dom, diagnostics))
   run('single-day', () => singleDayStrategy(dom, fallbackDay, diagnostics))
@@ -1994,6 +2169,7 @@ if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) 
 }
 
 export {
+  activeTabDay,
   blockText,
   dayFromExact,
   descendants,
@@ -2001,11 +2177,17 @@ export {
   extractRangedPrograms,
   findClocks,
   headerMapping,
+  hermesPrograms,
   itemListStrategy,
+  jsonSchedule,
   nestedColumnsStrategy,
   parseHtml,
+  parseLinesForDay,
   parseNestedDayTable,
   parseStartLine,
   plainText,
+  sectionsStrategy,
+  showCardStrategy,
   tableRows,
+  tabsStrategy,
 }

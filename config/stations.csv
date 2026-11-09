@@ -5,6 +5,7 @@ id,name,countrycode,timezone,homepage,epg_url,epg_file,enabled,mailto
 4,Eguzki Irratia,ES,Europe/Madrid,https://eguzki.eus/,https://eguzki.eus/programacion/,eguzki-irratia.json,true,
 5,Radio Città Fujiko,IT,Europe/Rome,https://www.radiocittafujiko.it/,https://www.radiocittafujiko.it/palinsesto/,radio-citta-fujiko.json,true,
 6,Radio Bip,FR,Europe/Paris,https://radiobip.fr/site/,http://radiobip.fr/site/grille-programmes-radio-bip/,radio-bip.json,true,
+7,FM La Tribu,AR,America/Argentina/Buenos_Aires,https://fmlatribu.com/,https://hermes-scheduler-sys.zeclogiccloud.com.de/public/sites/fmlatribu.com/schedules/5/entries,fm-la-tribu.json,true,
 8,Radiofabrik,AT,Europe/Vienna,https://radiofabrik.at/,https://radiofabrik.at/programm/sendungen/,radiofabrik.json,true,
 10,Radio Pica,ES,Europe/Madrid,https://www.radiopica.cat/,https://www.radiopica.cat/graella.htm,radio-pica.json,true,
 11,Radio Enlace,ES,Europe/Madrid,https://www.radioenlace.org/,https://www.radioenlace.org/programacion/parrilla/,radio-enlace.json,true,
@@ -20,6 +21,8 @@ id,name,countrycode,timezone,homepage,epg_url,epg_file,enabled,mailto
 28,Radio Onda d'Urto,IT,Europe/Rome,https://www.radiondadurto.org/,,,false,
 29,Radio Blackout,IT,Europe/Rome,https://radioblackout.org/,https://radioblackout.org/palinsesto,radio-blackout.json,true,
 45,Radio Roja,AR,America/Argentina/Buenos_Aires,https://radioroja.com.ar/,,,false,informes@radioroja.com.ar
+63,Kmoradio,ES,Europe/Madrid,https://www.km0radio.es/,https://www.km0radio.es/,kmoradio.json,true,km0radio@hotmail.com
 65,Ahijuna,AR,America/Argentina/Buenos_Aires,https://ahijuna.fm/,https://ahijuna.fm/programas/,ahijuna.json,true,radio@ahijuna.fm
 66,Alba Ciudad 96.3 FM,VE,America/Caracas,http://www.albaciudad.org,https://albaciudad.org/nuestros-programas/,alba-ciudad-96-3-fm.json,true,albaciudadfm@gmail.com
+100,Mochileros,AR,America/Argentina/Buenos_Aires,https://www.mochilerosradio.com/,https://www.mochilerosradio.com/,mochileros.json,true,radiomochileros@gmial.com
 124,FM La Boca,AR,America/Argentina/Buenos_Aires,https://fmlaboca.com.ar/,https://fmlaboca.com.ar/programacion/,fm-la-boca.json,true,

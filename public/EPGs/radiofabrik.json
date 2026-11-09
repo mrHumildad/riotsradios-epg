@@ -4,9 +4,9 @@
   "station_id": 8,
   "schedule_type": "weekly",
   "timezone": "Europe/Vienna",
-  "last_updated": "2026-11-08",
-  "source": "https://radiofabrik.at/programm/sendungen/",
-  "notes": "Generado automáticamente desde https://radiofabrik.at/programm/sendungen/ (snapshot 2026-11-08); revisar data/epg-report.json.",
+  "last_updated": "2026-11-09",
+  "source": "https://radiofabrik.at/programm/tagesprogramm/",
+  "notes": "Generado automáticamente desde https://radiofabrik.at/programm/tagesprogramm/ (snapshot 2026-11-09); revisar data/epg-report.json.",
   "generator": "scripts/convert-raw-epg.mjs",
   "metadata": {
     "categories": {
@@ -22,12 +22,16 @@
     }
   },
   "shows": {
-    "nachtschiene": {
-      "title": "Nachtschiene",
+    "playlistbattle": {
+      "title": "Playlistbattle",
       "category": "directo"
     },
     "radiofabrik-von": {
       "title": "Radiofabrik von",
+      "category": "directo"
+    },
+    "fruhstucksradio": {
+      "title": "Frühstücksradio",
       "category": "directo"
     },
     "fruhschicht": {
@@ -38,192 +42,192 @@
       "title": "stepping to the a.m.",
       "category": "directo"
     },
-    "aus-meinem-bucherstapel-so-a-klasse-g-schicht": {
-      "title": "Aus meinem Bücherstapel - so a klasse G'schicht",
+    "the-good-news": {
+      "title": "The good news",
       "category": "directo"
     },
-    "kinderradio-spektrum-on-air": {
-      "title": "Kinderradio - Spektrum on Air",
+    "oida-mehr-als-nur-alter": {
+      "title": "Oida. Mehr als nur Alter.",
       "category": "directo"
     },
-    "die-sportschau-mit-markus-dorn": {
-      "title": "Die Sportschau. Mit Markus Dorn..",
+    "hi-noon": {
+      "title": "Hi Noon",
       "category": "directo"
     },
-    "die-sonntagsmelodie-evergreens-und-raritaten-aus-einem-gro-e": {
-      "title": "Die Sonntagsmelodie. Evergreens und Raritäten aus einem großen Schellack und LP-Archiv mit Edith Schiller.",
+    "armes-reiches-land": {
+      "title": "Armes reiches Land",
       "category": "directo"
     },
-    "senden-benden-bizden-von-dir-von-mir-von-uns": {
-      "title": "Senden Benden Bizden … Von dir, von mir, von uns …",
+    "artarium": {
+      "title": "Artarium",
       "category": "directo"
     },
-    "neuentdeckung-afrikas-afrika-einmal-anders-mit-guy-mavar": {
-      "title": "Neuentdeckung Afrikas. Afrika einmal anders mit Guy Mavar.",
+    "the-rocking-50s": {
+      "title": "The Rocking 50s",
       "category": "directo"
     },
-    "jugendradio-your-voice-das-bewegte-jugendradio": {
-      "title": "Jugendradio - Your Voice. Das bewegte Jugendradio.",
+    "richtig-falsch": {
+      "title": "Richtig_&_Falsch",
       "category": "directo"
     },
-    "artarium-das-etwas-andere-kunnstbiotop-mit-norbert-k-hund-ch": {
-      "title": "Artarium. Das etwas andere KUNNSTbiotop mit Norbert K. Hund & Christopher Schmall.",
+    "vol-on-air": {
+      "title": "Vol on air",
       "category": "directo"
     },
-    "panoptikum-bildung-ubernahme-von-radio-agora-karnten": {
-      "title": "Panoptikum Bildung. Übernahme von Radio Agora, Kärnten",
+    "radio-hamraz-persische-literatur": {
+      "title": "Radio Hamraz - Persische Literatur",
       "category": "directo"
     },
-    "szenenwechsel-lokale-sounds-aus-den-freien-radios": {
-      "title": "Szenenwechsel. Lokale Sounds aus den Freien Radios.",
+    "radio-hamraz-farsi": {
+      "title": "Radio Hamraz (Farsi)",
       "category": "directo"
     },
-    "radio-literaturhaus-wo-das-leben-zur-sprache-kommt": {
-      "title": "Radio Literaturhaus. Wo das Leben zur Sprache kommt.",
+    "aus-meinem-bucherstapel": {
+      "title": "Aus meinem Bücherstapel",
       "category": "directo"
     },
-    "show-de-toilette-die-sendung-mit-dem-dystopischen-duo": {
-      "title": "Show de Toilette. Die Sendung mit dem Dystopischen Duo",
+    "call-and-response": {
+      "title": "Call and Response",
       "category": "directo"
     },
-    "fondue-an-den-grenzen-der-freiheit-des-freien-radios-mit-rob": {
-      "title": "Fondue. An den Grenzen der Freiheit des Freien Radios mit Robert Presslaber.",
+    "engelsgefluster": {
+      "title": "Engelsgeflüster",
       "category": "directo"
     },
-    "kopfhorer-lieder-aus-sechs-jahrzehnten-popularer-musik": {
-      "title": "Kopfhörer. Lieder aus sechs Jahrzehnten populärer Musik",
+    "gitarre-und-meer": {
+      "title": "Gitarre und Meer",
       "category": "directo"
     }
   },
   "days": [
     {
-      "day": "sunday",
-      "label": "Domingo",
+      "day": "monday",
+      "label": "Lunes",
       "programs": [
         {
           "start": "00:00",
           "end": "01:00",
-          "show_id": "nachtschiene",
+          "show_id": "playlistbattle",
           "live": false
         },
         {
           "start": "01:00",
-          "end": "01:06",
+          "end": "02:00",
           "show_id": "radiofabrik-von",
-          "live": false
-        },
-        {
-          "start": "01:06",
-          "end": "06:06",
-          "show_id": "nachtschiene",
           "live": false
         },
         {
           "start": "06:06",
           "end": "07:06",
-          "show_id": "fruhschicht",
+          "show_id": "fruhstucksradio",
           "live": false
         },
         {
           "start": "07:06",
-          "end": "08:06",
+          "end": "08:00",
           "show_id": "fruhschicht",
           "live": false
         },
         {
-          "start": "08:06",
+          "start": "08:00",
           "end": "09:00",
           "show_id": "stepping-to-the-a-m",
           "live": false
         },
         {
           "start": "09:00",
-          "end": "10:06",
-          "show_id": "aus-meinem-bucherstapel-so-a-klasse-g-schicht",
-          "live": false
-        },
-        {
-          "start": "10:06",
-          "end": "10:36",
-          "show_id": "kinderradio-spektrum-on-air",
-          "live": false
-        },
-        {
-          "start": "10:36",
           "end": "11:00",
-          "show_id": "stepping-to-the-a-m",
+          "show_id": "the-good-news",
           "live": false
         },
         {
           "start": "11:00",
-          "end": "12:00",
-          "show_id": "die-sportschau-mit-markus-dorn",
+          "end": "11:30",
+          "show_id": "oida-mehr-als-nur-alter",
           "live": false
         },
         {
-          "start": "12:00",
+          "start": "11:30",
+          "end": "12:06",
+          "show_id": "playlistbattle",
+          "live": false
+        },
+        {
+          "start": "12:06",
+          "end": "13:00",
+          "show_id": "hi-noon",
+          "live": false
+        },
+        {
+          "start": "13:00",
           "end": "14:06",
-          "show_id": "die-sonntagsmelodie-evergreens-und-raritaten-aus-einem-gro-e",
+          "show_id": "armes-reiches-land",
           "live": false
         },
         {
           "start": "14:06",
           "end": "15:00",
-          "show_id": "senden-benden-bizden-von-dir-von-mir-von-uns",
+          "show_id": "artarium",
           "live": false
         },
         {
           "start": "15:00",
           "end": "16:00",
-          "show_id": "neuentdeckung-afrikas-afrika-einmal-anders-mit-guy-mavar",
+          "show_id": "the-rocking-50s",
           "live": false
         },
         {
           "start": "16:00",
-          "end": "17:06",
-          "show_id": "jugendradio-your-voice-das-bewegte-jugendradio",
+          "end": "17:00",
+          "show_id": "playlistbattle",
           "live": false
         },
         {
-          "start": "17:06",
+          "start": "17:00",
           "end": "18:00",
-          "show_id": "artarium-das-etwas-andere-kunnstbiotop-mit-norbert-k-hund-ch",
+          "show_id": "richtig-falsch",
           "live": false
         },
         {
           "start": "18:00",
-          "end": "19:00",
-          "show_id": "panoptikum-bildung-ubernahme-von-radio-agora-karnten",
+          "end": "18:30",
+          "show_id": "vol-on-air",
           "live": false
         },
         {
-          "start": "19:00",
+          "start": "18:30",
+          "end": "19:06",
+          "show_id": "radio-hamraz-persische-literatur",
+          "live": false
+        },
+        {
+          "start": "19:06",
           "end": "20:00",
-          "show_id": "szenenwechsel-lokale-sounds-aus-den-freien-radios",
+          "show_id": "radio-hamraz-farsi",
           "live": false
         },
         {
           "start": "20:00",
           "end": "21:00",
-          "show_id": "radio-literaturhaus-wo-das-leben-zur-sprache-kommt",
+          "show_id": "aus-meinem-bucherstapel",
           "live": false
         },
         {
           "start": "21:00",
           "end": "22:00",
-          "show_id": "show-de-toilette-die-sendung-mit-dem-dystopischen-duo",
+          "show_id": "call-and-response",
           "live": false
         },
         {
           "start": "22:00",
           "end": "23:00",
-          "show_id": "fondue-an-den-grenzen-der-freiheit-des-freien-radios-mit-rob",
+          "show_id": "engelsgefluster",
           "live": false
         },
         {
           "start": "23:00",
           "end": "24:00",
-          "show_id": "kopfhorer-lieder-aus-sechs-jahrzehnten-popularer-musik",
+          "show_id": "gitarre-und-meer",
           "live": false
         }
       ]

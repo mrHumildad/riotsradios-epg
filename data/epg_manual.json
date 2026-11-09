@@ -1,0 +1,138 @@
+{
+  "generated": "2026-11-09",
+  "policy": "Stations listed here are not probed by find_epg_urls.py. Their epg_sources.json entries are locked. Re-open one only when a new source (API, feed, accessible HTML) appears.",
+  "stations": {
+    "9": {
+      "name": "Radio QK",
+      "status": "manual",
+      "reason": "No crawlable weekly grid on the homepage; the schedule is only announced on air or by email.",
+      "next": "Ask radioqk@radioqk.org for the parrilla, then add it as a JSON source."
+    },
+    "10": {
+      "name": "Radio Pica",
+      "status": "quarantined",
+      "reason": "graella.htm serves scrambled/reordered markup; extraction produced wrong day/time pairs.",
+      "next": "Inspect the DOM and encoding manually before enabling again."
+    },
+    "16": {
+      "name": "Ràdio Klara",
+      "status": "manual",
+      "reason": "Programmes are published as a weekly list without stable day/time markup.",
+      "next": "Email the station for a machine-readable parrilla."
+    },
+    "24": {
+      "name": "Radio Pirineo",
+      "status": "manual",
+      "reason": "Blogspot page renders the grid client-side; no stable feed.",
+      "next": "Email the station or capture the rendered page with Playwright."
+    },
+    "28": {
+      "name": "Radio Onda d'Urto",
+      "status": "blocked",
+      "reason": "robots.txt disallows crawling the palinsesto day pages.",
+      "next": "Respect robots.txt; ask the station for permission or an API."
+    },
+    "38": {
+      "name": "Aconchego",
+      "status": "manual",
+      "reason": "Programme page is a static prose list with no weekly grid.",
+      "next": "Email the station for a structured schedule."
+    },
+    "43": {
+      "name": "Radio Universitaria",
+      "status": "manual",
+      "reason": "Site blocks automated access and the schedule is not published as a grid.",
+      "next": "Email the station; keep the guide manual if provided."
+    },
+    "45": {
+      "name": "Radio Roja",
+      "status": "manual_ocr",
+      "reason": "Only a weekly schedule image (GRILLA-ROJA-2026.jpg); OCR quality is not sufficient yet.",
+      "next": "Run the OCR stage once Tesseract is available, then review the result."
+    },
+    "46": {
+      "name": "Radio Kvrruf",
+      "status": "render",
+      "reason": "The schedule is drawn by a client-side app; the static HTML carries only the shell.",
+      "next": "Fetch with --render (Playwright) or find the JSON endpoint behind the app."
+    },
+    "50": {
+      "name": "Conaicop",
+      "status": "manual",
+      "reason": "Blogspot page with an outdated 2021 programme post.",
+      "next": "Email the station for the current parrilla."
+    },
+    "52": {
+      "name": "Zintzilik Irratia",
+      "status": "manual_ocr",
+      "reason": "Schedule is one large image with mixed fonts; OCR is not reliable.",
+      "next": "Transcribe manually or ask the station for the source file."
+    },
+    "57": {
+      "name": "Radio Suscal",
+      "status": "manual",
+      "reason": "Blogspot homepage without a weekly grid.",
+      "next": "Email the station for a structured schedule."
+    },
+    "69": {
+      "name": "Radio Ciudadana",
+      "status": "manual",
+      "reason": "Blogspot page with programme descriptions, not day/time slots.",
+      "next": "Email the station for the parrilla."
+    },
+    "73": {
+      "name": "Espika FM",
+      "status": "manual_ocr",
+      "reason": "Only a schedule image (EspikaFM-Programacion.jpg); OCR quality is not sufficient yet.",
+      "next": "Run the OCR stage once Tesseract is available, then review the result."
+    },
+    "77": {
+      "name": "Soul System Radio",
+      "status": "no_source",
+      "reason": "No reachable homepage or schedule page.",
+      "next": "Find a working site or contact the station."
+    },
+    "81": {
+      "name": "ERPE",
+      "status": "manual",
+      "reason": "Schedule is only available as a weekly PDF or by email; the site has no stable grid.",
+      "next": "Ask ERPE for the PDF each week or a feed."
+    },
+    "88": {
+      "name": "INFINITO FM",
+      "status": "no_source",
+      "reason": "No reachable homepage or schedule page.",
+      "next": "Find a working site or contact the station."
+    },
+    "90": {
+      "name": "Radio Plaza de la Dignidad",
+      "status": "manual",
+      "reason": "Site publishes shows without a weekly day/time grid.",
+      "next": "Email the station for the parrilla."
+    },
+    "91": {
+      "name": "La 5ta Pata",
+      "status": "manual_ocr",
+      "reason": "Only a schedule image (Grafico-horario...jpeg); OCR quality is not sufficient yet.",
+      "next": "Run the OCR stage once Tesseract is available, then review the result."
+    },
+    "97": {
+      "name": "Cholollan Radio",
+      "status": "manual",
+      "reason": "Homepage has no weekly grid and the site is often unreachable.",
+      "next": "Email the station for a structured schedule."
+    },
+    "121": {
+      "name": "AppRadio",
+      "status": "manual",
+      "reason": "Schedule is drawn by JavaScript with no public API.",
+      "next": "Render with Playwright or ask the station for an API."
+    },
+    "123": {
+      "name": "Radio Caroline",
+      "status": "manual",
+      "reason": "Schedule is drawn client-side and changes weekly.",
+      "next": "Render with Playwright or ask the station for a feed."
+    }
+  }
+}

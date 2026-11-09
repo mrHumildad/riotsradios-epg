@@ -1,0 +1,287 @@
+{
+  "version": "2.0",
+  "station": "Kmoradio",
+  "station_id": 63,
+  "schedule_type": "weekly",
+  "timezone": "Europe/Madrid",
+  "last_updated": "2026-11-09",
+  "source": "https://www.km0radio.es/",
+  "contact": "km0radio@hotmail.com",
+  "notes": "Generado automáticamente desde https://www.km0radio.es/ (snapshot 2026-11-09); revisar data/epg-report.json.",
+  "generator": "scripts/convert-raw-epg.mjs",
+  "metadata": {
+    "categories": {
+      "musica": "Música",
+      "directo": "Directo",
+      "podcast": "Podcast / repetición",
+      "especial": "Especial",
+      "taller": "Taller / educación"
+    },
+    "default_filler": {
+      "title": "Música",
+      "category": "musica"
+    }
+  },
+  "shows": {
+    "la-mosca-mananera": {
+      "title": "LA MOSCA MAÑANERA",
+      "category": "directo"
+    },
+    "buenos-dias-mundo": {
+      "title": "BUENOS DÍAS MUNDO",
+      "category": "directo"
+    },
+    "en-la-colina-de-los-sonidos": {
+      "title": "EN LA COLINA DE LOS SONIDOS",
+      "category": "directo"
+    },
+    "las-mil-y-una": {
+      "title": "LAS MIL Y UNA",
+      "category": "directo"
+    },
+    "el-baul-de-marian": {
+      "title": "EL BAUL DE MARIAN",
+      "category": "directo"
+    },
+    "retrocedemos-en-el-tiempo": {
+      "title": "RETROCEDEMOS EN EL TIEMPO",
+      "category": "directo"
+    },
+    "la-mar-de-poesia": {
+      "title": "LA MAR DE POESÍA",
+      "category": "directo"
+    },
+    "75-escalones": {
+      "title": "75 ESCALONES",
+      "category": "directo"
+    },
+    "las-5-de": {
+      "title": "LAS 5 DE",
+      "category": "directo"
+    },
+    "cunaos-moteros": {
+      "title": "CUÑAOS MOTEROS",
+      "category": "directo"
+    },
+    "el-trastero": {
+      "title": "EL TRASTERO",
+      "category": "directo"
+    },
+    "radioactivo-dj": {
+      "title": "RADIOACTIVO DJ",
+      "category": "directo"
+    },
+    "el-trovador-urbano": {
+      "title": "EL TROVADOR URBANO",
+      "category": "directo"
+    },
+    "zona-ovni": {
+      "title": "ZONA OVNI",
+      "category": "directo"
+    },
+    "carrusel-deportivo": {
+      "title": "CARRUSEL DEPORTIVO",
+      "category": "directo"
+    }
+  },
+  "days": [
+    {
+      "day": "monday",
+      "label": "Lunes",
+      "programs": [
+        {
+          "start": "07:00",
+          "end": "10:00",
+          "show_id": "la-mosca-mananera",
+          "live": false
+        },
+        {
+          "start": "10:00",
+          "end": "18:00",
+          "show_id": "buenos-dias-mundo",
+          "live": false
+        },
+        {
+          "start": "18:00",
+          "end": "22:00",
+          "show_id": "en-la-colina-de-los-sonidos",
+          "live": false
+        },
+        {
+          "start": "22:00",
+          "end": "23:00",
+          "show_id": "las-mil-y-una",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "tuesday",
+      "label": "Martes",
+      "programs": [
+        {
+          "start": "07:00",
+          "end": "10:00",
+          "show_id": "la-mosca-mananera",
+          "live": false
+        },
+        {
+          "start": "10:00",
+          "end": "20:00",
+          "show_id": "buenos-dias-mundo",
+          "live": false
+        },
+        {
+          "start": "20:00",
+          "end": "22:00",
+          "show_id": "el-baul-de-marian",
+          "live": false
+        },
+        {
+          "start": "22:00",
+          "end": "23:00",
+          "show_id": "retrocedemos-en-el-tiempo",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "wednesday",
+      "label": "Miércoles",
+      "programs": [
+        {
+          "start": "07:00",
+          "end": "10:00",
+          "show_id": "la-mosca-mananera",
+          "live": false
+        },
+        {
+          "start": "10:00",
+          "end": "20:00",
+          "show_id": "buenos-dias-mundo",
+          "live": false
+        },
+        {
+          "start": "20:00",
+          "end": "22:00",
+          "show_id": "la-mar-de-poesia",
+          "live": false
+        },
+        {
+          "start": "22:00",
+          "end": "23:00",
+          "show_id": "75-escalones",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "thursday",
+      "label": "Jueves",
+      "programs": [
+        {
+          "start": "07:00",
+          "end": "10:00",
+          "show_id": "la-mosca-mananera",
+          "live": false
+        },
+        {
+          "start": "10:00",
+          "end": "18:00",
+          "show_id": "buenos-dias-mundo",
+          "live": false
+        },
+        {
+          "start": "18:00",
+          "end": "21:00",
+          "show_id": "las-5-de",
+          "live": false
+        },
+        {
+          "start": "21:00",
+          "end": "22:00",
+          "show_id": "cunaos-moteros",
+          "live": false
+        },
+        {
+          "start": "22:00",
+          "end": "23:00",
+          "show_id": "el-trastero",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "friday",
+      "label": "Viernes",
+      "programs": [
+        {
+          "start": "00:30",
+          "end": "07:00",
+          "show_id": "radioactivo-dj",
+          "live": false
+        },
+        {
+          "start": "07:00",
+          "end": "10:00",
+          "show_id": "la-mosca-mananera",
+          "live": false
+        },
+        {
+          "start": "10:00",
+          "end": "22:00",
+          "show_id": "buenos-dias-mundo",
+          "live": false
+        },
+        {
+          "start": "22:00",
+          "end": "23:00",
+          "show_id": "el-trovador-urbano",
+          "live": false
+        },
+        {
+          "start": "23:00",
+          "end": "24:00",
+          "show_id": "zona-ovni",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "saturday",
+      "label": "Sábado",
+      "programs": [
+        {
+          "start": "12:00",
+          "end": "17:00",
+          "show_id": "carrusel-deportivo",
+          "live": false
+        },
+        {
+          "start": "17:00",
+          "end": "18:00",
+          "show_id": "carrusel-deportivo",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "sunday",
+      "label": "Domingo",
+      "programs": [
+        {
+          "start": "12:00",
+          "end": "17:00",
+          "show_id": "carrusel-deportivo",
+          "live": false
+        },
+        {
+          "start": "17:00",
+          "end": "18:00",
+          "show_id": "carrusel-deportivo",
+          "live": false
+        }
+      ]
+    }
+  ]
+}
