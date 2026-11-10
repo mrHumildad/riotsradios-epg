@@ -8,7 +8,8 @@ public base URL.
 ## Layout
 
 ```text
-config/stations.csv      station ids, sources, timezones and output files
+catalog/stations.csv     the app-facing station catalog — published to /catalog/
+config/stations.csv      EPG pipeline config: sources, timezones, output files
 data/raw/                snapshot cache, never committed
 data/epg-report.json     per-station extraction report
 data/epg_sources.json    discovery sidecar
@@ -57,6 +58,9 @@ python3 scripts/find_epg_urls.py --resume --write  # update config/stations.csv
 python3 scripts/fetch_epgs.py --max-age-hours 20   # download raw snapshots
 node scripts/convert-raw-epg.mjs                   # raw -> public/EPGs/*.json
 node scripts/validate-epgs.js                      # structural checks
+node scripts/validate-catalog.mjs                  # gate catalog/stations.csv
+node scripts/build-catalog.mjs                     # publish /catalog/ files
+node scripts/probe-catalog.mjs                     # refresh catalog/health.json (network)
 node scripts/build-manifest.mjs                    # write the manifest
 node scripts/build-manifest.mjs --check            # fail if it is stale
 npm test                                           # config + manifest tests
@@ -95,9 +99,15 @@ optional and only used by `fetch_epgs.py --render`.
 
 ## Config
 
-`config/stations.csv` is the EPG-side catalog. It must keep the app's station
-ids stable. It does not replace the app's `stations.csv`; it only carries what
-the EPG pipeline needs.
+`config/stations.csv` is the EPG pipeline config. It must keep the app's station
+ids stable; it only carries what guide discovery needs.
+
+`catalog/stations.csv` is the **app-facing station catalog** — the file the player
+renders, published to `/catalog/`. It is the single source of truth for stations:
+a station added here reaches every running player at its next launch. The rules
+are the app's own (`npm run validate:catalog` enforces them), and
+`docs/EPG-FORMAT.md` plus the app's `docs/EPG-REPO-CATALOG.md` describe the
+contract.
 
 | Column | Meaning |
 |---|---|
@@ -123,12 +133,70 @@ A guide is published only when:
 Failures are visible in `data/epg-report.json`; they do not delete the previous
 good guide. Raw snapshots are cache, not source, and stay out of git.
 
+## Stream health
+
+`catalog/health.json` is the probe snapshot behind the player's LIVE / UNSTABLE /
+OFFLINE badges and its spectrum support. `npm run probe` requests each station's
+headers only (`Range: bytes=0-1`, 10 s timeout, 6 in parallel, body cancelled
+immediately), classifies the answer with `lib/health.js` and folds it into the
+previous snapshot, so `consecutive_failures` accumulates across runs.
+`.github/workflows/health.yml` runs it daily at 04:17 UTC, commits the diff and
+republishes the catalog.
+
+The CORS answers are measured from `https://mrhumildad.github.io` (`PAGE_ORIGIN`
+in `scripts/probe-catalog.mjs`), the player's web origin: `cors: "any"` survives
+another origin, `cors: "origin"` (a pinned origin) does not. The app copies this
+file at every catalog sync and no longer probes by itself.
+
+Probe a single station while adding it:
+
+```bash
+npm run probe -- --only 87
+```
+
+## Published catalog
+
+`catalog/stations.csv` is published next to the guides, and the player adopts it
+at runtime:
+
+```json
+{
+  "schema": 1,
+  "version": "<sha256 of the CSV>",
+  "file": "stations.csv",
+  "rows": 87,
+  "generated_at": "2026-11-10T12:00:00.000Z",
+  "health": "health.json"
+}
+```
+
+`npm run catalog` writes `public/catalog/{stations.csv,manifest.json,health.json}`.
+Only `catalog/stations.csv` is committed; the published copies are regenerated on
+every deploy. `version` is the content hash, so the app downloads the CSV only
+when it changed and caches it by URL (`?v=<hash>`). `health.json` is the app
+repository's latest probe snapshot, copied here so a station that arrives from
+this file shows its badge and its spectrum without waiting for an app release.
+
+`.github/workflows/catalog.yml` publishes `/catalog/` on every push that touches
+it, so a new station is live minutes later. It shares the `epg-refresh`
+concurrency group with `refresh.yml`: both publish the `gh-pages` branch.
+
+Rules for this side of the contract:
+
+1. **Never delete a row.** Set `stream_broken` to `true` instead; ids are never
+   reused, because they key the guides, the health snapshot and favourites.
+2. **`npm run validate:catalog` must pass.** Once the catalog is adopted at
+   runtime, this is the only gate between an edit and every listener.
+3. **Large removals are refused by the app.** A catalog that loses more than 40%
+   of its playable rows is rejected in the field, so split a big retirement into
+   reviewed pushes.
+
 ## Scheduled refresh and publishing
 
 `.github/workflows/refresh.yml` runs daily at **04:37 UTC** (and on manual
 `workflow_dispatch`):
 
-1. reads the app's `stations.csv` and appends stations above the highest id
+1. reads `catalog/stations.csv` and appends stations above the highest id
    already in `config/stations.csv` as **disabled** rows;
 2. runs source discovery for those new ids;
 3. restores the `data/raw` cache;
@@ -137,19 +205,24 @@ good guide. Raw snapshots are cache, not source, and stay out of git.
 6. enables a new row only when its conversion report is `ok` and the generated
    guide has the matching `station_id`;
 7. validates the guides and rebuilds `public/EPGs/manifest.json`;
-8. uploads `data/epg-report.json` as an artifact;
-9. commits the config, discovery sidecar, guides, report and manifest;
-10. publishes `public/` to the `gh-pages` branch.
+8. validates the catalog and rebuilds `public/catalog/`;
+9. uploads `data/epg-report.json` as an artifact;
+10. commits the config, discovery sidecar, guides, report and manifest;
+11. publishes `public/` to the `gh-pages` branch.
 
 ### Automatic app sync
 
-The daily refresh keeps the EPG catalog in step with the app. The app assigns
-station ids append-only, so the highest id in `config/stations.csv` is the
-high-water mark: older app rows that were deliberately left out (no schedule,
-retired, etc.) are never re-imported. A newly added app station is appended with
+The daily refresh keeps the EPG pipeline in step with `catalog/stations.csv`. Ids
+are append-only, so the highest id in `config/stations.csv` is the high-water
+mark: older catalog rows that were deliberately left out (no schedule, retired,
+etc.) are never re-imported. A newly added catalog station is appended with
 `enabled=false`, an inferred timezone and a blank `epg_url`/`epg_file`. If the
 country has no timezone in the mapping, the row keeps an empty timezone and
 stays disabled until a human sets it.
+
+The import reads `catalog/stations.csv` directly (`--app-file`). It used to read
+the app repository's copy, which is now the app's snapshot of this file — a
+circular import that could only reintroduce drift.
 
 Discovery then looks for its schedule. If the converter produces a complete
 guide (`status: "ok"`), the workflow writes its filename to `epg_file` and sets

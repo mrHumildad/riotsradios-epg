@@ -31,5 +31,14 @@ jobs:
       - name: Validate guides
         run: npm run validate
 
+      # catalog/stations.csv is the file every listener renders: the app adopts a
+      # published catalog at runtime, so this gate is the only thing between an
+      # edit and the player.
+      - name: Validate catalog
+        run: npm run validate:catalog
+
+      - name: Build the published catalog
+        run: npm run catalog
+
       - name: Manifest is current
         run: npm run manifest -- --check

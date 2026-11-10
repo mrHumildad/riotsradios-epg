@@ -1,0 +1,72 @@
+name: Stream health
+
+# catalog/health.json is the probe snapshot behind the player's LIVE / UNSTABLE /
+# OFFLINE badges and its spectrum support. This repository owns it; the app copies
+# it at every catalog sync. Runs before the guide refresh (04:37 UTC) and
+# republishes the catalog itself, because a commit made with GITHUB_TOKEN does not
+# trigger the catalog workflow.
+
+on:
+  schedule:
+    # Daily, off-peak; GitHub cron is UTC.
+    - cron: '17 4 * * *'
+  workflow_dispatch:
+    inputs:
+      only:
+        description: 'Optional space-separated station ids'
+        required: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: epg-refresh
+  cancel-in-progress: false
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Validate the catalog
+        run: npm run validate:catalog
+
+      - name: Probe every stream
+        env:
+          ONLY: ${{ inputs.only }}
+        run: |
+          if [ -n "$ONLY" ]; then
+            npm run probe -- $ONLY
+          else
+            npm run probe
+          fi
+
+      - name: Commit the fresh snapshot
+        run: |
+          if git diff --quiet -- catalog/health.json; then
+            echo "Health snapshot unchanged"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add catalog/health.json
+          git commit -m "chore(health): refresh stream status snapshot"
+          git push
+
+      - name: Build the published catalog
+        run: npm run catalog
+
+      - name: Publish to gh-pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: ./public
+          force_orphan: true
+          enable_jekyll: false

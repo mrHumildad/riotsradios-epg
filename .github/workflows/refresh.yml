@@ -40,9 +40,14 @@ jobs:
         with:
           node-version: 22
 
-      - name: Sync new stations from the app catalog
+      # catalog/stations.csv is the app-facing catalog; the pipeline config only
+      # gains a disabled row per new station, then discovery starts below.
+      - name: Sync new stations from the catalog
         id: sync
-        run: node scripts/sync-app-stations.mjs --write
+        run: node scripts/sync-app-stations.mjs --app-file catalog/stations.csv --write
+
+      - name: Validate the catalog
+        run: npm run validate:catalog
 
       - name: Install optional renderer
         if: ${{ inputs.render == true }}
@@ -107,6 +112,9 @@ jobs:
 
       - name: Build manifest
         run: node scripts/build-manifest.mjs
+
+      - name: Build the published catalog
+        run: npm run catalog
 
       - name: Upload report
         if: always()

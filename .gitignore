@@ -2,4 +2,6 @@ node_modules/
 __pycache__/
 *.pyc
 data/raw/
+# Generated at publish time from catalog/stations.csv (only the source is committed).
+public/catalog/
 .DS_Store

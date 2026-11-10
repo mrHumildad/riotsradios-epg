@@ -9,8 +9,11 @@
     "discover": "python3 scripts/find_epg_urls.py",
     "convert": "node scripts/convert-raw-epg.mjs",
     "validate": "node scripts/validate-epgs.js",
+    "validate:catalog": "node scripts/validate-catalog.mjs",
+    "catalog": "node scripts/build-catalog.mjs",
+    "probe": "node scripts/probe-catalog.mjs",
     "manifest": "node scripts/build-manifest.mjs",
     "test": "node --test tests/*.test.mjs",
-    "check": "npm run validate && npm run manifest -- --check && npm test"
+    "check": "npm run validate && npm run validate:catalog && npm run manifest -- --check && npm test"
   }
 }

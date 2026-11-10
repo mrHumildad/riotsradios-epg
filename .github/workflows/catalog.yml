@@ -1,0 +1,79 @@
+name: Publish catalog
+
+# catalog/stations.csv is the station catalog the player renders. A push that
+# touches it republishes /catalog/ right away, so a new station reaches listeners
+# at their next launch instead of waiting for the daily refresh.
+#
+# This shares refresh.yml's concurrency group on purpose: both force_orphan the
+# gh-pages branch, so they must never publish at the same time.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'catalog/**'
+      - 'lib/catalog-rules.js'
+      - 'scripts/validate-catalog.mjs'
+      - 'scripts/build-catalog.mjs'
+  pull_request:
+    paths:
+      - 'catalog/**'
+      - 'lib/catalog-rules.js'
+      - 'scripts/validate-catalog.mjs'
+      - 'scripts/build-catalog.mjs'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: epg-refresh
+  cancel-in-progress: false
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Unit tests
+        run: npm test
+
+      # The same gate the app enforces on the snapshot: this is what stops a bad
+      # row from being adopted by every running player.
+      - name: Validate catalog
+        run: npm run validate:catalog
+
+      - name: Build the published catalog
+        run: npm run catalog
+
+  publish:
+    needs: verify
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      # Includes catalog/health.json (the app repo's latest probe snapshot) so a
+      # station that arrives from this file already has a badge and a spectrum.
+      - name: Build the published catalog
+        run: npm run catalog
+
+      - name: Publish to gh-pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: ./public
+          force_orphan: true
+          enable_jekyll: false
