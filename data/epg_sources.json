@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-09",
+  "generated": "2026-11-10",
   "stations": {
     "1": {
       "name": "Radio Contrabanda",
@@ -2459,7 +2459,7 @@
     },
     "137": {
       "name": "RTVC Ràdio Televisió Cardedeu",
-      "checked_at": "2026-11-09",
+      "checked_at": "2026-11-10",
       "alternatives": [],
       "failed": [],
       "homepage_status": 0,
@@ -2472,20 +2472,71 @@
     },
     "139": {
       "name": "Onda Latina",
-      "checked_at": "2026-11-09",
-      "alternatives": [],
+      "checked_at": "2026-11-10",
+      "alternatives": [
+        {
+          "url": "http://www.ondalatina.com.es/parrilla",
+          "ok": true,
+          "format": "html",
+          "via": "probe:/parrilla",
+          "link_score": 0.5,
+          "days": 0,
+          "times": 0,
+          "gcal": [],
+          "tls_unverified": false,
+          "title": "",
+          "scripts": 0,
+          "text_len": 793,
+          "iframes": [],
+          "schedule_assets": [],
+          "day_pages": {},
+          "page_score": 0.0,
+          "confidence": 0.17,
+          "action": "manual_review"
+        },
+        {
+          "url": "http://www.ondalatina.com.es/",
+          "ok": true,
+          "format": "html",
+          "via": "homepage",
+          "link_score": 0.2,
+          "days": 0,
+          "times": 0,
+          "gcal": [],
+          "tls_unverified": false,
+          "title": "",
+          "scripts": 0,
+          "text_len": 777,
+          "iframes": [],
+          "schedule_assets": [],
+          "day_pages": {},
+          "page_score": 0.0,
+          "confidence": 0.07,
+          "action": "manual_review"
+        }
+      ],
       "failed": [],
-      "homepage_status": 202,
-      "homepage_title": null,
+      "homepage_status": 200,
+      "homepage_title": "",
       "homepage_suspicious": false,
-      "status": "error",
-      "error": "homepage: HTTP 202",
-      "action": "fix_homepage",
+      "url": "http://www.ondalatina.com.es/programacion",
+      "format": "html",
+      "confidence": 0.17,
+      "method": "probe:/programacion",
+      "days": 0,
+      "times": 0,
+      "tls_unverified": false,
+      "post_like": false,
+      "action": "manual_review",
+      "evidence": {
+        "text_len": 801
+      },
+      "status": "needs_review",
       "locked": false
     },
     "138": {
       "name": "Hala Bedi Irratia",
-      "checked_at": "2026-11-09",
+      "checked_at": "2026-11-10",
       "alternatives": [],
       "failed": [],
       "homepage_status": 200,
@@ -2517,7 +2568,7 @@
     },
     "125": {
       "name": "Color Comunitaria",
-      "checked_at": "2026-11-09",
+      "checked_at": "2026-11-10",
       "alternatives": [
         {
           "url": "https://colorcomunitaria.org/parrilla/",
@@ -2652,7 +2703,7 @@
     },
     "134": {
       "name": "Siberia FM",
-      "checked_at": "2026-11-09",
+      "checked_at": "2026-11-10",
       "alternatives": [
         {
           "url": "https://www.siberiafm.com/programacion/frikilanders/",
@@ -2660,21 +2711,21 @@
           "format": "html",
           "via": "link:Frikilanders Frikilanders",
           "link_score": 1.0,
-          "days": 2,
+          "days": 4,
           "times": 3,
           "gcal": [],
           "tls_unverified": false,
           "title": "Frikilanders – Siberia FM 93.8",
           "scripts": 25,
-          "text_len": 7999,
+          "text_len": 8028,
           "iframes": [
             "https://www.ivoox.com/player_es_podcast_1260257_zp_1.html",
             "https://www.teaming.net/group/spread/widgets/wKzmVm64183s6Dv4kw5YhijI4KdqT6xoiJpA3l7ywORNO/2?lang=es_ES&TM=true"
           ],
           "schedule_assets": [],
           "day_pages": {},
-          "page_score": 0.21,
-          "confidence": 0.49,
+          "page_score": 0.38,
+          "confidence": 0.6,
           "action": "review_partial"
         },
         {
@@ -2683,44 +2734,44 @@
           "format": "html",
           "via": "link:GasteizBerri GasteizBerri",
           "link_score": 1.0,
-          "days": 2,
+          "days": 4,
           "times": 3,
           "gcal": [],
           "tls_unverified": false,
           "title": "GasteizBerri – Siberia FM 93.8",
           "scripts": 25,
-          "text_len": 7861,
+          "text_len": 7890,
           "iframes": [
             "https://www.ivoox.com/player_es_podcast_1049205_zp_1.html",
             "https://www.teaming.net/group/spread/widgets/wKzmVm64183s6Dv4kw5YhijI4KdqT6xoiJpA3l7ywORNO/2?lang=es_ES&TM=true"
           ],
           "schedule_assets": [],
           "day_pages": {},
-          "page_score": 0.21,
-          "confidence": 0.49,
+          "page_score": 0.38,
+          "confidence": 0.6,
           "action": "review_partial"
         },
         {
-          "url": "https://www.siberiafm.com/eu/programacion/arcoiris/",
+          "url": "https://www.siberiafm.com/programacion/el-popurri/",
           "ok": true,
           "format": "html",
-          "via": "hop:Euskera Euskera",
+          "via": "link:El Popurrí El Popurrí",
           "link_score": 1.0,
-          "days": 2,
+          "days": 3,
           "times": 3,
           "gcal": [],
           "tls_unverified": false,
-          "title": "Arcoiris – Siberia FM 93.8",
-          "scripts": 24,
-          "text_len": 8388,
+          "title": "El Popurrí – Siberia FM 93.8",
+          "scripts": 26,
+          "text_len": 9473,
           "iframes": [
-            "https://www.ivoox.com/player_es_podcast_1403125_zp_1.html",
+            "https://www.ivoox.com/player_es_podcast_2848794_zp_1.html?c1=cc144c",
             "https://www.teaming.net/group/spread/widgets/wKzmVm64183s6Dv4kw5YhijI4KdqT6xoiJpA3l7ywORNO/2?lang=es_ES&TM=true"
           ],
           "schedule_assets": [],
           "day_pages": {},
-          "page_score": 0.21,
-          "confidence": 0.49,
+          "page_score": 0.3,
+          "confidence": 0.54,
           "action": "review_partial"
         }
       ],
@@ -2730,9 +2781,9 @@
       "homepage_suspicious": false,
       "url": "https://www.siberiafm.com/programacion/arcoiris/",
       "format": "html",
-      "confidence": 0.49,
+      "confidence": 0.6,
       "method": "link:Arcoíris Arcoíris",
-      "days": 2,
+      "days": 4,
       "times": 3,
       "tls_unverified": false,
       "post_like": false,
@@ -2740,18 +2791,18 @@
       "evidence": {
         "title": "Arcoíris – Siberia FM 93.8",
         "scripts": 25,
-        "text_len": 8313,
+        "text_len": 8342,
         "iframes": [
           "https://www.ivoox.com/player_es_podcast_1403125_zp_1.html",
           "https://www.teaming.net/group/spread/widgets/wKzmVm64183s6Dv4kw5YhijI4KdqT6xoiJpA3l7ywORNO/2?lang=es_ES&TM=true"
         ]
       },
-      "status": "needs_review",
+      "status": "ok",
       "locked": false
     },
     "136": {
       "name": "Radiópolis",
-      "checked_at": "2026-11-09",
+      "checked_at": "2026-11-10",
       "alternatives": [
         {
           "url": "https://www.radiopolis.org.es/programacion/",
@@ -2961,7 +3012,7 @@
     },
     "143": {
       "name": "Radio Roncudo",
-      "checked_at": "2026-11-09",
+      "checked_at": "2026-11-10",
       "alternatives": [
         {
           "url": "https://radioroncudo.wordpress.com/programacion/",
@@ -2975,9 +3026,9 @@
           "tls_unverified": false,
           "title": "Programación – Radio Roncudo 106.1fm",
           "scripts": 34,
-          "text_len": 2082,
+          "text_len": 2047,
           "iframes": [
-            "https://widgets.wp.com/likes/master.html?ver=20261109#ver=20261109&lang=gl"
+            "https://widgets.wp.com/likes/master.html?ver=20261110#ver=20261110&lang=gl"
           ],
           "schedule_assets": [
             "https://radioroncudo.wordpress.com/wp-content/uploads/2024/01/programacion2024.pdf"
@@ -2999,9 +3050,9 @@
           "tls_unverified": false,
           "title": "Programación – Radio Roncudo 106.1fm",
           "scripts": 34,
-          "text_len": 2082,
+          "text_len": 2047,
           "iframes": [
-            "https://widgets.wp.com/likes/master.html?ver=20261109#ver=20261109&lang=gl"
+            "https://widgets.wp.com/likes/master.html?ver=20261110#ver=20261110&lang=gl"
           ],
           "schedule_assets": [
             "https://radioroncudo.wordpress.com/wp-content/uploads/2024/01/programacion2024.pdf"
@@ -3023,7 +3074,7 @@
           "tls_unverified": false,
           "title": "Radio Roncudo 106.1fm – A radio libre e alternativa da Comarca de Bergantiños",
           "scripts": 28,
-          "text_len": 2605,
+          "text_len": 2570,
           "iframes": [],
           "schedule_assets": [],
           "day_pages": {},
@@ -3048,7 +3099,7 @@
       "evidence": {
         "title": "Programación – Radio Roncudo 106.1fm",
         "scripts": 34,
-        "text_len": 2082,
+        "text_len": 2047,
         "iframes": [
           "https://widgets.wp.com/likes/master.html?ver=20261109#ver=20261109&lang=gl"
         ],
@@ -3061,15 +3112,114 @@
     },
     "147": {
       "name": "Radio FilispiM",
-      "checked_at": "2026-11-09",
-      "alternatives": [],
-      "failed": [],
-      "homepage_status": 429,
-      "homepage_title": null,
+      "checked_at": "2026-11-10",
+      "alternatives": [
+        {
+          "url": "https://opaii.blogspot.com/search/label/Programas%20Especiais",
+          "ok": true,
+          "format": "html",
+          "via": "link:Programas Especiais",
+          "link_score": 0.4,
+          "days": 2,
+          "times": 39,
+          "gcal": [],
+          "tls_unverified": false,
+          "title": "Rádio FilispiM, libre e comunitaria, 102.3 FM: Programas Especiais",
+          "scripts": 10,
+          "text_len": 31924,
+          "iframes": [
+            "https://archive.org/embed/festa-xx-aniv-filispi-m-15-11-2025",
+            "https://www.ivoox.com/player_ej_154324840_6_1.html?c1=cb8885",
+            "https://www.ivoox.com/player_ej_72947884_6_1.html",
+            "https://www.youtube.com/embed/TC1HFpNaQwI",
+            "https://www.ivoox.com/player_ej_69402216_6_1.html"
+          ],
+          "schedule_assets": [],
+          "day_pages": {},
+          "page_score": 0.57,
+          "confidence": 0.51,
+          "action": "review_partial"
+        },
+        {
+          "url": "https://opaii.blogspot.com/",
+          "ok": true,
+          "format": "html",
+          "via": "homepage",
+          "link_score": 0.2,
+          "days": 2,
+          "times": 7,
+          "gcal": [],
+          "tls_unverified": false,
+          "title": "Rádio FilispiM, libre e comunitaria, 102.3 FM",
+          "scripts": 10,
+          "text_len": 16316,
+          "iframes": [
+            "https://archive.org/embed/EGDC.-32",
+            "https://archive.org/embed/lpa_20261108",
+            "https://archive.org/embed/offmental-161",
+            "https://archive.org/embed/jbmp-175",
+            "https://www.google.com/calendar/embed?showTitle=0&showNav=0&showDate=0&showPrint=0&showTabs=0&showCalendars=0&mode=AGENDA&height=550&wkst=2&hl=pt_BR&bgcolor=%23ffffff&src=bampsvjf1krm35l8regb29ltpk%40group.calendar.google.com&color=%235A6986&src=8a6ma4ihg2cl8uk27jkcaloonk%40group.calendar.google.com&color=%23BE6D00&src=pd72ei5icrnp3e4batd4vjlnss%40group.calendar.google.com&color=%23B1365F&src=filispina%40gmail.com&color=%235229A3&src=krfhvrhst1opheg1okcvb8lbco%40group.calendar.google.com&color=%23AB8B00&src=d5vn7bf37f1u04iar9fvrvj1h8%40group.calendar.google.com&color=%232F6309&src=ilb9p88op5qfl5fk3j99bhcna4%40group.calendar.google.com&color=%23711616&ctz=Europe%2FMadrid"
+          ],
+          "schedule_assets": [],
+          "day_pages": {},
+          "page_score": 0.26,
+          "confidence": 0.24,
+          "action": "review_partial"
+        }
+      ],
+      "failed": [
+        {
+          "url": "https://opaii.blogspot.com/search/label/Programas",
+          "ok": false,
+          "error": "HTTP 429",
+          "via": "link:Programas"
+        },
+        {
+          "url": "https://www.pontevedraviva.com/radio/programa/27/rumboia-pontevedraviva-radio/?lang=es",
+          "ok": false,
+          "error": "HTTP 404",
+          "via": "link:Rumboia"
+        },
+        {
+          "url": "https://opaii.blogspot.com/2026/11/vida-e-obra-de-ernesto-guerra-da-cal_0403484663.html",
+          "ok": false,
+          "error": "HTTP 429",
+          "via": "link:VIDA E OBRA DE ERNESTO GUERRA DA CAL PRO"
+        }
+      ],
+      "homepage_status": 200,
+      "homepage_title": "Rádio FilispiM, libre e comunitaria, 102.3 FM",
       "homepage_suspicious": false,
-      "status": "error",
-      "error": "homepage: HTTP 429",
-      "action": "fix_homepage",
+      "url": "https://opaii.blogspot.com/search/label/O%20Programa%20do%20Colectivo",
+      "format": "html",
+      "confidence": 0.56,
+      "method": "link:O Programa do Colectivo",
+      "days": 4,
+      "times": 22,
+      "tls_unverified": false,
+      "post_like": false,
+      "action": "add_source",
+      "evidence": {
+        "title": "Rádio FilispiM, libre e comunitaria, 102.3 FM: O Programa do Colectivo",
+        "scripts": 10,
+        "text_len": 31522,
+        "iframes": [
+          "https://archive.org/embed/o-faladoiro-17-as-drogas-16-12-25",
+          "https://archive.org/embed/festa-xx-aniv-filispi-m-15-11-2025",
+          "https://archive.org/embed/o-faladoiro-2-12-2025-dereito-a-comunicar",
+          "https://archive.org/embed/o-faladoiro-11-11-2025",
+          "https://archive.org/embed/o-faladoiro-14-intelixencia-artificial-i.-a"
+        ],
+        "schedule_assets": [
+          "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjbPoJjPpkfMI6KFm2yQUAyLKCtpeRkztLUZfAFo9i0wSCtztX-ytZfEqOY71gcDgut905BwI4phORv-1NQc9wfD21JQGqgFpbD3bf8wx3rGS5yEJZQjtO_2LICJj14X5qH3uJH/s640/O+Programa+do+Colectivo.jpg",
+          "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEibCz9eKqamaK29Zghz4xLl1NEHe1ptUauE4XKb6cAUnMq7-Tc6YKyl2r2qIhbqlxmBMCtTuQn6XkTT1DcnZZX78OarTPi7P229thUaYAEZ6kBPLywnBqXYVk0WD9O-8Wkvbglh/s320/O+Programa+do+Colectivo.jpg",
+          "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgRfUVV5IjanzpLGXWIWIBn7zoZLsLFByvLAQVVBtLb7LmY8DMW82Q0HOGbFKAqae5HSSCBDa0WLQ6BMAjBGrbABX2zCGV2awdxxJBjBx2GvKg_h_-5IP2p3ZwNMo0GWfVtqMNr/s1600/O+Programa+do+Colectivo.jpg",
+          "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi0DxdFoMClcfiZoAiw6RWJBe9c-JIpuSlEiUYzpjW1P9KP7TykysTn0MCVphHMLvTcLssAeEcP97x6XDH36TA68GI6HXCq5YpwXMol3fAcnMdQXS7EF7Ovy4HlNYI0BSmJ6nN6/s640/O+Programa+do+Colectivo.jpg",
+          "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjbPoJjPpkfMI6KFm2yQUAyLKCtpeRkztLUZfAFo9i0wSCtztX-ytZfEqOY71gcDgut905BwI4phORv-1NQc9wfD21JQGqgFpbD3bf8wx3rGS5yEJZQjtO_2LICJj14X5qH3uJH/s1600/O+Programa+do+Colectivo.jpg",
+          "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEibCz9eKqamaK29Zghz4xLl1NEHe1ptUauE4XKb6cAUnMq7-Tc6YKyl2r2qIhbqlxmBMCtTuQn6XkTT1DcnZZX78OarTPi7P229thUaYAEZ6kBPLywnBqXYVk0WD9O-8Wkvbglh/s1600/O+Programa+do+Colectivo.jpg"
+        ]
+      },
+      "status": "needs_review",
       "locked": false
     },
     "133": {
@@ -3182,7 +3332,7 @@
     },
     "140": {
       "name": "Radio Piratona",
-      "checked_at": "2026-11-09",
+      "checked_at": "2026-11-10",
       "alternatives": [
         {
           "url": "https://sindominio.net/piratona/images/programas/galiza_metalica.jpg",
@@ -3445,7 +3595,7 @@
     },
     "149": {
       "name": "Alpha Boys School Radio",
-      "checked_at": "2026-11-09",
+      "checked_at": "2026-11-10",
       "alternatives": [],
       "failed": [],
       "homepage_status": 200,
@@ -3556,7 +3706,7 @@
     },
     "146": {
       "name": "Onda Polígono",
-      "checked_at": "2026-11-09",
+      "checked_at": "2026-11-10",
       "alternatives": [
         {
           "url": "https://api-server.ondapoligono.org/api/v1/programa/555ec07a-62cc-41cc-868a-82d91dfbe8c1_1790068882196.png",
@@ -3646,7 +3796,7 @@
     },
     "148": {
       "name": "Hirschmilch Radio",
-      "checked_at": "2026-11-09",
+      "checked_at": "2026-11-10",
       "alternatives": [
         {
           "url": "https://hirschmilch.de/show/dispatched-minds",
@@ -3660,7 +3810,7 @@
           "tls_unverified": false,
           "title": "Dispatched Minds » Hirschmilch.de",
           "scripts": 11,
-          "text_len": 50531,
+          "text_len": 50529,
           "iframes": [],
           "schedule_assets": [],
           "day_pages": {},
@@ -3680,7 +3830,7 @@
           "tls_unverified": false,
           "title": "Nightcap » Hirschmilch.de",
           "scripts": 11,
-          "text_len": 22570,
+          "text_len": 22577,
           "iframes": [],
           "schedule_assets": [],
           "day_pages": {},
@@ -3694,19 +3844,19 @@
           "format": "html",
           "via": "homepage",
           "link_score": 0.2,
-          "days": 3,
-          "times": 19,
+          "days": 4,
+          "times": 21,
           "gcal": [],
           "tls_unverified": false,
           "title": "24/7 Chillout Electronic Hypnotic Organic-House Prog-House Progressive Psytrance Techno Internet Radio Streams » Hirschm",
           "scripts": 11,
-          "text_len": 42591,
+          "text_len": 42600,
           "iframes": [],
           "schedule_assets": [],
           "day_pages": {},
-          "page_score": 0.51,
-          "confidence": 0.4,
-          "action": "review_partial"
+          "page_score": 0.62,
+          "confidence": 0.47,
+          "action": "add_source"
         }
       ],
       "failed": [
@@ -3732,7 +3882,7 @@
       "evidence": {
         "title": "Chill On! » Hirschmilch.de",
         "scripts": 11,
-        "text_len": 31836
+        "text_len": 31843
       },
       "status": "needs_review",
       "locked": false
@@ -3830,7 +3980,7 @@
     },
     "127": {
       "name": "Radio Guiniguada",
-      "checked_at": "2026-11-09",
+      "checked_at": "2026-11-10",
       "alternatives": [
         {
           "url": "https://telegram.me/share/url?url=https%3A%2F%2Fradioguiniguada.com%2Fhorarios%2F&text=Horarios",
@@ -3864,7 +4014,7 @@
           "tls_unverified": false,
           "title": "Facebook",
           "scripts": 98,
-          "text_len": 714,
+          "text_len": 738,
           "iframes": [],
           "schedule_assets": [],
           "day_pages": {},
@@ -3884,7 +4034,7 @@
           "tls_unverified": false,
           "title": "Horarios - Radio Guiniguada | Emisora libre y comunitaria de Canarias",
           "scripts": 42,
-          "text_len": 4319,
+          "text_len": 4320,
           "iframes": [],
           "schedule_assets": [],
           "day_pages": {},
@@ -3916,7 +4066,7 @@
     },
     "144": {
       "name": "Paradigma Radio",
-      "checked_at": "2026-11-09",
+      "checked_at": "2026-11-10",
       "alternatives": [
         {
           "url": "https://www.paradigmaradio.org/radio/",
@@ -4006,12 +4156,11 @@
   "summary": {
     "stations": 75,
     "actions": {
-      "add_source": 18,
+      "add_source": 19,
       "blocked_by_robots": 2,
-      "fix_homepage": 2,
       "manual_ocr": 4,
       "manual_or_email": 13,
-      "manual_review": 2,
+      "manual_review": 3,
       "no_source": 2,
       "ocr_or_manual": 4,
       "render_or_manual": 2,

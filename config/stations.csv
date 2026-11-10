@@ -36,7 +36,7 @@ id,name,countrycode,timezone,homepage,epg_url,epg_file,enabled,mailto
 131,Ovejas Negrax,ES,Europe/Madrid,https://ovejasnegrax.com/,https://sapo.radiobot.org/parrilla_cards.php?station=ovejas,,false,
 132,OMC Onda Merlín Comunitaria,ES,Europe/Madrid,https://omcradio.org/,https://omcradio.org/programacion/,omc-onda-merlin-comunitaria.json,true,
 133,Radio Iris 7,ES,Europe/Madrid,https://radioiris7.es/,https://radioiris7.es/wp-content/uploads/2026/03/Programacion-de-Radio-Iris-7.pdf,radio-iris-7.json,true,
-134,Siberia FM,ES,Europe/Madrid,https://www.siberiafm.com/,,,false,
+134,Siberia FM,ES,Europe/Madrid,https://www.siberiafm.com/,https://www.siberiafm.com/programacion/arcoiris/,,false,
 135,Radio Xata,ES,Europe/Madrid,https://radioxata.org/,https://radioxata.org/parrilla/,radio-xata.json,true,
 136,Radiópolis,ES,Europe/Madrid,https://www.radiopolis.org.es/,,,false,
 137,RTVC Ràdio Televisió Cardedeu,ES,Europe/Madrid,https://rtvc.cat/,,,false,
