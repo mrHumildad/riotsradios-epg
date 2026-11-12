@@ -1,0 +1,82 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Zintzilik Irratia — latest posts",
+  "home_page_url": "https://www.zintzilik.net/",
+  "feed_url": "https://mrhumildad.github.io/riotsradios-epg/feeds/zintzilik-irratia.json",
+  "_station_id": 52,
+  "_station_name": "Zintzilik Irratia",
+  "_source": "https://www.zintzilik.net/feed/",
+  "_generated_at": "2026-11-12T14:19:51.983Z",
+  "items": [
+    {
+      "id": "https://www.zintzilik.net/?p=4044",
+      "url": "https://www.zintzilik.net/2026/11/12/kapaza-26/",
+      "title": "Kapaza 26",
+      "content_text": "Kapaza 26",
+      "date_published": "2026-11-12T07:42:21.000Z"
+    },
+    {
+      "id": "https://www.zintzilik.net/?p=4035",
+      "url": "https://www.zintzilik.net/2026/11/04/a11-greba-orokorra-irratsaio-berezia/",
+      "title": "A11 GREBA OROKORRA – Irratsaio berezia",
+      "content_text": "A11 GREBA OROKORRA – Irratsaio berezia",
+      "date_published": "2026-11-04T16:18:52.000Z"
+    },
+    {
+      "id": "https://www.zintzilik.net/?p=4032",
+      "url": "https://www.zintzilik.net/2026/11/04/erretegi-4-nov-2026/",
+      "title": "Erretegi 4 Nov 2026",
+      "content_text": "Erretegi 4 Nov 2026",
+      "date_published": "2026-11-04T13:46:25.000Z"
+    },
+    {
+      "id": "https://www.zintzilik.net/?p=4030",
+      "url": "https://www.zintzilik.net/2026/11/04/desfase-lunar-3-nov-2026/",
+      "title": "Desfase Lunar 3 Nov 2026",
+      "content_text": "Desfase Lunar 3 Nov 2026",
+      "date_published": "2026-11-04T13:43:51.000Z"
+    },
+    {
+      "id": "https://www.zintzilik.net/?p=4024",
+      "url": "https://www.zintzilik.net/2026/11/01/aldapa-c-3d02-palestina-beti-gogoan/",
+      "title": "Aldapa C #3D02 Palestina beti gogoan",
+      "content_text": "Aldapa C #3D02 Palestina beti gogoan",
+      "date_published": "2026-11-01T12:04:21.000Z"
+    },
+    {
+      "id": "https://www.zintzilik.net/?p=4022",
+      "url": "https://www.zintzilik.net/2026/10/28/erretegi-28-octubre-2026/",
+      "title": "Erretegi 28 Octubre 2026",
+      "content_text": "Erretegi 28 Octubre 2026",
+      "date_published": "2026-10-28T10:22:24.000Z"
+    },
+    {
+      "id": "https://www.zintzilik.net/?p=4020",
+      "url": "https://www.zintzilik.net/2026/10/28/desfase-lunar-27-de-octubre-de-2026/",
+      "title": "Desfase Lunar 27 de octubre de 2026",
+      "content_text": "Desfase Lunar 27 de octubre de 2026",
+      "date_published": "2026-10-28T10:19:36.000Z"
+    },
+    {
+      "id": "https://www.zintzilik.net/?p=3955",
+      "url": "https://www.zintzilik.net/2026/10/21/kapaza-25/",
+      "title": "Kapaza 25",
+      "content_text": "Kapaza 25",
+      "date_published": "2026-10-21T10:37:52.000Z"
+    },
+    {
+      "id": "https://www.zintzilik.net/?p=3952",
+      "url": "https://www.zintzilik.net/2026/10/21/erretegi-21-octubre-2026/",
+      "title": "Erretegi 21 Octubre 2026",
+      "content_text": "Erretegi 21 Octubre 2026",
+      "date_published": "2026-10-21T03:31:12.000Z"
+    },
+    {
+      "id": "https://www.zintzilik.net/?p=3950",
+      "url": "https://www.zintzilik.net/2026/10/21/desfase-lunar-20-oct-2026/",
+      "title": "Desfase Lunar 20 Oct 2026",
+      "content_text": "Desfase Lunar 20 Oct 2026",
+      "date_published": "2026-10-21T03:21:57.000Z"
+    }
+  ]
+}

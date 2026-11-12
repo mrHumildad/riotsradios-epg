@@ -1,0 +1,19 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "AppRadio — latest posts",
+  "home_page_url": "http://appradio.cl",
+  "feed_url": "https://mrhumildad.github.io/riotsradios-epg/feeds/appradio.json",
+  "_station_id": 121,
+  "_station_name": "AppRadio",
+  "_source": "https://appradio.cl/feed/",
+  "_generated_at": "2026-11-12T14:19:54.725Z",
+  "items": [
+    {
+      "id": "https://www.appradio.cl/?p=1",
+      "url": "https://appradio.cl/hola-mundo/",
+      "title": "¡Hola mundo!",
+      "content_text": "¡Hola mundo!",
+      "date_published": "2021-09-17T22:01:54.000Z"
+    }
+  ]
+}

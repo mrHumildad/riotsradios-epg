@@ -1,0 +1,82 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Aconchego — latest posts",
+  "home_page_url": "https://radioaconchego.milharal.org",
+  "feed_url": "https://mrhumildad.github.io/riotsradios-epg/feeds/aconchego.json",
+  "_station_id": 38,
+  "_station_name": "Aconchego",
+  "_source": "https://radioaconchego.milharal.org/feed/",
+  "_generated_at": "2026-11-12T14:19:51.957Z",
+  "items": [
+    {
+      "id": "https://radioaconchego.milharal.org/?p=4376",
+      "url": "https://radioaconchego.milharal.org/exotica-indica-10/",
+      "title": "Exótica Indica",
+      "content_text": "Exótica Indica",
+      "date_published": "2025-05-28T17:18:43.000Z"
+    },
+    {
+      "id": "https://radioaconchego.milharal.org/?p=4368",
+      "url": "https://radioaconchego.milharal.org/exotica-indica-9/",
+      "title": "Exótica Indica",
+      "content_text": "Exótica Indica",
+      "date_published": "2025-04-28T14:34:18.000Z"
+    },
+    {
+      "id": "https://radioaconchego.milharal.org/?p=4359",
+      "url": "https://radioaconchego.milharal.org/exotica-indica-8/",
+      "title": "Exótica Indica",
+      "content_text": "Exótica Indica",
+      "date_published": "2025-03-21T13:45:12.000Z"
+    },
+    {
+      "id": "https://radioaconchego.milharal.org/?p=4350",
+      "url": "https://radioaconchego.milharal.org/exotica-indica-7/",
+      "title": "Exótica Indica",
+      "content_text": "Exótica Indica",
+      "date_published": "2025-01-28T19:33:12.000Z"
+    },
+    {
+      "id": "https://radioaconchego.milharal.org/?p=4346",
+      "url": "https://radioaconchego.milharal.org/exotica-indica-6/",
+      "title": "Exótica Indica",
+      "content_text": "Exótica Indica",
+      "date_published": "2024-11-26T17:56:08.000Z"
+    },
+    {
+      "id": "https://radioaconchego.milharal.org/?p=4339",
+      "url": "https://radioaconchego.milharal.org/exotica-indica-5/",
+      "title": "Exótica Indica",
+      "content_text": "Exótica Indica",
+      "date_published": "2024-11-07T18:23:12.000Z"
+    },
+    {
+      "id": "https://radioaconchego.milharal.org/?p=4333",
+      "url": "https://radioaconchego.milharal.org/algumas-atualizacoes/",
+      "title": "Algumas atualizações…",
+      "content_text": "Algumas atualizações…",
+      "date_published": "2024-10-25T16:05:01.000Z"
+    },
+    {
+      "id": "https://radioaconchego.milharal.org/?p=4329",
+      "url": "https://radioaconchego.milharal.org/exotica-indica-4/",
+      "title": "Exótica Indica",
+      "content_text": "Exótica Indica",
+      "date_published": "2024-10-17T17:35:44.000Z"
+    },
+    {
+      "id": "https://radioaconchego.milharal.org/?p=4318",
+      "url": "https://radioaconchego.milharal.org/exotica-indica-3/",
+      "title": "Exótica Indica",
+      "content_text": "Exótica Indica",
+      "date_published": "2024-09-24T12:46:14.000Z"
+    },
+    {
+      "id": "https://radioaconchego.milharal.org/?p=4306",
+      "url": "https://radioaconchego.milharal.org/exotica-indica-2/",
+      "title": "Exótica Indica",
+      "content_text": "Exótica Indica",
+      "date_published": "2024-08-29T23:34:50.000Z"
+    }
+  ]
+}

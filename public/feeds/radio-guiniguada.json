@@ -1,0 +1,82 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Radio Guiniguada — latest posts",
+  "home_page_url": "https://radioguiniguada.com/",
+  "feed_url": "https://mrhumildad.github.io/riotsradios-epg/feeds/radio-guiniguada.json",
+  "_station_id": 127,
+  "_station_name": "Radio Guiniguada",
+  "_source": "https://radioguiniguada.com/feed/",
+  "_generated_at": "2026-11-12T14:19:57.997Z",
+  "items": [
+    {
+      "id": "https://radioguiniguada.com/?p=14063",
+      "url": "https://radioguiniguada.com/2026/11/12/nos-dejaron-el-muerto/?utm_source=rss&utm_medium=rss&utm_campaign=nos-dejaron-el-muerto",
+      "title": "Nos dejaron el muerto",
+      "content_text": "Nos dejaron el muerto",
+      "date_published": "2026-11-12T08:00:00.000Z"
+    },
+    {
+      "id": "https://radioguiniguada.com/?p=14067",
+      "url": "https://radioguiniguada.com/2026/11/12/huelga-11n-canarias-alza-la-voz-por-sus-derechos/?utm_source=rss&utm_medium=rss&utm_campaign=huelga-11n-canarias-alza-la-voz-por-sus-derechos",
+      "title": "Huelga 11N: Canarias alza la voz por sus derechos",
+      "content_text": "Huelga 11N: Canarias alza la voz por sus derechos",
+      "date_published": "2026-11-12T07:13:00.000Z"
+    },
+    {
+      "id": "https://radioguiniguada.com/?p=14056",
+      "url": "https://radioguiniguada.com/2026/11/11/se-nos-fue-el-baifo-11-noviembre-2026/?utm_source=rss&utm_medium=rss&utm_campaign=se-nos-fue-el-baifo-11-noviembre-2026",
+      "title": "Se Nos Fue el Baifo, 11 Noviembre 2026",
+      "content_text": "Se Nos Fue el Baifo, 11 Noviembre 2026",
+      "date_published": "2026-11-11T07:58:00.000Z"
+    },
+    {
+      "id": "https://radioguiniguada.com/?p=14045",
+      "url": "https://radioguiniguada.com/2026/11/09/se-nos-fue-el-baifo-9-noviembre-2026/?utm_source=rss&utm_medium=rss&utm_campaign=se-nos-fue-el-baifo-9-noviembre-2026",
+      "title": "Se Nos Fue el Baifo, 9 Noviembre 2026",
+      "content_text": "Se Nos Fue el Baifo, 9 Noviembre 2026",
+      "date_published": "2026-11-09T07:00:00.000Z"
+    },
+    {
+      "id": "https://radioguiniguada.com/?p=14019",
+      "url": "https://radioguiniguada.com/2026/11/06/se-nos-fue-el-baifo-06-noviembre-2026/?utm_source=rss&utm_medium=rss&utm_campaign=se-nos-fue-el-baifo-06-noviembre-2026",
+      "title": "Se Nos Fue el Baifo, 06 Noviembre 2026",
+      "content_text": "Se Nos Fue el Baifo, 06 Noviembre 2026",
+      "date_published": "2026-11-06T07:24:00.000Z"
+    },
+    {
+      "id": "https://radioguiniguada.com/?p=14013",
+      "url": "https://radioguiniguada.com/2026/11/04/se-nos-fue-el-baifo-04-noviembre-2026/?utm_source=rss&utm_medium=rss&utm_campaign=se-nos-fue-el-baifo-04-noviembre-2026",
+      "title": "Se Nos Fue el Baifo, 04 Noviembre 2026",
+      "content_text": "Se Nos Fue el Baifo, 04 Noviembre 2026",
+      "date_published": "2026-11-04T08:16:00.000Z"
+    },
+    {
+      "id": "https://radioguiniguada.com/?p=14031",
+      "url": "https://radioguiniguada.com/2026/11/03/sahara-occidental-minurso-onu-canarias/?utm_source=rss&utm_medium=rss&utm_campaign=sahara-occidental-minurso-onu-canarias",
+      "title": "Sáhara Occidental: la ONU se retira, el conflicto permanece",
+      "content_text": "Sáhara Occidental: la ONU se retira, el conflicto permanece",
+      "date_published": "2026-11-03T10:01:00.000Z"
+    },
+    {
+      "id": "https://radioguiniguada.com/?p=14007",
+      "url": "https://radioguiniguada.com/2026/11/02/se-nos-fue-el-baifo-02-noviembre-2026/?utm_source=rss&utm_medium=rss&utm_campaign=se-nos-fue-el-baifo-02-noviembre-2026",
+      "title": "Se Nos Fue el Baifo, 02 Noviembre 2026",
+      "content_text": "Se Nos Fue el Baifo, 02 Noviembre 2026",
+      "date_published": "2026-11-02T08:10:00.000Z"
+    },
+    {
+      "id": "https://radioguiniguada.com/?p=13984",
+      "url": "https://radioguiniguada.com/2026/10/30/se-nos-fue-el-baifo-30-octubre-2026/?utm_source=rss&utm_medium=rss&utm_campaign=se-nos-fue-el-baifo-30-octubre-2026",
+      "title": "Se Nos Fue el Baifo, 30 Octubre 2026",
+      "content_text": "Se Nos Fue el Baifo, 30 Octubre 2026",
+      "date_published": "2026-10-30T08:06:00.000Z"
+    },
+    {
+      "id": "https://radioguiniguada.com/?p=13965",
+      "url": "https://radioguiniguada.com/2026/10/28/se-nos-fue-el-baifo-28-octubre-2026/?utm_source=rss&utm_medium=rss&utm_campaign=se-nos-fue-el-baifo-28-octubre-2026",
+      "title": "Se Nos Fue el Baifo, 28 Octubre 2026",
+      "content_text": "Se Nos Fue el Baifo, 28 Octubre 2026",
+      "date_published": "2026-10-28T06:39:00.000Z"
+    }
+  ]
+}

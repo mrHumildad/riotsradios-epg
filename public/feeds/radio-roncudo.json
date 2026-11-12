@@ -1,0 +1,82 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Radio Roncudo — latest posts",
+  "home_page_url": "https://radioroncudo.wordpress.com/",
+  "feed_url": "https://mrhumildad.github.io/riotsradios-epg/feeds/radio-roncudo.json",
+  "_station_id": 143,
+  "_station_name": "Radio Roncudo",
+  "_source": "https://radioroncudo.wordpress.com/feed/",
+  "_generated_at": "2026-11-12T14:19:56.901Z",
+  "items": [
+    {
+      "id": "http://radioroncudo.wordpress.com/?p=1184",
+      "url": "https://radioroncudo.wordpress.com/2026/01/03/estamos-na-casa-do-mar/",
+      "title": "Estamos na Casa do Mar",
+      "content_text": "Estamos na Casa do Mar",
+      "date_published": "2026-01-03T11:19:11.000Z"
+    },
+    {
+      "id": "http://radioroncudo.wordpress.com/?p=1174",
+      "url": "https://radioroncudo.wordpress.com/2025/10/27/la-hora-del-comejen-do-25-de-outubro/",
+      "title": "La Hora del Comején do 25 de outubro",
+      "content_text": "La Hora del Comején do 25 de outubro",
+      "date_published": "2025-10-27T20:11:16.000Z"
+    },
+    {
+      "id": "http://radioroncudo.wordpress.com/?p=1168",
+      "url": "https://radioroncudo.wordpress.com/2025/10/20/tempada-25-26/",
+      "title": "Tempada 25/26",
+      "content_text": "Tempada 25/26",
+      "date_published": "2025-10-20T09:16:31.000Z"
+    },
+    {
+      "id": "http://radioroncudo.wordpress.com/?p=1162",
+      "url": "https://radioroncudo.wordpress.com/2025/09/25/a-radio-emite-baixo-un-protocolo-seguro/",
+      "title": "A radio emite baixo un protocolo seguro",
+      "content_text": "A radio emite baixo un protocolo seguro",
+      "date_published": "2025-09-25T07:34:55.000Z"
+    },
+    {
+      "id": "http://radioroncudo.wordpress.com/?p=1140",
+      "url": "https://radioroncudo.wordpress.com/2024/03/17/foi-radio/",
+      "title": "Foi radio",
+      "content_text": "Foi radio",
+      "date_published": "2024-03-17T22:45:55.000Z"
+    },
+    {
+      "id": "http://radioroncudo.wordpress.com/?p=1129",
+      "url": "https://radioroncudo.wordpress.com/2024/01/22/a-avv-precisa-da-tua-axuda/",
+      "title": "A Avv precisa da túa axuda",
+      "content_text": "A Avv precisa da túa axuda",
+      "date_published": "2024-01-22T08:40:53.000Z"
+    },
+    {
+      "id": "http://radioroncudo.wordpress.com/?p=1121",
+      "url": "https://radioroncudo.wordpress.com/2024/01/03/formas-de-escoitar-radio-roncudo/",
+      "title": "Formas de escoitar Radio Roncudo",
+      "content_text": "Formas de escoitar Radio Roncudo",
+      "date_published": "2024-01-03T20:59:04.000Z"
+    },
+    {
+      "id": "http://radioroncudo.wordpress.com/?p=1112",
+      "url": "https://radioroncudo.wordpress.com/2023/12/04/onda-pesquera-premio/",
+      "title": "Onda pesquera volta ser recoñecido, unha vez máis pola súa labor de difusión da pesca",
+      "content_text": "Onda pesquera volta ser recoñecido, unha vez máis pola súa labor de difusión da pesca",
+      "date_published": "2023-12-04T10:18:47.000Z"
+    },
+    {
+      "id": "http://radioroncudo.wordpress.com/?p=1107",
+      "url": "https://radioroncudo.wordpress.com/2023/11/01/indiere-esta-semana-dende-croacia/",
+      "title": "Indiere esta semana dende Croacia",
+      "content_text": "Indiere esta semana dende Croacia",
+      "date_published": "2023-11-01T09:49:08.000Z"
+    },
+    {
+      "id": "http://radioroncudo.wordpress.com/?p=1104",
+      "url": "https://radioroncudo.wordpress.com/2023/10/14/indiere-dende-eslovenia/",
+      "title": "Indiere dende Eslovenia",
+      "content_text": "Indiere dende Eslovenia",
+      "date_published": "2023-10-14T15:19:23.000Z"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Ágora Sol Radio — latest posts",
+  "home_page_url": "https://www.agorasolradio.org/",
+  "feed_url": "https://mrhumildad.github.io/riotsradios-epg/feeds/agora-sol-radio.json",
+  "_station_id": 142,
+  "_station_name": "Ágora Sol Radio",
+  "_source": "https://www.agorasolradio.org/feed/",
+  "_generated_at": "2026-11-12T14:19:56.683Z",
+  "items": [
+    {
+      "id": "https://www.agorasolradio.org/?post_type=episode&p=25944",
+      "url": "https://www.agorasolradio.org/podcast/la-contratertulia/no-clxxviii-accidente-tren-urda-campana-electoral-otros-temas-actualidad/",
+      "title": "Nº CLXXVIII Accidente tren Urda // Campaña electoral // Otros temas actualidad",
+      "content_text": "Nº CLXXVIII Accidente tren Urda // Campaña electoral // Otros temas actualidad",
+      "date_published": "2026-11-11T07:21:38.000Z"
+    },
+    {
+      "id": "https://www.agorasolradio.org/?post_type=episode&p=25943",
+      "url": "https://www.agorasolradio.org/podcast/sangrefucsia/274-manual-de-instrucciones-para-una-salud-imposible/",
+      "title": "274 – Manual de instrucciones para una salud imposible",
+      "content_text": "274 – Manual de instrucciones para una salud imposible",
+      "date_published": "2026-11-10T11:01:10.000Z"
+    },
+    {
+      "id": "https://www.agorasolradio.org/?post_type=episode&p=25935",
+      "url": "https://www.agorasolradio.org/podcast/zonadelmetal/hoy-con-arsen-x-buen-heavy-metal-madrileno/",
+      "title": "hoy con arsen x ,buen heavy metal madrileño",
+      "content_text": "hoy con arsen x ,buen heavy metal madrileño",
+      "date_published": "2026-11-10T07:30:55.000Z"
+    },
+    {
+      "id": "https://www.agorasolradio.org/?post_type=episode&p=25926",
+      "url": "https://www.agorasolradio.org/podcast/agora-sesion-kasual/rock-sureno-la-esencia-del-alma-libre-parte-2/",
+      "title": "Rock Sureño: La esencia del alma libre (parte 2)",
+      "content_text": "Rock Sureño: La esencia del alma libre (parte 2)",
+      "date_published": "2026-11-09T10:00:00.000Z"
+    },
+    {
+      "id": "https://www.agorasolradio.org/?post_type=episode&p=25927",
+      "url": "https://www.agorasolradio.org/podcast/estrellas-de-metal/prog-281-analizamos-vltreia-de-argion-festivales-tal-dia-como-hoy-con-queen/",
+      "title": "PROG 281 – Analizamos Vltreia de Argion. Festivales. Tal día como Hoy con Queen.",
+      "content_text": "PROG 281 – Analizamos Vltreia de Argion. Festivales. Tal día como Hoy con Queen.",
+      "date_published": "2026-11-09T09:56:16.000Z"
+    },
+    {
+      "id": "https://www.agorasolradio.org/?post_type=episode&p=25929",
+      "url": "https://www.agorasolradio.org/podcast/espaciocomun15m/el-problema-de-la-vivienda-viene-de-lejos-y-el-11n-todos-y-todas-a-la-huelga-general/",
+      "title": "El problema de la Vivienda viene de lejos y el 11N todos y todas a la Huelga General",
+      "content_text": "El problema de la Vivienda viene de lejos y el 11N todos y todas a la Huelga General",
+      "date_published": "2026-11-08T18:43:38.000Z"
+    },
+    {
+      "id": "https://www.agorasolradio.org/?post_type=episode&p=25923",
+      "url": "https://www.agorasolradio.org/podcast/especiales/hacia-la-huelga-general-del-11n-desde-la-casa-del-barrio-de-carabanchel/",
+      "title": "Hacia la Huelga General del 11N – Desde La Casa del Barrio de Carabanchel",
+      "content_text": "Hacia la Huelga General del 11N – Desde La Casa del Barrio de Carabanchel",
+      "date_published": "2026-11-07T16:47:51.000Z"
+    },
+    {
+      "id": "https://www.agorasolradio.org/?post_type=episode&p=25919",
+      "url": "https://www.agorasolradio.org/podcast/espaciocomun15m/fueron-las-marchas-de-la-dignidad-ahora-son-el-movimiento-dignidad-todo-evoluciona/",
+      "title": "Fueron las Marchas de la Dignidad, ahora son el Movimiento Dignidad. Todo evoluciona",
+      "content_text": "Fueron las Marchas de la Dignidad, ahora son el Movimiento Dignidad. Todo evoluciona",
+      "date_published": "2026-11-07T16:13:48.000Z"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Radiópolis — latest posts",
+  "home_page_url": "https://www.radiopolis.org.es/",
+  "feed_url": "https://mrhumildad.github.io/riotsradios-epg/feeds/radiopolis.json",
+  "_station_id": 136,
+  "_station_name": "Radiópolis",
+  "_source": "https://www.radiopolis.org.es/feed/",
+  "_generated_at": "2026-11-12T14:19:55.869Z",
+  "items": [
+    {
+      "id": "https://www.radiopolis.org.es/?p=3827",
+      "url": "https://www.radiopolis.org.es/jornadas-anuales-de-onda-local-de-andalucia-ema-rtv/",
+      "title": "Jornadas anuales de Onda Local de Andalucía, EMA RTV",
+      "content_text": "Jornadas anuales de Onda Local de Andalucía, EMA RTV",
+      "date_published": "2023-11-13T17:21:31.000Z"
+    },
+    {
+      "id": "https://www.radiopolis.org.es/?p=3799",
+      "url": "https://www.radiopolis.org.es/cena-solidaria-en-hallowen/",
+      "title": "Cena Solidaria en Hallowen",
+      "content_text": "Cena Solidaria en Hallowen",
+      "date_published": "2023-10-30T16:49:19.000Z"
+    },
+    {
+      "id": "https://www.radiopolis.org.es/?p=3718",
+      "url": "https://www.radiopolis.org.es/solo-teatro-inicio-segunda-temporada/",
+      "title": "Sólo Teatro - Inicio Segunda Temporada",
+      "content_text": "Sólo Teatro - Inicio Segunda Temporada",
+      "date_published": "2023-10-04T22:27:39.000Z"
+    },
+    {
+      "id": "https://www.radiopolis.org.es/?p=3712",
+      "url": "https://www.radiopolis.org.es/eden-serrano-de-aqui-no-sale/",
+      "title": "Edén Serrano - De Aquí No Sale",
+      "content_text": "Edén Serrano - De Aquí No Sale",
+      "date_published": "2023-10-04T20:18:15.000Z"
+    },
+    {
+      "id": "https://www.radiopolis.org.es/?p=3691",
+      "url": "https://www.radiopolis.org.es/iii-encuentro-estatal-mujeres-radiantes/",
+      "title": "III Encuentro Estatal: MUJERES RADIANTES",
+      "content_text": "III Encuentro Estatal: MUJERES RADIANTES",
+      "date_published": "2023-09-20T12:00:00.000Z"
+    },
+    {
+      "id": "https://www.radiopolis.org.es/?p=3533",
+      "url": "https://www.radiopolis.org.es/sonidos-armonizadores-para-tu-bienestar/",
+      "title": "Sonidos Armonizadores para Tu Bienestar",
+      "content_text": "Sonidos Armonizadores para Tu Bienestar",
+      "date_published": "2023-06-29T23:14:22.000Z"
+    },
+    {
+      "id": "https://www.radiopolis.org.es/?p=3450",
+      "url": "https://www.radiopolis.org.es/justicia-atomica-y-el-tratado-de-las-4-lecciones-karmikas/",
+      "title": "Justicia Atómica y el Tratado de las 4 lecciones Kármikas",
+      "content_text": "Justicia Atómica y el Tratado de las 4 lecciones Kármikas",
+      "date_published": "2023-06-01T10:21:24.000Z"
+    },
+    {
+      "id": "https://www.radiopolis.org.es/?p=3427",
+      "url": "https://www.radiopolis.org.es/ciberencuentro-productores/",
+      "title": "Ciberencuentro Productores",
+      "content_text": "Ciberencuentro Productores",
+      "date_published": "2023-05-10T17:10:27.000Z"
+    },
+    {
+      "id": "https://www.radiopolis.org.es/?p=3389",
+      "url": "https://www.radiopolis.org.es/comida-solidaria-30-abril-restaurante-mocka-tomares-sevilla/",
+      "title": "Comida Solidaria. 30 Abril Restaurante MOCKA. Tomares-Sevilla.",
+      "content_text": "Comida Solidaria. 30 Abril Restaurante MOCKA. Tomares-Sevilla.",
+      "date_published": "2023-04-27T17:15:18.000Z"
+    },
+    {
+      "id": "https://www.radiopolis.org.es/?p=3359",
+      "url": "https://www.radiopolis.org.es/radio-asana-02x03-eso-es-una-mina/",
+      "title": "Radio ASANA 02x03; \"¿Eso es una mina?\" con Félix Talego, Maika Zampier y Juan Ernesto Peña. ¡Andalucía al habla!",
+      "content_text": "Radio ASANA 02x03; \"¿Eso es una mina?\" con Félix Talego, Maika Zampier y Juan Ernesto Peña. ¡Andalucía al habla!",
+      "date_published": "2023-03-15T17:00:00.000Z"
+    }
+  ]
+}

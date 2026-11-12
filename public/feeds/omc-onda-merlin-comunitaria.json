@@ -1,0 +1,82 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "OMC Onda Merlín Comunitaria — latest posts",
+  "home_page_url": "https://omcradio.org/",
+  "feed_url": "https://mrhumildad.github.io/riotsradios-epg/feeds/omc-onda-merlin-comunitaria.json",
+  "_station_id": 132,
+  "_station_name": "OMC Onda Merlín Comunitaria",
+  "_source": "https://omcradio.org/feed/",
+  "_generated_at": "2026-11-12T14:19:55.557Z",
+  "items": [
+    {
+      "id": "http://omcradio.org/?p=22403",
+      "url": "https://omcradio.org/campana-de-cursos-de-radio-otonojoven2026/",
+      "title": "Campaña de cursos de Radio #OtoñoJoven2026",
+      "content_text": "Campaña de cursos de Radio #OtoñoJoven2026",
+      "date_published": "2026-07-09T11:50:57.000Z"
+    },
+    {
+      "id": "http://omcradio.org/?p=22341",
+      "url": "https://omcradio.org/campana-de-cursos-de-radio-veranojoven2026/",
+      "title": "Campaña de cursos de Radio #VeranoJoven2026",
+      "content_text": "Campaña de cursos de Radio #VeranoJoven2026",
+      "date_published": "2026-05-28T15:07:04.000Z"
+    },
+    {
+      "id": "http://omcradio.org/?p=22143",
+      "url": "https://omcradio.org/quedat2026/",
+      "title": "Jóvenes del QuedaT hacen radio hablando de deportes, música y relaciones",
+      "content_text": "Jóvenes del QuedaT hacen radio hablando de deportes, música y relaciones",
+      "date_published": "2026-03-16T22:08:59.000Z"
+    },
+    {
+      "id": "http://omcradio.org/?p=22118",
+      "url": "https://omcradio.org/campana-de-cursos-de-radio-primaverajoven2026/",
+      "title": "Campaña de cursos de Radio #PrimaveraJoven2026",
+      "content_text": "Campaña de cursos de Radio #PrimaveraJoven2026",
+      "date_published": "2026-03-09T17:02:12.000Z"
+    },
+    {
+      "id": "http://omcradio.org/?p=22045",
+      "url": "https://omcradio.org/no-es-dificil-comunicarse-con-un-adolescente/",
+      "title": "Onda Salud: No es difícil comunicarse con un adolescente",
+      "content_text": "Onda Salud: No es difícil comunicarse con un adolescente",
+      "date_published": "2026-01-19T11:58:52.000Z"
+    },
+    {
+      "id": "http://omcradio.org/?p=22016",
+      "url": "https://omcradio.org/omc-radio-lanza-cosmopolitas/",
+      "title": "OMC Radio lanza Cosmopolitas: un nuevo espacio que unirá cultura y temas sociales entre España y Latinoamérica",
+      "content_text": "OMC Radio lanza Cosmopolitas: un nuevo espacio que unirá cultura y temas sociales entre España y Latinoamérica",
+      "date_published": "2025-12-19T10:15:45.000Z"
+    },
+    {
+      "id": "http://omcradio.org/?p=22008",
+      "url": "https://omcradio.org/alimentando_cierre/",
+      "title": "Alimentando la Igualdad: voces y aprendizajes en el cierre del proyecto",
+      "content_text": "Alimentando la Igualdad: voces y aprendizajes en el cierre del proyecto",
+      "date_published": "2025-12-18T14:06:46.000Z"
+    },
+    {
+      "id": "http://omcradio.org/?p=21991",
+      "url": "https://omcradio.org/este-taller-de-creacion-de-podcast-gratuito-es-para-ti/",
+      "title": "¡Este taller de Creación de podcast gratuito es para ti!",
+      "content_text": "¡Este taller de Creación de podcast gratuito es para ti!",
+      "date_published": "2025-12-06T20:11:49.000Z"
+    },
+    {
+      "id": "http://omcradio.org/?p=21979",
+      "url": "https://omcradio.org/villaverde-contra-las-violencias-machistas-un-25n-muy-participativo/",
+      "title": "VILLAVERDE CONTRA LAS VIOLENCIAS MACHISTAS: UN 25N MUY PARTICIPATIVO",
+      "content_text": "VILLAVERDE CONTRA LAS VIOLENCIAS MACHISTAS: UN 25N MUY PARTICIPATIVO",
+      "date_published": "2025-12-06T19:40:03.000Z"
+    },
+    {
+      "id": "http://omcradio.org/?p=21971",
+      "url": "https://omcradio.org/encuentro-intergeneracional-un-dialogo-sobre-bullying-educacion-y-violencia-de-genero/",
+      "title": "Encuentro Intergeneracional: un diálogo sobre bullying, educación y violencia de género",
+      "content_text": "Encuentro Intergeneracional: un diálogo sobre bullying, educación y violencia de género",
+      "date_published": "2025-11-25T12:19:43.000Z"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Paradigma Radio — latest posts",
+  "home_page_url": "https://www.paradigmaradio.org/",
+  "feed_url": "https://mrhumildad.github.io/riotsradios-epg/feeds/paradigma-radio.json",
+  "_station_id": 144,
+  "_station_name": "Paradigma Radio",
+  "_source": "https://www.paradigmaradio.org/feed/",
+  "_generated_at": "2026-11-12T14:19:59.687Z",
+  "items": [
+    {
+      "id": "https://www.paradigmaradio.org/?p=52317",
+      "url": "https://www.paradigmaradio.org/la-novela-del-presente/",
+      "title": "La novela del presente",
+      "content_text": "La novela del presente",
+      "date_published": "2026-11-12T08:00:00.000Z"
+    },
+    {
+      "id": "https://www.paradigmaradio.org/?p=52307",
+      "url": "https://www.paradigmaradio.org/quinto-que-tal-como-estamos-de-la-temporada-26-27-en-el-90-2-de-la-fm-paradigma-radio/",
+      "title": "¡¡¡Quinto “Qué tal, como estamos” de la temporada 26-27!!!! EN EL 90.2 DE LA FM: PARADIGMA RADIO.",
+      "content_text": "¡¡¡Quinto “Qué tal, como estamos” de la temporada 26-27!!!! EN EL 90.2 DE LA FM: PARADIGMA RADIO.",
+      "date_published": "2026-11-10T16:20:00.000Z"
+    },
+    {
+      "id": "https://www.paradigmaradio.org/?p=52283",
+      "url": "https://www.paradigmaradio.org/el-eco-de-la-voz-de-rene-lafont-en-domingos-laicos/",
+      "title": "El eco de la voz de René Lafont, en “Domingos laicos”",
+      "content_text": "El eco de la voz de René Lafont, en “Domingos laicos”",
+      "date_published": "2026-11-08T12:00:00.000Z"
+    },
+    {
+      "id": "https://www.paradigmaradio.org/?p=52299",
+      "url": "https://www.paradigmaradio.org/sueldos-de-hambre-techos-de-lujo-11n-huelga-general/",
+      "title": "Sueldos de hambre, techos de lujo: 11N, huelga general",
+      "content_text": "Sueldos de hambre, techos de lujo: 11N, huelga general",
+      "date_published": "2026-11-05T19:28:49.000Z"
+    },
+    {
+      "id": "https://www.paradigmaradio.org/?p=52290",
+      "url": "https://www.paradigmaradio.org/entre-la-evidencia-y-la-accion-politica-para-que-sirven-las-ciencias-sociales/",
+      "title": "Entre la evidencia y la acción política, ¿para qué sirven las ciencias sociales?",
+      "content_text": "Entre la evidencia y la acción política, ¿para qué sirven las ciencias sociales?",
+      "date_published": "2026-11-05T08:00:00.000Z"
+    },
+    {
+      "id": "https://www.paradigmaradio.org/?p=52278",
+      "url": "https://www.paradigmaradio.org/nuevo-programa-de-ciencia-radiante-05x02-los-nobel-de-este-ano-molan-un-monton/",
+      "title": "Nuevo programa de Ciencia Radiante: 05×02 – Los Nobel de este año MOLan un montón",
+      "content_text": "Nuevo programa de Ciencia Radiante: 05×02 – Los Nobel de este año MOLan un montón",
+      "date_published": "2026-11-03T11:09:59.000Z"
+    },
+    {
+      "id": "https://www.paradigmaradio.org/?p=52272",
+      "url": "https://www.paradigmaradio.org/la-profecia-autocumplida-seguridad-seguridad-y-seguridad/",
+      "title": "La profecía autocumplida: seguridad, seguridad y seguridad",
+      "content_text": "La profecía autocumplida: seguridad, seguridad y seguridad",
+      "date_published": "2026-11-03T08:00:00.000Z"
+    },
+    {
+      "id": "https://www.paradigmaradio.org/?p=52262",
+      "url": "https://www.paradigmaradio.org/aqui-tienes-el-que-tal-como-estamos-del-pasado-15-de-octubre-de-2026/",
+      "title": "Aquí tienes el “¡¿Qué tal, cómo estamos?!” del pasado 15 de octubre de 2026",
+      "content_text": "Aquí tienes el “¡¿Qué tal, cómo estamos?!” del pasado 15 de octubre de 2026",
+      "date_published": "2026-11-01T18:00:32.000Z"
+    },
+    {
+      "id": "https://www.paradigmaradio.org/?p=52245",
+      "url": "https://www.paradigmaradio.org/domingos-laicos-rememora-el-programa-no-hay-dios-probablemente-con-manuel-saco/",
+      "title": "«Domingos Laicos» rememora el programa «No hay Dios (probablemente)», con Manuel Saco",
+      "content_text": "«Domingos Laicos» rememora el programa «No hay Dios (probablemente)», con Manuel Saco",
+      "date_published": "2026-11-01T12:00:00.000Z"
+    },
+    {
+      "id": "https://www.paradigmaradio.org/?p=52257",
+      "url": "https://www.paradigmaradio.org/segundo-paradigma-saludable-de-la-temporada/",
+      "title": "¡Segundo «Paradigma Saludable» de la temporada!",
+      "content_text": "¡Segundo «Paradigma Saludable» de la temporada!",
+      "date_published": "2026-10-30T20:08:43.000Z"
+    }
+  ]
+}

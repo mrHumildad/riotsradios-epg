@@ -1,0 +1,82 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Ahijuna — latest posts",
+  "home_page_url": "https://ahijuna.fm/",
+  "feed_url": "https://mrhumildad.github.io/riotsradios-epg/feeds/ahijuna.json",
+  "_station_id": 65,
+  "_station_name": "Ahijuna",
+  "_source": "https://ahijuna.fm/feed/",
+  "_generated_at": "2026-11-12T14:19:53.096Z",
+  "items": [
+    {
+      "id": "https://ahijuna.fm/?p=1347",
+      "url": "https://ahijuna.fm/despidos-en-el-pami/",
+      "title": "El gobierno acompañó la quita de medicamentos gratuitos con despidos en el PAMI",
+      "content_text": "El gobierno acompañó la quita de medicamentos gratuitos con despidos en el PAMI",
+      "date_published": "2024-12-13T14:42:47.000Z"
+    },
+    {
+      "id": "https://ahijuna.fm/?p=1336",
+      "url": "https://ahijuna.fm/alderete-paro-de-transporte/",
+      "title": "Juan Carlos Alderete: “Solamente en la calle y con unidad se puede hacer retroceder esta política”",
+      "content_text": "Juan Carlos Alderete: “Solamente en la calle y con unidad se puede hacer retroceder esta política”",
+      "date_published": "2024-10-31T11:47:23.000Z"
+    },
+    {
+      "id": "https://ahijuna.fm/?p=1134",
+      "url": "https://ahijuna.fm/rosario-claves-para-entender-la-escalada-de-violencia-narco/",
+      "title": "Rosario: Claves para entender la escalada de violencia narco",
+      "content_text": "Rosario: Claves para entender la escalada de violencia narco",
+      "date_published": "2024-03-14T15:49:20.000Z"
+    },
+    {
+      "id": "https://ahijuna.fm/?p=1112",
+      "url": "https://ahijuna.fm/alejandro-barrios-aca-no-hay-ningun-ataque-a-la-casta/",
+      "title": "Alejandro Barrios: “Acá no hay ningún ataque a la casta”",
+      "content_text": "Alejandro Barrios: “Acá no hay ningún ataque a la casta”",
+      "date_published": "2023-12-22T15:23:45.000Z"
+    },
+    {
+      "id": "https://ahijuna.fm/?p=1105",
+      "url": "https://ahijuna.fm/julian-moreno-para-el-mundo-pyme-se-viene-la-noche/",
+      "title": "Julián Moreno: “Para el mundo PYME se viene la noche”",
+      "content_text": "Julián Moreno: “Para el mundo PYME se viene la noche”",
+      "date_published": "2023-12-22T04:01:59.000Z"
+    },
+    {
+      "id": "https://ahijuna.fm/?p=1077",
+      "url": "https://ahijuna.fm/carlos-bianco-sergio-massa-es-quien-efectivamente-tiene-un-proyecto-de-pais/",
+      "title": "Carlos Bianco: “Sergio Massa es quien efectivamente tiene un proyecto de país para Argentina”",
+      "content_text": "Carlos Bianco: “Sergio Massa es quien efectivamente tiene un proyecto de país para Argentina”",
+      "date_published": "2023-11-06T16:56:37.000Z"
+    },
+    {
+      "id": "https://ahijuna.fm/?p=1063",
+      "url": "https://ahijuna.fm/washington-uranga-massa-logro-instalar-un-mensaje-de-unidad-nacional-de-estadista-y-de-gestion/",
+      "title": "Washington Uranga: “Massa logró instalar un mensaje de unidad nacional, de estadista y de gestión”",
+      "content_text": "Washington Uranga: “Massa logró instalar un mensaje de unidad nacional, de estadista y de gestión”",
+      "date_published": "2023-10-25T15:13:36.000Z"
+    },
+    {
+      "id": "https://ahijuna.fm/?p=980",
+      "url": "https://ahijuna.fm/un-futuro-con-derecho-a-la-identidad/",
+      "title": "Un futuro con derecho a la identidad",
+      "content_text": "Un futuro con derecho a la identidad",
+      "date_published": "2023-10-23T16:04:51.000Z"
+    },
+    {
+      "id": "https://ahijuna.fm/?p=1066",
+      "url": "https://ahijuna.fm/lo-que-dejo-el-36-encuentro-plurinacional-de-mujeres-y-disidencias/",
+      "title": "Lo que dejó el 36° Encuentro Plurinacional de Mujeres y Disidencias",
+      "content_text": "Lo que dejó el 36° Encuentro Plurinacional de Mujeres y Disidencias",
+      "date_published": "2023-10-18T16:26:00.000Z"
+    },
+    {
+      "id": "https://ahijuna.fm/?p=961",
+      "url": "https://ahijuna.fm/elecciones-en-el-conurbano-sur/",
+      "title": "Elecciones en el conurbano sur: partido por partido cómo quedó el panorama después de las PASO",
+      "content_text": "Elecciones en el conurbano sur: partido por partido cómo quedó el panorama después de las PASO",
+      "date_published": "2023-10-09T14:34:33.000Z"
+    }
+  ]
+}

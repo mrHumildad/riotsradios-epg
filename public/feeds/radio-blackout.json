@@ -1,0 +1,82 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Radio Blackout — latest posts",
+  "home_page_url": "https://radioblackout.org/",
+  "feed_url": "https://mrhumildad.github.io/riotsradios-epg/feeds/radio-blackout.json",
+  "_station_id": 29,
+  "_station_name": "Radio Blackout",
+  "_source": "https://radioblackout.org/feed/",
+  "_generated_at": "2026-11-12T14:19:53.318Z",
+  "items": [
+    {
+      "id": "https://radioblackout.org/?post_type=podcast&p=118056",
+      "url": "https://radioblackout.org/podcast/spot-14-10-2026-aurora-vanchiglia-calcio-a-11-interviste-varie-a-realta-varie/",
+      "title": "Spot 14.10.2026 Aurora Vanchiglia Calcio a 11 – interviste varie a realtà varie",
+      "content_text": "Spot 14.10.2026 Aurora Vanchiglia Calcio a 11 – interviste varie a realtà varie",
+      "date_published": "2026-11-11T23:08:07.000Z"
+    },
+    {
+      "id": "https://radioblackout.org/?post_type=podcast&p=118035",
+      "url": "https://radioblackout.org/podcast/black-lions-roman-wolves/",
+      "title": "BLACK LIONS – ROMAN WOLVES",
+      "content_text": "BLACK LIONS – ROMAN WOLVES",
+      "date_published": "2026-11-11T21:29:31.000Z"
+    },
+    {
+      "id": "https://radioblackout.org/?post_type=podcast&p=118036",
+      "url": "https://radioblackout.org/podcast/puntata-5-stagione-3/",
+      "title": "Stagione 3 Puntata 5",
+      "content_text": "Stagione 3 Puntata 5",
+      "date_published": "2026-11-11T21:10:00.000Z"
+    },
+    {
+      "id": "https://radioblackout.org/?post_type=podcast&p=118009",
+      "url": "https://radioblackout.org/podcast/riot-on-sunset-strip-puntata-10-novembre-2026/",
+      "title": "Riot On Sunset Strip – puntata 10 Novembre 2026",
+      "content_text": "Riot On Sunset Strip – puntata 10 Novembre 2026",
+      "date_published": "2026-11-11T16:54:54.000Z"
+    },
+    {
+      "id": "https://radioblackout.org/?post_type=podcast&p=117979",
+      "url": "https://radioblackout.org/podcast/%ce%bb4-radio-alhara/",
+      "title": "λ4 – Radio Alhara",
+      "content_text": "λ4 – Radio Alhara",
+      "date_published": "2026-11-11T16:19:48.000Z"
+    },
+    {
+      "id": "https://radioblackout.org/?post_type=podcast&p=118002",
+      "url": "https://radioblackout.org/podcast/macerie-su-macerie-podcast-9-11-26-di-terra-e-agricolture/",
+      "title": "Macerie su Macerie – PODCAST 9/11/26 – Di terra e agricolture",
+      "content_text": "Macerie su Macerie – PODCAST 9/11/26 – Di terra e agricolture",
+      "date_published": "2026-11-11T16:06:47.000Z"
+    },
+    {
+      "id": "https://radioblackout.org/?p=117967",
+      "url": "https://radioblackout.org/2026/11/una-sana-disobbedienza-la-pratica-dello-sciopero-e-i-nuovi-dl-sicurezza/",
+      "title": "UNA SANA DISOBBEDIENZA: LA PRATICA DELLO SCIOPERO E I NUOVI DL SICUREZZA",
+      "content_text": "UNA SANA DISOBBEDIENZA: LA PRATICA DELLO SCIOPERO E I NUOVI DL SICUREZZA",
+      "date_published": "2026-11-11T15:21:24.000Z"
+    },
+    {
+      "id": "https://radioblackout.org/?p=117989",
+      "url": "https://radioblackout.org/2026/11/le-cooperative-sociali-vanno-in-sciopero/",
+      "title": "LE COOPERATIVE SOCIALI VANNO IN SCIOPERO",
+      "content_text": "LE COOPERATIVE SOCIALI VANNO IN SCIOPERO",
+      "date_published": "2026-11-11T15:17:06.000Z"
+    },
+    {
+      "id": "https://radioblackout.org/?post_type=podcast&p=117969",
+      "url": "https://radioblackout.org/podcast/overjoy-301/",
+      "title": "Overjoy 301",
+      "content_text": "Overjoy 301",
+      "date_published": "2026-11-11T14:10:09.000Z"
+    },
+    {
+      "id": "https://radioblackout.org/?p=117961@0",
+      "url": "https://radioblackout.org/2026/11/spagnahuelga-general-11n/",
+      "title": "SPAGNA:HUELGA GENERAL 11N@0",
+      "content_text": "SPAGNA:HUELGA GENERAL 11N@0",
+      "date_published": "2026-11-11T11:31:23.000Z"
+    }
+  ]
+}
