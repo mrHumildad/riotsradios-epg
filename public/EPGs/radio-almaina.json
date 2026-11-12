@@ -4,9 +4,9 @@
   "station_id": 23,
   "schedule_type": "weekly",
   "timezone": "Europe/Madrid",
-  "last_updated": "2026-11-08",
+  "last_updated": "2026-11-12",
   "source": "https://radioalmaina.org/programacion/",
-  "notes": "Generado automáticamente desde https://radioalmaina.org/programacion/ (snapshot 2026-11-08); revisar data/epg-report.json.",
+  "notes": "Generado automáticamente desde https://radioalmaina.org/programacion/ (snapshot 2026-11-12); revisar data/epg-report.json.",
   "generator": "scripts/convert-raw-epg.mjs",
   "metadata": {
     "categories": {
@@ -218,8 +218,8 @@
       "title": "Los Amigos de Artax",
       "category": "directo"
     },
-    "materia-prima": {
-      "title": "Materia Prima",
+    "electre-selecteh": {
+      "title": "Electre Selecteh",
       "category": "directo"
     },
     "la-hora-de-la-aguja": {
@@ -354,6 +354,10 @@
       "title": "El Pájaro Observador",
       "category": "directo"
     },
+    "materia-prima": {
+      "title": "Materia Prima",
+      "category": "directo"
+    },
     "despues-de-la-fiebre-del-oro": {
       "title": "Después de la Fiebre del Oro",
       "category": "directo"
@@ -404,10 +408,6 @@
     },
     "menopausia-rebelde-lluvia-con-truenos": {
       "title": "Menopausia Rebelde / Lluvia con Truenos",
-      "category": "directo"
-    },
-    "la-voz-de-lo-invisible": {
-      "title": "La Voz de lo Invisible",
       "category": "directo"
     },
     "blanco-y-negro-blues": {
@@ -819,7 +819,7 @@
         {
           "start": "08:00",
           "end": "09:00",
-          "show_id": "materia-prima",
+          "show_id": "electre-selecteh",
           "live": false
         },
         {
@@ -1257,7 +1257,7 @@
         {
           "start": "16:00",
           "end": "17:00",
-          "show_id": "la-voz-de-lo-invisible",
+          "show_id": "electre-selecteh",
           "live": false
         },
         {

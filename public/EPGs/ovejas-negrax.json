@@ -4,9 +4,9 @@
   "station_id": 131,
   "schedule_type": "weekly",
   "timezone": "Europe/Madrid",
-  "last_updated": "2026-11-09",
+  "last_updated": "2026-11-12",
   "source": "https://sapo.radiobot.org/parrilla_cards.php?station=ovejas",
-  "notes": "Generado automáticamente desde https://sapo.radiobot.org/parrilla_cards.php?station=ovejas (snapshot 2026-11-09); revisar data/epg-report.json.",
+  "notes": "Generado automáticamente desde https://sapo.radiobot.org/parrilla_cards.php?station=ovejas (snapshot 2026-11-12); revisar data/epg-report.json.",
   "generator": "scripts/convert-raw-epg.mjs",
   "metadata": {
     "categories": {
@@ -26,8 +26,8 @@
       "title": "Borinot Borinot",
       "category": "directo"
     },
-    "live-n-direct-the-best-roots-rock-reggae-music-lo-mejor-de-l": {
-      "title": "LIVE N DIRECT, the best roots rock reggae music, lo mejor de la cultura reggae.THE VOICE N VIBES OF PEOPLE A BIG JOURNEY IN A ROOTS N CULTUR",
+    "kalez-kale-soul": {
+      "title": "Kalez Kale Soul",
       "category": "directo"
     },
     "a-radio-gava-91-2-f-m-actualment-per-la-pandemia-el-fem-des-": {
@@ -101,8 +101,8 @@
   },
   "days": [
     {
-      "day": "monday",
-      "label": "Lunes",
+      "day": "thursday",
+      "label": "Jueves",
       "programs": [
         {
           "start": "00:00",
@@ -113,8 +113,8 @@
         {
           "start": "01:00",
           "end": "02:00",
-          "show_id": "live-n-direct-the-best-roots-rock-reggae-music-lo-mejor-de-l",
-          "live": true
+          "show_id": "kalez-kale-soul",
+          "live": false
         },
         {
           "start": "02:00",

@@ -4,9 +4,9 @@
   "station_id": 133,
   "schedule_type": "weekly",
   "timezone": "Europe/Madrid",
-  "last_updated": "2026-11-09",
+  "last_updated": "2026-11-12",
   "source": "https://radioiris7.es/wp-content/uploads/2026/03/Programacion-de-Radio-Iris-7.pdf",
-  "notes": "Generado automáticamente desde https://radioiris7.es/wp-content/uploads/2026/03/Programacion-de-Radio-Iris-7.pdf (snapshot 2026-11-09); revisar data/epg-report.json.",
+  "notes": "Generado automáticamente desde https://radioiris7.es/wp-content/uploads/2026/03/Programacion-de-Radio-Iris-7.pdf (snapshot 2026-11-12); revisar data/epg-report.json.",
   "generator": "scripts/convert-raw-epg.mjs",
   "metadata": {
     "categories": {

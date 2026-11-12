@@ -4,9 +4,9 @@
   "station_id": 27,
   "schedule_type": "weekly",
   "timezone": "Europe/Rome",
-  "last_updated": "2026-11-08",
+  "last_updated": "2026-11-12",
   "source": "https://www.ondarossa.info/palinsesto",
-  "notes": "Generado automáticamente desde https://www.ondarossa.info/palinsesto (snapshot 2026-11-08); revisar data/epg-report.json.",
+  "notes": "Generado automáticamente desde https://www.ondarossa.info/palinsesto (snapshot 2026-11-12); revisar data/epg-report.json.",
   "generator": "scripts/convert-raw-epg.mjs",
   "metadata": {
     "categories": {
@@ -230,8 +230,8 @@
       "title": "Replica: likewise",
       "category": "podcast"
     },
-    "tasche-vuote-ogni-due-domeniche-trx-sul-lavoro": {
-      "title": "Tasche vuote (ogni due domeniche) trx sul lavoro",
+    "tasche-vuote-ogni-due-domeniche-trasmissione-sul-lavoro": {
+      "title": "Tasche vuote (ogni due domeniche) - trasmissione sul lavoro",
       "category": "directo"
     },
     "replica-semilla": {
@@ -244,6 +244,10 @@
     },
     "militant-dub-area": {
       "title": "Militant Dub Area",
+      "category": "directo"
+    },
+    "libera-frequenza-trasmissione-sul-carcere": {
+      "title": "Libera Frequenza - trasmissione sul carcere",
       "category": "directo"
     },
     "le-dita-nella-presa-approfondimento-tecnologico": {
@@ -739,7 +743,7 @@
         {
           "start": "11:00",
           "end": "13:00",
-          "show_id": "tasche-vuote-ogni-due-domeniche-trx-sul-lavoro",
+          "show_id": "tasche-vuote-ogni-due-domeniche-trasmissione-sul-lavoro",
           "live": false
         },
         {
@@ -764,6 +768,12 @@
           "start": "18:00",
           "end": "20:00",
           "show_id": "militant-dub-area",
+          "live": false
+        },
+        {
+          "start": "20:00",
+          "end": "21:00",
+          "show_id": "libera-frequenza-trasmissione-sul-carcere",
           "live": false
         },
         {

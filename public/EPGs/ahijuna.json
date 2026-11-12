@@ -4,10 +4,10 @@
   "station_id": 65,
   "schedule_type": "weekly",
   "timezone": "America/Argentina/Buenos_Aires",
-  "last_updated": "2026-11-08",
+  "last_updated": "2026-11-12",
   "source": "https://ahijuna.fm/programas/",
   "contact": "radio@ahijuna.fm",
-  "notes": "Generado automáticamente desde https://ahijuna.fm/programas/ (snapshot 2026-11-08); revisar data/epg-report.json.",
+  "notes": "Generado automáticamente desde https://ahijuna.fm/programas/ (snapshot 2026-11-12); revisar data/epg-report.json.",
   "generator": "scripts/convert-raw-epg.mjs",
   "metadata": {
     "categories": {

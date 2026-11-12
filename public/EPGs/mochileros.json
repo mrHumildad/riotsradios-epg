@@ -4,10 +4,10 @@
   "station_id": 100,
   "schedule_type": "weekly",
   "timezone": "America/Argentina/Buenos_Aires",
-  "last_updated": "2026-11-09",
+  "last_updated": "2026-11-12",
   "source": "https://www.mochilerosradio.com/",
   "contact": "radiomochileros@gmial.com",
-  "notes": "Generado automáticamente desde https://www.mochilerosradio.com/ (snapshot 2026-11-09); revisar data/epg-report.json.",
+  "notes": "Generado automáticamente desde https://www.mochilerosradio.com/ (snapshot 2026-11-12); revisar data/epg-report.json.",
   "generator": "scripts/convert-raw-epg.mjs",
   "metadata": {
     "categories": {

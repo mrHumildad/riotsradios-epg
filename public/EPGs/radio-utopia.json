@@ -4,9 +4,9 @@
   "station_id": 20,
   "schedule_type": "weekly",
   "timezone": "Europe/Madrid",
-  "last_updated": "2026-11-08",
+  "last_updated": "2026-11-12",
   "source": "https://www.radioutopia.org.es/parrilla-2026/",
-  "notes": "Generado automáticamente desde https://www.radioutopia.org.es/parrilla-2026/ (snapshot 2026-11-08); revisar data/epg-report.json.",
+  "notes": "Generado automáticamente desde https://www.radioutopia.org.es/parrilla-2026/ (snapshot 2026-11-12); revisar data/epg-report.json.",
   "generator": "scripts/convert-raw-epg.mjs",
   "metadata": {
     "categories": {
@@ -272,8 +272,8 @@
           "live": false
         },
         {
-          "start": "20:15",
-          "end": "21:15",
+          "start": "20:30",
+          "end": "21:30",
           "show_id": "wentipas-contra-el-odio",
           "live": false
         }

@@ -4,9 +4,9 @@
   "station_id": 2,
   "schedule_type": "weekly",
   "timezone": "Europe/Madrid",
-  "last_updated": "2026-11-08",
+  "last_updated": "2026-11-12",
   "source": "https://www.radioarrebato.net/programacion/",
-  "notes": "Generado automáticamente desde https://www.radioarrebato.net/programacion/ (snapshot 2026-11-08); revisar data/epg-report.json.",
+  "notes": "Generado automáticamente desde https://www.radioarrebato.net/programacion/ (snapshot 2026-11-12); revisar data/epg-report.json.",
   "generator": "scripts/convert-raw-epg.mjs",
   "metadata": {
     "categories": {
