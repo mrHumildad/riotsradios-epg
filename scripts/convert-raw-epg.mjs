@@ -37,6 +37,13 @@ const VERSION = '2.0'
 const MINUTES_PER_DAY = 1440
 const DEFAULT_DURATION = 60
 
+/**
+ * Station ids whose guide a dedicated scraper owns. They are skipped here so a
+ * generic extraction can never overwrite that output; the scraper also writes
+ * their data/epg-report.json entry.
+ */
+const DEDICATED_SCRAPERS = new Map([[10, 'scripts/scrape-radiopica.mjs']])
+
 // ---------------------------------------------------------------------------
 // days — multilingual aliases. Canonical names follow lib/epg.js.
 // ---------------------------------------------------------------------------
@@ -2652,15 +2659,18 @@ async function main() {
     console.warn(`${options.csv} not readable (${error.message}); station names come from data/raw meta.json`)
   }
 
-  const entries = (await readdir(options.raw, { withFileTypes: true }))
+  const snapshots = (await readdir(options.raw, { withFileTypes: true }))
     .filter((entry) => entry.isDirectory() && /^\d+$/.test(entry.name))
     .map((entry) => Number(entry.name))
     .filter((id) => !options.only || options.only.includes(id))
     .sort((a, b) => a - b)
+  const dedicated = snapshots.filter((id) => DEDICATED_SCRAPERS.has(id))
+  const entries = snapshots.filter((id) => !DEDICATED_SCRAPERS.has(id))
 
   const guides = await readExistingGuides(options.out)
   console.log(`EPG raw → ${options.out}`)
   console.log(`${entries.length} station snapshot(s) in ${options.raw}${options.only ? ` (only ${options.only.join(', ')})` : ''}\n`)
+  for (const id of dedicated) console.log(`skipped ${id}: ${DEDICATED_SCRAPERS.get(id)} owns its guide\n`)
 
   const stations = []
   for (let index = 0; index < entries.length; index++) {

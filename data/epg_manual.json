@@ -10,9 +10,9 @@
     },
     "10": {
       "name": "Radio Pica",
-      "status": "quarantined",
-      "reason": "graella.htm serves scrambled/reordered markup; extraction produced wrong day/time pairs.",
-      "next": "Inspect the DOM and encoding manually before enabling again."
+      "status": "dedicated",
+      "reason": "graella.htm folds the week into five-hour cycles with a shared weekend column; the generic table strategy mis-pairs days and times.",
+      "next": "Kept on scripts/scrape-radiopica.mjs, which owns the guide and its report entry; re-check the page layout when the scrape starts failing."
     },
     "16": {
       "name": "Ràdio Klara",

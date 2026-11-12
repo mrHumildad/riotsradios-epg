@@ -57,6 +57,7 @@ python3 scripts/find_epg_urls.py --resume          # discover sources (dry run)
 python3 scripts/find_epg_urls.py --resume --write  # update config/stations.csv
 python3 scripts/fetch_epgs.py --max-age-hours 20   # download raw snapshots
 node scripts/convert-raw-epg.mjs                   # raw -> public/EPGs/*.json
+node scripts/scrape-radiopica.mjs --station-id 10  # Radio Pica's own grid parser
 node scripts/validate-epgs.js                      # structural checks
 node scripts/validate-catalog.mjs                  # gate catalog/stations.csv
 node scripts/build-catalog.mjs                     # publish /catalog/ files
@@ -72,6 +73,12 @@ sidecar's `day_pages` map. Fetch stores those pages under
 candidate. Calendar-style day tabs ("Lun 09.11.2026") and day panels whose
 rows are a bare clock followed by a title are handled by the `tabs`
 strategy.
+
+Radio Pica is the one station with a dedicated parser: `graella.htm` folds the
+week into five-hour cycles (each row airs at five clock times, the weekend
+column is shared, and the broadcast day starts at 14:00), which the generic
+table strategy mis-pairs. `scripts/scrape-radiopica.mjs` owns that guide and its
+`data/epg-report.json` entry, and `convert-raw-epg.mjs` skips the id.
 
 Non-HTML sources are supported when the provider exposes a stable feed:
 

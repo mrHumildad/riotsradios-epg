@@ -8,6 +8,7 @@
     "fetch": "python3 scripts/fetch_epgs.py",
     "discover": "python3 scripts/find_epg_urls.py",
     "convert": "node scripts/convert-raw-epg.mjs",
+    "scrape:radiopica": "node scripts/scrape-radiopica.mjs --station-id 10",
     "validate": "node scripts/validate-epgs.js",
     "validate:catalog": "node scripts/validate-catalog.mjs",
     "catalog": "node scripts/build-catalog.mjs",

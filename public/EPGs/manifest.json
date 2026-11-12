@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-09T12:03:48.940Z",
+  "generated_at": "2026-11-12T13:14:58.977Z",
   "stations": {
     "1": {
       "file": "radio-contrabanda.json",
@@ -47,9 +47,9 @@
     "10": {
       "file": "radio-pica.json",
       "status": "ok",
-      "updated": "2026-11-08",
-      "days": 5,
-      "programs": 81
+      "updated": "2026-11-12",
+      "days": 7,
+      "programs": 131
     },
     "11": {
       "file": "radio-enlace.json",
