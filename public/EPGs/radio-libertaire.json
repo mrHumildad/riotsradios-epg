@@ -4,9 +4,9 @@
   "station_id": 17,
   "schedule_type": "weekly",
   "timezone": "Europe/Paris",
-  "last_updated": "2026-11-12",
+  "last_updated": "2026-11-13",
   "source": "https://radio-libertaire.org/podcast/z_commun/tableau.php",
-  "notes": "Generado automáticamente desde https://radio-libertaire.org/podcast/z_commun/tableau.php (snapshot 2026-11-12); revisar data/epg-report.json.",
+  "notes": "Generado automáticamente desde https://radio-libertaire.org/podcast/z_commun/tableau.php (snapshot 2026-11-13); revisar data/epg-report.json.",
   "generator": "scripts/convert-raw-epg.mjs",
   "metadata": {
     "categories": {

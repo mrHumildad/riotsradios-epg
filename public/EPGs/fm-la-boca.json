@@ -4,9 +4,9 @@
   "station_id": 124,
   "schedule_type": "weekly",
   "timezone": "America/Argentina/Buenos_Aires",
-  "last_updated": "2026-11-12",
+  "last_updated": "2026-11-13",
   "source": "https://fmlaboca.com.ar/programacion/",
-  "notes": "Generado automáticamente desde https://fmlaboca.com.ar/programacion/ (snapshot 2026-11-12); revisar data/epg-report.json.",
+  "notes": "Generado automáticamente desde https://fmlaboca.com.ar/programacion/ (snapshot 2026-11-13); revisar data/epg-report.json.",
   "generator": "scripts/convert-raw-epg.mjs",
   "metadata": {
     "categories": {

@@ -4,9 +4,9 @@
   "station_id": 126,
   "schedule_type": "weekly",
   "timezone": "Europe/Madrid",
-  "last_updated": "2026-11-12",
+  "last_updated": "2026-11-13",
   "source": "https://cuacfm.org/radioco/programmes/",
-  "notes": "Generado automáticamente desde https://cuacfm.org/radioco/programmes/ (snapshot 2026-11-12); revisar data/epg-report.json.",
+  "notes": "Generado automáticamente desde https://cuacfm.org/radioco/programmes/ (snapshot 2026-11-13); revisar data/epg-report.json.",
   "generator": "scripts/convert-raw-epg.mjs",
   "metadata": {
     "categories": {

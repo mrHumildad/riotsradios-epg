@@ -4,9 +4,9 @@
   "station_id": 29,
   "schedule_type": "weekly",
   "timezone": "Europe/Rome",
-  "last_updated": "2026-11-12",
+  "last_updated": "2026-11-13",
   "source": "https://radioblackout.org/palinsesto",
-  "notes": "Generado automáticamente desde https://radioblackout.org/palinsesto (snapshot 2026-11-12); revisar data/epg-report.json.",
+  "notes": "Generado automáticamente desde https://radioblackout.org/palinsesto (snapshot 2026-11-13); revisar data/epg-report.json.",
   "generator": "scripts/convert-raw-epg.mjs",
   "metadata": {
     "categories": {
@@ -26,47 +26,47 @@
       "title": "L’Informazione di Blackout",
       "category": "directo"
     },
+    "anarres": {
+      "title": "Anarres",
+      "category": "directo"
+    },
     "on-air": {
       "title": "ON AIR",
       "category": "directo"
     },
-    "rolling-in-the-deep": {
-      "title": "Rolling in the Deep",
+    "arraga": {
+      "title": "ARRAGA",
       "category": "directo"
     },
-    "imballat3": {
-      "title": "IMBALLAT3",
+    "aria": {
+      "title": "Aria",
       "category": "directo"
     },
-    "cosmic-mamba": {
-      "title": "Cosmic Mamba",
+    "tutto-squat-il-giornale-malandrino": {
+      "title": "Tutto Squat – Il Giornale Malandrino",
       "category": "directo"
     },
-    "ristoradio-international": {
-      "title": "Ristoradio International",
+    "metix-flow": {
+      "title": "Metix Flow",
       "category": "directo"
     },
-    "delicatessen": {
-      "title": "Delicatessen",
+    "a-scatola-chiusa": {
+      "title": "A scatola chiusa",
       "category": "directo"
     },
-    "i-bastioni-di-orione": {
-      "title": "I Bastioni di Orione",
+    "4-4-monster-track": {
+      "title": "4×4 MONSTER TRACK",
       "category": "directo"
     },
-    "pregio": {
-      "title": "Pregio",
-      "category": "directo"
-    },
-    "arsider": {
-      "title": "ARSIDER",
+    "reset-club": {
+      "title": "Reset Club",
       "category": "directo"
     }
   },
   "days": [
     {
-      "day": "thursday",
-      "label": "Jueves",
+      "day": "friday",
+      "label": "Viernes",
       "programs": [
         {
           "start": "09:00",
@@ -75,57 +75,57 @@
           "live": false
         },
         {
+          "start": "11:00",
+          "end": "13:00",
+          "show_id": "anarres",
+          "live": false
+        },
+        {
           "start": "13:00",
-          "end": "14:30",
+          "end": "15:00",
           "show_id": "on-air",
           "live": false
         },
         {
-          "start": "14:30",
-          "end": "15:30",
-          "show_id": "rolling-in-the-deep",
+          "start": "15:00",
+          "end": "16:00",
+          "show_id": "arraga",
           "live": false
         },
         {
-          "start": "15:30",
-          "end": "16:30",
-          "show_id": "imballat3",
+          "start": "16:00",
+          "end": "17:30",
+          "show_id": "aria",
           "live": false
         },
         {
-          "start": "16:30",
+          "start": "17:30",
           "end": "18:30",
-          "show_id": "cosmic-mamba",
+          "show_id": "tutto-squat-il-giornale-malandrino",
           "live": false
         },
         {
-          "start": "18:30",
-          "end": "19:53",
-          "show_id": "ristoradio-international",
-          "live": false
-        },
-        {
-          "start": "19:53",
-          "end": "20:07",
-          "show_id": "delicatessen",
-          "live": false
-        },
-        {
-          "start": "20:07",
-          "end": "21:30",
-          "show_id": "i-bastioni-di-orione",
+          "start": "19:00",
+          "end": "20:30",
+          "show_id": "metix-flow",
           "live": false
         },
         {
           "start": "21:30",
-          "end": "22:30",
-          "show_id": "pregio",
+          "end": "23:00",
+          "show_id": "a-scatola-chiusa",
           "live": false
         },
         {
-          "start": "22:30",
-          "end": "00:00",
-          "show_id": "arsider",
+          "start": "23:00",
+          "end": "23:59",
+          "show_id": "4-4-monster-track",
+          "live": false
+        },
+        {
+          "start": "23:59",
+          "end": "02:00",
+          "show_id": "reset-club",
           "live": false,
           "crosses_midnight": true
         }
