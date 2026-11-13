@@ -101,6 +101,13 @@ jobs:
           OCR_SPACE_API_KEY: ${{ secrets.OCR_SPACE_API_KEY }}
         run: node scripts/convert-raw-epg.mjs
 
+      # Radio Pica's grid folds the week into five-hour cycles, which the generic
+      # table strategy mis-pairs. Its guide is owned by a dedicated scraper;
+      # convert-raw-epg.mjs skips the id. A failed scrape keeps the last guide.
+      - name: Scrape dedicated sources
+        continue-on-error: true
+        run: npm run scrape:radiopica
+
       - name: Apply guides for new stations
         if: steps.sync.outputs.added != ''
         env:
