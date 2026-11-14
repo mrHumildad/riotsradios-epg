@@ -4,9 +4,9 @@
   "station_id": 6,
   "schedule_type": "weekly",
   "timezone": "Europe/Paris",
-  "last_updated": "2026-11-13",
+  "last_updated": "2026-11-14",
   "source": "http://radiobip.fr/site/grille-programmes-radio-bip/",
-  "notes": "Generado automáticamente desde http://radiobip.fr/site/grille-programmes-radio-bip/ (snapshot 2026-11-13); revisar data/epg-report.json.",
+  "notes": "Generado automáticamente desde http://radiobip.fr/site/grille-programmes-radio-bip/ (snapshot 2026-11-14); revisar data/epg-report.json.",
   "generator": "scripts/convert-raw-epg.mjs",
   "metadata": {
     "categories": {

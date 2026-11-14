@@ -4,9 +4,9 @@
   "station_id": 131,
   "schedule_type": "weekly",
   "timezone": "Europe/Madrid",
-  "last_updated": "2026-11-13",
+  "last_updated": "2026-11-14",
   "source": "https://sapo.radiobot.org/parrilla_cards.php?station=ovejas",
-  "notes": "Generado automáticamente desde https://sapo.radiobot.org/parrilla_cards.php?station=ovejas (snapshot 2026-11-13); revisar data/epg-report.json.",
+  "notes": "Generado automáticamente desde https://sapo.radiobot.org/parrilla_cards.php?station=ovejas (snapshot 2026-11-14); revisar data/epg-report.json.",
   "generator": "scripts/convert-raw-epg.mjs",
   "metadata": {
     "categories": {
@@ -101,8 +101,8 @@
   },
   "days": [
     {
-      "day": "friday",
-      "label": "Viernes",
+      "day": "saturday",
+      "label": "Sábado",
       "programs": [
         {
           "start": "00:00",

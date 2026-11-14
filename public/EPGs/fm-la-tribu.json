@@ -4,9 +4,9 @@
   "station_id": 7,
   "schedule_type": "weekly",
   "timezone": "America/Argentina/Buenos_Aires",
-  "last_updated": "2026-11-13",
+  "last_updated": "2026-11-14",
   "source": "https://hermes-scheduler-sys.zeclogiccloud.com.de/public/sites/fmlatribu.com/schedules/5/entries",
-  "notes": "Generado automáticamente desde https://hermes-scheduler-sys.zeclogiccloud.com.de/public/sites/fmlatribu.com/schedules/5/entries (snapshot 2026-11-13); revisar data/epg-report.json.",
+  "notes": "Generado automáticamente desde https://hermes-scheduler-sys.zeclogiccloud.com.de/public/sites/fmlatribu.com/schedules/5/entries (snapshot 2026-11-14); revisar data/epg-report.json.",
   "generator": "scripts/convert-raw-epg.mjs",
   "metadata": {
     "categories": {

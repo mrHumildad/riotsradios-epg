@@ -4,10 +4,10 @@
   "station_id": 15,
   "schedule_type": "weekly",
   "timezone": "America/Mexico_City",
-  "last_updated": "2026-11-13",
+  "last_updated": "2026-11-14",
   "source": "https://kehuelga.net/article52",
   "contact": "kehuelga@kehuelga.net",
-  "notes": "Generado automáticamente desde https://kehuelga.net/article52 (snapshot 2026-11-13); revisar data/epg-report.json.",
+  "notes": "Generado automáticamente desde https://kehuelga.net/article52 (snapshot 2026-11-14); revisar data/epg-report.json.",
   "generator": "scripts/convert-raw-epg.mjs",
   "metadata": {
     "categories": {

@@ -4,9 +4,9 @@
   "station_id": 145,
   "schedule_type": "weekly",
   "timezone": "Europe/Madrid",
-  "last_updated": "2026-11-13",
+  "last_updated": "2026-11-14",
   "source": "https://radiokolor.es/programas/",
-  "notes": "Generado automáticamente desde https://radiokolor.es/programas/ (snapshot 2026-11-13); revisar data/epg-report.json.",
+  "notes": "Generado automáticamente desde https://radiokolor.es/programas/ (snapshot 2026-11-14); revisar data/epg-report.json.",
   "generator": "scripts/convert-raw-epg.mjs",
   "metadata": {
     "categories": {

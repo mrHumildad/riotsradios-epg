@@ -4,9 +4,9 @@
   "station_id": 130,
   "schedule_type": "weekly",
   "timezone": "Europe/Madrid",
-  "last_updated": "2026-11-13",
+  "last_updated": "2026-11-14",
   "source": "https://ecoleganes.org/2018/01/01/parrilla/",
-  "notes": "Generado automáticamente desde https://ecoleganes.org/2018/01/01/parrilla/ (snapshot 2026-11-13); revisar data/epg-report.json.",
+  "notes": "Generado automáticamente desde https://ecoleganes.org/2018/01/01/parrilla/ (snapshot 2026-11-14); revisar data/epg-report.json.",
   "generator": "scripts/convert-raw-epg.mjs",
   "metadata": {
     "categories": {
@@ -160,10 +160,6 @@
     },
     "coffee-break-iac": {
       "title": "Coffee Break – IAC",
-      "category": "directo"
-    },
-    "africania": {
-      "title": "Africanía,",
       "category": "directo"
     },
     "compartiendo": {
@@ -869,7 +865,7 @@
         {
           "start": "09:00",
           "end": "10:00",
-          "show_id": "africania",
+          "show_id": "miscelaneas",
           "live": false
         },
         {

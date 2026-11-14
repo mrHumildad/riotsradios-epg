@@ -4,9 +4,9 @@
   "station_id": 8,
   "schedule_type": "weekly",
   "timezone": "Europe/Vienna",
-  "last_updated": "2026-11-13",
+  "last_updated": "2026-11-14",
   "source": "https://radiofabrik.at/programm/sendungen/",
-  "notes": "Generado automáticamente desde https://radiofabrik.at/programm/sendungen/ (snapshot 2026-11-13); revisar data/epg-report.json.",
+  "notes": "Generado automáticamente desde https://radiofabrik.at/programm/sendungen/ (snapshot 2026-11-14); revisar data/epg-report.json.",
   "generator": "scripts/convert-raw-epg.mjs",
   "metadata": {
     "categories": {
@@ -22,246 +22,214 @@
     }
   },
   "shows": {
-    "reflecting-sound-wenn-nicht-dann-trotzdem-mit-ariane-pellini": {
-      "title": "Reflecting Sound. Wenn nicht, dann trotzdem! Mit Ariane Pellini und Andi Tiede",
-      "category": "directo"
-    },
-    "nachtschiene": {
-      "title": "Nachtschiene",
+    "jazznight-by-n-fuchs": {
+      "title": "Jazznight by N. Fuchs",
       "category": "directo"
     },
     "fruhschicht": {
       "title": "Frühschicht",
       "category": "directo"
     },
-    "stimmlagen-das-infomagazin-der-freien-radios-in-osterreich": {
-      "title": "Stimmlagen. Das Infomagazin der Freien Radios in Österreich",
-      "category": "directo"
-    },
-    "dorfradio-die-sendung-der-dorfzeitung-com": {
-      "title": "Dorfradio. Die Sendung der Dorfzeitung.com",
-      "category": "directo"
-    },
-    "radio-lebenshilfe-salzburg-menschen-mit-behinderung-am-wort": {
-      "title": "Radio Lebenshilfe Salzburg. Menschen mit Behinderung am Wort.",
+    "gesprachsfunken-facetten-vieler-leben": {
+      "title": "Gesprächsfunken. Facetten vieler Leben",
       "category": "directo"
     },
     "stepping-to-the-a-m": {
       "title": "stepping to the a.m.",
       "category": "directo"
     },
-    "radio-hamraz-das-magazin-fur-farsisprachige-mit-esmaeil-neda": {
-      "title": "Radio Hamraz. Das Magazin für Farsisprachige mit Esmaeil Nedaei.",
+    "herbstgewitter-musik-fur-beide-ohren": {
+      "title": "Herbstgewitter. Musik für beide Ohren.",
       "category": "directo"
     },
-    "my-favourite-music-great-music-from-david-hubbles-private-co": {
-      "title": "My favourite Music. Great music from David Hubbles private collection.",
+    "flower-power-radio-die-legendarsten-hits-der-60er-und-70er-j": {
+      "title": "Flower Power Radio. Die legendärsten Hits der 60er und 70er Jahre.",
       "category": "directo"
     },
-    "hi-noon": {
-      "title": "Hi Noon",
+    "best-of-horenswert-das-beste-aus-uber-600-alben-der-woche": {
+      "title": "Best of Hörenswert. Das Beste aus über 600 Alben der Woche.",
       "category": "directo"
     },
-    "werkspost-der-politische-salzburg-kommentar-newsletter-podca": {
-      "title": "Werkspost. Der politische Salzburg-Kommentar. Newsletter & Podcast",
+    "the-rocking-50s-eine-stunde-hillbilly-rockabilly-und-rock-n-": {
+      "title": "The Rocking 50s. Eine Stunde Hillbilly, Rockabilly und Rock 'n' roll mit Erik van de Meerakker.",
       "category": "directo"
     },
-    "armes-reiches-land-sozialstaat-unter-druck-sendeschwerpunkt-": {
-      "title": "Armes reiches Land. Sozialstaat unter Druck. Sendeschwerpunkt 2026 der Freien Radios.",
+    "szenenwechsel-lokale-sounds-aus-den-freien-radios": {
+      "title": "Szenenwechsel. Lokale Sounds aus den Freien Radios.",
+      "category": "directo"
+    },
+    "treffpunkt-pinzgau-die-radiosendung-von-pinzgauer-innen-fur-": {
+      "title": "Treffpunkt Pinzgau. Die Radiosendung von Pinzgauer_innen für Pinzgauer_innen.",
+      "category": "directo"
+    },
+    "wos-sogga-freies-radio-pinzgau": {
+      "title": "Wos sogga? Freies Radio Pinzgau.",
+      "category": "directo"
+    },
+    "frauengesundheit-in-the-air-was-halt-und-macht-frauen-und-ma": {
+      "title": "Frauengesundheit in the Air. Was hält und macht Frauen und Mädchen gesund?",
       "category": "directo"
     },
     "playlistbattle": {
       "title": "Playlistbattle",
       "category": "directo"
     },
-    "horenswert-das-radiofabrik-album-der-woche-piss-you-made-me-": {
-      "title": "Hörenswert. Das Radiofabrik - Album der Woche: PISS - \"you made me / skin on linen\"",
+    "querbeet-gemeinsam-mit-daniel-paula-zum-gepflegten-hohepunkt": {
+      "title": "Querbeet. - Gemeinsam mit Daniel PAULA zum gepflegten Höhepunkt der rockenden Gitarre.",
       "category": "directo"
     },
-    "groovy-afternoon": {
-      "title": "Groovy Afternoon",
+    "the-in-crowd-ein-moderierter-musikmix-mit-eljot": {
+      "title": "The IN-Crowd. Ein moderierter Musikmix mit Eljot",
       "category": "directo"
     },
-    "as-i-like-it-gute-musik-selten-gespielt-und-gehort": {
-      "title": "As I like it. Gute Musik, selten gespielt und gehört.",
+    "freshvibes-radio-show-of-the-young-black-diaspora-in-austria": {
+      "title": "freshVibes - Radio Show of the Young Black Diaspora in Austria",
       "category": "directo"
     },
-    "stadtteilradio-schallmoos-bewohnerinnen-berichten-aus-ihren-": {
-      "title": "Stadtteilradio Schallmoos. BewohnerInnen berichten aus ihren Stadtteilen.",
+    "radio-salsa-salzburg-salsa-merengue-und-latin-on-air": {
+      "title": "Radio Salsa Salzburg. Salsa, Merengue und Latin on Air.",
       "category": "directo"
     },
-    "horbare-alpen-der-cipra-podcast-interviews-hintergrundgespra": {
-      "title": "Hörbare Alpen: Der CIPRA Podcast. Interviews, Hintergrundgespräche, Reportagen und Stimmen aus allen Alpenländern.",
-      "category": "directo"
-    },
-    "mexiko-anders-das-solidaritatskomitee-mexiko-salzburg-inform": {
-      "title": "mexiko anders. Das Solidaritätskomitee Mexiko Salzburg informiert",
-      "category": "directo"
-    },
-    "so-der-wochenkommentar-fur-salzburg": {
-      "title": "so. Der Wochenkommentar für Salzburg",
-      "category": "directo"
-    },
-    "sos-muckomat-neues-vom-kinderdorf": {
-      "title": "SOS Muckomat - Neues vom Kinderdorf",
-      "category": "directo"
-    },
-    "metallic-underground-alle-arten-von-metal-mit-manfred-thanne": {
-      "title": "Metallic Underground. Alle Arten von Metal mit Manfred Thanner.",
-      "category": "directo"
-    },
-    "nachtfahrt-aka-perlentaucher-mit-norbert-k-hund-und-christop": {
-      "title": "Nachtfahrt aka Perlentaucher. Mit Norbert K. Hund und Christopher Schmall.",
+    "schallverkostung-auf-ex-zuhoren-und-genie-en": {
+      "title": "Schallverkostung - Auf ex! Zuhören und genießen.",
       "category": "directo"
     }
   },
   "days": [
     {
-      "day": "friday",
-      "label": "Viernes",
+      "day": "saturday",
+      "label": "Sábado",
       "programs": [
         {
-          "start": "00:00",
-          "end": "02:00",
-          "show_id": "reflecting-sound-wenn-nicht-dann-trotzdem-mit-ariane-pellini",
-          "live": false
-        },
-        {
-          "start": "02:00",
+          "start": "01:00",
           "end": "06:06",
-          "show_id": "nachtschiene",
+          "show_id": "jazznight-by-n-fuchs",
           "live": false
         },
         {
           "start": "06:06",
-          "end": "07:00",
+          "end": "07:06",
           "show_id": "fruhschicht",
           "live": false
         },
         {
-          "start": "07:00",
+          "start": "07:06",
           "end": "08:00",
-          "show_id": "stimmlagen-das-infomagazin-der-freien-radios-in-osterreich",
+          "show_id": "fruhschicht",
           "live": false
         },
         {
           "start": "08:00",
-          "end": "09:00",
-          "show_id": "dorfradio-die-sendung-der-dorfzeitung-com",
+          "end": "08:59",
+          "show_id": "gesprachsfunken-facetten-vieler-leben",
           "live": false
         },
         {
-          "start": "09:00",
+          "start": "08:59",
           "end": "09:30",
-          "show_id": "radio-lebenshilfe-salzburg-menschen-mit-behinderung-am-wort",
+          "show_id": "stepping-to-the-a-m",
           "live": false
         },
         {
           "start": "09:30",
           "end": "10:06",
-          "show_id": "stepping-to-the-a-m",
+          "show_id": "herbstgewitter-musik-fur-beide-ohren",
           "live": false
         },
         {
           "start": "10:06",
           "end": "11:00",
-          "show_id": "radio-hamraz-das-magazin-fur-farsisprachige-mit-esmaeil-neda",
+          "show_id": "stepping-to-the-a-m",
           "live": false
         },
         {
           "start": "11:00",
-          "end": "12:06",
-          "show_id": "my-favourite-music-great-music-from-david-hubbles-private-co",
+          "end": "12:00",
+          "show_id": "flower-power-radio-die-legendarsten-hits-der-60er-und-70er-j",
           "live": false
         },
         {
-          "start": "12:06",
-          "end": "12:30",
-          "show_id": "hi-noon",
-          "live": false
-        },
-        {
-          "start": "12:30",
+          "start": "12:00",
           "end": "13:00",
-          "show_id": "werkspost-der-politische-salzburg-kommentar-newsletter-podca",
+          "show_id": "best-of-horenswert-das-beste-aus-uber-600-alben-der-woche",
           "live": false
         },
         {
           "start": "13:00",
-          "end": "13:30",
-          "show_id": "armes-reiches-land-sozialstaat-unter-druck-sendeschwerpunkt-",
+          "end": "14:00",
+          "show_id": "the-rocking-50s-eine-stunde-hillbilly-rockabilly-und-rock-n-",
           "live": false
         },
         {
-          "start": "13:30",
-          "end": "14:06",
-          "show_id": "playlistbattle",
-          "live": false
-        },
-        {
-          "start": "14:06",
+          "start": "14:00",
           "end": "15:00",
-          "show_id": "horenswert-das-radiofabrik-album-der-woche-piss-you-made-me-",
+          "show_id": "szenenwechsel-lokale-sounds-aus-den-freien-radios",
           "live": false
         },
         {
           "start": "15:00",
+          "end": "15:30",
+          "show_id": "treffpunkt-pinzgau-die-radiosendung-von-pinzgauer-innen-fur-",
+          "live": false
+        },
+        {
+          "start": "15:30",
           "end": "16:00",
-          "show_id": "groovy-afternoon",
+          "show_id": "wos-sogga-freies-radio-pinzgau",
           "live": false
         },
         {
           "start": "16:00",
-          "end": "17:00",
-          "show_id": "as-i-like-it-gute-musik-selten-gespielt-und-gehort",
+          "end": "16:30",
+          "show_id": "frauengesundheit-in-the-air-was-halt-und-macht-frauen-und-ma",
           "live": false
         },
         {
-          "start": "17:00",
-          "end": "17:30",
-          "show_id": "stadtteilradio-schallmoos-bewohnerinnen-berichten-aus-ihren-",
+          "start": "16:30",
+          "end": "17:06",
+          "show_id": "wos-sogga-freies-radio-pinzgau",
           "live": false
         },
         {
-          "start": "17:30",
+          "start": "17:06",
           "end": "18:00",
-          "show_id": "horbare-alpen-der-cipra-podcast-interviews-hintergrundgespra",
+          "show_id": "playlistbattle",
           "live": false
         },
         {
           "start": "18:00",
-          "end": "19:00",
-          "show_id": "mexiko-anders-das-solidaritatskomitee-mexiko-salzburg-inform",
-          "live": false
-        },
-        {
-          "start": "19:00",
-          "end": "19:03",
-          "show_id": "so-der-wochenkommentar-fur-salzburg",
-          "live": false
-        },
-        {
-          "start": "19:03",
           "end": "19:06",
-          "show_id": "playlistbattle",
+          "show_id": "querbeet-gemeinsam-mit-daniel-paula-zum-gepflegten-hohepunkt",
           "live": false
         },
         {
           "start": "19:06",
           "end": "20:00",
-          "show_id": "sos-muckomat-neues-vom-kinderdorf",
+          "show_id": "the-in-crowd-ein-moderierter-musikmix-mit-eljot",
           "live": false
         },
         {
           "start": "20:00",
-          "end": "22:06",
-          "show_id": "metallic-underground-alle-arten-von-metal-mit-manfred-thanne",
+          "end": "21:00",
+          "show_id": "freshvibes-radio-show-of-the-young-black-diaspora-in-austria",
           "live": false
         },
         {
-          "start": "22:06",
-          "end": "23:06",
-          "show_id": "nachtfahrt-aka-perlentaucher-mit-norbert-k-hund-und-christop",
+          "start": "21:00",
+          "end": "22:00",
+          "show_id": "radio-salsa-salzburg-salsa-merengue-und-latin-on-air",
+          "live": false
+        },
+        {
+          "start": "22:00",
+          "end": "23:00",
+          "show_id": "schallverkostung-auf-ex-zuhoren-und-genie-en",
+          "live": false
+        },
+        {
+          "start": "23:00",
+          "end": "24:00",
+          "show_id": "playlistbattle",
           "live": false
         }
       ]

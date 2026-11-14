@@ -4,7 +4,7 @@
   "station_id": 10,
   "generator": "scripts/scrape-radiopica.mjs",
   "timezone": "Europe/Madrid",
-  "last_updated": "2026-11-13",
+  "last_updated": "2026-11-14",
   "source": "https://www.radiopica.cat/graella.htm",
   "contact": "rsps@gmx.es",
   "notes": "Los horarios de inicio y final de algunos programas pueden variar unos minutos. La parrilla original empieza a las 14:00; las franjas de 00:00 a 14:00 corresponden a la columna del día anterior. Maximum Clatellot: «aquest programa s’emet el diumenge»",
