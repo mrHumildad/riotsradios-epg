@@ -165,13 +165,9 @@ async function main() {
     return { station, target, result }
   }, CONCURRENCY)
 
-  /* Stations that were not probed keep their previous entry. */
-  const health = {}
-  if (options.only) {
-    for (const id of options.only) {
-      if (previous[String(id)]) health[String(id)] = previous[String(id)]
-    }
-  }
+  /* Stations that were not probed keep their previous entry, so a focused
+     probe cannot drop the rest of the snapshot. */
+  const health = options.only ? { ...previous } : {}
 
   for (const { station, target, result } of probed) {
     const id = String(station.id)
