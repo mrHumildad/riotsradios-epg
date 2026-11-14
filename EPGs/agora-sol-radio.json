@@ -1,0 +1,271 @@
+{
+  "version": "2.0",
+  "station": "Ágora Sol Radio",
+  "station_id": 142,
+  "schedule_type": "weekly",
+  "timezone": "Europe/Madrid",
+  "last_updated": "2026-11-14",
+  "source": "https://www.agorasolradio.org/programacion/",
+  "notes": "Generado automáticamente desde https://www.agorasolradio.org/programacion/ (snapshot 2026-11-14); revisar data/epg-report.json.",
+  "generator": "scripts/convert-raw-epg.mjs",
+  "metadata": {
+    "categories": {
+      "musica": "Música",
+      "directo": "Directo",
+      "podcast": "Podcast / repetición",
+      "especial": "Especial",
+      "taller": "Taller / educación"
+    },
+    "default_filler": {
+      "title": "Música",
+      "category": "musica"
+    }
+  },
+  "shows": {
+    "tiempo-de-jazz": {
+      "title": "Tiempo de Jazz",
+      "category": "directo"
+    },
+    "musica-kasual": {
+      "title": "Música Kasual",
+      "category": "musica"
+    },
+    "agora-sesion-kasual": {
+      "title": "Ágora Sesión Kasual",
+      "category": "directo"
+    },
+    "radikal-sonoro": {
+      "title": "Radikal Sonoro",
+      "category": "directo"
+    },
+    "anonimos-autenticos": {
+      "title": "Anónimos Auténticos",
+      "category": "directo"
+    },
+    "salto-al-vacio": {
+      "title": "Salto al vacío",
+      "category": "directo"
+    },
+    "ensenando-los-dientes": {
+      "title": "Enseñando los dientes",
+      "category": "directo"
+    },
+    "raras-musicas": {
+      "title": "Raras Músicas",
+      "category": "directo"
+    },
+    "teoria-de-cuerdos": {
+      "title": "Teoría de cuerdos",
+      "category": "directo"
+    },
+    "la-contratertulia": {
+      "title": "La Contratertulia",
+      "category": "directo"
+    },
+    "espacio-comun-15m": {
+      "title": "Espacio Común 15M",
+      "category": "directo"
+    },
+    "onda-sonora": {
+      "title": "Onda Sonora",
+      "category": "directo"
+    },
+    "estrellas-de-metal": {
+      "title": "Estrellas de Metal",
+      "category": "directo"
+    },
+    "sangre-fucsia": {
+      "title": "Sangre Fucsia",
+      "category": "directo"
+    },
+    "barrio-canino": {
+      "title": "Barrio Canino",
+      "category": "directo"
+    },
+    "en-franca-decadencia": {
+      "title": "En Franca Decadencia",
+      "category": "directo"
+    },
+    "zona-del-metal": {
+      "title": "Zona del Metal",
+      "category": "directo"
+    },
+    "mas-que-una-intencion": {
+      "title": "Más que una intención",
+      "category": "directo"
+    },
+    "el-gesto-mas-radical": {
+      "title": "El Gesto Más Radical",
+      "category": "directo"
+    },
+    "rituales-de-resistencia": {
+      "title": "Rituales de Resistencia",
+      "category": "directo"
+    }
+  },
+  "days": [
+    {
+      "day": "monday",
+      "label": "Lunes",
+      "programs": [
+        {
+          "start": "16:00",
+          "end": "18:00",
+          "show_id": "tiempo-de-jazz",
+          "live": false
+        },
+        {
+          "start": "19:00",
+          "end": "21:00",
+          "show_id": "musica-kasual",
+          "live": false
+        },
+        {
+          "start": "21:00",
+          "end": "22:00",
+          "show_id": "agora-sesion-kasual",
+          "live": false
+        },
+        {
+          "start": "22:30",
+          "end": "00:00",
+          "show_id": "radikal-sonoro",
+          "live": false,
+          "crosses_midnight": true
+        }
+      ]
+    },
+    {
+      "day": "tuesday",
+      "label": "Martes",
+      "programs": [
+        {
+          "start": "13:00",
+          "end": "14:00",
+          "show_id": "anonimos-autenticos",
+          "live": false
+        },
+        {
+          "start": "19:30",
+          "end": "20:30",
+          "show_id": "salto-al-vacio",
+          "live": false
+        },
+        {
+          "start": "21:30",
+          "end": "22:30",
+          "show_id": "ensenando-los-dientes",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "wednesday",
+      "label": "Miércoles",
+      "programs": [
+        {
+          "start": "16:00",
+          "end": "17:00",
+          "show_id": "raras-musicas",
+          "live": false
+        },
+        {
+          "start": "17:30",
+          "end": "18:30",
+          "show_id": "teoria-de-cuerdos",
+          "live": false
+        },
+        {
+          "start": "22:00",
+          "end": "23:00",
+          "show_id": "la-contratertulia",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "thursday",
+      "label": "Jueves",
+      "programs": [
+        {
+          "start": "18:00",
+          "end": "20:00",
+          "show_id": "espacio-comun-15m",
+          "live": false
+        },
+        {
+          "start": "20:00",
+          "end": "23:00",
+          "show_id": "onda-sonora",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "friday",
+      "label": "Viernes",
+      "programs": [
+        {
+          "start": "16:30",
+          "end": "17:30",
+          "show_id": "estrellas-de-metal",
+          "live": false
+        },
+        {
+          "start": "20:00",
+          "end": "21:00",
+          "show_id": "sangre-fucsia",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "saturday",
+      "label": "Sábado",
+      "programs": [
+        {
+          "start": "09:00",
+          "end": "12:00",
+          "show_id": "barrio-canino",
+          "live": false
+        },
+        {
+          "start": "12:00",
+          "end": "14:30",
+          "show_id": "en-franca-decadencia",
+          "live": false
+        },
+        {
+          "start": "17:30",
+          "end": "20:00",
+          "show_id": "zona-del-metal",
+          "live": false
+        },
+        {
+          "start": "22:00",
+          "end": "23:00",
+          "show_id": "mas-que-una-intencion",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "sunday",
+      "label": "Domingo",
+      "programs": [
+        {
+          "start": "11:30",
+          "end": "12:00",
+          "show_id": "el-gesto-mas-radical",
+          "live": false
+        },
+        {
+          "start": "13:00",
+          "end": "15:00",
+          "show_id": "rituales-de-resistencia",
+          "live": false
+        }
+      ]
+    }
+  ]
+}

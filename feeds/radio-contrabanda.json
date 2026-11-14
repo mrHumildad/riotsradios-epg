@@ -1,0 +1,82 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Radio Contrabanda — latest posts",
+  "home_page_url": "https://www.contrabanda.org/",
+  "feed_url": "https://mrhumildad.github.io/riotsradios-epg/feeds/radio-contrabanda.json",
+  "_station_id": 1,
+  "_station_name": "Radio Contrabanda",
+  "_source": "https://www.contrabanda.org/feed/",
+  "_generated_at": "2026-11-12T14:19:47.793Z",
+  "items": [
+    {
+      "id": "https://www.contrabanda.org/?p=5078",
+      "url": "https://www.contrabanda.org/2026/11/08/huelga-general-11-de-noviembre/",
+      "title": "Huelga general 11 de noviembre",
+      "content_text": "Huelga general 11 de noviembre",
+      "date_published": "2026-11-08T17:06:30.000Z"
+    },
+    {
+      "id": "https://www.contrabanda.org/?p=5036",
+      "url": "https://www.contrabanda.org/2026/06/11/audios-del-8-cadenazo-de-las-radios-libres-antifascista/",
+      "title": "Audios del 8° Cadenazo de las Radios Libres Antifascista",
+      "content_text": "Audios del 8° Cadenazo de las Radios Libres Antifascista",
+      "date_published": "2026-06-11T06:50:12.000Z"
+    },
+    {
+      "id": "https://www.contrabanda.org/?p=5025",
+      "url": "https://www.contrabanda.org/2026/05/31/8o-cadenazo-antifascista-de-las-radios-libres/",
+      "title": "8º Cadenazo Antifascista de las Radios Libres",
+      "content_text": "8º Cadenazo Antifascista de las Radios Libres",
+      "date_published": "2026-05-31T14:57:56.000Z"
+    },
+    {
+      "id": "https://www.contrabanda.org/?p=5009",
+      "url": "https://www.contrabanda.org/2026/04/24/especial-regularizacion-ya/",
+      "title": "Especial Regularización YA",
+      "content_text": "Especial Regularización YA",
+      "date_published": "2026-04-24T09:19:09.000Z"
+    },
+    {
+      "id": "https://www.contrabanda.org/?p=5003",
+      "url": "https://www.contrabanda.org/2026/04/17/revoltes-de-la-terra-17-18-i-19-dabril-al-bages/",
+      "title": "Revoltes de la Terra: 17, 18 y 19 de abril en el Bages",
+      "content_text": "Revoltes de la Terra: 17, 18 y 19 de abril en el Bages",
+      "date_published": "2026-04-17T16:53:17.000Z"
+    },
+    {
+      "id": "https://www.contrabanda.org/?p=4994",
+      "url": "https://www.contrabanda.org/2026/03/22/primavera-por-gaza/",
+      "title": "Primavera por Gaza",
+      "content_text": "Primavera por Gaza",
+      "date_published": "2026-03-22T12:57:21.000Z"
+    },
+    {
+      "id": "https://www.contrabanda.org/?p=4985",
+      "url": "https://www.contrabanda.org/2026/03/03/encuentro-con-estudiantes-de-periodismo-en-contrabanda-fm/",
+      "title": "Encuentro con estudiantes de periodismo en Contrabanda FM",
+      "content_text": "Encuentro con estudiantes de periodismo en Contrabanda FM",
+      "date_published": "2026-03-03T19:25:27.000Z"
+    },
+    {
+      "id": "https://www.contrabanda.org/?p=4966",
+      "url": "https://www.contrabanda.org/2026/02/19/celebramos-el-35-aniversario-de-contrabanda-fm/",
+      "title": "Celebramos el 35 aniversario de Contrabanda FM",
+      "content_text": "Celebramos el 35 aniversario de Contrabanda FM",
+      "date_published": "2026-02-19T20:45:14.000Z"
+    },
+    {
+      "id": "https://www.contrabanda.org/?p=4939",
+      "url": "https://www.contrabanda.org/2026/01/09/des-de-les-radios-lliures-per-lany-nou/",
+      "title": "Desde las radios libres para el año nuevo",
+      "content_text": "Desde las radios libres para el año nuevo",
+      "date_published": "2026-01-09T21:25:31.000Z"
+    },
+    {
+      "id": "https://www.contrabanda.org/?p=4925",
+      "url": "https://www.contrabanda.org/2025/10/29/nuevo-programa-en-contrabanda-fm-humanoides-asociados/",
+      "title": "¡Nuevo programa en Contrabanda FM! Humanoides Asociados",
+      "content_text": "¡Nuevo programa en Contrabanda FM! Humanoides Asociados",
+      "date_published": "2025-10-29T09:35:33.000Z"
+    }
+  ]
+}

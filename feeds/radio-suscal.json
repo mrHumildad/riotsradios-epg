@@ -1,0 +1,33 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Radio Suscal — latest posts",
+  "home_page_url": "https://radiosuscal881.blogspot.com",
+  "feed_url": "https://mrhumildad.github.io/riotsradios-epg/feeds/radio-suscal.json",
+  "_station_id": 57,
+  "_station_name": "Radio Suscal",
+  "_source": "https://radiosuscal881.blogspot.com/feeds/posts/default",
+  "_generated_at": "2026-11-12T14:19:52.254Z",
+  "items": [
+    {
+      "id": "tag:blogger.com,1999:blog-7952318977891843345.post-6613152552805084436",
+      "url": "https://radiosuscal881.blogspot.com/2018/06/blog-post_58.html",
+      "title": "NOTICIERO JAHUAY",
+      "content_text": "NOTICIERO JAHUAY",
+      "date_published": "2018-06-29T22:39:00.004Z"
+    },
+    {
+      "id": "tag:blogger.com,1999:blog-7952318977891843345.post-2950402871591366856",
+      "url": "https://radiosuscal881.blogspot.com/2018/04/ubicacion-de-radio-suscal-881-fm.html",
+      "title": "UBICACIÓN DE RADIO SUSCAL 88.1 FM",
+      "content_text": "UBICACIÓN DE RADIO SUSCAL 88.1 FM",
+      "date_published": "2018-04-18T21:22:00.001Z"
+    },
+    {
+      "id": "tag:blogger.com,1999:blog-7952318977891843345.post-3337426861249243447",
+      "url": "https://radiosuscal881.blogspot.com/2018/04/galeria-de-fotos-de-suscal.html",
+      "title": "GALERÍA DE FOTOS DE SUSCAL",
+      "content_text": "GALERÍA DE FOTOS DE SUSCAL",
+      "date_published": "2018-04-18T17:06:00.001Z"
+    }
+  ]
+}

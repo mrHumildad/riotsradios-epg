@@ -1,0 +1,33 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Almenara Radio — latest posts",
+  "home_page_url": "https://radioalmenara.net/",
+  "feed_url": "https://mrhumildad.github.io/riotsradios-epg/feeds/almenara-radio.json",
+  "_station_id": 128,
+  "_station_name": "Almenara Radio",
+  "_source": "https://radioalmenara.net/feed/",
+  "_generated_at": "2026-11-12T14:19:55.192Z",
+  "items": [
+    {
+      "id": "https://radioalmenara.net/WP/?p=187",
+      "url": "https://radioalmenara.net/2026/03/25/prueba-2/",
+      "title": "Radio Almenara estrena nueva página web",
+      "content_text": "Radio Almenara estrena nueva página web",
+      "date_published": "2026-03-25T11:00:00.000Z"
+    },
+    {
+      "id": "https://radioalmenara.net/WP/?p=206",
+      "url": "https://radioalmenara.net/2026/03/25/prueba-3/",
+      "title": "Radio Almenara participará en el próximo encuentro de la ReMC en A Coruña",
+      "content_text": "Radio Almenara participará en el próximo encuentro de la ReMC en A Coruña",
+      "date_published": "2026-03-25T10:00:00.000Z"
+    },
+    {
+      "id": "https://radioalmenara.net/WP/?p=1",
+      "url": "https://radioalmenara.net/2025/04/25/hola-mundo/",
+      "title": "Manel Calbet, nuevo presidente de la ReMC",
+      "content_text": "Manel Calbet, nuevo presidente de la ReMC",
+      "date_published": "2025-04-25T08:45:41.000Z"
+    }
+  ]
+}

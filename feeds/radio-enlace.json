@@ -1,0 +1,82 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Radio Enlace — latest posts",
+  "home_page_url": "https://www.radioenlace.org/",
+  "feed_url": "https://mrhumildad.github.io/riotsradios-epg/feeds/radio-enlace.json",
+  "_station_id": 11,
+  "_station_name": "Radio Enlace",
+  "_source": "https://www.radioenlace.org/feed/",
+  "_generated_at": "2026-11-12T14:19:47.807Z",
+  "items": [
+    {
+      "id": "https://www.radioenlace.org/?p=1152",
+      "url": "https://www.radioenlace.org/adios-al-local-de-matapozuelos/?utm_source=rss&utm_medium=rss&utm_campaign=adios-al-local-de-matapozuelos",
+      "title": "Adiós al local de Matapozuelos",
+      "content_text": "Adiós al local de Matapozuelos",
+      "date_published": "2026-09-23T11:30:56.000Z"
+    },
+    {
+      "id": "http://www.radioenlace.org/?p=1056",
+      "url": "https://www.radioenlace.org/ninez-con-derechos/?utm_source=rss&utm_medium=rss&utm_campaign=ninez-con-derechos",
+      "title": "Niñez con derechos",
+      "content_text": "Niñez con derechos",
+      "date_published": "2024-11-13T08:06:44.000Z"
+    },
+    {
+      "id": "http://www.radioenlace.org/?p=1015",
+      "url": "https://www.radioenlace.org/indie-re-en-radio-enlace/?utm_source=rss&utm_medium=rss&utm_campaign=indie-re-en-radio-enlace",
+      "title": "INDIE-RE en Radio Enlace",
+      "content_text": "INDIE-RE en Radio Enlace",
+      "date_published": "2023-09-05T08:53:00.000Z"
+    },
+    {
+      "id": "http://www.radioenlace.org/?p=1002",
+      "url": "https://www.radioenlace.org/talleres-de-radio-en-el-ceipso-san-sebastian-de-el-boalo/?utm_source=rss&utm_medium=rss&utm_campaign=talleres-de-radio-en-el-ceipso-san-sebastian-de-el-boalo",
+      "title": "Talleres de radio en el CEIPSO San Sebastián de El Boalo",
+      "content_text": "Talleres de radio en el CEIPSO San Sebastián de El Boalo",
+      "date_published": "2023-06-16T15:26:36.000Z"
+    },
+    {
+      "id": "http://www.radioenlace.org/?p=994",
+      "url": "https://www.radioenlace.org/mesa-social-de-hortaleza/?utm_source=rss&utm_medium=rss&utm_campaign=mesa-social-de-hortaleza",
+      "title": "Mesa Social de Hortaleza",
+      "content_text": "Mesa Social de Hortaleza",
+      "date_published": "2023-06-02T08:19:25.000Z"
+    },
+    {
+      "id": "http://www.radioenlace.org/?p=987",
+      "url": "https://www.radioenlace.org/radio-escolar-en-el-ceip-europa-de-pinto/?utm_source=rss&utm_medium=rss&utm_campaign=radio-escolar-en-el-ceip-europa-de-pinto",
+      "title": "Radio Escolar en el CEIP Europa de Pinto",
+      "content_text": "Radio Escolar en el CEIP Europa de Pinto",
+      "date_published": "2023-05-04T11:29:26.000Z"
+    },
+    {
+      "id": "http://www.radioenlace.org/?p=983",
+      "url": "https://www.radioenlace.org/hablamos-de-medio-ambiente-y-la-agenda-2030-para-los-barrios/?utm_source=rss&utm_medium=rss&utm_campaign=hablamos-de-medio-ambiente-y-la-agenda-2030-para-los-barrios",
+      "title": "Hablamos de Medio Ambiente y la Agenda 2030 para los barrios",
+      "content_text": "Hablamos de Medio Ambiente y la Agenda 2030 para los barrios",
+      "date_published": "2023-04-19T05:30:53.000Z"
+    },
+    {
+      "id": "http://www.radioenlace.org/?p=966",
+      "url": "https://www.radioenlace.org/radio-enlace-en-la-semana-cultural-del-colegio-claret/?utm_source=rss&utm_medium=rss&utm_campaign=radio-enlace-en-la-semana-cultural-del-colegio-claret",
+      "title": "Radio Enlace en la Semana Cultural del Colegio Claret",
+      "content_text": "Radio Enlace en la Semana Cultural del Colegio Claret",
+      "date_published": "2023-03-13T09:28:26.000Z"
+    },
+    {
+      "id": "http://www.radioenlace.org/?p=964",
+      "url": "https://www.radioenlace.org/agenda-2030-para-el-barrio-villaverde-y-la-igualdad-de-genero/?utm_source=rss&utm_medium=rss&utm_campaign=agenda-2030-para-el-barrio-villaverde-y-la-igualdad-de-genero",
+      "title": "Agenda 2030 para el Barrio. Villaverde y la Igualdad de Género",
+      "content_text": "Agenda 2030 para el Barrio. Villaverde y la Igualdad de Género",
+      "date_published": "2023-03-13T07:24:10.000Z"
+    },
+    {
+      "id": "http://www.radioenlace.org/?p=950",
+      "url": "https://www.radioenlace.org/la-red-de-ongd-de-madrid-presenta-la-primera-de-las-producciones-radiofonicas-para-la-difusion-de-la-agenda-2030-en-la-ciudad-de-madrid/?utm_source=rss&utm_medium=rss&utm_campaign=la-red-de-ongd-de-madrid-presenta-la-primera-de-las-producciones-radiofonicas-para-la-difusion-de-la-agenda-2030-en-la-ciudad-de-madrid",
+      "title": "La Red de ONGD de Madrid presenta la primera de las producciones radiofónicas para la difusión de la agenda 2030 en la ciudad de Madrid",
+      "content_text": "La Red de ONGD de Madrid presenta la primera de las producciones radiofónicas para la difusión de la agenda 2030 en la ciudad de Madrid",
+      "date_published": "2023-02-15T08:43:16.000Z"
+    }
+  ]
+}

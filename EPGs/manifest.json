@@ -1,0 +1,244 @@
+{
+  "version": 1,
+  "generated_at": "2026-11-14T11:46:21.451Z",
+  "stations": {
+    "1": {
+      "file": "radio-contrabanda.json",
+      "status": "ok",
+      "updated": "2026-11-14",
+      "days": 7,
+      "programs": 178
+    },
+    "2": {
+      "file": "radio-arrebato.json",
+      "status": "ok",
+      "updated": "2026-11-14",
+      "days": 5,
+      "programs": 120
+    },
+    "3": {
+      "file": "ciroma.json",
+      "status": "ok",
+      "updated": "2026-11-14",
+      "days": 7,
+      "programs": 36
+    },
+    "4": {
+      "file": "eguzki-irratia.json",
+      "status": "ok",
+      "updated": "2026-11-14",
+      "days": 7,
+      "programs": 60
+    },
+    "5": {
+      "file": "radio-citta-fujiko.json",
+      "status": "ok",
+      "updated": "2026-11-14",
+      "days": 7,
+      "programs": 175
+    },
+    "6": {
+      "file": "radio-bip.json",
+      "status": "ok",
+      "updated": "2026-11-14",
+      "days": 7,
+      "programs": 23
+    },
+    "7": {
+      "file": "fm-la-tribu.json",
+      "status": "ok",
+      "updated": "2026-11-14",
+      "days": 7,
+      "programs": 76
+    },
+    "10": {
+      "file": "radio-pica.json",
+      "status": "ok",
+      "updated": "2026-11-14",
+      "days": 7,
+      "programs": 131
+    },
+    "11": {
+      "file": "radio-enlace.json",
+      "status": "ok",
+      "updated": "2026-11-14",
+      "days": 7,
+      "programs": 107
+    },
+    "15": {
+      "file": "ke-huelga-radio.json",
+      "status": "ok",
+      "updated": "2026-11-14",
+      "days": 7,
+      "programs": 62
+    },
+    "17": {
+      "file": "radio-libertaire.json",
+      "status": "ok",
+      "updated": "2026-11-14",
+      "days": 7,
+      "programs": 57
+    },
+    "18": {
+      "file": "radio-topo.json",
+      "status": "ok",
+      "updated": "2026-11-14",
+      "days": 7,
+      "programs": 150
+    },
+    "19": {
+      "file": "radio-vallekas.json",
+      "status": "ok",
+      "updated": "2026-11-14",
+      "days": 7,
+      "programs": 140
+    },
+    "20": {
+      "file": "radio-utopia.json",
+      "status": "ok",
+      "updated": "2026-11-14",
+      "days": 7,
+      "programs": 46
+    },
+    "23": {
+      "file": "radio-almaina.json",
+      "status": "ok",
+      "updated": "2026-11-14",
+      "days": 7,
+      "programs": 135
+    },
+    "26": {
+      "file": "radio-pimienta.json",
+      "status": "ok",
+      "updated": "2026-11-14",
+      "days": 7,
+      "programs": 105
+    },
+    "27": {
+      "file": "radio-onda-rossa.json",
+      "status": "ok",
+      "updated": "2026-11-14",
+      "days": 7,
+      "programs": 80
+    },
+    "63": {
+      "file": "kmoradio.json",
+      "status": "ok",
+      "updated": "2026-11-14",
+      "days": 7,
+      "programs": 26
+    },
+    "65": {
+      "file": "ahijuna.json",
+      "status": "ok",
+      "updated": "2026-11-14",
+      "days": 7,
+      "programs": 44
+    },
+    "66": {
+      "file": "alba-ciudad-96-3-fm.json",
+      "status": "ok",
+      "updated": "2026-11-14",
+      "days": 7,
+      "programs": 27
+    },
+    "73": {
+      "file": "espika-fm.json",
+      "status": "ok",
+      "updated": "2026-11-14",
+      "days": 7,
+      "programs": 137
+    },
+    "100": {
+      "file": "mochileros.json",
+      "status": "ok",
+      "updated": "2026-11-14",
+      "days": 7,
+      "programs": 18
+    },
+    "124": {
+      "file": "fm-la-boca.json",
+      "status": "ok",
+      "updated": "2026-11-14",
+      "days": 7,
+      "programs": 168
+    },
+    "126": {
+      "file": "cuac-fm.json",
+      "status": "ok",
+      "updated": "2026-11-14",
+      "days": 5,
+      "programs": 50
+    },
+    "128": {
+      "file": "almenara-radio.json",
+      "status": "ok",
+      "updated": "2026-11-14",
+      "days": 5,
+      "programs": 11
+    },
+    "129": {
+      "file": "radio-argayo.json",
+      "status": "ok",
+      "updated": "2026-11-14",
+      "days": 7,
+      "programs": 34
+    },
+    "130": {
+      "file": "eco-leganes.json",
+      "status": "ok",
+      "updated": "2026-11-14",
+      "days": 7,
+      "programs": 118
+    },
+    "132": {
+      "file": "omc-onda-merlin-comunitaria.json",
+      "status": "ok",
+      "updated": "2026-11-14",
+      "days": 7,
+      "programs": 68
+    },
+    "133": {
+      "file": "radio-iris-7.json",
+      "status": "ok",
+      "updated": "2026-11-14",
+      "days": 7,
+      "programs": 104
+    },
+    "135": {
+      "file": "radio-xata.json",
+      "status": "ok",
+      "updated": "2026-11-14",
+      "days": 7,
+      "programs": 70
+    },
+    "142": {
+      "file": "agora-sol-radio.json",
+      "status": "ok",
+      "updated": "2026-11-14",
+      "days": 7,
+      "programs": 20
+    },
+    "145": {
+      "file": "radio-kolor.json",
+      "status": "ok",
+      "updated": "2026-11-14",
+      "days": 7,
+      "programs": 47
+    },
+    "150": {
+      "file": "klassik-radio.json",
+      "status": "ok",
+      "updated": "2026-11-14",
+      "days": 7,
+      "programs": 48
+    },
+    "151": {
+      "file": "serenade-radio.json",
+      "status": "ok",
+      "updated": "2026-11-14",
+      "days": 7,
+      "programs": 14
+    }
+  }
+}

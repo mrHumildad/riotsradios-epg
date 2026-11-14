@@ -1,0 +1,398 @@
+{
+  "version": "2.0",
+  "station": "Radio Argayo",
+  "station_id": 129,
+  "schedule_type": "weekly",
+  "timezone": "Europe/Madrid",
+  "last_updated": "2026-11-14",
+  "source": "https://radioargayo.github.io/",
+  "notes": "Generado automáticamente desde https://radioargayo.github.io/ (snapshot 2026-11-14); revisar data/epg-report.json.",
+  "generator": "scripts/convert-raw-epg.mjs",
+  "metadata": {
+    "categories": {
+      "musica": "Música",
+      "directo": "Directo",
+      "podcast": "Podcast / repetición",
+      "especial": "Especial",
+      "taller": "Taller / educación"
+    },
+    "default_filler": {
+      "title": "Música",
+      "category": "musica"
+    }
+  },
+  "shows": {
+    "los-relatos-de-alejandro": {
+      "title": "Los Relatos de Alejandro",
+      "category": "directo"
+    },
+    "menopausia-rebelde": {
+      "title": "Menopausia Rebelde",
+      "category": "directo"
+    },
+    "hardcuore": {
+      "title": "HardCuore",
+      "category": "directo"
+    },
+    "cafe-de-silverio": {
+      "title": "Café de Silverio",
+      "category": "directo"
+    },
+    "libroteca": {
+      "title": "Libroteca",
+      "category": "directo"
+    },
+    "dale-punki-dale": {
+      "title": "Dale Punki Dale",
+      "category": "directo"
+    },
+    "hardcore-radikal": {
+      "title": "Hardcore Radikal",
+      "category": "directo"
+    },
+    "el-pajaro-observador": {
+      "title": "El Pájaro Observador",
+      "category": "directo"
+    },
+    "radio-coctelera": {
+      "title": "Radio Coctelera",
+      "category": "directo"
+    },
+    "la-contratertulia": {
+      "title": "La Contratertulia",
+      "category": "directo"
+    },
+    "los-amigos-de-artax": {
+      "title": "Los Amigos de Artax",
+      "category": "directo"
+    },
+    "la-linterna-de-diogenes": {
+      "title": "La Linterna de Diógenes",
+      "category": "directo"
+    },
+    "en-franca-decadencia": {
+      "title": "En Franca Decadencia",
+      "category": "directo"
+    },
+    "la-vuelta-al-mundo-en-80-musicas": {
+      "title": "La Vuelta al Mundo en 80 Músicas",
+      "category": "directo"
+    },
+    "nosotras-las-personas": {
+      "title": "Nosotras las Personas",
+      "category": "directo"
+    },
+    "100-fuegos": {
+      "title": "100 Fuegos",
+      "category": "directo"
+    },
+    "el-canto-de-la-tripulacion": {
+      "title": "El Canto de la Tripulación",
+      "category": "directo"
+    },
+    "continentes-y-contenidos": {
+      "title": "Continentes y Contenidos",
+      "category": "directo"
+    },
+    "sangre-fucsia": {
+      "title": "Sangre Fucsia",
+      "category": "directo"
+    },
+    "steppin": {
+      "title": "Steppin",
+      "category": "directo"
+    },
+    "la-tertulia-de-las-comadres": {
+      "title": "La Tertulia de las Comadres",
+      "category": "directo"
+    },
+    "de-raiz": {
+      "title": "De Raíz",
+      "category": "directo"
+    },
+    "hijos-del-agobio": {
+      "title": "Hijos del Agobio",
+      "category": "directo"
+    },
+    "musica-para-aburrir": {
+      "title": "Música para Aburrir",
+      "category": "musica"
+    },
+    "ai-ai-ai": {
+      "title": "ai ai ai",
+      "category": "directo"
+    },
+    "jazz-primitivo": {
+      "title": "Jazz Primitivo",
+      "category": "directo"
+    },
+    "caipirinha-libre": {
+      "title": "Caipirinha Libre",
+      "category": "directo"
+    },
+    "fuera-de-campo": {
+      "title": "Fuera de Campo",
+      "category": "directo"
+    },
+    "coranimal": {
+      "title": "Coranimal",
+      "category": "directo"
+    },
+    "noche-de-rock": {
+      "title": "Noche de Rock",
+      "category": "directo"
+    },
+    "condenado-podcast": {
+      "title": "Condenado Podcast",
+      "category": "directo"
+    }
+  },
+  "days": [
+    {
+      "day": "monday",
+      "label": "Lunes",
+      "programs": [
+        {
+          "start": "10:00",
+          "end": "11:00",
+          "show_id": "los-relatos-de-alejandro",
+          "live": false
+        },
+        {
+          "start": "13:00",
+          "end": "14:00",
+          "show_id": "menopausia-rebelde",
+          "live": false
+        },
+        {
+          "start": "15:00",
+          "end": "16:00",
+          "show_id": "hardcuore",
+          "live": false
+        },
+        {
+          "start": "16:00",
+          "end": "17:00",
+          "show_id": "cafe-de-silverio",
+          "live": false
+        },
+        {
+          "start": "19:00",
+          "end": "20:00",
+          "show_id": "libroteca",
+          "live": false
+        },
+        {
+          "start": "22:00",
+          "end": "23:00",
+          "show_id": "dale-punki-dale",
+          "live": false
+        },
+        {
+          "start": "23:00",
+          "end": "24:00",
+          "show_id": "hardcore-radikal",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "tuesday",
+      "label": "Martes",
+      "programs": [
+        {
+          "start": "01:00",
+          "end": "02:00",
+          "show_id": "el-pajaro-observador",
+          "live": false
+        },
+        {
+          "start": "07:00",
+          "end": "08:00",
+          "show_id": "radio-coctelera",
+          "live": false
+        },
+        {
+          "start": "10:00",
+          "end": "11:00",
+          "show_id": "la-contratertulia",
+          "live": false
+        },
+        {
+          "start": "19:00",
+          "end": "20:00",
+          "show_id": "los-amigos-de-artax",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "wednesday",
+      "label": "Miércoles",
+      "programs": [
+        {
+          "start": "11:00",
+          "end": "12:00",
+          "show_id": "la-linterna-de-diogenes",
+          "live": false
+        },
+        {
+          "start": "12:00",
+          "end": "13:00",
+          "show_id": "en-franca-decadencia",
+          "live": false
+        },
+        {
+          "start": "15:00",
+          "end": "16:00",
+          "show_id": "la-vuelta-al-mundo-en-80-musicas",
+          "live": false
+        },
+        {
+          "start": "18:00",
+          "end": "19:00",
+          "show_id": "nosotras-las-personas",
+          "live": false
+        },
+        {
+          "start": "21:00",
+          "end": "22:00",
+          "show_id": "100-fuegos",
+          "live": false
+        },
+        {
+          "start": "22:00",
+          "end": "23:00",
+          "show_id": "el-canto-de-la-tripulacion",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "thursday",
+      "label": "Jueves",
+      "programs": [
+        {
+          "start": "09:00",
+          "end": "10:00",
+          "show_id": "continentes-y-contenidos",
+          "live": false
+        },
+        {
+          "start": "11:00",
+          "end": "12:00",
+          "show_id": "sangre-fucsia",
+          "live": false
+        },
+        {
+          "start": "12:00",
+          "end": "13:00",
+          "show_id": "steppin",
+          "live": false
+        },
+        {
+          "start": "13:00",
+          "end": "14:00",
+          "show_id": "la-tertulia-de-las-comadres",
+          "live": false
+        },
+        {
+          "start": "15:00",
+          "end": "16:00",
+          "show_id": "de-raiz",
+          "live": false
+        },
+        {
+          "start": "17:00",
+          "end": "18:00",
+          "show_id": "el-pajaro-observador",
+          "live": false
+        },
+        {
+          "start": "19:00",
+          "end": "20:00",
+          "show_id": "hijos-del-agobio",
+          "live": false
+        },
+        {
+          "start": "21:00",
+          "end": "22:00",
+          "show_id": "musica-para-aburrir",
+          "live": false
+        },
+        {
+          "start": "23:00",
+          "end": "24:00",
+          "show_id": "ai-ai-ai",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "friday",
+      "label": "Viernes",
+      "programs": [
+        {
+          "start": "09:00",
+          "end": "10:00",
+          "show_id": "jazz-primitivo",
+          "live": false
+        },
+        {
+          "start": "10:00",
+          "end": "11:00",
+          "show_id": "caipirinha-libre",
+          "live": false
+        },
+        {
+          "start": "13:00",
+          "end": "14:00",
+          "show_id": "fuera-de-campo",
+          "live": false
+        },
+        {
+          "start": "15:00",
+          "end": "16:00",
+          "show_id": "coranimal",
+          "live": false
+        },
+        {
+          "start": "17:00",
+          "end": "18:00",
+          "show_id": "la-tertulia-de-las-comadres",
+          "live": false
+        },
+        {
+          "start": "21:00",
+          "end": "22:00",
+          "show_id": "noche-de-rock",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "saturday",
+      "label": "Sábado",
+      "programs": [
+        {
+          "start": "21:00",
+          "end": "22:00",
+          "show_id": "condenado-podcast",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "sunday",
+      "label": "Domingo",
+      "programs": [
+        {
+          "start": "15:00",
+          "end": "16:00",
+          "show_id": "los-relatos-de-alejandro",
+          "live": false
+        }
+      ]
+    }
+  ]
+}

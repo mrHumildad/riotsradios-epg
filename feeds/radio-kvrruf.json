@@ -1,0 +1,33 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Radio Kvrruf — latest posts",
+  "home_page_url": "http://radiokurruf.org/",
+  "feed_url": "https://mrhumildad.github.io/riotsradios-epg/feeds/radio-kvrruf.json",
+  "_station_id": 46,
+  "_station_name": "Radio Kvrruf",
+  "_source": "https://radiokurruf.org/feed/",
+  "_generated_at": "2026-11-12T14:19:51.764Z",
+  "items": [
+    {
+      "id": "https://radiokurruf.org/?p=39161",
+      "url": "https://radiokurruf.org/sobre-la-propuesta-de-modificacion-al-articulo-13-de-la-ley-indigena-19-253/",
+      "title": "Sobre la propuesta de modificación al artículo 13 de la ley indigena 19.253",
+      "content_text": "Sobre la propuesta de modificación al artículo 13 de la ley indigena 19.253",
+      "date_published": "2026-11-11T01:44:18.000Z"
+    },
+    {
+      "id": "https://radiokurruf.org/?p=39157",
+      "url": "https://radiokurruf.org/declaracion-publica-lof-pillumallin-autonomo-y-coordinadora-arauco-malleco/",
+      "title": "Declaración publica Lof Pillumallin Autónomo y Coordinadora Arauco Malleco",
+      "content_text": "Declaración publica Lof Pillumallin Autónomo y Coordinadora Arauco Malleco",
+      "date_published": "2026-11-11T01:21:15.000Z"
+    },
+    {
+      "id": "https://radiokurruf.org/?p=39144",
+      "url": "https://radiokurruf.org/juzgado-de-loncoche-confirma-propiedad-indigena-a-favor-de-mujer-mapuche-y-en-contra-de-forestal-mininco/",
+      "title": "Juzgado de Loncoche confirma propiedad indígena a favor de mujer mapuche y en contra de Forestal Mininco",
+      "content_text": "Juzgado de Loncoche confirma propiedad indígena a favor de mujer mapuche y en contra de Forestal Mininco",
+      "date_published": "2026-11-10T13:27:36.000Z"
+    }
+  ]
+}

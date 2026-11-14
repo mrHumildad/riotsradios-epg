@@ -1,0 +1,595 @@
+{
+  "version": "2.0",
+  "station": "Radio Xata",
+  "station_id": 135,
+  "schedule_type": "weekly",
+  "timezone": "Europe/Madrid",
+  "last_updated": "2026-11-14",
+  "source": "https://radioxata.org/parrilla/",
+  "notes": "Generado automáticamente desde https://radioxata.org/parrilla/ (snapshot 2026-11-14); revisar data/epg-report.json.",
+  "generator": "scripts/convert-raw-epg.mjs",
+  "metadata": {
+    "categories": {
+      "musica": "Música",
+      "directo": "Directo",
+      "podcast": "Podcast / repetición",
+      "especial": "Especial",
+      "taller": "Taller / educación"
+    },
+    "default_filler": {
+      "title": "Música",
+      "category": "musica"
+    }
+  },
+  "shows": {
+    "tiempo-de-jazz": {
+      "title": "Tiempo de Jazz",
+      "category": "directo"
+    },
+    "democrazy-now": {
+      "title": "Democrazy Now",
+      "category": "directo"
+    },
+    "ods-informativo": {
+      "title": "ODS (informativo)",
+      "category": "directo"
+    },
+    "admin": {
+      "title": "admin",
+      "category": "directo"
+    },
+    "sangre-fucsia": {
+      "title": "Sangre fucsia",
+      "category": "directo"
+    },
+    "musica-hechaenpinto": {
+      "title": "Música #HechaEnPinto",
+      "category": "musica"
+    },
+    "100-fuegos": {
+      "title": "100 Fuegos",
+      "category": "directo"
+    },
+    "barrio-canino": {
+      "title": "Barrio canino",
+      "category": "directo"
+    },
+    "carpe-diem": {
+      "title": "Carpe diem",
+      "category": "directo"
+    },
+    "reemisiones": {
+      "title": "Reemisiones",
+      "category": "directo"
+    },
+    "la-luna-sale-a-tiempo": {
+      "title": "La luna sale a tiempo",
+      "category": "directo"
+    },
+    "mujeres-de-pinto-y-mas-alla": {
+      "title": "Mujeres de Pinto (y más allá)",
+      "category": "directo"
+    },
+    "factotum": {
+      "title": "Factotum",
+      "category": "directo"
+    },
+    "el-rincon-de-gunnar": {
+      "title": "El Rincón de Gunnar",
+      "category": "directo"
+    },
+    "made-in-xata": {
+      "title": "Made in Xata",
+      "category": "directo"
+    },
+    "la-linterna-de-diogenes": {
+      "title": "La linterna de Diógenes",
+      "category": "directo"
+    },
+    "ovejas-negrax": {
+      "title": "Ovejas Negrax",
+      "category": "directo"
+    },
+    "cosas-de-mayores": {
+      "title": "Cosas de mayores",
+      "category": "directo"
+    },
+    "ermosas-y-poderosas": {
+      "title": "ermosas y poderosas",
+      "category": "directo"
+    },
+    "ponte-flamenco": {
+      "title": "Ponte flamenco",
+      "category": "directo"
+    },
+    "wake-up": {
+      "title": "Wake Up",
+      "category": "directo"
+    },
+    "entre-lobas": {
+      "title": "Entre Lobas",
+      "category": "directo"
+    },
+    "main-stage": {
+      "title": "Main Stage",
+      "category": "directo"
+    },
+    "reemision": {
+      "title": "Reemisión",
+      "category": "podcast"
+    },
+    "arcoiris": {
+      "title": "Arcoiris",
+      "category": "directo"
+    }
+  },
+  "days": [
+    {
+      "day": "monday",
+      "label": "Lunes",
+      "programs": [
+        {
+          "start": "06:00",
+          "end": "08:30",
+          "show_id": "tiempo-de-jazz",
+          "live": false
+        },
+        {
+          "start": "08:30",
+          "end": "09:00",
+          "show_id": "democrazy-now",
+          "live": false
+        },
+        {
+          "start": "09:00",
+          "end": "10:00",
+          "show_id": "ods-informativo",
+          "live": false
+        },
+        {
+          "start": "10:00",
+          "end": "11:30",
+          "show_id": "admin",
+          "live": false
+        },
+        {
+          "start": "11:30",
+          "end": "12:30",
+          "show_id": "sangre-fucsia",
+          "live": false
+        },
+        {
+          "start": "12:30",
+          "end": "19:00",
+          "show_id": "musica-hechaenpinto",
+          "live": false
+        },
+        {
+          "start": "19:00",
+          "end": "20:30",
+          "show_id": "100-fuegos",
+          "live": false
+        },
+        {
+          "start": "20:30",
+          "end": "21:00",
+          "show_id": "musica-hechaenpinto",
+          "live": false
+        },
+        {
+          "start": "21:00",
+          "end": "00:00",
+          "show_id": "barrio-canino",
+          "live": false,
+          "crosses_midnight": true
+        }
+      ]
+    },
+    {
+      "day": "tuesday",
+      "label": "Martes",
+      "programs": [
+        {
+          "start": "08:30",
+          "end": "09:00",
+          "show_id": "democrazy-now",
+          "live": false
+        },
+        {
+          "start": "09:00",
+          "end": "10:00",
+          "show_id": "ods-informativo",
+          "live": false
+        },
+        {
+          "start": "10:00",
+          "end": "11:30",
+          "show_id": "admin",
+          "live": false
+        },
+        {
+          "start": "11:30",
+          "end": "13:00",
+          "show_id": "carpe-diem",
+          "live": false
+        },
+        {
+          "start": "13:00",
+          "end": "16:00",
+          "show_id": "reemisiones",
+          "live": false
+        },
+        {
+          "start": "16:00",
+          "end": "18:00",
+          "show_id": "la-luna-sale-a-tiempo",
+          "live": false
+        },
+        {
+          "start": "18:00",
+          "end": "19:00",
+          "show_id": "mujeres-de-pinto-y-mas-alla",
+          "live": false
+        },
+        {
+          "start": "19:00",
+          "end": "20:00",
+          "show_id": "musica-hechaenpinto",
+          "live": false
+        },
+        {
+          "start": "21:00",
+          "end": "22:30",
+          "show_id": "factotum",
+          "live": false
+        },
+        {
+          "start": "22:30",
+          "end": "23:30",
+          "show_id": "reemisiones",
+          "live": false
+        },
+        {
+          "start": "23:30",
+          "end": "00:00",
+          "show_id": "admin",
+          "live": false,
+          "crosses_midnight": true
+        }
+      ]
+    },
+    {
+      "day": "wednesday",
+      "label": "Miércoles",
+      "programs": [
+        {
+          "start": "07:00",
+          "end": "08:30",
+          "show_id": "el-rincon-de-gunnar",
+          "live": false
+        },
+        {
+          "start": "08:30",
+          "end": "09:00",
+          "show_id": "made-in-xata",
+          "live": false
+        },
+        {
+          "start": "09:00",
+          "end": "10:00",
+          "show_id": "ods-informativo",
+          "live": false
+        },
+        {
+          "start": "10:00",
+          "end": "11:30",
+          "show_id": "admin",
+          "live": false
+        },
+        {
+          "start": "11:30",
+          "end": "14:30",
+          "show_id": "barrio-canino",
+          "live": false
+        },
+        {
+          "start": "14:30",
+          "end": "18:00",
+          "show_id": "admin",
+          "live": false
+        },
+        {
+          "start": "19:00",
+          "end": "21:00",
+          "show_id": "musica-hechaenpinto",
+          "live": false
+        },
+        {
+          "start": "21:00",
+          "end": "22:30",
+          "show_id": "la-linterna-de-diogenes",
+          "live": false
+        },
+        {
+          "start": "22:30",
+          "end": "23:30",
+          "show_id": "ods-informativo",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "thursday",
+      "label": "Jueves",
+      "programs": [
+        {
+          "start": "06:30",
+          "end": "08:30",
+          "show_id": "factotum",
+          "live": false
+        },
+        {
+          "start": "08:30",
+          "end": "09:00",
+          "show_id": "reemisiones",
+          "live": false
+        },
+        {
+          "start": "09:00",
+          "end": "10:00",
+          "show_id": "ods-informativo",
+          "live": false
+        },
+        {
+          "start": "10:00",
+          "end": "11:30",
+          "show_id": "admin",
+          "live": false
+        },
+        {
+          "start": "11:30",
+          "end": "12:30",
+          "show_id": "ovejas-negrax",
+          "live": false
+        },
+        {
+          "start": "12:30",
+          "end": "18:00",
+          "show_id": "musica-hechaenpinto",
+          "live": false
+        },
+        {
+          "start": "18:00",
+          "end": "19:00",
+          "show_id": "cosas-de-mayores",
+          "live": false
+        },
+        {
+          "start": "19:00",
+          "end": "20:00",
+          "show_id": "admin",
+          "live": false
+        },
+        {
+          "start": "20:00",
+          "end": "21:00",
+          "show_id": "admin",
+          "live": false
+        },
+        {
+          "start": "21:00",
+          "end": "22:30",
+          "show_id": "ermosas-y-poderosas",
+          "live": false
+        },
+        {
+          "start": "22:30",
+          "end": "23:30",
+          "show_id": "reemisiones",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "friday",
+      "label": "Viernes",
+      "programs": [
+        {
+          "start": "07:00",
+          "end": "08:30",
+          "show_id": "100-fuegos",
+          "live": false
+        },
+        {
+          "start": "08:30",
+          "end": "09:00",
+          "show_id": "reemisiones",
+          "live": false
+        },
+        {
+          "start": "09:00",
+          "end": "10:00",
+          "show_id": "ods-informativo",
+          "live": false
+        },
+        {
+          "start": "12:00",
+          "end": "14:00",
+          "show_id": "admin",
+          "live": false
+        },
+        {
+          "start": "15:00",
+          "end": "17:30",
+          "show_id": "musica-hechaenpinto",
+          "live": false
+        },
+        {
+          "start": "17:30",
+          "end": "19:00",
+          "show_id": "carpe-diem",
+          "live": false
+        },
+        {
+          "start": "19:00",
+          "end": "21:00",
+          "show_id": "musica-hechaenpinto",
+          "live": false
+        },
+        {
+          "start": "21:00",
+          "end": "22:00",
+          "show_id": "sangre-fucsia",
+          "live": false
+        },
+        {
+          "start": "22:00",
+          "end": "23:00",
+          "show_id": "ponte-flamenco",
+          "live": false
+        },
+        {
+          "start": "23:00",
+          "end": "00:00",
+          "show_id": "wake-up",
+          "live": false,
+          "crosses_midnight": true
+        }
+      ]
+    },
+    {
+      "day": "saturday",
+      "label": "Sábado",
+      "programs": [
+        {
+          "start": "08:30",
+          "end": "09:30",
+          "show_id": "ods-informativo",
+          "live": false
+        },
+        {
+          "start": "09:30",
+          "end": "10:30",
+          "show_id": "admin",
+          "live": false
+        },
+        {
+          "start": "10:30",
+          "end": "12:30",
+          "show_id": "admin",
+          "live": false
+        },
+        {
+          "start": "12:30",
+          "end": "14:30",
+          "show_id": "factotum",
+          "live": false
+        },
+        {
+          "start": "14:30",
+          "end": "16:00",
+          "show_id": "reemisiones",
+          "live": false
+        },
+        {
+          "start": "17:00",
+          "end": "18:00",
+          "show_id": "entre-lobas",
+          "live": false
+        },
+        {
+          "start": "18:00",
+          "end": "20:00",
+          "show_id": "reemisiones",
+          "live": false
+        },
+        {
+          "start": "20:00",
+          "end": "21:00",
+          "show_id": "musica-hechaenpinto",
+          "live": false
+        },
+        {
+          "start": "21:00",
+          "end": "22:00",
+          "show_id": "ovejas-negrax",
+          "live": false
+        },
+        {
+          "start": "22:00",
+          "end": "00:00",
+          "show_id": "admin",
+          "live": false,
+          "crosses_midnight": true
+        }
+      ]
+    },
+    {
+      "day": "sunday",
+      "label": "Domingo",
+      "programs": [
+        {
+          "start": "00:00",
+          "end": "01:30",
+          "show_id": "main-stage",
+          "live": false
+        },
+        {
+          "start": "08:30",
+          "end": "09:30",
+          "show_id": "ods-informativo",
+          "live": false
+        },
+        {
+          "start": "09:30",
+          "end": "11:00",
+          "show_id": "admin",
+          "live": false
+        },
+        {
+          "start": "11:00",
+          "end": "12:30",
+          "show_id": "reemisiones",
+          "live": false
+        },
+        {
+          "start": "12:30",
+          "end": "14:30",
+          "show_id": "reemision",
+          "live": false
+        },
+        {
+          "start": "17:00",
+          "end": "18:00",
+          "show_id": "arcoiris",
+          "live": false
+        },
+        {
+          "start": "18:00",
+          "end": "19:00",
+          "show_id": "ermosas-y-poderosas",
+          "live": false
+        },
+        {
+          "start": "19:00",
+          "end": "20:00",
+          "show_id": "reemisiones",
+          "live": false
+        },
+        {
+          "start": "20:00",
+          "end": "22:00",
+          "show_id": "la-luna-sale-a-tiempo",
+          "live": false
+        },
+        {
+          "start": "22:00",
+          "end": "00:30",
+          "show_id": "tiempo-de-jazz",
+          "live": false,
+          "crosses_midnight": true
+        }
+      ]
+    }
+  ]
+}

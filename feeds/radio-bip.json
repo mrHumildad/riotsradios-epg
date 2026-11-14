@@ -1,0 +1,82 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Radio Bip — latest posts",
+  "home_page_url": "https://radiobip.fr/site/",
+  "feed_url": "https://mrhumildad.github.io/riotsradios-epg/feeds/radio-bip.json",
+  "_station_id": 6,
+  "_station_name": "Radio Bip",
+  "_source": "https://radiobip.fr/site/feed/",
+  "_generated_at": "2026-11-12T14:19:47.064Z",
+  "items": [
+    {
+      "id": "https://radiobip.fr/site/?p=20421",
+      "url": "https://radiobip.fr/site/2026/10/besancon-manifestations-interdites-dans-le-centre-ville-surveillance-par-drones-et-mesures-de-securite-renforcees-pour-le-31-octobre/",
+      "title": "Besançon : manifestations interdites dans le centre-ville, surveillance par drones et mesures de sécurité renforcées pour le 31 octobre",
+      "content_text": "Besançon : manifestations interdites dans le centre-ville, surveillance par drones et mesures de sécurité renforcées pour le 31 octobre",
+      "date_published": "2026-10-30T19:23:54.000Z"
+    },
+    {
+      "id": "https://radiobip.fr/site/?p=20414",
+      "url": "https://radiobip.fr/site/2026/10/welcome-to-europe-qui-sont-les-vrais-barbares/",
+      "title": "« Welcome to Europe » (Qui sont les vrais barbares ?)",
+      "content_text": "« Welcome to Europe » (Qui sont les vrais barbares ?)",
+      "date_published": "2026-10-15T16:27:06.000Z"
+    },
+    {
+      "id": "https://radiobip.fr/site/?p=20367",
+      "url": "https://radiobip.fr/site/2026/10/retour-sur-la-journee-du-2-octobre-des-manifestations-lyceennes/",
+      "title": "Retour sur la journée du 2 Octobre des manifestations lycéennes",
+      "content_text": "Retour sur la journée du 2 Octobre des manifestations lycéennes",
+      "date_published": "2026-10-04T22:03:14.000Z"
+    },
+    {
+      "id": "https://radiobip.fr/site/?p=20362",
+      "url": "https://radiobip.fr/site/2026/09/nouvelle-expulsion-des-voyageurs-a-la-friche-de-besancon/",
+      "title": "Nouvelle expulsion des voyageurs à la Friche de Besançon",
+      "content_text": "Nouvelle expulsion des voyageurs à la Friche de Besançon",
+      "date_published": "2026-09-24T23:51:35.000Z"
+    },
+    {
+      "id": "https://radiobip.fr/site/?p=20324",
+      "url": "https://radiobip.fr/site/2026/05/video-bernard-friot-conference-securite-sociale-actualiser-les-conquetes-de-1945/",
+      "title": "[Vidéo] Bernard Friot – Conférence «Sécurité Sociale. Actualiser les conquêtes de 1945»",
+      "content_text": "[Vidéo] Bernard Friot – Conférence «Sécurité Sociale. Actualiser les conquêtes de 1945»",
+      "date_published": "2026-05-08T02:56:54.000Z"
+    },
+    {
+      "id": "https://radiobip.fr/site/?p=20330",
+      "url": "https://radiobip.fr/site/2026/05/disparition-de-pierre-cochard-fondateur-sud-ptt/",
+      "title": "Disparition de Pierre Cochard, fondateur SUD PTT",
+      "content_text": "Disparition de Pierre Cochard, fondateur SUD PTT",
+      "date_published": "2026-05-05T19:03:54.000Z"
+    },
+    {
+      "id": "https://radiobip.fr/site/?p=20299",
+      "url": "https://radiobip.fr/site/2026/04/rassemblement-contre-le-racisme-sous-toutes-ses-formes-et-les-attaques-envers-les-elu-e-s/",
+      "title": "Rassemblement «Contre le racisme sous toutes ses formes et les attaques envers les élu.e.s»",
+      "content_text": "Rassemblement «Contre le racisme sous toutes ses formes et les attaques envers les élu.e.s»",
+      "date_published": "2026-04-09T22:06:23.000Z"
+    },
+    {
+      "id": "https://radiobip.fr/site/?p=20264",
+      "url": "https://radiobip.fr/site/2026/04/ce-qui-nous-relie-par-le-collectif-exil/",
+      "title": "Ce qui Nous Relie par le « Collectif Exil »",
+      "content_text": "Ce qui Nous Relie par le « Collectif Exil »",
+      "date_published": "2026-04-09T19:39:30.000Z"
+    },
+    {
+      "id": "https://radiobip.fr/site/?p=20248",
+      "url": "https://radiobip.fr/site/2026/03/municipales2026-carte-des-resultats-dans-le-doubs/",
+      "title": "#Municipales2026 – carte des résultats dans le Doubs",
+      "content_text": "#Municipales2026 – carte des résultats dans le Doubs",
+      "date_published": "2026-03-23T21:30:08.000Z"
+    },
+    {
+      "id": "https://radiobip.fr/site/?p=20245",
+      "url": "https://radiobip.fr/site/2026/03/retrouvez-le-vote-quartier-par-quartier-aux-municipales-a-besancon/",
+      "title": "Retrouvez le vote, quartier par quartier aux municipales à Besançon",
+      "content_text": "Retrouvez le vote, quartier par quartier aux municipales à Besançon",
+      "date_published": "2026-03-23T13:19:46.000Z"
+    }
+  ]
+}

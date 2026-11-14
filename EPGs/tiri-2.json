@@ -1,0 +1,68 @@
+{
+  "version": "2.0",
+  "station": "Tiri 2",
+  "station_id": 155,
+  "schedule_type": "weekly",
+  "timezone": "UTC",
+  "last_updated": "2026-11-14",
+  "source": "https://tiri2.webradiosite.com/scheduling/",
+  "notes": "Generado automáticamente desde https://tiri2.webradiosite.com/scheduling/ (snapshot 2026-11-14); revisar data/epg-report.json.",
+  "generator": "scripts/convert-raw-epg.mjs",
+  "metadata": {
+    "categories": {
+      "musica": "Música",
+      "directo": "Directo",
+      "podcast": "Podcast / repetición",
+      "especial": "Especial",
+      "taller": "Taller / educación"
+    },
+    "default_filler": {
+      "title": "Música",
+      "category": "musica"
+    }
+  },
+  "shows": {
+    "now": {
+      "title": "Now",
+      "category": "directo"
+    }
+  },
+  "days": [
+    {
+      "day": "sunday",
+      "label": "Domingo",
+      "programs": [
+        {
+          "start": "00:00",
+          "end": "09:00",
+          "show_id": "now",
+          "live": false
+        },
+        {
+          "start": "09:00",
+          "end": "10:00",
+          "show_id": "now",
+          "live": false
+        },
+        {
+          "start": "10:00",
+          "end": "15:00",
+          "show_id": "now",
+          "live": false
+        },
+        {
+          "start": "15:00",
+          "end": "16:00",
+          "show_id": "now",
+          "live": false
+        },
+        {
+          "start": "17:00",
+          "end": "23:59",
+          "show_id": "now",
+          "live": false
+        }
+      ]
+    }
+  ]
+}

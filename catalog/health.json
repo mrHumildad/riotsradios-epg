@@ -1,0 +1,1964 @@
+{
+  "1": {
+    "status": "ok",
+    "cors": "origin",
+    "http_code": 206,
+    "content_type": "audio/mpeg",
+    "latency_ms": 765,
+    "checked_at": "2026-11-14T11:30:50.797Z",
+    "consecutive_failures": 0,
+    "last_ok_at": "2026-11-14T11:30:50.797Z",
+    "mirrors": {
+      "https": {
+        "status": "ok",
+        "cors": "origin",
+        "http_code": 206,
+        "content_type": "audio/mpeg",
+        "latency_ms": 765,
+        "checked_at": "2026-11-14T11:30:50.797Z",
+        "consecutive_failures": 0,
+        "last_ok_at": "2026-11-14T11:30:50.797Z"
+      }
+    }
+  },
+  "2": {
+    "status": "ok",
+    "cors": "any",
+    "http_code": 200,
+    "content_type": "audio/mpeg",
+    "latency_ms": 599,
+    "checked_at": "2026-11-14T11:30:50.797Z",
+    "consecutive_failures": 0,
+    "last_ok_at": "2026-11-14T11:30:50.797Z",
+    "mirrors": {
+      "https": {
+        "status": "ok",
+        "cors": "any",
+        "http_code": 200,
+        "content_type": "audio/mpeg",
+        "latency_ms": 599,
+        "checked_at": "2026-11-14T11:30:50.797Z",
+        "consecutive_failures": 0,
+        "last_ok_at": "2026-11-14T11:30:50.797Z"
+      }
+    }
+  },
+  "3": {
+    "status": "cors_missing",
+    "cors": null,
+    "http_code": 200,
+    "content_type": "audio/mpeg",
+    "latency_ms": 1172,
+    "checked_at": "2026-11-14T11:30:50.797Z",
+    "consecutive_failures": 0,
+    "last_ok_at": "2026-11-14T11:30:50.797Z",
+    "mirrors": {
+      "https": {
+        "status": "cors_missing",
+        "cors": null,
+        "http_code": 200,
+        "content_type": "audio/mpeg",
+        "latency_ms": 1172,
+        "checked_at": "2026-11-14T11:30:50.798Z",
+        "consecutive_failures": 0,
+        "last_ok_at": "2026-11-14T11:30:50.798Z"
+      }
+    }
+  },
+  "4": {
+    "status": "ok",
+    "cors": "origin",
+    "http_code": 200,
+    "content_type": "audio/mpeg",
+    "latency_ms": 1054,
+    "checked_at": "2026-11-14T11:30:50.798Z",
+    "consecutive_failures": 0,
+    "last_ok_at": "2026-11-14T11:30:50.798Z",
+    "mirrors": {
+      "https": {
+        "status": "ok",
+        "cors": "origin",
+        "http_code": 200,
+        "content_type": "audio/mpeg",
+        "latency_ms": 1054,
+        "checked_at": "2026-11-14T11:30:50.798Z",
+        "consecutive_failures": 0,
+        "last_ok_at": "2026-11-14T11:30:50.798Z"
+      }
+    }
+  },
+  "5": {
+    "status": "ok",
+    "cors": "any",
+    "http_code": 200,
+    "content_type": "application/ogg",
+    "latency_ms": 1336,
+    "checked_at": "2026-11-14T11:30:50.798Z",
+    "consecutive_failures": 0,
+    "last_ok_at": "2026-11-14T11:30:50.798Z",
+    "mirrors": {
+      "https": {
+        "status": "ok",
+        "cors": "any",
+        "http_code": 200,
+        "content_type": "application/ogg",
+        "latency_ms": 1336,
+        "checked_at": "2026-11-14T11:30:50.798Z",
+        "consecutive_failures": 0,
+        "last_ok_at": "2026-11-14T11:30:50.798Z"
+      }
+    }
+  },
+  "6": {
+    "status": "ok",
+    "cors": "any",
+    "http_code": 200,
+    "content_type": "audio/mpeg",
+    "latency_ms": 1180,
+    "checked_at": "2026-11-14T11:30:50.798Z",
+    "consecutive_failures": 0,
+    "last_ok_at": "2026-11-14T11:30:50.798Z",
+    "mirrors": {
+      "https": {
+        "status": "ok",
+        "cors": "any",
+        "http_code": 200,
+        "content_type": "audio/mpeg",
+        "latency_ms": 1180,
+        "checked_at": "2026-11-14T11:30:50.798Z",
+        "consecutive_failures": 0,
+        "last_ok_at": "2026-11-14T11:30:50.798Z"
+      }
+    }
+  },
+  "7": {
+    "status": "cors_missing",
+    "cors": null,
+    "http_code": 200,
+    "content_type": "audio/mpeg",
+    "latency_ms": 788,
+    "checked_at": "2026-11-14T11:30:50.798Z",
+    "consecutive_failures": 0,
+    "last_ok_at": "2026-11-14T11:30:50.798Z",
+    "mirrors": {
+      "https": {
+        "status": "cors_missing",
+        "cors": null,
+        "http_code": 200,
+        "content_type": "audio/mpeg",
+        "latency_ms": 788,
+        "checked_at": "2026-11-14T11:30:50.798Z",
+        "consecutive_failures": 0,
+        "last_ok_at": "2026-11-14T11:30:50.798Z"
+      }
+    }
+  },
+  "8": {
+    "status": "ok",
+    "cors": "any",
+    "http_code": 200,
+    "content_type": "audio/mpeg",
+    "latency_ms": 1033,
+    "checked_at": "2026-11-14T11:30:50.798Z",
+    "consecutive_failures": 0,
+    "last_ok_at": "2026-11-14T11:30:50.798Z",
+    "mirrors": {
+      "https": {
+        "status": "ok",
+        "cors": "any",
+        "http_code": 200,
+        "content_type": "audio/mpeg",
+        "latency_ms": 1033,
+        "checked_at": "2026-11-14T11:30:50.798Z",
+        "consecutive_failures": 0,
+        "last_ok_at": "2026-11-14T11:30:50.798Z"
+      },
+      "http": {
+        "status": "http_only",
+        "cors": "any",
+        "http_code": 200,
+        "content_type": "audio/mpeg",
+        "latency_ms": 442,
+        "checked_at": "2026-11-14T11:30:50.798Z",
+        "consecutive_failures": 0,
+        "last_ok_at": "2026-11-14T11:30:50.798Z"
+      }
+    }
+  },
+  "9": {
+    "status": "cors_missing",
+    "cors": null,
+    "http_code": 200,
+    "content_type": "audio/mpeg",
+    "latency_ms": 581,
+    "checked_at": "2026-11-14T11:30:50.798Z",
+    "consecutive_failures": 0,
+    "last_ok_at": "2026-11-14T11:30:50.798Z",
+    "mirrors": {
+      "https": {
+        "status": "cors_missing",
+        "cors": null,
+        "http_code": 200,
+        "content_type": "audio/mpeg",
+        "latency_ms": 581,
+        "checked_at": "2026-11-14T11:30:50.798Z",
+        "consecutive_failures": 0,
+        "last_ok_at": "2026-11-14T11:30:50.798Z"
+      }
+    }
+  },
+  "10": {
+    "status": "ok",
+    "cors": "any",
+    "http_code": 200,
+    "content_type": "audio/mpeg",
+    "latency_ms": 551,
+    "checked_at": "2026-11-14T11:30:50.798Z",
+    "consecutive_failures": 0,
+    "last_ok_at": "2026-11-14T11:30:50.798Z",
+    "mirrors": {
+      "https": {
+        "status": "ok",
+        "cors": "any",
+        "http_code": 200,
+        "content_type": "audio/mpeg",
+        "latency_ms": 551,
+        "checked_at": "2026-11-14T11:30:50.798Z",
+        "consecutive_failures": 0,
+        "last_ok_at": "2026-11-14T11:30:50.798Z"
+      }
+    }
+  },
+  "11": {
+    "status": "cors_missing",
+    "cors": null,
+    "http_code": 200,
+    "content_type": "audio/mpeg",
+    "latency_ms": 697,
+    "checked_at": "2026-11-14T11:30:50.798Z",
+    "consecutive_failures": 0,
+    "last_ok_at": "2026-11-14T11:30:50.798Z",
+    "mirrors": {
+      "https": {
+        "status": "cors_missing",
+        "cors": null,
+        "http_code": 200,
+        "content_type": "audio/mpeg",
+        "latency_ms": 697,
+        "checked_at": "2026-11-14T11:30:50.798Z",
+        "consecutive_failures": 0,
+        "last_ok_at": "2026-11-14T11:30:50.798Z"
+      }
+    }
+  },
+  "12": {
+    "status": "ok",
+    "cors": "origin",
+    "http_code": 206,
+    "content_type": "audio/mpeg",
+    "latency_ms": 116,
+    "checked_at": "2026-11-14T11:30:50.798Z",
+    "consecutive_failures": 0,
+    "last_ok_at": "2026-11-14T11:30:50.798Z",
+    "mirrors": {
+      "https": {
+        "status": "ok",
+        "cors": "origin",
+        "http_code": 206,
+        "content_type": "audio/mpeg",
+        "latency_ms": 116,
+        "checked_at": "2026-11-14T11:30:50.798Z",
+        "consecutive_failures": 0,
+        "last_ok_at": "2026-11-14T11:30:50.798Z"
+      }
+    }
+  },
+  "13": {
+    "status": "cors_missing",
+    "cors": null,
+    "http_code": 200,
+    "content_type": "audio/mpeg",
+    "latency_ms": 954,
+    "checked_at": "2026-11-14T11:30:50.798Z",
+    "consecutive_failures": 0,
+    "last_ok_at": "2026-11-14T11:30:50.798Z",
+    "mirrors": {
+      "https": {
+        "status": "cors_missing",
+        "cors": null,
+        "http_code": 200,
+        "content_type": "audio/mpeg",
+        "latency_ms": 954,
+        "checked_at": "2026-11-14T11:30:50.798Z",
+        "consecutive_failures": 0,
+        "last_ok_at": "2026-11-14T11:30:50.798Z"
+      }
+    }
+  },
+  "14": {
+    "status": "http_only",
+    "cors": "any",
+    "http_code": 200,
+    "content_type": "application/ogg",
+    "latency_ms": 832,
+    "checked_at": "2026-11-14T11:30:50.798Z",
+    "consecutive_failures": 0,
+    "last_ok_at": "2026-11-14T11:30:50.798Z",
+    "mirrors": {
+      "http": {
+        "status": "http_only",
+        "cors": "any",
+        "http_code": 200,
+        "content_type": "application/ogg",
+        "latency_ms": 832,
+        "checked_at": "2026-11-14T11:30:50.798Z",
+        "consecutive_failures": 0,
+        "last_ok_at": "2026-11-14T11:30:50.798Z"
+      }
+    }
+  },
+  "15": {
+    "status": "http_only",
+    "cors": "any",
+    "http_code": 200,
+    "content_type": "audio/mpeg",
+    "latency_ms": 1088,
+    "checked_at": "2026-11-14T11:30:50.798Z",
+    "consecutive_failures": 0,
+    "last_ok_at": "2026-11-14T11:30:50.798Z",
+    "mirrors": {
+      "http": {
+        "status": "http_only",
+        "cors": "any",
+        "http_code": 200,
+        "content_type": "audio/mpeg",
+        "latency_ms": 1088,
+        "checked_at": "2026-11-14T11:30:50.798Z",
+        "consecutive_failures": 0,
+        "last_ok_at": "2026-11-14T11:30:50.798Z"
+      }
+    }
+  },
+  "16": {
+    "status": "cors_missing",
+    "cors": null,
+    "http_code": 200,
+    "content_type": "audio/mpeg",
+    "latency_ms": 1070,
+    "checked_at": "2026-11-14T11:30:50.798Z",
+    "consecutive_failures": 0,
+    "last_ok_at": "2026-11-14T11:30:50.798Z",
+    "mirrors": {
+      "https": {
+        "status": "cors_missing",
+        "cors": null,
+        "http_code": 200,
+        "content_type": "audio/mpeg",
+        "latency_ms": 1070,
+        "checked_at": "2026-11-14T11:30:50.798Z",
+        "consecutive_failures": 0,
+        "last_ok_at": "2026-11-14T11:30:50.798Z"
+      }
+    }
+  },
+  "17": {
+    "status": "http_only",
+    "cors": "any",
+    "http_code": 200,
+    "content_type": "audio/mpeg",
+    "latency_ms": 1142,
+    "checked_at": "2026-11-14T11:30:50.798Z",
+    "consecutive_failures": 0,
+    "last_ok_at": "2026-11-14T11:30:50.798Z",
+    "mirrors": {
+      "http": {
+        "status": "http_only",
+        "cors": "any",
+        "http_code": 200,
+        "content_type": "audio/mpeg",
+        "latency_ms": 1142,
+        "checked_at": "2026-11-14T11:30:50.798Z",
+        "consecutive_failures": 0,
+        "last_ok_at": "2026-11-14T11:30:50.798Z"
+      }
+    }
+  },
+  "18": {
+    "status": "ok",
+    "cors": "origin",
+    "http_code": 206,
+    "content_type": "audio/mpeg",
+    "latency_ms": 116,
+    "checked_at": "2026-11-14T11:30:50.798Z",
+    "consecutive_failures": 0,
+    "last_ok_at": "2026-11-14T11:30:50.798Z",
+    "mirrors": {
+      "https": {
+        "status": "ok",
+        "cors": "origin",
+        "http_code": 206,
+        "content_type": "audio/mpeg",
+        "latency_ms": 116,
+        "checked_at": "2026-11-14T11:30:50.798Z",
+        "consecutive_failures": 0,
+        "last_ok_at": "2026-11-14T11:30:50.798Z"
+      }
+    }
+  },
+  "19": {
+    "status": "ok",
+    "cors": "origin",
+    "http_code": 206,
+    "content_type": "audio/mpeg",
+    "latency_ms": 1084,
+    "checked_at": "2026-11-14T11:30:50.798Z",
+    "consecutive_failures": 0,
+    "last_ok_at": "2026-11-14T11:30:50.798Z",
+    "mirrors": {
+      "https": {
+        "status": "ok",
+        "cors": "origin",
+        "http_code": 206,
+        "content_type": "audio/mpeg",
+        "latency_ms": 1084,
+        "checked_at": "2026-11-14T11:30:50.798Z",
+        "consecutive_failures": 0,
+        "last_ok_at": "2026-11-14T11:30:50.798Z"
+      }
+    }
+  },
+  "20": {
+    "status": "http_only",
+    "cors": null,
+    "http_code": 200,
+    "content_type": "audio/mpeg",
+    "latency_ms": 581,
+    "checked_at": "2026-11-14T11:30:50.798Z",
+    "consecutive_failures": 0,
+    "last_ok_at": "2026-11-14T11:30:50.798Z",
+    "mirrors": {
+      "http": {
+        "status": "http_only",
+        "cors": null,
+        "http_code": 200,
+        "content_type": "audio/mpeg",
+        "latency_ms": 581,
+        "checked_at": "2026-11-14T11:30:50.798Z",
+        "consecutive_failures": 0,
+        "last_ok_at": "2026-11-14T11:30:50.798Z"
+      }
+    }
+  },
+  "23": {
+    "status": "ok",
+    "cors": "origin",
+    "http_code": 206,
+    "content_type": "audio/mpeg",
+    "latency_ms": 115,
+    "checked_at": "2026-11-14T11:30:50.798Z",
+    "consecutive_failures": 0,
+    "last_ok_at": "2026-11-14T11:30:50.798Z",
+    "mirrors": {
+      "https": {
+        "status": "ok",
+        "cors": "origin",
+        "http_code": 206,
+        "content_type": "audio/mpeg",
+        "latency_ms": 115,
+        "checked_at": "2026-11-14T11:30:50.798Z",
+        "consecutive_failures": 0,
+        "last_ok_at": "2026-11-14T11:30:50.798Z"
+      }
+    }
+  },
+  "24": {
+    "status": "ok",
+    "cors": "origin",
+    "http_code": 206,
+    "content_type": "audio/mpeg",
+    "latency_ms": 736,
+    "checked_at": "2026-11-14T11:30:50.798Z",
+    "consecutive_failures": 0,
+    "last_ok_at": "2026-11-14T11:30:50.798Z",
+    "mirrors": {
+      "https": {
+        "status": "ok",
+        "cors": "origin",
+        "http_code": 206,
+        "content_type": "audio/mpeg",
+        "latency_ms": 736,
+        "checked_at": "2026-11-14T11:30:50.798Z",
+        "consecutive_failures": 0,
+        "last_ok_at": "2026-11-14T11:30:50.798Z"
+      }
+    }
+  },
+  "25": {
+    "status": "ok",
+    "cors": "any",
+    "http_code": 200,
+    "content_type": "audio/mpeg",
+    "latency_ms": 2883,
+    "checked_at": "2026-11-14T11:30:50.798Z",
+    "consecutive_failures": 0,
+    "last_ok_at": "2026-11-14T11:30:50.798Z",
+    "mirrors": {
+      "https": {
+        "status": "ok",
+        "cors": "any",
+        "http_code": 200,
+        "content_type": "audio/mpeg",
+        "latency_ms": 2883,
+        "checked_at": "2026-11-14T11:30:50.798Z",
+        "consecutive_failures": 0,
+        "last_ok_at": "2026-11-14T11:30:50.798Z"
+      }
+    }
+  },
+  "26": {
+    "status": "cors_missing",
+    "cors": null,
+    "http_code": 200,
+    "content_type": "audio/mpeg",
+    "latency_ms": 821,
+    "checked_at": "2026-11-14T11:30:50.798Z",
+    "consecutive_failures": 0,
+    "last_ok_at": "2026-11-14T11:30:50.798Z",
+    "mirrors": {
+      "https": {
+        "status": "cors_missing",
+        "cors": null,
+        "http_code": 200,
+        "content_type": "audio/mpeg",
+        "latency_ms": 821,
+        "checked_at": "2026-11-14T11:30:50.798Z",
+        "consecutive_failures": 0,
+        "last_ok_at": "2026-11-14T11:30:50.798Z"
+      }
+    }
+  },
+  "27": {
+    "status": "cors_missing",
+    "cors": null,
+    "http_code": 200,
+    "content_type": "application/ogg",
+    "latency_ms": 1340,
+    "checked_at": "2026-11-14T11:30:50.798Z",
+    "consecutive_failures": 0,
+    "last_ok_at": "2026-11-14T11:30:50.798Z",
+    "mirrors": {
+      "https": {
+        "status": "cors_missing",
+        "cors": null,
+        "http_code": 200,
+        "content_type": "application/ogg",
+        "latency_ms": 1340,
+        "checked_at": "2026-11-14T11:30:50.798Z",
+        "consecutive_failures": 0,
+        "last_ok_at": "2026-11-14T11:30:50.798Z"
+      }
+    }
+  },
+  "28": {
+    "status": "ok",
+    "cors": "any",
+    "http_code": 200,
+    "content_type": "audio/mpeg",
+    "latency_ms": 1220,
+    "checked_at": "2026-11-14T11:30:50.798Z",
+    "consecutive_failures": 0,
+    "last_ok_at": "2026-11-14T11:30:50.798Z",
+    "mirrors": {
+      "https": {
+        "status": "ok",
+        "cors": "any",
+        "http_code": 200,
+        "content_type": "audio/mpeg",
+        "latency_ms": 1220,
+        "checked_at": "2026-11-14T11:30:50.798Z",
+        "consecutive_failures": 0,
+        "last_ok_at": "2026-11-14T11:30:50.798Z"
+      }
+    }
+  },
+  "29": {
+    "status": "cors_missing",
+    "cors": null,
+    "http_code": 200,
+    "content_type": "audio/mpeg",
+    "latency_ms": 250,
+    "checked_at": "2026-11-14T11:30:50.798Z",
+    "consecutive_failures": 0,
+    "last_ok_at": "2026-11-14T11:30:50.798Z",
+    "mirrors": {
+      "https": {
+        "status": "cors_missing",
+        "cors": null,
+        "http_code": 200,
+        "content_type": "audio/mpeg",
+        "latency_ms": 250,
+        "checked_at": "2026-11-14T11:30:50.798Z",
+        "consecutive_failures": 0,
+        "last_ok_at": "2026-11-14T11:30:50.798Z"
+      }
+    }
+  },
+  "38": {
+    "status": "ok",
+    "cors": "any",
+    "http_code": 200,
+    "content_type": "audio/mpeg",
+    "latency_ms": 733,
+    "checked_at": "2026-11-14T11:30:50.798Z",
+    "consecutive_failures": 0,
+    "last_ok_at": "2026-11-14T11:30:50.798Z",
+    "mirrors": {
+      "https": {
+        "status": "ok",
+        "cors": "any",
+        "http_code": 200,
+        "content_type": "audio/mpeg",
+        "latency_ms": 733,
+        "checked_at": "2026-11-14T11:30:50.798Z",
+        "consecutive_failures": 0,
+        "last_ok_at": "2026-11-14T11:30:50.798Z"
+      }
+    }
+  },
+  "43": {
+    "status": "cors_missing",
+    "cors": null,
+    "http_code": 200,
+    "content_type": "application/ogg",
+    "latency_ms": 931,
+    "checked_at": "2026-11-14T11:30:50.798Z",
+    "consecutive_failures": 0,
+    "last_ok_at": "2026-11-14T11:30:50.798Z",
+    "mirrors": {
+      "https": {
+        "status": "cors_missing",
+        "cors": null,
+        "http_code": 200,
+        "content_type": "application/ogg",
+        "latency_ms": 931,
+        "checked_at": "2026-11-14T11:30:50.798Z",
+        "consecutive_failures": 0,
+        "last_ok_at": "2026-11-14T11:30:50.798Z"
+      }
+    }
+  },
+  "45": {
+    "status": "http_4xx",
+    "cors": null,
+    "http_code": 404,
+    "content_type": "text/xml; charset=utf-8",
+    "latency_ms": 803,
+    "checked_at": "2026-11-14T11:30:50.798Z",
+    "consecutive_failures": 1,
+    "last_ok_at": "2026-11-13T12:14:52.710Z",
+    "mirrors": {
+      "https": {
+        "status": "http_4xx",
+        "cors": null,
+        "http_code": 404,
+        "content_type": "text/xml; charset=utf-8",
+        "latency_ms": 803,
+        "checked_at": "2026-11-14T11:30:50.798Z",
+        "consecutive_failures": 1,
+        "last_ok_at": "2026-11-13T12:14:52.710Z"
+      }
+    }
+  },
+  "46": {
+    "status": "http_4xx",
+    "cors": "any",
+    "http_code": 404,
+    "content_type": "text/html; charset=utf-8",
+    "latency_ms": 588,
+    "checked_at": "2026-11-14T11:30:50.798Z",
+    "consecutive_failures": 2,
+    "last_ok_at": "2026-11-10T10:00:59.435Z",
+    "mirrors": {
+      "https": {
+        "status": "http_4xx",
+        "cors": "any",
+        "http_code": 404,
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 588,
+        "checked_at": "2026-11-14T11:30:50.798Z",
+        "consecutive_failures": 2,
+        "last_ok_at": "2026-11-10T10:00:59.435Z"
+      }
+    }
+  },
+  "50": {
+    "status": "ok",
+    "cors": "any",
+    "http_code": 200,
+    "content_type": "audio/mpeg",
+    "latency_ms": 780,
+    "checked_at": "2026-11-14T11:30:50.798Z",
+    "consecutive_failures": 0,
+    "last_ok_at": "2026-11-14T11:30:50.798Z",
+    "mirrors": {
+      "https": {
+        "status": "ok",
+        "cors": "any",
+        "http_code": 200,
+        "content_type": "audio/mpeg",
+        "latency_ms": 780,
+        "checked_at": "2026-11-14T11:30:50.798Z",
+        "consecutive_failures": 0,
+        "last_ok_at": "2026-11-14T11:30:50.798Z"
+      }
+    }
+  },
+  "52": {
+    "status": "ok",
+    "cors": "any",
+    "http_code": 200,
+    "content_type": "audio/mpeg",
+    "latency_ms": 766,
+    "checked_at": "2026-11-14T11:30:50.798Z",
+    "consecutive_failures": 0,
+    "last_ok_at": "2026-11-14T11:30:50.798Z",
+    "mirrors": {
+      "https": {
+        "status": "ok",
+        "cors": "any",
+        "http_code": 200,
+        "content_type": "audio/mpeg",
+        "latency_ms": 766,
+        "checked_at": "2026-11-14T11:30:50.798Z",
+        "consecutive_failures": 0,
+        "last_ok_at": "2026-11-14T11:30:50.798Z"
+      }
+    }
+  },
+  "57": {
+    "status": "ok",
+    "cors": "any",
+    "http_code": 200,
+    "content_type": "audio/aac",
+    "latency_ms": 351,
+    "checked_at": "2026-11-14T11:30:50.798Z",
+    "consecutive_failures": 0,
+    "last_ok_at": "2026-11-14T11:30:50.798Z",
+    "mirrors": {
+      "https": {
+        "status": "ok",
+        "cors": "any",
+        "http_code": 200,
+        "content_type": "audio/aac",
+        "latency_ms": 351,
+        "checked_at": "2026-11-14T11:30:50.798Z",
+        "consecutive_failures": 0,
+        "last_ok_at": "2026-11-14T11:30:50.798Z"
+      }
+    }
+  },
+  "63": {
+    "status": "cors_missing",
+    "cors": null,
+    "http_code": 200,
+    "content_type": "audio/mpeg",
+    "latency_ms": 793,
+    "checked_at": "2026-11-14T11:30:50.798Z",
+    "consecutive_failures": 0,
+    "last_ok_at": "2026-11-14T11:30:50.798Z",
+    "mirrors": {
+      "https": {
+        "status": "cors_missing",
+        "cors": null,
+        "http_code": 200,
+        "content_type": "audio/mpeg",
+        "latency_ms": 793,
+        "checked_at": "2026-11-14T11:30:50.798Z",
+        "consecutive_failures": 0,
+        "last_ok_at": "2026-11-14T11:30:50.798Z"
+      }
+    }
+  },
+  "65": {
+    "status": "ok",
+    "cors": "any",
+    "http_code": 200,
+    "content_type": "application/ogg",
+    "latency_ms": 1136,
+    "checked_at": "2026-11-14T11:30:50.798Z",
+    "consecutive_failures": 0,
+    "last_ok_at": "2026-11-14T11:30:50.798Z",
+    "mirrors": {
+      "https": {
+        "status": "ok",
+        "cors": "any",
+        "http_code": 200,
+        "content_type": "application/ogg",
+        "latency_ms": 1136,
+        "checked_at": "2026-11-14T11:30:50.798Z",
+        "consecutive_failures": 0,
+        "last_ok_at": "2026-11-14T11:30:50.798Z"
+      },
+      "http": {
+        "status": "http_only",
+        "cors": "any",
+        "http_code": 200,
+        "content_type": "application/ogg",
+        "latency_ms": 877,
+        "checked_at": "2026-11-14T11:30:50.798Z",
+        "consecutive_failures": 0,
+        "last_ok_at": "2026-11-14T11:30:50.798Z"
+      }
+    }
+  },
+  "66": {
+    "status": "ok",
+    "cors": "any",
+    "http_code": 200,
+    "content_type": "audio/mpeg",
+    "latency_ms": 434,
+    "checked_at": "2026-11-14T11:30:50.798Z",
+    "consecutive_failures": 0,
+    "last_ok_at": "2026-11-14T11:30:50.798Z",
+    "mirrors": {
+      "https": {
+        "status": "ok",
+        "cors": "any",
+        "http_code": 200,
+        "content_type": "audio/mpeg",
+        "latency_ms": 434,
+        "checked_at": "2026-11-14T11:30:50.798Z",
+        "consecutive_failures": 0,
+        "last_ok_at": "2026-11-14T11:30:50.798Z"
+      }
+    }
+  },
+  "69": {
+    "status": "ok",
+    "cors": "any",
+    "http_code": 200,
+    "content_type": "audio/mpeg",
+    "latency_ms": 71,
+    "checked_at": "2026-11-14T11:30:50.798Z",
+    "consecutive_failures": 0,
+    "last_ok_at": "2026-11-14T11:30:50.798Z",
+    "mirrors": {
+      "https": {
+        "status": "ok",
+        "cors": "any",
+        "http_code": 200,
+        "content_type": "audio/mpeg",
+        "latency_ms": 71,
+        "checked_at": "2026-11-14T11:30:50.798Z",
+        "consecutive_failures": 0,
+        "last_ok_at": "2026-11-14T11:30:50.798Z"
+      }
+    }
+  },
+  "73": {
+    "status": "ok",
+    "cors": "any",
+    "http_code": 200,
+    "content_type": "audio/mpeg",
+    "latency_ms": 1140,
+    "checked_at": "2026-11-14T11:30:50.799Z",
+    "consecutive_failures": 0,
+    "last_ok_at": "2026-11-14T11:30:50.799Z",
+    "mirrors": {
+      "https": {
+        "status": "ok",
+        "cors": "any",
+        "http_code": 200,
+        "content_type": "audio/mpeg",
+        "latency_ms": 1140,
+        "checked_at": "2026-11-14T11:30:50.799Z",
+        "consecutive_failures": 0,
+        "last_ok_at": "2026-11-14T11:30:50.799Z"
+      }
+    }
+  },
+  "77": {
+    "status": "ok",
+    "cors": "any",
+    "http_code": 200,
+    "content_type": "audio/aac",
+    "latency_ms": 362,
+    "checked_at": "2026-11-14T11:30:50.799Z",
+    "consecutive_failures": 0,
+    "last_ok_at": "2026-11-14T11:30:50.799Z",
+    "mirrors": {
+      "https": {
+        "status": "ok",
+        "cors": "any",
+        "http_code": 200,
+        "content_type": "audio/aac",
+        "latency_ms": 362,
+        "checked_at": "2026-11-14T11:30:50.799Z",
+        "consecutive_failures": 0,
+        "last_ok_at": "2026-11-14T11:30:50.799Z"
+      }
+    }
+  },
+  "81": {
+    "status": "ok",
+    "cors": "any",
+    "http_code": 200,
+    "content_type": "audio/mpeg",
+    "latency_ms": 807,
+    "checked_at": "2026-11-14T11:30:50.799Z",
+    "consecutive_failures": 0,
+    "last_ok_at": "2026-11-14T11:30:50.799Z",
+    "mirrors": {
+      "https": {
+        "status": "ok",
+        "cors": "any",
+        "http_code": 200,
+        "content_type": "audio/mpeg",
+        "latency_ms": 807,
+        "checked_at": "2026-11-14T11:30:50.799Z",
+        "consecutive_failures": 0,
+        "last_ok_at": "2026-11-14T11:30:50.799Z"
+      }
+    }
+  },
+  "88": {
+    "status": "ok",
+    "cors": "any",
+    "http_code": 200,
+    "content_type": "audio/mpeg",
+    "latency_ms": 340,
+    "checked_at": "2026-11-14T11:30:50.799Z",
+    "consecutive_failures": 0,
+    "last_ok_at": "2026-11-14T11:30:50.799Z",
+    "mirrors": {
+      "https": {
+        "status": "ok",
+        "cors": "any",
+        "http_code": 200,
+        "content_type": "audio/mpeg",
+        "latency_ms": 340,
+        "checked_at": "2026-11-14T11:30:50.799Z",
+        "consecutive_failures": 0,
+        "last_ok_at": "2026-11-14T11:30:50.799Z"
+      }
+    }
+  },
+  "90": {
+    "status": "timeout",
+    "cors": null,
+    "http_code": null,
+    "content_type": null,
+    "latency_ms": 10000,
+    "checked_at": "2026-11-14T11:30:50.799Z",
+    "consecutive_failures": 1,
+    "last_ok_at": "2026-11-13T12:14:52.710Z",
+    "mirrors": {
+      "https": {
+        "status": "timeout",
+        "cors": null,
+        "http_code": null,
+        "content_type": null,
+        "latency_ms": 10000,
+        "checked_at": "2026-11-14T11:30:50.799Z",
+        "consecutive_failures": 1,
+        "last_ok_at": "2026-11-13T12:14:52.710Z"
+      }
+    }
+  },
+  "91": {
+    "status": "http_only",
+    "cors": "any",
+    "http_code": 200,
+    "content_type": "audio/mpeg",
+    "latency_ms": 314,
+    "checked_at": "2026-11-14T11:30:50.799Z",
+    "consecutive_failures": 0,
+    "last_ok_at": "2026-11-14T11:30:50.799Z",
+    "mirrors": {
+      "http": {
+        "status": "http_only",
+        "cors": "any",
+        "http_code": 200,
+        "content_type": "audio/mpeg",
+        "latency_ms": 314,
+        "checked_at": "2026-11-14T11:30:50.799Z",
+        "consecutive_failures": 0,
+        "last_ok_at": "2026-11-14T11:30:50.799Z"
+      }
+    }
+  },
+  "97": {
+    "status": "timeout",
+    "cors": null,
+    "http_code": null,
+    "content_type": null,
+    "latency_ms": 10000,
+    "checked_at": "2026-11-14T11:30:50.799Z",
+    "consecutive_failures": 1,
+    "last_ok_at": "2026-11-13T12:14:52.710Z",
+    "mirrors": {
+      "https": {
+        "status": "timeout",
+        "cors": null,
+        "http_code": null,
+        "content_type": null,
+        "latency_ms": 10000,
+        "checked_at": "2026-11-14T11:30:50.799Z",
+        "consecutive_failures": 1,
+        "last_ok_at": "2026-11-13T12:14:52.710Z"
+      }
+    }
+  },
+  "100": {
+    "status": "ok",
+    "cors": "any",
+    "http_code": 200,
+    "content_type": "audio/mpeg",
+    "latency_ms": 195,
+    "checked_at": "2026-11-14T11:30:50.799Z",
+    "consecutive_failures": 0,
+    "last_ok_at": "2026-11-14T11:30:50.799Z",
+    "mirrors": {
+      "https": {
+        "status": "ok",
+        "cors": "any",
+        "http_code": 200,
+        "content_type": "audio/mpeg",
+        "latency_ms": 195,
+        "checked_at": "2026-11-14T11:30:50.799Z",
+        "consecutive_failures": 0,
+        "last_ok_at": "2026-11-14T11:30:50.799Z"
+      }
+    }
+  },
+  "121": {
+    "status": "ok",
+    "cors": "origin",
+    "http_code": 206,
+    "content_type": "audio/aac",
+    "latency_ms": 488,
+    "checked_at": "2026-11-14T11:30:50.799Z",
+    "consecutive_failures": 0,
+    "last_ok_at": "2026-11-14T11:30:50.799Z"
+  },
+  "123": {
+    "status": "http_only",
+    "cors": "any",
+    "http_code": 200,
+    "content_type": "audio/mpeg",
+    "latency_ms": 691,
+    "checked_at": "2026-11-14T11:30:50.799Z",
+    "consecutive_failures": 0,
+    "last_ok_at": "2026-11-14T11:30:50.799Z",
+    "mirrors": {
+      "http": {
+        "status": "http_only",
+        "cors": "any",
+        "http_code": 200,
+        "content_type": "audio/mpeg",
+        "latency_ms": 691,
+        "checked_at": "2026-11-14T11:30:50.799Z",
+        "consecutive_failures": 0,
+        "last_ok_at": "2026-11-14T11:30:50.799Z"
+      }
+    }
+  },
+  "124": {
+    "status": "ok",
+    "cors": "any",
+    "http_code": 200,
+    "content_type": "audio/aacp",
+    "latency_ms": 509,
+    "checked_at": "2026-11-14T11:30:50.799Z",
+    "consecutive_failures": 0,
+    "last_ok_at": "2026-11-14T11:30:50.799Z",
+    "mirrors": {
+      "https": {
+        "status": "ok",
+        "cors": "any",
+        "http_code": 200,
+        "content_type": "audio/aacp",
+        "latency_ms": 509,
+        "checked_at": "2026-11-14T11:30:50.799Z",
+        "consecutive_failures": 0,
+        "last_ok_at": "2026-11-14T11:30:50.799Z"
+      }
+    }
+  },
+  "125": {
+    "status": "cors_missing",
+    "cors": null,
+    "http_code": 200,
+    "content_type": "audio/mpeg",
+    "latency_ms": 624,
+    "checked_at": "2026-11-14T11:30:50.799Z",
+    "consecutive_failures": 0,
+    "last_ok_at": "2026-11-14T11:30:50.799Z",
+    "mirrors": {
+      "https": {
+        "status": "cors_missing",
+        "cors": null,
+        "http_code": 200,
+        "content_type": "audio/mpeg",
+        "latency_ms": 624,
+        "checked_at": "2026-11-14T11:30:50.799Z",
+        "consecutive_failures": 0,
+        "last_ok_at": "2026-11-14T11:30:50.799Z"
+      }
+    }
+  },
+  "126": {
+    "status": "ok",
+    "cors": "any",
+    "http_code": 200,
+    "content_type": "audio/mpeg",
+    "latency_ms": 633,
+    "checked_at": "2026-11-14T11:30:50.799Z",
+    "consecutive_failures": 0,
+    "last_ok_at": "2026-11-14T11:30:50.799Z",
+    "mirrors": {
+      "https": {
+        "status": "ok",
+        "cors": "any",
+        "http_code": 200,
+        "content_type": "audio/mpeg",
+        "latency_ms": 633,
+        "checked_at": "2026-11-14T11:30:50.799Z",
+        "consecutive_failures": 0,
+        "last_ok_at": "2026-11-14T11:30:50.799Z"
+      }
+    }
+  },
+  "127": {
+    "status": "ok",
+    "cors": "any",
+    "http_code": 200,
+    "content_type": "audio/mpeg",
+    "latency_ms": 763,
+    "checked_at": "2026-11-14T11:30:50.799Z",
+    "consecutive_failures": 0,
+    "last_ok_at": "2026-11-14T11:30:50.799Z",
+    "mirrors": {
+      "https": {
+        "status": "ok",
+        "cors": "any",
+        "http_code": 200,
+        "content_type": "audio/mpeg",
+        "latency_ms": 763,
+        "checked_at": "2026-11-14T11:30:50.799Z",
+        "consecutive_failures": 0,
+        "last_ok_at": "2026-11-14T11:30:50.799Z"
+      }
+    }
+  },
+  "128": {
+    "status": "cors_missing",
+    "cors": null,
+    "http_code": 200,
+    "content_type": "audio/mpeg",
+    "latency_ms": 633,
+    "checked_at": "2026-11-14T11:30:50.799Z",
+    "consecutive_failures": 0,
+    "last_ok_at": "2026-11-14T11:30:50.799Z",
+    "mirrors": {
+      "https": {
+        "status": "cors_missing",
+        "cors": null,
+        "http_code": 200,
+        "content_type": "audio/mpeg",
+        "latency_ms": 633,
+        "checked_at": "2026-11-14T11:30:50.799Z",
+        "consecutive_failures": 0,
+        "last_ok_at": "2026-11-14T11:30:50.799Z"
+      }
+    }
+  },
+  "129": {
+    "status": "ok",
+    "cors": "origin",
+    "http_code": 206,
+    "content_type": "audio/mpeg",
+    "latency_ms": 560,
+    "checked_at": "2026-11-14T11:30:50.799Z",
+    "consecutive_failures": 0,
+    "last_ok_at": "2026-11-14T11:30:50.799Z",
+    "mirrors": {
+      "https": {
+        "status": "ok",
+        "cors": "origin",
+        "http_code": 206,
+        "content_type": "audio/mpeg",
+        "latency_ms": 560,
+        "checked_at": "2026-11-14T11:30:50.799Z",
+        "consecutive_failures": 0,
+        "last_ok_at": "2026-11-14T11:30:50.799Z"
+      }
+    }
+  },
+  "130": {
+    "status": "cors_missing",
+    "cors": null,
+    "http_code": 200,
+    "content_type": "audio/mpeg",
+    "latency_ms": 558,
+    "checked_at": "2026-11-14T11:30:50.799Z",
+    "consecutive_failures": 0,
+    "last_ok_at": "2026-11-14T11:30:50.799Z",
+    "mirrors": {
+      "https": {
+        "status": "cors_missing",
+        "cors": null,
+        "http_code": 200,
+        "content_type": "audio/mpeg",
+        "latency_ms": 558,
+        "checked_at": "2026-11-14T11:30:50.799Z",
+        "consecutive_failures": 0,
+        "last_ok_at": "2026-11-14T11:30:50.799Z"
+      }
+    }
+  },
+  "131": {
+    "status": "ok",
+    "cors": "origin",
+    "http_code": 206,
+    "content_type": "audio/mpeg",
+    "latency_ms": 665,
+    "checked_at": "2026-11-14T11:30:50.799Z",
+    "consecutive_failures": 0,
+    "last_ok_at": "2026-11-14T11:30:50.799Z",
+    "mirrors": {
+      "https": {
+        "status": "ok",
+        "cors": "origin",
+        "http_code": 206,
+        "content_type": "audio/mpeg",
+        "latency_ms": 665,
+        "checked_at": "2026-11-14T11:30:50.799Z",
+        "consecutive_failures": 0,
+        "last_ok_at": "2026-11-14T11:30:50.799Z"
+      }
+    }
+  },
+  "132": {
+    "status": "ok",
+    "cors": "origin",
+    "http_code": 206,
+    "content_type": "audio/mpeg",
+    "latency_ms": 633,
+    "checked_at": "2026-11-14T11:30:50.799Z",
+    "consecutive_failures": 0,
+    "last_ok_at": "2026-11-14T11:30:50.799Z",
+    "mirrors": {
+      "https": {
+        "status": "ok",
+        "cors": "origin",
+        "http_code": 206,
+        "content_type": "audio/mpeg",
+        "latency_ms": 633,
+        "checked_at": "2026-11-14T11:30:50.799Z",
+        "consecutive_failures": 0,
+        "last_ok_at": "2026-11-14T11:30:50.799Z"
+      }
+    }
+  },
+  "133": {
+    "status": "ok",
+    "cors": "origin",
+    "http_code": 200,
+    "content_type": "audio/mpeg",
+    "latency_ms": 711,
+    "checked_at": "2026-11-14T11:30:50.799Z",
+    "consecutive_failures": 0,
+    "last_ok_at": "2026-11-14T11:30:50.799Z",
+    "mirrors": {
+      "https": {
+        "status": "ok",
+        "cors": "origin",
+        "http_code": 200,
+        "content_type": "audio/mpeg",
+        "latency_ms": 711,
+        "checked_at": "2026-11-14T11:30:50.799Z",
+        "consecutive_failures": 0,
+        "last_ok_at": "2026-11-14T11:30:50.799Z"
+      }
+    }
+  },
+  "134": {
+    "status": "ok",
+    "cors": "any",
+    "http_code": 200,
+    "content_type": "audio/mpeg",
+    "latency_ms": 897,
+    "checked_at": "2026-11-14T11:30:50.799Z",
+    "consecutive_failures": 0,
+    "last_ok_at": "2026-11-14T11:30:50.799Z",
+    "mirrors": {
+      "https": {
+        "status": "ok",
+        "cors": "any",
+        "http_code": 200,
+        "content_type": "audio/mpeg",
+        "latency_ms": 897,
+        "checked_at": "2026-11-14T11:30:50.799Z",
+        "consecutive_failures": 0,
+        "last_ok_at": "2026-11-14T11:30:50.799Z"
+      }
+    }
+  },
+  "135": {
+    "status": "ok",
+    "cors": "origin",
+    "http_code": 206,
+    "content_type": "audio/mpeg",
+    "latency_ms": 389,
+    "checked_at": "2026-11-14T11:30:50.799Z",
+    "consecutive_failures": 0,
+    "last_ok_at": "2026-11-14T11:30:50.799Z",
+    "mirrors": {
+      "https": {
+        "status": "ok",
+        "cors": "origin",
+        "http_code": 206,
+        "content_type": "audio/mpeg",
+        "latency_ms": 389,
+        "checked_at": "2026-11-14T11:30:50.799Z",
+        "consecutive_failures": 0,
+        "last_ok_at": "2026-11-14T11:30:50.799Z"
+      }
+    }
+  },
+  "136": {
+    "status": "ok",
+    "cors": "any",
+    "http_code": 200,
+    "content_type": "audio/mpeg",
+    "latency_ms": 762,
+    "checked_at": "2026-11-14T11:30:50.799Z",
+    "consecutive_failures": 0,
+    "last_ok_at": "2026-11-14T11:30:50.799Z",
+    "mirrors": {
+      "https": {
+        "status": "ok",
+        "cors": "any",
+        "http_code": 200,
+        "content_type": "audio/mpeg",
+        "latency_ms": 762,
+        "checked_at": "2026-11-14T11:30:50.799Z",
+        "consecutive_failures": 0,
+        "last_ok_at": "2026-11-14T11:30:50.799Z"
+      }
+    }
+  },
+  "137": {
+    "status": "ok",
+    "cors": "origin",
+    "http_code": 200,
+    "content_type": "audio/mpeg",
+    "latency_ms": 386,
+    "checked_at": "2026-11-14T11:30:50.799Z",
+    "consecutive_failures": 0,
+    "last_ok_at": "2026-11-14T11:30:50.799Z",
+    "mirrors": {
+      "https": {
+        "status": "ok",
+        "cors": "origin",
+        "http_code": 200,
+        "content_type": "audio/mpeg",
+        "latency_ms": 386,
+        "checked_at": "2026-11-14T11:30:50.799Z",
+        "consecutive_failures": 0,
+        "last_ok_at": "2026-11-14T11:30:50.799Z"
+      }
+    }
+  },
+  "138": {
+    "status": "ok",
+    "cors": "any",
+    "http_code": 200,
+    "content_type": "audio/aacp",
+    "latency_ms": 1306,
+    "checked_at": "2026-11-14T11:30:50.799Z",
+    "consecutive_failures": 0,
+    "last_ok_at": "2026-11-14T11:30:50.799Z",
+    "mirrors": {
+      "https": {
+        "status": "ok",
+        "cors": "any",
+        "http_code": 200,
+        "content_type": "audio/aacp",
+        "latency_ms": 1306,
+        "checked_at": "2026-11-14T11:30:50.799Z",
+        "consecutive_failures": 0,
+        "last_ok_at": "2026-11-14T11:30:50.799Z"
+      }
+    }
+  },
+  "139": {
+    "status": "cors_missing",
+    "cors": null,
+    "http_code": 200,
+    "content_type": "audio/mpeg",
+    "latency_ms": 463,
+    "checked_at": "2026-11-14T11:30:50.799Z",
+    "consecutive_failures": 0,
+    "last_ok_at": "2026-11-14T11:30:50.799Z",
+    "mirrors": {
+      "https": {
+        "status": "cors_missing",
+        "cors": null,
+        "http_code": 200,
+        "content_type": "audio/mpeg",
+        "latency_ms": 463,
+        "checked_at": "2026-11-14T11:30:50.799Z",
+        "consecutive_failures": 0,
+        "last_ok_at": "2026-11-14T11:30:50.799Z"
+      }
+    }
+  },
+  "140": {
+    "status": "cors_missing",
+    "cors": null,
+    "http_code": 200,
+    "content_type": "application/ogg",
+    "latency_ms": 767,
+    "checked_at": "2026-11-14T11:30:50.799Z",
+    "consecutive_failures": 0,
+    "last_ok_at": "2026-11-14T11:30:50.799Z",
+    "mirrors": {
+      "https": {
+        "status": "cors_missing",
+        "cors": null,
+        "http_code": 200,
+        "content_type": "application/ogg",
+        "latency_ms": 767,
+        "checked_at": "2026-11-14T11:30:50.799Z",
+        "consecutive_failures": 0,
+        "last_ok_at": "2026-11-14T11:30:50.799Z"
+      }
+    }
+  },
+  "141": {
+    "status": "ok",
+    "cors": "any",
+    "http_code": 200,
+    "content_type": "audio/aacp",
+    "latency_ms": 576,
+    "checked_at": "2026-11-14T11:30:50.799Z",
+    "consecutive_failures": 0,
+    "last_ok_at": "2026-11-14T11:30:50.799Z",
+    "mirrors": {
+      "https": {
+        "status": "ok",
+        "cors": "any",
+        "http_code": 200,
+        "content_type": "audio/aacp",
+        "latency_ms": 576,
+        "checked_at": "2026-11-14T11:30:50.799Z",
+        "consecutive_failures": 0,
+        "last_ok_at": "2026-11-14T11:30:50.799Z"
+      }
+    }
+  },
+  "142": {
+    "status": "cors_missing",
+    "cors": null,
+    "http_code": 200,
+    "content_type": "audio/mpeg",
+    "latency_ms": 530,
+    "checked_at": "2026-11-14T11:30:50.799Z",
+    "consecutive_failures": 0,
+    "last_ok_at": "2026-11-14T11:30:50.799Z",
+    "mirrors": {
+      "https": {
+        "status": "cors_missing",
+        "cors": null,
+        "http_code": 200,
+        "content_type": "audio/mpeg",
+        "latency_ms": 530,
+        "checked_at": "2026-11-14T11:30:50.799Z",
+        "consecutive_failures": 0,
+        "last_ok_at": "2026-11-14T11:30:50.799Z"
+      }
+    }
+  },
+  "143": {
+    "status": "ok",
+    "cors": "any",
+    "http_code": 200,
+    "content_type": "audio/mpeg",
+    "latency_ms": 113,
+    "checked_at": "2026-11-14T11:30:50.799Z",
+    "consecutive_failures": 0,
+    "last_ok_at": "2026-11-14T11:30:50.799Z",
+    "mirrors": {
+      "https": {
+        "status": "ok",
+        "cors": "any",
+        "http_code": 200,
+        "content_type": "audio/mpeg",
+        "latency_ms": 113,
+        "checked_at": "2026-11-14T11:30:50.799Z",
+        "consecutive_failures": 0,
+        "last_ok_at": "2026-11-14T11:30:50.799Z"
+      }
+    }
+  },
+  "144": {
+    "status": "ok",
+    "cors": "origin",
+    "http_code": 200,
+    "content_type": "audio/mpeg",
+    "latency_ms": 240,
+    "checked_at": "2026-11-14T11:30:50.799Z",
+    "consecutive_failures": 0,
+    "last_ok_at": "2026-11-14T11:30:50.799Z",
+    "mirrors": {
+      "https": {
+        "status": "ok",
+        "cors": "origin",
+        "http_code": 200,
+        "content_type": "audio/mpeg",
+        "latency_ms": 240,
+        "checked_at": "2026-11-14T11:30:50.799Z",
+        "consecutive_failures": 0,
+        "last_ok_at": "2026-11-14T11:30:50.799Z"
+      }
+    }
+  },
+  "145": {
+    "status": "ok",
+    "cors": "any",
+    "http_code": 200,
+    "content_type": "audio/mpeg",
+    "latency_ms": 525,
+    "checked_at": "2026-11-14T11:30:50.799Z",
+    "consecutive_failures": 0,
+    "last_ok_at": "2026-11-14T11:30:50.799Z",
+    "mirrors": {
+      "https": {
+        "status": "ok",
+        "cors": "any",
+        "http_code": 200,
+        "content_type": "audio/mpeg",
+        "latency_ms": 525,
+        "checked_at": "2026-11-14T11:30:50.799Z",
+        "consecutive_failures": 0,
+        "last_ok_at": "2026-11-14T11:30:50.799Z"
+      }
+    }
+  },
+  "146": {
+    "status": "ok",
+    "cors": "any",
+    "http_code": 200,
+    "content_type": "audio/aac",
+    "latency_ms": 665,
+    "checked_at": "2026-11-14T11:30:50.799Z",
+    "consecutive_failures": 0,
+    "last_ok_at": "2026-11-14T11:30:50.799Z",
+    "mirrors": {
+      "https": {
+        "status": "ok",
+        "cors": "any",
+        "http_code": 200,
+        "content_type": "audio/aac",
+        "latency_ms": 665,
+        "checked_at": "2026-11-14T11:30:50.799Z",
+        "consecutive_failures": 0,
+        "last_ok_at": "2026-11-14T11:30:50.799Z"
+      }
+    }
+  },
+  "147": {
+    "status": "ok",
+    "cors": "any",
+    "http_code": 200,
+    "content_type": "audio/mpeg",
+    "latency_ms": 249,
+    "checked_at": "2026-11-14T11:30:50.799Z",
+    "consecutive_failures": 0,
+    "last_ok_at": "2026-11-14T11:30:50.799Z",
+    "mirrors": {
+      "https": {
+        "status": "ok",
+        "cors": "any",
+        "http_code": 200,
+        "content_type": "audio/mpeg",
+        "latency_ms": 249,
+        "checked_at": "2026-11-14T11:30:50.799Z",
+        "consecutive_failures": 0,
+        "last_ok_at": "2026-11-14T11:30:50.799Z"
+      }
+    }
+  },
+  "148": {
+    "status": "ok",
+    "cors": "any",
+    "http_code": 200,
+    "content_type": "audio/mpeg",
+    "latency_ms": 998,
+    "checked_at": "2026-11-14T11:30:50.799Z",
+    "consecutive_failures": 0,
+    "last_ok_at": "2026-11-14T11:30:50.799Z",
+    "mirrors": {
+      "https": {
+        "status": "ok",
+        "cors": "any",
+        "http_code": 200,
+        "content_type": "audio/mpeg",
+        "latency_ms": 998,
+        "checked_at": "2026-11-14T11:30:50.799Z",
+        "consecutive_failures": 0,
+        "last_ok_at": "2026-11-14T11:30:50.799Z"
+      }
+    }
+  },
+  "149": {
+    "status": "ok",
+    "cors": "origin",
+    "http_code": 206,
+    "content_type": "audio/mpeg",
+    "latency_ms": 115,
+    "checked_at": "2026-11-14T11:30:50.799Z",
+    "consecutive_failures": 0,
+    "last_ok_at": "2026-11-14T11:30:50.799Z",
+    "mirrors": {
+      "https": {
+        "status": "ok",
+        "cors": "origin",
+        "http_code": 206,
+        "content_type": "audio/mpeg",
+        "latency_ms": 115,
+        "checked_at": "2026-11-14T11:30:50.799Z",
+        "consecutive_failures": 0,
+        "last_ok_at": "2026-11-14T11:30:50.799Z"
+      }
+    }
+  },
+  "150": {
+    "status": "ok",
+    "cors": "any",
+    "http_code": 200,
+    "content_type": "audio/mpeg",
+    "latency_ms": 694,
+    "checked_at": "2026-11-14T11:30:50.799Z",
+    "consecutive_failures": 0,
+    "last_ok_at": "2026-11-14T11:30:50.799Z",
+    "mirrors": {
+      "https": {
+        "status": "ok",
+        "cors": "any",
+        "http_code": 200,
+        "content_type": "audio/mpeg",
+        "latency_ms": 694,
+        "checked_at": "2026-11-14T11:30:50.799Z",
+        "consecutive_failures": 0,
+        "last_ok_at": "2026-11-14T11:30:50.799Z"
+      }
+    }
+  },
+  "151": {
+    "status": "ok",
+    "cors": "any",
+    "http_code": 200,
+    "content_type": "audio/mpeg",
+    "latency_ms": 638,
+    "checked_at": "2026-11-14T11:30:50.799Z",
+    "consecutive_failures": 0,
+    "last_ok_at": "2026-11-14T11:30:50.799Z",
+    "mirrors": {
+      "https": {
+        "status": "ok",
+        "cors": "any",
+        "http_code": 200,
+        "content_type": "audio/mpeg",
+        "latency_ms": 638,
+        "checked_at": "2026-11-14T11:30:50.799Z",
+        "consecutive_failures": 0,
+        "last_ok_at": "2026-11-14T11:30:50.799Z"
+      }
+    }
+  },
+  "152": {
+    "status": "ok",
+    "cors": "origin",
+    "http_code": 200,
+    "content_type": "audio/mpeg",
+    "latency_ms": 954,
+    "checked_at": "2026-11-14T11:30:50.799Z",
+    "consecutive_failures": 0,
+    "last_ok_at": "2026-11-14T11:30:50.799Z",
+    "mirrors": {
+      "https": {
+        "status": "ok",
+        "cors": "origin",
+        "http_code": 200,
+        "content_type": "audio/mpeg",
+        "latency_ms": 954,
+        "checked_at": "2026-11-14T11:30:50.799Z",
+        "consecutive_failures": 0,
+        "last_ok_at": "2026-11-14T11:30:50.799Z"
+      },
+      "http": {
+        "status": "http_only",
+        "cors": null,
+        "http_code": 503,
+        "content_type": null,
+        "latency_ms": 353,
+        "checked_at": "2026-11-14T11:30:50.799Z",
+        "consecutive_failures": 0,
+        "last_ok_at": "2026-11-14T11:30:50.799Z"
+      }
+    }
+  },
+  "153": {
+    "status": "ok",
+    "cors": "origin",
+    "http_code": 200,
+    "content_type": "audio/mpeg",
+    "latency_ms": 1350,
+    "checked_at": "2026-11-14T11:30:50.799Z",
+    "consecutive_failures": 0,
+    "last_ok_at": "2026-11-14T11:30:50.799Z",
+    "mirrors": {
+      "https": {
+        "status": "ok",
+        "cors": "origin",
+        "http_code": 200,
+        "content_type": "audio/mpeg",
+        "latency_ms": 1350,
+        "checked_at": "2026-11-14T11:30:50.799Z",
+        "consecutive_failures": 0,
+        "last_ok_at": "2026-11-14T11:30:50.799Z"
+      }
+    }
+  },
+  "154": {
+    "status": "ok",
+    "cors": "any",
+    "http_code": 200,
+    "content_type": "audio/mpeg; charset=UTF-8",
+    "latency_ms": 829,
+    "checked_at": "2026-11-14T11:30:50.799Z",
+    "consecutive_failures": 0,
+    "last_ok_at": "2026-11-14T11:30:50.799Z",
+    "mirrors": {
+      "https": {
+        "status": "ok",
+        "cors": "any",
+        "http_code": 200,
+        "content_type": "audio/mpeg; charset=UTF-8",
+        "latency_ms": 829,
+        "checked_at": "2026-11-14T11:30:50.799Z",
+        "consecutive_failures": 0,
+        "last_ok_at": "2026-11-14T11:30:50.799Z"
+      }
+    }
+  },
+  "155": {
+    "status": "ok",
+    "cors": "any",
+    "http_code": 200,
+    "content_type": "audio/mpeg",
+    "latency_ms": 1220,
+    "checked_at": "2026-11-14T11:30:50.799Z",
+    "consecutive_failures": 0,
+    "last_ok_at": "2026-11-14T11:30:50.799Z",
+    "mirrors": {
+      "https": {
+        "status": "ok",
+        "cors": "any",
+        "http_code": 200,
+        "content_type": "audio/mpeg",
+        "latency_ms": 1220,
+        "checked_at": "2026-11-14T11:30:50.799Z",
+        "consecutive_failures": 0,
+        "last_ok_at": "2026-11-14T11:30:50.799Z"
+      }
+    }
+  },
+  "156": {
+    "status": "ok",
+    "cors": "any",
+    "http_code": 200,
+    "content_type": "audio/mpeg",
+    "latency_ms": 678,
+    "checked_at": "2026-11-14T11:30:50.799Z",
+    "consecutive_failures": 0,
+    "last_ok_at": "2026-11-14T11:30:50.799Z",
+    "mirrors": {
+      "https": {
+        "status": "ok",
+        "cors": "any",
+        "http_code": 200,
+        "content_type": "audio/mpeg",
+        "latency_ms": 678,
+        "checked_at": "2026-11-14T11:30:50.799Z",
+        "consecutive_failures": 0,
+        "last_ok_at": "2026-11-14T11:30:50.799Z"
+      },
+      "http": {
+        "status": "http_only",
+        "cors": "any",
+        "http_code": 200,
+        "content_type": "audio/mpeg",
+        "latency_ms": 248,
+        "checked_at": "2026-11-14T11:30:50.799Z",
+        "consecutive_failures": 0,
+        "last_ok_at": "2026-11-14T11:30:50.799Z"
+      }
+    }
+  },
+  "157": {
+    "status": "ok",
+    "cors": "origin",
+    "http_code": 200,
+    "content_type": "audio/mpeg",
+    "latency_ms": 358,
+    "checked_at": "2026-11-14T11:30:50.799Z",
+    "consecutive_failures": 0,
+    "last_ok_at": "2026-11-14T11:30:50.799Z",
+    "mirrors": {
+      "https": {
+        "status": "ok",
+        "cors": "origin",
+        "http_code": 200,
+        "content_type": "audio/mpeg",
+        "latency_ms": 358,
+        "checked_at": "2026-11-14T11:30:50.799Z",
+        "consecutive_failures": 0,
+        "last_ok_at": "2026-11-14T11:30:50.799Z"
+      },
+      "http": {
+        "status": "http_only",
+        "cors": "origin",
+        "http_code": 200,
+        "content_type": "audio/mpeg",
+        "latency_ms": 251,
+        "checked_at": "2026-11-14T11:30:50.799Z",
+        "consecutive_failures": 0,
+        "last_ok_at": "2026-11-14T11:30:50.799Z"
+      }
+    }
+  },
+  "158": {
+    "status": "ok",
+    "cors": "any",
+    "http_code": 200,
+    "content_type": "audio/mpeg",
+    "latency_ms": 446,
+    "checked_at": "2026-11-14T11:30:50.799Z",
+    "consecutive_failures": 0,
+    "last_ok_at": "2026-11-14T11:30:50.799Z",
+    "mirrors": {
+      "https": {
+        "status": "ok",
+        "cors": "any",
+        "http_code": 200,
+        "content_type": "audio/mpeg",
+        "latency_ms": 446,
+        "checked_at": "2026-11-14T11:30:50.799Z",
+        "consecutive_failures": 0,
+        "last_ok_at": "2026-11-14T11:30:50.799Z"
+      },
+      "http": {
+        "status": "http_only",
+        "cors": "any",
+        "http_code": 200,
+        "content_type": "audio/mpeg",
+        "latency_ms": 363,
+        "checked_at": "2026-11-14T11:30:50.799Z",
+        "consecutive_failures": 0,
+        "last_ok_at": "2026-11-14T11:30:50.799Z"
+      }
+    }
+  },
+  "159": {
+    "status": "cors_missing",
+    "cors": null,
+    "http_code": 200,
+    "content_type": "audio/aacp",
+    "latency_ms": 553,
+    "checked_at": "2026-11-14T11:30:50.799Z",
+    "consecutive_failures": 0,
+    "last_ok_at": "2026-11-14T11:30:50.799Z",
+    "mirrors": {
+      "https": {
+        "status": "cors_missing",
+        "cors": null,
+        "http_code": 200,
+        "content_type": "audio/aacp",
+        "latency_ms": 553,
+        "checked_at": "2026-11-14T11:30:50.799Z",
+        "consecutive_failures": 0,
+        "last_ok_at": "2026-11-14T11:30:50.799Z"
+      }
+    }
+  },
+  "160": {
+    "status": "ok",
+    "cors": "origin",
+    "http_code": 206,
+    "content_type": "audio/mpeg",
+    "latency_ms": 363,
+    "checked_at": "2026-11-14T11:30:50.799Z",
+    "consecutive_failures": 0,
+    "last_ok_at": "2026-11-14T11:30:50.799Z",
+    "mirrors": {
+      "https": {
+        "status": "ok",
+        "cors": "origin",
+        "http_code": 206,
+        "content_type": "audio/mpeg",
+        "latency_ms": 363,
+        "checked_at": "2026-11-14T11:30:50.799Z",
+        "consecutive_failures": 0,
+        "last_ok_at": "2026-11-14T11:30:50.799Z"
+      }
+    }
+  },
+  "161": {
+    "status": "ok",
+    "cors": "any",
+    "http_code": 200,
+    "content_type": "audio/mpeg",
+    "latency_ms": 109,
+    "checked_at": "2026-11-14T11:30:50.799Z",
+    "consecutive_failures": 0,
+    "last_ok_at": "2026-11-14T11:30:50.799Z",
+    "mirrors": {
+      "https": {
+        "status": "ok",
+        "cors": "any",
+        "http_code": 200,
+        "content_type": "audio/mpeg",
+        "latency_ms": 109,
+        "checked_at": "2026-11-14T11:30:50.799Z",
+        "consecutive_failures": 0,
+        "last_ok_at": "2026-11-14T11:30:50.799Z"
+      }
+    }
+  },
+  "162": {
+    "status": "ok",
+    "cors": "origin",
+    "http_code": 200,
+    "content_type": "audio/mpeg",
+    "latency_ms": 300,
+    "checked_at": "2026-11-14T11:30:50.799Z",
+    "consecutive_failures": 0,
+    "last_ok_at": "2026-11-14T11:30:50.799Z",
+    "mirrors": {
+      "https": {
+        "status": "ok",
+        "cors": "origin",
+        "http_code": 200,
+        "content_type": "audio/mpeg",
+        "latency_ms": 300,
+        "checked_at": "2026-11-14T11:30:50.799Z",
+        "consecutive_failures": 0,
+        "last_ok_at": "2026-11-14T11:30:50.799Z"
+      }
+    }
+  }
+}

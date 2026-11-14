@@ -1,0 +1,82 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "FM La Boca — latest posts",
+  "home_page_url": "https://fmlaboca.com.ar/",
+  "feed_url": "https://mrhumildad.github.io/riotsradios-epg/feeds/fm-la-boca.json",
+  "_station_id": 124,
+  "_station_name": "FM La Boca",
+  "_source": "https://fmlaboca.com.ar/feed/",
+  "_generated_at": "2026-11-12T14:19:55.663Z",
+  "items": [
+    {
+      "id": "https://fmlaboca.com.ar/pablo-seman-analizo-el-impacto-politico-de-la-visita-de-leon-xiv-milei-el-peronismo-y-la-irrupcion-de-la-compasion-como-valor-social/",
+      "url": "https://fmlaboca.com.ar/pablo-seman-analizo-el-impacto-politico-de-la-visita-de-leon-xiv-milei-el-peronismo-y-la-irrupcion-de-la-compasion-como-valor-social/",
+      "title": "Pablo Semán analizó el impacto político de la visita de León XIV: Milei, el peronismo y la irrupción de la compasión como valor social",
+      "content_text": "Pablo Semán analizó el impacto político de la visita de León XIV: Milei, el peronismo y la irrupción de la compasión como valor social",
+      "date_published": "2026-11-12T14:00:10.000Z"
+    },
+    {
+      "id": "https://fmlaboca.com.ar/despues-del-recreo-la-argentina-a-sus-cosas-se-reinstala-el-conflicto-en-el-pais-de-las-grietas-eternas/",
+      "url": "https://fmlaboca.com.ar/despues-del-recreo-la-argentina-a-sus-cosas-se-reinstala-el-conflicto-en-el-pais-de-las-grietas-eternas/",
+      "title": "Después del recreo, la Argentina a sus cosas: se reinstala el conflicto en el país de las grietas eternas",
+      "content_text": "Después del recreo, la Argentina a sus cosas: se reinstala el conflicto en el país de las grietas eternas",
+      "date_published": "2026-11-12T14:00:07.000Z"
+    },
+    {
+      "id": "https://fmlaboca.com.ar/leon-xiv-deja-a-la-argentina-una-exigencia-que-la-politica-debera-responder/",
+      "url": "https://fmlaboca.com.ar/leon-xiv-deja-a-la-argentina-una-exigencia-que-la-politica-debera-responder/",
+      "title": "León XIV deja a la Argentina una exigencia que la política deberá responder",
+      "content_text": "León XIV deja a la Argentina una exigencia que la política deberá responder",
+      "date_published": "2026-11-12T14:00:03.000Z"
+    },
+    {
+      "id": "https://fmlaboca.com.ar/?p=56195",
+      "url": "https://fmlaboca.com.ar/clausura-confirmaron-los-horarios-y-la-tv-de-los-ocho-cruces-de-octavos/",
+      "title": "Clausura: confirmaron los horarios y la TV de los ocho cruces de octavos",
+      "content_text": "Clausura: confirmaron los horarios y la TV de los ocho cruces de octavos",
+      "date_published": "2026-11-12T12:05:43.000Z"
+    },
+    {
+      "id": "https://fmlaboca.com.ar/?p=56192",
+      "url": "https://fmlaboca.com.ar/atenas-recibe-a-san-lorenzo-horario-streaming-y-entradas-en-cordoba/",
+      "title": "Atenas recibe a San Lorenzo: horario, streaming y entradas en Córdoba",
+      "content_text": "Atenas recibe a San Lorenzo: horario, streaming y entradas en Córdoba",
+      "date_published": "2026-11-12T12:05:42.000Z"
+    },
+    {
+      "id": "https://fmlaboca.com.ar/?p=56189",
+      "url": "https://fmlaboca.com.ar/los-pumas-preparan-la-visita-a-italia-con-mallia-afuera-y-montoya-en-evaluacion/",
+      "title": "Los Pumas preparan la visita a Italia con Mallía afuera y Montoya en evaluación",
+      "content_text": "Los Pumas preparan la visita a Italia con Mallía afuera y Montoya en evaluación",
+      "date_published": "2026-11-12T12:05:40.000Z"
+    },
+    {
+      "id": "https://fmlaboca.com.ar/?p=56184",
+      "url": "https://fmlaboca.com.ar/daniel-melero-toca-esta-noche-en-la-tangente/",
+      "title": "Daniel Melero toca esta noche en La Tangente",
+      "content_text": "Daniel Melero toca esta noche en La Tangente",
+      "date_published": "2026-11-12T11:05:37.000Z"
+    },
+    {
+      "id": "https://fmlaboca.com.ar/?p=56181",
+      "url": "https://fmlaboca.com.ar/juku-ares-prepara-para-2027-un-disco-de-guitarras-y-sonido-mas-crudo/",
+      "title": "Juku Ares prepara para 2027 un disco de guitarras y sonido más crudo",
+      "content_text": "Juku Ares prepara para 2027 un disco de guitarras y sonido más crudo",
+      "date_published": "2026-11-12T11:05:37.000Z"
+    },
+    {
+      "id": "https://fmlaboca.com.ar/?p=56178",
+      "url": "https://fmlaboca.com.ar/barbi-recanati-prepara-su-cumpleanos-en-niceto-con-musicos-invitados/",
+      "title": "Barbi Recanati prepara su cumpleaños en Niceto con músicos invitados",
+      "content_text": "Barbi Recanati prepara su cumpleaños en Niceto con músicos invitados",
+      "date_published": "2026-11-12T11:05:36.000Z"
+    },
+    {
+      "id": "https://fmlaboca.com.ar/?p=56172",
+      "url": "https://fmlaboca.com.ar/bertulazzi-recompensa-extradicion/",
+      "title": "El Gobierno ofreció $20 millones para recapturar a Leonardo Bertulazzi",
+      "content_text": "El Gobierno ofreció $20 millones para recapturar a Leonardo Bertulazzi",
+      "date_published": "2026-11-12T01:13:33.000Z"
+    }
+  ]
+}

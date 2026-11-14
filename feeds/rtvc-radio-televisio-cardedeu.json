@@ -1,0 +1,82 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "RTVC Ràdio Televisió Cardedeu — latest posts",
+  "home_page_url": "https://rtvc.cat/",
+  "feed_url": "https://mrhumildad.github.io/riotsradios-epg/feeds/rtvc-radio-televisio-cardedeu.json",
+  "_station_id": 137,
+  "_station_name": "RTVC Ràdio Televisió Cardedeu",
+  "_source": "https://rtvc.cat/feed/",
+  "_generated_at": "2026-11-12T14:19:58.391Z",
+  "items": [
+    {
+      "id": "https://rtvc.cat/?p=9079",
+      "url": "https://rtvc.cat/24-30-manaments-per-adolescents-juanjo-perez-sola-juanjo-perez-sola/",
+      "title": "25. 30 MANAMENTS PER ADOLESCENTS – JUANJO PEREZ SOLÀ – JUANJO PEREZ SOLÀ",
+      "content_text": "25. 30 MANAMENTS PER ADOLESCENTS – JUANJO PEREZ SOLÀ – JUANJO PEREZ SOLÀ",
+      "date_published": "2021-12-14T10:52:53.000Z"
+    },
+    {
+      "id": "https://rtvc.cat/?p=9074",
+      "url": "https://rtvc.cat/24-musica-i-educacio/",
+      "title": "24. Música i educacio",
+      "content_text": "24. Música i educacio",
+      "date_published": "2021-12-14T10:09:48.000Z"
+    },
+    {
+      "id": "https://rtvc.cat/?p=9071",
+      "url": "https://rtvc.cat/23-anecdotesaix-la-canalla/",
+      "title": "23.Anècdotes:aix la canalla",
+      "content_text": "23.Anècdotes:aix la canalla",
+      "date_published": "2021-12-14T09:50:24.000Z"
+    },
+    {
+      "id": "https://rtvc.cat/?p=9042",
+      "url": "https://rtvc.cat/22-esport-i-genere/",
+      "title": "22. Esport i gènere",
+      "content_text": "22. Esport i gènere",
+      "date_published": "2021-11-10T09:45:54.000Z"
+    },
+    {
+      "id": "https://rtvc.cat/?p=9039",
+      "url": "https://rtvc.cat/21-inplicacio-las-families-a-les-escoles/",
+      "title": "21. Implicacio las families a les escoles",
+      "content_text": "21. Implicacio las families a les escoles",
+      "date_published": "2021-11-10T09:33:56.000Z"
+    },
+    {
+      "id": "https://rtvc.cat/?p=9019",
+      "url": "https://rtvc.cat/20-consell-infants-els-tenim-en-compte/",
+      "title": "20. Concell infants: o tenom en cpmte?",
+      "content_text": "20. Concell infants: o tenom en cpmte?",
+      "date_published": "2021-11-10T09:21:19.000Z"
+    },
+    {
+      "id": "https://rtvc.cat/?p=9004",
+      "url": "https://rtvc.cat/19-lestiu-i-els-nens/",
+      "title": "19.L’estiu i els nens",
+      "content_text": "19.L’estiu i els nens",
+      "date_published": "2021-10-13T08:43:21.000Z"
+    },
+    {
+      "id": "https://rtvc.cat/?p=9001",
+      "url": "https://rtvc.cat/18-trastorns-alimentaris/",
+      "title": "18.Transtorns alimentaris",
+      "content_text": "18.Transtorns alimentaris",
+      "date_published": "2021-10-13T08:15:49.000Z"
+    },
+    {
+      "id": "https://rtvc.cat/?p=8998",
+      "url": "https://rtvc.cat/17-informacio-als-infants-info-k/",
+      "title": "17.Informació als infants INFO K",
+      "content_text": "17.Informació als infants INFO K",
+      "date_published": "2021-10-13T08:03:45.000Z"
+    },
+    {
+      "id": "https://rtvc.cat/?p=8995",
+      "url": "https://rtvc.cat/16-reptes-families-del-s-xxi/",
+      "title": "16. Reptes famílies del s XXI",
+      "content_text": "16. Reptes famílies del s XXI",
+      "date_published": "2021-10-13T07:52:43.000Z"
+    }
+  ]
+}

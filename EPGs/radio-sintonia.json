@@ -1,0 +1,92 @@
+{
+  "version": "2.0",
+  "station": "Radio Sintonía",
+  "station_id": 141,
+  "schedule_type": "weekly",
+  "timezone": "Europe/Madrid",
+  "last_updated": "2026-11-14",
+  "source": "https://lasintoniadeptegenil.wixsite.com/lasintonia-es/programming",
+  "notes": "Generado automáticamente desde https://lasintoniadeptegenil.wixsite.com/lasintonia-es/programming (snapshot 2026-11-14); revisar data/epg-report.json.",
+  "generator": "scripts/convert-raw-epg.mjs",
+  "metadata": {
+    "categories": {
+      "musica": "Música",
+      "directo": "Directo",
+      "podcast": "Podcast / repetición",
+      "especial": "Especial",
+      "taller": "Taller / educación"
+    },
+    "default_filler": {
+      "title": "Música",
+      "category": "musica"
+    }
+  },
+  "shows": {
+    "use-strict-self-webpackjsonp-wix-thunderbolt-app-self-webpac": {
+      "title": "use strict\";(self.webpackJsonp__wix_thunderbolt_app=self.webpackJsonp__wix_thunderbolt_app||[]).push([[\"1619\"],{46197(e,t,i){i.r(t),i.d(t,{S",
+      "category": "directo"
+    }
+  },
+  "days": [
+    {
+      "day": "monday",
+      "label": "Lunes",
+      "programs": [
+        {
+          "start": "00:00",
+          "end": "09:00",
+          "show_id": "use-strict-self-webpackjsonp-wix-thunderbolt-app-self-webpac",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "tuesday",
+      "label": "Martes",
+      "programs": [
+        {
+          "start": "00:00",
+          "end": "09:00",
+          "show_id": "use-strict-self-webpackjsonp-wix-thunderbolt-app-self-webpac",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "wednesday",
+      "label": "Miércoles",
+      "programs": [
+        {
+          "start": "00:00",
+          "end": "09:00",
+          "show_id": "use-strict-self-webpackjsonp-wix-thunderbolt-app-self-webpac",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "thursday",
+      "label": "Jueves",
+      "programs": [
+        {
+          "start": "00:00",
+          "end": "09:00",
+          "show_id": "use-strict-self-webpackjsonp-wix-thunderbolt-app-self-webpac",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "friday",
+      "label": "Viernes",
+      "programs": [
+        {
+          "start": "00:00",
+          "end": "09:00",
+          "show_id": "use-strict-self-webpackjsonp-wix-thunderbolt-app-self-webpac",
+          "live": false
+        }
+      ]
+    }
+  ]
+}

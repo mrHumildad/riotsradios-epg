@@ -1,0 +1,82 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Ké Huelga Radio — latest posts",
+  "home_page_url": "https://kehuelga.net/",
+  "feed_url": "https://mrhumildad.github.io/riotsradios-epg/feeds/ke-huelga-radio.json",
+  "_station_id": 15,
+  "_station_name": "Ké Huelga Radio",
+  "_source": "https://kehuelga.net/spip.php?page=backend",
+  "_generated_at": "2026-11-12T14:19:48.462Z",
+  "items": [
+    {
+      "id": "https://kehuelga.net/spip.php?article8311",
+      "url": "https://kehuelga.net/spip.php?article8311",
+      "title": "Bonos solidarios para la Gira por la vida",
+      "content_text": "Bonos solidarios para la Gira por la vida",
+      "date_published": "2026-11-07T17:16:56.000Z"
+    },
+    {
+      "id": "https://kehuelga.net/spip.php?article8310",
+      "url": "https://kehuelga.net/spip.php?article8310",
+      "title": "Crónicas desde el otro lado del charco 6.11.2026",
+      "content_text": "Crónicas desde el otro lado del charco 6.11.2026",
+      "date_published": "2026-11-06T16:28:58.000Z"
+    },
+    {
+      "id": "https://kehuelga.net/spip.php?article8309",
+      "url": "https://kehuelga.net/spip.php?article8309",
+      "title": "Encuentro con el colectivo Luciérnagas Buscadoras",
+      "content_text": "Encuentro con el colectivo Luciérnagas Buscadoras",
+      "date_published": "2026-11-02T19:15:32.000Z"
+    },
+    {
+      "id": "https://kehuelga.net/spip.php?article8308",
+      "url": "https://kehuelga.net/spip.php?article8308",
+      "title": "Entrevista a Elizabeth Díaz en la Radio Mujeres Mazatecas",
+      "content_text": "Entrevista a Elizabeth Díaz en la Radio Mujeres Mazatecas",
+      "date_published": "2026-11-02T14:32:27.000Z"
+    },
+    {
+      "id": "https://kehuelga.net/spip.php?article8307",
+      "url": "https://kehuelga.net/spip.php?article8307",
+      "title": "Crónicas desde el otro lado del charco 28.10.2026",
+      "content_text": "Crónicas desde el otro lado del charco 28.10.2026",
+      "date_published": "2026-10-28T12:33:04.000Z"
+    },
+    {
+      "id": "https://kehuelga.net/spip.php?article8306",
+      "url": "https://kehuelga.net/spip.php?article8306",
+      "title": "Entrevista a Za-Hash",
+      "content_text": "Entrevista a Za-Hash",
+      "date_published": "2026-10-26T03:31:56.000Z"
+    },
+    {
+      "id": "https://kehuelga.net/spip.php?article8305",
+      "url": "https://kehuelga.net/spip.php?article8305",
+      "title": "Aporte pal transporte de la Gira por la Vida",
+      "content_text": "Aporte pal transporte de la Gira por la Vida",
+      "date_published": "2026-10-18T14:54:21.000Z"
+    },
+    {
+      "id": "https://kehuelga.net/spip.php?article8304",
+      "url": "https://kehuelga.net/spip.php?article8304",
+      "title": "Sedes de acopio para la Gira Zapatista",
+      "content_text": "Sedes de acopio para la Gira Zapatista",
+      "date_published": "2026-10-10T14:08:41.000Z"
+    },
+    {
+      "id": "https://kehuelga.net/spip.php?article8303",
+      "url": "https://kehuelga.net/spip.php?article8303",
+      "title": "Crónica desde el otro lado del charco 5.10.2026",
+      "content_text": "Crónica desde el otro lado del charco 5.10.2026",
+      "date_published": "2026-10-06T22:23:38.000Z"
+    },
+    {
+      "id": "https://kehuelga.net/spip.php?article8302",
+      "url": "https://kehuelga.net/spip.php?article8302",
+      "title": "Radio Mujeres Mazatecas desde la frecuencia plantonera",
+      "content_text": "Radio Mujeres Mazatecas desde la frecuencia plantonera",
+      "date_published": "2026-10-05T23:37:39.000Z"
+    }
+  ]
+}

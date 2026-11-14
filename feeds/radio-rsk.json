@@ -1,0 +1,82 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Radio RSK — latest posts",
+  "home_page_url": "https://www.radiorsk.info/",
+  "feed_url": "https://mrhumildad.github.io/riotsradios-epg/feeds/radio-rsk.json",
+  "_station_id": 25,
+  "_station_name": "Radio RSK",
+  "_source": "https://www.radiorsk.info/?feed=rss2",
+  "_generated_at": "2026-11-12T14:19:52.397Z",
+  "items": [
+    {
+      "id": "https://www.radiorsk.info/?p=3999",
+      "url": "https://www.radiorsk.info/?p=3999",
+      "title": "11N-COBERTURA DE LA VAGA GENERAL",
+      "content_text": "11N-COBERTURA DE LA VAGA GENERAL",
+      "date_published": "2026-11-11T08:11:31.000Z"
+    },
+    {
+      "id": "https://www.radiorsk.info/?p=3995",
+      "url": "https://www.radiorsk.info/?p=3995",
+      "title": "ACTE SOLIDARI AMB RSK, VERMUT I DINAR DE L’ATENEU LLIBERTARI DE GRÀCIA, I ACTE DE RECUPERACIÓ D’ESPAIS VERDS PER PART DELS COL·LECTIUS EL JARDÍ DEL SILENCI, L’HORT DE CALATRAVA I EL JARDÍ DE L’ALZINA.",
+      "content_text": "ACTE SOLIDARI AMB RSK, VERMUT I DINAR DE L’ATENEU LLIBERTARI DE GRÀCIA, I ACTE DE RECUPERACIÓ D’ESPAIS VERDS PER PART DELS COL·LECTIUS EL JARDÍ DEL SILENCI, L’HORT DE CALATRAVA I EL JARDÍ DE L’ALZINA.",
+      "date_published": "2026-11-02T14:49:35.000Z"
+    },
+    {
+      "id": "https://www.radiorsk.info/?p=3962",
+      "url": "https://www.radiorsk.info/?p=3962",
+      "title": "Tercer Generador Antifeixista",
+      "content_text": "Tercer Generador Antifeixista",
+      "date_published": "2026-06-07T00:00:00.000Z"
+    },
+    {
+      "id": "https://www.radiorsk.info/?p=3965",
+      "url": "https://www.radiorsk.info/?p=3965",
+      "title": "8è Cadenazo Antifeixista de les Ràdios Lliures Ibèriques",
+      "content_text": "8è Cadenazo Antifeixista de les Ràdios Lliures Ibèriques",
+      "date_published": "2026-06-06T12:42:30.000Z"
+    },
+    {
+      "id": "https://www.radiorsk.info/?p=3926",
+      "url": "https://www.radiorsk.info/?p=3926",
+      "title": "Turó Rock ’26. Dissabte 6 de juny a les 22h. No hi falteu!",
+      "content_text": "Turó Rock ’26. Dissabte 6 de juny a les 22h. No hi falteu!",
+      "date_published": "2026-05-14T09:54:39.000Z"
+    },
+    {
+      "id": "https://www.radiorsk.info/?p=3922",
+      "url": "https://www.radiorsk.info/?p=3922",
+      "title": "El Generador-Concerts Maig",
+      "content_text": "El Generador-Concerts Maig",
+      "date_published": "2026-05-01T07:00:00.000Z"
+    },
+    {
+      "id": "https://www.radiorsk.info/?p=3842",
+      "url": "https://www.radiorsk.info/?p=3842",
+      "title": "El Generador- Concerts d’abril",
+      "content_text": "El Generador- Concerts d’abril",
+      "date_published": "2026-04-21T09:58:10.000Z"
+    },
+    {
+      "id": "https://www.radiorsk.info/?p=3756",
+      "url": "https://www.radiorsk.info/?p=3756",
+      "title": "PANTUMACONA",
+      "content_text": "PANTUMACONA",
+      "date_published": "2026-04-21T08:16:01.000Z"
+    },
+    {
+      "id": "https://www.radiorsk.info/?p=3888",
+      "url": "https://www.radiorsk.info/?p=3888",
+      "title": "HORTA CREMA",
+      "content_text": "HORTA CREMA",
+      "date_published": "2026-04-14T06:05:07.000Z"
+    },
+    {
+      "id": "https://www.radiorsk.info/?p=3885",
+      "url": "https://www.radiorsk.info/?p=3885",
+      "title": "Projecció de CERVESA CALENTA A LA VALLCARCA VALENTA",
+      "content_text": "Projecció de CERVESA CALENTA A LA VALLCARCA VALENTA",
+      "date_published": "2026-04-14T06:01:52.000Z"
+    }
+  ]
+}

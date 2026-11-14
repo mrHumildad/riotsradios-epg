@@ -1,0 +1,82 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Radio Pimienta — latest posts",
+  "home_page_url": "https://www.radiopimienta.org/",
+  "feed_url": "https://mrhumildad.github.io/riotsradios-epg/feeds/radio-pimienta.json",
+  "_station_id": 26,
+  "_station_name": "Radio Pimienta",
+  "_source": "https://www.radiopimienta.org/feed/",
+  "_generated_at": "2026-11-12T14:19:50.098Z",
+  "items": [
+    {
+      "id": "https://www.radiopimienta.org/?p=2791",
+      "url": "https://www.radiopimienta.org/2026/10/24/hoy-emitimos-el-cadenazo-radial-desde-chile-7-anos-del-estallido-social-en-chile/",
+      "title": "Hoy emitimos el Cadenazo Radial desde Chile: 7 años del Estallido Social en Chile",
+      "content_text": "Hoy emitimos el Cadenazo Radial desde Chile: 7 años del Estallido Social en Chile",
+      "date_published": "2026-10-24T07:10:49.000Z"
+    },
+    {
+      "id": "https://www.radiopimienta.org/?p=2498",
+      "url": "https://www.radiopimienta.org/2026/02/13/hoy-emision-especial-del-cadenazo-conferencia-solidaridad-de-abya-yala-con-kurdistan/",
+      "title": "Hoy emisión especial del Cadenazo Conferencia Solidaridad De Abya Yala Con Kurdistan",
+      "content_text": "Hoy emisión especial del Cadenazo Conferencia Solidaridad De Abya Yala Con Kurdistan",
+      "date_published": "2026-02-13T08:55:18.000Z"
+    },
+    {
+      "id": "https://www.radiopimienta.org/?p=2496",
+      "url": "https://www.radiopimienta.org/2026/02/08/aumentamos-la-parrilla-con-el-canto-de-la-tripulacion/",
+      "title": "Aumentamos la parrilla con “El canto de la tripulación”",
+      "content_text": "Aumentamos la parrilla con “El canto de la tripulación”",
+      "date_published": "2026-02-08T11:22:10.000Z"
+    },
+    {
+      "id": "https://www.radiopimienta.org/?p=2311",
+      "url": "https://www.radiopimienta.org/2025/09/10/20-anos-temporada-2025-2026/",
+      "title": "20 años. Temporada 2025-2026",
+      "content_text": "20 años. Temporada 2025-2026",
+      "date_published": "2025-09-10T14:06:32.000Z"
+    },
+    {
+      "id": "https://www.radiopimienta.org/?p=2112",
+      "url": "https://www.radiopimienta.org/2024/03/13/es-tiempo-de-nuestros-medios-se-pimienta-y-que-les-pique/",
+      "title": "Es tiempo de nuestros medios, Sé Pimienta y que les pique:",
+      "content_text": "Es tiempo de nuestros medios, Sé Pimienta y que les pique:",
+      "date_published": "2024-03-13T17:44:55.000Z"
+    },
+    {
+      "id": "https://www.radiopimienta.org/?p=1889",
+      "url": "https://www.radiopimienta.org/2023/10/04/arrancamos-con-la-19-temporada/",
+      "title": "¡Arrancamos con la 19 temporada!",
+      "content_text": "¡Arrancamos con la 19 temporada!",
+      "date_published": "2023-10-04T00:41:02.000Z"
+    },
+    {
+      "id": "https://www.radiopimienta.org/?p=1701",
+      "url": "https://www.radiopimienta.org/2023/01/03/18-anos-de-radio-pimienta-tan-pequenas-solas-tan-grandes-con-otras/",
+      "title": "18 AÑOS de RADIO PIMIENTA: TAN PEQUEÑAS SOLAS, TAN GRANDES CON OTRAS",
+      "content_text": "18 AÑOS de RADIO PIMIENTA: TAN PEQUEÑAS SOLAS, TAN GRANDES CON OTRAS",
+      "date_published": "2023-01-03T12:15:53.000Z"
+    },
+    {
+      "id": "https://www.radiopimienta.org/?p=1652",
+      "url": "https://www.radiopimienta.org/2022/12/16/radio-pimienta-imparte-un-curso-de-comunicacion-y-radio-en-lanzarote/",
+      "title": "RADIO PIMIENTA IMPARTE UN CURSO DE COMUNICACIÓN Y RADIO EN LANZAROTE:",
+      "content_text": "RADIO PIMIENTA IMPARTE UN CURSO DE COMUNICACIÓN Y RADIO EN LANZAROTE:",
+      "date_published": "2022-12-16T13:36:20.000Z"
+    },
+    {
+      "id": "https://www.radiopimienta.org/?p=1650",
+      "url": "https://www.radiopimienta.org/2022/12/16/salvar-el-barranco-de-arguineguin-en-gran-canaria/",
+      "title": "SALVAR EL BARRANCO DE ARGUINEGUÍN EN GRAN CANARIA.",
+      "content_text": "SALVAR EL BARRANCO DE ARGUINEGUÍN EN GRAN CANARIA.",
+      "date_published": "2022-12-16T13:31:58.000Z"
+    },
+    {
+      "id": "https://www.radiopimienta.org/?p=1648",
+      "url": "https://www.radiopimienta.org/2022/12/16/la-asamblea-de-apoyo-a-migrantes-de-tenerife-denuncia-el-trato-racista-recibido-por-las-162-personas-llegadas-el-pasado-domingo-en-un-cayuco-a-la-isla-de-el-hierro-entre-ellas-se-encontraban-menores/",
+      "title": "La Asamblea de Apoyo a Migrantes de Tenerife denuncia el trato racista recibido por las 162 personas llegadas el pasado domingo en un cayuco a la isla de El Hierro, entre ellas se encontraban menores y dos mujeres que vieron vulnerado su derecho a protección.",
+      "content_text": "La Asamblea de Apoyo a Migrantes de Tenerife denuncia el trato racista recibido por las 162 personas llegadas el pasado domingo en un cayuco a la isla de El Hierro, entre ellas se encontraban menores y dos mujeres que vieron vulnerado su derecho a protección.",
+      "date_published": "2022-12-16T13:28:27.000Z"
+    }
+  ]
+}

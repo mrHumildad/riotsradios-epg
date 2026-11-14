@@ -1,0 +1,94 @@
+{
+  "version": "2.0",
+  "station": "Radio Blackout",
+  "station_id": 29,
+  "schedule_type": "weekly",
+  "timezone": "Europe/Rome",
+  "last_updated": "2026-11-14",
+  "source": "https://radioblackout.org/palinsesto",
+  "notes": "Generado automáticamente desde https://radioblackout.org/palinsesto (snapshot 2026-11-14); revisar data/epg-report.json.",
+  "generator": "scripts/convert-raw-epg.mjs",
+  "metadata": {
+    "categories": {
+      "musica": "Música",
+      "directo": "Directo",
+      "podcast": "Podcast / repetición",
+      "especial": "Especial",
+      "taller": "Taller / educación"
+    },
+    "default_filler": {
+      "title": "Música",
+      "category": "musica"
+    }
+  },
+  "shows": {
+    "radio-bizarre": {
+      "title": "Radio Bizarre",
+      "category": "directo"
+    },
+    "on-air": {
+      "title": "ON AIR",
+      "category": "directo"
+    },
+    "umoradio": {
+      "title": "Umoradio",
+      "category": "directo"
+    },
+    "black-milk": {
+      "title": "Black Milk",
+      "category": "directo"
+    },
+    "tanz-bambolina-dance-or-die": {
+      "title": "Tanz Bambolina,dance or die!",
+      "category": "directo"
+    },
+    "b-rave-ragazze": {
+      "title": "B-Rave Ragazze",
+      "category": "directo"
+    }
+  },
+  "days": [
+    {
+      "day": "saturday",
+      "label": "Sábado",
+      "programs": [
+        {
+          "start": "10:30",
+          "end": "12:00",
+          "show_id": "radio-bizarre",
+          "live": false
+        },
+        {
+          "start": "12:00",
+          "end": "13:30",
+          "show_id": "on-air",
+          "live": false
+        },
+        {
+          "start": "13:30",
+          "end": "15:00",
+          "show_id": "umoradio",
+          "live": false
+        },
+        {
+          "start": "15:00",
+          "end": "18:00",
+          "show_id": "black-milk",
+          "live": false
+        },
+        {
+          "start": "18:00",
+          "end": "19:30",
+          "show_id": "tanz-bambolina-dance-or-die",
+          "live": false
+        },
+        {
+          "start": "19:30",
+          "end": "21:30",
+          "show_id": "b-rave-ragazze",
+          "live": false
+        }
+      ]
+    }
+  ]
+}

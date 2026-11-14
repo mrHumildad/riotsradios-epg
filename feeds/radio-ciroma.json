@@ -1,0 +1,54 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Radio Ciroma — latest posts",
+  "home_page_url": "https://ciroma.org/",
+  "feed_url": "https://mrhumildad.github.io/riotsradios-epg/feeds/radio-ciroma.json",
+  "_station_id": 3,
+  "_station_name": "Radio Ciroma",
+  "_source": "https://blog.ciroma.org/feed/",
+  "_generated_at": "2026-11-12T14:19:46.812Z",
+  "items": [
+    {
+      "id": "https://blog.ciroma.org/?p=808",
+      "url": "https://blog.ciroma.org/2026/06/29/vedere-il-buio-canecapovolto-per-ciroma/",
+      "title": "VEDERE IL BUIO – CANECAPOVOLTO PER CIROMA",
+      "content_text": "VEDERE IL BUIO – CANECAPOVOLTO PER CIROMA",
+      "date_published": "2026-06-29T07:56:42.000Z"
+    },
+    {
+      "id": "https://blog.ciroma.org/?p=803",
+      "url": "https://blog.ciroma.org/2026/04/30/primo-maggio-dalla-memoria-della-lotta-alla-necessita-del-conflitto/",
+      "title": "Primo Maggio: dalla memoria della lotta alla necessità del conflitto",
+      "content_text": "Primo Maggio: dalla memoria della lotta alla necessità del conflitto",
+      "date_published": "2026-04-30T09:27:16.000Z"
+    },
+    {
+      "id": "https://blog.ciroma.org/?p=789",
+      "url": "https://blog.ciroma.org/2026/04/26/i-sud-si-organizzano-11-e-12-aprile-cosenza-i-podcast-della-seconda-giornata-prima-parte/",
+      "title": "I Sud si organizzano 11 e 12 aprile Cosenza : i podcast della seconda giornata prima parte",
+      "content_text": "I Sud si organizzano 11 e 12 aprile Cosenza : i podcast della seconda giornata prima parte",
+      "date_published": "2026-04-26T16:36:18.000Z"
+    },
+    {
+      "id": "https://blog.ciroma.org/?p=778",
+      "url": "https://blog.ciroma.org/2026/04/21/i-sud-si-organizzano-11-e-12-aprile-i-podcast-della-prima-giornata/",
+      "title": "I Sud si organizzano Cosenza : 11 e 12 aprile i podcast della prima giornata",
+      "content_text": "I Sud si organizzano Cosenza : 11 e 12 aprile i podcast della prima giornata",
+      "date_published": "2026-04-21T18:52:37.000Z"
+    },
+    {
+      "id": "https://blog.ciroma.org/?p=774",
+      "url": "https://blog.ciroma.org/2026/04/21/25-aprile-o-da-una-parte-o-dallaltra/",
+      "title": "25 aprile: o da una parte o dall’altra",
+      "content_text": "25 aprile: o da una parte o dall’altra",
+      "date_published": "2026-04-21T09:48:02.000Z"
+    },
+    {
+      "id": "https://blog.ciroma.org/?p=769",
+      "url": "https://blog.ciroma.org/2026/04/12/report-finale-i-sud-si-organizzano/",
+      "title": "Report finale – I Sud si organizzano",
+      "content_text": "Report finale – I Sud si organizzano",
+      "date_published": "2026-04-12T15:43:21.000Z"
+    }
+  ]
+}

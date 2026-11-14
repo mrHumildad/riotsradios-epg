@@ -1,0 +1,54 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Mochileros — latest posts",
+  "home_page_url": "http://www.mochilerosradio.com",
+  "feed_url": "https://mrhumildad.github.io/riotsradios-epg/feeds/mochileros.json",
+  "_station_id": 100,
+  "_station_name": "Mochileros",
+  "_source": "https://www.mochilerosradio.com/blog.html",
+  "_generated_at": "2026-11-12T14:19:56.098Z",
+  "items": [
+    {
+      "id": "https://www.mochilerosradio.com/blog/64-la-economia-del-descarte.html",
+      "url": "https://www.mochilerosradio.com/blog/64-la-economia-del-descarte.html",
+      "title": "La economía del descarte: Cuando el alivio es para el rico y el ajuste para el pobre",
+      "content_text": "La economía del descarte: Cuando el alivio es para el rico y el ajuste para el pobre",
+      "date_published": "2026-04-25T16:37:36.000Z"
+    },
+    {
+      "id": "https://www.mochilerosradio.com/ciudades/62-entre-la-tradicion-y-el-consumo-el-significado-del-dia-de-muertos.html",
+      "url": "https://www.mochilerosradio.com/ciudades/62-entre-la-tradicion-y-el-consumo-el-significado-del-dia-de-muertos.html",
+      "title": "Entre la Tradición y el Consumo: El Significado del Día de Muertos",
+      "content_text": "Entre la Tradición y el Consumo: El Significado del Día de Muertos",
+      "date_published": "2024-11-01T23:00:00.000Z"
+    },
+    {
+      "id": "https://www.mochilerosradio.com/blog/55-politicas-de-privacidad.html",
+      "url": "https://www.mochilerosradio.com/blog/55-politicas-de-privacidad.html",
+      "title": "Politicas de Privacidad",
+      "content_text": "Politicas de Privacidad",
+      "date_published": "2022-12-26T16:45:40.000Z"
+    },
+    {
+      "id": "https://www.mochilerosradio.com/ciudades/28-bitacoras-tandil.html",
+      "url": "https://www.mochilerosradio.com/ciudades/28-bitacoras-tandil.html",
+      "title": "Bitacoras - Tandil",
+      "content_text": "Bitacoras - Tandil",
+      "date_published": "2018-05-07T17:20:26.000Z"
+    },
+    {
+      "id": "https://www.mochilerosradio.com/blog/11-medios/24-prensa-periodismo-y-libertad-de-prensa.html",
+      "url": "https://www.mochilerosradio.com/blog/11-medios/24-prensa-periodismo-y-libertad-de-prensa.html",
+      "title": "Una comunicación sin inclusión. miradas sobre la prensa, el periodismo y la libertad de prensa.",
+      "content_text": "Una comunicación sin inclusión. miradas sobre la prensa, el periodismo y la libertad de prensa.",
+      "date_published": "2018-05-03T16:30:35.000Z"
+    },
+    {
+      "id": "https://www.mochilerosradio.com/editoriales/18-las-aventuras-de-un-guanaco-animado-en-la-patagonia.html",
+      "url": "https://www.mochilerosradio.com/editoriales/18-las-aventuras-de-un-guanaco-animado-en-la-patagonia.html",
+      "title": "Las aventuras de un guanaco animado en la Patagonia",
+      "content_text": "Las aventuras de un guanaco animado en la Patagonia",
+      "date_published": "2016-09-19T22:00:00.000Z"
+    }
+  ]
+}
