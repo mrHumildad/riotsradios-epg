@@ -4,9 +4,9 @@
   "station_id": 130,
   "schedule_type": "weekly",
   "timezone": "Europe/Madrid",
-  "last_updated": "2026-11-14",
+  "last_updated": "2026-11-15",
   "source": "https://ecoleganes.org/2018/01/01/parrilla/",
-  "notes": "Generado automáticamente desde https://ecoleganes.org/2018/01/01/parrilla/ (snapshot 2026-11-14); revisar data/epg-report.json.",
+  "notes": "Generado automáticamente desde https://ecoleganes.org/2018/01/01/parrilla/ (snapshot 2026-11-15); revisar data/epg-report.json.",
   "generator": "scripts/convert-raw-epg.mjs",
   "metadata": {
     "categories": {

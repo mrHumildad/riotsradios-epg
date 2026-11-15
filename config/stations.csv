@@ -65,3 +65,5 @@ id,name,countrycode,timezone,homepage,epg_url,epg_file,enabled,mailto
 160,Echtepiraten.nl,NL,Europe/Amsterdam,http://echtepiraten.nl/,,,false,
 161,Voice of Chongro,KP,,https://sf1buynlarge.wixsite.com/chongronaenara/music,,,false,
 162,Epic Factory Underground,US,America/New_York,https://epicfactory.net/underground.htm,,,false,
+163,TSUBAKI fm,JP,,https://tsubakifm.com/,,,false,
+164,DATAFRUITS.FM,US,America/New_York,https://datafruits.fm/,,,false,

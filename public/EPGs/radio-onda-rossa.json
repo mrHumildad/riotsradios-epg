@@ -4,9 +4,9 @@
   "station_id": 27,
   "schedule_type": "weekly",
   "timezone": "Europe/Rome",
-  "last_updated": "2026-11-14",
+  "last_updated": "2026-11-15",
   "source": "https://www.ondarossa.info/palinsesto",
-  "notes": "Generado automáticamente desde https://www.ondarossa.info/palinsesto (snapshot 2026-11-14); revisar data/epg-report.json.",
+  "notes": "Generado automáticamente desde https://www.ondarossa.info/palinsesto (snapshot 2026-11-15); revisar data/epg-report.json.",
   "generator": "scripts/convert-raw-epg.mjs",
   "metadata": {
     "categories": {

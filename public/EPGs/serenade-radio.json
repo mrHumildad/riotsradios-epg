@@ -4,9 +4,9 @@
   "station_id": 151,
   "schedule_type": "weekly",
   "timezone": "Europe/London",
-  "last_updated": "2026-11-14",
+  "last_updated": "2026-11-15",
   "source": "https://www.serenade-radio.com/#day=monday",
-  "notes": "Generado automáticamente desde https://www.serenade-radio.com/#day=monday (snapshot 2026-11-14); revisar data/epg-report.json.",
+  "notes": "Generado automáticamente desde https://www.serenade-radio.com/#day=monday (snapshot 2026-11-15); revisar data/epg-report.json.",
   "generator": "scripts/convert-raw-epg.mjs",
   "metadata": {
     "categories": {
@@ -26,6 +26,10 @@
       "title": "time\": \"10.",
       "category": "directo"
     },
+    "week-2026": {
+      "title": "week\": \"2026-",
+      "category": "directo"
+    },
     "date-2026": {
       "title": "date\": \"2026-",
       "category": "directo"
@@ -38,8 +42,14 @@
       "programs": [
         {
           "start": "00:00",
-          "end": "12:00",
+          "end": "11:00",
           "show_id": "time-10",
+          "live": false
+        },
+        {
+          "start": "11:00",
+          "end": "12:00",
+          "show_id": "week-2026",
           "live": false
         },
         {
@@ -56,8 +66,14 @@
       "programs": [
         {
           "start": "00:00",
-          "end": "12:00",
+          "end": "11:00",
           "show_id": "time-10",
+          "live": false
+        },
+        {
+          "start": "11:00",
+          "end": "12:00",
+          "show_id": "week-2026",
           "live": false
         },
         {
@@ -74,8 +90,14 @@
       "programs": [
         {
           "start": "00:00",
-          "end": "12:00",
+          "end": "11:00",
           "show_id": "time-10",
+          "live": false
+        },
+        {
+          "start": "11:00",
+          "end": "12:00",
+          "show_id": "week-2026",
           "live": false
         },
         {
@@ -92,8 +114,14 @@
       "programs": [
         {
           "start": "00:00",
-          "end": "12:00",
+          "end": "11:00",
           "show_id": "time-10",
+          "live": false
+        },
+        {
+          "start": "11:00",
+          "end": "12:00",
+          "show_id": "week-2026",
           "live": false
         },
         {
@@ -110,8 +138,14 @@
       "programs": [
         {
           "start": "00:00",
-          "end": "12:00",
+          "end": "11:00",
           "show_id": "time-10",
+          "live": false
+        },
+        {
+          "start": "11:00",
+          "end": "12:00",
+          "show_id": "week-2026",
           "live": false
         },
         {
@@ -128,8 +162,14 @@
       "programs": [
         {
           "start": "00:00",
-          "end": "12:00",
+          "end": "11:00",
           "show_id": "time-10",
+          "live": false
+        },
+        {
+          "start": "11:00",
+          "end": "12:00",
+          "show_id": "week-2026",
           "live": false
         },
         {
@@ -146,8 +186,14 @@
       "programs": [
         {
           "start": "00:00",
-          "end": "12:00",
+          "end": "11:00",
           "show_id": "time-10",
+          "live": false
+        },
+        {
+          "start": "11:00",
+          "end": "12:00",
+          "show_id": "week-2026",
           "live": false
         },
         {

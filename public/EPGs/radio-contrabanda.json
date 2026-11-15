@@ -4,10 +4,10 @@
   "station_id": 1,
   "schedule_type": "weekly",
   "timezone": "Europe/Madrid",
-  "last_updated": "2026-11-14",
+  "last_updated": "2026-11-15",
   "source": "https://www.contrabanda.org/programacio/",
   "contact": "contrabanda@contrabanda.org",
-  "notes": "Generado automáticamente desde https://www.contrabanda.org/programacio/ (snapshot 2026-11-14); revisar data/epg-report.json.",
+  "notes": "Generado automáticamente desde https://www.contrabanda.org/programacio/ (snapshot 2026-11-15); revisar data/epg-report.json.",
   "generator": "scripts/convert-raw-epg.mjs",
   "metadata": {
     "categories": {
@@ -157,6 +157,18 @@
     },
     "sons-da-lusofonia": {
       "title": "Sons da Lusofonia",
+      "category": "directo"
+    },
+    "frecuencia-autista": {
+      "title": "Frecuencia autista",
+      "category": "directo"
+    },
+    "el-aleteo-des-equilibrado": {
+      "title": "El Aleteo Des-Equilibrado",
+      "category": "directo"
+    },
+    "hardcore-radikal": {
+      "title": "Hardcore Radikal",
       "category": "directo"
     }
   },
@@ -857,6 +869,150 @@
       "programs": [
         {
           "start": "00:00",
+          "end": "01:30",
+          "show_id": "distrito-apache",
+          "live": false
+        },
+        {
+          "start": "01:30",
+          "end": "02:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "02:00",
+          "end": "03:00",
+          "show_id": "skandalo-en-las-ondas",
+          "live": false
+        },
+        {
+          "start": "03:00",
+          "end": "03:30",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "03:30",
+          "end": "04:30",
+          "show_id": "shit",
+          "live": false
+        },
+        {
+          "start": "04:30",
+          "end": "05:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "05:00",
+          "end": "06:30",
+          "show_id": "tofuria",
+          "live": false
+        },
+        {
+          "start": "06:30",
+          "end": "09:30",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "09:30",
+          "end": "10:30",
+          "show_id": "el-canto-de-la-tripulacion",
+          "live": false
+        },
+        {
+          "start": "10:30",
+          "end": "11:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "11:00",
+          "end": "13:00",
+          "show_id": "nikosia",
+          "live": false
+        },
+        {
+          "start": "13:00",
+          "end": "13:30",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "13:30",
+          "end": "14:30",
+          "show_id": "flamenco-d-aqui-i-d-alla",
+          "live": false
+        },
+        {
+          "start": "14:30",
+          "end": "15:30",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "15:30",
+          "end": "17:00",
+          "show_id": "frecuencia-autista",
+          "live": false
+        },
+        {
+          "start": "17:00",
+          "end": "17:30",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "17:30",
+          "end": "19:00",
+          "show_id": "el-aleteo-des-equilibrado",
+          "live": false
+        },
+        {
+          "start": "19:00",
+          "end": "19:30",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "19:30",
+          "end": "20:30",
+          "show_id": "mika-y-su-kilombo",
+          "live": false
+        },
+        {
+          "start": "20:30",
+          "end": "21:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "21:00",
+          "end": "22:30",
+          "show_id": "radio-condenado",
+          "live": false
+        },
+        {
+          "start": "22:30",
+          "end": "23:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "23:00",
+          "end": "24:00",
+          "show_id": "hardcore-radikal",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "sunday",
+      "label": "Domingo",
+      "programs": [
+        {
+          "start": "00:00",
           "end": "01:00",
           "show_id": "nikosia",
           "live": false
@@ -1117,150 +1273,6 @@
           "start": "23:00",
           "end": "23:30",
           "show_id": "escuter-iberico",
-          "live": false
-        },
-        {
-          "start": "23:30",
-          "end": "24:00",
-          "show_id": "musica",
-          "live": false
-        }
-      ]
-    },
-    {
-      "day": "sunday",
-      "label": "Domingo",
-      "programs": [
-        {
-          "start": "00:00",
-          "end": "01:30",
-          "show_id": "deskarrilats",
-          "live": false
-        },
-        {
-          "start": "01:30",
-          "end": "02:00",
-          "show_id": "musica",
-          "live": false
-        },
-        {
-          "start": "02:00",
-          "end": "03:00",
-          "show_id": "ovejas-negrax",
-          "live": false
-        },
-        {
-          "start": "03:00",
-          "end": "03:30",
-          "show_id": "musica",
-          "live": false
-        },
-        {
-          "start": "03:30",
-          "end": "05:00",
-          "show_id": "radio-rosko",
-          "live": false
-        },
-        {
-          "start": "05:00",
-          "end": "07:00",
-          "show_id": "niemandsland",
-          "live": false
-        },
-        {
-          "start": "07:00",
-          "end": "07:30",
-          "show_id": "musica",
-          "live": false
-        },
-        {
-          "start": "07:30",
-          "end": "08:30",
-          "show_id": "el-pajaro-observador",
-          "live": false
-        },
-        {
-          "start": "08:30",
-          "end": "09:00",
-          "show_id": "musica",
-          "live": false
-        },
-        {
-          "start": "09:00",
-          "end": "11:30",
-          "show_id": "sin-audiencia",
-          "live": false
-        },
-        {
-          "start": "11:30",
-          "end": "12:00",
-          "show_id": "musica",
-          "live": false
-        },
-        {
-          "start": "12:00",
-          "end": "13:00",
-          "show_id": "skarlata-ojara",
-          "live": false
-        },
-        {
-          "start": "13:00",
-          "end": "13:30",
-          "show_id": "musica",
-          "live": false
-        },
-        {
-          "start": "13:30",
-          "end": "15:00",
-          "show_id": "maximum-clatellot",
-          "live": false
-        },
-        {
-          "start": "15:00",
-          "end": "16:00",
-          "show_id": "musica",
-          "live": false
-        },
-        {
-          "start": "16:00",
-          "end": "17:30",
-          "show_id": "humanoides-asociados",
-          "live": false
-        },
-        {
-          "start": "17:30",
-          "end": "18:00",
-          "show_id": "musica",
-          "live": false
-        },
-        {
-          "start": "18:00",
-          "end": "20:00",
-          "show_id": "les-vallkyries",
-          "live": false
-        },
-        {
-          "start": "20:00",
-          "end": "20:30",
-          "show_id": "musica",
-          "live": false
-        },
-        {
-          "start": "20:30",
-          "end": "21:30",
-          "show_id": "colaboracion-ciudadana",
-          "live": false
-        },
-        {
-          "start": "21:30",
-          "end": "22:00",
-          "show_id": "musica",
-          "live": false
-        },
-        {
-          "start": "22:00",
-          "end": "23:30",
-          "show_id": "la-linterna-de-diogenes",
           "live": false
         },
         {

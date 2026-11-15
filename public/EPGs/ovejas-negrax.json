@@ -4,9 +4,9 @@
   "station_id": 131,
   "schedule_type": "weekly",
   "timezone": "Europe/Madrid",
-  "last_updated": "2026-11-14",
+  "last_updated": "2026-11-15",
   "source": "https://sapo.radiobot.org/parrilla_cards.php?station=ovejas",
-  "notes": "Generado automáticamente desde https://sapo.radiobot.org/parrilla_cards.php?station=ovejas (snapshot 2026-11-14); revisar data/epg-report.json.",
+  "notes": "Generado automáticamente desde https://sapo.radiobot.org/parrilla_cards.php?station=ovejas (snapshot 2026-11-15); revisar data/epg-report.json.",
   "generator": "scripts/convert-raw-epg.mjs",
   "metadata": {
     "categories": {
@@ -50,12 +50,12 @@
       "title": "Programa sobre el punk y sus derivados emitido desde Iruña, Euskal Herria.",
       "category": "directo"
     },
-    "skandalo-en-las-ondas-es-un-programa-de-radio-centrado-en-el": {
-      "title": "Skándalo en las ondas es un programa de radio centrado en el ska, reggae y rocksteady, con algunos toques de soul. Desde lo que se hacía en",
+    "live-n-direct-the-best-roots-rock-reggae-music-lo-mejor-de-l": {
+      "title": "LIVE N DIRECT, the best roots rock reggae music, lo mejor de la cultura reggae.THE VOICE N VIBES OF PEOPLE A BIG JOURNEY IN A ROOTS N CULTUR",
       "category": "directo"
     },
-    "programa-radiofonico-de-entrevistas-y-monograficos-sobre-mov": {
-      "title": "Programa radiofónico de entrevistas y monográficos sobre movimientos sociales y contracultura que se emite los sábados de",
+    "ahora-en-directo": {
+      "title": "▶️ AHORA EN DIRECTO",
       "category": "directo"
     },
     "madrid-reggae-station-es-tu-podcast-reggae-dancehall-produci": {
@@ -101,8 +101,8 @@
   },
   "days": [
     {
-      "day": "saturday",
-      "label": "Sábado",
+      "day": "sunday",
+      "label": "Domingo",
       "programs": [
         {
           "start": "00:00",
@@ -149,14 +149,14 @@
         {
           "start": "08:00",
           "end": "09:00",
-          "show_id": "skandalo-en-las-ondas-es-un-programa-de-radio-centrado-en-el",
-          "live": false
+          "show_id": "live-n-direct-the-best-roots-rock-reggae-music-lo-mejor-de-l",
+          "live": true
         },
         {
           "start": "09:00",
           "end": "11:00",
-          "show_id": "programa-radiofonico-de-entrevistas-y-monograficos-sobre-mov",
-          "live": false
+          "show_id": "ahora-en-directo",
+          "live": true
         },
         {
           "start": "11:00",

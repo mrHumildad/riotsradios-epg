@@ -4,9 +4,9 @@
   "station_id": 155,
   "schedule_type": "weekly",
   "timezone": "UTC",
-  "last_updated": "2026-11-14",
+  "last_updated": "2026-11-15",
   "source": "https://tiri2.webradiosite.com/scheduling/",
-  "notes": "Generado automáticamente desde https://tiri2.webradiosite.com/scheduling/ (snapshot 2026-11-14); revisar data/epg-report.json.",
+  "notes": "Generado automáticamente desde https://tiri2.webradiosite.com/scheduling/ (snapshot 2026-11-15); revisar data/epg-report.json.",
   "generator": "scripts/convert-raw-epg.mjs",
   "metadata": {
     "categories": {
@@ -29,36 +29,36 @@
   },
   "days": [
     {
-      "day": "sunday",
-      "label": "Domingo",
+      "day": "monday",
+      "label": "Lunes",
       "programs": [
         {
           "start": "00:00",
-          "end": "09:00",
+          "end": "06:00",
           "show_id": "now",
           "live": false
         },
         {
-          "start": "09:00",
-          "end": "10:00",
+          "start": "06:00",
+          "end": "12:00",
           "show_id": "now",
           "live": false
         },
         {
-          "start": "10:00",
-          "end": "15:00",
-          "show_id": "now",
-          "live": false
-        },
-        {
-          "start": "15:00",
+          "start": "12:00",
           "end": "16:00",
           "show_id": "now",
           "live": false
         },
         {
-          "start": "17:00",
-          "end": "23:59",
+          "start": "16:00",
+          "end": "22:00",
+          "show_id": "now",
+          "live": false
+        },
+        {
+          "start": "22:00",
+          "end": "23:00",
           "show_id": "now",
           "live": false
         }

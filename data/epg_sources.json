@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-12",
+  "generated": "2026-11-15",
   "stations": {
     "1": {
       "name": "Radio Contrabanda",
@@ -4651,10 +4651,121 @@
       },
       "status": "needs_review",
       "locked": false
+    },
+    "163": {
+      "name": "TSUBAKI fm",
+      "checked_at": "2026-11-15",
+      "alternatives": [],
+      "failed": [],
+      "homepage_status": 200,
+      "homepage_title": "TSUBAKI fmTSUBAKI fmTSUBAKI fm",
+      "homepage_suspicious": false,
+      "url": "https://tsubakifm.com/",
+      "format": "html",
+      "confidence": 0.44,
+      "method": "homepage",
+      "days": 2,
+      "times": 30,
+      "tls_unverified": false,
+      "post_like": false,
+      "action": "review_partial",
+      "evidence": {
+        "title": "TSUBAKI fmTSUBAKI fmTSUBAKI fm",
+        "scripts": 6,
+        "text_len": 2419
+      },
+      "status": "needs_review",
+      "locked": false
+    },
+    "164": {
+      "name": "DATAFRUITS.FM",
+      "checked_at": "2026-11-15",
+      "alternatives": [
+        {
+          "url": "https://datafruits.fm/shows/gotobed-show/episodes/gotobed-show-11142026/",
+          "ok": true,
+          "format": "js-rendered",
+          "via": "link:GOTOBED.SHOW - 11142026",
+          "link_score": 0.24,
+          "days": 0,
+          "times": 1,
+          "gcal": [],
+          "tls_unverified": false,
+          "title": "DATAFRUITS.FM",
+          "scripts": 6,
+          "text_len": 2032,
+          "iframes": [],
+          "schedule_assets": [],
+          "day_pages": {},
+          "page_score": 0.45,
+          "confidence": 0.38,
+          "action": "render_or_manual"
+        },
+        {
+          "url": "https://datafruits.fm/shows/vibe-it-out/",
+          "ok": true,
+          "format": "html",
+          "via": "link:",
+          "link_score": 0.4,
+          "days": 2,
+          "times": 1,
+          "gcal": [],
+          "tls_unverified": false,
+          "title": "Vibe It Out | DATAFRUITS.FM",
+          "scripts": 6,
+          "text_len": 2289,
+          "iframes": [],
+          "schedule_assets": [],
+          "day_pages": {},
+          "page_score": 0.18,
+          "confidence": 0.26,
+          "action": "review_partial"
+        },
+        {
+          "url": "https://datafruits.fm/shows/craft_radio-w-host-synkretic/",
+          "ok": true,
+          "format": "html",
+          "via": "link:",
+          "link_score": 0.4,
+          "days": 1,
+          "times": 1,
+          "gcal": [],
+          "tls_unverified": false,
+          "title": "craft_radio w/ host Synkretic | DATAFRUITS.FM",
+          "scripts": 6,
+          "text_len": 2078,
+          "iframes": [],
+          "schedule_assets": [],
+          "day_pages": {},
+          "page_score": 0.1,
+          "confidence": 0.2,
+          "action": "review_partial"
+        }
+      ],
+      "failed": [],
+      "homepage_status": 200,
+      "homepage_title": "DATAFRUITS.FM",
+      "homepage_suspicious": false,
+      "url": "https://datafruits.fm/shows/innocuous-w-djpuffin/episodes/innocuous-w-djpuffin-11132026/",
+      "format": "js-rendered",
+      "confidence": 0.38,
+      "method": "link:INNOCUOUS w/ @djpuffin - 11132026",
+      "days": 0,
+      "times": 1,
+      "tls_unverified": false,
+      "post_like": false,
+      "action": "render_or_manual",
+      "evidence": {
+        "title": "DATAFRUITS.FM",
+        "scripts": 6,
+        "text_len": 1901
+      },
+      "status": "needs_review",
+      "locked": false
     }
   },
   "summary": {
-    "stations": 86,
+    "stations": 88,
     "actions": {
       "add_source": 19,
       "blocked_by_robots": 2,
@@ -4664,8 +4775,8 @@
       "manual_review": 6,
       "no_source": 2,
       "ocr_or_manual": 5,
-      "render_or_manual": 4,
-      "review_partial": 6,
+      "render_or_manual": 5,
+      "review_partial": 7,
       "unknown": 23
     }
   }
