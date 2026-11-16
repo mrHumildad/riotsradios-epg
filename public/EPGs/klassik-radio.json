@@ -4,9 +4,9 @@
   "station_id": 150,
   "schedule_type": "weekly",
   "timezone": "Europe/Berlin",
-  "last_updated": "2026-11-15",
+  "last_updated": "2026-11-16",
   "source": "https://www.klassikradio.de/programm/",
-  "notes": "Generado automáticamente desde https://www.klassikradio.de/programm/ (snapshot 2026-11-15); revisar data/epg-report.json.",
+  "notes": "Generado automáticamente desde https://www.klassikradio.de/programm/ (snapshot 2026-11-16); revisar data/epg-report.json.",
   "generator": "scripts/convert-raw-epg.mjs",
   "metadata": {
     "categories": {
@@ -24,6 +24,10 @@
   "shows": {
     "klara-jager": {
       "title": "Klara Jäger",
+      "category": "directo"
+    },
+    "thomas-ohrner": {
+      "title": "Thomas Ohrner",
       "category": "directo"
     },
     "stefan-ibelshauser": {
@@ -97,7 +101,7 @@
         {
           "start": "07:00",
           "end": "12:00",
-          "show_id": "stefan-ibelshauser",
+          "show_id": "thomas-ohrner",
           "live": false
         },
         {
@@ -145,7 +149,7 @@
         {
           "start": "07:00",
           "end": "12:00",
-          "show_id": "stefan-ibelshauser",
+          "show_id": "thomas-ohrner",
           "live": false
         },
         {

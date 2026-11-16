@@ -4,10 +4,10 @@
   "station_id": 1,
   "schedule_type": "weekly",
   "timezone": "Europe/Madrid",
-  "last_updated": "2026-11-15",
+  "last_updated": "2026-11-16",
   "source": "https://www.contrabanda.org/programacio/",
   "contact": "contrabanda@contrabanda.org",
-  "notes": "Generado automáticamente desde https://www.contrabanda.org/programacio/ (snapshot 2026-11-15); revisar data/epg-report.json.",
+  "notes": "Generado automáticamente desde https://www.contrabanda.org/programacio/ (snapshot 2026-11-16); revisar data/epg-report.json.",
   "generator": "scripts/convert-raw-epg.mjs",
   "metadata": {
     "categories": {
@@ -31,8 +31,16 @@
       "title": "Música",
       "category": "musica"
     },
+    "les-vallkyries": {
+      "title": "Les Vallkyries",
+      "category": "directo"
+    },
     "flamenco-d-aqui-i-d-alla": {
       "title": "Flamenco d’aquí i d’allà",
+      "category": "directo"
+    },
+    "lenguaje-abierto": {
+      "title": "Lenguaje Abierto",
       "category": "directo"
     },
     "el-canto-de-la-tripulacion": {
@@ -41,6 +49,10 @@
     },
     "de-raiz": {
       "title": "De Raíz",
+      "category": "directo"
+    },
+    "sobrevivir-al-descalabro": {
+      "title": "Sobrevivir al Descalabro",
       "category": "directo"
     },
     "zibaldone": {
@@ -55,16 +67,40 @@
       "title": "Deskarrilats",
       "category": "directo"
     },
+    "la-disidencia": {
+      "title": "La Disidencia",
+      "category": "directo"
+    },
+    "ovejas-negrax": {
+      "title": "Ovejas Negrax",
+      "category": "directo"
+    },
     "niemandsland": {
       "title": "Niemandsland",
+      "category": "directo"
+    },
+    "mika-y-su-kilombo": {
+      "title": "Mika y su kilombo",
       "category": "directo"
     },
     "especiales-contrabanda-fm": {
       "title": "Especiales Contrabanda FM",
       "category": "directo"
     },
+    "skandalo-en-las-ondas": {
+      "title": "Skandalo en las Ondas",
+      "category": "directo"
+    },
     "radio-rosko": {
       "title": "Radio Rosko",
+      "category": "directo"
+    },
+    "humanoides-asociados": {
+      "title": "Humanoides Asociados",
+      "category": "directo"
+    },
+    "sons-da-lusofonia": {
+      "title": "Sons da Lusofonia",
       "category": "directo"
     },
     "miau": {
@@ -75,60 +111,36 @@
       "title": "El Acratador",
       "category": "directo"
     },
+    "maximum-clatellot": {
+      "title": "Maximum Clatellot",
+      "category": "directo"
+    },
     "shit": {
       "title": "SHIT",
-      "category": "directo"
-    },
-    "skarlata-ojara": {
-      "title": "Skarlata Ojara*",
-      "category": "directo"
-    },
-    "les-vallkyries": {
-      "title": "Les Vallkyries",
-      "category": "directo"
-    },
-    "sin-audiencia": {
-      "title": "Sin Audiencia",
-      "category": "directo"
-    },
-    "sobrevivir-al-descalabro": {
-      "title": "Sobrevivir al Descalabro",
-      "category": "directo"
-    },
-    "la-disidencia": {
-      "title": "La Disidencia",
-      "category": "directo"
-    },
-    "mika-y-su-kilombo": {
-      "title": "Mika y su kilombo",
-      "category": "directo"
-    },
-    "radio-condenado": {
-      "title": "Radio Condenado",
-      "category": "directo"
-    },
-    "skandalo-en-las-ondas": {
-      "title": "Skandalo en las Ondas",
-      "category": "directo"
-    },
-    "humanoides-asociados": {
-      "title": "Humanoides Asociados",
-      "category": "directo"
-    },
-    "distrito-apache": {
-      "title": "Distrito Apache",
       "category": "directo"
     },
     "escuter-iberico": {
       "title": "Escúter Ibérico",
       "category": "directo"
     },
-    "colaboracion-ciudadana": {
-      "title": "Colaboración Ciudadana",
+    "skarlata-ojara": {
+      "title": "Skarlata Ojara*",
       "category": "directo"
     },
-    "lenguaje-abierto": {
-      "title": "Lenguaje Abierto",
+    "sin-audiencia": {
+      "title": "Sin Audiencia",
+      "category": "directo"
+    },
+    "radio-condenado": {
+      "title": "Radio Condenado",
+      "category": "directo"
+    },
+    "distrito-apache": {
+      "title": "Distrito Apache",
+      "category": "directo"
+    },
+    "colaboracion-ciudadana": {
+      "title": "Colaboración Ciudadana",
       "category": "directo"
     },
     "la-linterna-de-diogenes": {
@@ -139,24 +151,12 @@
       "title": "Bisturí",
       "category": "directo"
     },
-    "ovejas-negrax": {
-      "title": "Ovejas Negrax",
-      "category": "directo"
-    },
     "tofuria": {
       "title": "Tofuria",
       "category": "directo"
     },
-    "maximum-clatellot": {
-      "title": "Maximum Clatellot",
-      "category": "directo"
-    },
     "el-pajaro-observador": {
       "title": "El Pájaro Observador",
-      "category": "directo"
-    },
-    "sons-da-lusofonia": {
-      "title": "Sons da Lusofonia",
       "category": "directo"
     },
     "frecuencia-autista": {
@@ -179,8 +179,20 @@
       "programs": [
         {
           "start": "00:00",
-          "end": "02:00",
+          "end": "01:00",
           "show_id": "nikosia",
+          "live": false
+        },
+        {
+          "start": "01:00",
+          "end": "01:30",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "01:30",
+          "end": "02:00",
+          "show_id": "les-vallkyries",
           "live": false
         },
         {
@@ -191,8 +203,14 @@
         },
         {
           "start": "02:30",
-          "end": "03:30",
+          "end": "03:00",
           "show_id": "flamenco-d-aqui-i-d-alla",
+          "live": false
+        },
+        {
+          "start": "03:00",
+          "end": "03:30",
+          "show_id": "lenguaje-abierto",
           "live": false
         },
         {
@@ -203,8 +221,14 @@
         },
         {
           "start": "04:00",
-          "end": "05:00",
+          "end": "04:30",
           "show_id": "el-canto-de-la-tripulacion",
+          "live": false
+        },
+        {
+          "start": "04:30",
+          "end": "05:00",
+          "show_id": "musica",
           "live": false
         },
         {
@@ -215,8 +239,26 @@
         },
         {
           "start": "05:30",
-          "end": "07:30",
+          "end": "06:00",
           "show_id": "de-raiz",
+          "live": false
+        },
+        {
+          "start": "06:00",
+          "end": "06:30",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "06:30",
+          "end": "07:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "07:00",
+          "end": "07:30",
+          "show_id": "sobrevivir-al-descalabro",
           "live": false
         },
         {
@@ -227,8 +269,14 @@
         },
         {
           "start": "08:00",
-          "end": "09:00",
+          "end": "08:30",
           "show_id": "zibaldone",
+          "live": false
+        },
+        {
+          "start": "08:30",
+          "end": "09:00",
+          "show_id": "musica",
           "live": false
         },
         {
@@ -251,8 +299,20 @@
         },
         {
           "start": "11:00",
-          "end": "12:30",
+          "end": "11:30",
           "show_id": "deskarrilats",
+          "live": false
+        },
+        {
+          "start": "11:30",
+          "end": "12:00",
+          "show_id": "la-disidencia",
+          "live": false
+        },
+        {
+          "start": "12:00",
+          "end": "12:30",
+          "show_id": "ovejas-negrax",
           "live": false
         },
         {
@@ -263,8 +323,20 @@
         },
         {
           "start": "13:00",
-          "end": "15:00",
+          "end": "13:30",
           "show_id": "niemandsland",
+          "live": false
+        },
+        {
+          "start": "13:30",
+          "end": "14:30",
+          "show_id": "mika-y-su-kilombo",
+          "live": false
+        },
+        {
+          "start": "14:30",
+          "end": "15:00",
+          "show_id": "musica",
           "live": false
         },
         {
@@ -275,8 +347,26 @@
         },
         {
           "start": "15:30",
-          "end": "17:30",
+          "end": "16:00",
           "show_id": "especiales-contrabanda-fm",
+          "live": false
+        },
+        {
+          "start": "16:00",
+          "end": "16:30",
+          "show_id": "nikosia",
+          "live": false
+        },
+        {
+          "start": "16:30",
+          "end": "17:00",
+          "show_id": "musica",
+          "live": false
+        },
+        {
+          "start": "17:00",
+          "end": "17:30",
+          "show_id": "skandalo-en-las-ondas",
           "live": false
         },
         {
@@ -287,14 +377,32 @@
         },
         {
           "start": "18:00",
-          "end": "19:30",
+          "end": "18:30",
           "show_id": "radio-rosko",
           "live": false
         },
         {
+          "start": "18:30",
+          "end": "19:00",
+          "show_id": "humanoides-asociados",
+          "live": false
+        },
+        {
+          "start": "19:00",
+          "end": "19:30",
+          "show_id": "sons-da-lusofonia",
+          "live": false
+        },
+        {
           "start": "19:30",
-          "end": "20:30",
+          "end": "20:00",
           "show_id": "miau",
+          "live": false
+        },
+        {
+          "start": "20:00",
+          "end": "20:30",
+          "show_id": "musica",
           "live": false
         },
         {
@@ -305,8 +413,14 @@
         },
         {
           "start": "21:00",
-          "end": "22:00",
+          "end": "21:30",
           "show_id": "el-acratador",
+          "live": false
+        },
+        {
+          "start": "21:30",
+          "end": "22:00",
+          "show_id": "maximum-clatellot",
           "live": false
         },
         {
@@ -317,8 +431,14 @@
         },
         {
           "start": "22:30",
-          "end": "23:30",
+          "end": "23:00",
           "show_id": "shit",
+          "live": false
+        },
+        {
+          "start": "23:00",
+          "end": "23:30",
+          "show_id": "escuter-iberico",
           "live": false
         },
         {
@@ -1013,98 +1133,50 @@
       "programs": [
         {
           "start": "00:00",
-          "end": "01:00",
-          "show_id": "nikosia",
-          "live": false
-        },
-        {
-          "start": "01:00",
           "end": "01:30",
-          "show_id": "musica",
+          "show_id": "deskarrilats",
           "live": false
         },
         {
           "start": "01:30",
           "end": "02:00",
-          "show_id": "les-vallkyries",
-          "live": false
-        },
-        {
-          "start": "02:00",
-          "end": "02:30",
           "show_id": "musica",
           "live": false
         },
         {
-          "start": "02:30",
+          "start": "02:00",
           "end": "03:00",
-          "show_id": "flamenco-d-aqui-i-d-alla",
+          "show_id": "ovejas-negrax",
           "live": false
         },
         {
           "start": "03:00",
           "end": "03:30",
-          "show_id": "lenguaje-abierto",
+          "show_id": "musica",
           "live": false
         },
         {
           "start": "03:30",
-          "end": "04:00",
-          "show_id": "musica",
-          "live": false
-        },
-        {
-          "start": "04:00",
-          "end": "04:30",
-          "show_id": "el-canto-de-la-tripulacion",
-          "live": false
-        },
-        {
-          "start": "04:30",
           "end": "05:00",
-          "show_id": "musica",
+          "show_id": "radio-rosko",
           "live": false
         },
         {
           "start": "05:00",
-          "end": "05:30",
-          "show_id": "musica",
-          "live": false
-        },
-        {
-          "start": "05:30",
-          "end": "06:00",
-          "show_id": "de-raiz",
-          "live": false
-        },
-        {
-          "start": "06:00",
-          "end": "06:30",
-          "show_id": "musica",
-          "live": false
-        },
-        {
-          "start": "06:30",
           "end": "07:00",
-          "show_id": "musica",
+          "show_id": "niemandsland",
           "live": false
         },
         {
           "start": "07:00",
           "end": "07:30",
-          "show_id": "sobrevivir-al-descalabro",
-          "live": false
-        },
-        {
-          "start": "07:30",
-          "end": "08:00",
           "show_id": "musica",
           "live": false
         },
         {
-          "start": "08:00",
+          "start": "07:30",
           "end": "08:30",
-          "show_id": "zibaldone",
+          "show_id": "el-pajaro-observador",
           "live": false
         },
         {
@@ -1115,92 +1187,44 @@
         },
         {
           "start": "09:00",
-          "end": "09:30",
-          "show_id": "musica",
-          "live": false
-        },
-        {
-          "start": "09:30",
-          "end": "10:30",
-          "show_id": "mar-de-fueguitos",
-          "live": false
-        },
-        {
-          "start": "10:30",
-          "end": "11:00",
-          "show_id": "musica",
-          "live": false
-        },
-        {
-          "start": "11:00",
           "end": "11:30",
-          "show_id": "deskarrilats",
+          "show_id": "sin-audiencia",
           "live": false
         },
         {
           "start": "11:30",
           "end": "12:00",
-          "show_id": "la-disidencia",
+          "show_id": "musica",
           "live": false
         },
         {
           "start": "12:00",
-          "end": "12:30",
-          "show_id": "ovejas-negrax",
-          "live": false
-        },
-        {
-          "start": "12:30",
           "end": "13:00",
-          "show_id": "musica",
+          "show_id": "skarlata-ojara",
           "live": false
         },
         {
           "start": "13:00",
           "end": "13:30",
-          "show_id": "niemandsland",
+          "show_id": "musica",
           "live": false
         },
         {
           "start": "13:30",
-          "end": "14:30",
-          "show_id": "mika-y-su-kilombo",
-          "live": false
-        },
-        {
-          "start": "14:30",
           "end": "15:00",
-          "show_id": "musica",
+          "show_id": "maximum-clatellot",
           "live": false
         },
         {
           "start": "15:00",
-          "end": "15:30",
-          "show_id": "musica",
-          "live": false
-        },
-        {
-          "start": "15:30",
           "end": "16:00",
-          "show_id": "especiales-contrabanda-fm",
+          "show_id": "musica",
           "live": false
         },
         {
           "start": "16:00",
-          "end": "16:30",
-          "show_id": "nikosia",
-          "live": false
-        },
-        {
-          "start": "16:30",
-          "end": "17:00",
-          "show_id": "musica",
-          "live": false
-        },
-        {
-          "start": "17:00",
           "end": "17:30",
-          "show_id": "skandalo-en-las-ondas",
+          "show_id": "humanoides-asociados",
           "live": false
         },
         {
@@ -1211,26 +1235,8 @@
         },
         {
           "start": "18:00",
-          "end": "18:30",
-          "show_id": "radio-rosko",
-          "live": false
-        },
-        {
-          "start": "18:30",
-          "end": "19:00",
-          "show_id": "humanoides-asociados",
-          "live": false
-        },
-        {
-          "start": "19:00",
-          "end": "19:30",
-          "show_id": "sons-da-lusofonia",
-          "live": false
-        },
-        {
-          "start": "19:30",
           "end": "20:00",
-          "show_id": "miau",
+          "show_id": "les-vallkyries",
           "live": false
         },
         {
@@ -1241,38 +1247,20 @@
         },
         {
           "start": "20:30",
-          "end": "21:00",
-          "show_id": "musica",
-          "live": false
-        },
-        {
-          "start": "21:00",
           "end": "21:30",
-          "show_id": "el-acratador",
+          "show_id": "colaboracion-ciudadana",
           "live": false
         },
         {
           "start": "21:30",
           "end": "22:00",
-          "show_id": "maximum-clatellot",
-          "live": false
-        },
-        {
-          "start": "22:00",
-          "end": "22:30",
           "show_id": "musica",
           "live": false
         },
         {
-          "start": "22:30",
-          "end": "23:00",
-          "show_id": "shit",
-          "live": false
-        },
-        {
-          "start": "23:00",
+          "start": "22:00",
           "end": "23:30",
-          "show_id": "escuter-iberico",
+          "show_id": "la-linterna-de-diogenes",
           "live": false
         },
         {
