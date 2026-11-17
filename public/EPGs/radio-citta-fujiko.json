@@ -4,9 +4,9 @@
   "station_id": 5,
   "schedule_type": "weekly",
   "timezone": "Europe/Rome",
-  "last_updated": "2026-11-16",
+  "last_updated": "2026-11-17",
   "source": "https://www.radiocittafujiko.it/palinsesto/",
-  "notes": "Generado automáticamente desde https://www.radiocittafujiko.it/palinsesto/ (snapshot 2026-11-16); revisar data/epg-report.json.",
+  "notes": "Generado automáticamente desde https://www.radiocittafujiko.it/palinsesto/ (snapshot 2026-11-17); revisar data/epg-report.json.",
   "generator": "scripts/convert-raw-epg.mjs",
   "metadata": {
     "categories": {
@@ -400,6 +400,10 @@
     },
     "corrispondenze-info": {
       "title": "Corrispondenze – Info",
+      "category": "directo"
+    },
+    "jazz-e-munnezza": {
+      "title": "Jazz e Munnezza",
       "category": "directo"
     },
     "backonwave-24-minutes-party-people-di-dj-mortimer": {
@@ -1474,8 +1478,14 @@
         },
         {
           "start": "16:30",
-          "end": "18:00",
+          "end": "17:00",
           "show_id": "corrispondenze-info",
+          "live": false
+        },
+        {
+          "start": "17:00",
+          "end": "18:00",
+          "show_id": "jazz-e-munnezza",
           "live": false
         },
         {

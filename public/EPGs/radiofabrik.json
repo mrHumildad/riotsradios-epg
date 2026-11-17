@@ -4,9 +4,9 @@
   "station_id": 8,
   "schedule_type": "weekly",
   "timezone": "Europe/Vienna",
-  "last_updated": "2026-11-16",
+  "last_updated": "2026-11-17",
   "source": "https://radiofabrik.at/programm/sendungen/",
-  "notes": "Generado automáticamente desde https://radiofabrik.at/programm/sendungen/ (snapshot 2026-11-16); revisar data/epg-report.json.",
+  "notes": "Generado automáticamente desde https://radiofabrik.at/programm/sendungen/ (snapshot 2026-11-17); revisar data/epg-report.json.",
   "generator": "scripts/convert-raw-epg.mjs",
   "metadata": {
     "categories": {
@@ -22,8 +22,8 @@
     }
   },
   "shows": {
-    "playlistbattle": {
-      "title": "Playlistbattle",
+    "earl-s-black-ear-plough-anspruchsvolle-rockmusik-aus-genreub": {
+      "title": "Earl's Black Ear Plough. Anspruchsvolle Rockmusik aus genreübergreifenden Grenzbereichen.",
       "category": "directo"
     },
     "radiofabrik-von": {
@@ -34,72 +34,92 @@
       "title": "Nachtschiene",
       "category": "directo"
     },
-    "fruhstucksradio-fruh-aufstehen-mit-markus-dorn": {
-      "title": "Frühstücksradio. Früh aufstehen mit Markus Dorn.",
-      "category": "directo"
-    },
     "fruhschicht": {
       "title": "Frühschicht",
+      "category": "directo"
+    },
+    "stadtteilradio-itzling-elisabeth-vorstadt-bewohnerinnen-beri": {
+      "title": "Stadtteilradio Itzling/Elisabeth-Vorstadt. BewohnerInnen berichten aus ihren Stadtteilen.",
+      "category": "directo"
+    },
+    "kunstgeschichten": {
+      "title": "KunstgeschichteN",
+      "category": "directo"
+    },
+    "dorfradio-die-sendung-der-dorfzeitung-com": {
+      "title": "Dorfradio. Die Sendung der Dorfzeitung.com",
+      "category": "directo"
+    },
+    "radio-literaturhaus-wo-das-leben-zur-sprache-kommt": {
+      "title": "Radio Literaturhaus. Wo das Leben zur Sprache kommt.",
       "category": "directo"
     },
     "stepping-to-the-a-m": {
       "title": "stepping to the a.m.",
       "category": "directo"
     },
-    "good-culture-bad-culture-a-twink-and-a-redhead-walk-into-a-m": {
-      "title": "Good Culture, Bad Culture: A Twink and a Redhead Walk into a Museum...",
-      "category": "directo"
-    },
-    "the-in-crowd-ein-moderierter-musikmix-mit-eljot": {
-      "title": "The IN-Crowd. Ein moderierter Musikmix mit Eljot",
-      "category": "directo"
-    },
-    "leuchtturm-orientierung-in-wissenschaft-und-technik": {
-      "title": "Leuchtturm. Orientierung in Wissenschaft und Technik.",
+    "dabazap-radio-aus-der-wuhlkiste-nachrichten-aus-der-erfunden": {
+      "title": "Dabazap – Radio aus der Wühlkiste. Nachrichten aus der erfundenen und wirklichen Wirklichkeit",
       "category": "directo"
     },
     "hi-noon": {
       "title": "Hi Noon",
       "category": "directo"
     },
-    "the-rocking-50s-eine-stunde-hillbilly-rockabilly-und-rock-n-": {
-      "title": "The Rocking 50s. Eine Stunde Hillbilly, Rockabilly und Rock 'n' roll mit Erik van de Meerakker.",
+    "groovy-afternoon": {
+      "title": "Groovy Afternoon",
       "category": "directo"
     },
-    "die-stadt-im-blick-die-sendung-uber-baukultur-stadtplanung": {
-      "title": "Die Stadt im Blick. Die Sendung über Baukultur & Stadtplanung",
+    "szenenwechsel-lokale-sounds-aus-den-freien-radios": {
+      "title": "Szenenwechsel. Lokale Sounds aus den Freien Radios.",
       "category": "directo"
     },
-    "salty-talks-independent-film-auf-der-radiofabrik": {
-      "title": "Salty Talks: Independent Film auf der Radiofabrik",
+    "schreiblust-alles-rund-ums-schreiben-special": {
+      "title": "SchreibLust. Alles rund ums Schreiben. Special.",
+      "category": "especial"
+    },
+    "frozine-das-akustische-infomagazin-von-radio-fro-in-linz": {
+      "title": "FROzine. Das akustische Infomagazin von Radio FRO in Linz.",
       "category": "directo"
     },
-    "radio-hamraz-persische-literatur-in-farsi": {
-      "title": "Radio Hamraz. Persische Literatur in Farsi.",
+    "playlistbattle": {
+      "title": "Playlistbattle",
       "category": "directo"
     },
-    "radio-hamraz-das-magazin-fur-farsisprachige-mit-esmaeil-neda": {
-      "title": "Radio Hamraz. Das Magazin für Farsisprachige mit Esmaeil Nedaei.",
+    "lauschbox-das-emailwerk-radiomagazin-fur-kultur-wissen-und-l": {
+      "title": "lauschbox. Das Emailwerk-Radiomagazin für Kultur, Wissen und Leben.",
       "category": "directo"
     },
-    "die-literarische-stunde-saugute-musik-und-literatur-die-vom-": {
-      "title": "Die literarische Stunde: Saugute Musik und Literatur, die vom Hocker reißt.",
+    "schreiblust-alles-rund-ums-schreiben": {
+      "title": "SchreibLust. Alles rund ums Schreiben",
       "category": "directo"
     },
-    "reflecting-sound-wenn-nicht-dann-trotzdem-mit-ariane-pellini": {
-      "title": "Reflecting Sound. Wenn nicht, dann trotzdem! Mit Ariane Pellini und Andi Tiede",
+    "pakindia-express-bringing-pakistani-indian-culture-to-salzbu": {
+      "title": "PakIndia Express. Bringing Pakistani-Indian Culture to Salzburg",
+      "category": "directo"
+    },
+    "17grad-medien-fur-den-rest": {
+      "title": "17grad. Medien für den Rest",
+      "category": "directo"
+    },
+    "radio-lost-found-die-soundlounge": {
+      "title": "Radio Lost & Found – die Soundlounge",
+      "category": "directo"
+    },
+    "seeds-of-doom-the-misery-show-with-bernhard-doomchild-tischl": {
+      "title": "Seeds of Doom. The Misery Show with Bernhard \"Doomchild\" Tischler.",
       "category": "directo"
     }
   },
   "days": [
     {
-      "day": "monday",
-      "label": "Lunes",
+      "day": "tuesday",
+      "label": "Martes",
       "programs": [
         {
           "start": "00:00",
           "end": "01:00",
-          "show_id": "playlistbattle",
+          "show_id": "earl-s-black-ear-plough-anspruchsvolle-rockmusik-aus-genreub",
           "live": false
         },
         {
@@ -116,98 +136,116 @@
         },
         {
           "start": "06:06",
-          "end": "07:06",
-          "show_id": "fruhstucksradio-fruh-aufstehen-mit-markus-dorn",
+          "end": "07:00",
+          "show_id": "fruhschicht",
           "live": false
         },
         {
-          "start": "07:06",
+          "start": "07:00",
+          "end": "07:30",
+          "show_id": "stadtteilradio-itzling-elisabeth-vorstadt-bewohnerinnen-beri",
+          "live": false
+        },
+        {
+          "start": "07:30",
           "end": "08:00",
-          "show_id": "fruhschicht",
+          "show_id": "kunstgeschichten",
           "live": false
         },
         {
           "start": "08:00",
           "end": "09:00",
-          "show_id": "stepping-to-the-a-m",
+          "show_id": "dorfradio-die-sendung-der-dorfzeitung-com",
           "live": false
         },
         {
           "start": "09:00",
           "end": "10:06",
-          "show_id": "good-culture-bad-culture-a-twink-and-a-redhead-walk-into-a-m",
+          "show_id": "radio-literaturhaus-wo-das-leben-zur-sprache-kommt",
           "live": false
         },
         {
           "start": "10:06",
           "end": "11:00",
-          "show_id": "the-in-crowd-ein-moderierter-musikmix-mit-eljot",
+          "show_id": "stepping-to-the-a-m",
           "live": false
         },
         {
           "start": "11:00",
           "end": "12:06",
-          "show_id": "leuchtturm-orientierung-in-wissenschaft-und-technik",
+          "show_id": "dabazap-radio-aus-der-wuhlkiste-nachrichten-aus-der-erfunden",
           "live": false
         },
         {
           "start": "12:06",
-          "end": "15:00",
+          "end": "14:06",
           "show_id": "hi-noon",
+          "live": false
+        },
+        {
+          "start": "14:06",
+          "end": "15:00",
+          "show_id": "groovy-afternoon",
           "live": false
         },
         {
           "start": "15:00",
           "end": "16:00",
-          "show_id": "the-rocking-50s-eine-stunde-hillbilly-rockabilly-und-rock-n-",
+          "show_id": "szenenwechsel-lokale-sounds-aus-den-freien-radios",
           "live": false
         },
         {
           "start": "16:00",
           "end": "17:00",
-          "show_id": "playlistbattle",
+          "show_id": "schreiblust-alles-rund-ums-schreiben-special",
           "live": false
         },
         {
           "start": "17:00",
+          "end": "17:50",
+          "show_id": "frozine-das-akustische-infomagazin-von-radio-fro-in-linz",
+          "live": false
+        },
+        {
+          "start": "17:50",
           "end": "18:00",
-          "show_id": "die-stadt-im-blick-die-sendung-uber-baukultur-stadtplanung",
+          "show_id": "playlistbattle",
           "live": false
         },
         {
           "start": "18:00",
           "end": "18:30",
-          "show_id": "salty-talks-independent-film-auf-der-radiofabrik",
+          "show_id": "lauschbox-das-emailwerk-radiomagazin-fur-kultur-wissen-und-l",
           "live": false
         },
         {
           "start": "18:30",
           "end": "19:06",
-          "show_id": "radio-hamraz-persische-literatur-in-farsi",
+          "show_id": "schreiblust-alles-rund-ums-schreiben",
           "live": false
         },
         {
           "start": "19:06",
           "end": "20:00",
-          "show_id": "radio-hamraz-das-magazin-fur-farsisprachige-mit-esmaeil-neda",
+          "show_id": "pakindia-express-bringing-pakistani-indian-culture-to-salzbu",
           "live": false
         },
         {
           "start": "20:00",
           "end": "21:00",
-          "show_id": "die-literarische-stunde-saugute-musik-und-literatur-die-vom-",
+          "show_id": "17grad-medien-fur-den-rest",
           "live": false
         },
         {
           "start": "21:00",
           "end": "22:00",
-          "show_id": "reflecting-sound-wenn-nicht-dann-trotzdem-mit-ariane-pellini",
+          "show_id": "radio-lost-found-die-soundlounge",
           "live": false
         },
         {
           "start": "22:00",
           "end": "23:00",
-          "show_id": "playlistbattle",
+          "show_id": "seeds-of-doom-the-misery-show-with-bernhard-doomchild-tischl",
           "live": false
         }
       ]
