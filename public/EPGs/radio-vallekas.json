@@ -4,9 +4,9 @@
   "station_id": 19,
   "schedule_type": "weekly",
   "timezone": "Europe/Madrid",
-  "last_updated": "2026-11-17",
+  "last_updated": "2026-11-18",
   "source": "https://sapo.radiobot.org/api_schedule.php?station=rvk",
-  "notes": "Generado automáticamente desde https://sapo.radiobot.org/api_schedule.php?station=rvk (snapshot 2026-11-17); revisar data/epg-report.json.",
+  "notes": "Generado automáticamente desde https://sapo.radiobot.org/api_schedule.php?station=rvk (snapshot 2026-11-18); revisar data/epg-report.json.",
   "generator": "scripts/convert-raw-epg.mjs",
   "metadata": {
     "categories": {
@@ -671,8 +671,8 @@
           "live": false
         },
         {
-          "start": "20:00",
-          "end": "21:30",
+          "start": "20:30",
+          "end": "22:00",
           "show_id": "el-corazon-al-viento",
           "live": false
         },

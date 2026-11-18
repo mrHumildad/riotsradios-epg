@@ -4,9 +4,9 @@
   "station_id": 131,
   "schedule_type": "weekly",
   "timezone": "Europe/Madrid",
-  "last_updated": "2026-11-17",
+  "last_updated": "2026-11-18",
   "source": "https://sapo.radiobot.org/parrilla_cards.php?station=ovejas",
-  "notes": "Generado automáticamente desde https://sapo.radiobot.org/parrilla_cards.php?station=ovejas (snapshot 2026-11-17); revisar data/epg-report.json.",
+  "notes": "Generado automáticamente desde https://sapo.radiobot.org/parrilla_cards.php?station=ovejas (snapshot 2026-11-18); revisar data/epg-report.json.",
   "generator": "scripts/convert-raw-epg.mjs",
   "metadata": {
     "categories": {
@@ -50,8 +50,8 @@
       "title": "Programa sobre el punk y sus derivados emitido desde Iruña, Euskal Herria.",
       "category": "directo"
     },
-    "live-n-direct-the-best-roots-rock-reggae-music-lo-mejor-de-l": {
-      "title": "LIVE N DIRECT, the best roots rock reggae music, lo mejor de la cultura reggae.THE VOICE N VIBES OF PEOPLE A BIG JOURNEY IN A ROOTS N CULTUR",
+    "nueva-etapa-en-formato-podcast-de-radio-crimen-en-irola-irra": {
+      "title": "Nueva etapa en formato podcast de RADIO CRIMEN en IROLA IRRATIA 107.5FM en Bilbao. Punk, hardcore, oi!, postpunk 70s, 80s, 90s, 00s, 10s y 2",
       "category": "directo"
     },
     "programa-radiofonico-de-entrevistas-y-monograficos-sobre-mov": {
@@ -101,8 +101,8 @@
   },
   "days": [
     {
-      "day": "tuesday",
-      "label": "Martes",
+      "day": "wednesday",
+      "label": "Miércoles",
       "programs": [
         {
           "start": "00:00",
@@ -149,8 +149,8 @@
         {
           "start": "08:00",
           "end": "09:00",
-          "show_id": "live-n-direct-the-best-roots-rock-reggae-music-lo-mejor-de-l",
-          "live": true
+          "show_id": "nueva-etapa-en-formato-podcast-de-radio-crimen-en-irola-irra",
+          "live": false
         },
         {
           "start": "09:00",
