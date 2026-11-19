@@ -4,10 +4,10 @@
   "station_id": 66,
   "schedule_type": "weekly",
   "timezone": "America/Caracas",
-  "last_updated": "2026-11-18",
+  "last_updated": "2026-11-19",
   "source": "https://albaciudad.org/nuestros-programas/",
   "contact": "albaciudadfm@gmail.com",
-  "notes": "Generado automáticamente desde https://albaciudad.org/nuestros-programas/ (snapshot 2026-11-18); revisar data/epg-report.json.",
+  "notes": "Generado automáticamente desde https://albaciudad.org/nuestros-programas/ (snapshot 2026-11-19); revisar data/epg-report.json.",
   "generator": "scripts/convert-raw-epg.mjs",
   "metadata": {
     "categories": {
@@ -90,6 +90,10 @@
     "resumen-de-noticias-cultura-al-dia": {
       "title": "Resumen de noticias Cultura al Día",
       "category": "directo"
+    },
+    "programa-especial": {
+      "title": "Programa especial",
+      "category": "especial"
     },
     "cultura-en-movimiento": {
       "title": "Cultura en Movimiento",
@@ -259,6 +263,12 @@
           "start": "22:00",
           "end": "23:00",
           "show_id": "resumen-de-noticias-cultura-al-dia",
+          "live": false
+        },
+        {
+          "start": "23:00",
+          "end": "23:30",
+          "show_id": "programa-especial",
           "live": false
         }
       ]
