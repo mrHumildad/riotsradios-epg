@@ -4,9 +4,9 @@
   "station_id": 150,
   "schedule_type": "weekly",
   "timezone": "Europe/Berlin",
-  "last_updated": "2026-11-19",
+  "last_updated": "2026-11-20",
   "source": "https://www.klassikradio.de/programm/",
-  "notes": "Generado automáticamente desde https://www.klassikradio.de/programm/ (snapshot 2026-11-19); revisar data/epg-report.json.",
+  "notes": "Generado automáticamente desde https://www.klassikradio.de/programm/ (snapshot 2026-11-20); revisar data/epg-report.json.",
   "generator": "scripts/convert-raw-epg.mjs",
   "metadata": {
     "categories": {
@@ -299,13 +299,13 @@
         {
           "start": "07:00",
           "end": "12:00",
-          "show_id": "stefan-ibelshauser",
+          "show_id": "alexandra-berger",
           "live": false
         },
         {
           "start": "12:00",
           "end": "13:00",
-          "show_id": "stefan-ibelshauser",
+          "show_id": "alexandra-berger",
           "live": false
         },
         {
@@ -347,7 +347,7 @@
         {
           "start": "12:00",
           "end": "13:00",
-          "show_id": "stefan-ibelshauser",
+          "show_id": "klara-jager",
           "live": false
         },
         {
@@ -389,7 +389,7 @@
         {
           "start": "12:00",
           "end": "13:00",
-          "show_id": "stefan-ibelshauser",
+          "show_id": "klara-jager",
           "live": false
         },
         {
