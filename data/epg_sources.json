@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-15",
+  "generated": "2026-11-16",
   "stations": {
     "1": {
       "name": "Radio Contrabanda",
@@ -2459,7 +2459,7 @@
     },
     "137": {
       "name": "RTVC Ràdio Televisió Cardedeu",
-      "checked_at": "2026-11-09",
+      "checked_at": "2026-11-16",
       "alternatives": [],
       "failed": [],
       "homepage_status": 0,
@@ -2472,20 +2472,71 @@
     },
     "139": {
       "name": "Onda Latina",
-      "checked_at": "2026-11-09",
-      "alternatives": [],
+      "checked_at": "2026-11-16",
+      "alternatives": [
+        {
+          "url": "http://www.ondalatina.com.es/parrilla",
+          "ok": true,
+          "format": "html",
+          "via": "probe:/parrilla",
+          "link_score": 0.5,
+          "days": 0,
+          "times": 0,
+          "gcal": [],
+          "tls_unverified": false,
+          "title": "",
+          "scripts": 0,
+          "text_len": 793,
+          "iframes": [],
+          "schedule_assets": [],
+          "day_pages": {},
+          "page_score": 0.0,
+          "confidence": 0.17,
+          "action": "manual_review"
+        },
+        {
+          "url": "http://www.ondalatina.com.es/",
+          "ok": true,
+          "format": "html",
+          "via": "homepage",
+          "link_score": 0.2,
+          "days": 0,
+          "times": 0,
+          "gcal": [],
+          "tls_unverified": false,
+          "title": "",
+          "scripts": 0,
+          "text_len": 777,
+          "iframes": [],
+          "schedule_assets": [],
+          "day_pages": {},
+          "page_score": 0.0,
+          "confidence": 0.07,
+          "action": "manual_review"
+        }
+      ],
       "failed": [],
-      "homepage_status": 202,
-      "homepage_title": null,
+      "homepage_status": 200,
+      "homepage_title": "",
       "homepage_suspicious": false,
-      "status": "error",
-      "error": "homepage: HTTP 202",
-      "action": "fix_homepage",
+      "url": "http://www.ondalatina.com.es/programacion",
+      "format": "html",
+      "confidence": 0.17,
+      "method": "probe:/programacion",
+      "days": 0,
+      "times": 0,
+      "tls_unverified": false,
+      "post_like": false,
+      "action": "manual_review",
+      "evidence": {
+        "text_len": 801
+      },
+      "status": "needs_review",
       "locked": false
     },
     "138": {
       "name": "Hala Bedi Irratia",
-      "checked_at": "2026-11-09",
+      "checked_at": "2026-11-16",
       "alternatives": [],
       "failed": [],
       "homepage_status": 200,
@@ -2502,14 +2553,14 @@
       "action": "manual_review",
       "evidence": {
         "title": "Hala Bedi – Uhinak Astintzen Jarraitzen Dugu",
-        "scripts": 73,
-        "text_len": 21909,
+        "scripts": 65,
+        "text_len": 20539,
         "iframes": [
+          "https://www.youtube.com/embed/VbwItWRzF8w?autoplay=false&wmode=transparent",
           "https://www.youtube.com/embed/ncOh0CUNgvY?autoplay=false&wmode=transparent",
           "https://www.youtube.com/embed/xagY1gjfQ9E?si=ZZnfDXCIIX21xkjL?autoplay=false&wmode=transparent",
           "https://www.youtube.com/embed/MrhdjuR4QXQ?autoplay=false&wmode=transparent",
-          "https://www.youtube.com/embed/92Vg0_ZlPtg?autoplay=false&wmode=transparent",
-          "https://www.youtube.com/embed/o4W_ePBtHqM?autoplay=false&wmode=transparent"
+          "https://www.youtube.com/embed/92Vg0_ZlPtg?autoplay=false&wmode=transparent"
         ]
       },
       "status": "needs_review",
@@ -2517,7 +2568,7 @@
     },
     "125": {
       "name": "Color Comunitaria",
-      "checked_at": "2026-11-09",
+      "checked_at": "2026-11-16",
       "alternatives": [
         {
           "url": "https://colorcomunitaria.org/parrilla/",
@@ -2652,7 +2703,7 @@
     },
     "134": {
       "name": "Siberia FM",
-      "checked_at": "2026-11-09",
+      "checked_at": "2026-11-16",
       "alternatives": [
         {
           "url": "https://www.siberiafm.com/programacion/frikilanders/",
@@ -2666,7 +2717,7 @@
           "tls_unverified": false,
           "title": "Frikilanders – Siberia FM 93.8",
           "scripts": 25,
-          "text_len": 7999,
+          "text_len": 7970,
           "iframes": [
             "https://www.ivoox.com/player_es_podcast_1260257_zp_1.html",
             "https://www.teaming.net/group/spread/widgets/wKzmVm64183s6Dv4kw5YhijI4KdqT6xoiJpA3l7ywORNO/2?lang=es_ES&TM=true"
@@ -2689,7 +2740,7 @@
           "tls_unverified": false,
           "title": "GasteizBerri – Siberia FM 93.8",
           "scripts": 25,
-          "text_len": 7861,
+          "text_len": 7832,
           "iframes": [
             "https://www.ivoox.com/player_es_podcast_1049205_zp_1.html",
             "https://www.teaming.net/group/spread/widgets/wKzmVm64183s6Dv4kw5YhijI4KdqT6xoiJpA3l7ywORNO/2?lang=es_ES&TM=true"
@@ -2712,7 +2763,7 @@
           "tls_unverified": false,
           "title": "Arcoiris – Siberia FM 93.8",
           "scripts": 24,
-          "text_len": 8388,
+          "text_len": 8359,
           "iframes": [
             "https://www.ivoox.com/player_es_podcast_1403125_zp_1.html",
             "https://www.teaming.net/group/spread/widgets/wKzmVm64183s6Dv4kw5YhijI4KdqT6xoiJpA3l7ywORNO/2?lang=es_ES&TM=true"
@@ -2740,7 +2791,7 @@
       "evidence": {
         "title": "Arcoíris – Siberia FM 93.8",
         "scripts": 25,
-        "text_len": 8313,
+        "text_len": 8284,
         "iframes": [
           "https://www.ivoox.com/player_es_podcast_1403125_zp_1.html",
           "https://www.teaming.net/group/spread/widgets/wKzmVm64183s6Dv4kw5YhijI4KdqT6xoiJpA3l7ywORNO/2?lang=es_ES&TM=true"
@@ -2751,7 +2802,7 @@
     },
     "136": {
       "name": "Radiópolis",
-      "checked_at": "2026-11-09",
+      "checked_at": "2026-11-16",
       "alternatives": [
         {
           "url": "https://www.radiopolis.org.es/programacion/",
@@ -2961,7 +3012,7 @@
     },
     "143": {
       "name": "Radio Roncudo",
-      "checked_at": "2026-11-09",
+      "checked_at": "2026-11-16",
       "alternatives": [
         {
           "url": "https://radioroncudo.wordpress.com/programacion/",
@@ -2975,9 +3026,9 @@
           "tls_unverified": false,
           "title": "Programación – Radio Roncudo 106.1fm",
           "scripts": 34,
-          "text_len": 2082,
+          "text_len": 2047,
           "iframes": [
-            "https://widgets.wp.com/likes/master.html?ver=20261109#ver=20261109&lang=gl"
+            "https://widgets.wp.com/likes/master.html?ver=20261116#ver=20261116&lang=gl"
           ],
           "schedule_assets": [
             "https://radioroncudo.wordpress.com/wp-content/uploads/2024/01/programacion2024.pdf"
@@ -2999,9 +3050,9 @@
           "tls_unverified": false,
           "title": "Programación – Radio Roncudo 106.1fm",
           "scripts": 34,
-          "text_len": 2082,
+          "text_len": 2047,
           "iframes": [
-            "https://widgets.wp.com/likes/master.html?ver=20261109#ver=20261109&lang=gl"
+            "https://widgets.wp.com/likes/master.html?ver=20261116#ver=20261116&lang=gl"
           ],
           "schedule_assets": [
             "https://radioroncudo.wordpress.com/wp-content/uploads/2024/01/programacion2024.pdf"
@@ -3048,9 +3099,9 @@
       "evidence": {
         "title": "Programación – Radio Roncudo 106.1fm",
         "scripts": 34,
-        "text_len": 2082,
+        "text_len": 2047,
         "iframes": [
-          "https://widgets.wp.com/likes/master.html?ver=20261109#ver=20261109&lang=gl"
+          "https://widgets.wp.com/likes/master.html?ver=20261110#ver=20261110&lang=gl"
         ],
         "schedule_assets": [
           "https://radioroncudo.wordpress.com/wp-content/uploads/2024/01/programacion2024.pdf"
@@ -3061,7 +3112,7 @@
     },
     "147": {
       "name": "Radio FilispiM",
-      "checked_at": "2026-11-09",
+      "checked_at": "2026-11-16",
       "alternatives": [],
       "failed": [],
       "homepage_status": 429,
@@ -3182,7 +3233,7 @@
     },
     "140": {
       "name": "Radio Piratona",
-      "checked_at": "2026-11-09",
+      "checked_at": "2026-11-16",
       "alternatives": [
         {
           "url": "https://sindominio.net/piratona/images/programas/galiza_metalica.jpg",
@@ -3445,7 +3496,7 @@
     },
     "149": {
       "name": "Alpha Boys School Radio",
-      "checked_at": "2026-11-09",
+      "checked_at": "2026-11-16",
       "alternatives": [],
       "failed": [],
       "homepage_status": 200,
@@ -3556,7 +3607,7 @@
     },
     "146": {
       "name": "Onda Polígono",
-      "checked_at": "2026-11-09",
+      "checked_at": "2026-11-16",
       "alternatives": [
         {
           "url": "https://api-server.ondapoligono.org/api/v1/programa/555ec07a-62cc-41cc-868a-82d91dfbe8c1_1790068882196.png",
@@ -3646,7 +3697,7 @@
     },
     "148": {
       "name": "Hirschmilch Radio",
-      "checked_at": "2026-11-09",
+      "checked_at": "2026-11-16",
       "alternatives": [
         {
           "url": "https://hirschmilch.de/show/dispatched-minds",
@@ -3660,7 +3711,7 @@
           "tls_unverified": false,
           "title": "Dispatched Minds » Hirschmilch.de",
           "scripts": 11,
-          "text_len": 50531,
+          "text_len": 50513,
           "iframes": [],
           "schedule_assets": [],
           "day_pages": {},
@@ -3680,7 +3731,7 @@
           "tls_unverified": false,
           "title": "Nightcap » Hirschmilch.de",
           "scripts": 11,
-          "text_len": 22570,
+          "text_len": 22554,
           "iframes": [],
           "schedule_assets": [],
           "day_pages": {},
@@ -3689,23 +3740,23 @@
           "action": "review_partial"
         },
         {
-          "url": "https://hirschmilch.de/homepage",
+          "url": "https://hirschmilch.de/show/dark-signal",
           "ok": true,
           "format": "html",
-          "via": "homepage",
-          "link_score": 0.2,
+          "via": "link:Dark Signal Every month, UИDGRØUND bring",
+          "link_score": 0.4,
           "days": 3,
-          "times": 19,
+          "times": 12,
           "gcal": [],
           "tls_unverified": false,
-          "title": "24/7 Chillout Electronic Hypnotic Organic-House Prog-House Progressive Psytrance Techno Internet Radio Streams » Hirschm",
+          "title": "Dark Signal » Hirschmilch.de",
           "scripts": 11,
-          "text_len": 42591,
+          "text_len": 19435,
           "iframes": [],
           "schedule_assets": [],
           "day_pages": {},
-          "page_score": 0.51,
-          "confidence": 0.4,
+          "page_score": 0.42,
+          "confidence": 0.41,
           "action": "review_partial"
         }
       ],
@@ -3732,7 +3783,7 @@
       "evidence": {
         "title": "Chill On! » Hirschmilch.de",
         "scripts": 11,
-        "text_len": 31836
+        "text_len": 31820
       },
       "status": "needs_review",
       "locked": false
@@ -3830,7 +3881,7 @@
     },
     "127": {
       "name": "Radio Guiniguada",
-      "checked_at": "2026-11-09",
+      "checked_at": "2026-11-16",
       "alternatives": [
         {
           "url": "https://telegram.me/share/url?url=https%3A%2F%2Fradioguiniguada.com%2Fhorarios%2F&text=Horarios",
@@ -3884,7 +3935,7 @@
           "tls_unverified": false,
           "title": "Horarios - Radio Guiniguada | Emisora libre y comunitaria de Canarias",
           "scripts": 42,
-          "text_len": 4319,
+          "text_len": 4293,
           "iframes": [],
           "schedule_assets": [],
           "day_pages": {},
@@ -3916,7 +3967,7 @@
     },
     "144": {
       "name": "Paradigma Radio",
-      "checked_at": "2026-11-09",
+      "checked_at": "2026-11-16",
       "alternatives": [
         {
           "url": "https://www.paradigmaradio.org/radio/",
@@ -3930,7 +3981,7 @@
           "tls_unverified": false,
           "title": "Radio - Paradigma Radio",
           "scripts": 37,
-          "text_len": 9808,
+          "text_len": 10000,
           "iframes": [],
           "schedule_assets": [],
           "day_pages": {},
@@ -3970,7 +4021,7 @@
           "tls_unverified": false,
           "title": "Nuevo programa de Ciencia Radiante: 05x02 - Los Nobel de este año MOLan un montón - Paradigma Radio",
           "scripts": 37,
-          "text_len": 9386,
+          "text_len": 9412,
           "iframes": [
             "https://open.spotify.com/embed/episode/3MVDNPagJzlUHlqeXN4KVG?utm_source=oembed"
           ],
@@ -3997,7 +4048,7 @@
       "evidence": {
         "title": "Inicio - Paradigma Radio",
         "scripts": 37,
-        "text_len": 23757
+        "text_len": 23620
       },
       "status": "needs_review",
       "locked": false
@@ -4172,7 +4223,7 @@
     },
     "154": {
       "name": "Muziekknallers",
-      "checked_at": "2026-11-12",
+      "checked_at": "2026-11-16",
       "alternatives": [],
       "failed": [],
       "homepage_status": 200,
@@ -4190,14 +4241,14 @@
       "evidence": {
         "title": "Muziek Top 50 • Promoot je muziek website!",
         "scripts": 7,
-        "text_len": 12843
+        "text_len": 12062
       },
       "status": "needs_review",
       "locked": false
     },
     "158": {
       "name": "SlaveFM",
-      "checked_at": "2026-11-12",
+      "checked_at": "2026-11-16",
       "alternatives": [
         {
           "url": "https://slavefm.duckdns.org/programme",
@@ -4263,7 +4314,7 @@
     },
     "156": {
       "name": "Tilos Rádió",
-      "checked_at": "2026-11-12",
+      "checked_at": "2026-11-16",
       "alternatives": [
         {
           "url": "https://tilos.hu/show",
@@ -4302,14 +4353,14 @@
       "evidence": {
         "title": "Tilos Rádió",
         "scripts": 16,
-        "text_len": 935
+        "text_len": 944
       },
       "status": "needs_review",
       "locked": false
     },
     "160": {
       "name": "Echtepiraten.nl",
-      "checked_at": "2026-11-12",
+      "checked_at": "2026-11-16",
       "alternatives": [],
       "failed": [],
       "homepage_status": 200,
@@ -4338,7 +4389,7 @@
     },
     "161": {
       "name": "Voice of Chongro",
-      "checked_at": "2026-11-12",
+      "checked_at": "2026-11-16",
       "alternatives": [
         {
           "url": "https://naenaraprc.wixsite.com/chongronaenara/music/programme",
@@ -4351,8 +4402,8 @@
           "gcal": [],
           "tls_unverified": false,
           "title": "Music | Naenara",
-          "scripts": 61,
-          "text_len": 4970,
+          "scripts": 53,
+          "text_len": 4701,
           "iframes": [],
           "schedule_assets": [],
           "day_pages": {},
@@ -4396,15 +4447,15 @@
       "action": "review_partial",
       "evidence": {
         "title": "Music | Naenara",
-        "scripts": 61,
-        "text_len": 4970
+        "scripts": 53,
+        "text_len": 4701
       },
       "status": "needs_review",
       "locked": false
     },
     "159": {
       "name": "AccentFM",
-      "checked_at": "2026-11-12",
+      "checked_at": "2026-11-16",
       "alternatives": [
         {
           "url": "https://www.accentfm.nl/luister/gids",
@@ -4418,7 +4469,7 @@
           "tls_unverified": false,
           "title": "Accent FM - De beste piratenmix!",
           "scripts": 15,
-          "text_len": 12187,
+          "text_len": 12190,
           "iframes": [
             "https://www.googletagmanager.com/ns.html?id=GTM-MNLDD4Z8"
           ],
@@ -4440,7 +4491,7 @@
           "tls_unverified": false,
           "title": "Accent FM - De beste piratenmix!",
           "scripts": 15,
-          "text_len": 12187,
+          "text_len": 12190,
           "iframes": [
             "https://www.googletagmanager.com/ns.html?id=GTM-MNLDD4Z8"
           ],
@@ -4457,12 +4508,12 @@
           "via": "homepage",
           "link_score": 0.2,
           "days": 0,
-          "times": 14,
+          "times": 10,
           "gcal": [],
           "tls_unverified": false,
           "title": "Accent FM - de beste piratenmix",
           "scripts": 15,
-          "text_len": 24205,
+          "text_len": 22547,
           "iframes": [
             "https://www.googletagmanager.com/ns.html?id=GTM-MNLDD4Z8",
             "https://www.youtube.com/embed/wYZVdEqzzXU?feature=oembed",
@@ -4472,8 +4523,8 @@
             "https://media-r2.1twente.nl/BroadcastStations/_programAvatar/STATION_avatar_radio_NOT-Accent-FM.png"
           ],
           "day_pages": {},
-          "page_score": 0.19,
-          "confidence": 0.19,
+          "page_score": 0.13,
+          "confidence": 0.15,
           "action": "review_partial"
         }
       ],
@@ -4495,7 +4546,7 @@
     },
     "162": {
       "name": "Epic Factory Underground",
-      "checked_at": "2026-11-12",
+      "checked_at": "2026-11-16",
       "alternatives": [],
       "failed": [],
       "homepage_status": 200,
@@ -4520,7 +4571,7 @@
     },
     "152": {
       "name": "192 Radio Veronica",
-      "checked_at": "2026-11-12",
+      "checked_at": "2026-11-16",
       "alternatives": [
         {
           "url": "https://www.192radio.nl/192radio/",
@@ -4529,20 +4580,20 @@
           "via": "homepage",
           "link_score": 0.2,
           "days": 0,
-          "times": 4,
+          "times": 2,
           "gcal": [],
           "tls_unverified": false,
           "title": "192 Radio | Radio Veronica 1959 – 1974",
           "scripts": 30,
-          "text_len": 7152,
+          "text_len": 6833,
           "iframes": [
             "https://www.youtube.com/embed/1ViYjYhH2l4?rel=0"
           ],
           "schedule_assets": [],
           "day_pages": {},
-          "page_score": 0.05,
-          "confidence": 0.1,
-          "action": "review_partial"
+          "page_score": 0.03,
+          "confidence": 0.09,
+          "action": "manual_review"
         }
       ],
       "failed": [],
@@ -4568,7 +4619,7 @@
     },
     "153": {
       "name": "Tukker FM",
-      "checked_at": "2026-11-12",
+      "checked_at": "2026-11-16",
       "alternatives": [
         {
           "url": "https://tukker.fm/agenda/",
@@ -4582,7 +4633,7 @@
           "tls_unverified": false,
           "title": "Agenda - Tukker FM",
           "scripts": 117,
-          "text_len": 16096,
+          "text_len": 16332,
           "iframes": [],
           "schedule_assets": [],
           "day_pages": {},
@@ -4602,7 +4653,7 @@
           "tls_unverified": false,
           "title": "Agenda - Tukker FM",
           "scripts": 117,
-          "text_len": 16096,
+          "text_len": 16332,
           "iframes": [],
           "schedule_assets": [],
           "day_pages": {},
@@ -4622,7 +4673,7 @@
           "tls_unverified": false,
           "title": "Tukker FM - Donders Mooi!",
           "scripts": 107,
-          "text_len": 18306,
+          "text_len": 18317,
           "iframes": [],
           "schedule_assets": [],
           "day_pages": {},
@@ -4654,7 +4705,7 @@
     },
     "163": {
       "name": "TSUBAKI fm",
-      "checked_at": "2026-11-15",
+      "checked_at": "2026-11-16",
       "alternatives": [],
       "failed": [],
       "homepage_status": 200,
@@ -4662,24 +4713,24 @@
       "homepage_suspicious": false,
       "url": "https://tsubakifm.com/",
       "format": "html",
-      "confidence": 0.44,
+      "confidence": 0.37,
       "method": "homepage",
-      "days": 2,
-      "times": 30,
+      "days": 1,
+      "times": 28,
       "tls_unverified": false,
       "post_like": false,
       "action": "review_partial",
       "evidence": {
         "title": "TSUBAKI fmTSUBAKI fmTSUBAKI fm",
         "scripts": 6,
-        "text_len": 2419
+        "text_len": 2409
       },
       "status": "needs_review",
       "locked": false
     },
     "164": {
       "name": "DATAFRUITS.FM",
-      "checked_at": "2026-11-15",
+      "checked_at": "2026-11-16",
       "alternatives": [
         {
           "url": "https://datafruits.fm/shows/gotobed-show/episodes/gotobed-show-11142026/",
@@ -4769,10 +4820,10 @@
     "actions": {
       "add_source": 19,
       "blocked_by_robots": 2,
-      "fix_homepage": 2,
+      "fix_homepage": 1,
       "manual_ocr": 4,
       "manual_or_email": 13,
-      "manual_review": 6,
+      "manual_review": 7,
       "no_source": 2,
       "ocr_or_manual": 5,
       "render_or_manual": 5,
