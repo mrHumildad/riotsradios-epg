@@ -4,9 +4,9 @@
   "station_id": 19,
   "schedule_type": "weekly",
   "timezone": "Europe/Madrid",
-  "last_updated": "2026-11-20",
+  "last_updated": "2026-11-21",
   "source": "https://sapo.radiobot.org/api_schedule.php?station=rvk",
-  "notes": "Generado automáticamente desde https://sapo.radiobot.org/api_schedule.php?station=rvk (snapshot 2026-11-20); revisar data/epg-report.json.",
+  "notes": "Generado automáticamente desde https://sapo.radiobot.org/api_schedule.php?station=rvk (snapshot 2026-11-21); revisar data/epg-report.json.",
   "generator": "scripts/convert-raw-epg.mjs",
   "metadata": {
     "categories": {
@@ -148,6 +148,10 @@
     },
     "barrio-canino-radio-agora-sol": {
       "title": "Barrio Canino [Radio Ágora Sol]",
+      "category": "directo"
+    },
+    "cadenazo-vivienda": {
+      "title": "CADENAZO_VIVIENDA",
       "category": "directo"
     },
     "100fuegos-radio-xata": {
@@ -853,7 +857,7 @@
         {
           "start": "06:00",
           "end": "07:00",
-          "show_id": "las-del-siete",
+          "show_id": "cadenazo-vivienda",
           "live": false
         },
         {

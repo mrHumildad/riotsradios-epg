@@ -4,9 +4,9 @@
   "station_id": 128,
   "schedule_type": "weekly",
   "timezone": "Europe/Madrid",
-  "last_updated": "2026-11-20",
+  "last_updated": "2026-11-21",
   "source": "https://radioalmenara.net/horarios/",
-  "notes": "Generado automáticamente desde https://radioalmenara.net/horarios/ (snapshot 2026-11-20); revisar data/epg-report.json.",
+  "notes": "Generado automáticamente desde https://radioalmenara.net/horarios/ (snapshot 2026-11-21); revisar data/epg-report.json.",
   "generator": "scripts/convert-raw-epg.mjs",
   "metadata": {
     "categories": {
@@ -56,6 +56,10 @@
     },
     "la-merienda": {
       "title": "La merienda",
+      "category": "directo"
+    },
+    "enredados": {
+      "title": "Enredados",
       "category": "directo"
     }
   },
@@ -152,6 +156,18 @@
           "start": "17:00",
           "end": "19:00",
           "show_id": "la-merienda",
+          "live": false
+        }
+      ]
+    },
+    {
+      "day": "saturday",
+      "label": "Sábado",
+      "programs": [
+        {
+          "start": "10:00",
+          "end": "11:30",
+          "show_id": "enredados",
           "live": false
         }
       ]
