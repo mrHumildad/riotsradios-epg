@@ -1,0 +1,82 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Radio Kolor — latest posts",
+  "home_page_url": "https://radiokolor.es/",
+  "feed_url": "https://mrhumildad.github.io/riotsradios-epg/feeds/radio-kolor.json",
+  "_station_id": 145,
+  "_station_name": "Radio Kolor",
+  "_source": "https://radiokolor.es/feed/",
+  "_generated_at": "2026-11-12T14:19:57.270Z",
+  "items": [
+    {
+      "id": "https://radiokolor.es/2026/11/11/la-taberna-del-pony-pisador-programa-especial-inspector-harry/",
+      "url": "https://radiokolor.es/2026/11/11/la-taberna-del-pony-pisador-programa-especial-inspector-harry/",
+      "title": "La Taberna del Pony Pisador. Programa especial \"INSPECTOR HARRY\".",
+      "content_text": "La Taberna del Pony Pisador. Programa especial \"INSPECTOR HARRY\".",
+      "date_published": "2026-11-11T06:38:11.000Z"
+    },
+    {
+      "id": "https://radiokolor.es/2026/11/11/exul-umbra-programa-del-10-de-noviembre-de-2026/",
+      "url": "https://radiokolor.es/2026/11/11/exul-umbra-programa-del-10-de-noviembre-de-2026/",
+      "title": "Exul Umbra. Programa del 10 de noviembre de 2026",
+      "content_text": "Exul Umbra. Programa del 10 de noviembre de 2026",
+      "date_published": "2026-11-11T06:28:14.000Z"
+    },
+    {
+      "id": "https://radiokolor.es/2026/11/10/la-guarida-del-dragon-programa-del-9-de-noviembre-de-2026/",
+      "url": "https://radiokolor.es/2026/11/10/la-guarida-del-dragon-programa-del-9-de-noviembre-de-2026/",
+      "title": "La Guarida del Dragón. Programa del 9 de noviembre de 2026",
+      "content_text": "La Guarida del Dragón. Programa del 9 de noviembre de 2026",
+      "date_published": "2026-11-10T05:50:49.000Z"
+    },
+    {
+      "id": "https://radiokolor.es/2026/11/07/en-el-anden-programa-del-8-de-noviembre-de-2026/",
+      "url": "https://radiokolor.es/2026/11/07/en-el-anden-programa-del-8-de-noviembre-de-2026/",
+      "title": "En el Andén. Programa del 8 de noviembre de 2026",
+      "content_text": "En el Andén. Programa del 8 de noviembre de 2026",
+      "date_published": "2026-11-07T06:30:34.000Z"
+    },
+    {
+      "id": "https://radiokolor.es/2026/11/04/la-taberna-del-pony-pisador-programa-del-3-de-noviembre-de-2026/",
+      "url": "https://radiokolor.es/2026/11/04/la-taberna-del-pony-pisador-programa-del-3-de-noviembre-de-2026/",
+      "title": "La Taberna del Pony Pisador. Programa del 3 de noviembre de 2026",
+      "content_text": "La Taberna del Pony Pisador. Programa del 3 de noviembre de 2026",
+      "date_published": "2026-11-04T16:05:51.000Z"
+    },
+    {
+      "id": "https://radiokolor.es/2026/11/03/la-guarida-del-dragon-programa-del-2-de-noviembre-de-2026/",
+      "url": "https://radiokolor.es/2026/11/03/la-guarida-del-dragon-programa-del-2-de-noviembre-de-2026/",
+      "title": "La Guarida del Dragón. Programa del 2 de noviembre de 2026",
+      "content_text": "La Guarida del Dragón. Programa del 2 de noviembre de 2026",
+      "date_published": "2026-11-03T06:02:44.000Z"
+    },
+    {
+      "id": "https://radiokolor.es/2026/11/01/en-el-anden-programa-del-30-de-octubre-de-2026/",
+      "url": "https://radiokolor.es/2026/11/01/en-el-anden-programa-del-30-de-octubre-de-2026/",
+      "title": "En el Andén. Programa del 30 de octubre de 2026",
+      "content_text": "En el Andén. Programa del 30 de octubre de 2026",
+      "date_published": "2026-11-01T05:58:10.000Z"
+    },
+    {
+      "id": "https://radiokolor.es/2026/11/01/its-very-dificult-todo-esto-programa-del-30-de-octubre-de-2026/",
+      "url": "https://radiokolor.es/2026/11/01/its-very-dificult-todo-esto-programa-del-30-de-octubre-de-2026/",
+      "title": "It`s Very Dificult Todo Esto. Programa del 30 de octubre de 2026",
+      "content_text": "It`s Very Dificult Todo Esto. Programa del 30 de octubre de 2026",
+      "date_published": "2026-11-01T05:55:43.000Z"
+    },
+    {
+      "id": "https://radiokolor.es/2026/10/28/exul-umbra-programa-del-27-de-octubre-de-2026/",
+      "url": "https://radiokolor.es/2026/10/28/exul-umbra-programa-del-27-de-octubre-de-2026/",
+      "title": "Exul Umbra. Programa del 27 de octubre de 2026",
+      "content_text": "Exul Umbra. Programa del 27 de octubre de 2026",
+      "date_published": "2026-10-28T15:14:24.000Z"
+    },
+    {
+      "id": "https://nueva.radiokolor.es/2026/10/27/la-guarida-del-dragon-programa-del-26-de-octubre-de-2026/",
+      "url": "https://radiokolor.es/2026/10/27/la-guarida-del-dragon-programa-del-26-de-octubre-de-2026/",
+      "title": "La Guarida del Dragón. Programa del 26 de octubre de 2026",
+      "content_text": "La Guarida del Dragón. Programa del 26 de octubre de 2026",
+      "date_published": "2026-10-27T07:13:33.000Z"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Radio Iris 7 — latest posts",
+  "home_page_url": "https://radioiris7.es/",
+  "feed_url": "https://mrhumildad.github.io/riotsradios-epg/feeds/radio-iris-7.json",
+  "_station_id": 133,
+  "_station_name": "Radio Iris 7",
+  "_source": "https://radioiris7.es/feed/",
+  "_generated_at": "2026-11-12T14:19:56.287Z",
+  "items": [
+    {
+      "id": "https://radioiris7.es/?p=1511",
+      "url": "https://radioiris7.es/escuter-iberico/",
+      "title": "Escúter Ibérico",
+      "content_text": "Escúter Ibérico",
+      "date_published": "2026-11-09T11:46:14.000Z"
+    },
+    {
+      "id": "https://radioiris7.es/?p=587",
+      "url": "https://radioiris7.es/linea-intermedia/",
+      "title": "Nuevo Programa de la Línea Intermedia",
+      "content_text": "Nuevo Programa de la Línea Intermedia",
+      "date_published": "2026-10-27T10:01:45.000Z"
+    },
+    {
+      "id": "https://radioiris7.es/?p=451",
+      "url": "https://radioiris7.es/nuevo_radioton/",
+      "title": "31º Radioton",
+      "content_text": "31º Radioton",
+      "date_published": "2026-10-23T22:06:30.000Z"
+    },
+    {
+      "id": "https://radioiris7.es/?p=353",
+      "url": "https://radioiris7.es/nueva_temporada_el_canal_2/",
+      "title": "29ª Temporada del Programa “El Canal 2”",
+      "content_text": "29ª Temporada del Programa “El Canal 2”",
+      "date_published": "2026-10-13T09:09:16.000Z"
+    },
+    {
+      "id": "https://radioiris7.es/?p=414",
+      "url": "https://radioiris7.es/concurso-internacional-de-cartas-de-amor-de-el-canal-2/",
+      "title": "Concurso Internacional de Cartas de Amor de “El Canal 2”",
+      "content_text": "Concurso Internacional de Cartas de Amor de “El Canal 2”",
+      "date_published": "2026-10-07T10:24:23.000Z"
+    },
+    {
+      "id": "https://radioiris7.es/?p=133",
+      "url": "https://radioiris7.es/nuevo-programa-de-arruba/",
+      "title": "Nuevo Programa de Arruba",
+      "content_text": "Nuevo Programa de Arruba",
+      "date_published": "2026-10-04T10:29:41.000Z"
+    },
+    {
+      "id": "https://radioiris7.es/?p=410",
+      "url": "https://radioiris7.es/loteria-de-navidad-de-ri7/",
+      "title": "Loteria de Navidad de Radio Iris 7",
+      "content_text": "Loteria de Navidad de Radio Iris 7",
+      "date_published": "2026-09-02T10:15:01.000Z"
+    },
+    {
+      "id": "https://radioiris7.es/?p=1701",
+      "url": "https://radioiris7.es/programas-de-vacaciones/",
+      "title": "Programas de vacaciones",
+      "content_text": "Programas de vacaciones",
+      "date_published": "2026-07-07T13:09:20.000Z"
+    },
+    {
+      "id": "https://radioiris7.es/?p=1609",
+      "url": "https://radioiris7.es/concluye-el-canal-2/",
+      "title": "Concluye la 28ª temporada del programa de Radio “El Canal 2”",
+      "content_text": "Concluye la 28ª temporada del programa de Radio “El Canal 2”",
+      "date_published": "2026-06-04T21:07:08.000Z"
+    },
+    {
+      "id": "https://radioiris7.es/?p=1604",
+      "url": "https://radioiris7.es/ganadores-del-concurso-de-dibujo/",
+      "title": "Ganadores del Concurso de Dibujo",
+      "content_text": "Ganadores del Concurso de Dibujo",
+      "date_published": "2026-06-04T20:53:06.000Z"
+    }
+  ]
+}

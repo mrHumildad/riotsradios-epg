@@ -1,0 +1,19 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Radio Ciudadana — latest posts",
+  "home_page_url": "https://ciudadanafm.blogspot.com/",
+  "feed_url": "https://mrhumildad.github.io/riotsradios-epg/feeds/radio-ciudadana.json",
+  "_station_id": 69,
+  "_station_name": "Radio Ciudadana",
+  "_source": "https://ciudadanafm.blogspot.com/feeds/posts/default",
+  "_generated_at": "2026-11-12T14:19:52.737Z",
+  "items": [
+    {
+      "id": "tag:blogger.com,1999:blog-750422355333213825.post-5643472946562639434",
+      "url": "https://ciudadanafm.blogspot.com/2022/09/nuestra-radio.html",
+      "title": "Nuestra Radio",
+      "content_text": "Nuestra Radio",
+      "date_published": "2022-09-10T19:26:00.011Z"
+    }
+  ]
+}

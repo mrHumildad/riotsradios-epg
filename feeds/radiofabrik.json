@@ -1,0 +1,82 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Radiofabrik — latest posts",
+  "home_page_url": "https://radiofabrik.at/",
+  "feed_url": "https://mrhumildad.github.io/riotsradios-epg/feeds/radiofabrik.json",
+  "_station_id": 8,
+  "_station_name": "Radiofabrik",
+  "_source": "https://radiofabrik.at/feed/",
+  "_generated_at": "2026-11-12T14:19:47.966Z",
+  "items": [
+    {
+      "id": "https://radiofabrik.at/?p=288246",
+      "url": "https://radiofabrik.at/news/bauen-und-wohnen-wohnbauten-bewohnen-oder-wohnbaubau/",
+      "title": "Bauen und Wohnen…Wohnbauten bewohnen…oder Wohnbaubau",
+      "content_text": "Bauen und Wohnen…Wohnbauten bewohnen…oder Wohnbaubau",
+      "date_published": "2026-11-11T18:00:48.000Z"
+    },
+    {
+      "id": "https://radiofabrik.at/?p=288225",
+      "url": "https://radiofabrik.at/news/queerer-aktivismus-in-einer-demokratie/",
+      "title": "Queerer Aktivismus in einer Demokratie",
+      "content_text": "Queerer Aktivismus in einer Demokratie",
+      "date_published": "2026-11-09T10:44:49.000Z"
+    },
+    {
+      "id": "https://radiofabrik.at/?p=288186",
+      "url": "https://radiofabrik.at/news/kopfhoerer-underrated-bands-vol-2-the-stone-roses/",
+      "title": "Underrated Bands Vol.2: The Stone Roses",
+      "content_text": "Underrated Bands Vol.2: The Stone Roses",
+      "date_published": "2026-11-09T10:19:46.000Z"
+    },
+    {
+      "id": "https://radiofabrik.at/?p=288200",
+      "url": "https://radiofabrik.at/news/wie-kann-ich-mich-freiwillig-engagieren/",
+      "title": "Wie kann ich mich freiwillig engagieren?",
+      "content_text": "Wie kann ich mich freiwillig engagieren?",
+      "date_published": "2026-11-08T17:00:48.000Z"
+    },
+    {
+      "id": "https://radiofabrik.at/?p=288197",
+      "url": "https://radiofabrik.at/news/fuer-die-asozialen-medien/",
+      "title": "Für die asozialen Medien",
+      "content_text": "Für die asozialen Medien",
+      "date_published": "2026-11-08T08:00:10.000Z"
+    },
+    {
+      "id": "https://radiofabrik.at/?p=288183",
+      "url": "https://radiofabrik.at/news/show-de-toilette-ein-ende-auf-pferden-8x11/",
+      "title": "Show de Toilette: Ein Ende auf Pferden (8×11)",
+      "content_text": "Show de Toilette: Ein Ende auf Pferden (8×11)",
+      "date_published": "2026-11-07T20:00:17.000Z"
+    },
+    {
+      "id": "https://radiofabrik.at/?p=288191",
+      "url": "https://radiofabrik.at/news/oskar-haag-in-salzburg/",
+      "title": "Oskar Haag in Salzburg",
+      "content_text": "Oskar Haag in Salzburg",
+      "date_published": "2026-11-07T16:00:13.000Z"
+    },
+    {
+      "id": "https://radiofabrik.at/?p=288194",
+      "url": "https://radiofabrik.at/news/die-leiseste-e-gitarre-der-welt/",
+      "title": "Die leiseste E-Gitarre der Welt?",
+      "content_text": "Die leiseste E-Gitarre der Welt?",
+      "date_published": "2026-11-06T10:13:21.000Z"
+    },
+    {
+      "id": "https://radiofabrik.at/?p=288152",
+      "url": "https://radiofabrik.at/news/schwerverletzt-fuer-ein-vermeintlich-besseres-frauenleben-teil-2/",
+      "title": "Schwerverletzt für ein vermeintlich „besseres“ Frauenleben? Teil 2",
+      "content_text": "Schwerverletzt für ein vermeintlich „besseres“ Frauenleben? Teil 2",
+      "date_published": "2026-11-03T17:14:05.000Z"
+    },
+    {
+      "id": "https://radiofabrik.at/?p=285760",
+      "url": "https://radiofabrik.at/news/rockhousekultradio/",
+      "title": "Spielen heißt Lernen – Medienkunstvermittlung in Salzburg",
+      "content_text": "Spielen heißt Lernen – Medienkunstvermittlung in Salzburg",
+      "date_published": "2026-11-03T17:00:17.000Z"
+    }
+  ]
+}

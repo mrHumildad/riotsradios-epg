@@ -1,0 +1,82 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Conaicop — latest posts",
+  "home_page_url": "http://www.radioconaicop.blogspot.com",
+  "feed_url": "https://mrhumildad.github.io/riotsradios-epg/feeds/conaicop.json",
+  "_station_id": 50,
+  "_station_name": "Conaicop",
+  "_source": "http://radioconaicop.blogspot.com/feeds/posts/default",
+  "_generated_at": "2026-11-12T14:19:52.507Z",
+  "items": [
+    {
+      "id": "tag:blogger.com,1999:blog-3117649914796244141.post-3142575010018890363",
+      "url": "http://radioconaicop.blogspot.com/2021/07/programacion-radio.html",
+      "title": "PROGRAMACIÓN Radio",
+      "content_text": "PROGRAMACIÓN Radio",
+      "date_published": "2021-07-28T17:43:00.011Z"
+    },
+    {
+      "id": "tag:blogger.com,1999:blog-3117649914796244141.post-6905142136378797946",
+      "url": "http://radioconaicop.blogspot.com/2021/07/patria-grande-contra-los-poderosos-del.html",
+      "title": "Patria Grande. Contra los poderosos del planeta, \"en el nuevo mundo, una sola nación\"",
+      "content_text": "Patria Grande. Contra los poderosos del planeta, \"en el nuevo mundo, una sola nación\"",
+      "date_published": "2021-07-22T04:20:00.002Z"
+    },
+    {
+      "id": "tag:blogger.com,1999:blog-3117649914796244141.post-8990449711232386810",
+      "url": "http://radioconaicop.blogspot.com/2021/07/italia-en-los-pliegues-del-conflicto-de.html",
+      "title": "ITALIA. En los pliegues del conflicto de clases",
+      "content_text": "ITALIA. En los pliegues del conflicto de clases",
+      "date_published": "2021-07-22T04:17:00.002Z"
+    },
+    {
+      "id": "tag:blogger.com,1999:blog-3117649914796244141.post-1391709242055191025",
+      "url": "http://radioconaicop.blogspot.com/2021/07/karl-marx.html",
+      "title": "Karl Marx",
+      "content_text": "Karl Marx",
+      "date_published": "2021-07-20T17:25:00.001Z"
+    },
+    {
+      "id": "tag:blogger.com,1999:blog-3117649914796244141.post-1437018233267253314",
+      "url": "http://radioconaicop.blogspot.com/2021/07/el-pueblo-e-cuba.html",
+      "title": "El pueblo e Cuba",
+      "content_text": "El pueblo e Cuba",
+      "date_published": "2021-07-19T14:38:00.003Z"
+    },
+    {
+      "id": "tag:blogger.com,1999:blog-3117649914796244141.post-8270970843526067950",
+      "url": "http://radioconaicop.blogspot.com/2021/07/conaicop-recuerda.html",
+      "title": "Conaicop recuerda",
+      "content_text": "Conaicop recuerda",
+      "date_published": "2021-07-19T13:45:00.006Z"
+    },
+    {
+      "id": "tag:blogger.com,1999:blog-3117649914796244141.post-383843078059751179",
+      "url": "http://radioconaicop.blogspot.com/2021/07/sorpresa-en-chile-el-candidato-del.html",
+      "title": "Sorpresa en Chile: el candidato del Partido Comunista perdió la interna de la izquierda chilena",
+      "content_text": "Sorpresa en Chile: el candidato del Partido Comunista perdió la interna de la izquierda chilena",
+      "date_published": "2021-07-19T12:12:00.000Z"
+    },
+    {
+      "id": "tag:blogger.com,1999:blog-3117649914796244141.post-1389200090838651010",
+      "url": "http://radioconaicop.blogspot.com/2021/07/sos-colombia.html",
+      "title": "S.O.S COLOMBIA !",
+      "content_text": "S.O.S COLOMBIA !",
+      "date_published": "2021-07-18T19:22:00.001Z"
+    },
+    {
+      "id": "tag:blogger.com,1999:blog-3117649914796244141.post-4153433659862584257",
+      "url": "http://radioconaicop.blogspot.com/2021/07/carta-desde-cuba.html",
+      "title": "Carta desde Cuba",
+      "content_text": "Carta desde Cuba",
+      "date_published": "2021-07-18T18:01:00.001Z"
+    },
+    {
+      "id": "tag:blogger.com,1999:blog-3117649914796244141.post-5500486553093719843",
+      "url": "http://radioconaicop.blogspot.com/2021/07/lider-y-cantante-del-duo-buena-fe-de.html",
+      "title": "Líder y Cantante del Dúo Buena Fe de Cuba",
+      "content_text": "Líder y Cantante del Dúo Buena Fe de Cuba",
+      "date_published": "2021-07-18T16:50:00.001Z"
+    }
+  ]
+}

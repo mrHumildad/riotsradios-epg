@@ -1,0 +1,82 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Radio Arrebato — latest posts",
+  "home_page_url": "https://www.radioarrebato.net/",
+  "feed_url": "https://mrhumildad.github.io/riotsradios-epg/feeds/radio-arrebato.json",
+  "_station_id": 2,
+  "_station_name": "Radio Arrebato",
+  "_source": "https://www.radioarrebato.net/feed/",
+  "_generated_at": "2026-11-12T14:19:47.822Z",
+  "items": [
+    {
+      "id": "https://www.radioarrebato.net/?p=30528",
+      "url": "https://www.radioarrebato.net/hablemos-viernes-13-de-noviembre-a-las-1430/",
+      "title": "HABLEMOS VIERNES 13 DE NOVIEMBRE A LAS 14:30",
+      "content_text": "HABLEMOS VIERNES 13 DE NOVIEMBRE A LAS 14:30",
+      "date_published": "2026-11-12T13:23:00.000Z"
+    },
+    {
+      "id": "https://www.radioarrebato.net/?p=30522",
+      "url": "https://www.radioarrebato.net/mr-kennedy-12-11-invitado-roberto-maroto/",
+      "title": "Mr. Kennedy 12/11. Invitado. Roberto Maroto",
+      "content_text": "Mr. Kennedy 12/11. Invitado. Roberto Maroto",
+      "date_published": "2026-11-11T19:30:00.000Z"
+    },
+    {
+      "id": "https://www.radioarrebato.net/?p=30525",
+      "url": "https://www.radioarrebato.net/en-la-nube-kinton-12-11-1830-numeros-y-numeritos-que-dan-miedo/",
+      "title": "En la nube Kinton 12/11, 18:30. Números y numeritos que dan miedo…",
+      "content_text": "En la nube Kinton 12/11, 18:30. Números y numeritos que dan miedo…",
+      "date_published": "2026-11-11T17:30:00.000Z"
+    },
+    {
+      "id": "https://www.radioarrebato.net/?p=30505",
+      "url": "https://www.radioarrebato.net/desbloqueo-11-11-2026/",
+      "title": "Desbloqueo 11.11.2026.",
+      "content_text": "Desbloqueo 11.11.2026.",
+      "date_published": "2026-11-10T18:30:00.000Z"
+    },
+    {
+      "id": "https://www.radioarrebato.net/?p=30514",
+      "url": "https://www.radioarrebato.net/el-alambique-musical-11-11-beach-boys-y-box-tops/",
+      "title": "EL ALAMBIQUE MUSICAL 11/11. Beach Boys y Box Tops",
+      "content_text": "EL ALAMBIQUE MUSICAL 11/11. Beach Boys y Box Tops",
+      "date_published": "2026-11-10T17:30:00.000Z"
+    },
+    {
+      "id": "https://www.radioarrebato.net/?p=30519",
+      "url": "https://www.radioarrebato.net/via-publica-sin-mas-miercoles-11-de-noviembre-desde-las-15-30/",
+      "title": "VÍA PÚBLICA SIN MÁS, miércoles 11 de noviembre desde las 15.30",
+      "content_text": "VÍA PÚBLICA SIN MÁS, miércoles 11 de noviembre desde las 15.30",
+      "date_published": "2026-11-10T14:30:00.000Z"
+    },
+    {
+      "id": "https://www.radioarrebato.net/?p=30511",
+      "url": "https://www.radioarrebato.net/guadalajara-verde-el-proximo-martes-10-11-a-las-1630-hablaremos-de-medio-ambiente-en-guadalajara-capital/",
+      "title": "GUADALAJARA VERDE. El próximo martes, 10/11 a las 16:30, hablaremos de “MEDIO AMBIENTE EN GUADALAJARA CAPITAL”",
+      "content_text": "GUADALAJARA VERDE. El próximo martes, 10/11 a las 16:30, hablaremos de “MEDIO AMBIENTE EN GUADALAJARA CAPITAL”",
+      "date_published": "2026-11-09T15:30:00.000Z"
+    },
+    {
+      "id": "https://www.radioarrebato.net/?p=30508",
+      "url": "https://www.radioarrebato.net/martes-10-hablemos-de-la-vida/",
+      "title": "Martes 10 / Hablemos de la vida",
+      "content_text": "Martes 10 / Hablemos de la vida",
+      "date_published": "2026-11-09T14:30:00.000Z"
+    },
+    {
+      "id": "https://www.radioarrebato.net/?p=30498",
+      "url": "https://www.radioarrebato.net/jazz-con-cosas-9-11-1930-toca-jam/",
+      "title": "Jazz con cosas 9/11. 19:30 ¡Toca Jam!",
+      "content_text": "Jazz con cosas 9/11. 19:30 ¡Toca Jam!",
+      "date_published": "2026-11-08T18:30:00.000Z"
+    },
+    {
+      "id": "https://www.radioarrebato.net/?p=30501",
+      "url": "https://www.radioarrebato.net/hablemos-de-cultura-9-11-homenaje-a-miguel-hernandez-y-bebo-valdes-y-actualidad/",
+      "title": "Hablemos de Cultura 9/11. HOMENAJE A MIGUEL HERNÁNDEZ Y BEBO VALDES. Y ACTUALIDAD.",
+      "content_text": "Hablemos de Cultura 9/11. HOMENAJE A MIGUEL HERNÁNDEZ Y BEBO VALDES. Y ACTUALIDAD.",
+      "date_published": "2026-11-08T17:30:00.000Z"
+    }
+  ]
+}

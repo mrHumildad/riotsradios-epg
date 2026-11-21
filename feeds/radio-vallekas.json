@@ -1,0 +1,54 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Radio Vallekas — latest posts",
+  "home_page_url": "https://radiovallekas.org/",
+  "feed_url": "https://mrhumildad.github.io/riotsradios-epg/feeds/radio-vallekas.json",
+  "_station_id": 19,
+  "_station_name": "Radio Vallekas",
+  "_source": "https://www.radiovallekas.org/feed/",
+  "_generated_at": "2026-11-12T14:19:48.565Z",
+  "items": [
+    {
+      "id": "https://www.radiovallekas.org/?p=3531",
+      "url": "https://www.radiovallekas.org/mas-alla-de-los-decretos-vivienda-y-vida-frente-a-un-sistema-capitalista/",
+      "title": "Más allá de los decretos. Vivienda y vida frente a un sistema capitalista.",
+      "content_text": "Más allá de los decretos. Vivienda y vida frente a un sistema capitalista.",
+      "date_published": "2026-11-08T18:23:24.000Z"
+    },
+    {
+      "id": "https://www.radiovallekas.org/?p=3528",
+      "url": "https://www.radiovallekas.org/audios-de-la-fiesta-del-40-aniversario/",
+      "title": "Audios de la fiesta del 40 aniversario",
+      "content_text": "Audios de la fiesta del 40 aniversario",
+      "date_published": "2026-11-08T17:54:24.000Z"
+    },
+    {
+      "id": "https://www.radiovallekas.org/?p=3514",
+      "url": "https://www.radiovallekas.org/la-morada-del-ermitano-cumple-35-anos/",
+      "title": "La morada del ermitaño cumple 35 años",
+      "content_text": "La morada del ermitaño cumple 35 años",
+      "date_published": "2026-10-26T15:23:18.000Z"
+    },
+    {
+      "id": "https://www.radiovallekas.org/?p=3497",
+      "url": "https://www.radiovallekas.org/40-anos-de-radio-comunitaria-en-eldiario-es/",
+      "title": "40 años de radio comunitaria en eldiario.es",
+      "content_text": "40 años de radio comunitaria en eldiario.es",
+      "date_published": "2026-10-20T14:24:01.000Z"
+    },
+    {
+      "id": "https://www.radiovallekas.org/?p=3475",
+      "url": "https://www.radiovallekas.org/la-fiesta-del-17-de-octubre-en-la-cafetera-de-fernando-berlin/",
+      "title": "¡La fiesta del 17 de octubre en La Cafetera de Fernando Berlín!",
+      "content_text": "¡La fiesta del 17 de octubre en La Cafetera de Fernando Berlín!",
+      "date_published": "2026-10-16T11:02:41.000Z"
+    },
+    {
+      "id": "https://www.radiovallekas.org/?p=3439",
+      "url": "https://www.radiovallekas.org/40-anos-de-radio-comunitaria-en-vallekas/",
+      "title": "40 años de radio comunitaria en Vallekas",
+      "content_text": "40 años de radio comunitaria en Vallekas",
+      "date_published": "2026-10-15T22:43:28.000Z"
+    }
+  ]
+}

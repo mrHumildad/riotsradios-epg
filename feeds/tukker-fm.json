@@ -1,0 +1,82 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Tukker FM — latest posts",
+  "home_page_url": "https://www.tukker.fm/",
+  "feed_url": "https://mrhumildad.github.io/riotsradios-epg/feeds/tukker-fm.json",
+  "_station_id": 153,
+  "_station_name": "Tukker FM",
+  "_source": "https://tukker.fm/feed/",
+  "_generated_at": "2026-11-12T14:19:58.721Z",
+  "items": [
+    {
+      "id": "https://tukker.fm/?p=12182",
+      "url": "https://tukker.fm/tukker-fm-keert-op-18-september-2027-terug-naar-pekela-met-de-donders-dikke-tent-party/",
+      "title": "Tukker FM keert op 18 september 2027 terug naar Pekela met de Donders Dikke Tent Party",
+      "content_text": "Tukker FM keert op 18 september 2027 terug naar Pekela met de Donders Dikke Tent Party",
+      "date_published": "2026-09-22T10:44:55.000Z"
+    },
+    {
+      "id": "https://tukker.fm/?p=12168",
+      "url": "https://tukker.fm/henk-wijngaard-ziekenbezoek-donders-dikke-tent-party/",
+      "title": "Tukker FM bezorgt Henk Wijngaard ziekenbezoek van ruim 6.000 fans",
+      "content_text": "Tukker FM bezorgt Henk Wijngaard ziekenbezoek van ruim 6.000 fans",
+      "date_published": "2026-09-19T20:48:56.000Z"
+    },
+    {
+      "id": "https://tukker.fm/?p=12139",
+      "url": "https://tukker.fm/henk-wijngaard-aanwezig-tijdens-donders-dikke-tent-party-in-pekela/",
+      "title": "Henk Wijngaard aanwezig tijdens Donders Dikke Tent Party in Pekela",
+      "content_text": "Henk Wijngaard aanwezig tijdens Donders Dikke Tent Party in Pekela",
+      "date_published": "2026-09-10T09:59:07.000Z"
+    },
+    {
+      "id": "https://tukker.fm/?p=12097",
+      "url": "https://tukker.fm/win-2-vrijkaarten-voor-de-donders-dikke-tent-party-in-pekela/",
+      "title": "Win 2 vrijkaarten voor de Donders Dikke Tent Party in Pekela",
+      "content_text": "Win 2 vrijkaarten voor de Donders Dikke Tent Party in Pekela",
+      "date_published": "2026-09-07T09:53:12.000Z"
+    },
+    {
+      "id": "https://tukker.fm/?p=11997",
+      "url": "https://tukker.fm/de-paladijns-eerbetoon-mariska-pekela/",
+      "title": "De geheime naam onthuld: De Paladijns brengen eerbetoon aan Mariska in Pekela",
+      "content_text": "De geheime naam onthuld: De Paladijns brengen eerbetoon aan Mariska in Pekela",
+      "date_published": "2026-08-04T17:00:24.000Z"
+    },
+    {
+      "id": "https://tukker.fm/?p=11991",
+      "url": "https://tukker.fm/donders-dikke-tent-party-pekela-line-up-bekend-maar-een-naam-blijft-nog-geheim/",
+      "title": "Donders Dikke Tent Party Pekela: line-up bekend, maar één naam blijft nog geheim",
+      "content_text": "Donders Dikke Tent Party Pekela: line-up bekend, maar één naam blijft nog geheim",
+      "date_published": "2026-07-31T12:22:08.000Z"
+    },
+    {
+      "id": "https://tukker.fm/?p=11231",
+      "url": "https://tukker.fm/henk-wijngaard-ontvangt-vlam-in-de-pijp-award-van-tukker-fm/",
+      "title": "Henk Wijngaard ontvangt Vlam in de Pijp Award van Tukker FM",
+      "content_text": "Henk Wijngaard ontvangt Vlam in de Pijp Award van Tukker FM",
+      "date_published": "2026-05-13T10:32:53.000Z"
+    },
+    {
+      "id": "https://tukker.fm/?p=11137",
+      "url": "https://tukker.fm/update-lp-henk-wijngaard/",
+      "title": "Update: LP Henk Wijngaard",
+      "content_text": "Update: LP Henk Wijngaard",
+      "date_published": "2026-05-11T10:24:41.000Z"
+    },
+    {
+      "id": "https://tukker.fm/?p=9276",
+      "url": "https://tukker.fm/tukker-fm-breidt-uit-op-dab/",
+      "title": "Tukker FM breidt uit op DAB+",
+      "content_text": "Tukker FM breidt uit op DAB+",
+      "date_published": "2026-03-19T09:03:39.000Z"
+    },
+    {
+      "id": "https://tukker.fm/?p=9242",
+      "url": "https://tukker.fm/mariska-van-loon-de-paladijns-overleden/",
+      "title": "Mariska van Loon (De Paladijns) overleden",
+      "content_text": "Mariska van Loon (De Paladijns) overleden",
+      "date_published": "2026-03-02T19:14:29.000Z"
+    }
+  ]
+}

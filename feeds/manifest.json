@@ -1,0 +1,702 @@
+{
+  "version": 1,
+  "generated_at": "2026-11-12T14:19:46.134Z",
+  "stations": {
+    "1": {
+      "name": "Radio Contrabanda",
+      "file": "radio-contrabanda.json",
+      "posts": 10,
+      "latest": "2026-11-08T17:06:30.000Z",
+      "status": "ok",
+      "kind": "rss"
+    },
+    "2": {
+      "name": "Radio Arrebato",
+      "file": "radio-arrebato.json",
+      "posts": 10,
+      "latest": "2026-11-12T13:23:00.000Z",
+      "status": "ok",
+      "kind": "rss"
+    },
+    "3": {
+      "name": "Radio Ciroma",
+      "file": "radio-ciroma.json",
+      "posts": 6,
+      "latest": "2026-06-29T07:56:42.000Z",
+      "status": "ok",
+      "kind": "rss"
+    },
+    "4": {
+      "name": "Eguzki Irratia",
+      "file": null,
+      "posts": 0,
+      "latest": null,
+      "status": "empty",
+      "kind": "feed"
+    },
+    "5": {
+      "name": "Radio Città Fujiko",
+      "file": null,
+      "posts": 0,
+      "latest": null,
+      "status": "error",
+      "kind": null
+    },
+    "6": {
+      "name": "Radio Bip",
+      "file": "radio-bip.json",
+      "posts": 10,
+      "latest": "2026-10-30T19:23:54.000Z",
+      "status": "ok",
+      "kind": "rss"
+    },
+    "7": {
+      "name": "FM La Tribu",
+      "file": null,
+      "posts": 0,
+      "latest": null,
+      "status": "no_feed",
+      "kind": null
+    },
+    "8": {
+      "name": "Radiofabrik",
+      "file": "radiofabrik.json",
+      "posts": 10,
+      "latest": "2026-11-11T18:00:48.000Z",
+      "status": "ok",
+      "kind": "rss"
+    },
+    "9": {
+      "name": "Radio QK",
+      "file": "radio-qk.json",
+      "posts": 10,
+      "latest": "2026-09-20T08:10:55.946Z",
+      "status": "ok",
+      "kind": "atom"
+    },
+    "10": {
+      "name": "Radio Pica",
+      "file": null,
+      "posts": 0,
+      "latest": null,
+      "status": "no_feed",
+      "kind": null
+    },
+    "11": {
+      "name": "Radio Enlace",
+      "file": "radio-enlace.json",
+      "posts": 10,
+      "latest": "2026-09-23T11:30:56.000Z",
+      "status": "ok",
+      "kind": "rss"
+    },
+    "12": {
+      "name": "Radio la Granja",
+      "file": "radio-la-granja.json",
+      "posts": 10,
+      "latest": "2024-08-29T19:35:21.000Z",
+      "status": "ok",
+      "kind": "rss"
+    },
+    "13": {
+      "name": "Irola Irratia",
+      "file": "irola-irratia.json",
+      "posts": 10,
+      "latest": "2026-11-10T13:38:23.000Z",
+      "status": "ok",
+      "kind": "rss"
+    },
+    "14": {
+      "name": "Radio Malva",
+      "file": "radio-malva.json",
+      "posts": 5,
+      "latest": "2026-11-11T14:06:26.000Z",
+      "status": "ok",
+      "kind": "rss"
+    },
+    "15": {
+      "name": "Ké Huelga Radio",
+      "file": "ke-huelga-radio.json",
+      "posts": 10,
+      "latest": "2026-11-07T17:16:56.000Z",
+      "status": "ok",
+      "kind": "rss"
+    },
+    "16": {
+      "name": "Ràdio Klara",
+      "file": null,
+      "posts": 0,
+      "latest": null,
+      "status": "no_feed",
+      "kind": null
+    },
+    "17": {
+      "name": "Radio Libertaire",
+      "file": null,
+      "posts": 0,
+      "latest": null,
+      "status": "no_feed",
+      "kind": null
+    },
+    "18": {
+      "name": "Radio Topo",
+      "file": "radio-topo.json",
+      "posts": 10,
+      "latest": "2026-11-10T19:35:21.000Z",
+      "status": "ok",
+      "kind": "wp-rest"
+    },
+    "19": {
+      "name": "Radio Vallekas",
+      "file": "radio-vallekas.json",
+      "posts": 6,
+      "latest": "2026-11-08T18:23:24.000Z",
+      "status": "ok",
+      "kind": "rss"
+    },
+    "20": {
+      "name": "Radio Utopía",
+      "file": "radio-utopia.json",
+      "posts": 10,
+      "latest": "2026-11-12T14:01:40.000Z",
+      "status": "ok",
+      "kind": "rss"
+    },
+    "23": {
+      "name": "Radio Almaina",
+      "file": "radio-almaina.json",
+      "posts": 10,
+      "latest": "2026-11-12T09:22:23.000Z",
+      "status": "ok",
+      "kind": "rss"
+    },
+    "24": {
+      "name": "Radio Pirineo",
+      "file": "radio-pirineo.json",
+      "posts": 1,
+      "latest": "2014-01-01T12:37:00.000Z",
+      "status": "ok",
+      "kind": "atom"
+    },
+    "25": {
+      "name": "Radio RSK",
+      "file": "radio-rsk.json",
+      "posts": 10,
+      "latest": "2026-11-11T08:11:31.000Z",
+      "status": "ok",
+      "kind": "rss"
+    },
+    "26": {
+      "name": "Radio Pimienta",
+      "file": "radio-pimienta.json",
+      "posts": 10,
+      "latest": "2026-10-24T07:10:49.000Z",
+      "status": "ok",
+      "kind": "rss"
+    },
+    "27": {
+      "name": "Radio Onda Rossa",
+      "file": "radio-onda-rossa.json",
+      "posts": 10,
+      "latest": "2026-11-12T12:45:00.000Z",
+      "status": "ok",
+      "kind": "rss"
+    },
+    "28": {
+      "name": "Radio Onda d'Urto",
+      "file": "radio-onda-d-urto.json",
+      "posts": 10,
+      "latest": "2026-11-12T13:01:56.000Z",
+      "status": "ok",
+      "kind": "rss"
+    },
+    "29": {
+      "name": "Radio Blackout",
+      "file": "radio-blackout.json",
+      "posts": 10,
+      "latest": "2026-11-11T23:08:07.000Z",
+      "status": "ok",
+      "kind": "rss"
+    },
+    "38": {
+      "name": "Aconchego",
+      "file": "aconchego.json",
+      "posts": 10,
+      "latest": "2025-05-28T17:18:43.000Z",
+      "status": "ok",
+      "kind": "rss"
+    },
+    "43": {
+      "name": "Radio Universitaria",
+      "file": null,
+      "posts": 0,
+      "latest": null,
+      "status": "blocked",
+      "kind": null
+    },
+    "45": {
+      "name": "Radio Roja",
+      "file": null,
+      "posts": 0,
+      "latest": null,
+      "status": "error",
+      "kind": null
+    },
+    "46": {
+      "name": "Radio Kvrruf",
+      "file": "radio-kvrruf.json",
+      "posts": 3,
+      "latest": "2026-11-11T01:44:18.000Z",
+      "status": "ok",
+      "kind": "rss"
+    },
+    "50": {
+      "name": "Conaicop",
+      "file": "conaicop.json",
+      "posts": 10,
+      "latest": "2021-07-28T17:43:00.011Z",
+      "status": "ok",
+      "kind": "atom"
+    },
+    "52": {
+      "name": "Zintzilik Irratia",
+      "file": "zintzilik-irratia.json",
+      "posts": 10,
+      "latest": "2026-11-12T07:42:21.000Z",
+      "status": "ok",
+      "kind": "rss"
+    },
+    "57": {
+      "name": "Radio Suscal",
+      "file": "radio-suscal.json",
+      "posts": 3,
+      "latest": "2018-06-29T22:39:00.004Z",
+      "status": "ok",
+      "kind": "atom"
+    },
+    "63": {
+      "name": "Kmoradio",
+      "file": null,
+      "posts": 0,
+      "latest": null,
+      "status": "empty",
+      "kind": "feed"
+    },
+    "65": {
+      "name": "Ahijuna",
+      "file": "ahijuna.json",
+      "posts": 10,
+      "latest": "2024-12-13T14:42:47.000Z",
+      "status": "ok",
+      "kind": "rss"
+    },
+    "66": {
+      "name": "Alba Ciudad 96.3 FM",
+      "file": "alba-ciudad-96-3-fm.json",
+      "posts": 10,
+      "latest": "2026-11-12T05:18:46.000Z",
+      "status": "ok",
+      "kind": "rss"
+    },
+    "69": {
+      "name": "Radio Ciudadana",
+      "file": "radio-ciudadana.json",
+      "posts": 1,
+      "latest": "2022-09-10T19:26:00.011Z",
+      "status": "ok",
+      "kind": "atom"
+    },
+    "73": {
+      "name": "Espika FM",
+      "file": "espika-fm.json",
+      "posts": 5,
+      "latest": "2025-06-23T03:50:41.000Z",
+      "status": "ok",
+      "kind": "rss"
+    },
+    "77": {
+      "name": "Soul System Radio",
+      "file": null,
+      "posts": 0,
+      "latest": null,
+      "status": "error",
+      "kind": null
+    },
+    "81": {
+      "name": "ERPE",
+      "file": null,
+      "posts": 0,
+      "latest": null,
+      "status": "no_feed",
+      "kind": null
+    },
+    "88": {
+      "name": "INFINITO FM",
+      "file": null,
+      "posts": 0,
+      "latest": null,
+      "status": "error",
+      "kind": null
+    },
+    "90": {
+      "name": "Radio Plaza de la Dignidad",
+      "file": null,
+      "posts": 0,
+      "latest": null,
+      "status": "empty",
+      "kind": "feed"
+    },
+    "91": {
+      "name": "La 5ta Pata",
+      "file": "la-5ta-pata.json",
+      "posts": 10,
+      "latest": "2026-11-07T19:45:47.000Z",
+      "status": "ok",
+      "kind": "rss"
+    },
+    "97": {
+      "name": "Cholollan Radio",
+      "file": null,
+      "posts": 0,
+      "latest": null,
+      "status": "no_feed",
+      "kind": null
+    },
+    "100": {
+      "name": "Mochileros",
+      "file": "mochileros.json",
+      "posts": 6,
+      "latest": "2026-04-25T16:37:36.000Z",
+      "status": "ok",
+      "kind": "html"
+    },
+    "121": {
+      "name": "AppRadio",
+      "file": "appradio.json",
+      "posts": 1,
+      "latest": "2021-09-17T22:01:54.000Z",
+      "status": "ok",
+      "kind": "rss"
+    },
+    "123": {
+      "name": "Radio Caroline",
+      "file": null,
+      "posts": 0,
+      "latest": null,
+      "status": "no_feed",
+      "kind": null
+    },
+    "124": {
+      "name": "FM La Boca",
+      "file": "fm-la-boca.json",
+      "posts": 10,
+      "latest": "2026-11-12T14:00:10.000Z",
+      "status": "ok",
+      "kind": "rss"
+    },
+    "125": {
+      "name": "Color Comunitaria",
+      "file": "color-comunitaria.json",
+      "posts": 10,
+      "latest": "2026-10-27T13:19:08.000Z",
+      "status": "ok",
+      "kind": "rss"
+    },
+    "126": {
+      "name": "Cuac FM",
+      "file": "cuac-fm.json",
+      "posts": 10,
+      "latest": "2026-11-10T19:31:44.000Z",
+      "status": "ok",
+      "kind": "rss"
+    },
+    "127": {
+      "name": "Radio Guiniguada",
+      "file": "radio-guiniguada.json",
+      "posts": 10,
+      "latest": "2026-11-12T08:00:00.000Z",
+      "status": "ok",
+      "kind": "rss"
+    },
+    "128": {
+      "name": "Almenara Radio",
+      "file": "almenara-radio.json",
+      "posts": 3,
+      "latest": "2026-03-25T11:00:00.000Z",
+      "status": "ok",
+      "kind": "rss"
+    },
+    "129": {
+      "name": "Radio Argayo",
+      "file": "radio-argayo.json",
+      "posts": 10,
+      "latest": "2026-11-07T00:00:00.000Z",
+      "status": "ok",
+      "kind": "atom"
+    },
+    "130": {
+      "name": "Eco Leganés",
+      "file": "eco-leganes.json",
+      "posts": 10,
+      "latest": "2026-11-05T19:34:01.000Z",
+      "status": "ok",
+      "kind": "rss"
+    },
+    "131": {
+      "name": "Ovejas Negrax",
+      "file": "ovejas-negrax.json",
+      "posts": 10,
+      "latest": "2026-11-01T19:59:59.000Z",
+      "status": "ok",
+      "kind": "rss"
+    },
+    "132": {
+      "name": "OMC Onda Merlín Comunitaria",
+      "file": "omc-onda-merlin-comunitaria.json",
+      "posts": 10,
+      "latest": "2026-07-09T11:50:57.000Z",
+      "status": "ok",
+      "kind": "rss"
+    },
+    "133": {
+      "name": "Radio Iris 7",
+      "file": "radio-iris-7.json",
+      "posts": 10,
+      "latest": "2026-11-09T11:46:14.000Z",
+      "status": "ok",
+      "kind": "rss"
+    },
+    "134": {
+      "name": "Siberia FM",
+      "file": "siberia-fm.json",
+      "posts": 10,
+      "latest": "2026-10-27T18:28:12.000Z",
+      "status": "ok",
+      "kind": "rss"
+    },
+    "135": {
+      "name": "Radio Xata",
+      "file": "radio-xata.json",
+      "posts": 10,
+      "latest": "2026-11-06T16:45:35.000Z",
+      "status": "ok",
+      "kind": "rss"
+    },
+    "136": {
+      "name": "Radiópolis",
+      "file": "radiopolis.json",
+      "posts": 10,
+      "latest": "2023-11-13T17:21:31.000Z",
+      "status": "ok",
+      "kind": "rss"
+    },
+    "137": {
+      "name": "RTVC Ràdio Televisió Cardedeu",
+      "file": "rtvc-radio-televisio-cardedeu.json",
+      "posts": 10,
+      "latest": "2021-12-14T10:52:53.000Z",
+      "status": "ok",
+      "kind": "rss"
+    },
+    "138": {
+      "name": "Hala Bedi Irratia",
+      "file": "hala-bedi-irratia.json",
+      "posts": 10,
+      "latest": "2026-11-12T10:41:27.000Z",
+      "status": "ok",
+      "kind": "rss"
+    },
+    "139": {
+      "name": "Onda Latina",
+      "file": null,
+      "posts": 0,
+      "latest": null,
+      "status": "no_feed",
+      "kind": null
+    },
+    "140": {
+      "name": "Radio Piratona",
+      "file": null,
+      "posts": 0,
+      "latest": null,
+      "status": "no_feed",
+      "kind": null
+    },
+    "141": {
+      "name": "Radio Sintonía",
+      "file": null,
+      "posts": 0,
+      "latest": null,
+      "status": "no_feed",
+      "kind": null
+    },
+    "142": {
+      "name": "Ágora Sol Radio",
+      "file": "agora-sol-radio.json",
+      "posts": 8,
+      "latest": "2026-11-11T07:21:38.000Z",
+      "status": "ok",
+      "kind": "rss"
+    },
+    "143": {
+      "name": "Radio Roncudo",
+      "file": "radio-roncudo.json",
+      "posts": 10,
+      "latest": "2026-01-03T11:19:11.000Z",
+      "status": "ok",
+      "kind": "rss"
+    },
+    "144": {
+      "name": "Paradigma Radio",
+      "file": "paradigma-radio.json",
+      "posts": 10,
+      "latest": "2026-11-12T08:00:00.000Z",
+      "status": "ok",
+      "kind": "rss"
+    },
+    "145": {
+      "name": "Radio Kolor",
+      "file": "radio-kolor.json",
+      "posts": 10,
+      "latest": "2026-11-11T06:38:11.000Z",
+      "status": "ok",
+      "kind": "rss"
+    },
+    "146": {
+      "name": "Onda Polígono",
+      "file": null,
+      "posts": 0,
+      "latest": null,
+      "status": "no_feed",
+      "kind": null
+    },
+    "147": {
+      "name": "Radio FilispiM",
+      "file": "radio-filispim.json",
+      "posts": 10,
+      "latest": "2026-11-08T12:23:29.317Z",
+      "status": "ok",
+      "kind": "atom"
+    },
+    "148": {
+      "name": "Hirschmilch Radio",
+      "file": null,
+      "posts": 0,
+      "latest": null,
+      "status": "no_feed",
+      "kind": null
+    },
+    "149": {
+      "name": "Alpha Boys School Radio",
+      "file": "alpha-boys-school-radio.json",
+      "posts": 10,
+      "latest": "2026-10-04T17:29:14.000Z",
+      "status": "ok",
+      "kind": "rss"
+    },
+    "150": {
+      "name": "Klassik Radio",
+      "file": "klassik-radio.json",
+      "posts": 10,
+      "latest": "2026-11-05T05:00:09.088Z",
+      "status": "ok",
+      "kind": "html"
+    },
+    "151": {
+      "name": "Serenade Radio",
+      "file": null,
+      "posts": 0,
+      "latest": null,
+      "status": "empty",
+      "kind": "feed"
+    },
+    "152": {
+      "name": "192 Radio Veronica",
+      "file": "192-radio-veronica.json",
+      "posts": 10,
+      "latest": "2026-11-12T07:00:51.000Z",
+      "status": "ok",
+      "kind": "rss"
+    },
+    "153": {
+      "name": "Tukker FM",
+      "file": "tukker-fm.json",
+      "posts": 10,
+      "latest": "2026-09-22T10:44:55.000Z",
+      "status": "ok",
+      "kind": "rss"
+    },
+    "154": {
+      "name": "Muziekknallers",
+      "file": null,
+      "posts": 0,
+      "latest": null,
+      "status": "no_feed",
+      "kind": null
+    },
+    "155": {
+      "name": "Tiri 2",
+      "file": null,
+      "posts": 0,
+      "latest": null,
+      "status": "no_feed",
+      "kind": null
+    },
+    "156": {
+      "name": "Tilos Rádió",
+      "file": null,
+      "posts": 0,
+      "latest": null,
+      "status": "no_feed",
+      "kind": null
+    },
+    "157": {
+      "name": "Radio Seagull",
+      "file": null,
+      "posts": 0,
+      "latest": null,
+      "status": "no_feed",
+      "kind": null
+    },
+    "158": {
+      "name": "SlaveFM",
+      "file": null,
+      "posts": 0,
+      "latest": null,
+      "status": "no_feed",
+      "kind": null
+    },
+    "159": {
+      "name": "AccentFM",
+      "file": null,
+      "posts": 0,
+      "latest": null,
+      "status": "no_feed",
+      "kind": null
+    },
+    "160": {
+      "name": "Echtepiraten.nl",
+      "file": null,
+      "posts": 0,
+      "latest": null,
+      "status": "no_feed",
+      "kind": null
+    },
+    "161": {
+      "name": "Voice of Chongro",
+      "file": null,
+      "posts": 0,
+      "latest": null,
+      "status": "no_feed",
+      "kind": null
+    },
+    "162": {
+      "name": "Epic Factory Underground",
+      "file": null,
+      "posts": 0,
+      "latest": null,
+      "status": "no_feed",
+      "kind": null
+    }
+  }
+}

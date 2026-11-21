@@ -1,0 +1,82 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Cuac FM — latest posts",
+  "home_page_url": "https://cuacfm.org/",
+  "feed_url": "https://mrhumildad.github.io/riotsradios-epg/feeds/cuac-fm.json",
+  "_station_id": 126,
+  "_station_name": "Cuac FM",
+  "_source": "https://cuacfm.org/feed/",
+  "_generated_at": "2026-11-12T14:19:54.732Z",
+  "items": [
+    {
+      "id": "https://cuacfm.org/?p=6792",
+      "url": "https://cuacfm.org/novas/especial-folga-xeral-11-novembro-cuac-fm/",
+      "title": "CUAC FM emite un especial en directo sobre a folga xeral",
+      "content_text": "CUAC FM emite un especial en directo sobre a folga xeral",
+      "date_published": "2026-11-10T19:31:44.000Z"
+    },
+    {
+      "id": "https://cuacfm.org/?p=6768",
+      "url": "https://cuacfm.org/novas/novo-decreto-dab-cope-ser-e-radio-maria-durmen-tranquilas-cuac-fm-e-as-comunitarias-seguen-fora/",
+      "title": "Novo decreto DAB+: COPE, SER e Radio María durmen tranquilas; CUAC FM e as comunitarias seguen fóra",
+      "content_text": "Novo decreto DAB+: COPE, SER e Radio María durmen tranquilas; CUAC FM e as comunitarias seguen fóra",
+      "date_published": "2026-11-10T10:40:22.000Z"
+    },
+    {
+      "id": "https://cuacfm.org/?p=6757",
+      "url": "https://cuacfm.org/novas/a-radio-dos-gatos-aspace-coruna-15-anos/",
+      "title": "A Radio dos Gatos, de Aspace Coruña, chega ás 600 emisións na CUAC FM",
+      "content_text": "A Radio dos Gatos, de Aspace Coruña, chega ás 600 emisións na CUAC FM",
+      "date_published": "2026-11-09T10:33:34.000Z"
+    },
+    {
+      "id": "https://cuacfm.org/?p=6699",
+      "url": "https://cuacfm.org/novas/radio-video-e-app-asi-cubriu-cuac-fm-o-dataforum-justicia/",
+      "title": "Radio, vídeo e app: así cubriu CUAC FM o DATAfórum Justicia",
+      "content_text": "Radio, vídeo e app: así cubriu CUAC FM o DATAfórum Justicia",
+      "date_published": "2026-10-24T10:00:00.000Z"
+    },
+    {
+      "id": "https://cuacfm.org/?p=6661",
+      "url": "https://cuacfm.org/novas/cuac-fm-emite-en-directo-desde-o-dataforum-justicia/",
+      "title": "CUAC FM emite en directo desde o DATAfórum Justicia",
+      "content_text": "CUAC FM emite en directo desde o DATAfórum Justicia",
+      "date_published": "2026-10-21T07:00:00.000Z"
+    },
+    {
+      "id": "https://cuacfm.org/?p=6655",
+      "url": "https://cuacfm.org/novas/escoita-le-e-busca-nace-o-arquivo-sonoro-de-cuac-fm/",
+      "title": "Escoita, le e busca: nace o Arquivo Sonoro de CUAC FM",
+      "content_text": "Escoita, le e busca: nace o Arquivo Sonoro de CUAC FM",
+      "date_published": "2026-10-20T09:05:00.000Z"
+    },
+    {
+      "id": "https://cuacfm.org/?p=6646",
+      "url": "https://cuacfm.org/novas/cuac-fm-abre-este-domingo-a-retirada-de-convites-para-a-noite-de-humor-no-auditorio-de-afundacion/",
+      "title": "CUAC FM abre este domingo a retirada de convites para a noite de humor no Auditorio de Afundación",
+      "content_text": "CUAC FM abre este domingo a retirada de convites para a noite de humor no Auditorio de Afundación",
+      "date_published": "2026-10-03T17:02:48.000Z"
+    },
+    {
+      "id": "https://cuacfm.org/?p=6640",
+      "url": "https://cuacfm.org/novas/radio50ypico-desprazase-a-vigo-para-realizar-un-especial-sobre-anton-beiras-garcia-inventor-do-vigoscopio/",
+      "title": "Radio50yPico desprázase a Vigo para realizar un especial sobre Antón Beiras García, inventor do Vigoscopio",
+      "content_text": "Radio50yPico desprázase a Vigo para realizar un especial sobre Antón Beiras García, inventor do Vigoscopio",
+      "date_published": "2026-10-02T08:00:00.000Z"
+    },
+    {
+      "id": "https://cuacfm.org/?p=6634",
+      "url": "https://cuacfm.org/novas/solzimer-de-malaga-gana-a-batalla-de-bandas-do-xxviii-concurso-de-bandas-e-solistas-de-cuac-fm/",
+      "title": "Solzimer, de Málaga, gaña a Batalla de Bandas do XXVIII Concurso de Bandas e Solistas de CUAC FM",
+      "content_text": "Solzimer, de Málaga, gaña a Batalla de Bandas do XXVIII Concurso de Bandas e Solistas de CUAC FM",
+      "date_published": "2026-09-23T13:57:44.000Z"
+    },
+    {
+      "id": "https://cuacfm.org/?p=6619",
+      "url": "https://cuacfm.org/novas/cuac-fm-estrea-tempada-cunha-grella-renovada-e-tres-estreas/",
+      "title": "CUAC FM estrea tempada cunha grella renovada e tres estreas",
+      "content_text": "CUAC FM estrea tempada cunha grella renovada e tres estreas",
+      "date_published": "2026-09-07T14:07:36.000Z"
+    }
+  ]
+}

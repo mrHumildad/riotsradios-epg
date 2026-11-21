@@ -1,0 +1,82 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Radio Almaina — latest posts",
+  "home_page_url": "https://radioalmaina.org/",
+  "feed_url": "https://mrhumildad.github.io/riotsradios-epg/feeds/radio-almaina.json",
+  "_station_id": 23,
+  "_station_name": "Radio Almaina",
+  "_source": "https://radioalmaina.org/feed/",
+  "_generated_at": "2026-11-12T14:19:51.747Z",
+  "items": [
+    {
+      "id": "https://www.ivoox.com/183721166",
+      "url": "https://radioalmaina.org/2026/11/12/lhdm_episodio-67-del-huevo-la-gallina-y-la-mierda-que-se-avecina/",
+      "title": "LHdM_Episodio 67. Del huevo, la gallina y la mierda que se avecina",
+      "content_text": "LHdM_Episodio 67. Del huevo, la gallina y la mierda que se avecina",
+      "date_published": "2026-11-12T09:22:23.000Z"
+    },
+    {
+      "id": "http://radioalmaina.org/?guid=db7d660fd1d2a3ade2106f1ee042cf41",
+      "url": "https://radioalmaina.org/2026/11/12/es-lo-que-hay-10-11-26/",
+      "title": "Es lo que hay 10/11/26",
+      "content_text": "Es lo que hay 10/11/26",
+      "date_published": "2026-11-12T06:59:04.000Z"
+    },
+    {
+      "id": "https://podcast.radioalmaina.org/?p=541094",
+      "url": "https://radioalmaina.org/2026/11/12/huelga-general-11n-en-granada-cobertura-en-directo-de-radio-almaina/",
+      "title": "Huelga General del 11N en Granada. Cobertura en directo de Radio Almaina.",
+      "content_text": "Huelga General del 11N en Granada. Cobertura en directo de Radio Almaina.",
+      "date_published": "2026-11-11T23:48:36.000Z"
+    },
+    {
+      "id": "http://radioalmaina.org/?guid=8564349526820ecb860ad04bd97b6800",
+      "url": "https://radioalmaina.org/2026/11/11/fascismo-big-data-y-ecocarguitos/",
+      "title": "Fascismo, big data y ecocarguitos",
+      "content_text": "Fascismo, big data y ecocarguitos",
+      "date_published": "2026-11-11T17:14:05.000Z"
+    },
+    {
+      "id": "http://radioalmaina.org/?guid=4e9f89c90932f1e4b36d96e74c232a60",
+      "url": "https://radioalmaina.org/2026/11/10/nosotras-las-personas-2026_11_10/",
+      "title": "Nosotras las Personas 2026_11_10",
+      "content_text": "Nosotras las Personas 2026_11_10",
+      "date_published": "2026-11-10T20:38:08.000Z"
+    },
+    {
+      "id": "http://radioalmaina.org/?guid=64a2349666cae3f736dd1770a2d03574",
+      "url": "https://radioalmaina.org/2026/11/10/episode-292-programa-10-noviembre-2026-radio-carcoma/",
+      "title": "Episode 292: Programa 10 Noviembre 2026 – Radio Carcoma",
+      "content_text": "Episode 292: Programa 10 Noviembre 2026 – Radio Carcoma",
+      "date_published": "2026-11-10T18:42:23.000Z"
+    },
+    {
+      "id": "http://radioalmaina.org/?guid=5bf31a05ec4ab229d8fe89b29a2207a3",
+      "url": "https://radioalmaina.org/2026/11/10/prog-547-10-11-26-r-a-harvest-la-mina-de-oro-de-neil-young/",
+      "title": "PROG. 547 – 10-11-26 – R.A. – (Harvest – La mina de oro de Neil Young)",
+      "content_text": "PROG. 547 – 10-11-26 – R.A. – (Harvest – La mina de oro de Neil Young)",
+      "date_published": "2026-11-10T18:16:42.000Z"
+    },
+    {
+      "id": "http://radioalmaina.org/?guid=800d5e2b4eaecc16fddb5e6e255e97bc",
+      "url": "https://radioalmaina.org/2026/11/10/lar-el-estallido-furioso-de-las-cigarreras-de-a-coruna/",
+      "title": "Lar, el estallido furioso de las cigarreras de A Coruña",
+      "content_text": "Lar, el estallido furioso de las cigarreras de A Coruña",
+      "date_published": "2026-11-10T15:47:41.000Z"
+    },
+    {
+      "id": "http://radioalmaina.org/?guid=e119840fce89a671f53509099d352e03",
+      "url": "https://radioalmaina.org/2026/11/10/2026-11-09-shit-plagiarishits-xii/",
+      "title": "2026-11-09 Shit – Plagiarishits XII",
+      "content_text": "2026-11-09 Shit – Plagiarishits XII",
+      "date_published": "2026-11-10T13:09:50.000Z"
+    },
+    {
+      "id": "http://radioalmaina.org/?guid=7f9d090b56465a866db0514713770cde",
+      "url": "https://radioalmaina.org/2026/11/10/274-manual-de-instrucciones-para-una-salud-imposible/",
+      "title": "274 – Manual de instrucciones para una salud imposible",
+      "content_text": "274 – Manual de instrucciones para una salud imposible",
+      "date_published": "2026-11-10T11:01:10.000Z"
+    }
+  ]
+}

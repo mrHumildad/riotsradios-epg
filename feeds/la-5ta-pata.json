@@ -1,0 +1,82 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "La 5ta Pata — latest posts",
+  "home_page_url": "https://radiolaquintapata.com.ar/",
+  "feed_url": "https://mrhumildad.github.io/riotsradios-epg/feeds/la-5ta-pata.json",
+  "_station_id": 91,
+  "_station_name": "La 5ta Pata",
+  "_source": "https://radiolaquintapata.com.ar/feed/",
+  "_generated_at": "2026-11-12T14:19:54.036Z",
+  "items": [
+    {
+      "id": "https://radiolaquintapata.com.ar/?p=8828",
+      "url": "https://radiolaquintapata.com.ar/2026/11/07/feli-colina-dejo-su-sello-con-el-arte-como-bandera/?utm_source=rss&utm_medium=rss&utm_campaign=feli-colina-dejo-su-sello-con-el-arte-como-bandera",
+      "title": "Feli Colina dejó su sello con el arte como bandera",
+      "content_text": "Feli Colina dejó su sello con el arte como bandera",
+      "date_published": "2026-11-07T19:45:47.000Z"
+    },
+    {
+      "id": "https://radiolaquintapata.com.ar/?p=8823",
+      "url": "https://radiolaquintapata.com.ar/2026/11/06/wi-fi-y-las-redes-publicas/?utm_source=rss&utm_medium=rss&utm_campaign=wi-fi-y-las-redes-publicas",
+      "title": "Wi-fi y Las Redes públicas",
+      "content_text": "Wi-fi y Las Redes públicas",
+      "date_published": "2026-11-06T20:07:10.000Z"
+    },
+    {
+      "id": "https://radiolaquintapata.com.ar/?p=8818",
+      "url": "https://radiolaquintapata.com.ar/2026/11/06/fonsi-denaro-25-anos-de-los-cocineros/?utm_source=rss&utm_medium=rss&utm_campaign=fonsi-denaro-25-anos-de-los-cocineros",
+      "title": "Fonsi Denaro: 25 años de Los Cocineros",
+      "content_text": "Fonsi Denaro: 25 años de Los Cocineros",
+      "date_published": "2026-11-06T19:53:57.000Z"
+    },
+    {
+      "id": "https://radiolaquintapata.com.ar/?p=8815",
+      "url": "https://radiolaquintapata.com.ar/2026/11/06/la-payasa-nene-el-whatsapp-de-los-payasos/?utm_source=rss&utm_medium=rss&utm_campaign=la-payasa-nene-el-whatsapp-de-los-payasos",
+      "title": "La payasa Nené: “El WhatsApp de los payasos”",
+      "content_text": "La payasa Nené: “El WhatsApp de los payasos”",
+      "date_published": "2026-11-06T19:50:29.000Z"
+    },
+    {
+      "id": "https://radiolaquintapata.com.ar/?p=8807",
+      "url": "https://radiolaquintapata.com.ar/2026/11/06/uepc-capital-en-las-calles-por-salario-y-paritarias/?utm_source=rss&utm_medium=rss&utm_campaign=uepc-capital-en-las-calles-por-salario-y-paritarias",
+      "title": "UEPC Capital en las calles por salario y paritarias",
+      "content_text": "UEPC Capital en las calles por salario y paritarias",
+      "date_published": "2026-11-06T19:49:02.000Z"
+    },
+    {
+      "id": "https://radiolaquintapata.com.ar/?p=8804",
+      "url": "https://radiolaquintapata.com.ar/2026/11/05/caso-max-y-lulen-juicio-sin-perspectiva-de-genero/?utm_source=rss&utm_medium=rss&utm_campaign=caso-max-y-lulen-juicio-sin-perspectiva-de-genero",
+      "title": "Caso Max y Lulen: Juicio sin perspectiva de género",
+      "content_text": "Caso Max y Lulen: Juicio sin perspectiva de género",
+      "date_published": "2026-11-05T19:28:25.000Z"
+    },
+    {
+      "id": "https://radiolaquintapata.com.ar/?p=8801",
+      "url": "https://radiolaquintapata.com.ar/2026/11/05/reporte-semanal-desde-punilla/?utm_source=rss&utm_medium=rss&utm_campaign=reporte-semanal-desde-punilla",
+      "title": "Reporte semanal desde Punilla",
+      "content_text": "Reporte semanal desde Punilla",
+      "date_published": "2026-11-05T19:21:10.000Z"
+    },
+    {
+      "id": "https://radiolaquintapata.com.ar/?p=8798",
+      "url": "https://radiolaquintapata.com.ar/2026/11/05/vabieka-fest-festival-internacional-de-humor/?utm_source=rss&utm_medium=rss&utm_campaign=vabieka-fest-festival-internacional-de-humor",
+      "title": "Vabieka Fest: Festival Internacional de Humor",
+      "content_text": "Vabieka Fest: Festival Internacional de Humor",
+      "date_published": "2026-11-05T19:17:29.000Z"
+    },
+    {
+      "id": "https://radiolaquintapata.com.ar/?p=8792",
+      "url": "https://radiolaquintapata.com.ar/2026/11/04/cooperativas-y-sindicatos-contra-el-ajuste-de-milei/?utm_source=rss&utm_medium=rss&utm_campaign=cooperativas-y-sindicatos-contra-el-ajuste-de-milei",
+      "title": "Cooperativas y sindicatos contra el ajuste de Milei",
+      "content_text": "Cooperativas y sindicatos contra el ajuste de Milei",
+      "date_published": "2026-11-04T20:54:31.000Z"
+    },
+    {
+      "id": "https://radiolaquintapata.com.ar/?p=8789",
+      "url": "https://radiolaquintapata.com.ar/2026/10/30/celebracion-del-dia-de-muertos/?utm_source=rss&utm_medium=rss&utm_campaign=celebracion-del-dia-de-muertos",
+      "title": "Celebración del Día de Muertos",
+      "content_text": "Celebración del Día de Muertos",
+      "date_published": "2026-10-30T17:16:45.000Z"
+    }
+  ]
+}

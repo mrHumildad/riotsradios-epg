@@ -1,0 +1,8 @@
+{
+  "schema": 1,
+  "version": "61c7d40aebd3cf384d6333af15a25760fc53bf2a85590ed1be82e199c4d9ed67",
+  "file": "stations.csv",
+  "rows": 89,
+  "generated_at": "2026-11-21T12:59:16.351Z",
+  "health": "health.json"
+}

@@ -1,0 +1,47 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Radio Malva — latest posts",
+  "home_page_url": "https://radiomalva.org/",
+  "feed_url": "https://mrhumildad.github.io/riotsradios-epg/feeds/radio-malva.json",
+  "_station_id": 14,
+  "_station_name": "Radio Malva",
+  "_source": "https://radiomalva.org/feed/",
+  "_generated_at": "2026-11-12T14:19:48.058Z",
+  "items": [
+    {
+      "id": "http://radiomalva.org/?p=35388",
+      "url": "https://radiomalva.org/2026/11/11/11n-vaga-general-piquet-informatiu-pel-dret-a-lhabitatge/",
+      "title": "11N Vaga General – Piquet informatiu pel dret a l’habitatge",
+      "content_text": "11N Vaga General – Piquet informatiu pel dret a l’habitatge",
+      "date_published": "2026-11-11T14:06:26.000Z"
+    },
+    {
+      "id": "http://radiomalva.org/?p=35383",
+      "url": "https://radiomalva.org/2026/11/11/piquete-informativo/",
+      "title": "Piquete informativo",
+      "content_text": "Piquete informativo",
+      "date_published": "2026-11-11T08:41:26.000Z"
+    },
+    {
+      "id": "http://radiomalva.org/?p=35378",
+      "url": "https://radiomalva.org/2026/11/10/hardcuore495-la-boca-llena-de-trigo-mayte-gomez-molina/",
+      "title": "HardCuore#495. La boca llena de trigo | Mayte Gómez Molina",
+      "content_text": "HardCuore#495. La boca llena de trigo | Mayte Gómez Molina",
+      "date_published": "2026-11-10T11:41:07.000Z"
+    },
+    {
+      "id": "http://radiomalva.org/?p=35374",
+      "url": "https://radiomalva.org/2026/11/09/radioflautas-589-parke-alcosa-sudafrica-la-nueva-ola-xenofoba-y-movilizacion-contra-teva/",
+      "title": "RadioFlautas 589: Parke Alcosa , Sudáfrica: la nueva ola xenófoba y Movilización contra Teva",
+      "content_text": "RadioFlautas 589: Parke Alcosa , Sudáfrica: la nueva ola xenófoba y Movilización contra Teva",
+      "date_published": "2026-11-09T20:19:50.000Z"
+    },
+    {
+      "id": "http://radiomalva.org/?p=35370",
+      "url": "https://radiomalva.org/2026/11/09/191-programa-tofuria-9-noviembre-2026-mesa-redonda-no-mixticidades-vol-1/",
+      "title": "191 Programa TOFUria 9 Noviembre 2026 Mesa redonda no mixticidades Vol. 1",
+      "content_text": "191 Programa TOFUria 9 Noviembre 2026 Mesa redonda no mixticidades Vol. 1",
+      "date_published": "2026-11-09T20:00:00.000Z"
+    }
+  ]
+}

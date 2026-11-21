@@ -1,0 +1,82 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Radio Xata — latest posts",
+  "home_page_url": "https://radioxata.org/",
+  "feed_url": "https://mrhumildad.github.io/riotsradios-epg/feeds/radio-xata.json",
+  "_station_id": 135,
+  "_station_name": "Radio Xata",
+  "_source": "https://radioxata.org/feed/",
+  "_generated_at": "2026-11-12T14:19:57.350Z",
+  "items": [
+    {
+      "id": "https://radioxata.org/?p=1077",
+      "url": "https://radioxata.org/11n-programacion-especial-huelga-general/?utm_source=rss&utm_medium=rss&utm_campaign=11n-programacion-especial-huelga-general",
+      "title": "11N, programación especial huelga general",
+      "content_text": "11N, programación especial huelga general",
+      "date_published": "2026-11-06T16:45:35.000Z"
+    },
+    {
+      "id": "https://radioxata.org/?p=1068",
+      "url": "https://radioxata.org/los-medios-comunitarios-dan-un-paso-historico-hacia-la-igualdad/?utm_source=rss&utm_medium=rss&utm_campaign=los-medios-comunitarios-dan-un-paso-historico-hacia-la-igualdad",
+      "title": "Los medios comunitarios dan un paso histórico hacia la igualdad",
+      "content_text": "Los medios comunitarios dan un paso histórico hacia la igualdad",
+      "date_published": "2026-10-21T18:55:00.000Z"
+    },
+    {
+      "id": "https://radioxata.org/?p=1072",
+      "url": "https://radioxata.org/24-de-octubre-100fuegos-en-la-fal/?utm_source=rss&utm_medium=rss&utm_campaign=24-de-octubre-100fuegos-en-la-fal",
+      "title": "24 de octubre, 100Fuegos en la FAL",
+      "content_text": "24 de octubre, 100Fuegos en la FAL",
+      "date_published": "2026-10-21T17:29:08.000Z"
+    },
+    {
+      "id": "https://radioxata.org/?p=1065",
+      "url": "https://radioxata.org/aniversario-de-la-casa-sindical-la-piketa/?utm_source=rss&utm_medium=rss&utm_campaign=aniversario-de-la-casa-sindical-la-piketa",
+      "title": "Aniversario de la Casa Sindical La Piketa.",
+      "content_text": "Aniversario de la Casa Sindical La Piketa.",
+      "date_published": "2026-10-20T19:11:42.000Z"
+    },
+    {
+      "id": "https://radioxata.org/?p=1060",
+      "url": "https://radioxata.org/17-octubre-en-el-aniversario-de-la-casa-sindical-la-piketa/?utm_source=rss&utm_medium=rss&utm_campaign=17-octubre-en-el-aniversario-de-la-casa-sindical-la-piketa",
+      "title": "17 octubre, en el aniversario de la Casa Sindical La Piketa",
+      "content_text": "17 octubre, en el aniversario de la Casa Sindical La Piketa",
+      "date_published": "2026-10-09T16:01:53.000Z"
+    },
+    {
+      "id": "https://radioxata.org/?p=1056",
+      "url": "https://radioxata.org/entrevista-ignacio-marin-hijos-del-caballo-blanco/?utm_source=rss&utm_medium=rss&utm_campaign=entrevista-ignacio-marin-hijos-del-caballo-blanco",
+      "title": "ENTREVISTA. Ignacio Marín, «Hijos del caballo blanco».",
+      "content_text": "ENTREVISTA. Ignacio Marín, «Hijos del caballo blanco».",
+      "date_published": "2026-09-29T17:28:48.000Z"
+    },
+    {
+      "id": "https://radioxata.org/?p=1053",
+      "url": "https://radioxata.org/octubre-de-presentaciones-del-libro-en-asturies-9-en-uvieu-10-en-mieres/?utm_source=rss&utm_medium=rss&utm_campaign=octubre-de-presentaciones-del-libro-en-asturies-9-en-uvieu-10-en-mieres",
+      "title": "Octubre de presentaciones del libro en Asturies: 9 en Uviéu, 10 en Mieres.",
+      "content_text": "Octubre de presentaciones del libro en Asturies: 9 en Uviéu, 10 en Mieres.",
+      "date_published": "2026-09-29T17:11:02.000Z"
+    },
+    {
+      "id": "https://radioxata.org/?p=1046",
+      "url": "https://radioxata.org/19-de-septiembre-en-la-feria-de-asociaciones-de-pinto/?utm_source=rss&utm_medium=rss&utm_campaign=19-de-septiembre-en-la-feria-de-asociaciones-de-pinto",
+      "title": "19 de septiembre en la Feria de Asociaciones de Pinto",
+      "content_text": "19 de septiembre en la Feria de Asociaciones de Pinto",
+      "date_published": "2026-09-09T13:06:23.000Z"
+    },
+    {
+      "id": "https://radioxata.org/?p=1043",
+      "url": "https://radioxata.org/taller-gratuito-de-iniciacion-al-podcast/?utm_source=rss&utm_medium=rss&utm_campaign=taller-gratuito-de-iniciacion-al-podcast",
+      "title": "Taller gratuito de iniciación al podcast",
+      "content_text": "Taller gratuito de iniciación al podcast",
+      "date_published": "2026-09-09T12:17:25.000Z"
+    },
+    {
+      "id": "https://radioxata.org/?p=1033",
+      "url": "https://radioxata.org/huelga-en-la-educacion-infantil-entrevista/?utm_source=rss&utm_medium=rss&utm_campaign=huelga-en-la-educacion-infantil-entrevista",
+      "title": "Huelga en la educación infantil. ENTREVISTA con Lucía (Aranjuez)",
+      "content_text": "Huelga en la educación infantil. ENTREVISTA con Lucía (Aranjuez)",
+      "date_published": "2026-09-04T10:01:40.000Z"
+    }
+  ]
+}

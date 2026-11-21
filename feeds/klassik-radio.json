@@ -1,0 +1,82 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Klassik Radio — latest posts",
+  "home_page_url": "https://www.klassikradio.de/",
+  "feed_url": "https://mrhumildad.github.io/riotsradios-epg/feeds/klassik-radio.json",
+  "_station_id": 150,
+  "_station_name": "Klassik Radio",
+  "_source": "https://www.klassikradio.de/aktuelles/",
+  "_generated_at": "2026-11-12T14:19:58.866Z",
+  "items": [
+    {
+      "id": "https://www.klassikradio.de/aktuelles/unser-kollege-rolando-villazon-wird-mit-der-goldenen-erbse-ausgezeichnet/",
+      "url": "https://www.klassikradio.de/aktuelles/unser-kollege-rolando-villazon-wird-mit-der-goldenen-erbse-ausgezeichnet/",
+      "title": "Unser Kollege Rolando Villazón wird mit der „Goldenen Erbse“ ausgezeichnet",
+      "content_text": "Unser Kollege Rolando Villazón wird mit der „Goldenen Erbse“ ausgezeichnet",
+      "date_published": "2026-11-05T05:00:09.088Z"
+    },
+    {
+      "id": "https://www.klassikradio.de/aktuelles/man-sollte-mehr-miteinander-machen-wie-zwei-15-jaehrige-die-klassik-neu-denken/",
+      "url": "https://www.klassikradio.de/aktuelles/man-sollte-mehr-miteinander-machen-wie-zwei-15-jaehrige-die-klassik-neu-denken/",
+      "title": "„Man sollte mehr miteinander machen“ – Wie zwei 15-Jährige die Klassik neu denken",
+      "content_text": "„Man sollte mehr miteinander machen“ – Wie zwei 15-Jährige die Klassik neu denken",
+      "date_published": "2026-10-30T09:44:39.461Z"
+    },
+    {
+      "id": "https://www.klassikradio.de/aktuelles/50-jahre-augsburger-domsingknaben-ein-stueck-musikgeschichte/",
+      "url": "https://www.klassikradio.de/aktuelles/50-jahre-augsburger-domsingknaben-ein-stueck-musikgeschichte/",
+      "title": "50 Jahre Augsburger Domsingknaben – ein Stück Musikgeschichte",
+      "content_text": "50 Jahre Augsburger Domsingknaben – ein Stück Musikgeschichte",
+      "date_published": "2026-10-29T14:49:12.307Z"
+    },
+    {
+      "id": "https://www.klassikradio.de/aktuelles/ein-rucksack-voller-kultur-wie-nuernberg-kindern-neue-welten-eroeffnet/",
+      "url": "https://www.klassikradio.de/aktuelles/ein-rucksack-voller-kultur-wie-nuernberg-kindern-neue-welten-eroeffnet/",
+      "title": "Ein Rucksack voller Kultur – wie Nürnberg Kindern neue Welten eröffnet",
+      "content_text": "Ein Rucksack voller Kultur – wie Nürnberg Kindern neue Welten eröffnet",
+      "date_published": "2026-10-28T13:58:18.970Z"
+    },
+    {
+      "id": "https://www.klassikradio.de/aktuelles/weltklasse-musik-in-roms-heiligen-raeumen-ein-einzigartiges-erlebnis-aus-spitzenmusik-und-sakraler-schoenheit/",
+      "url": "https://www.klassikradio.de/aktuelles/weltklasse-musik-in-roms-heiligen-raeumen-ein-einzigartiges-erlebnis-aus-spitzenmusik-und-sakraler-schoenheit/",
+      "title": "Weltklasse-Musik in Roms heiligen Räumen: Ein einzigartiges Erlebnis aus Spitzenmusik und sakraler Schönheit",
+      "content_text": "Weltklasse-Musik in Roms heiligen Räumen: Ein einzigartiges Erlebnis aus Spitzenmusik und sakraler Schönheit",
+      "date_published": "2026-10-27T15:49:35.295Z"
+    },
+    {
+      "id": "https://www.klassikradio.de/aktuelles/no-silence-ist-mein-leben-starpianist-igor-levit-ueber-sein-neues-musiklabel/",
+      "url": "https://www.klassikradio.de/aktuelles/no-silence-ist-mein-leben-starpianist-igor-levit-ueber-sein-neues-musiklabel/",
+      "title": "„No Silence ist mein Leben“ – Starpianist Igor Levit über sein neues Musiklabel",
+      "content_text": "„No Silence ist mein Leben“ – Starpianist Igor Levit über sein neues Musiklabel",
+      "date_published": "2026-10-26T15:04:13.273Z"
+    },
+    {
+      "id": "https://www.klassikradio.de/aktuelles/ein-fluegel-im-bodensee-ein-13-jaehriger-am-klavier-die-unglaubliche-geschichte-von-levin-giesler/",
+      "url": "https://www.klassikradio.de/aktuelles/ein-fluegel-im-bodensee-ein-13-jaehriger-am-klavier-die-unglaubliche-geschichte-von-levin-giesler/",
+      "title": "Ein Flügel im Bodensee, ein 13-Jähriger am Klavier: Die unglaubliche Geschichte von Levin Giesler",
+      "content_text": "Ein Flügel im Bodensee, ein 13-Jähriger am Klavier: Die unglaubliche Geschichte von Levin Giesler",
+      "date_published": "2026-10-22T08:27:02.813Z"
+    },
+    {
+      "id": "https://www.klassikradio.de/aktuelles/selbst-schlangen-muessen-vorsingen-die-absurdesten-tier-castings-der-oper/",
+      "url": "https://www.klassikradio.de/aktuelles/selbst-schlangen-muessen-vorsingen-die-absurdesten-tier-castings-der-oper/",
+      "title": "Selbst Schlangen müssen vorsingen! Die absurdesten Tier-Castings der Oper",
+      "content_text": "Selbst Schlangen müssen vorsingen! Die absurdesten Tier-Castings der Oper",
+      "date_published": "2026-10-21T09:06:28.066Z"
+    },
+    {
+      "id": "https://www.klassikradio.de/aktuelles/reisen-fuer-die-seele-fuenf-staedte-voller-musik-und-kultur/",
+      "url": "https://www.klassikradio.de/aktuelles/reisen-fuer-die-seele-fuenf-staedte-voller-musik-und-kultur/",
+      "title": "Reisen für die Seele: Fünf Städte voller Musik und Kultur",
+      "content_text": "Reisen für die Seele: Fünf Städte voller Musik und Kultur",
+      "date_published": "2026-10-20T12:01:31.608Z"
+    },
+    {
+      "id": "https://www.klassikradio.de/aktuelles/gewinnspiele/",
+      "url": "https://www.klassikradio.de/aktuelles/gewinnspiele/",
+      "title": "Gewinnspiele",
+      "content_text": "Gewinnspiele",
+      "date_published": "2023-06-12T11:25:05.407Z"
+    }
+  ]
+}
