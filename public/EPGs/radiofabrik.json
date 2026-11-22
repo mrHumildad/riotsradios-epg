@@ -4,9 +4,9 @@
   "station_id": 8,
   "schedule_type": "weekly",
   "timezone": "Europe/Vienna",
-  "last_updated": "2026-11-21",
+  "last_updated": "2026-11-22",
   "source": "https://radiofabrik.at/programm/sendungen/",
-  "notes": "Generado automáticamente desde https://radiofabrik.at/programm/sendungen/ (snapshot 2026-11-21); revisar data/epg-report.json.",
+  "notes": "Generado automáticamente desde https://radiofabrik.at/programm/sendungen/ (snapshot 2026-11-22); revisar data/epg-report.json.",
   "generator": "scripts/convert-raw-epg.mjs",
   "metadata": {
     "categories": {
@@ -22,94 +22,90 @@
     }
   },
   "shows": {
-    "nachtschiene": {
-      "title": "Nachtschiene",
+    "radiofabrik-von": {
+      "title": "Radiofabrik von",
       "category": "directo"
     },
-    "jazznight-by-n-fuchs": {
-      "title": "Jazznight by N. Fuchs",
+    "nachtschiene": {
+      "title": "Nachtschiene",
       "category": "directo"
     },
     "fruhschicht": {
       "title": "Frühschicht",
       "category": "directo"
     },
-    "nachgefragt-das-salzburger-frauen-radio-der-radiopodcast-fur": {
-      "title": "Nachgefragt: Das Salzburger Frauen*radio. Der Radiopodcast für feministische Themen",
-      "category": "directo"
-    },
     "stepping-to-the-a-m": {
       "title": "stepping to the a.m.",
       "category": "directo"
     },
-    "vol-on-air-reportagen-aus-der-freiwilligenarbeit": {
-      "title": "Vol on air - Reportagen aus der Freiwilligenarbeit",
+    "radiokappchen-marchen-und-geschichten-fur-jung-alt": {
+      "title": "Radiokäppchen. Märchen und Geschichten für Jung & Alt.",
       "category": "directo"
     },
-    "atelier-fur-neue-musik-trans-art-die-synasthesie-der-moderne": {
-      "title": "Atelier für Neue Musik. trans-Art, die Synästhesie der modernen Künste.",
+    "ptasie-radio-vogelradio-die-sendung-aus-der-polnischen-schul": {
+      "title": "Ptasie Radio - Vogelradio - Die Sendung aus der Polnischen Schule in Salzburg",
       "category": "directo"
     },
-    "best-of-horenswert-das-beste-aus-uber-600-alben-der-woche": {
-      "title": "Best of Hörenswert. Das Beste aus über 600 Alben der Woche.",
+    "die-sportschau-mit-markus-dorn": {
+      "title": "Die Sportschau. Mit Markus Dorn..",
       "category": "directo"
     },
-    "the-rocking-50s-eine-stunde-hillbilly-rockabilly-und-rock-n-": {
-      "title": "The Rocking 50s. Eine Stunde Hillbilly, Rockabilly und Rock 'n' roll mit Erik van de Meerakker.",
+    "die-sonntagsmelodie-evergreens-und-raritaten-aus-einem-gro-e": {
+      "title": "Die Sonntagsmelodie. Evergreens und Raritäten aus einem großen Schellack und LP-Archiv mit Edith Schiller.",
       "category": "directo"
     },
-    "airplay-hier-lauft-was-die-welt-hort": {
-      "title": "AirPlay - Hier läuft, was die Welt hört!",
+    "senden-benden-bizden-von-dir-von-mir-von-uns": {
+      "title": "Senden Benden Bizden … Von dir, von mir, von uns …",
       "category": "directo"
     },
-    "treffpunkt-pinzgau-die-radiosendung-von-pinzgauer-innen-fur-": {
-      "title": "Treffpunkt Pinzgau. Die Radiosendung von Pinzgauer_innen für Pinzgauer_innen.",
+    "neuentdeckung-afrikas-afrika-einmal-anders-mit-guy-mavar": {
+      "title": "Neuentdeckung Afrikas. Afrika einmal anders mit Guy Mavar.",
       "category": "directo"
     },
-    "wos-sogga-freies-radio-pinzgau": {
-      "title": "Wos sogga? Freies Radio Pinzgau.",
+    "jugendradio-your-voice-das-bewegte-jugendradio": {
+      "title": "Jugendradio - Your Voice. Das bewegte Jugendradio.",
       "category": "directo"
     },
-    "playlistbattle": {
-      "title": "Playlistbattle",
+    "artarium-das-etwas-andere-kunnstbiotop-mit-norbert-k-hund-ch": {
+      "title": "Artarium. Das etwas andere KUNNSTbiotop mit Norbert K. Hund & Christopher Schmall.",
       "category": "directo"
     },
-    "karls-roaring-sixties-eine-sendung-von-karl-krenner": {
-      "title": "Karls Roaring Sixties. Eine Sendung von Karl Krenner.",
+    "flower-power-radio-die-legendarsten-hits-der-60er-und-70er-j": {
+      "title": "Flower Power Radio. Die legendärsten Hits der 60er und 70er Jahre.",
       "category": "directo"
     },
-    "tod0nada-fm-alles-oder-nichts-todo-o-nada-grammatik-kusst-mu": {
-      "title": "Tod0nada FM: Alles oder nichts, todo o nada - Grammatik küsst Musik",
+    "pflegestutzpunkt-die-sendereihe-uber-pflege-und-deren-zukunf": {
+      "title": "Pflegestützpunkt. Die Sendereihe über Pflege und deren Zukunft von Radio Helsinki (Graz).",
       "category": "directo"
     },
-    "abgrund-alternative-music-stories-and-fun": {
-      "title": "Abgrund. Alternative Music, Stories and Fun.",
+    "wege-theater-horspiel-impro-live": {
+      "title": "WeGe Theater. HÖRSPIEL-IMPRO-LIVE",
       "category": "directo"
     },
-    "battle-hum-der-ultimative-musikalische-schlagabtausch": {
-      "title": "Battle & Hum. Der ultimative musikalische Schlagabtausch.",
+    "traradio-guten-abend-im-musikbett": {
+      "title": "Traradio_GUTEN ABEND im Musikbett.",
       "category": "directo"
     },
-    "seeds-of-doom-the-misery-show-with-bernhard-doomchild-tischl": {
-      "title": "Seeds of Doom. The Misery Show with Bernhard \"Doomchild\" Tischler.",
+    "her-hour-gesprach-ohne-plan": {
+      "title": "Her Hour - Gespräch ohne Plan",
       "category": "directo"
     }
   },
   "days": [
     {
-      "day": "saturday",
-      "label": "Sábado",
+      "day": "sunday",
+      "label": "Domingo",
       "programs": [
         {
-          "start": "00:00",
-          "end": "01:00",
-          "show_id": "nachtschiene",
+          "start": "01:00",
+          "end": "01:06",
+          "show_id": "radiofabrik-von",
           "live": false
         },
         {
-          "start": "01:00",
+          "start": "01:06",
           "end": "06:06",
-          "show_id": "jazznight-by-n-fuchs",
+          "show_id": "nachtschiene",
           "live": false
         },
         {
@@ -120,116 +116,98 @@
         },
         {
           "start": "07:06",
-          "end": "08:00",
+          "end": "08:06",
           "show_id": "fruhschicht",
           "live": false
         },
         {
-          "start": "08:00",
-          "end": "08:30",
-          "show_id": "nachgefragt-das-salzburger-frauen-radio-der-radiopodcast-fur",
-          "live": false
-        },
-        {
-          "start": "08:30",
+          "start": "08:06",
           "end": "09:00",
           "show_id": "stepping-to-the-a-m",
           "live": false
         },
         {
           "start": "09:00",
-          "end": "09:30",
-          "show_id": "stepping-to-the-a-m",
+          "end": "09:32",
+          "show_id": "radiokappchen-marchen-und-geschichten-fur-jung-alt",
           "live": false
         },
         {
-          "start": "09:30",
+          "start": "09:32",
           "end": "10:06",
-          "show_id": "vol-on-air-reportagen-aus-der-freiwilligenarbeit",
+          "show_id": "stepping-to-the-a-m",
           "live": false
         },
         {
           "start": "10:06",
           "end": "11:00",
-          "show_id": "stepping-to-the-a-m",
+          "show_id": "ptasie-radio-vogelradio-die-sendung-aus-der-polnischen-schul",
           "live": false
         },
         {
           "start": "11:00",
           "end": "12:00",
-          "show_id": "atelier-fur-neue-musik-trans-art-die-synasthesie-der-moderne",
+          "show_id": "die-sportschau-mit-markus-dorn",
           "live": false
         },
         {
           "start": "12:00",
-          "end": "13:00",
-          "show_id": "best-of-horenswert-das-beste-aus-uber-600-alben-der-woche",
-          "live": false
-        },
-        {
-          "start": "13:00",
           "end": "14:06",
-          "show_id": "the-rocking-50s-eine-stunde-hillbilly-rockabilly-und-rock-n-",
+          "show_id": "die-sonntagsmelodie-evergreens-und-raritaten-aus-einem-gro-e",
           "live": false
         },
         {
           "start": "14:06",
           "end": "15:00",
-          "show_id": "airplay-hier-lauft-was-die-welt-hort",
+          "show_id": "senden-benden-bizden-von-dir-von-mir-von-uns",
           "live": false
         },
         {
           "start": "15:00",
           "end": "16:00",
-          "show_id": "treffpunkt-pinzgau-die-radiosendung-von-pinzgauer-innen-fur-",
+          "show_id": "neuentdeckung-afrikas-afrika-einmal-anders-mit-guy-mavar",
           "live": false
         },
         {
           "start": "16:00",
           "end": "17:06",
-          "show_id": "wos-sogga-freies-radio-pinzgau",
+          "show_id": "jugendradio-your-voice-das-bewegte-jugendradio",
           "live": false
         },
         {
           "start": "17:06",
           "end": "18:00",
-          "show_id": "playlistbattle",
+          "show_id": "artarium-das-etwas-andere-kunnstbiotop-mit-norbert-k-hund-ch",
           "live": false
         },
         {
           "start": "18:00",
-          "end": "19:06",
-          "show_id": "karls-roaring-sixties-eine-sendung-von-karl-krenner",
+          "end": "19:00",
+          "show_id": "flower-power-radio-die-legendarsten-hits-der-60er-und-70er-j",
           "live": false
         },
         {
-          "start": "19:06",
+          "start": "19:00",
           "end": "20:00",
-          "show_id": "playlistbattle",
+          "show_id": "pflegestutzpunkt-die-sendereihe-uber-pflege-und-deren-zukunf",
           "live": false
         },
         {
           "start": "20:00",
           "end": "21:00",
-          "show_id": "tod0nada-fm-alles-oder-nichts-todo-o-nada-grammatik-kusst-mu",
-          "live": false
+          "show_id": "wege-theater-horspiel-impro-live",
+          "live": true
         },
         {
           "start": "21:00",
           "end": "22:00",
-          "show_id": "abgrund-alternative-music-stories-and-fun",
+          "show_id": "traradio-guten-abend-im-musikbett",
           "live": false
         },
         {
           "start": "22:00",
           "end": "23:00",
-          "show_id": "battle-hum-der-ultimative-musikalische-schlagabtausch",
-          "live": false
-        },
-        {
-          "start": "23:00",
-          "end": "24:00",
-          "show_id": "seeds-of-doom-the-misery-show-with-bernhard-doomchild-tischl",
+          "show_id": "her-hour-gesprach-ohne-plan",
           "live": false
         }
       ]

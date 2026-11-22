@@ -4,9 +4,9 @@
   "station_id": 29,
   "schedule_type": "weekly",
   "timezone": "Europe/Rome",
-  "last_updated": "2026-11-21",
+  "last_updated": "2026-11-22",
   "source": "https://radioblackout.org/palinsesto",
-  "notes": "Generado automáticamente desde https://radioblackout.org/palinsesto (snapshot 2026-11-21); revisar data/epg-report.json.",
+  "notes": "Generado automáticamente desde https://radioblackout.org/palinsesto (snapshot 2026-11-22); revisar data/epg-report.json.",
   "generator": "scripts/convert-raw-epg.mjs",
   "metadata": {
     "categories": {
@@ -22,71 +22,72 @@
     }
   },
   "shows": {
-    "radio-bizarre": {
-      "title": "Radio Bizarre",
+    "matinata": {
+      "title": "Matinata",
       "category": "directo"
     },
-    "alliguai": {
-      "title": "Alliguai",
+    "assadaka-amicizia": {
+      "title": "Assadaka ~ Amicizia",
       "category": "directo"
     },
-    "on-air": {
-      "title": "ON AIR",
+    "cicorie-amare-ecologie": {
+      "title": "Cicorie – Amare Ecologie",
       "category": "directo"
     },
-    "black-milk": {
-      "title": "Black Milk",
+    "fino-all-ultimo-respiro": {
+      "title": "Fino all’ultimo respiro",
       "category": "directo"
     },
-    "tanz-bambolina-dance-or-die": {
-      "title": "Tanz Bambolina,dance or die!",
+    "no-trip-for-cats": {
+      "title": "No Trip For Cats",
       "category": "directo"
     },
-    "b-rave-ragazze": {
-      "title": "B-Rave Ragazze",
+    "a-targhe-alterne": {
+      "title": "a targhe alterne",
       "category": "directo"
     }
   },
   "days": [
     {
-      "day": "saturday",
-      "label": "Sábado",
+      "day": "sunday",
+      "label": "Domingo",
       "programs": [
         {
-          "start": "10:30",
-          "end": "12:00",
-          "show_id": "radio-bizarre",
+          "start": "11:00",
+          "end": "13:00",
+          "show_id": "matinata",
           "live": false
         },
         {
-          "start": "12:00",
-          "end": "13:30",
-          "show_id": "alliguai",
+          "start": "14:00",
+          "end": "17:00",
+          "show_id": "assadaka-amicizia",
           "live": false
         },
         {
-          "start": "13:30",
-          "end": "15:00",
-          "show_id": "on-air",
+          "start": "17:00",
+          "end": "19:00",
+          "show_id": "cicorie-amare-ecologie",
           "live": false
         },
         {
-          "start": "15:00",
-          "end": "18:00",
-          "show_id": "black-milk",
+          "start": "19:00",
+          "end": "21:00",
+          "show_id": "fino-all-ultimo-respiro",
           "live": false
         },
         {
-          "start": "18:00",
-          "end": "19:30",
-          "show_id": "tanz-bambolina-dance-or-die",
+          "start": "21:00",
+          "end": "22:30",
+          "show_id": "no-trip-for-cats",
           "live": false
         },
         {
-          "start": "19:30",
-          "end": "21:30",
-          "show_id": "b-rave-ragazze",
-          "live": false
+          "start": "22:30",
+          "end": "02:00",
+          "show_id": "a-targhe-alterne",
+          "live": false,
+          "crosses_midnight": true
         }
       ]
     }
