@@ -46,7 +46,7 @@ id,name,countrycode,timezone,homepage,epg_url,epg_file,enabled,mailto
 141,Radio Sintonía,ES,Europe/Madrid,https://lasintoniadeptegenil.wixsite.com/lasintonia-es,https://lasintoniadeptegenil.wixsite.com/lasintonia-es/programming,,false,
 142,Ágora Sol Radio,ES,Europe/Madrid,https://www.agorasolradio.org/,https://www.agorasolradio.org/programacion/,agora-sol-radio.json,true,
 143,Radio Roncudo,ES,Europe/Madrid,https://radioroncudo.wordpress.com/,,,false,
-144,Paradigma Radio,ES,Europe/Madrid,https://www.paradigmaradio.org/,,,false,
+144,Paradigma Radio,ES,Europe/Madrid,https://www.paradigmaradio.org/,https://www.paradigmaradio.org/,,false,
 145,Radio Kolor,ES,Europe/Madrid,https://radiokolor.es/,https://radiokolor.es/programas/,radio-kolor.json,true,
 146,Onda Polígono,ES,Europe/Madrid,https://ondapoligono.org/,,,false,
 147,Radio FilispiM,ES,Europe/Madrid,https://opaii.blogspot.com/,,,false,
