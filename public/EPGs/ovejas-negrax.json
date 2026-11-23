@@ -4,9 +4,9 @@
   "station_id": 131,
   "schedule_type": "weekly",
   "timezone": "Europe/Madrid",
-  "last_updated": "2026-11-22",
+  "last_updated": "2026-11-23",
   "source": "https://sapo.radiobot.org/parrilla_cards.php?station=ovejas",
-  "notes": "Generado automáticamente desde https://sapo.radiobot.org/parrilla_cards.php?station=ovejas (snapshot 2026-11-22); revisar data/epg-report.json.",
+  "notes": "Generado automáticamente desde https://sapo.radiobot.org/parrilla_cards.php?station=ovejas (snapshot 2026-11-23); revisar data/epg-report.json.",
   "generator": "scripts/convert-raw-epg.mjs",
   "metadata": {
     "categories": {
@@ -54,8 +54,8 @@
       "title": "Nueva etapa en formato podcast de RADIO CRIMEN en IROLA IRRATIA 107.5FM en Bilbao. Punk, hardcore, oi!, postpunk 70s, 80s, 90s, 00s, 10s y 2",
       "category": "directo"
     },
-    "ahora-en-directo": {
-      "title": "▶️ AHORA EN DIRECTO",
+    "programa-radiofonico-de-entrevistas-y-monograficos-sobre-mov": {
+      "title": "Programa radiofónico de entrevistas y monográficos sobre movimientos sociales y contracultura que se emite los sábados de",
       "category": "directo"
     },
     "madrid-reggae-station-es-tu-podcast-reggae-dancehall-produci": {
@@ -101,8 +101,8 @@
   },
   "days": [
     {
-      "day": "sunday",
-      "label": "Domingo",
+      "day": "monday",
+      "label": "Lunes",
       "programs": [
         {
           "start": "00:00",
@@ -155,8 +155,8 @@
         {
           "start": "09:00",
           "end": "11:00",
-          "show_id": "ahora-en-directo",
-          "live": true
+          "show_id": "programa-radiofonico-de-entrevistas-y-monograficos-sobre-mov",
+          "live": false
         },
         {
           "start": "11:00",
