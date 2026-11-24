@@ -4,9 +4,9 @@
   "station_id": 29,
   "schedule_type": "weekly",
   "timezone": "Europe/Rome",
-  "last_updated": "2026-11-23",
+  "last_updated": "2026-11-24",
   "source": "https://radioblackout.org/palinsesto",
-  "notes": "Generado automáticamente desde https://radioblackout.org/palinsesto (snapshot 2026-11-23); revisar data/epg-report.json.",
+  "notes": "Generado automáticamente desde https://radioblackout.org/palinsesto (snapshot 2026-11-24); revisar data/epg-report.json.",
   "generator": "scripts/convert-raw-epg.mjs",
   "metadata": {
     "categories": {
@@ -22,60 +22,66 @@
     }
   },
   "shows": {
-    "matinee-xxl": {
-      "title": "Matinée XXL",
+    "il-b-l-ekkino": {
+      "title": "Il B(l)ekkino",
+      "category": "directo"
+    },
+    "maximum-rock-n-roll-radio": {
+      "title": "Maximum Rock’n’Roll Radio",
       "category": "directo"
     },
     "l-informazione-di-blackout": {
       "title": "L’Informazione di Blackout",
       "category": "directo"
     },
-    "bello-come-una-prigione-che-brucia": {
-      "title": "Bello come una prigione che brucia",
+    "l-elenco-telefonico-degli-uragani": {
+      "title": "L’elenco telefonico degli uragani",
       "category": "directo"
     },
-    "i-primi-due-lunedi-del-mese": {
-      "title": "i primi due lunedì del mese",
-      "category": "directo"
-    },
-    "aguaplano": {
-      "title": "Aguaplano",
+    "universo-sonoro": {
+      "title": "Universo Sonoro",
       "category": "directo"
     },
     "on-air": {
       "title": "ON AIR",
       "category": "directo"
     },
-    "flip-the-beat": {
-      "title": "FLIP THE BEAT",
+    "overjoy": {
+      "title": "OverJoy",
       "category": "directo"
     },
-    "black-in": {
-      "title": "Black In",
+    "e-sporadico": {
+      "title": "E_sporadico",
       "category": "directo"
     },
-    "macerie-su-macerie": {
-      "title": "Macerie su Macerie",
+    "frittura-mista-radio-fabbrica": {
+      "title": "Frittura mista / Radio Fabbrica",
       "category": "directo"
     },
-    "radio-kalakuta": {
-      "title": "Radio Kalakuta",
+    "riot-on-sunset-strip": {
+      "title": "Riot on Sunset Strip",
       "category": "directo"
     },
-    "malormone": {
-      "title": "Malormone",
+    "musick-to-play-in-the-dark": {
+      "title": "MUSICK TO PLAY IN THE DARK",
       "category": "directo"
     }
   },
   "days": [
     {
-      "day": "monday",
-      "label": "Lunes",
+      "day": "tuesday",
+      "label": "Martes",
       "programs": [
         {
-          "start": "07:00",
+          "start": "00:00",
+          "end": "01:30",
+          "show_id": "il-b-l-ekkino",
+          "live": false
+        },
+        {
+          "start": "08:00",
           "end": "09:00",
-          "show_id": "matinee-xxl",
+          "show_id": "maximum-rock-n-roll-radio",
           "live": false
         },
         {
@@ -85,57 +91,51 @@
           "live": false
         },
         {
-          "start": "11:00",
-          "end": "13:00",
-          "show_id": "bello-come-una-prigione-che-brucia",
+          "start": "12:00",
+          "end": "13:30",
+          "show_id": "l-elenco-telefonico-degli-uragani",
           "live": false
         },
         {
-          "start": "13:00",
-          "end": "14:30",
-          "show_id": "i-primi-due-lunedi-del-mese",
+          "start": "13:30",
+          "end": "15:30",
+          "show_id": "universo-sonoro",
           "live": false
         },
         {
-          "start": "14:30",
-          "end": "15:45",
-          "show_id": "aguaplano",
-          "live": false
-        },
-        {
-          "start": "15:45",
-          "end": "17:00",
+          "start": "15:30",
+          "end": "16:30",
           "show_id": "on-air",
           "live": false
         },
         {
-          "start": "17:00",
+          "start": "16:30",
           "end": "18:30",
-          "show_id": "flip-the-beat",
+          "show_id": "overjoy",
           "live": false
         },
         {
           "start": "18:30",
           "end": "19:30",
-          "show_id": "black-in",
+          "show_id": "e-sporadico",
           "live": false
         },
         {
           "start": "19:30",
-          "end": "20:30",
-          "show_id": "macerie-su-macerie",
+          "end": "21:30",
+          "show_id": "frittura-mista-radio-fabbrica",
           "live": false
         },
         {
-          "start": "20:30",
-          "end": "22:00",
-          "show_id": "radio-kalakuta",
+          "start": "21:30",
+          "end": "23:00",
+          "show_id": "riot-on-sunset-strip",
           "live": false
         },
         {
-          "start": "22:00",
+          "start": "23:00",
           "end": "00:00",
-          "show_id": "malormone",
+          "show_id": "musick-to-play-in-the-dark",
           "live": false,
           "crosses_midnight": true
         }

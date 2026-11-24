@@ -4,9 +4,9 @@
   "station_id": 131,
   "schedule_type": "weekly",
   "timezone": "Europe/Madrid",
-  "last_updated": "2026-11-23",
+  "last_updated": "2026-11-24",
   "source": "https://sapo.radiobot.org/parrilla_cards.php?station=ovejas",
-  "notes": "Generado automáticamente desde https://sapo.radiobot.org/parrilla_cards.php?station=ovejas (snapshot 2026-11-23); revisar data/epg-report.json.",
+  "notes": "Generado automáticamente desde https://sapo.radiobot.org/parrilla_cards.php?station=ovejas (snapshot 2026-11-24); revisar data/epg-report.json.",
   "generator": "scripts/convert-raw-epg.mjs",
   "metadata": {
     "categories": {
@@ -94,15 +94,15 @@
       "title": "Revista de fílies rock’n’roll, en directe, des de l’illa on arriben els cadàvers exquisits dels herois i les heroïnes del pop i del rock.",
       "category": "directo"
     },
-    "programa-que-se-emite-los-domingos-en-www-solyrabia-com-de": {
-      "title": "Programa que se emite los domingos en www.solyrabia.com de",
+    "ahora-en-directo": {
+      "title": "▶️ AHORA EN DIRECTO",
       "category": "directo"
     }
   },
   "days": [
     {
-      "day": "monday",
-      "label": "Lunes",
+      "day": "tuesday",
+      "label": "Martes",
       "programs": [
         {
           "start": "00:00",
@@ -227,8 +227,8 @@
         {
           "start": "22:00",
           "end": "23:30",
-          "show_id": "programa-que-se-emite-los-domingos-en-www-solyrabia-com-de",
-          "live": false
+          "show_id": "ahora-en-directo",
+          "live": true
         }
       ]
     }
