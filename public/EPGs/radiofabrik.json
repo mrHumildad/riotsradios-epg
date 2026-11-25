@@ -4,9 +4,9 @@
   "station_id": 8,
   "schedule_type": "weekly",
   "timezone": "Europe/Vienna",
-  "last_updated": "2026-11-24",
+  "last_updated": "2026-11-25",
   "source": "https://radiofabrik.at/programm/sendungen/",
-  "notes": "Generado automáticamente desde https://radiofabrik.at/programm/sendungen/ (snapshot 2026-11-24); revisar data/epg-report.json.",
+  "notes": "Generado automáticamente desde https://radiofabrik.at/programm/sendungen/ (snapshot 2026-11-25); revisar data/epg-report.json.",
   "generator": "scripts/convert-raw-epg.mjs",
   "metadata": {
     "categories": {
@@ -22,8 +22,8 @@
     }
   },
   "shows": {
-    "global-sounds-spezial-musik-aus-aller-welt": {
-      "title": "Global Sounds Spezial. Musik aus aller Welt.",
+    "karls-roaring-sixties-eine-sendung-von-karl-krenner": {
+      "title": "Karls Roaring Sixties. Eine Sendung von Karl Krenner.",
       "category": "directo"
     },
     "radiofabrik-von": {
@@ -38,28 +38,24 @@
       "title": "Frühschicht",
       "category": "directo"
     },
-    "stadtteilradio-schallmoos-bewohnerinnen-berichten-aus-ihren-": {
-      "title": "Stadtteilradio Schallmoos. BewohnerInnen berichten aus ihren Stadtteilen.",
-      "category": "directo"
-    },
-    "respektiere-salzburgs-erstes-tierrechtsradio": {
-      "title": "RespekTiere. Salzburgs erstes Tierrechtsradio.",
-      "category": "directo"
-    },
-    "was-mit-kultur-die-sendung-der-ig-kultur": {
-      "title": "Was mit Kultur. Die Sendung der IG-Kultur.",
+    "lauschbox-das-emailwerk-radiomagazin-fur-kultur-wissen-und-l": {
+      "title": "lauschbox. Das Emailwerk-Radiomagazin für Kultur, Wissen und Leben.",
       "category": "directo"
     },
     "stepping-to-the-a-m": {
       "title": "stepping to the a.m.",
       "category": "directo"
     },
-    "gut-aussehen-gut-ankommen": {
-      "title": "Gut aussehen - gut ankommen!",
+    "das-rote-mikro": {
+      "title": "Das rote Mikro",
       "category": "directo"
     },
-    "zeit-zum-zuhoren-literatur-und-musik-zur-blauen-stunde": {
-      "title": "Zeit zum Zuhören. Literatur und Musik zur Blauen Stunde.",
+    "seite-um-seite-die-radiosendung-zur-romanischen-sprach-und-l": {
+      "title": "Seite um Seite. Die Radiosendung zur romanischen Sprach- und Literaturwissenschaft.",
+      "category": "directo"
+    },
+    "die-sonntagsmelodie-evergreens-und-raritaten-aus-einem-gro-e": {
+      "title": "Die Sonntagsmelodie. Evergreens und Raritäten aus einem großen Schellack und LP-Archiv mit Edith Schiller.",
       "category": "directo"
     },
     "hi-noon": {
@@ -70,56 +66,56 @@
       "title": "Groovy Afternoon",
       "category": "directo"
     },
-    "die-gotterfunk-studiosessions-salzburger-bands-musikschaffen": {
-      "title": "Die Götterfunk Studiosessions. Salzburger Bands & Musikschaffende in Bild und Ton on Air.",
+    "punk-in-a-box-a-metal-box-full-of-punk-from-the-90s": {
+      "title": "PUNK IN A BOX. A metal box full of Punk from the 90s.",
       "category": "directo"
     },
-    "schreiblust-alles-rund-ums-schreiben": {
-      "title": "SchreibLust. Alles rund ums Schreiben",
+    "workshop-productions": {
+      "title": "Workshop-Productions.",
       "category": "directo"
     },
-    "frozine-das-akustische-infomagazin-von-radio-fro-in-linz": {
-      "title": "FROzine. Das akustische Infomagazin von Radio FRO in Linz.",
+    "horbare-alpen-der-cipra-podcast-interviews-hintergrundgespra": {
+      "title": "Hörbare Alpen: Der CIPRA Podcast. Interviews, Hintergrundgespräche, Reportagen und Stimmen aus allen Alpenländern.",
       "category": "directo"
     },
-    "playlistbattle": {
-      "title": "Playlistbattle",
+    "gesprachsfunken-facetten-vieler-leben": {
+      "title": "Gesprächsfunken. Facetten vieler Leben",
       "category": "directo"
     },
-    "literadio-literatur-zum-horen": {
-      "title": "literadio. Literatur zum Hören.",
+    "new-gen-fm-unser-herzschlag-ist-die-musik": {
+      "title": "New Gen FM_Unser Herzschlag ist die Musik.",
       "category": "directo"
     },
-    "wissen-macht-leute-der-citizen-science-podcast-von-osterreic": {
-      "title": "Wissen macht Leute. Der Citizen Science Podcast von Österreich forscht",
+    "josephine-antirassimus-im-radio": {
+      "title": "Joséphine. Antirassimus im Radio.",
       "category": "directo"
     },
-    "kija-on-air-fur-deine-rechte-der-radio-podcast-der-kinder-un": {
-      "title": "Kija on Air – für deine Rechte. Der Radio-Podcast der Kinder- und Jugendanwaltschaft Salzburg",
+    "zwiespalt-der-guten-laune-satirische-betrachtungen": {
+      "title": "Zwiespalt der guten Laune. Satirische Betrachtungen..",
       "category": "directo"
     },
-    "zundstoff": {
-      "title": "Zündstoff",
+    "kopfnickfm": {
+      "title": "KopfnickFM",
       "category": "directo"
     },
-    "radio-spontan-musik-und-talk-mit-guten-vibes-aus-aller-welt": {
-      "title": "Radio Spontan. Musik und Talk mit guten Vibes aus aller Welt.",
+    "let-s-netz-der-chaostalk-technik-web-politik": {
+      "title": "Let's Netz. Der Chaostalk: Technik Web Politik",
       "category": "directo"
     },
-    "ras-sound-radio-roots-reggae-mit-cooler-ruler-cause-a-tree-c": {
-      "title": "Ras Sound Radio. Roots Reggae mit Cooler Ruler - 'cause a tree cannot grow without roots.",
+    "mitternachtsreigen-the-soundtrack-of-your-night": {
+      "title": "Mitternachtsreigen. The Soundtrack of Your Night",
       "category": "directo"
     }
   },
   "days": [
     {
-      "day": "tuesday",
-      "label": "Martes",
+      "day": "wednesday",
+      "label": "Miércoles",
       "programs": [
         {
           "start": "00:00",
           "end": "01:00",
-          "show_id": "global-sounds-spezial-musik-aus-aller-welt",
+          "show_id": "karls-roaring-sixties-eine-sendung-von-karl-krenner",
           "live": false
         },
         {
@@ -142,42 +138,36 @@
         },
         {
           "start": "07:00",
-          "end": "07:30",
-          "show_id": "stadtteilradio-schallmoos-bewohnerinnen-berichten-aus-ihren-",
+          "end": "08:06",
+          "show_id": "fruhschicht",
           "live": false
         },
         {
-          "start": "07:30",
-          "end": "08:00",
-          "show_id": "respektiere-salzburgs-erstes-tierrechtsradio",
+          "start": "08:06",
+          "end": "08:37",
+          "show_id": "lauschbox-das-emailwerk-radiomagazin-fur-kultur-wissen-und-l",
           "live": false
         },
         {
-          "start": "08:00",
-          "end": "08:27",
-          "show_id": "was-mit-kultur-die-sendung-der-ig-kultur",
-          "live": false
-        },
-        {
-          "start": "08:27",
+          "start": "08:37",
           "end": "09:00",
           "show_id": "stepping-to-the-a-m",
           "live": false
         },
         {
           "start": "09:00",
-          "end": "09:30",
-          "show_id": "gut-aussehen-gut-ankommen",
-          "live": false
-        },
-        {
-          "start": "09:30",
           "end": "10:06",
-          "show_id": "stepping-to-the-a-m",
+          "show_id": "das-rote-mikro",
           "live": false
         },
         {
           "start": "10:06",
+          "end": "10:52",
+          "show_id": "seite-um-seite-die-radiosendung-zur-romanischen-sprach-und-l",
+          "live": false
+        },
+        {
+          "start": "10:52",
           "end": "11:00",
           "show_id": "stepping-to-the-a-m",
           "live": false
@@ -185,7 +175,7 @@
         {
           "start": "11:00",
           "end": "12:06",
-          "show_id": "zeit-zum-zuhoren-literatur-und-musik-zur-blauen-stunde",
+          "show_id": "die-sonntagsmelodie-evergreens-und-raritaten-aus-einem-gro-e",
           "live": false
         },
         {
@@ -202,74 +192,74 @@
         },
         {
           "start": "15:00",
-          "end": "15:22",
-          "show_id": "die-gotterfunk-studiosessions-salzburger-bands-musikschaffen",
-          "live": false
-        },
-        {
-          "start": "15:22",
           "end": "16:00",
-          "show_id": "groovy-afternoon",
+          "show_id": "punk-in-a-box-a-metal-box-full-of-punk-from-the-90s",
           "live": false
         },
         {
           "start": "16:00",
+          "end": "16:43",
+          "show_id": "workshop-productions",
+          "live": false
+        },
+        {
+          "start": "16:43",
           "end": "17:00",
-          "show_id": "schreiblust-alles-rund-ums-schreiben",
+          "show_id": "groovy-afternoon",
           "live": false
         },
         {
           "start": "17:00",
-          "end": "17:50",
-          "show_id": "frozine-das-akustische-infomagazin-von-radio-fro-in-linz",
+          "end": "17:26",
+          "show_id": "horbare-alpen-der-cipra-podcast-interviews-hintergrundgespra",
           "live": false
         },
         {
-          "start": "17:50",
-          "end": "18:00",
-          "show_id": "playlistbattle",
+          "start": "17:26",
+          "end": "17:30",
+          "show_id": "groovy-afternoon",
           "live": false
         },
         {
-          "start": "18:00",
+          "start": "17:30",
           "end": "18:30",
-          "show_id": "literadio-literatur-zum-horen",
+          "show_id": "gesprachsfunken-facetten-vieler-leben",
           "live": false
         },
         {
           "start": "18:30",
-          "end": "19:06",
-          "show_id": "wissen-macht-leute-der-citizen-science-podcast-von-osterreic",
+          "end": "19:00",
+          "show_id": "new-gen-fm-unser-herzschlag-ist-die-musik",
           "live": false
         },
         {
-          "start": "19:06",
+          "start": "19:00",
           "end": "20:00",
-          "show_id": "kija-on-air-fur-deine-rechte-der-radio-podcast-der-kinder-un",
+          "show_id": "josephine-antirassimus-im-radio",
           "live": false
         },
         {
           "start": "20:00",
-          "end": "20:49",
-          "show_id": "zundstoff",
-          "live": false
-        },
-        {
-          "start": "20:49",
           "end": "21:00",
-          "show_id": "playlistbattle",
+          "show_id": "zwiespalt-der-guten-laune-satirische-betrachtungen",
           "live": false
         },
         {
           "start": "21:00",
           "end": "22:00",
-          "show_id": "radio-spontan-musik-und-talk-mit-guten-vibes-aus-aller-welt",
+          "show_id": "kopfnickfm",
           "live": false
         },
         {
           "start": "22:00",
           "end": "23:00",
-          "show_id": "ras-sound-radio-roots-reggae-mit-cooler-ruler-cause-a-tree-c",
+          "show_id": "let-s-netz-der-chaostalk-technik-web-politik",
+          "live": false
+        },
+        {
+          "start": "23:00",
+          "end": "24:00",
+          "show_id": "mitternachtsreigen-the-soundtrack-of-your-night",
           "live": false
         }
       ]

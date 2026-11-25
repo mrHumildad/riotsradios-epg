@@ -4,9 +4,9 @@
   "station_id": 155,
   "schedule_type": "weekly",
   "timezone": "UTC",
-  "last_updated": "2026-11-24",
+  "last_updated": "2026-11-25",
   "source": "https://tiri2.webradiosite.com/scheduling/",
-  "notes": "Generado automáticamente desde https://tiri2.webradiosite.com/scheduling/ (snapshot 2026-11-24); revisar data/epg-report.json.",
+  "notes": "Generado automáticamente desde https://tiri2.webradiosite.com/scheduling/ (snapshot 2026-11-25); revisar data/epg-report.json.",
   "generator": "scripts/convert-raw-epg.mjs",
   "metadata": {
     "categories": {
@@ -29,8 +29,8 @@
   },
   "days": [
     {
-      "day": "wednesday",
-      "label": "Miércoles",
+      "day": "thursday",
+      "label": "Jueves",
       "programs": [
         {
           "start": "02:00",
@@ -40,7 +40,7 @@
         },
         {
           "start": "06:00",
-          "end": "11:59",
+          "end": "12:00",
           "show_id": "now",
           "live": false
         },

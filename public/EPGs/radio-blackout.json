@@ -4,9 +4,9 @@
   "station_id": 29,
   "schedule_type": "weekly",
   "timezone": "Europe/Rome",
-  "last_updated": "2026-11-24",
+  "last_updated": "2026-11-25",
   "source": "https://radioblackout.org/palinsesto",
-  "notes": "Generado automáticamente desde https://radioblackout.org/palinsesto (snapshot 2026-11-24); revisar data/epg-report.json.",
+  "notes": "Generado automáticamente desde https://radioblackout.org/palinsesto (snapshot 2026-11-25); revisar data/epg-report.json.",
   "generator": "scripts/convert-raw-epg.mjs",
   "metadata": {
     "categories": {
@@ -22,68 +22,48 @@
     }
   },
   "shows": {
-    "il-b-l-ekkino": {
-      "title": "Il B(l)ekkino",
-      "category": "directo"
-    },
-    "maximum-rock-n-roll-radio": {
-      "title": "Maximum Rock’n’Roll Radio",
-      "category": "directo"
-    },
     "l-informazione-di-blackout": {
       "title": "L’Informazione di Blackout",
       "category": "directo"
     },
-    "l-elenco-telefonico-degli-uragani": {
-      "title": "L’elenco telefonico degli uragani",
+    "superanti": {
+      "title": "SuperAnti",
       "category": "directo"
     },
-    "universo-sonoro": {
-      "title": "Universo Sonoro",
+    "penny-kella": {
+      "title": "Penny·Kella",
+      "category": "directo"
+    },
+    "radio-grrzly": {
+      "title": "Radio GRRZLY",
       "category": "directo"
     },
     "on-air": {
       "title": "ON AIR",
       "category": "directo"
     },
-    "overjoy": {
-      "title": "OverJoy",
+    "spot": {
+      "title": "Spot",
       "category": "directo"
     },
-    "e-sporadico": {
-      "title": "E_sporadico",
+    "aperitivo-controinformativo-ardecore-balengolottepunk-hc": {
+      "title": "aperitivo controinformativo ardecore balengolottepunk hc",
       "category": "directo"
     },
-    "frittura-mista-radio-fabbrica": {
-      "title": "Frittura mista / Radio Fabbrica",
+    "radio-kebab": {
+      "title": "Radio Kebab",
       "category": "directo"
     },
-    "riot-on-sunset-strip": {
-      "title": "Riot on Sunset Strip",
-      "category": "directo"
-    },
-    "musick-to-play-in-the-dark": {
-      "title": "MUSICK TO PLAY IN THE DARK",
+    "tigre-vs-tigre": {
+      "title": "Tigre Vs Tigre",
       "category": "directo"
     }
   },
   "days": [
     {
-      "day": "tuesday",
-      "label": "Martes",
+      "day": "wednesday",
+      "label": "Miércoles",
       "programs": [
-        {
-          "start": "00:00",
-          "end": "01:30",
-          "show_id": "il-b-l-ekkino",
-          "live": false
-        },
-        {
-          "start": "08:00",
-          "end": "09:00",
-          "show_id": "maximum-rock-n-roll-radio",
-          "live": false
-        },
         {
           "start": "09:00",
           "end": "11:00",
@@ -91,51 +71,51 @@
           "live": false
         },
         {
-          "start": "12:00",
-          "end": "13:30",
-          "show_id": "l-elenco-telefonico-degli-uragani",
+          "start": "11:00",
+          "end": "12:30",
+          "show_id": "superanti",
           "live": false
         },
         {
-          "start": "13:30",
+          "start": "12:30",
+          "end": "14:00",
+          "show_id": "penny-kella",
+          "live": false
+        },
+        {
+          "start": "14:30",
           "end": "15:30",
-          "show_id": "universo-sonoro",
+          "show_id": "radio-grrzly",
           "live": false
         },
         {
           "start": "15:30",
-          "end": "16:30",
+          "end": "17:00",
           "show_id": "on-air",
           "live": false
         },
         {
-          "start": "16:30",
+          "start": "17:00",
           "end": "18:30",
-          "show_id": "overjoy",
+          "show_id": "spot",
           "live": false
         },
         {
           "start": "18:30",
-          "end": "19:30",
-          "show_id": "e-sporadico",
+          "end": "20:00",
+          "show_id": "aperitivo-controinformativo-ardecore-balengolottepunk-hc",
           "live": false
         },
         {
-          "start": "19:30",
-          "end": "21:30",
-          "show_id": "frittura-mista-radio-fabbrica",
+          "start": "20:00",
+          "end": "22:00",
+          "show_id": "radio-kebab",
           "live": false
         },
         {
-          "start": "21:30",
-          "end": "23:00",
-          "show_id": "riot-on-sunset-strip",
-          "live": false
-        },
-        {
-          "start": "23:00",
+          "start": "22:00",
           "end": "00:00",
-          "show_id": "musick-to-play-in-the-dark",
+          "show_id": "tigre-vs-tigre",
           "live": false,
           "crosses_midnight": true
         }
