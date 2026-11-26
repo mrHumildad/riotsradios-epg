@@ -4,9 +4,9 @@
   "station_id": 130,
   "schedule_type": "weekly",
   "timezone": "Europe/Madrid",
-  "last_updated": "2026-11-25",
+  "last_updated": "2026-11-26",
   "source": "https://ecoleganes.org/2018/01/01/parrilla/",
-  "notes": "Generado automáticamente desde https://ecoleganes.org/2018/01/01/parrilla/ (snapshot 2026-11-25); revisar data/epg-report.json.",
+  "notes": "Generado automáticamente desde https://ecoleganes.org/2018/01/01/parrilla/ (snapshot 2026-11-26); revisar data/epg-report.json.",
   "generator": "scripts/convert-raw-epg.mjs",
   "metadata": {
     "categories": {
@@ -927,13 +927,6 @@
           "end": "23:00",
           "show_id": "informativos",
           "live": false
-        },
-        {
-          "start": "23:00",
-          "end": "00:00",
-          "show_id": "la-luna-sale-a-tiempo-radio-klara",
-          "live": false,
-          "crosses_midnight": true
         }
       ]
     }
