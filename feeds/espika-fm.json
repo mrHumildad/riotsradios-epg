@@ -1,0 +1,47 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Espika FM — latest posts",
+  "home_page_url": "http://colectivoespika.sejuntalagente.org",
+  "feed_url": "https://mrhumildad.github.io/riotsradios-epg/feeds/espika-fm.json",
+  "_station_id": 73,
+  "_station_name": "Espika FM",
+  "_source": "https://colectivoespika.sejuntalagente.org/feed/",
+  "_generated_at": "2026-11-12T14:19:53.181Z",
+  "items": [
+    {
+      "id": "https://colectivoespika.sejuntalagente.org/?p=1810",
+      "url": "https://colectivoespika.sejuntalagente.org/2025/06/la-red-ambiental-canaria-y-las-voces-invisibilizadas-en-sauce/",
+      "title": "La Red Ambiental Canaria y las voces invisibilizadas en Sauce",
+      "content_text": "La Red Ambiental Canaria y las voces invisibilizadas en Sauce",
+      "date_published": "2025-06-23T03:50:41.000Z"
+    },
+    {
+      "id": "https://colectivoespika.sejuntalagente.org/?p=1806",
+      "url": "https://colectivoespika.sejuntalagente.org/2024/10/la-inddhh-constato-falta-de-transparencia-de-imparcialidad-yequidad-por-parte-de-ursec-en-el-trato-a-los-medios-comunitarios/",
+      "title": "La INDDHH constató falta de transparencia, de imparcialidad y equidad por parte de URSEC en el trato a los medios comunitarios",
+      "content_text": "La INDDHH constató falta de transparencia, de imparcialidad y equidad por parte de URSEC en el trato a los medios comunitarios",
+      "date_published": "2024-10-03T18:22:05.000Z"
+    },
+    {
+      "id": "https://colectivoespika.sejuntalagente.org/?p=1796",
+      "url": "https://colectivoespika.sejuntalagente.org/2023/06/mariana-mota-pongamonos-a-discutir-que-entendemos-por-justicia-y-como-deberian-defenderse-nuestros-derechos/",
+      "title": "Mariana Mota: “Pongámonos a discutir qué entendemos por Justicia y cómo deberían defenderse nuestros derechos”",
+      "content_text": "Mariana Mota: “Pongámonos a discutir qué entendemos por Justicia y cómo deberían defenderse nuestros derechos”",
+      "date_published": "2023-06-16T00:08:58.000Z"
+    },
+    {
+      "id": "https://colectivoespika.sejuntalagente.org/?p=1786",
+      "url": "https://colectivoespika.sejuntalagente.org/2023/04/las-afap-son-parte-del-supuesto-deficit-de-la-seguridad-social/",
+      "title": "Las AFAP son parte del supuesto déficit de la Seguridad Social",
+      "content_text": "Las AFAP son parte del supuesto déficit de la Seguridad Social",
+      "date_published": "2023-04-25T18:59:55.000Z"
+    },
+    {
+      "id": "http://colectivoespika.sejuntalagente.org/?p=1770",
+      "url": "https://colectivoespika.sejuntalagente.org/2022/05/marchamos-en-santa-lucia-en-la-27ma-marcha-del-silencio/",
+      "title": "Marchamos en Santa Lucía en la 27ma Marcha del Silencio",
+      "content_text": "Marchamos en Santa Lucía en la 27ma Marcha del Silencio",
+      "date_published": "2022-05-20T15:23:23.000Z"
+    }
+  ]
+}

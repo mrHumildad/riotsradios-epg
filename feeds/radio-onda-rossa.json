@@ -1,0 +1,82 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Radio Onda Rossa — latest posts",
+  "home_page_url": "https://www.ondarossa.info/",
+  "feed_url": "https://mrhumildad.github.io/riotsradios-epg/feeds/radio-onda-rossa.json",
+  "_station_id": 27,
+  "_station_name": "Radio Onda Rossa",
+  "_source": "https://www.ondarossa.info/feed/tipo/ror_news+redazionali+news_trasmissioni+eventi",
+  "_generated_at": "2026-11-12T14:19:50.889Z",
+  "items": [
+    {
+      "id": "https://www.ondarossa.info/node/50639",
+      "url": "https://www.ondarossa.info/newsredazione/2026/11/femminismo-venerdi-mostra-riprendiamoci",
+      "title": "Femminismo: da venerdi una mostra su Riprendiamoci la notte",
+      "content_text": "Femminismo: da venerdi una mostra su Riprendiamoci la notte",
+      "date_published": "2026-11-12T12:45:00.000Z"
+    },
+    {
+      "id": "https://www.ondarossa.info/node/50636",
+      "url": "https://www.ondarossa.info/newsredazione/2026/11/bilancione-occupato-e-corso-sgombero",
+      "title": "Bilancione Occupato: è in corso lo sgombero",
+      "content_text": "Bilancione Occupato: è in corso lo sgombero",
+      "date_published": "2026-11-12T08:30:00.000Z"
+    },
+    {
+      "id": "https://www.ondarossa.info/node/50638",
+      "url": "https://www.ondarossa.info/newstrasmissioni/prove-tecniche-trasmissione/2026/11/111126",
+      "title": "[prove Tecniche di trasmissione] 11/11/26 (industrial,ambient,noise)",
+      "content_text": "[prove Tecniche di trasmissione] 11/11/26 (industrial,ambient,noise)",
+      "date_published": "2026-11-11T20:00:44.000Z"
+    },
+    {
+      "id": "https://www.ondarossa.info/node/50634",
+      "url": "https://www.ondarossa.info/newstrasmissioni/radio-africa/2026/11/sudafrica-vertice-russia-africa-sahara",
+      "title": "[radio africa] Sudafrica, vertice Russia-Africa, Sahara occidentale",
+      "content_text": "[radio africa] Sudafrica, vertice Russia-Africa, Sahara occidentale",
+      "date_published": "2026-11-11T17:47:58.000Z"
+    },
+    {
+      "id": "https://www.ondarossa.info/node/50635",
+      "url": "https://www.ondarossa.info/newsredazione/2026/11/gaza-lemergenza-infinita-genocidio",
+      "title": "Gaza: l'emergenza infinita di un genocidio",
+      "content_text": "Gaza: l'emergenza infinita di un genocidio",
+      "date_published": "2026-11-11T17:45:00.000Z"
+    },
+    {
+      "id": "https://www.ondarossa.info/node/50633",
+      "url": "https://www.ondarossa.info/newsredazione/2026/11/ventidue-anni-dalla-morte-yasser-arafat",
+      "title": "Ventidue anni dalla morte di Yasser Arafat",
+      "content_text": "Ventidue anni dalla morte di Yasser Arafat",
+      "date_published": "2026-11-11T17:15:00.000Z"
+    },
+    {
+      "id": "https://www.ondarossa.info/node/50632",
+      "url": "https://www.ondarossa.info/newstrasmissioni/nota-classe/2026/11/bomba-o-non-bomba-evacuazioni-e",
+      "title": "[Nota di classe] Bomba o non bomba: evacuazioni e mobilitazioni",
+      "content_text": "[Nota di classe] Bomba o non bomba: evacuazioni e mobilitazioni",
+      "date_published": "2026-11-11T15:43:41.000Z"
+    },
+    {
+      "id": "https://www.ondarossa.info/node/50629",
+      "url": "https://www.ondarossa.info/newstrasmissioni/blekket/2026/11/revolujistaan-connection-vvvers",
+      "title": "[Blekket] REVOLUJISTAAN CONNECTION VVVERS",
+      "content_text": "[Blekket] REVOLUJISTAAN CONNECTION VVVERS",
+      "date_published": "2026-11-11T13:23:38.000Z"
+    },
+    {
+      "id": "https://www.ondarossa.info/node/50631",
+      "url": "https://www.ondarossa.info/newsredazione/2026/11/roma-scuole-evacuate-allarme-bomba",
+      "title": "Roma: scuole evacuate per allarme bomba",
+      "content_text": "Roma: scuole evacuate per allarme bomba",
+      "date_published": "2026-11-11T11:00:00.000Z"
+    },
+    {
+      "id": "https://www.ondarossa.info/node/50628",
+      "url": "https://www.ondarossa.info/newsredazione/2026/11/napoli-evitato-sgombero-occupazione",
+      "title": "Napoli: evitato lo sgombero di una occupazione abitativa",
+      "content_text": "Napoli: evitato lo sgombero di una occupazione abitativa",
+      "date_published": "2026-11-11T11:00:00.000Z"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Alpha Boys School Radio — latest posts",
+  "home_page_url": "https://www.alphaboysschoolradio.com/",
+  "feed_url": "https://mrhumildad.github.io/riotsradios-epg/feeds/alpha-boys-school-radio.json",
+  "_station_id": 149,
+  "_station_name": "Alpha Boys School Radio",
+  "_source": "https://www.alphaboysschoolradio.com/blog-feed.xml",
+  "_generated_at": "2026-11-12T14:19:57.425Z",
+  "items": [
+    {
+      "id": "6701cdadb4b957685268aa48",
+      "url": "https://www.alphaboysschoolradio.com/post/johnny-dizzy-moore",
+      "title": "Take 5: Johnny Dizzy Moore",
+      "content_text": "Take 5: Johnny Dizzy Moore",
+      "date_published": "2026-10-04T17:29:14.000Z"
+    },
+    {
+      "id": "6a81187740f3daf10ba3e539",
+      "url": "https://www.alphaboysschoolradio.com/post/supernova-2026-yellowman",
+      "title": "Supernova 2026 Roll Call. Yellowman.",
+      "content_text": "Supernova 2026 Roll Call. Yellowman.",
+      "date_published": "2026-08-24T02:09:03.000Z"
+    },
+    {
+      "id": "6a811fd540f3daf10ba3f324",
+      "url": "https://www.alphaboysschoolradio.com/post/supernova-ska-first",
+      "title": "Playlist. The Ska Foundation",
+      "content_text": "Playlist. The Ska Foundation",
+      "date_published": "2026-08-22T16:42:23.000Z"
+    },
+    {
+      "id": "6a811434a7a7d1a936d60757",
+      "url": "https://www.alphaboysschoolradio.com/post/supernova-out-of-control-army-mexico",
+      "title": "SUPERNOVA SKA FEST 2026. OUT OF CONTROL ARMY (MEXICO)",
+      "content_text": "SUPERNOVA SKA FEST 2026. OUT OF CONTROL ARMY (MEXICO)",
+      "date_published": "2026-08-16T01:49:56.000Z"
+    },
+    {
+      "id": "650284526999d266439142a5",
+      "url": "https://www.alphaboysschoolradio.com/post/playlist-10-ska-songs",
+      "title": "Playlist. 10 ska songs you should know",
+      "content_text": "Playlist. 10 ska songs you should know",
+      "date_published": "2026-08-15T11:16:47.000Z"
+    },
+    {
+      "id": "6a766af8421979b2d9727cda",
+      "url": "https://www.alphaboysschoolradio.com/post/tony-gregory",
+      "title": "Roll Call. is Tony Gregory's hit an all time anthem?",
+      "content_text": "Roll Call. is Tony Gregory's hit an all time anthem?",
+      "date_published": "2026-08-07T23:42:58.000Z"
+    },
+    {
+      "id": "631f83974cd91904a1a0121b",
+      "url": "https://www.alphaboysschoolradio.com/post/streamguys",
+      "title": "STREAMGUYS PUTS THE RADIO IN ALPHA RADIO",
+      "content_text": "STREAMGUYS PUTS THE RADIO IN ALPHA RADIO",
+      "date_published": "2026-08-01T19:28:41.000Z"
+    },
+    {
+      "id": "6a1278298fa816dacc825d4f",
+      "url": "https://www.alphaboysschoolradio.com/post/duane-stephenson",
+      "title": "Alpha Music. Duane Stephenson's exclusive recording",
+      "content_text": "Alpha Music. Duane Stephenson's exclusive recording",
+      "date_published": "2026-05-24T13:21:43.000Z"
+    },
+    {
+      "id": "6a125fbca2438924d11033f0",
+      "url": "https://www.alphaboysschoolradio.com/post/jackie-willacy",
+      "title": "Roll Call. Bandmaster Jackie Willacy",
+      "content_text": "Roll Call. Bandmaster Jackie Willacy",
+      "date_published": "2026-05-24T02:43:22.000Z"
+    },
+    {
+      "id": "6a0a0f0f2fd8b3b696944e0d",
+      "url": "https://www.alphaboysschoolradio.com/post/alpha-tommy-mccook",
+      "title": "Alpha Roll Call: Tommy MCCook",
+      "content_text": "Alpha Roll Call: Tommy MCCook",
+      "date_published": "2026-05-17T19:02:41.000Z"
+    }
+  ]
+}

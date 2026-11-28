@@ -1,0 +1,82 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Radio Argayo — latest posts",
+  "home_page_url": "https://radioargayo.github.io/",
+  "feed_url": "https://mrhumildad.github.io/riotsradios-epg/feeds/radio-argayo.json",
+  "_station_id": 129,
+  "_station_name": "Radio Argayo",
+  "_source": "https://radioargayo.github.io/feed",
+  "_generated_at": "2026-11-12T14:19:54.834Z",
+  "items": [
+    {
+      "id": "https://radioargayo.github.io/general/programas-propios/nuevo-programa-local-ai-ai-ai",
+      "url": "https://radioargayo.github.io/general/programas-propios/nuevo-programa-local-ai-ai-ai/",
+      "title": "Nuevo programa local: ai ai ai",
+      "content_text": "Nuevo programa local: ai ai ai",
+      "date_published": "2026-11-07T00:00:00.000Z"
+    },
+    {
+      "id": "https://radioargayo.github.io/noticias/radios-libres/8%C2%BA-cadenazo-de-radios-libres-ibericas-por-el-antifascismo",
+      "url": "https://radioargayo.github.io/noticias/radios-libres/8%C2%BA-cadenazo-de-radios-libres-ibericas-por-el-antifascismo/",
+      "title": "8º CADENAZO DE RADIOS LIBRES IBÉRICAS POR EL ANTIFASCISMO",
+      "content_text": "8º CADENAZO DE RADIOS LIBRES IBÉRICAS POR EL ANTIFASCISMO",
+      "date_published": "2026-05-27T00:00:00.000Z"
+    },
+    {
+      "id": "https://radioargayo.github.io/general/esta-tarde-en-directo-reemitido-desde-radio-almaina-%C3%BAltima-hora-de-la-global-sumud-flotilla-y-las-concentraciones-en-apoyo",
+      "url": "https://radioargayo.github.io/general/esta-tarde-en-directo-reemitido-desde-radio-almaina-%C3%BAltima-hora-de-la-global-sumud-flotilla-y-las-concentraciones-en-apoyo/",
+      "title": "Esta tarde, en directo reemitido desde Radio Almaina: Última hora de la Global Sumud Flotilla y las concentraciones en apoyo",
+      "content_text": "Esta tarde, en directo reemitido desde Radio Almaina: Última hora de la Global Sumud Flotilla y las concentraciones en apoyo",
+      "date_published": "2025-10-02T00:00:00.000Z"
+    },
+    {
+      "id": "https://radioargayo.github.io/general/alejandro-ahumada-ha-vuelto-a-dar-vida-a-el-viejo-del-pueblo",
+      "url": "https://radioargayo.github.io/general/alejandro-ahumada-ha-vuelto-a-dar-vida-a-el-viejo-del-pueblo/",
+      "title": "Alejandro Ahumada ha vuelto a dar vida a “El Viejo del Pueblo”",
+      "content_text": "Alejandro Ahumada ha vuelto a dar vida a “El Viejo del Pueblo”",
+      "date_published": "2025-09-28T00:00:00.000Z"
+    },
+    {
+      "id": "https://radioargayo.github.io/general/comienza-la-octava-temporada-de-el-p%C3%A1jaro-observador",
+      "url": "https://radioargayo.github.io/general/comienza-la-octava-temporada-de-el-p%C3%A1jaro-observador/",
+      "title": "¡Comienza la octava temporada de El Pájaro Observador!",
+      "content_text": "¡Comienza la octava temporada de El Pájaro Observador!",
+      "date_published": "2025-09-28T00:00:00.000Z"
+    },
+    {
+      "id": "https://radioargayo.github.io/general/cuarta-temporada-de-m%C3%BAsica-para-aburrir",
+      "url": "https://radioargayo.github.io/general/cuarta-temporada-de-m%C3%BAsica-para-aburrir/",
+      "title": "¡Cuarta temporada de Música para Aburrir!",
+      "content_text": "¡Cuarta temporada de Música para Aburrir!",
+      "date_published": "2025-09-28T00:00:00.000Z"
+    },
+    {
+      "id": "https://radioargayo.github.io/general/programas-propios/nuevo-programa-local-fuera-de-campo",
+      "url": "https://radioargayo.github.io/general/programas-propios/nuevo-programa-local-fuera-de-campo/",
+      "title": "Nuevo programa local: Fuera de Campo",
+      "content_text": "Nuevo programa local: Fuera de Campo",
+      "date_published": "2025-09-28T00:00:00.000Z"
+    },
+    {
+      "id": "https://radioargayo.github.io/general/s%C3%ADguenos-tambi%C3%A9n-en-mastodon-y-bluesky",
+      "url": "https://radioargayo.github.io/general/s%C3%ADguenos-tambi%C3%A9n-en-mastodon-y-bluesky/",
+      "title": "¡Síguenos también en Mastodon y Bluesky!",
+      "content_text": "¡Síguenos también en Mastodon y Bluesky!",
+      "date_published": "2025-09-28T00:00:00.000Z"
+    },
+    {
+      "id": "https://radioargayo.github.io/general/ma%C3%B1ana-emitiremos-en-directo-el-episodio-de-dale-punki-tour-desde-el-espacio-illera",
+      "url": "https://radioargayo.github.io/general/ma%C3%B1ana-emitiremos-en-directo-el-episodio-de-dale-punki-tour-desde-el-espacio-illera/",
+      "title": "Mañana emitiremos en directo el episodio de Dale Punki Tour desde el Espacio Illera",
+      "content_text": "Mañana emitiremos en directo el episodio de Dale Punki Tour desde el Espacio Illera",
+      "date_published": "2025-08-19T00:00:00.000Z"
+    },
+    {
+      "id": "https://radioargayo.github.io/general/nos-mudamos-a-dos-redes-sociales-alternativas",
+      "url": "https://radioargayo.github.io/general/nos-mudamos-a-dos-redes-sociales-alternativas/",
+      "title": "¡Nos mudamos a dos redes sociales alternativas!",
+      "content_text": "¡Nos mudamos a dos redes sociales alternativas!",
+      "date_published": "2025-08-19T00:00:00.000Z"
+    }
+  ]
+}

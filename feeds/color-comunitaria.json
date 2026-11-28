@@ -1,0 +1,82 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Color Comunitaria — latest posts",
+  "home_page_url": "https://colorcomunitaria.org/",
+  "feed_url": "https://mrhumildad.github.io/riotsradios-epg/feeds/color-comunitaria.json",
+  "_station_id": 125,
+  "_station_name": "Color Comunitaria",
+  "_source": "https://colorcomunitaria.org/feed/",
+  "_generated_at": "2026-11-12T14:19:54.724Z",
+  "items": [
+    {
+      "id": "https://colorcomunitaria.org/?p=19852",
+      "url": "https://colorcomunitaria.org/hablemos-sobre-las-zonas-infantiles-de-palma-palmilla/",
+      "title": "Hablemos sobre las zonas infantiles de Palma Palmilla",
+      "content_text": "Hablemos sobre las zonas infantiles de Palma Palmilla",
+      "date_published": "2026-10-27T13:19:08.000Z"
+    },
+    {
+      "id": "https://colorcomunitaria.org/?p=19690",
+      "url": "https://colorcomunitaria.org/la-ficcion-caparros-premio-de-periodismo-social-alberto-almansa/",
+      "title": "La ficción sonora Caparrós, Premio de Periodismo Social Alberto Almansa",
+      "content_text": "La ficción sonora Caparrós, Premio de Periodismo Social Alberto Almansa",
+      "date_published": "2026-10-17T07:50:06.000Z"
+    },
+    {
+      "id": "https://colorcomunitaria.org/?p=19627",
+      "url": "https://colorcomunitaria.org/curso-intensivo-de-espanol-avanzado-en-noviembre-y-diciembre/",
+      "title": "Curso intensivo de español avanzado en noviembre y diciembre",
+      "content_text": "Curso intensivo de español avanzado en noviembre y diciembre",
+      "date_published": "2026-10-09T13:28:44.000Z"
+    },
+    {
+      "id": "https://colorcomunitaria.org/?p=19618",
+      "url": "https://colorcomunitaria.org/curso-intensivo-de-espanol-basico-en-noviembre-y-diciembre/",
+      "title": "Curso intensivo de español básico en noviembre y diciembre",
+      "content_text": "Curso intensivo de español básico en noviembre y diciembre",
+      "date_published": "2026-10-09T13:20:34.000Z"
+    },
+    {
+      "id": "https://colorcomunitaria.org/?p=18440",
+      "url": "https://colorcomunitaria.org/pide-plaza-en-el-taller-de-batucada-de-palma-palmilla/",
+      "title": "Pide plaza en el taller de batucada de Palma Palmilla",
+      "content_text": "Pide plaza en el taller de batucada de Palma Palmilla",
+      "date_published": "2026-07-08T08:59:40.000Z"
+    },
+    {
+      "id": "https://colorcomunitaria.org/?p=18143",
+      "url": "https://colorcomunitaria.org/importar-pobreza-o-exportar-humanismo/",
+      "title": "IMPORTAR POBREZA O EXPORTAR HUMANISMO",
+      "content_text": "IMPORTAR POBREZA O EXPORTAR HUMANISMO",
+      "date_published": "2026-06-12T11:50:19.000Z"
+    },
+    {
+      "id": "https://colorcomunitaria.org/?p=19746",
+      "url": "https://colorcomunitaria.org/la-comunidad-elige-torrijos-y-la-fuga-de-la-carcel-de-1946-como-audiodramas/",
+      "title": "La comunidad elige Torrijos y la fuga de la cárcel de 1946 como audiodramas",
+      "content_text": "La comunidad elige Torrijos y la fuga de la cárcel de 1946 como audiodramas",
+      "date_published": "2026-06-07T10:45:03.000Z"
+    },
+    {
+      "id": "https://colorcomunitaria.org/?p=17708",
+      "url": "https://colorcomunitaria.org/color-comunitaria-abre-una-votacion-ciudadana-para-elegir-su-proxima-ficcion-sonora-historica/",
+      "title": "Color Comunitaria abre una votación ciudadana para elegir sus próximas ficciones sonoras históricas",
+      "content_text": "Color Comunitaria abre una votación ciudadana para elegir sus próximas ficciones sonoras históricas",
+      "date_published": "2026-05-31T08:52:14.000Z"
+    },
+    {
+      "id": "https://colorcomunitaria.org/?p=17406",
+      "url": "https://colorcomunitaria.org/no-podemos-habituarnos/",
+      "title": "NO PODEMOS HABITUARNOS",
+      "content_text": "NO PODEMOS HABITUARNOS",
+      "date_published": "2026-04-08T11:41:36.000Z"
+    },
+    {
+      "id": "https://colorcomunitaria.org/?p=17329",
+      "url": "https://colorcomunitaria.org/tambien-cuestion-de-conciencia/",
+      "title": "TAMBIÉN CUESTIÓN DE CONCIENCIA",
+      "content_text": "TAMBIÉN CUESTIÓN DE CONCIENCIA",
+      "date_published": "2026-03-31T16:00:06.000Z"
+    }
+  ]
+}

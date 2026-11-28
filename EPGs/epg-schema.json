@@ -1,0 +1,135 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://riotsradios.vercel.app/epg-schema.json",
+  "title": "RIOTSRADIOS EPG v2 Schema",
+  "description": "Schema for radio station Electronic Program Guide data. Uses wall-clock start/end times (no blocks).",
+  "type": "object",
+  "required": ["version", "station", "station_id", "timezone", "days"],
+  "additionalProperties": true,
+  "properties": {
+    "version": {
+      "type": "string",
+      "const": "2.0",
+      "description": "Schema version identifier"
+    },
+    "station": {
+      "type": "string",
+      "description": "Station name (human readable)"
+    },
+    "station_id": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Unique station identifier matching stations.js"
+    },
+    "schedule_type": {
+      "type": "string",
+      "default": "weekly",
+      "enum": ["weekly"],
+      "description": "Currently only weekly schedules are supported"
+    },
+    "timezone": {
+      "type": "string",
+      "description": "IANA timezone string (e.g., Europe/Madrid, America/New_York)"
+    },
+    "last_updated": {
+      "type": "string",
+      "format": "date",
+      "description": "ISO date when this schedule was last updated"
+    },
+    "source": {
+      "type": "string",
+      "format": "uri",
+      "description": "URL where this schedule can be verified or updated"
+    },
+    "contact": {
+      "type": "string",
+      "description": "Contact email for schedule corrections"
+    },
+    "notes": {
+      "type": "string",
+      "description": "General notes about schedule exceptions, recurrence, etc."
+    },
+    "metadata": {
+      "type": "object",
+      "description": "Optional metadata like category labels and default filler",
+      "properties": {
+        "categories": {
+          "type": "object",
+          "additionalProperties": { "type": "string" },
+          "description": "Map of category key to display label"
+        },
+        "default_filler": {
+          "type": "object",
+          "required": ["title", "category"],
+          "properties": {
+            "title": { "type": "string" },
+            "category": { "type": "string" }
+          }
+        }
+      }
+    },
+    "shows": {
+      "type": "object",
+      "description": "Catalog of unique programs referenced by show_id",
+      "additionalProperties": {
+        "type": "object",
+        "required": ["title", "category"],
+        "properties": {
+          "title": { "type": "string" },
+          "category": { "type": "string" },
+          "url": { "type": "string", "format": "uri" },
+          "description": { "type": "string" },
+          "hosts": { "type": "string" },
+          "recurrence_note": { "type": "string" }
+        }
+      }
+    },
+    "days": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["day", "programs"],
+        "properties": {
+          "day": {
+            "type": "string",
+            "enum": ["sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday"]
+          },
+          "label": { "type": "string" },
+          "notes": { "type": "string" },
+          "programs": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["start", "end"],
+              "properties": {
+                "start": {
+                  "type": "string",
+                  "pattern": "^([01][0-9]|2[0-3]):[0-5][0-9]$",
+                  "description": "Start time in 24h HH:MM format"
+                },
+"end": {
+                   "type": "string",
+                   "pattern": "^([01][0-9]|2[0-3]):[0-5][0-9]$",
+                   "description": "End time in 24h HH:MM format"
+                 },
+                "show_id": {
+                  "type": "string",
+                  "description": "Reference to a show in the top-level shows catalog"
+                },
+                "title": { "type": "string" },
+                "category": { "type": "string" },
+"live": { "type": "boolean" },
+                 "url": { "type": "string", "format": "uri" },
+                 "description": { "type": "string" },
+                 "hosts": { "type": "string" },
+                 "recurrence_note": { "type": "string" },
+                 "crosses_midnight": { "type": "boolean" }
+               }
+            }
+          }
+        }
+      }
+    }
+  }
+}

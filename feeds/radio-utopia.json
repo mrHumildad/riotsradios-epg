@@ -1,0 +1,82 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Radio Utopía — latest posts",
+  "home_page_url": "https://radioutopia.org.es/",
+  "feed_url": "https://mrhumildad.github.io/riotsradios-epg/feeds/radio-utopia.json",
+  "_station_id": 20,
+  "_station_name": "Radio Utopía",
+  "_source": "https://www.radioutopia.org.es/feed/",
+  "_generated_at": "2026-11-12T14:19:49.204Z",
+  "items": [
+    {
+      "id": "https://www.radioutopia.org.es/?p=148410",
+      "url": "https://www.radioutopia.org.es/helena-bianco-la-voz-que-convirtio-la-musica-en-un-puente-entre-generaciones/",
+      "title": "Helena Bianco, la voz que convirtió la música en un puente entre generaciones.",
+      "content_text": "Helena Bianco, la voz que convirtió la música en un puente entre generaciones.",
+      "date_published": "2026-11-12T14:01:40.000Z"
+    },
+    {
+      "id": "https://www.radioutopia.org.es/?p=148404",
+      "url": "https://www.radioutopia.org.es/pongamos-que-hablo-de-repite-la-entrevista-a-maria-garzon-este-domingo/",
+      "title": "Pongamos que hablo de repite la entrevista a María Garzón este domingo.",
+      "content_text": "Pongamos que hablo de repite la entrevista a María Garzón este domingo.",
+      "date_published": "2026-11-12T13:06:25.000Z"
+    },
+    {
+      "id": "https://www.radioutopia.org.es/?p=148401",
+      "url": "https://www.radioutopia.org.es/este-domingo-otra-movida-entrevista-a-toc-de-queda/",
+      "title": "Este domingo, Otra Movida entrevista a Toc De Queda.",
+      "content_text": "Este domingo, Otra Movida entrevista a Toc De Queda.",
+      "date_published": "2026-11-12T12:38:04.000Z"
+    },
+    {
+      "id": "https://www.radioutopia.org.es/?p=148394",
+      "url": "https://www.radioutopia.org.es/nuevo-programa-de-profesor-chiflado-12/",
+      "title": "Nuevo programa de Profesor Chiflado",
+      "content_text": "Nuevo programa de Profesor Chiflado",
+      "date_published": "2026-11-12T09:49:39.000Z"
+    },
+    {
+      "id": "https://www.radioutopia.org.es/?p=148389",
+      "url": "https://www.radioutopia.org.es/futbol-este-domingo-en-pioneros/",
+      "title": "Fútbol, este domingo, en Pioneros.",
+      "content_text": "Fútbol, este domingo, en Pioneros.",
+      "date_published": "2026-11-10T17:23:20.000Z"
+    },
+    {
+      "id": "https://www.radioutopia.org.es/?p=148385",
+      "url": "https://www.radioutopia.org.es/uno-de-los-grandes-clasicos-este-viernes-en-las-peliculas-de-la-jose/",
+      "title": "Uno de los grandes clásicos, este viernes, en Las Películas de La Jose.",
+      "content_text": "Uno de los grandes clásicos, este viernes, en Las Películas de La Jose.",
+      "date_published": "2026-11-10T12:46:01.000Z"
+    },
+    {
+      "id": "https://www.radioutopia.org.es/?p=148383",
+      "url": "https://www.radioutopia.org.es/este-viernes-flamenco-de-fusion-en-la-butaca-sonora/",
+      "title": "Este viernes, flamenco de fusión, en La Butaca Sonora.",
+      "content_text": "Este viernes, flamenco de fusión, en La Butaca Sonora.",
+      "date_published": "2026-11-10T10:58:51.000Z"
+    },
+    {
+      "id": "https://www.radioutopia.org.es/?p=148381",
+      "url": "https://www.radioutopia.org.es/ya-disponible-el-ultimo-podcast-de-es-lo-que-hay-sanse/",
+      "title": "Ya disponible el último podcast de Es lo que hay Sanse.",
+      "content_text": "Ya disponible el último podcast de Es lo que hay Sanse.",
+      "date_published": "2026-11-10T10:54:21.000Z"
+    },
+    {
+      "id": "https://www.radioutopia.org.es/?p=148371",
+      "url": "https://www.radioutopia.org.es/hoy-primer-programa-de-wentipas-contra-el-odio/",
+      "title": "Hoy, primer programa de Wentipas contra el odio.",
+      "content_text": "Hoy, primer programa de Wentipas contra el odio.",
+      "date_published": "2026-11-10T08:57:50.000Z"
+    },
+    {
+      "id": "https://www.radioutopia.org.es/?p=148342",
+      "url": "https://www.radioutopia.org.es/nuevo-evento-en-radio-utopia-3/",
+      "title": "Nuevo evento en Radio Utopía",
+      "content_text": "Nuevo evento en Radio Utopía",
+      "date_published": "2026-11-09T19:56:29.000Z"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Eco Leganés — latest posts",
+  "home_page_url": "https://ecoleganes.org/",
+  "feed_url": "https://mrhumildad.github.io/riotsradios-epg/feeds/eco-leganes.json",
+  "_station_id": 130,
+  "_station_name": "Eco Leganés",
+  "_source": "https://ecoleganes.org/feed/",
+  "_generated_at": "2026-11-12T14:19:55.190Z",
+  "items": [
+    {
+      "id": "https://ecoleganes.org/?p=37777",
+      "url": "https://ecoleganes.org/2026/11/05/onda-amas-%e2%9e%95-5-de-noviembre-de-2026/",
+      "title": "Onda AMÁS ➕ 5 de noviembre de 2026",
+      "content_text": "Onda AMÁS ➕ 5 de noviembre de 2026",
+      "date_published": "2026-11-05T19:34:01.000Z"
+    },
+    {
+      "id": "https://ecoleganes.org/?p=37787",
+      "url": "https://ecoleganes.org/2026/11/05/la-bicicleta-98/",
+      "title": "La Bicicleta 🚲 Huelga Indefinida en la Educación Pública y la lucha de las familias de CEIP Miguel Delibes",
+      "content_text": "La Bicicleta 🚲 Huelga Indefinida en la Educación Pública y la lucha de las familias de CEIP Miguel Delibes",
+      "date_published": "2026-11-05T18:00:20.000Z"
+    },
+    {
+      "id": "https://ecoleganes.org/?p=37785",
+      "url": "https://ecoleganes.org/2026/11/05/la-hora-4nov26/",
+      "title": "La hora de la verdad 🕖 4 de noviembre de 2026",
+      "content_text": "La hora de la verdad 🕖 4 de noviembre de 2026",
+      "date_published": "2026-11-05T17:00:52.000Z"
+    },
+    {
+      "id": "https://ecoleganes.org/?p=37768",
+      "url": "https://ecoleganes.org/2026/11/03/gdc-cambio-terrestre/",
+      "title": "Glosario del colapso: el cambio del sistema terrestre",
+      "content_text": "Glosario del colapso: el cambio del sistema terrestre",
+      "date_published": "2026-11-03T22:16:02.000Z"
+    },
+    {
+      "id": "https://ecoleganes.org/?p=37763",
+      "url": "https://ecoleganes.org/2026/11/03/el-incidente-de-halloween/",
+      "title": "El incidente de Halloween. Los monstruos en nuestras aulas",
+      "content_text": "El incidente de Halloween. Los monstruos en nuestras aulas",
+      "date_published": "2026-11-03T01:07:09.000Z"
+    },
+    {
+      "id": "https://ecoleganes.org/?p=37757",
+      "url": "https://ecoleganes.org/2026/11/02/podas-salvajes-necrociudades/",
+      "title": "Podas salvajes – Necrociudades",
+      "content_text": "Podas salvajes – Necrociudades",
+      "date_published": "2026-11-02T12:53:14.000Z"
+    },
+    {
+      "id": "https://ecoleganes.org/?p=37754",
+      "url": "https://ecoleganes.org/2026/10/29/onda-amas-%e2%9e%95-29-de-octubre-de-2026/",
+      "title": "Onda AMÁS ➕ 29 de octubre de 2026",
+      "content_text": "Onda AMÁS ➕ 29 de octubre de 2026",
+      "date_published": "2026-10-29T20:18:18.000Z"
+    },
+    {
+      "id": "https://ecoleganes.org/?p=37752",
+      "url": "https://ecoleganes.org/2026/10/28/la-hora-28oct26/",
+      "title": "La hora de la verdad 🕖 28 de octubre de 2026",
+      "content_text": "La hora de la verdad 🕖 28 de octubre de 2026",
+      "date_published": "2026-10-28T22:00:27.000Z"
+    },
+    {
+      "id": "https://ecoleganes.org/?p=37745",
+      "url": "https://ecoleganes.org/2026/10/27/los-milagros-de-san-nicasio/",
+      "title": "Los milagros de San Nicasio en 2026. Unas fiestas para recordar.",
+      "content_text": "Los milagros de San Nicasio en 2026. Unas fiestas para recordar.",
+      "date_published": "2026-10-26T23:03:48.000Z"
+    },
+    {
+      "id": "https://ecoleganes.org/?p=37732",
+      "url": "https://ecoleganes.org/2026/10/23/miquel-amoros-antidesarrollismo-versus-decrecimiento/",
+      "title": "Miquel Amorós – Antidesarrollismo versus Decrecimiento",
+      "content_text": "Miquel Amorós – Antidesarrollismo versus Decrecimiento",
+      "date_published": "2026-10-23T15:29:03.000Z"
+    }
+  ]
+}
